@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZRoomItemSkin" width="280" height="420" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16bc80dcea5" ></w:Config>
+	<e:Rect left="0" right="0" top="0" bottom="0" strokeAlpha="0" fillAlpha="0"/>
+	<e:Image id="gameLevelImg" x="54" y="332" source="ddzn_chuji"/>
+	<e:Image x="8" y="283" source="ddzn_item_bg"/>
+	<e:Image id="freeImg" x="28" y="293" source="ddzn_icon_mianfei"/>
+	<e:Image id="stateImg" x="188" y="295" source="ddzn_icon_kongxian"/>
+	<e:Group id="infoGroup" width="149" height="28" x="28" y="294" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image x="-6" y="0" source="ddzn_difen"/>
+		<e:BitmapLabel id="infoLabel" width="108" height="20" x="58" y="4" font="ddzRoomFnt1_fnt" text="0.05y" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

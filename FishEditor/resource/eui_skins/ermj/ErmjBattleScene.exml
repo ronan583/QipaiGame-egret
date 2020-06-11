@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjBattleSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ermj="game.ermj.*" xmlns:tween="egret.tween.*" >
+	<w:Config id="167ae32ac07" ></w:Config>
+	<e:Image  source="ermj_battle_json.battle_bg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group width="1334" height="750" verticalCenter="0" horizontalCenter="0">
+		<e:Label id="roomBet" text="- 底分200 -" horizontalCenter="0" textColor="0x0c5a68" size="24" fontFamily="Microsoft YaHei" verticalCenter="105" scaleY="0.85"/>
+		<ermj:ErmjOtherCardGroup id="otherCardGroup" width="576" horizontalCenter="2" top="123" height="110" x="379" y="125" scaleX="1" scaleY="1"/>
+		<ermj:ErmjGameInfo id="ermjGameInfo" horizontalCenter="0" verticalCenter="17" x="355" y="241"/>
+		<ermj:HitCardGroup id="hitCardGroup1" y="467.28" horizontalCenter="0" x="330" scaleX="1" scaleY="1"/>
+		<ermj:HitCardGroup id="hitCardGroup2" y="190" currentState="other" scaleX="0.85" scaleY="0.85" horizontalCenter="0" x="381"/>
+		<ermj:ErmjMyCardGroup id="myCardGroup" y="613" x="0"/>
+		<ermj:ErmjHeadIcon id="headIcon1" x="25.76" y="493.16" currentState="other" scaleX="1" scaleY="1"/>
+		<ermj:ErmjHeadIcon id="headIcon2" y="48.71" currentState="other" horizontalCenter="0.5" x="554" scaleX="1" scaleY="1"/>
+		<e:Image id="playTips" y="314" source="ermj_battle_json.select_tip" horizontalCenter="0" x="436"/>
+		<e:Group id="opraterGroup" y="425" height="160" touchEnabled="false" touchChildren="true" touchThrough="true" right="0">
+			<ns1:IButton label="">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ermj_battle_json.ermj_chi_btn" source.down="ermj_battle_json.ermj_chi_btn" source.disabled="ermj_battle_json.ermj_chi_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton label="">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ermj_battle_json.ermj_peng_btn" source.down="ermj_battle_json.ermj_peng_btn" source.disabled="ermj_battle_json.ermj_peng_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton label="">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ermj_battle_json.ermj_gang_btn" source.down="ermj_battle_json.ermj_gang_btn" source.disabled="ermj_battle_json.ermj_gang_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton label="">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ermj_battle_json.chi_bg" source.down="ermj_battle_json.chi_bg" source.disabled="ermj_battle_json.chi_bg"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<e:layout>
+				<e:TileLayout horizontalAlign="right" paddingRight="0" verticalGap="0" verticalAlign="middle" horizontalGap="-50" requestedRowCount="2" requestedColumnCount="4"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="selfAnimGroup" width="5" height="5" y="490" horizontalCenter="2.5" x="667" scaleX="1" scaleY="1"/>
+		<e:Group id="otherAnimGroup" width="5" height="5" y="214" horizontalCenter="2.5" x="667" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="trusteeshipCancelBtn" label="" y="515.83" horizontalCenter="0" x="547" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_battle_json.cancel_auto_btn" source.down="ermj_battle_json.cancel_auto_btn" source.disabled="ermj_battle_json.cancel_auto_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ermj:ErmjSelectGroupPanel id="selectGroupPanel" width="555" height="170" y="416" horizontalCenter="0.5" x="390" scaleX="1" scaleY="1"/>
+		<e:Image id="otherTingIcon" source="ermj_battle_json.ting_tips" x="452" y="63.21"/>
+		<e:Image id="selfTingIcon" source="ermj_battle_json.ting_tips" x="111.76" y="435.11"/>
+		<e:Image id="startReady" source="ermj_battle_json.ermj_ready" y="521" horizontalCenter="0" x="586" scaleX="1" scaleY="1"/>
+		<ermj:ErmjMenu id="ermjMenu" y="0" scaleX="1" scaleY="1" horizontalCenter="-519.5" x="0"/>
+		<ermj:TingInfoPanel id="selfTingInfo" y="372.95" horizontalCenter="0"/>
+
+
+
+	</e:Group>
+</e:Skin>

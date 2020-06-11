@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmSelfHeadSkin" currentState="banker" width="439" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"    states="self,banker"  width.self="270">
+	<e:Image source="bcbm_game_json.bcbm_player_headbg" y="0" includeIn="self"/>
+	<e:Image source="bcbm_game_json.bcbm_player_headnan" includeIn="self" x="15" top="6"/>
+	<e:Image x="7.24" y="35.87" includeIn="banker" source="bcbm_player_headbgbanker"/>
+	<e:Image source="bcbm_game_json.bcbm_player_headnan" includeIn="banker" x="14" top="37"/>
+	<e:Image id="headImg" width="46.67" height="44" x="12.33" anchorOffsetX="0" anchorOffsetY="0" source="head_json.gp_head_1" top.self="5"  top.banker="35" y="5" x.banker="11.33"/>
+	<e:Label id="nameLabel" text="user1234" anchorOffsetX="0" width="192.67" size="25" fontFamily="Microsoft YaHei" left.self="99" top.self="21"  left.banker="65" top.banker="48" y="22" x="60"/>
+	<e:BitmapLabel id="goldNum" width="156.33" height="28.67" anchorOffsetX="0" anchorOffsetY="0" text="123,345.123亿万" font="vbcbm_s_fnt" textAlign="right" left.banker="243" top.banker="51" top.self="66" left.self="49" textAlign.self="left" textAlign.banker="left"/>
+	<e:Image id="bankerIcon" source="bcbm_game_json.bcbm_bankericon" x="363.69" y="24" includeIn="banker"/>
+	<ns1:IButton id="goldPushBtn" label="" x="177" y="42.87" includeIn="self">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_btn_plus" source.down="bcbm_game_json.bcbm_btn_plus" source.disabled="bcbm_game_json.bcbm_btn_plus"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<e:Image y.self="54" left.self="3" left.banker="200" top.banker="41" source="bcbm_icon_money" scaleX="0.85" scaleY="0.85"/>
+	<e:BitmapLabel id="vipLabel" width="57" height="26" includeIn="self" x="60" y="25" anchorOffsetX="0" anchorOffsetY="0" font="gamevip_fnt" text="V1"/>
+</e:Skin>

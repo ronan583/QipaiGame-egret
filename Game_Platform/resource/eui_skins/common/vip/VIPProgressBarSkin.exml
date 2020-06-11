@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VIPProgressBarSkinSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="thumb" height="100%" width="100%" source="vip_charge_vip_progress"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle"
+			 size="22" fontFamily="SimHei"
+			 horizontalCenter="0" verticalCenter="0" bold="true" text="1" textColor="0xffffff"/>
+
+	<w:Config id="1664664676f" ></w:Config>
+</e:Skin>

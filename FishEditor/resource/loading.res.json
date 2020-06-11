@@ -1,0 +1,159 @@
+{
+	"groups": [
+		{
+			"keys": "progress_bg_png,progress_bar_png,loadingBg_jpg,loading_waiting_png,loading_waiting_shaizi_png,loadingAnim_tex_png,loadingAnim_ske_json,loadingAnim_tex_json,loadingpreview_jpg,loading_server_png,tipsTitle_png,tipsFrame_png,retrybtn_png,commonfnt_fnt,commonfnt_png,gpn_loading_bg_jpg,gpn_bar_png,gpn_bar_bg_png,gpn_loading_bg2_jpg,dengluJM_ske_dbbin,dengluJM_tex_png,dengluJM_tex_json,gpn_loading_bg_png,loading_label_bg_png,noticetip_bg_png,noticetip_btn_png,noticetip_exit_btn_png,textfield_bg_png,gameCfg_json",
+			"name": "loadingUI"
+		},
+		{
+			"keys": "",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/Loading/progress_bar.png",
+			"type": "image",
+			"name": "progress_bar_png"
+		},
+		{
+			"url": "assets/Loading/progress_bg.png",
+			"type": "image",
+			"name": "progress_bg_png"
+		},
+		{
+			"url": "assets/Loading/loadingBg.jpg",
+			"type": "image",
+			"name": "loadingBg_jpg"
+		},
+		{
+			"url": "assets/Loading/loading_waiting.png",
+			"type": "image",
+			"name": "loading_waiting_png"
+		},
+		{
+			"url": "assets/Loading/loading_waiting_shaizi.png",
+			"type": "image",
+			"name": "loading_waiting_shaizi_png"
+		},
+		{
+			"url": "assets/Loading/anim/loadingAnim_tex.png",
+			"type": "image",
+			"name": "loadingAnim_tex_png"
+		},
+		{
+			"url": "assets/Loading/anim/loadingAnim_ske.json",
+			"type": "json",
+			"name": "loadingAnim_ske_json"
+		},
+		{
+			"url": "assets/Loading/anim/loadingAnim_tex.json",
+			"type": "json",
+			"name": "loadingAnim_tex_json"
+		},
+		{
+			"url": "assets/Loading/loadingpreview.jpg",
+			"type": "image",
+			"name": "loadingpreview_jpg"
+		},
+		{
+			"url": "assets/Loading/loading_server.png",
+			"type": "image",
+			"name": "loading_server_png"
+		},
+		{
+			"url": "assets/Loading/tipsFrame.png",
+			"type": "image",
+			"name": "tipsFrame_png"
+		},
+		{
+			"url": "assets/Loading/tipsTitle.png",
+			"type": "image",
+			"name": "tipsTitle_png"
+		},
+		{
+			"url": "assets/Loading/retrybtn.png",
+			"type": "image",
+			"name": "retrybtn_png"
+		},
+		{
+			"url": "assets/Loading/font/commonfnt.fnt",
+			"type": "font",
+			"name": "commonfnt_fnt"
+		},
+		{
+			"url": "assets/Loading/font/commonfnt.png",
+			"type": "image",
+			"name": "commonfnt_png"
+		},
+		{
+			"url": "assets/Loading/gpn_bar.png",
+			"type": "image",
+			"name": "gpn_bar_png"
+		},
+		{
+			"url": "assets/Loading/gpn_bar_bg.png",
+			"type": "image",
+			"name": "gpn_bar_bg_png"
+		},
+		{
+			"url": "assets/Loading/gpn_loading_bg.jpg",
+			"type": "image",
+			"name": "gpn_loading_bg_jpg"
+		},
+		{
+			"url": "assets/Loading/gpn_loading_bg2.jpg",
+			"type": "image",
+			"name": "gpn_loading_bg2_jpg"
+		},
+		{
+			"url": "assets/Loading/anim/dengluJM_ske.dbbin",
+			"type": "bin",
+			"name": "dengluJM_ske_dbbin"
+		},
+		{
+			"url": "assets/Loading/anim/dengluJM_tex.png",
+			"type": "image",
+			"name": "dengluJM_tex_png"
+		},
+		{
+			"url": "assets/Loading/anim/dengluJM_tex.json",
+			"type": "json",
+			"name": "dengluJM_tex_json"
+		},
+		{
+			"url": "assets/Loading/gpn_loading_bg.png",
+			"type": "image",
+			"name": "gpn_loading_bg_png"
+		},
+		{
+			"url": "assets/Loading/loading_label_bg.png",
+			"type": "image",
+			"name": "loading_label_bg_png"
+		},
+		{
+			"url": "assets/common/noticetip_bg.png",
+			"type": "image",
+			"name": "noticetip_bg_png"
+		},
+		{
+			"url": "assets/common/noticetip_btn.png",
+			"type": "image",
+			"name": "noticetip_btn_png"
+		},
+		{
+			"url": "assets/common/noticetip_exit_btn.png",
+			"type": "image",
+			"name": "noticetip_exit_btn_png"
+		},
+		{
+			"url": "assets/common/textfield_bg.png",
+			"type": "image",
+			"name": "textfield_bg_png"
+		},
+		{
+			"url": "data/gameCfg.json",
+			"type": "json",
+			"name": "gameCfg_json"
+		}
+	]
+}

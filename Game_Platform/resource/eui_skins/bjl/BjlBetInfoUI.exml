@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlBetInfoUISkin" width="155" height="67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   states="xian,zhuang,he" >
+	<w:Config id="1692aad04db" ></w:Config>
+
+	<e:BitmapLabel id="betLabel" width="144" height="25" x="7" y="6.63" anchorOffsetX="0" anchorOffsetY="0" text="0" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" font="bjl_bet_my_fnt"/>
+	<e:Group id="selfBetGroup" x="0" y="28">
+		<e:BitmapLabel id="selfBetLabel" width="146" height="25" x="6.94" y="2.94" anchorOffsetX="0" anchorOffsetY="0" text="0" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1" font="bjl_bet_number_fnt"/>
+
+	</e:Group>
+	<e:Image id="no1BetFlag" x="137.17" y="3.38" source="" width="30" height="28" scaleX="0.8" scaleY="0.8" visible="false"/>
+</e:Skin>

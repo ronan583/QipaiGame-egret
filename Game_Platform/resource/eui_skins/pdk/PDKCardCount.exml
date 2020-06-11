@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDKCardCountSkin" width="72" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16708f5988b" ></w:Config>
+	<e:Image x="0" y="5" source="pdk_card_back_s"/>
+	<e:BitmapLabel id="leftCountLabel" width="49" height="60" x="9" y="18" text="15" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="pdkfnt2_fnt"/>
+</e:Skin>

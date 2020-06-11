@@ -1,0 +1,7 @@
+{"file":"bossnotice.png","frames":{
+"boss_28":{"x":1,"y":1,"w":402,"h":306,"offX":5,"offY":3,"sourceW":407,"sourceH":309},
+"boss_29":{"x":405,"y":1,"w":238,"h":252,"offX":0,"offY":0,"sourceW":238,"sourceH":252},
+"boss_30":{"x":645,"y":1,"w":185,"h":210,"offX":0,"offY":0,"sourceW":185,"sourceH":210},
+"boss_31":{"x":1,"y":309,"w":403,"h":172,"offX":0,"offY":0,"sourceW":403,"sourceH":172},
+"boss_33":{"x":406,"y":255,"w":233,"h":233,"offX":0,"offY":0,"sourceW":233,"sourceH":233},
+"boss_come":{"x":641,"y":255,"w":353,"h":138,"offX":0,"offY":0,"sourceW":353,"sourceH":138}}}

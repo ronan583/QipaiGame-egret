@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166eacc0d63" ></w:Config>
+	<e:Image id="itemBG" x="0" verticalCenter="0" source="brnnGame_json.rank_cell_d"/>
+	<e:Image id="headIcon" x="207.04" verticalCenter="-4.5" source="gp_head_1" scaleX="1" scaleY="1"/>
+	<e:Image id="headFrameIcon" x="204.76" verticalCenter="-4" source="gp_headframe_0_2" scaleX="1" scaleY="1"/>
+	<e:Image id="topIcon" x="14.75" verticalCenter="-3" source="brnnGame_json.rich_1"/>
+	<e:BitmapLabel id="betNumLabel" width="177.18" height="25.83" x="829.07" y="26.74" anchorOffsetX="0" anchorOffsetY="0" text="11.20 元" scaleX="0.8" scaleY="0.8" textAlign="right" font="playListFont_fnt"/>
+	<e:Label id="userAccountLabel" text="15454565855" x="429.17" y="16.59" size="25" textColor="0xFFF3DB"/>
+	<e:Label id="moneyLabel" text="232.0" x="368.11" y="59.66" textColor="0xFFF3DB" size="25" anchorOffsetX="0" width="186" textAlign="center"/>
+	<e:Image id="vipLevelIcon" x="318.27" y="3.93" anchorOffsetX="0" anchorOffsetY="0" source="vip0" scaleX="1" scaleY="1"/>
+	<e:Image x="763.44" y="21" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="brnnGame_json.betIcon"/>
+	<e:Image x="764.44" y="62" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="brnnGame_json.winIcon"/>
+	<e:BitmapLabel id="winNumLabel" width="108.51" height="25.83" x="882.44" y="64.92" anchorOffsetX="0" anchorOffsetY="0" text="13 局" scaleX="0.8" scaleY="0.8" textAlign="right" font="playListFont_fnt"/>
+	<e:BitmapLabel id="winNumLabel0" width="120.51" height="25.83" x="616.49" y="42.92" anchorOffsetX="0" anchorOffsetY="0" text="近20局" scaleX="1" scaleY="1" textAlign="center" font="playListFont_fnt"/>
+	<e:BitmapLabel id="rankNumLabel" width="78" height="45" x="45.21" y="27.52" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="rank_fnt1_fnt"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

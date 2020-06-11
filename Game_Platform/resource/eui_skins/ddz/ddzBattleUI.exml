@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ddzBattleUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ddz="game.ddz.*">
+	<e:Image touchEnabled="false" source="ddz_bg_jpg" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Group id="contentGroup" width="1334" height="750" y="0" horizontalCenter="0">
+		<e:Label id="dizhuLabel" text="底分：10000" size="28" width="178" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" height="30" horizontalCenter="0" verticalCenter="-110" textColor="0xdbd7b3"/>
+		<e:Label id="gameRoomLabel" text="体验场" size="28" width="178" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" height="30" horizontalCenter="0" verticalCenter="-80" textColor="0xdbd7b3"/>
+		<ns1:IButton id="helpBtn" label="" name="helpBtn" top="4" left="103" x="103" y="4">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_help_btn" source.down="ddz_battle_json.ddz_help_btn" source.disabled="ddz_battle_json.ddz_help_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Group id="playerGroup3" left="0" verticalCenter="-174" width="200" height="120" touchChildren="false" touchEnabled="false" touchThrough="false">
+			<ddz:DDZCartoon id="role3" skinName="DDZCartoonSkin" scaleX="1" scaleY="1" x="122.79" y="-133.37"/>
+			<e:Label id="playerName3" size="21" verticalAlign="middle" text="Guest43642" textAlign="bottn" fontFamily="Microsoft YaHei" left="13" top="49" textColor="0xf1e0c9"/>
+			<e:Image source="ddz_battle_json.ddz_frame" width="200" top="73" left="0"/>
+			<e:Image source="ddz_battle_json.ddz_coin" left="0" top="71"/>
+			<e:BitmapLabel id="gold3" text="1005.82w" left="57" top="81" font="ddz_gold_num_fnt"/>
+			<e:Image id="lordMaozi3" x="43" source="ddz_battle_json.ddz_lords_icon" y="20" anchorOffsetX="29" anchorOffsetY="22"/>
+
+			<e:BitmapLabel id="playerVipLabel3" width="44" height="21" text="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="171.82" y="51.54" font="gamevip2_fnt"/>
+		</e:Group>
+		<e:Group id="playerGroup2" right="0" verticalCenter="-174" width="200" height="120" touchChildren="false" touchEnabled="false" touchThrough="false">
+			<ddz:DDZCartoon id="role2" skinName="DDZCartoonSkin" scaleX="-1" scaleY="1" y="-121.04" x="132.86"/>
+			<e:Label id="playerName2" size="21" verticalAlign="middle" text="Guest43642" textAlign="bottn" fontFamily="Microsoft YaHei" top="49" right="0" textColor="0xf1e0c9"/>
+			<e:Image source="ddz_battle_json.ddz_frame" width="200" top="73" left="0"/>
+			<e:Image source="ddz_battle_json.ddz_coin" left="0" top="71"/>
+			<e:BitmapLabel id="gold2" text="1005.82w" font="ddz_gold_num_fnt" left="57" top="81"/>
+			<e:Image id="lordMaozi2" source="ddz_battle_json.ddz_lords_icon" y="18" x="166" anchorOffsetX="29" anchorOffsetY="22"/>
+
+			<e:BitmapLabel id="playerVipLabel2" width="44" height="21" text="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="10.37" y="51.51" font="gamevip2_fnt"/>
+		</e:Group>
+		<e:Group id="playerGroup1" left="0" bottom="0" width="382" height="50"  touchChildren="false" touchEnabled="false" touchThrough="false">
+			<e:Image source="ddz_battle_json.ddz_frame" left="11" width="190" bottom="3"/>
+			<e:Label id="playerName1" size="21" verticalAlign="middle" text="Guest43642" textAlign="bottn" fontFamily="Microsoft YaHei" left="27" bottom="15" textColor="0xf1e0c9"/>
+			<e:Image source="ddz_battle_json.ddz_frame" left="202" width="180" bottom="3"/>
+			<e:Image source="ddz_battle_json.ddz_coin" left="197" bottom="0"/>
+			<e:BitmapLabel id="gold1" text="1005.82w" font="ddz_gold_num_fnt" left="253" bottom="13"/>
+
+			<e:BitmapLabel id="playerVipLabel1" width="44" height="21" x="26.83" y="-19.93" text="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" font="gamevip2_fnt"/>
+			<ddz:DDZCartoon id="role1" skinName="DDZCartoonSkin" scaleX="1" scaleY="1" y="-354.55" x="7.6"/>
+
+		</e:Group>
+
+		<ns1:PokerCardOperation id="testOperation" y="504" horizontalCenter="0" skinName="PokerCardOperationSelfSkin"/>
+
+
+
+		<ns1:DDZBottomCard id="bottomCard" horizontalCenter="0.5" top="-10" visible="false"/>
+		<ns1:DDZTableCards id="tableCard1" x="649.82" y="427.01" anchorOffsetX="170" anchorOffsetY="58"/>
+		<ns1:DDZTableCards id="tableCard2" x="737" y="232"/>
+		<ns1:DDZTableCards id="tableCard3" x="257" y="231"/>
+		<ns1:DragonAnim id="lordAnim" width="20" height="20" x="658" y="178.56" aligntype="middle" anim="dizhuqz" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+		<ns1:PokerCardOperation id="cardOperation" y="504" horizontalCenter="0" skinName="PokerCardOperationSelfSkin"/>
+		<ns1:CardRecord id="cardRecord" skinName="DDZCardRecordSkin" horizontalCenter="9" top="48"/>
+		<e:Group id="wait" width="630" height="56" horizontalCenter="-5" verticalCenter="24" touchChildren="false" touchEnabled="false" touchThrough="false" anchorOffsetX="0">
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+			<ns1:DragonAnim id="waitAnim" aligntype="middle" anim="ddz_wait" isTouchByGroup="true" isloop="true" touchChildren="false" touchEnabled="false" width="630" height="56" y="0" x="0"/>
+			<ns1:DragonAnim id="waitNexrRoundAnim" aligntype="middle" anim="ddz_wait_otherplayer" isTouchByGroup="true" isloop="true" touchChildren="false" touchEnabled="false" width="630" height="56" y="0" x="0"/>
+		</e:Group>
+		<ns1:DDZOperTip id="tips3" width="130" height="64" horizontalCenter="-270" verticalCenter="-88"/>
+		<ns1:DDZOperTip id="tips2" width="130" height="64" horizontalCenter="270" verticalCenter="-88"/>
+		<ns1:DDZOperTip id="tips1" width="130" height="64" verticalCenter="41" horizontalCenter="0"/>
+		<ns1:DDZClock id="clock3" horizontalCenter="-298" verticalCenter="-162"/>
+		<ns1:DDZClock id="clock2" horizontalCenter="302" verticalCenter="-162"/>
+		<ns1:DDZCardCount id="leftCard3" horizontalCenter="-437" verticalCenter="-68" width="48" height="63"/>
+		<ns1:DDZCardCount id="leftCard2" verticalCenter="-68" horizontalCenter="437" width="48" height="63"/>
+		<e:Group id="trusteeshipGroup" width="1624" height="343" y="406.06" horizontalCenter="0">
+			<e:Image source="ddz_game_mask_png" width="1624"/>
+			<ns1:IButton id="trusteeshipCancelBtn" label="" bottom="64" horizontalCenter="0" x="683.0000000000001" y="65.55000000000001" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_cancel_trusteeship_btn" source.down="ddz_battle_json.ddz_cancel_trusteeship_btn" source.disabled="ddz_battle_json.ddz_cancel_trusteeship_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<e:Image x="1237.39" y="246.18" source="ddz_auto_play_png"/>
+		</e:Group>
+		<e:Group id="farmerJiabeiGroup" width="1624" height="343" y="406.06" horizontalCenter="0" visible="false">
+			<e:Image source="ddz_game_mask_png" width="1624"/>
+			<e:Image id="farmerJiabeiImg" x="696.92" y="168.15" source="wait_farmer_jiabei_png" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+		<ns1:DDZPlayerIcon id="playerIcon3" currentState="left" touchEnabled="false" left="11" verticalCenter="-160" visible="false"/>
+		<ns1:DDZPlayerIcon id="playerIcon2" currentState="right" touchEnabled="false" right="0" verticalCenter="-160" visible="false"/>
+		<ns1:DDZPlayerIcon id="playerIcon1" currentState="left" touchEnabled="false" left="11" verticalCenter="41" visible="false"/>
+		<e:Image id="noBiggerImg" y="644" source="ddz_battle_json.ddz_no_bigger" horizontalCenter="0.5"/>
+		<ns1:IButton id="trusteeshipBtn" label="" right="0" verticalCenter="54.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_cancel_trusteeship" source.down="ddz_battle_json.ddz_cancel_trusteeship" source.disabled="ddz_battle_json.ddz_cancel_trusteeship"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:DDZJiaofen id="jiaofen" horizontalCenter="60" verticalCenter="55" visible="false"/>
+		<ns1:DDZJiabei id="jiabei" horizontalCenter="0" verticalCenter="54.5" visible="false"/>
+		<ns1:DDZPlayCard id="playCardBtnGroup" horizontalCenter="0.5" verticalCenter="54.5" visible="false"/>
+		<e:Image id="lordMaozi1" source="ddz_battle_json.ddz_lords_icon" x="172" y="467.12" anchorOffsetX="29" anchorOffsetY="22"/>
+
+		<ns1:IButton id="showMenuBtn" label="" left="20" top="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_menu_dow" source.down="ddz_battle_json.ddz_menu_dow" source.disabled="ddz_battle_json.ddz_menu_dow"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="hideMenuBtn" label="" left="20" top="4" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_menu_up" source.down="ddz_battle_json.ddz_menu_up" source.disabled="ddz_battle_json.ddz_menu_up"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</ns1:IButton>
+		<e:Group id="menuGroup" y="93.57" left="20" visible="false">
+			<e:Image y="0" source="ddz_battle_json.ddz_menu_bg" x="0"/>
+			<ns1:IButton id="backBtn" label="" horizontalCenter="-7.5" verticalCenter="118">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_back_btn" source.down="ddz_battle_json.ddz_back_btn" source.disabled="ddz_battle_json.ddz_back_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="ruleBtn" label="" horizontalCenter="-8" verticalCenter="-57.5">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_rule_btn" source.down="ddz_battle_json.ddz_rule_btn" source.disabled="ddz_battle_json.ddz_rule_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="setBtn" label="" horizontalCenter="-7.5" verticalCenter="33">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_set_btn" source.down="ddz_battle_json.ddz_set_btn" source.disabled="ddz_battle_json.ddz_set_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bankBtn" label="" horizontalCenter="-7.5" verticalCenter="-150">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_bank_btn" source.down="ddz_battle_json.ddz_bank_btn" source.disabled="ddz_battle_json.ddz_bank_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</ns1:IButton>
+		</e:Group>
+
+		<e:Image id="fapaiBegin" y="54.57" source="ddz_card_back_png" x="577" visible="false"/>
+		<ns1:DDZGameMulti id="ddzGameMulti" x="916" y="480"/>
+
+
+
+
+		<e:Button id="testBtn" label="Button" x="1111" y="47" visible="false"/>
+
+		<e:Group id="cardPlayAnimPos3" width="36.36" height="31.82" x="405" y="285" anchorOffsetX="0" anchorOffsetY="0" touchThrough="false" touchEnabled="false" touchChildren="false"/>
+		<e:Group id="cardPlayAnimPos2" width="36.36" height="31.82" x="949.96" y="285" anchorOffsetX="0" anchorOffsetY="0" touchThrough="false" touchEnabled="false" touchChildren="false"/>
+		<e:Group id="cardPlayAnimPos1" width="36.36" height="31.82" x="709.96" y="417.77" anchorOffsetX="0" anchorOffsetY="0" touchThrough="false" touchEnabled="false" touchChildren="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

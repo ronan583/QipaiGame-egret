@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnHeadIconSkin" width="99" height="167.33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<w:Config id="166a20d941d" ></w:Config>
+	<e:Image x="0" y="24.67" source="brnn_head_bg"/>
+	<e:Image x="14" y="31.67" source="brnn_head_male" width="73" height="73"/>
+	<e:Group id="specialFrame" width="91" height="174" x="5.68" anchorOffsetX="0" anchorOffsetY="0" y="-0.31" touchEnabled="false" touchChildren="false" touchThrough="false">
+		<e:Image id="fuhaoFrameImg" source="brnn_fuhao_frame_png" y="23" x="0"/>
+		<e:Image id="dushenFrameImg" y="23" x="0" source="brnn_dushen_frame_png"/>
+		<ns1:DragonAnim id="dushenAnim" width="70" height="18.33" x="9" y="5" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_dushen" touchChildren="false" touchEnabled="false" playOnStage="true" isloop="true" isTouchByGroup="true"/>
+		<ns1:DragonAnim id="fuhaoAnim" width="70" height="18.33" x="9" y="5" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_dfh" touchChildren="false" touchEnabled="false" playOnStage="true" isloop="true" isTouchByGroup="true"/>
+		<e:Image width="73.33" height="73.33" x="8" y="32" anchorOffsetX="0" anchorOffsetY="0" source="brnn_special_frame_png"/>
+		<e:Image x="-17.98" y="144.33" source="brnn_gold_bg" anchorOffsetX="0" width="127" scale9Grid="27,13,12,3"/>
+		<e:Image x="-21" y="141.7" source="gpn_icon_gold" width="30" height="30"/>
+		<e:Label id="gold" text="10,000" x="8.83" y="145.33" size="15" width="89.5" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" anchorOffsetX="0" anchorOffsetY="0" height="21" textColor="0xfff3db"/>
+	</e:Group>
+
+	<e:Image id="headIconImg" y="34.17" x="15" scaleX="1" scaleY="1" source="gp_head_1" width="70" height="70"/>
+	<e:Image id="headFrameImg" y="7.19" x="16" scaleX="1" scaleY="1" source="brnn_head_female" visible="false"/>
+
+	<e:Group x="0" y="135.68">
+
+	</e:Group>
+
+
+	<e:Label id="playerName" text="name11111111" x="9" y="108.19" size="23" width="74.67" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="23" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0xa79a81"/>
+
+
+
+	<e:Image id="bankerImg" x="-58.5" y="64.01" source="brnn_banker" visible="false"/>
+	<e:Group id="posFlagGroup" width="5" height="6" x="50.5" y="79" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="shensuanziPos" width="7" height="8" x="45" y="-17" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:DragonAnim id="headChangeAnim" width="91" height="123.33" x="4" y="19" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_head_change" touchChildren="false" touchEnabled="false" playOnStage="false" isloop="false" isTouchByGroup="true"/>
+	<e:BitmapLabel width="44" height="21" x="-1" y="78" text="V" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:BitmapLabel id="gameVipLabel" width="44" height="21" x="18" y="79" text="0" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="winTip" width="152" height="202" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="winTipLabel" height="30" text="+7y" textAlign="center" verticalAlign="middle" font="betNum_fnt" horizontalCenter="-0.5" anchorOffsetX="0" y="86"/>
+	</e:Group>
+	<e:Group id="loseTip" width="152" height="202" x="0" y="0.33" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="loseTipLabel" height="30" text="-7y" textAlign="center" verticalAlign="middle" horizontalCenter="0" anchorOffsetX="0" font="blue_fnt" y="86"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InnerUpdateInfoSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="bgimg" horizontalCenter="0" source="gpn_loading_bg2_jpg"/>
+	<ns1:DragonAnim id="loadingAnim" width="1334" height="750" aligntype="middle" anim="dengluJM" left="0"/>
+	<e:Image source="loading_label_bg_png" left="0" right="0"/>
+	<e:Group width="782" height="46" y="656" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image id="progressbar" source="gpn_bar_png"/>
+		<e:Image id="progressbg" source="gpn_bar_bg_png"/>
+		<e:Rect id="maskRect" width="393" height="40" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="tipsLabel" text="大牌要你命，小牌能救命" y="-44" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="25" textColor="0xecbe68" verticalAlign="middle" textAlign="center" width="1000" x="-109"/>
+		<e:Image y="30" source="gpn_loading_bg_png" x="-101"/>
+		<e:Label id="progressLabel" text="0%" y="7.34" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="22" verticalAlign="middle" textAlign="center" width="100" x="772.33" textColor="0xa36f33"/>
+		<e:Label id="updateInfoLabel" text="游戏正在启动中，请稍等片刻" y="56" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="25" verticalAlign="middle" textAlign="center" width="1334" textColor="0x837f7c" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

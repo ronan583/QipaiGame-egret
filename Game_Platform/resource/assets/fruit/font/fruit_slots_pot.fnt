@@ -1,0 +1,11 @@
+{"file":"fruit_slots_pot.png","frames":{
+"2":{"x":1,"y":1,"w":21,"h":29,"offX":0,"offY":0,"sourceW":21,"sourceH":29},
+"3":{"x":47,"y":32,"w":21,"h":29,"offX":0,"offY":0,"sourceW":21,"sourceH":29},
+"4":{"x":93,"y":1,"w":21,"h":28,"offX":0,"offY":1,"sourceW":21,"sourceH":29},
+"5":{"x":70,"y":1,"w":21,"h":28,"offX":0,"offY":1,"sourceW":21,"sourceH":29},
+"6":{"x":24,"y":32,"w":21,"h":29,"offX":0,"offY":0,"sourceW":21,"sourceH":29},
+"7":{"x":70,"y":31,"w":21,"h":28,"offX":0,"offY":1,"sourceW":21,"sourceH":29},
+"8":{"x":47,"y":1,"w":21,"h":29,"offX":0,"offY":0,"sourceW":21,"sourceH":29},
+"9":{"x":24,"y":1,"w":21,"h":29,"offX":0,"offY":0,"sourceW":21,"sourceH":29},
+"0":{"x":1,"y":32,"w":21,"h":29,"offX":0,"offY":0,"sourceW":21,"sourceH":29},
+"1":{"x":93,"y":31,"w":14,"h":28,"offX":3,"offY":1,"sourceW":21,"sourceH":29}}}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjFanLabelSkin" width="210" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="30">
+	<w:Config id="16848405991" ></w:Config>
+	<e:Image id="fanName" verticalCenter="0.5" left="0" source="ermj_battle_json.win_type_118"/>
+	<e:BitmapLabel id="fanNum" text="99f" font="ermj_win_times_fnt" left="150" verticalCenter="0"/>
+</e:Skin>

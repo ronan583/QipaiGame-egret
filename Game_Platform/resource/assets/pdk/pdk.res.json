@@ -1,0 +1,979 @@
+{
+	"groups": [
+		{
+			"keys": "pdk_bg_jpg,pdkRoom_json,pdk_card_record_fnt,pdk_card_record_png,pdkfnt1_fnt,pdkfnt1_png,pdkfnt2_fnt,pdkfnt2_png,pdkRoom_bg_jpg,pdkRoom_preview_png,pdkroomfnt_png,pdkroomfnt_fnt,pdk_quickstart_tex_json,pdk_quickstart_tex_png,pdk_quickstart_ske_dbbin,pdk_girl_ske_dbbin,pdk_girl_tex_png,pdk_qidong_ske_dbbin,pdk_qidong_tex_png,pdk_girl_tex_json,pdk_qidong_tex_json,pdk_help_bg_png,pdk_help_close_png,pdk_help_content_png,pdk_help_title_png,pdk_battle_json,pdk_cards_record_png,pdk_cards_record_fnt,dengdaiwanj_tex_png,dengdaiwanj_ske_dbbin,dengdaiwanj_tex_json,best_number_png,best_number_fnt,pdk_count_down_png,pdk_count_down_fnt,pdk_result_fnt,pdk_result_png,ddzchutian_ske_dbbin,ddzchutian_tex_png,ddzfeiji_ske_dbbin,ddzfeiji_tex_png,ddzliandui_ske_dbbin,ddzliandui_tex_png,ddzlose_tex_png,ddzshunzi_ske_dbbin,ddzshunzi_tex_png,ddzwarning_ske_dbbin,ddzwarning_tex_png,ddzwin_tex_png,ddzzhadan_ske_dbbin,ddzzhadan_tex_png,ddzfeiji_tex_json,ddzchutian_tex_json,ddzlose_mc_json,ddzshunzi_tex_json,ddzliandui_tex_json,ddzwarning_tex_json,ddzwin_mc_json,ddzzhadan_tex_json,pdk_card_bg_png,pdk_record_bg0_png,pdk_first_flag_png,pdk_select_mask1_png,ddz_tongts_ske_dbbin,ddz_tongts_tex_png,ddzplane_ske_dbbin,ddzplane_tex_png,ddz_tongts_tex_json,ddzplane_tex_json,ddz_tables_json,pdk_auto_play_png,pdk_game_mask_png,pdk_card_mask_png,pdk_result_self_png,pdk_result_win_flag_png,pdk_win_ske_dbbin,pdk_win_tex_png,pdk_win_tex_json,pdk_zjcx_json",
+			"name": "pdk"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pdk/pdk_bg.jpg",
+			"type": "image",
+			"name": "pdk_bg_jpg"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_bg.mp3",
+			"type": "sound",
+			"name": "pdk_bg_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_lose.mp3",
+			"type": "sound",
+			"name": "pdk_lose_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_lose_guan1.mp3",
+			"type": "sound",
+			"name": "pdk_lose_guan1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_lose_guan2.mp3",
+			"type": "sound",
+			"name": "pdk_lose_guan2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_alert.mp3",
+			"type": "sound",
+			"name": "pdk_s_alert_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_bg.mp3",
+			"type": "sound",
+			"name": "pdk_s_bg_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_bomb.mp3",
+			"type": "sound",
+			"name": "pdk_s_bomb_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_countdown.mp3",
+			"type": "sound",
+			"name": "pdk_s_countdown_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_doublestraight.mp3",
+			"type": "sound",
+			"name": "pdk_s_doublestraight_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_first.mp3",
+			"type": "sound",
+			"name": "pdk_s_first_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_plane.mp3",
+			"type": "sound",
+			"name": "pdk_s_plane_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_planewings.mp3",
+			"type": "sound",
+			"name": "pdk_s_planewings_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_playcard.mp3",
+			"type": "sound",
+			"name": "pdk_s_playcard_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_rocket.mp3",
+			"type": "sound",
+			"name": "pdk_s_rocket_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_selectcard.mp3",
+			"type": "sound",
+			"name": "pdk_s_selectcard_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_sendcard.mp3",
+			"type": "sound",
+			"name": "pdk_s_sendcard_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_spring.mp3",
+			"type": "sound",
+			"name": "pdk_s_spring_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_s_straight.mp3",
+			"type": "sound",
+			"name": "pdk_s_straight_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_win.mp3",
+			"type": "sound",
+			"name": "pdk_win_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_win_guan1.mp3",
+			"type": "sound",
+			"name": "pdk_win_guan1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/pdk_win_guan2.mp3",
+			"type": "sound",
+			"name": "pdk_win_guan2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_3and1.mp3",
+			"type": "sound",
+			"name": "pdk_male_3and1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_3and2.mp3",
+			"type": "sound",
+			"name": "pdk_male_3and2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_4and1.mp3",
+			"type": "sound",
+			"name": "pdk_male_4and1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_4and2.mp3",
+			"type": "sound",
+			"name": "pdk_male_4and2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_bomb.mp3",
+			"type": "sound",
+			"name": "pdk_male_bomb_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_doubelstraight.mp3",
+			"type": "sound",
+			"name": "pdk_male_doubelstraight_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_left1_1.mp3",
+			"type": "sound",
+			"name": "pdk_male_left1_1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_left1_2.mp3",
+			"type": "sound",
+			"name": "pdk_male_left1_2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_left2_1.mp3",
+			"type": "sound",
+			"name": "pdk_male_left2_1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_left2_2.mp3",
+			"type": "sound",
+			"name": "pdk_male_left2_2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_no_double.mp3",
+			"type": "sound",
+			"name": "pdk_male_no_double_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair1.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair10.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair10_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair11.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair11_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair12.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair12_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair13.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair13_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair2.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair3.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair3_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair4.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair4_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair5.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair5_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair6.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair6_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair7.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair7_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair8.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair8_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pair9.mp3",
+			"type": "sound",
+			"name": "pdk_male_pair9_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pass_0.mp3",
+			"type": "sound",
+			"name": "pdk_male_pass_0_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_pass_1.mp3",
+			"type": "sound",
+			"name": "pdk_male_pass_1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_plane.mp3",
+			"type": "sound",
+			"name": "pdk_male_plane_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_planewings.mp3",
+			"type": "sound",
+			"name": "pdk_male_planewings_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single1.mp3",
+			"type": "sound",
+			"name": "pdk_male_single1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single10.mp3",
+			"type": "sound",
+			"name": "pdk_male_single10_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single11.mp3",
+			"type": "sound",
+			"name": "pdk_male_single11_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single12.mp3",
+			"type": "sound",
+			"name": "pdk_male_single12_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single13.mp3",
+			"type": "sound",
+			"name": "pdk_male_single13_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single2.mp3",
+			"type": "sound",
+			"name": "pdk_male_single2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single3.mp3",
+			"type": "sound",
+			"name": "pdk_male_single3_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single4.mp3",
+			"type": "sound",
+			"name": "pdk_male_single4_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single5.mp3",
+			"type": "sound",
+			"name": "pdk_male_single5_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single6.mp3",
+			"type": "sound",
+			"name": "pdk_male_single6_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single7.mp3",
+			"type": "sound",
+			"name": "pdk_male_single7_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single8.mp3",
+			"type": "sound",
+			"name": "pdk_male_single8_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_single9.mp3",
+			"type": "sound",
+			"name": "pdk_male_single9_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_straight.mp3",
+			"type": "sound",
+			"name": "pdk_male_straight_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_triple.mp3",
+			"type": "sound",
+			"name": "pdk_male_triple_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_3and1.mp3",
+			"type": "sound",
+			"name": "pdk_female_3and1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_3and2.mp3",
+			"type": "sound",
+			"name": "pdk_female_3and2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_4and1.mp3",
+			"type": "sound",
+			"name": "pdk_female_4and1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_4and2.mp3",
+			"type": "sound",
+			"name": "pdk_female_4and2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_4and3.mp3",
+			"type": "sound",
+			"name": "pdk_female_4and3_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_bomb.mp3",
+			"type": "sound",
+			"name": "pdk_female_bomb_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_doubelstraight.mp3",
+			"type": "sound",
+			"name": "pdk_female_doubelstraight_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_double.mp3",
+			"type": "sound",
+			"name": "pdk_female_double_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_left1_1.mp3",
+			"type": "sound",
+			"name": "pdk_female_left1_1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_left1_2.mp3",
+			"type": "sound",
+			"name": "pdk_female_left1_2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_left2_1.mp3",
+			"type": "sound",
+			"name": "pdk_female_left2_1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_left2_2.mp3",
+			"type": "sound",
+			"name": "pdk_female_left2_2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_no_double.mp3",
+			"type": "sound",
+			"name": "pdk_female_no_double_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair1.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair10.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair10_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair11.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair11_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair12.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair12_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair13.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair13_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair2.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair3.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair3_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair4.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair4_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair5.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair5_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair6.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair6_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair7.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair7_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair8.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair8_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pair9.mp3",
+			"type": "sound",
+			"name": "pdk_female_pair9_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pass_0.mp3",
+			"type": "sound",
+			"name": "pdk_female_pass_0_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_pass_1.mp3",
+			"type": "sound",
+			"name": "pdk_female_pass_1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_plane.mp3",
+			"type": "sound",
+			"name": "pdk_female_plane_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_planewings.mp3",
+			"type": "sound",
+			"name": "pdk_female_planewings_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single1.mp3",
+			"type": "sound",
+			"name": "pdk_female_single1_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single10.mp3",
+			"type": "sound",
+			"name": "pdk_female_single10_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single11.mp3",
+			"type": "sound",
+			"name": "pdk_female_single11_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single12.mp3",
+			"type": "sound",
+			"name": "pdk_female_single12_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single13.mp3",
+			"type": "sound",
+			"name": "pdk_female_single13_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single2.mp3",
+			"type": "sound",
+			"name": "pdk_female_single2_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single3.mp3",
+			"type": "sound",
+			"name": "pdk_female_single3_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single4.mp3",
+			"type": "sound",
+			"name": "pdk_female_single4_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single5.mp3",
+			"type": "sound",
+			"name": "pdk_female_single5_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single6.mp3",
+			"type": "sound",
+			"name": "pdk_female_single6_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single7.mp3",
+			"type": "sound",
+			"name": "pdk_female_single7_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single8.mp3",
+			"type": "sound",
+			"name": "pdk_female_single8_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_single9.mp3",
+			"type": "sound",
+			"name": "pdk_female_single9_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_straight.mp3",
+			"type": "sound",
+			"name": "pdk_female_straight_mp3"
+		},
+		{
+			"url": "assets/pdk/sound/female/pdk_female_triple.mp3",
+			"type": "sound",
+			"name": "pdk_female_triple_mp3"
+		},
+		{
+			"url": "assets/pdk/pdkRoom.json",
+			"type": "sheet",
+			"name": "pdkRoom_json",
+			"subkeys": "pdkn_add,pdkn_back,pdkn_baoman,pdkn_btnbg1,pdkn_chuji,pdkn_gaoji,pdkn_gold,pdkn_headframe,pdkn_help,pdkn_kongxian,pdkn_logo,pdkn_mianfei,pdkn_putong,pdkn_tiyan,pdkn_yongji,pdkn_zhongji,pdkn_zhunru"
+		},
+		{
+			"url": "assets/pdk/sound/male/pdk_male_4and3.mp3",
+			"type": "sound",
+			"name": "pdk_male_4and3_mp3"
+		},
+		{
+			"url": "assets/pdk/font/pdk_card_record.fnt",
+			"type": "font",
+			"name": "pdk_card_record_fnt"
+		},
+		{
+			"url": "assets/pdk/font/pdk_card_record.png",
+			"type": "image",
+			"name": "pdk_card_record_png"
+		},
+		{
+			"url": "assets/pdk/font/pdkfnt1.fnt",
+			"type": "font",
+			"name": "pdkfnt1_fnt"
+		},
+		{
+			"url": "assets/pdk/font/pdkfnt1.png",
+			"type": "image",
+			"name": "pdkfnt1_png"
+		},
+		{
+			"url": "assets/pdk/font/pdkfnt2.fnt",
+			"type": "font",
+			"name": "pdkfnt2_fnt"
+		},
+		{
+			"url": "assets/pdk/font/pdkfnt2.png",
+			"type": "image",
+			"name": "pdkfnt2_png"
+		},
+		{
+			"url": "assets/pdk/pdkRoom_bg.jpg",
+			"type": "image",
+			"name": "pdkRoom_bg_jpg"
+		},
+		{
+			"url": "assets/pdk/pdkRoom_preview.png",
+			"type": "image",
+			"name": "pdkRoom_preview_png"
+		},
+		{
+			"url": "assets/pdk/font/pdkroomfnt.fnt",
+			"type": "font",
+			"name": "pdkroomfnt_fnt"
+		},
+		{
+			"url": "assets/pdk/font/pdkroomfnt.png",
+			"type": "image",
+			"name": "pdkroomfnt_png"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_quickstart_ske.dbbin",
+			"type": "bin",
+			"name": "pdk_quickstart_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_quickstart_tex.png",
+			"type": "image",
+			"name": "pdk_quickstart_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_quickstart_tex.json",
+			"type": "json",
+			"name": "pdk_quickstart_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_girl_ske.dbbin",
+			"type": "bin",
+			"name": "pdk_girl_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_girl_tex.png",
+			"type": "image",
+			"name": "pdk_girl_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "pdk_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_qidong_tex.png",
+			"type": "image",
+			"name": "pdk_qidong_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_girl_tex.json",
+			"type": "json",
+			"name": "pdk_girl_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_qidong_tex.json",
+			"type": "json",
+			"name": "pdk_qidong_tex_json"
+		},
+		{
+			"url": "assets/pdk/help/pdk_help_bg.png",
+			"type": "image",
+			"name": "pdk_help_bg_png"
+		},
+		{
+			"url": "assets/pdk/help/pdk_help_close.png",
+			"type": "image",
+			"name": "pdk_help_close_png"
+		},
+		{
+			"url": "assets/pdk/help/pdk_help_content.png",
+			"type": "image",
+			"name": "pdk_help_content_png"
+		},
+		{
+			"url": "assets/pdk/help/pdk_help_title.png",
+			"type": "image",
+			"name": "pdk_help_title_png"
+		},
+		{
+			"url": "assets/pdk/pdk_battle.json",
+			"type": "sheet",
+			"name": "pdk_battle_json",
+			"subkeys": "pdk_3band1,pdk_3band2,pdk_4band1,pdk_4band2,pdk_4band3,pdk_all_lose,pdk_back_btn,pdk_bank_btn,pdk_bank_title,pdk_cancel_trusteeship_btn,pdk_card_back_s,pdk_clocks_bg,pdk_close,pdk_coin_small,pdk_continue_btn,pdk_count_btn,pdk_counts_bg,pdk_effect,pdk_head_frame,pdk_leave_btn,pdk_max,pdk_music,pdk_mute,pdk_other_trusteeship,pdk_pass_card_tips,pdk_play_btn,pdk_play_down,pdk_pull_btn,pdk_result_bg,pdk_result_lose,pdk_result_win,pdk_rule_btn,pdk_rule_title,pdk_set_bg,pdk_set_btn,pdk_set_down,pdk_set_frame,pdk_set_off,pdk_set_on,pdk_set_progress,pdk_set_progress_bg,pdk_set_title,pdk_set_up,pdk_spring_tips,pdk_tip_btn,pdk_tip_down,pdk_wait_tips,pdk_withdraw_btn,pdk_withdraw_frame"
+		},
+		{
+			"url": "assets/pdk/font/pdk_cards_record.png",
+			"type": "image",
+			"name": "pdk_cards_record_png"
+		},
+		{
+			"url": "assets/pdk/font/pdk_cards_record.fnt",
+			"type": "font",
+			"name": "pdk_cards_record_fnt"
+		},
+		{
+			"url": "assets/pdk/animation/battle/dengdaiwanj_tex.png",
+			"type": "image",
+			"name": "dengdaiwanj_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/dengdaiwanj_ske.dbbin",
+			"type": "bin",
+			"name": "dengdaiwanj_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/dengdaiwanj_tex.json",
+			"type": "json",
+			"name": "dengdaiwanj_tex_json"
+		},
+		{
+			"url": "assets/pdk/font/best_number.png",
+			"type": "image",
+			"name": "best_number_png"
+		},
+		{
+			"url": "assets/pdk/font/best_number.fnt",
+			"type": "font",
+			"name": "best_number_fnt"
+		},
+		{
+			"url": "assets/pdk/font/pdk_count_down.png",
+			"type": "image",
+			"name": "pdk_count_down_png"
+		},
+		{
+			"url": "assets/pdk/font/pdk_count_down.fnt",
+			"type": "font",
+			"name": "pdk_count_down_fnt"
+		},
+		{
+			"url": "assets/pdk/font/pdk_result.fnt",
+			"type": "font",
+			"name": "pdk_result_fnt"
+		},
+		{
+			"url": "assets/pdk/font/pdk_result.png",
+			"type": "image",
+			"name": "pdk_result_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzchutian_ske.dbbin",
+			"type": "bin",
+			"name": "ddzchutian_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzchutian_tex.png",
+			"type": "image",
+			"name": "ddzchutian_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzfeiji_ske.dbbin",
+			"type": "bin",
+			"name": "ddzfeiji_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzfeiji_tex.png",
+			"type": "image",
+			"name": "ddzfeiji_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzliandui_ske.dbbin",
+			"type": "bin",
+			"name": "ddzliandui_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzliandui_tex.png",
+			"type": "image",
+			"name": "ddzliandui_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzlose_tex.png",
+			"type": "image",
+			"name": "ddzlose_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzshunzi_ske.dbbin",
+			"type": "bin",
+			"name": "ddzshunzi_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzshunzi_tex.png",
+			"type": "image",
+			"name": "ddzshunzi_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzwarning_ske.dbbin",
+			"type": "bin",
+			"name": "ddzwarning_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzwarning_tex.png",
+			"type": "image",
+			"name": "ddzwarning_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzwin_tex.png",
+			"type": "image",
+			"name": "ddzwin_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzzhadan_ske.dbbin",
+			"type": "bin",
+			"name": "ddzzhadan_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzzhadan_tex.png",
+			"type": "image",
+			"name": "ddzzhadan_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzfeiji_tex.json",
+			"type": "json",
+			"name": "ddzfeiji_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzchutian_tex.json",
+			"type": "json",
+			"name": "ddzchutian_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzlose_mc.json",
+			"type": "json",
+			"name": "ddzlose_mc_json"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzshunzi_tex.json",
+			"type": "json",
+			"name": "ddzshunzi_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzliandui_tex.json",
+			"type": "json",
+			"name": "ddzliandui_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzwarning_tex.json",
+			"type": "json",
+			"name": "ddzwarning_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzwin_mc.json",
+			"type": "json",
+			"name": "ddzwin_mc_json"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzzhadan_tex.json",
+			"type": "json",
+			"name": "ddzzhadan_tex_json"
+		},
+		{
+			"url": "assets/pdk/img/pdk_card_bg.png",
+			"type": "image",
+			"name": "pdk_card_bg_png"
+		},
+		{
+			"url": "assets/pdk/img/pdk_record_bg0.png",
+			"type": "image",
+			"name": "pdk_record_bg0_png"
+		},
+		{
+			"url": "assets/pdk/img/pdk_first_flag.png",
+			"type": "image",
+			"name": "pdk_first_flag_png"
+		},
+		{
+			"url": "assets/pdk/img/pdk_select_mask1.png",
+			"type": "image",
+			"name": "pdk_select_mask1_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddz_tongts_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_tongts_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddz_tongts_tex.png",
+			"type": "image",
+			"name": "ddz_tongts_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzplane_ske.dbbin",
+			"type": "bin",
+			"name": "ddzplane_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzplane_tex.png",
+			"type": "image",
+			"name": "ddzplane_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddz_tongts_tex.json",
+			"type": "json",
+			"name": "ddz_tongts_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/battle/ddzplane_tex.json",
+			"type": "json",
+			"name": "ddzplane_tex_json"
+		},
+		{
+			"url": "assets/pdk/ddz_tables.json",
+			"type": "sheet",
+			"name": "ddz_tables_json",
+			"subkeys": "cs3_10,cs3_11,cs3_12,cs3_13,cs3_14,cs3_15,cs3_16,cs3_17,cs3_18,cs3_19,cs3_20,cs3_21,cs3_22,cs3_23,cs3_24,cs3_25,cs3_26,cs3_27,cs3_28,cs3_29,cs3_30,cs3_31,cs3_32,cs3_33,cs3_34,cs3_35,cs3_36,cs3_37,cs3_38,cs3_39,cs3_4,cs3_40,cs3_41,cs3_42,cs3_43,cs3_44,cs3_45,cs3_46,cs3_47,cs3_48,cs3_49,cs3_5,cs3_50,cs3_51,cs3_52,cs3_53,cs3_54,cs3_55,cs3_56,cs3_57,cs3_58,cs3_59,cs3_6,cs3_60,cs3_61,cs3_62,cs3_63,cs3_64,cs3_68,cs3_7,cs3_8,cs3_9"
+		},
+		{
+			"url": "assets/pdk/img/pdk_auto_play.png",
+			"type": "image",
+			"name": "pdk_auto_play_png"
+		},
+		{
+			"url": "assets/pdk/img/pdk_game_mask.png",
+			"type": "image",
+			"name": "pdk_game_mask_png"
+		},
+		{
+			"url": "assets/pdk/img/pdk_card_mask.png",
+			"type": "image",
+			"name": "pdk_card_mask_png"
+		},
+		{
+			"url": "assets/pdk/img/pdk_result_self.png",
+			"type": "image",
+			"name": "pdk_result_self_png"
+		},
+		{
+			"url": "assets/pdk/img/pdk_result_win_flag.png",
+			"type": "image",
+			"name": "pdk_result_win_flag_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/pdk_win_ske.dbbin",
+			"type": "bin",
+			"name": "pdk_win_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/battle/pdk_win_tex.png",
+			"type": "image",
+			"name": "pdk_win_tex_png"
+		},
+		{
+			"url": "assets/pdk/animation/battle/pdk_win_tex.json",
+			"type": "json",
+			"name": "pdk_win_tex_json"
+		},
+		{
+			"url": "assets/pdk/font/pdk_zjcx_win.png",
+			"type": "image",
+			"name": "pdk_zjcx_win_png"
+		},
+		{
+			"url": "assets/pdk/font/pdk_zjcx_lose.png",
+			"type": "image",
+			"name": "pdk_zjcx_lose_png"
+		},
+		{
+			"url": "assets/pdk/font/pdk_zjcx_lose.fnt",
+			"type": "font",
+			"name": "pdk_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/pdk/font/pdk_zjcx_win.fnt",
+			"type": "font",
+			"name": "pdk_zjcx_win_fnt"
+		},
+		{
+			"url": "assets/pdk/pdk_zjcx.json",
+			"type": "sheet",
+			"name": "pdk_zjcx_json",
+			"subkeys": "pdk_lose_all,pdk_room_zjcxbtn,pdk_zjcx_bg,pdk_zjcx_bglabel,pdk_zjcx_bgpanel,pdk_zjcx_btndetail,pdk_zjcx_cardnum,pdk_zjcx_cardnum1,pdk_zjcx_iconlose,pdk_zjcx_iconwin,pdk_zjcx_level0,pdk_zjcx_level1,pdk_zjcx_level2,pdk_zjcx_level3,pdk_zjcx_line,pdk_zjcx_title,pdk_zjcx_xxx"
+		}
+	]
+}

@@ -1,0 +1,935 @@
+{
+	"groups": [
+		{
+			"keys": "RoomLevelFont_fnt,hhdz_help_bg_png,hhdz_help_close_png,hhdz_help_content_png,hhdz_help_title_png,hhdzn_room_bg_png,hhdzRoom_json,playListFont_fnt,playListFont_png,hhdz_bets_json,hhdz_game_json,hhdz_history_json,hhdz-08_png,hhdz-08_fnt,hhdz-07_png,hhdz-07_fnt,hhdz_zongtouzhu_png,hhdz_zongtouzhu_fnt,hhdz_ying_png,hhdz_ying_fnt,hhdz_win_fail_png,hhdz_win_fail_fnt,hhdz_shu_png,hhdz_shu_fnt,hhdz_roomfnt_png,hhdz_roomfnt_fnt,hhdz_fuhao_ske_dbbin,hhdz_fuhao_tex_json,hhdz_fuhao_tex_png,hhdz_gaoji_ske_dbbin,hhdz_gaoji_tex_json,hhdz_gaoji_tex_png,hhdz_putong_ske_dbbin,hhdz_putong_tex_json,hhdz_putong_tex_png,hhdz_qidong_ske_dbbin,hhdz_qidong_tex_json,hhdz_qidong_tex_png,hhdz_common_json,hhdz_yh_bg_png,hhdz_yh_btn_qk_png,hhdz_yh_btnbig_png,hhdz_yh_huakuai_png,hhdz_yh_jdt_png,hhdz_bank_close_png,hhdz-battle_mp3,hhdz_hz_png,hhdz_hsz_png,hhdz_hongjushu_png,hhdz_heijushu_png,hhdz_hongjushu_fnt,hhdz_hsz_fnt,hhdz_hz_fnt,hhdz_js_png,hhdz_js_fnt,hhdz_heijushu_fnt,hhdz_head_bg_2_png,hhdz_head_bg_1_png,hhdz_change_zhuang_png,hhdz_zijitouzhu_png,hhdz_zijitouzhu_fnt,hhdz_banker_bg_png,hhdz_banker_split_png,hhdz_bg_n2_png,hhdz_dushen_particle_png,hhdz_dushen_particle_json,hhdz_black_particle_json,hhdz_black_particle_png,hhdz_red_particle_json,hhdz_red_particle_png,hhdz_online_png,hhdz_online_fnt,hhdz_banker_apply_png,hhdz_banker_apply_fnt,hhdz_dafuhao_flag_png,hhdz_shensuanzi_flag_png,hhdz_bird_mc_json,hhdz_bird_tex_png,hhdz_change_player_ske_dbbin,hhdz_change_player_tex_json,hhdz_change_player_tex_png,hhdz_player_win_ske_dbbin,hhdz_player_win_tex_json,hhdz_player_win_tex_png,hhdz_win_result_left_ske_dbbin,hhdz_win_result_left_tex_json,hhdz_win_result_left_tex_png,hhdz_xianzhi_anim_ske_dbbin,hhdz_xianzhi_anim_tex_json,hhdz_xianzhi_anim_tex_png,hongheidazhan_dafuwentubiaodonghua_ske_dbbin,hongheidazhan_dafuwentubiaodonghua_tex_json,hongheidazhan_dafuwentubiaodonghua_tex_png,hongheidazhan_daojishi_ske_dbbin,hongheidazhan_daojishi_tex_json,hongheidazhan_daojishi_tex_png,hongheidazhan_guowang_1_ske_dbbin,hongheidazhan_guowang_1_tex_json,hongheidazhan_guowang_1_tex_png,hongheidazhan_huanghou_ske_dbbin,hongheidazhan_huanghou_tex_json,hongheidazhan_huanghou_tex_png,hongheidazhan_huoshen_ske_dbbin,hongheidazhan_huoshen_tex_json,hongheidazhan_huoshen_tex_png,hongheidazhan_paixing_1_ske_dbbin,hongheidazhan_paixing_1_tex_json,hongheidazhan_paixing_1_tex_png,hongheidazhan_paixing_dui_ske_dbbin,hongheidazhan_paixing_dui_tex_json,hongheidazhan_paixing_dui_tex_png,hongheidazhan_paixing_ske_dbbin,hongheidazhan_paixing_tex_json,hongheidazhan_paixing_tex_png,hongheidazhan_pk_ske_dbbin,hongheidazhan_pk_tex_json,hongheidazhan_pk_tex_png,hongheidazhan_red_lizi_json,hongheidazhan_red_lizi_png,hongheidazhan_red_win_mc_json,hongheidazhan_red_win_tex_png,hongheidazhan_result_win_black_mc_json,hongheidazhan_result_win_black_tex_png,hongheidazhan_result_win_lucky_mc_json,hongheidazhan_result_win_lucky_tex_png,hongheidazhan_result_win_red_mc_json,hongheidazhan_result_win_red_tex_png,hongheidazhan_start_stake_ske_dbbin,hongheidazhan_start_stake_tex_json,hongheidazhan_start_stake_tex_png,hongheidazhan_stop_stake_ske_dbbin,hongheidazhan_stop_stake_tex_json,hongheidazhan_stop_stake_tex_png,hongheidazhan_wait_ske_dbbin,hongheidazhan_wait_tex_json,hongheidazhan_wait_tex_png,hongheidazhan_win_center_ske_dbbin,hongheidazhan_win_center_tex_json,hongheidazhan_win_center_tex_png,hongheidazhan_win_left_ske_dbbin,hongheidazhan_win_left_tex_json,hongheidazhan_win_left_tex_png,hongheidazhan_win_rigth_ske_dbbin,hongheidazhan_win_rigth_tex_json,hongheidazhan_win_rigth_tex_png,hongheidazhan_xianzhi_dayingjia_ske_dbbin,hongheidazhan_xianzhi_dayingjia_tex_json,hongheidazhan_xianzhi_dayingjia_tex_png,black_win_boom_ske_dbbin,black_win_boom_tex_png,red_win_boom_ske_dbbin,red_win_boom_tex_png,black_win_boom_tex_json,red_win_boom_tex_json,winparticle_boom_tex_png,winparticle_boom_tex_json,winparticle_boom_ske_dbbin,hhdz_zjcx_json,hhdz_zjcx_lose_png,hhdz_zjcx_win_fnt,hhdz_zjcx_win_png,hhdz_zjcx_lose_fnt,hhdz_room_zjcxbtn_png",
+			"name": "hhdz"
+		},
+		{
+			"keys": "hhdz-bet_mp3,hhdz-bg_mp3,hhdz-cardAni-baozi_mp3,hhdz-cardAni-jinhua_animation2_mp3,hhdz-cardAni-shunjin_mp3,hhdz-cardAni-shunzi_mp3,hhdz-cardtype-0_mp3,hhdz-cardtype-1_mp3,hhdz-cardtype-2_mp3,hhdz-cardtype-3_mp3,hhdz-cardtype-4_mp3,hhdz-cardtype-5_mp3,hhdz-down-time_mp3,hhdz-fapai_mp3,hhdz-get-gold_mp3,hhdz-result-lose_mp3,hhdz-result-win_mp3,hhdz-start_mp3,hhdz-stop_mp3",
+			"name": "hhdzSound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/hhdz/hhdz.res.json",
+			"type": "json",
+			"name": "hhdz.res_json"
+		},
+		{
+			"url": "assets/font/RoomLevelFont.fnt",
+			"type": "font",
+			"name": "RoomLevelFont_fnt"
+		},
+		{
+			"url": "assets/hhdz/playListFont.fnt",
+			"type": "font",
+			"name": "playListFont_fnt"
+		},
+		{
+			"url": "assets/hhdz/help/hhdz_help_bg.png",
+			"type": "image",
+			"name": "hhdz_help_bg_png"
+		},
+		{
+			"url": "assets/hhdz/help/hhdz_help_close.png",
+			"type": "image",
+			"name": "hhdz_help_close_png"
+		},
+		{
+			"url": "assets/hhdz/help/hhdz_help_content.png",
+			"type": "image",
+			"name": "hhdz_help_content_png"
+		},
+		{
+			"url": "assets/hhdz/help/hhdz_help_title.png",
+			"type": "image",
+			"name": "hhdz_help_title_png"
+		},
+		{
+			"url": "assets/hhdz/hhdzn_room_bg.png",
+			"type": "image",
+			"name": "hhdzn_room_bg_png"
+		},
+		{
+			"url": "assets/hhdz/playListFont.png",
+			"type": "image",
+			"name": "playListFont_png"
+		},
+		{
+			"url": "assets/hhdz/hhdzRoom.json",
+			"type": "sheet",
+			"name": "hhdzRoom_json",
+			"subkeys": "hhdzn_add,hhdzn_back,hhdzn_bottom,hhdzn_fuhao,hhdzn_gaoji,hhdzn_gold,hhdzn_gold_bg,hhdzn_help,hhdzn_help_yongji,hhdzn_huobao,hhdzn_info_bg,hhdzn_kongxian,hhdzn_logo,hhdzn_putong,hhdzn_quickstart,hhdzn_zhunru"
+		},
+		{
+			"url": "assets/hhdz/game/hhdz_bets.json",
+			"type": "sheet",
+			"name": "hhdz_bets_json",
+			"subkeys": "hhdz_bet_click,hhdz_bet_fei,hhdz_bet_max_1_1,hhdz_bet_max_1_2,hhdz_bet_max_1_3,hhdz_bet_max_1_4,hhdz_bet_max_1_5,hhdz_bet_max_1_6,hhdz_bet_max_2_1,hhdz_bet_max_2_2,hhdz_bet_max_2_3,hhdz_bet_max_2_4,hhdz_bet_max_2_5,hhdz_bet_max_2_6,hhdz_bet_max_3_1,hhdz_bet_max_3_2,hhdz_bet_max_3_3,hhdz_bet_max_3_4,hhdz_bet_max_3_5,hhdz_bet_max_3_6,hhdz_bet_min_1_1,hhdz_bet_min_1_10,hhdz_bet_min_1_100,hhdz_bet_min_1_5,hhdz_bet_min_1_50,hhdz_bet_min_1_500,hhdz_bet_min_2_10,hhdz_bet_min_2_100,hhdz_bet_min_2_1000,hhdz_bet_min_2_200,hhdz_bet_min_2_50,hhdz_bet_min_2_500,hhdz_bet_min_3_100,hhdz_bet_min_3_1000,hhdz_bet_min_3_200,hhdz_bet_min_3_2000,hhdz_bet_min_3_50,hhdz_bet_min_3_500"
+		},
+		{
+			"url": "assets/hhdz/game/hhdz_game.json",
+			"type": "sheet",
+			"name": "hhdz_game_json",
+			"subkeys": "hhdz_V0,hhdz_V1,hhdz_V10,hhdz_V2,hhdz_V3,hhdz_V4,hhdz_V5,hhdz_V6,hhdz_V7,hhdz_V8,hhdz_V9,hhdz_bank_bnt,hhdz_baoxianxiang,hhdz_desk000,hhdz_desk001,hhdz_desk002,hhdz_desk003,hhdz_desk004,hhdz_desk005,hhdz_desk006,hhdz_desk008,hhdz_desk009,hhdz_desk010,hhdz_desk011,hhdz_desk012,hhdz_desk013,hhdz_desk013_1,hhdz_desk014,hhdz_desk015,hhdz_desk016,hhdz_desk017,hhdz_desk018,hhdz_desk021,hhdz_desk022,hhdz_desk023,hhdz_desk024,hhdz_desk025,hhdz_desk026,hhdz_desk029,hhdz_desk030,hhdz_desk031,hhdz_desk032,hhdz_desk033,hhdz_desk034,hhdz_desk035,hhdz_desk036,hhdz_desk037,hhdz_desk039,hhdz_desk041,hhdz_desk042,hhdz_desk043,hhdz_desk044,hhdz_desk045,hhdz_desk046,hhdz_desk047,hhdz_desk054,hhdz_desk059,hhdz_desk060,hhdz_desk063,hhdz_desk065,hhdz_desk067,hhdz_desk069,hhdz_desk070,hhdz_desk071,hhdz_desk072,hhdz_exit_btn,hhdz_gui-icon-head-01,hhdz_gui-lhdz-head-gold-bg,hhdz_gui-other-player,hhdz_history_cardtype_0,hhdz_history_cardtype_1,hhdz_history_cardtype_2,hhdz_history_cardtype_3,hhdz_history_cardtype_4,hhdz_history_cardtype_5,hhdz_history_type_1,hhdz_history_type_2,hhdz_near,hhdz_rule_btn,hhdz_setting_btn,hhdz_shangzhuangliebiaobg,hhdz_status_kaijiangzhong,hhdz_status_xiuxizong,hhdz_tipspayer,hhdz_trip_bg,hhdz_winner,hhdz_wjlb_bg,hhdz_xiazhu,hhzd_status_touzhuzhong"
+		},
+		{
+			"url": "assets/hhdz/game/hhdz_history.json",
+			"type": "sheet",
+			"name": "hhdz_history_json",
+			"subkeys": "hhdz_bg_line,hhdz_hhzs_20jzs,hhdz_history_bg,hhdz_history_black_dian_1,hhdz_history_black_dian_2,hhdz_history_black_dian_3,hhdz_history_black_dian_4,hhdz_history_black_xian_1,hhdz_history_close,hhdz_history_nan,hhdz_history_nv,hhdz_history_red_dian_1,hhdz_history_red_dian_2,hhdz_history_red_dian_3,hhdz_history_red_dian_4,hhdz_history_red_xian_1,hhdz_history_win_black_bg,hhdz_history_win_red_bg,hhdz_history_zi_new"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz-07.fnt",
+			"type": "font",
+			"name": "hhdz-07_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz-07.png",
+			"type": "image",
+			"name": "hhdz-07_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz-08.fnt",
+			"type": "font",
+			"name": "hhdz-08_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz-08.png",
+			"type": "image",
+			"name": "hhdz-08_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_roomfnt.fnt",
+			"type": "font",
+			"name": "hhdz_roomfnt_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_roomfnt.png",
+			"type": "image",
+			"name": "hhdz_roomfnt_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_shu.fnt",
+			"type": "font",
+			"name": "hhdz_shu_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_shu.png",
+			"type": "image",
+			"name": "hhdz_shu_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_win_fail.fnt",
+			"type": "font",
+			"name": "hhdz_win_fail_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_win_fail.png",
+			"type": "image",
+			"name": "hhdz_win_fail_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_ying.fnt",
+			"type": "font",
+			"name": "hhdz_ying_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_ying.png",
+			"type": "image",
+			"name": "hhdz_ying_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_zongtouzhu.fnt",
+			"type": "font",
+			"name": "hhdz_zongtouzhu_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_zongtouzhu.png",
+			"type": "image",
+			"name": "hhdz_zongtouzhu_png"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_fuhao_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_fuhao_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_fuhao_tex.png",
+			"type": "image",
+			"name": "hhdz_fuhao_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_gaoji_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_gaoji_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_gaoji_tex.png",
+			"type": "image",
+			"name": "hhdz_gaoji_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_putong_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_putong_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_putong_tex.png",
+			"type": "image",
+			"name": "hhdz_putong_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_qidong_tex.png",
+			"type": "image",
+			"name": "hhdz_qidong_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_fuhao_tex.json",
+			"type": "json",
+			"name": "hhdz_fuhao_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_putong_tex.json",
+			"type": "json",
+			"name": "hhdz_putong_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_qidong_tex.json",
+			"type": "json",
+			"name": "hhdz_qidong_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_gaoji_tex.json",
+			"type": "json",
+			"name": "hhdz_gaoji_tex_json"
+		},
+		{
+			"url": "assets/hhdz/game/hhdz_common.json",
+			"type": "sheet",
+			"name": "hhdz_common_json",
+			"subkeys": "hhdz_bank_1,hhdz_bank_10,hhdz_bank_11,hhdz_bank_12,hhdz_bank_16,hhdz_bank_2,hhdz_bank_3,hhdz_bank_4,hhdz_bank_5,hhdz_bank_6,hhdz_bank_7,hhdz_bank_8,hhdz_bank_9,hhdz_bank_close,hhdz_bank_max,hhdz_bank_yuan,hhdz_gui-bank_19,hhdz_gui-bank_25,hhdz_sz_bg0,hhdz_sz_bg1,hhdz_sz_bg2,hhdz_sz_biaoti,hhdz_sz_close,hhdz_sz_jy,hhdz_sz_open,hhdz_sz_yx,hhdz_sz_yy"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-bet.mp3",
+			"type": "sound",
+			"name": "hhdz-bet_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-bg.mp3",
+			"type": "sound",
+			"name": "hhdz-bg_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardAni-baozi.mp3",
+			"type": "sound",
+			"name": "hhdz-cardAni-baozi_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardAni-jinhua_animation2.mp3",
+			"type": "sound",
+			"name": "hhdz-cardAni-jinhua_animation2_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardAni-shunjin.mp3",
+			"type": "sound",
+			"name": "hhdz-cardAni-shunjin_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardAni-shunzi.mp3",
+			"type": "sound",
+			"name": "hhdz-cardAni-shunzi_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardtype-0.mp3",
+			"type": "sound",
+			"name": "hhdz-cardtype-0_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardtype-1.mp3",
+			"type": "sound",
+			"name": "hhdz-cardtype-1_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardtype-2.mp3",
+			"type": "sound",
+			"name": "hhdz-cardtype-2_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardtype-3.mp3",
+			"type": "sound",
+			"name": "hhdz-cardtype-3_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardtype-4.mp3",
+			"type": "sound",
+			"name": "hhdz-cardtype-4_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-cardtype-5.mp3",
+			"type": "sound",
+			"name": "hhdz-cardtype-5_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-down-time.mp3",
+			"type": "sound",
+			"name": "hhdz-down-time_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-fapai.mp3",
+			"type": "sound",
+			"name": "hhdz-fapai_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-get-gold.mp3",
+			"type": "sound",
+			"name": "hhdz-get-gold_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-result-lose.mp3",
+			"type": "sound",
+			"name": "hhdz-result-lose_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-result-win.mp3",
+			"type": "sound",
+			"name": "hhdz-result-win_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-start.mp3",
+			"type": "sound",
+			"name": "hhdz-start_mp3"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-stop.mp3",
+			"type": "sound",
+			"name": "hhdz-stop_mp3"
+		},
+		{
+			"url": "assets/hhdz/bank/hhdz_yh_bg.png",
+			"type": "image",
+			"name": "hhdz_yh_bg_png"
+		},
+		{
+			"url": "assets/hhdz/bank/hhdz_yh_btn_qk.png",
+			"type": "image",
+			"name": "hhdz_yh_btn_qk_png"
+		},
+		{
+			"url": "assets/hhdz/bank/hhdz_yh_btnbig.png",
+			"type": "image",
+			"name": "hhdz_yh_btnbig_png"
+		},
+		{
+			"url": "assets/hhdz/bank/hhdz_yh_huakuai.png",
+			"type": "image",
+			"name": "hhdz_yh_huakuai_png"
+		},
+		{
+			"url": "assets/hhdz/bank/hhdz_yh_jdt.png",
+			"type": "image",
+			"name": "hhdz_yh_jdt_png"
+		},
+		{
+			"url": "assets/hhdz/bank/hhdz_bank_close.png",
+			"type": "image",
+			"name": "hhdz_bank_close_png"
+		},
+		{
+			"url": "assets/hhdz/sound_mp3/hhdz-battle.mp3",
+			"type": "sound",
+			"name": "hhdz-battle_mp3"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_heijushu.png",
+			"type": "image",
+			"name": "hhdz_heijushu_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_hongjushu.fnt",
+			"type": "font",
+			"name": "hhdz_hongjushu_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_hongjushu.png",
+			"type": "image",
+			"name": "hhdz_hongjushu_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_hsz.fnt",
+			"type": "font",
+			"name": "hhdz_hsz_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_hsz.png",
+			"type": "image",
+			"name": "hhdz_hsz_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_hz.fnt",
+			"type": "font",
+			"name": "hhdz_hz_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_hz.png",
+			"type": "image",
+			"name": "hhdz_hz_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_js.fnt",
+			"type": "font",
+			"name": "hhdz_js_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_js.png",
+			"type": "image",
+			"name": "hhdz_js_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_heijushu.fnt",
+			"type": "font",
+			"name": "hhdz_heijushu_fnt"
+		},
+		{
+			"url": "assets/hhdz/hhdz_head_bg_1.png",
+			"type": "image",
+			"name": "hhdz_head_bg_1_png"
+		},
+		{
+			"url": "assets/hhdz/hhdz_head_bg_2.png",
+			"type": "image",
+			"name": "hhdz_head_bg_2_png"
+		},
+		{
+			"url": "assets/hhdz/game/hhdz_change_zhuang.png",
+			"type": "image",
+			"name": "hhdz_change_zhuang_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_zijitouzhu.fnt",
+			"type": "font",
+			"name": "hhdz_zijitouzhu_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_zijitouzhu.png",
+			"type": "image",
+			"name": "hhdz_zijitouzhu_png"
+		},
+		{
+			"url": "assets/hhdz/img/hhdz_banker_bg.png",
+			"type": "image",
+			"name": "hhdz_banker_bg_png"
+		},
+		{
+			"url": "assets/hhdz/img/hhdz_banker_split.png",
+			"type": "image",
+			"name": "hhdz_banker_split_png"
+		},
+		{
+			"url": "assets/hhdz/img/hhdz_bg_n2.png",
+			"type": "image",
+			"name": "hhdz_bg_n2_png"
+		},
+		{
+			"url": "assets/hhdz/particle/hhdz_dushen_particle.png",
+			"type": "image",
+			"name": "hhdz_dushen_particle_png"
+		},
+		{
+			"url": "assets/hhdz/particle/hhdz_dushen_particle.json",
+			"type": "json",
+			"name": "hhdz_dushen_particle_json"
+		},
+		{
+			"url": "assets/hhdz/particle/hhdz_black_particle.png",
+			"type": "image",
+			"name": "hhdz_black_particle_png"
+		},
+		{
+			"url": "assets/hhdz/particle/hhdz_red_particle.png",
+			"type": "image",
+			"name": "hhdz_red_particle_png"
+		},
+		{
+			"url": "assets/hhdz/particle/hhdz_black_particle.json",
+			"type": "json",
+			"name": "hhdz_black_particle_json"
+		},
+		{
+			"url": "assets/hhdz/particle/hhdz_red_particle.json",
+			"type": "json",
+			"name": "hhdz_red_particle_json"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_online.fnt",
+			"type": "font",
+			"name": "hhdz_online_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_online.png",
+			"type": "image",
+			"name": "hhdz_online_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_banker_apply.fnt",
+			"type": "font",
+			"name": "hhdz_banker_apply_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_banker_apply.png",
+			"type": "image",
+			"name": "hhdz_banker_apply_png"
+		},
+		{
+			"url": "assets/hhdz/img/hhdz_dafuhao_flag.png",
+			"type": "image",
+			"name": "hhdz_dafuhao_flag_png"
+		},
+		{
+			"url": "assets/hhdz/img/hhdz_shensuanzi_flag.png",
+			"type": "image",
+			"name": "hhdz_shensuanzi_flag_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_bird_tex.png",
+			"type": "image",
+			"name": "hhdz_bird_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_change_player_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_change_player_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_change_player_tex.png",
+			"type": "image",
+			"name": "hhdz_change_player_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_player_win_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_player_win_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_player_win_tex.png",
+			"type": "image",
+			"name": "hhdz_player_win_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_win_result_left_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_win_result_left_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_win_result_left_tex.png",
+			"type": "image",
+			"name": "hhdz_win_result_left_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_xianzhi_anim_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_xianzhi_anim_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_xianzhi_anim_tex.png",
+			"type": "image",
+			"name": "hhdz_xianzhi_anim_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_dafuwentubiaodonghua_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_dafuwentubiaodonghua_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_dafuwentubiaodonghua_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_dafuwentubiaodonghua_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_daojishi_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_daojishi_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_daojishi_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_daojishi_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_guowang_1_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_guowang_1_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_guowang_1_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_guowang_1_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_huanghou_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_huanghou_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_huanghou_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_huanghou_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_huoshen_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_huoshen_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_huoshen_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_huoshen_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_1_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_paixing_1_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_1_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_paixing_1_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_dui_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_paixing_dui_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_dui_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_paixing_dui_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_paixing_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_paixing_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_pk_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_pk_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_pk_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_pk_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_red_lizi.png",
+			"type": "image",
+			"name": "hongheidazhan_red_lizi_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_red_win_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_red_win_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_result_win_black_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_result_win_black_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_result_win_lucky_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_result_win_lucky_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_result_win_red_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_result_win_red_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_start_stake_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_start_stake_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_start_stake_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_start_stake_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_stop_stake_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_stop_stake_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_stop_stake_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_stop_stake_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_wait_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_wait_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_wait_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_wait_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_center_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_win_center_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_center_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_win_center_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_left_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_win_left_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_left_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_win_left_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_rigth_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_win_rigth_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_rigth_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_win_rigth_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_xianzhi_dayingjia_ske.dbbin",
+			"type": "bin",
+			"name": "hongheidazhan_xianzhi_dayingjia_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_xianzhi_dayingjia_tex.png",
+			"type": "image",
+			"name": "hongheidazhan_xianzhi_dayingjia_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_bird_mc.json",
+			"type": "json",
+			"name": "hhdz_bird_mc_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_change_player_tex.json",
+			"type": "json",
+			"name": "hhdz_change_player_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_player_win_tex.json",
+			"type": "json",
+			"name": "hhdz_player_win_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_win_result_left_tex.json",
+			"type": "json",
+			"name": "hhdz_win_result_left_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hhdz_xianzhi_anim_tex.json",
+			"type": "json",
+			"name": "hhdz_xianzhi_anim_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_dafuwentubiaodonghua_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_dafuwentubiaodonghua_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_daojishi_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_daojishi_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_guowang_1_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_guowang_1_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_huanghou_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_huanghou_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_huoshen_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_huoshen_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_1_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_paixing_1_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_dui_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_paixing_dui_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_paixing_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_paixing_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_pk_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_pk_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_red_lizi.json",
+			"type": "json",
+			"name": "hongheidazhan_red_lizi_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_red_win_mc.json",
+			"type": "json",
+			"name": "hongheidazhan_red_win_mc_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_result_win_black_mc.json",
+			"type": "json",
+			"name": "hongheidazhan_result_win_black_mc_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_result_win_lucky_mc.json",
+			"type": "json",
+			"name": "hongheidazhan_result_win_lucky_mc_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_result_win_red_mc.json",
+			"type": "json",
+			"name": "hongheidazhan_result_win_red_mc_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_start_stake_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_start_stake_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_stop_stake_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_stop_stake_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_wait_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_wait_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_center_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_win_center_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_left_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_win_left_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_win_rigth_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_win_rigth_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/hongheidazhan_xianzhi_dayingjia_tex.json",
+			"type": "json",
+			"name": "hongheidazhan_xianzhi_dayingjia_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/black_win_boom_ske.dbbin",
+			"type": "bin",
+			"name": "black_win_boom_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/black_win_boom_tex.png",
+			"type": "image",
+			"name": "black_win_boom_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/red_win_boom_ske.dbbin",
+			"type": "bin",
+			"name": "red_win_boom_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/red_win_boom_tex.png",
+			"type": "image",
+			"name": "red_win_boom_tex_png"
+		},
+		{
+			"url": "assets/hhdz/animation/game/black_win_boom_tex.json",
+			"type": "json",
+			"name": "black_win_boom_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/red_win_boom_tex.json",
+			"type": "json",
+			"name": "red_win_boom_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/winparticle_boom_ske.dbbin",
+			"type": "bin",
+			"name": "winparticle_boom_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/game/winparticle_boom_tex.json",
+			"type": "json",
+			"name": "winparticle_boom_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/game/winparticle_boom_tex.png",
+			"type": "image",
+			"name": "winparticle_boom_tex_png"
+		},
+		{
+			"url": "assets/hhdz/hhdz_zjcx.json",
+			"type": "sheet",
+			"name": "hhdz_zjcx_json",
+			"subkeys": "hhdz_zjcx_bg,hhdz_zjcx_bglabel,hhdz_zjcx_bgpanel,hhdz_zjcx_btndetail,hhdz_zjcx_iconbanker,hhdz_zjcx_iconlose,hhdz_zjcx_iconwin,hhdz_zjcx_imgpool,hhdz_zjcx_imgtotalbet,hhdz_zjcx_level1,hhdz_zjcx_level2,hhdz_zjcx_level3,hhdz_zjcx_line,hhdz_zjcx_title,hhdz_zjcx_winicon,qznnresult_card_club1,qznnresult_card_club10,qznnresult_card_club11,qznnresult_card_club12,qznnresult_card_club13,qznnresult_card_club2,qznnresult_card_club3,qznnresult_card_club4,qznnresult_card_club5,qznnresult_card_club6,qznnresult_card_club7,qznnresult_card_club8,qznnresult_card_club9,qznnresult_card_diamond1,qznnresult_card_diamond10,qznnresult_card_diamond11,qznnresult_card_diamond12,qznnresult_card_diamond13,qznnresult_card_diamond2,qznnresult_card_diamond3,qznnresult_card_diamond4,qznnresult_card_diamond5,qznnresult_card_diamond6,qznnresult_card_diamond7,qznnresult_card_diamond8,qznnresult_card_diamond9,qznnresult_card_heart1,qznnresult_card_heart10,qznnresult_card_heart11,qznnresult_card_heart12,qznnresult_card_heart13,qznnresult_card_heart2,qznnresult_card_heart3,qznnresult_card_heart4,qznnresult_card_heart5,qznnresult_card_heart6,qznnresult_card_heart7,qznnresult_card_heart8,qznnresult_card_heart9,qznnresult_card_spade1,qznnresult_card_spade10,qznnresult_card_spade11,qznnresult_card_spade12,qznnresult_card_spade13,qznnresult_card_spade2,qznnresult_card_spade3,qznnresult_card_spade4,qznnresult_card_spade5,qznnresult_card_spade6,qznnresult_card_spade7,qznnresult_card_spade8,qznnresult_card_spade9"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_zjcx_lose.png",
+			"type": "image",
+			"name": "hhdz_zjcx_lose_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_zjcx_win.fnt",
+			"type": "font",
+			"name": "hhdz_zjcx_win_fnt"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_zjcx_win.png",
+			"type": "image",
+			"name": "hhdz_zjcx_win_png"
+		},
+		{
+			"url": "assets/hhdz/font/hhdz_zjcx_lose.fnt",
+			"type": "font",
+			"name": "hhdz_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/hhdz/hhdz_room_zjcxbtn.png",
+			"type": "image",
+			"name": "hhdz_room_zjcxbtn_png"
+		}
+	]
+}

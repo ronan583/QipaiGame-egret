@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="TipsButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5"
+            
+             source="noticetip_btn_png" source.down=""/>
+	<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" source="" source.down="noticetip_btn_png"/>
+    <e:Label id="labelDisplay"
+             size="28"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" width="158" height="54" horizontalCenter="0" verticalCenter="-6" text="是"/>
+
+	
+	<w:Config id="1663096b956" ></w:Config>
+</e:Skin>

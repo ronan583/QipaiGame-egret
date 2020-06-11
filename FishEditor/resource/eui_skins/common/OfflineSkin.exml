@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OfflineSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" source="common_pop_bg_1_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="textLab" text="" anchorOffsetX="0" width="339.91" anchorOffsetY="0" height="150.58" fontFamily="Microsoft YaHei" textAlign="center" bold="true" verticalAlign="middle" size="24" horizontalCenter="0" verticalCenter="-6.5" textColor="0xac5f2a"/>
+	<e:Button id="connectBtn" label="" y="447" horizontalCenter="108.5" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" width.down="90%" height.down="90%"  horizontalCenter="0" verticalCenter="0" source="common_offilne_btn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-6" fontFamily="Microsoft YaHei" textColor="0x870000" text="重连" textAlign="center" verticalAlign="middle"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" y="450" horizontalCenter="-82.5" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" width.down="90%" height.down="90%"  horizontalCenter="0" verticalCenter="0" source="common_quxiao_btn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="common_trip_title_png" y="206" horizontalCenter="0.5"/>
+</e:Skin>

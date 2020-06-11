@@ -1,0 +1,737 @@
+{
+	"groups": [
+		{
+			"keys": "LhzbLightingB_mc_json,playListFont_fnt,lhdz_roomfnt_fnt,lhdz_roomfnt_png,lhdz_fuhao_ske_dbbin,lhdz_fuhao_tex_png,lhdz_gaoji_ske_dbbin,lhdz_gaoji_tex_png,lhdz_putong_ske_dbbin,lhdz_putong_tex_png,lhdz_qidong_ske_dbbin,lhdz_qidong_tex_png,lhdz_quickstart_ske_dbbin,lhdz_quickstart_tex_png,lhdz_fuhao_tex_json,lhdz_putong_tex_json,lhdz_qidong_tex_json,lhdz_gaoji_tex_json,lhdz_quickstart_tex_json,lhdzRoom_json,lhdz_help_bg1_png,lhdz_help_bg2_png,lhdz_help_close_png,lhdz_help_content_png,lhdz_help_title_png,lhdz_qidong2_ske_dbbin,lhdz_qidong2_tex_png,lhdz_qidong2_tex_json,lhdz_battle_json,lhdz_battle_bg_png,lhdz_time_png,lhdz_time_fnt,lhdz_online_png,lhdz_online_fnt,lhdz_area_selfbet_png,lhdz_area_allbet_fnt,lhdz_area_selfbet_fnt,lhdz_area_allbet_png,gold_bg_png,lhdz_balance_png,lhdz_balance_fnt,lhdz_number_tex_png,lhdz_number_ske_dbbin,lhdz_number_tex_json,lhdz_stopBet_tex_png,lhdz_stopBet_ske_dbbin,lhdz_stopBet_tex_json,lhdz_startBet_tex_png,lhdz_startBet_ske_dbbin,lhdz_startBet_tex_json,lhdz_vs_tex_png,lhdz_vs_ske_dbbin,lhdz_vs_tex_json,lhd_xiazhuhu_tex_png,lhd_xiazhulong_ske_dbbin,lhd_xiazhulong_tex_png,lhd_xiazhuhe_ske_dbbin,lhd_xiazhuhe_tex_png,lhd_xiazhuhu_ske_dbbin,lhd_xiazhulong_tex_json,lhd_xiazhuhu_tex_json,lhd_xiazhuhe_tex_json,lhd_tips_tex_png,lhd_tips_ske_dbbin,lhd_tips_tex_json,lhdz_reward_lost_fnt,lhdz_reward_lost_png,lhdz_reward_win_png,lhdz_reward_win_fnt,lhdz_cuopai_mc_json,lhdz_cuopai_tex_png,lhdz_num_png,lhdz_num_fnt,lhd_fuhao_ske_dbbin,lhd_shensuanzi_tex_png,lhd_fuhao_tex_png,lhd_shensuanzi_ske_dbbin,lhd_fuhao_tex_json,lhd_shensuanzi_tex_json,lhdz_hu_win_ske_dbbin,lhdz_hu_win_tex_png,lhdz_long_win_ske_dbbin,lhdz_long_win_tex_png,lhd_xdbz_ske_dbbin,lhd_xdbz_tex_png,lhdz_hu_win_tex_json,lhdz_long_win_tex_json,lhd_xdbz_tex_json,lhdz_lz_png,lhd_xingxing_ske_dbbin,lhd_xingxing_tex_png,lhdz_lz_json,lhd_xingxing_tex_json,lhd_head_change_ske_dbbin,lhd_head_change_tex_png,lhd_head_change_tex_json,lhd_win_ske_dbbin,lhd_win_tex_png,lhd_win_tex_json,lhdz_banker_bg_png,lhdz_banker_split_png,lhd_switchBanker_ske_dbbin,lhd_switchBanker_tex_png,lhd_switchBanker_tex_json,lhd_hu_win_ske_dbbin,lhd_hu_win_tex_png,lhd_hu_win_tex_json,lhdz_zjcx_json",
+			"name": "lhdz"
+		},
+		{
+			"keys": "lhb_p_1_mp3,lhb_p_10_mp3,lhb_p_11_mp3,lhb_p_12_mp3,lhb_p_13_mp3,lhb_p_2_mp3,lhb_p_3_mp3,lhb_p_4_mp3,lhb_p_5_mp3,lhb_p_6_mp3,lhb_p_7_mp3,lhb_p_8_mp3,lhb_p_9_mp3,lhdz_alert_mp3,lhdz_bet_mp3,lhdz_bg_mp3,lhdz_countdown_mp3,lhdz_flipcard_mp3,lhdz_he_mp3,lhdz_hu_win_mp3,lhdz_long_win_mp3,lhdz_on_bet_mp3,lhdz_sendcard_mp3,lhdz_show_mp3,lhdz_start_mp3,lhdz_stop_mp3,lhdz_win_bet_mp3,lhdz_win_game_mp3,lhdz_vs_mp3",
+			"name": "lhdzSound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/lhdz/lhdz.res.json",
+			"type": "json",
+			"name": "lhdz.res_json"
+		},
+		{
+			"url": "assets/lhdz/LhzbLightingB_mc.json",
+			"type": "json",
+			"name": "LhzbLightingB_mc_json"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_1.mp3",
+			"type": "sound",
+			"name": "lhb_p_1_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_10.mp3",
+			"type": "sound",
+			"name": "lhb_p_10_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_11.mp3",
+			"type": "sound",
+			"name": "lhb_p_11_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_12.mp3",
+			"type": "sound",
+			"name": "lhb_p_12_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_13.mp3",
+			"type": "sound",
+			"name": "lhb_p_13_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_2.mp3",
+			"type": "sound",
+			"name": "lhb_p_2_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_3.mp3",
+			"type": "sound",
+			"name": "lhb_p_3_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_4.mp3",
+			"type": "sound",
+			"name": "lhb_p_4_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_5.mp3",
+			"type": "sound",
+			"name": "lhb_p_5_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_6.mp3",
+			"type": "sound",
+			"name": "lhb_p_6_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_7.mp3",
+			"type": "sound",
+			"name": "lhb_p_7_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_8.mp3",
+			"type": "sound",
+			"name": "lhb_p_8_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhb_p_9.mp3",
+			"type": "sound",
+			"name": "lhb_p_9_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_alert.mp3",
+			"type": "sound",
+			"name": "lhdz_alert_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_bet.mp3",
+			"type": "sound",
+			"name": "lhdz_bet_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_bg.mp3",
+			"type": "sound",
+			"name": "lhdz_bg_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_countdown.mp3",
+			"type": "sound",
+			"name": "lhdz_countdown_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_flipcard.mp3",
+			"type": "sound",
+			"name": "lhdz_flipcard_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_he.mp3",
+			"type": "sound",
+			"name": "lhdz_he_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_hu_win.mp3",
+			"type": "sound",
+			"name": "lhdz_hu_win_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_long_win.mp3",
+			"type": "sound",
+			"name": "lhdz_long_win_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_on_bet.mp3",
+			"type": "sound",
+			"name": "lhdz_on_bet_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_sendcard.mp3",
+			"type": "sound",
+			"name": "lhdz_sendcard_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_show.mp3",
+			"type": "sound",
+			"name": "lhdz_show_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_start.mp3",
+			"type": "sound",
+			"name": "lhdz_start_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_stop.mp3",
+			"type": "sound",
+			"name": "lhdz_stop_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_win_bet.mp3",
+			"type": "sound",
+			"name": "lhdz_win_bet_mp3"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_win_game.mp3",
+			"type": "sound",
+			"name": "lhdz_win_game_mp3"
+		},
+		{
+			"url": "assets/lhdz/playListFont.fnt",
+			"type": "font",
+			"name": "playListFont_fnt"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_roomfnt.fnt",
+			"type": "font",
+			"name": "lhdz_roomfnt_fnt"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_roomfnt.png",
+			"type": "image",
+			"name": "lhdz_roomfnt_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_fuhao_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_fuhao_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_fuhao_tex.png",
+			"type": "image",
+			"name": "lhdz_fuhao_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_gaoji_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_gaoji_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_gaoji_tex.png",
+			"type": "image",
+			"name": "lhdz_gaoji_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_putong_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_putong_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_putong_tex.png",
+			"type": "image",
+			"name": "lhdz_putong_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong_tex.png",
+			"type": "image",
+			"name": "lhdz_qidong_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_quickstart_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_quickstart_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_quickstart_tex.png",
+			"type": "image",
+			"name": "lhdz_quickstart_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_fuhao_tex.json",
+			"type": "json",
+			"name": "lhdz_fuhao_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_putong_tex.json",
+			"type": "json",
+			"name": "lhdz_putong_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong_tex.json",
+			"type": "json",
+			"name": "lhdz_qidong_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_gaoji_tex.json",
+			"type": "json",
+			"name": "lhdz_gaoji_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_quickstart_tex.json",
+			"type": "json",
+			"name": "lhdz_quickstart_tex_json"
+		},
+		{
+			"url": "assets/lhdz/lhdzn_room_preview.png",
+			"type": "image",
+			"name": "lhdzn_room_preview_png"
+		},
+		{
+			"url": "assets/lhdz/lhdz_room_bg.png",
+			"type": "image",
+			"name": "lhdz_room_bg_png"
+		},
+		{
+			"url": "assets/lhdz/lhdzRoom.json",
+			"type": "sheet",
+			"name": "lhdzRoom_json",
+			"subkeys": "lhdzn_add,lhdzn_back,lhdzn_baoman,lhdzn_bottom,lhdzn_gold,lhdzn_gold_bar,lhdzn_gold_bg,lhdzn_headframe,lhdzn_help,lhdzn_kongxian,lhdzn_logo,lhdzn_yongji,lhdzn_zhunru"
+		},
+		{
+			"url": "assets/lhdz/help/lhdz_help_bg1.png",
+			"type": "image",
+			"name": "lhdz_help_bg1_png"
+		},
+		{
+			"url": "assets/lhdz/help/lhdz_help_bg2.png",
+			"type": "image",
+			"name": "lhdz_help_bg2_png"
+		},
+		{
+			"url": "assets/lhdz/help/lhdz_help_close.png",
+			"type": "image",
+			"name": "lhdz_help_close_png"
+		},
+		{
+			"url": "assets/lhdz/help/lhdz_help_content.png",
+			"type": "image",
+			"name": "lhdz_help_content_png"
+		},
+		{
+			"url": "assets/lhdz/help/lhdz_help_title.png",
+			"type": "image",
+			"name": "lhdz_help_title_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong2_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_qidong2_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong2_tex.png",
+			"type": "image",
+			"name": "lhdz_qidong2_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong2_tex.json",
+			"type": "json",
+			"name": "lhdz_qidong2_tex_json"
+		},
+		{
+			"url": "assets/lhdz/lhdz_battle.json",
+			"type": "sheet",
+			"name": "lhdz_battle_json",
+			"subkeys": "add_btn,back_btn,bank_Btn,banker,cards_back,coin,continued_mortgage,continued_mortgage_ban,dl_item_blue,dl_item_red,downBet_Btn,down_Btn,dyzl_item_blue,dyzl_item_red,gold_bg,head_bg,head_frame,head_frame2,head_frame3,help_Btn,hu,level1_chip_1,level1_chip_1_little,level1_chip_2,level1_chip_2_little,level1_chip_3,level1_chip_3_little,level1_chip_4,level1_chip_4_little,level1_chip_5,level1_chip_5_little,level1_chip_6,level1_chip_6_little,level2_chip_1,level2_chip_1_little,level2_chip_2,level2_chip_2_little,level2_chip_3,level2_chip_3_little,level2_chip_4,level2_chip_4_little,level2_chip_5,level2_chip_5_little,level2_chip_6,level2_chip_6_little,level3_chip_1,level3_chip_1_little,level3_chip_2,level3_chip_2_little,level3_chip_3,level3_chip_3_little,level3_chip_4,level3_chip_4_little,level3_chip_5,level3_chip_5_little,level3_chip_6,level3_chip_6_little,lhdz_bank_bg,lhdz_bank_title,lhdz_battle_bg,lhdz_bottn_bg,lhdz_close,lhdz_close_small,lhdz_dragon,lhdz_draw,lhdz_effect,lhdz_gameLevel_0,lhdz_gameLevel_1,lhdz_gameLevel_2,lhdz_history_bg,lhdz_history_title,lhdz_max,lhdz_music,lhdz_mute,lhdz_online_ wealthy,lhdz_online_bg,lhdz_online_calculation,lhdz_online_frame,lhdz_online_head,lhdz_online_title,lhdz_percentage,lhdz_pull_btn,lhdz_recountBb,lhdz_recount_tips_1,lhdz_recount_tips_2,lhdz_recount_tips_3,lhdz_set_bg,lhdz_set_off,lhdz_set_on,lhdz_set_progress,lhdz_set_progress_bg,lhdz_set_title,lhdz_tiger,lhdz_withdraw_btn,lhdz_withdraw_frame,long,menu_Bg,online_btn,select_area_dragon,select_area_tie,select_area_tiger,set_Btn,trend_bg,trend_btn,upBet_Btn,up_Btn,vs,xl_item_blue,xl_item_red,yyl_item_blue,yyl_item_red"
+		},
+		{
+			"url": "assets/lhdz/lhdz_battle_bg.png",
+			"type": "image",
+			"name": "lhdz_battle_bg_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_time.png",
+			"type": "image",
+			"name": "lhdz_time_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_time.fnt",
+			"type": "font",
+			"name": "lhdz_time_fnt"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_online.png",
+			"type": "image",
+			"name": "lhdz_online_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_online.fnt",
+			"type": "font",
+			"name": "lhdz_online_fnt"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_area_selfbet.png",
+			"type": "image",
+			"name": "lhdz_area_selfbet_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_area_allbet.fnt",
+			"type": "font",
+			"name": "lhdz_area_allbet_fnt"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_area_selfbet.fnt",
+			"type": "font",
+			"name": "lhdz_area_selfbet_fnt"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_area_allbet.png",
+			"type": "image",
+			"name": "lhdz_area_allbet_png"
+		},
+		{
+			"url": "assets/lhdz/gold_bg.png",
+			"type": "image",
+			"name": "gold_bg_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_balance.png",
+			"type": "image",
+			"name": "lhdz_balance_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_balance.fnt",
+			"type": "font",
+			"name": "lhdz_balance_fnt"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_number_tex.png",
+			"type": "image",
+			"name": "lhdz_number_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_number_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_number_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_number_tex.json",
+			"type": "json",
+			"name": "lhdz_number_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_stopBet_tex.png",
+			"type": "image",
+			"name": "lhdz_stopBet_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_stopBet_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_stopBet_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_stopBet_tex.json",
+			"type": "json",
+			"name": "lhdz_stopBet_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_startBet_tex.png",
+			"type": "image",
+			"name": "lhdz_startBet_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_startBet_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_startBet_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_startBet_tex.json",
+			"type": "json",
+			"name": "lhdz_startBet_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_vs_tex.png",
+			"type": "image",
+			"name": "lhdz_vs_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_vs_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_vs_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_vs_tex.json",
+			"type": "json",
+			"name": "lhdz_vs_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhuhu_tex.png",
+			"type": "image",
+			"name": "lhd_xiazhuhu_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhulong_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_xiazhulong_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhulong_tex.png",
+			"type": "image",
+			"name": "lhd_xiazhulong_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhuhe_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_xiazhuhe_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhuhe_tex.png",
+			"type": "image",
+			"name": "lhd_xiazhuhe_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhuhu_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_xiazhuhu_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhulong_tex.json",
+			"type": "json",
+			"name": "lhd_xiazhulong_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhuhu_tex.json",
+			"type": "json",
+			"name": "lhd_xiazhuhu_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xiazhuhe_tex.json",
+			"type": "json",
+			"name": "lhd_xiazhuhe_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_tips_tex.png",
+			"type": "image",
+			"name": "lhd_tips_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_tips_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_tips_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_tips_tex.json",
+			"type": "json",
+			"name": "lhd_tips_tex_json"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_reward_lost.fnt",
+			"type": "font",
+			"name": "lhdz_reward_lost_fnt"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_reward_lost.png",
+			"type": "image",
+			"name": "lhdz_reward_lost_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_reward_win.png",
+			"type": "image",
+			"name": "lhdz_reward_win_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_reward_win.fnt",
+			"type": "font",
+			"name": "lhdz_reward_win_fnt"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_cuopai_mc.json",
+			"type": "json",
+			"name": "lhdz_cuopai_mc_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_cuopai_tex.png",
+			"type": "image",
+			"name": "lhdz_cuopai_tex_png"
+		},
+		{
+			"url": "assets/lhdz/sound_mp3/lhdz_vs.mp3",
+			"type": "sound",
+			"name": "lhdz_vs_mp3"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_num.png",
+			"type": "image",
+			"name": "lhdz_num_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_num.fnt",
+			"type": "font",
+			"name": "lhdz_num_fnt"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_fuhao_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_fuhao_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_shensuanzi_tex.png",
+			"type": "image",
+			"name": "lhd_shensuanzi_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_fuhao_tex.png",
+			"type": "image",
+			"name": "lhd_fuhao_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_shensuanzi_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_shensuanzi_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_fuhao_tex.json",
+			"type": "json",
+			"name": "lhd_fuhao_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_shensuanzi_tex.json",
+			"type": "json",
+			"name": "lhd_shensuanzi_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_hu_win_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_hu_win_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_hu_win_tex.png",
+			"type": "image",
+			"name": "lhdz_hu_win_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_long_win_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_long_win_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_long_win_tex.png",
+			"type": "image",
+			"name": "lhdz_long_win_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xdbz_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_xdbz_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xdbz_tex.png",
+			"type": "image",
+			"name": "lhd_xdbz_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_hu_win_tex.json",
+			"type": "json",
+			"name": "lhdz_hu_win_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_long_win_tex.json",
+			"type": "json",
+			"name": "lhdz_long_win_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xdbz_tex.json",
+			"type": "json",
+			"name": "lhd_xdbz_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_lz.png",
+			"type": "image",
+			"name": "lhdz_lz_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xingxing_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_xingxing_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xingxing_tex.png",
+			"type": "image",
+			"name": "lhd_xingxing_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhdz_lz.json",
+			"type": "json",
+			"name": "lhdz_lz_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_xingxing_tex.json",
+			"type": "json",
+			"name": "lhd_xingxing_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_head_change_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_head_change_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_head_change_tex.png",
+			"type": "image",
+			"name": "lhd_head_change_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_head_change_tex.json",
+			"type": "json",
+			"name": "lhd_head_change_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_win_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_win_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_win_tex.png",
+			"type": "image",
+			"name": "lhd_win_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_win_tex.json",
+			"type": "json",
+			"name": "lhd_win_tex_json"
+		},
+		{
+			"url": "assets/lhdz/img/lhdz_banker_bg.png",
+			"type": "image",
+			"name": "lhdz_banker_bg_png"
+		},
+		{
+			"url": "assets/lhdz/img/lhdz_banker_split.png",
+			"type": "image",
+			"name": "lhdz_banker_split_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_switchBanker_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_switchBanker_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_switchBanker_tex.png",
+			"type": "image",
+			"name": "lhd_switchBanker_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_switchBanker_tex.json",
+			"type": "json",
+			"name": "lhd_switchBanker_tex_json"
+		},
+		{
+			"url": "assets/lhdz/lhdz_zjcx.json",
+			"type": "sheet",
+			"name": "lhdz_zjcx_json",
+			"subkeys": "lhdz_room_zjcxbtn,lhdz_zjcx_bg,lhdz_zjcx_bglabel,lhdz_zjcx_bgpanel,lhdz_zjcx_btndetail,lhdz_zjcx_iconhe,lhdz_zjcx_iconlose,lhdz_zjcx_iconwin,lhdz_zjcx_imgnobet,lhdz_zjcx_imgpool,lhdz_zjcx_imgtotalbet,lhdz_zjcx_level1,lhdz_zjcx_level2,lhdz_zjcx_level3,lhdz_zjcx_line,lhdz_zjcx_winicon,qznnresult_card_club1,qznnresult_card_club10,qznnresult_card_club11,qznnresult_card_club12,qznnresult_card_club13,qznnresult_card_club2,qznnresult_card_club3,qznnresult_card_club4,qznnresult_card_club5,qznnresult_card_club6,qznnresult_card_club7,qznnresult_card_club8,qznnresult_card_club9,qznnresult_card_diamond1,qznnresult_card_diamond10,qznnresult_card_diamond11,qznnresult_card_diamond12,qznnresult_card_diamond13,qznnresult_card_diamond2,qznnresult_card_diamond3,qznnresult_card_diamond4,qznnresult_card_diamond5,qznnresult_card_diamond6,qznnresult_card_diamond7,qznnresult_card_diamond8,qznnresult_card_diamond9,qznnresult_card_heart1,qznnresult_card_heart10,qznnresult_card_heart11,qznnresult_card_heart12,qznnresult_card_heart13,qznnresult_card_heart2,qznnresult_card_heart3,qznnresult_card_heart4,qznnresult_card_heart5,qznnresult_card_heart6,qznnresult_card_heart7,qznnresult_card_heart8,qznnresult_card_heart9,qznnresult_card_spade1,qznnresult_card_spade10,qznnresult_card_spade11,qznnresult_card_spade12,qznnresult_card_spade13,qznnresult_card_spade2,qznnresult_card_spade3,qznnresult_card_spade4,qznnresult_card_spade5,qznnresult_card_spade6,qznnresult_card_spade7,qznnresult_card_spade8,qznnresult_card_spade9"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_zjcx_lose.png",
+			"type": "image",
+			"name": "lhdz_zjcx_lose_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_zjcx_win.png",
+			"type": "image",
+			"name": "lhdz_zjcx_win_png"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_zjcx_win.fnt",
+			"type": "font",
+			"name": "lhdz_zjcx_win_fnt"
+		},
+		{
+			"url": "assets/lhdz/font/lhdz_zjcx_lose.fnt",
+			"type": "font",
+			"name": "lhdz_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_hu_win_ske.dbbin",
+			"type": "bin",
+			"name": "lhd_hu_win_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_hu_win_tex.png",
+			"type": "image",
+			"name": "lhd_hu_win_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/battle/lhd_hu_win_tex.json",
+			"type": "json",
+			"name": "lhd_hu_win_tex_json"
+		}
+	]
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlTouchAreaSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*"  states="light1,light2,light3,light4,light5"  height.light1="337" width.light1="380" height.light4="139" width.light4="321" height.light3="118" width.light3="265" width.light2="380" height.light2="337">
+	<w:Declarations>
+		<tween:TweenGroup id="downTween">
+			<tween:TweenItem target="{lightIcon}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="upTween">
+			<tween:TweenItem target="{lightIcon}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="winTween">
+			<tween:TweenItem target="{lightIcon}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="16bf6004908" ></w:Config>
+	<e:Image id="lightIcon" y="0" x="0" scaleX="1" scaleY="1" scale9Grid="11,10,45,48" anchorOffsetX="0" anchorOffsetY="0" source="" source.light1="" x.light1="376" y.light1="0" source.light3="" rotation.light4="0" x.light4="318" y.light4="0" scaleX.light4="-1" source.light2="" scaleX.light1="-1"/>
+	<e:Group id="stakeAreaGroup" width="162.72" height="96.43" x="2.75" y="43.21" anchorOffsetX="0" anchorOffsetY="0" width.light1="255" height.light1="200" x.light1="44.75" y.light1="43.21" width.light3="202.72" height.light3="112.43" x.light3="33.75" y.light3="3.21" x.light4="149.75" width.light2="255" height.light2="200" x.light2="75.75"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TgpdRewardItemSkin" width="238.39" height="38.12" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c3218b078" ></w:Config>
+	<e:Image id="gemImg" x="1" y="-0.5" anchorOffsetX="0" width="33" anchorOffsetY="0" height="33" source="pic_symbol_m1_round1"/>
+	<e:BitmapLabel id="moneyLabel" width="192" height="29" x="44" y="6" text="x8 +5" anchorOffsetX="0" anchorOffsetY="0" font="candy_win_fnt"/>
+</e:Skin>

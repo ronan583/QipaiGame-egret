@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166405aa8fa" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="info_frame_1" horizontalCenter="0" verticalCenter="0" x="296" y="133" scaleX="1" scaleY="1"/>
+		<e:Image y="93" source="info_title_frame" x="409" scaleX="1" scaleY="1"/>
+		<e:Image y="107.37" source="info_title_3" x="577" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="closeBtn" label="" x="977.66" y="149.37" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_close" source.down="rank_close" source.disabled="rank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label text="音乐" y="268" fontFamily="Microsoft YaHei" size="30" x="412" scaleX="1" scaleY="1"/>
+		<e:Label text="音效" y="268" size="30" fontFamily="Microsoft YaHei" x="762" scaleX="1" scaleY="1"/>
+		<e:Label text="静音" x="412" y="409" size="30" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:ToggleSwitch id="switchBgBtn" label="" x="493" y="258" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="info_pull_on" source.up="info_pull_off" source.down="info_pull_off" source.disabled="info_pull_off" left="0" right="0" verticalCenter="0"/>
+				<e:Image source="info_pull_btn" horizontalCenter.upAndSelected="36" horizontalCenter.downAndSelected="36" horizontalCenter.disabledAndSelected="36" verticalCenter="0" horizontalCenter="-36"/>
+				<e:Label text="关" size="30" fontFamily="Microsoft YaHei" textColor="0x6c81a8" horizontalCenter="26" verticalCenter="0" horizontalCenter.upAndSelected="-26" text.upAndSelected="开" textColor.upAndSelected="0xcc7800" horizontalCenter.downAndSelected="-26" text.downAndSelected="开" textColor.downAndSelected="0xcc7800" horizontalCenter.disabledAndSelected="-26" text.disabledAndSelected="开" textColor.disabledAndSelected="0xcc7800"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" x="839" y="258" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="info_pull_on" source.up="info_pull_off" source.down="info_pull_off" source.disabled="info_pull_off" left="0" right="0" verticalCenter="0"/>
+				<e:Image source="info_pull_btn" horizontalCenter.upAndSelected="36" horizontalCenter.downAndSelected="36" horizontalCenter.disabledAndSelected="36" verticalCenter="0" horizontalCenter="-36"/>
+				<e:Label text="关" size="30" fontFamily="Microsoft YaHei" textColor="0x6c81a8" horizontalCenter="26" verticalCenter="0" horizontalCenter.upAndSelected="-26" text.upAndSelected="开" textColor.upAndSelected="0xcc7800" horizontalCenter.downAndSelected="-26" text.downAndSelected="开" textColor.downAndSelected="0xcc7800" horizontalCenter.disabledAndSelected="-26" text.disabledAndSelected="开" textColor.disabledAndSelected="0xcc7800"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" x="493" y="399" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="info_pull_on" source.up="info_pull_off" source.down="info_pull_off" source.disabled="info_pull_off" left="0" right="0" verticalCenter="0"/>
+				<e:Image source="info_pull_btn" horizontalCenter.upAndSelected="36" horizontalCenter.downAndSelected="36" horizontalCenter.disabledAndSelected="36" verticalCenter="0" horizontalCenter="-36"/>
+				<e:Label text="关" size="30" fontFamily="Microsoft YaHei" textColor="0x6c81a8" horizontalCenter="26" verticalCenter="0" horizontalCenter.upAndSelected="-26" text.upAndSelected="开" textColor.upAndSelected="0xcc7800" horizontalCenter.downAndSelected="-26" text.downAndSelected="开" textColor.downAndSelected="0xcc7800" horizontalCenter.disabledAndSelected="-26" text.disabledAndSelected="开" textColor.disabledAndSelected="0xcc7800"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

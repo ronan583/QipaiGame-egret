@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmTip" width="56" height="73" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bcbm_game_json.bcbm_betkuang" x="0" y="0"/>
+	<e:BitmapLabel id="countdownLabel" width="56.5" height="40" x="0" y="10.15" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" text="12" font="vbcbm_time_fnt"/>
+	<e:Image id="tipImage" source="bcbm_game_json.bcbm_game_bet" x="10" y="51"/>
+</e:Skin>

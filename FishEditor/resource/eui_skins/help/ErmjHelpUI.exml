@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpOtherUI" width="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0">
+		<e:Image source="ermj_help_bg_png" x="159" y="29"/>
+		<e:Image y="36.03" source="ermj_help_title_png" x="523"/>
+		<e:Scroller id="scroller" height="508" horizontalCenter="0" y="126">
+			<e:Group>
+				<e:Group>
+					<e:Image source="ermj_help_c1_png"/>
+					<e:Image y="2021" source="ermj_help_c2_png"/>
+					<e:Image y="3495" source="ermj_help_c3_png"/>
+					<e:Image y="4917" source="ermj_help_c3_png" />
+					<e:Image y="6339" source="ermj_help_c4_png"/>
+					<e:Image y="7682" source="ermj_help_c5_png"/>
+					<e:Image y="8914" source="ermj_help_c6_png"/>
+					<e:Image y="9941" source="ermj_help_c7_png"/>
+				</e:Group>
+			</e:Group>
+		</e:Scroller>
+		<ns1:IButton id="closebtn" label="" x="1121.51" y="39.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_help_close_png" source.down="ermj_help_close_png" source.disabled="ermj_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

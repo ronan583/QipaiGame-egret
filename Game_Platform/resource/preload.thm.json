@@ -1,0 +1,14 @@
+{
+	"skins": {
+		"DragonAnim": "resource/eui_skins/DragonAnim.exml"
+	},
+	"autoGenerateExmlsList": false,
+	"exmls": [
+		"resource/eui_skins/DragonAnim.exml",
+		"resource/eui_skins/loading/InnerUpdateInfo.exml",
+		"resource/eui_skins/loading/InnerUpdateInfoSdkTest.exml",
+		"resource/eui_skins/loading/LoadingUINew.exml",
+		"resource/eui_skins/loading/LoadingUISdkTest.exml"
+	],
+	"path": "resource/preload.thm.json"
+}

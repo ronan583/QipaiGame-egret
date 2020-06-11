@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZJHBipaiSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16b47600f69" ></w:Config>
+	<e:Group id="animGroup" width="1280" height="720"/>
+	<e:Group width="306.18" height="156.06" x="134" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" verticalCenter="-21.5">
+		<ns1:ZJHCard id="card1_1" x="3.48" y="8"/>
+		<ns1:ZJHCard id="card1_2" x="104" y="8"/>
+		<ns1:ZJHCard id="card1_3" x="204" y="8"/>
+		<e:Image id="card1_bright_lie" x="1.52" y="14.08" source="cardlie2" scaleX="1" scaleY="1"/>
+		<e:Image id="card1_lie" x="0" y="8" source="cardlie" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group width="310.73" height="162.12" x="902.95" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" verticalCenter="-22">
+		<ns1:ZJHCard id="card2_1" x="2" y="8"/>
+		<ns1:ZJHCard id="card2_2" x="103" y="8"/>
+		<ns1:ZJHCard id="card2_3" x="204.48" y="8"/>
+		<e:Image id="card2_bright_lie" x="2" y="14" source="cardlie2"/>
+		<e:Image id="card2_lie" x="0.48" y="7.92" source="cardlie"/>
+	</e:Group>
+</e:Skin>

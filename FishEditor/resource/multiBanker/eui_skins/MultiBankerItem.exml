@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MultiBankerItemSkin" width="273" height="87" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e2303e6d9" ></w:Config>
+	<e:Group width="273" height="72" anchorOffsetX="0" anchorOffsetY="0" y="5">
+		<e:Label text="历史庄家：" x="12" y="19" fontFamily="Microsoft YaHei" size="20" textColor="0xd6d9fb" scaleX="1" scaleY="1"/>
+		<e:Label text="庄家局数：" x="12" y="44" fontFamily="Microsoft YaHei" size="20" textColor="0xD6D9FB" scaleX="1" scaleY="1"/>
+		<e:Label id="bankerName" text="AAAA" x="147" y="20" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="140" anchorOffsetY="0" height="22" scaleX="1" scaleY="1"/>
+		<e:Label id="roundInfo" text="bankerName" x="109" y="44" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="200" anchorOffsetY="0" height="22" scaleX="1" scaleY="1"/>
+		<e:Image id="splitImg" x="17" y="-2" anchorOffsetX="0" source=""/>
+	</e:Group>
+	<e:BitmapLabel width="44" height="21" x="104.69" y="25.33" text="V" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<e:BitmapLabel id="vipLevel" width="44" height="21" x="123.69" y="26.33" text="0" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+</e:Skin>

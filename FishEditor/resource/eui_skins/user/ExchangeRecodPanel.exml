@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeRecodPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1664a21192e" ></w:Config>
+	<e:Image source="exchange_history_preview_jpg" y="1" visible="false"/>
+	<e:Image horizontalCenter="-2" verticalCenter="1" source="exchange_history_frame"/>
+
+
+
+	<e:Image x="565.5" y="65" source="exchange0" visible="false"/>
+
+
+	<ns1:IButton id="closeBtn" label="" x="1036.17" y="86.52" scaleX="1" scaleY="1" width="60" height="60">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_close" source.down="gp_close" source.disabled="gp_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+
+
+
+
+
+	<e:Label text="每页最多显示10" x="208.49" y="610.47" fontFamily="Microsoft YaHei" textColor="0xffaf82" size="22" visible="false"/>
+	<e:Label text="条记录" x="366.49" y="609.13" fontFamily="Microsoft YaHei" size="22" textColor="0xff8a66" visible="false"/>
+	<ns1:IButton id="lastPageBtn" x="788.98" y="575.22" anchorOffsetY="0" imageLabelPath="gp_ex_prevpage">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_btn_ex_1" source.down="gp_btn_ex_1" source.disabled="gp_btn_ex_1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<ns1:IButton id="nextPageBtn" label="" x="948.88" y="573.95" anchorOffsetY="0" imageLabelPath="gp_ex_nextpage">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_btn_ex_1" source.down="gp_btn_ex_1" source.disabled="gp_btn_ex_1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<e:Scroller width="853.16" height="367.73" x="227.74" y="206.95" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="recordGroup" anchorOffsetY="0" height="445">
+			<e:layout>
+				<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Image x="255.99" y="164.66" anchorOffsetX="0" anchorOffsetY="0" source="gp_ex_index"/>
+	<e:Image x="418.35" y="164.91" anchorOffsetX="0" anchorOffsetY="0" source="gp_ex_type"/>
+	<e:Image x="565.5" y="164.15" anchorOffsetX="0" anchorOffsetY="0" source="gp_ex_count"/>
+	<e:Image x="758.15" y="163.66" anchorOffsetX="0" anchorOffsetY="0" source="gp_ex_time"/>
+	<e:Image x="924.97" y="165.58" anchorOffsetX="0" anchorOffsetY="0" source="gp_ex_status"/>
+	<e:Image source="safebox_json.gp_ex_line" x="270" y="259" anchorOffsetY="0" height="-18"/>
+	<e:Image source="safebox_json.gp_ex_line" x="270" y="340"/>
+	<e:Image source="safebox_json.gp_ex_line" x="270" y="430"/>
+	<e:Image x="559" y="98" source="safebox_json.gp_title_history"/>
+	<e:Label text="每一页最多显示10条记录" x="202" y="612.72" fontFamily="Microsoft YaHei" size="22" textColor="0xb0a996"/>
+</e:Skin>

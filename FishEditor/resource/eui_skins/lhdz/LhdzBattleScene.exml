@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzBattleSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:lhdz="game.lhdz.*" xmlns:ns1="*" xmlns:tween="egret.tween.*" >
+	<w:Config id="1671dbaaa68" ></w:Config>
+	<e:Image source="lhdz_battle_json.lhdz_battle_bg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="group" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="lhdz_battle_json.vs" top="0" horizontalCenter="0" x="570" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="lhdz_battle_json.long" top="-107" y="-107" scaleX="1" scaleY="1" horizontalCenter="-398"/>
+		<e:Image source="lhdz_battle_json.hu" top="-37" y="-37" scaleX="1" scaleY="1" horizontalCenter="393.5"/>
+		<e:Image source="lhdz_battle_json.lhdz_bottn_bg" horizontalCenter="0" bottom="0" x="9" y="648" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim id="longWinAnim" width="200" height="200" aligntype="middle" anim="lhdz_long_win" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+		<ns1:DragonAnim id="huWinAnim" width="200" height="200" aligntype="middle" anim="lhd_hu_win" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+		
+		<e:Group verticalCenter="217.5" y="556" scaleX="1" scaleY="1" horizontalCenter="0.5">
+			<e:Image id="roomName" source="lhdz_battle_json.lhdz_gameLevel_0" horizontalCenter="0" x="9" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<lhdz:LhdzHistoryBar id="lhdzHistoryBar" horizontalCenter="0" verticalCenter="-196" x="346" y="143" scaleX="1" scaleY="1"/>
+
+
+		<ns1:IButton id="playerListBtn" label="" right="19" bottom="98" x="1226" y="559" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.online_btn" source.down="lhdz_battle_json.online_btn" source.disabled="lhdz_battle_json.online_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				<e:BitmapLabel id="bitLabel" font="lhdz_online_fnt" text="140" verticalCenter="11" horizontalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Group x="360" y="604.33" height="146" width="729" scaleX="1" scaleY="1">
+			<lhdz:LhdzBetButton id="betButton1" x="0" y="0"/>
+			<lhdz:LhdzBetButton id="betButton10" x="10" y="10"/>
+			<lhdz:LhdzBetButton id="betButton50" x="20" y="20"/>
+			<lhdz:LhdzBetButton id="betButton100" x="30" y="30"/>
+			<lhdz:LhdzBetButton id="betButton500" x="40" y="40"/>
+			<lhdz:LhdzBetButton id="betButton1000" x="50" y="50"/>
+			<e:layout>
+			<e:HorizontalLayout gap="6.5"/>
+			</e:layout>
+		</e:Group>
+		<lhdz:LhdzTips id="recoutTips" right="-6" top="0" x="1179" y="0" scaleX="1" scaleY="1"/>
+		<lhdz:LhdzHeadIcon id="headIcon2" verticalCenter="-136.5" x="28" y="160" currentState="other2" side="1" anim="lhd_fuhao" scaleX="1" scaleY="1" width="98" height="133"/>
+		<lhdz:LhdzHeadIcon id="headIcon1" verticalCenter="-136.5" x="1208" y="160" currentState="other2" side="2" anim="lhd_shensuanzi" scaleX="1" scaleY="1" width="98" height="133"/>
+		<lhdz:LhdzHeadIcon id="headIcon3" verticalCenter="-5.5" x="28" y="291" side="1" scaleX="1" scaleY="1"/>
+		<lhdz:LhdzHeadIcon id="headIcon4" verticalCenter="-2.5" x="1208" y="294" side="2" scaleX="1" scaleY="1" width="98"/>
+		<lhdz:LhdzHeadIcon id="headIcon5" verticalCenter="127.5" x="28" y="424" side="1" scaleX="1" scaleY="1"/>
+		<lhdz:LhdzHeadIcon id="headIcon6" verticalCenter="129.5" x="1208" y="426" side="2" scaleX="1" scaleY="1" width="98"/>
+		<lhdz:LhdzHeadIcon id="headIcon0" x="60" y="651.91" currentState="self" scaleX="1" scaleY="1"/>
+		<e:Group width="987.88" height="280.3" x="174.21" y="262.71" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:DragonAnim id="longWinTableAnim" anchorOffsetX="0"  aligntype="middle" anim="lhd_xiazhulong" isTouch="false" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" width="987.88" height="280.3" y="0" x="0"/>
+			<ns1:DragonAnim id="heWinTableAnim" anchorOffsetX="0"  aligntype="middle" anim="lhd_xiazhuhe" isTouch="false" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" height="280.3" width="987.88" x="0" y="0"/>
+			<ns1:DragonAnim id="huWinTableAnim" anchorOffsetX="0" aligntype="middle" anim="lhd_xiazhuhu" isTouch="false" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" width="987.88" height="280.3" y="0" x="0"/>
+		</e:Group>
+		<e:Group id="tieBetGroup" width="230" height="180" x="548" y="328"/>
+		<e:Group id="dragonBetGroup" width="230" height="180" x="235" y="328"/>
+		<e:Group id="tigerBetGroup" width="230" height="180" x="863" y="328"/>
+		<e:Group id="betContainer" width="1334" height="750" touchChildren="false" touchEnabled="false" touchThrough="false"/>
+		<lhdz:LhdzBetInfoUI id="tigerBetInfo" currentState="tiger" verticalCenter="-68.5" horizontalCenter="316.5" x="955" y="285" scaleX="1" scaleY="1"/>
+		<lhdz:LhdzBetInfoUI id="dragonBetInfo" currentState="dragon" horizontalCenter="-298.5" verticalCenter="-68.5" x="358" y="285" scaleX="1" scaleY="1"/>
+		<lhdz:LhdzBetInfoUI id="tieBetInfo" currentState="tie" horizontalCenter="32" x="653" scaleX="1" scaleY="1" verticalCenter="-68.5"/>
+		<e:Image id="dragonWinIcon" touchEnabled="false" source="lhdz_battle_json.select_area_dragon" verticalCenter="43" horizontalCenter="-300.5" x="193" y="269" scaleX="1" scaleY="1"/>
+		<e:Image id="tigerWinIcon" touchEnabled="false" source="lhdz_battle_json.select_area_tiger" verticalCenter="42.5" horizontalCenter="300" x="794" y="269" scaleX="1" scaleY="1"/>
+		<e:Image id="tieIcon" touchEnabled="false" source="lhdz_battle_json.select_area_tie" verticalCenter="42" horizontalCenter="0" x="491" y="268" scaleX="1" scaleY="1"/>
+
+		<lhdz:LhCard id="dragonCard" anchorOffsetX="47.5" anchorOffsetY="65" horizontalCenter="-155.5" x="464" y="-98" scaleX="1" scaleY="1"/>
+		<lhdz:LhCard id="tigerCard" anchorOffsetX="47.5" anchorOffsetY="65" horizontalCenter="155.5" x="775" y="-98" scaleX="1" scaleY="1"/>
+
+		<ns1:IButton id="continueBtn" label="" right="47" bottom="3" x="1226" y="559" enabled="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.continued_mortgage" source.down="lhdz_battle_json.continued_mortgage" source.disabled="lhdz_battle_json.continued_mortgage_ban"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Group width="200" height="200" x="567" y="275" touchChildren="false" touchEnabled="false" touchThrough="false">
+			<ns1:DragonAnim id="switchBankerAnim" width="200" height="200" aligntype="middle" anim="lhd_switchBanker" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouch="false"/>
+			<ns1:DragonAnim id="waitAnim" width="200" height="200" aligntype="middle" anim="lhd_tips" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouch="false"/>
+			<ns1:DragonAnim id="vsAnim" width="200" height="200" aligntype="middle" anim="lhdz_vs" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouch="false"/>
+			<ns1:DragonAnim id="startAnim" width="200" height="200" aligntype="middle" anim="lhdz_startBet" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouch="false"/>
+			<ns1:DragonAnim id="stopAnim" width="200" height="200" aligntype="middle" anim="lhdz_stopBet" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouch="false"/>
+		</e:Group>
+
+	</e:Group>
+	<e:Group id="leftUpGroup" width="204.55" height="331.82" y="1.43" left="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-564.5">
+		<e:Image id="menuArrowImg" x="20" y="20" source="lhdz_battle_json.down_Btn"/>
+		<e:Group id="menuContent" width="200" height="200" x="14.31" y="212.05" visible="false">
+		<e:Image x="9" y="-74" scaleX="1" scaleY="1" scale9Grid="105,223,53,44" anchorOffsetY="0" height="392.52" source="lhdz_battle_json.menu_Bg"/>
+		<ns1:IButton id="helpBtn" label="" x="49.37" y="47" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.help_Btn" source.down="lhdz_battle_json.help_Btn" source.disabled="lhdz_battle_json.help_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="settingAudioBtn" label="" x="49.37" y="130" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.set_Btn" source.down="lhdz_battle_json.set_Btn" source.disabled="lhdz_battle_json.set_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" x="49.37" y="210.03" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.back_btn" source.down="lhdz_battle_json.back_btn" source.disabled="lhdz_battle_json.back_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="bankBtn" label="" x="43.29" y="-31.97" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.bank_Btn" source.down="lhdz_battle_json.bank_Btn" source.disabled="lhdz_battle_json.bank_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitRollSkin" width="150" height="398.33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="169489de3ef" ></w:Config>
+	<e:Group id="fruitContainer" width="135" height="1100" x="0" y="-458.85" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:FruitIcon id="fruitIcon1" width="128" height="130" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitIcon id="fruitIcon2" width="128" height="130" x="0" y="146" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitIcon id="fruitIcon3" width="128" height="130" x="0" y="292" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitIcon id="fruitIcon4" width="128" height="130" x="0" y="438" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitIcon id="fruitIcon5" width="128" height="130" x="0" y="584" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitIcon id="fruitIcon6" width="128" height="130" x="0" y="730" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitIcon id="fruitIcon7" width="128" height="130" x="0" y="876" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitIcon id="fruitIcon8" width="128" height="130" x="0" y="1022" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitIcon id="fruitIcon9" width="128" height="130" x="0" y="1168" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Rect id="maskRect" width="150" height="394" x="0" y="4" anchorOffsetY="0"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsHelpUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0">
+		<e:Image source="fqzs_help_bg_png" x="156" y="66"/>
+		<e:Image y="77.37" source="fqzs_help_title_png" horizontalCenter="0.5"/>
+		<e:Scroller id="scroller" x="217" y="134" width="900" height="500">
+			<e:Group>
+				<e:Group>
+					<e:Image source="fqzs_help_content_png"/>
+				</e:Group>
+			</e:Group>
+		</e:Scroller>
+		<ns1:IButton id="closebtn" label="" x="1109.16" y="64.37">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_help_close_png" source.down="fqzs_help_close_png" source.disabled="fqzs_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

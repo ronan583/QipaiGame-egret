@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmBattleScene" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:bcbm="game.bcbm.*">
+	<e:Image source="bcbm_gamebg_jpg" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="rootGroup" width="1334" height="750" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="carTestGrp" width="1334" height="750" x="0" y="0" visible="false">
+			<e:Image id="tempCar" x="633" y="72" anchorOffsetX="40" anchorOffsetY="40" width="80" height="50" source="bcbm_game_imgcar" scaleX="1" scaleY="1"/>
+			<e:Rect id="line0" width="1000" height="2" x="172.57" y="72" anchorOffsetX="0" anchorOffsetY="1" scaleX="1" scaleY="1"/>
+			<e:Rect id="line1" width="1000" height="2" x="716.3999999999999" y="-105.82" anchorOffsetX="0" anchorOffsetY="1" rotation="30" scaleX="1" scaleY="1"/>
+			<e:Rect id="line2" width="2" height="1000" x="1192" y="-0.31" anchorOffsetX="1" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Rect id="line3" width="1000" height="2" x="682.06" y="795.44" anchorOffsetX="0" anchorOffsetY="1" rotation="-30" scaleX="1" scaleY="1"/>
+			<e:Rect id="line4" width="1000" height="2" x="145.92" y="600" anchorOffsetX="0" anchorOffsetY="1" scaleX="1" scaleY="1"/>
+			<e:Rect id="line5" width="1000" height="2" x="-283.59" y="256.8" anchorOffsetX="0" anchorOffsetY="1" rotation="30" scaleX="1" scaleY="1"/>
+			<e:Rect id="line6" width="2" height="1000" x="136" y="-133.6" anchorOffsetX="1" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Rect id="line7" width="1000" height="2" x="-104.59999999999998" y="310.1" anchorOffsetX="0" anchorOffsetY="1" rotation="-30" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr60" width="5" height="5" x="274.46" y="90.5" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr61" width="5" height="5" x="312.46" y="76.5" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr62" width="5" height="5" x="356.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+
+			<e:Rect id="tempCarr63" width="5" height="5" x="397.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr64" width="5" height="5" x="442.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr65" width="5" height="5" x="479.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr66" width="5" height="5" x="521.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr67" width="5" height="5" x="562.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr68" width="5" height="5" x="600.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr69" width="5" height="5" x="638.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr1" width="5" height="5" x="678.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr2" width="5" height="5" x="715.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr3" width="5" height="5" x="753.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr4" width="5" height="5" x="792.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr5" width="5" height="5" x="831.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr6" width="5" height="5" x="869.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr7" width="5" height="5" x="907.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr8" width="5" height="5" x="945.46" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr9" width="5" height="5" x="985.44" y="72" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+
+			<e:Rect id="tempCarr10" width="5" height="5" x="1027.51" y="76.84" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+
+			<e:Rect id="tempCarr11" width="5" height="5" x="1064.78" y="94.5" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr12" width="5" height="5" x="1100.79" y="115.16" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0x000000"/>
+			<e:Rect id="tempCarr13" width="5" height="5" x="1137.44" y="136.49" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr14" width="5" height="5" x="1170.13" y="161.51" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+
+			<e:Rect id="tempCarr15" width="5" height="5" x="1190" y="201.83" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr16" width="5" height="5" x="1190" y="242.17" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr17" width="5" height="5" x="1190" y="281.5" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr18" width="5" height="5" x="1190" y="322.83" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr19" width="5" height="5" x="1190" y="362.83" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr20" width="5" height="5" x="1190" y="402.83" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr21" width="5" height="5" x="1190" y="444.15" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0x000000"/>
+			<e:Rect id="tempCarr22" width="5" height="5" x="1178.07" y="488.85" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr23" width="5" height="5" x="1150.73" y="522.17" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr24" width="5" height="5" x="1111.73" y="547.17" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr25" width="5" height="5" x="1071.76" y="569.81" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr26" width="5" height="5" x="1031.77" y="588.52" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr27" width="5" height="5" x="986.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr28" width="5" height="5" x="947.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr29" width="5" height="5" x="908.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr30" width="5" height="5" x="869.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr31" width="5" height="5" x="830.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr32" width="5" height="5" x="791.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr33" width="5" height="5" x="752.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr34" width="5" height="5" x="713.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr35" width="5" height="5" x="674.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr36" width="5" height="5" x="635.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr37" width="5" height="5" x="596.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr38" width="5" height="5" x="557.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr39" width="5" height="5" x="518.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr40" width="5" height="5" x="478.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr41" width="5" height="5" x="439.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0x000000"/>
+			<e:Rect id="tempCarr42" width="5" height="5" x="400.43" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr43" width="5" height="5" x="357.04" y="600" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+
+
+
+
+
+
+
+			<e:Rect id="tempCarr44" width="5" height="5" x="313.07" y="593.52" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+
+			<e:Rect id="tempCarr45" width="5" height="5" x="274.06" y="577.5" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr46" width="5" height="5" x="237.73" y="556.83" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr47" width="5" height="5" x="199.73" y="533.83" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr48" width="5" height="5" x="166" y="508.82" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr49" width="5" height="5" x="142.71" y="474.2" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+
+			<e:Rect id="tempCarr50" width="5" height="5" x="137" y="432.49" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr51" width="5" height="5" x="137" y="392.49" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr52" width="5" height="5" x="137" y="352.49" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr53" width="5" height="5" x="137" y="312.49" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr54" width="5" height="5" x="137" y="272.49" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr55" width="5" height="5" x="137" y="232.82" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr56" width="5" height="5" x="141.21" y="191.2" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+			<e:Rect id="tempCarr57" width="5" height="5" x="165.21" y="157.2" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+
+			<e:Rect id="tempCarr58" width="5" height="5" x="202.71" y="131.66" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1"/>
+			<e:Rect id="tempCarr59" width="5" height="5" x="240.04" y="110.33" anchorOffsetX="2.5" anchorOffsetY="2.5" scaleX="1" scaleY="1" fillColor="0xff0000"/>
+
+
+
+
+
+
+
+
+
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:Label id="roundLabel" text="连庄3轮" x="629" y="57" visible="false"/>
+		<e:Image id="gameLevel" source="bcbm_game_json.bcbm_game_level1" x="32.09" y="82"/>
+		<e:Image id="selfHeadImg" width="44" height="40" x="18.36" y="655.01" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="bankerHeadImg" width="44" height="40" x="503.01" y="2.34" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="onlinePlayerBtnImg" width="44" height="40" x="1271.67" y="639.01" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="circleGroup" width="1334" height="750" x="0" y="0">
+			<e:Image id="cIcon0" x="685.7" y="95.37" scaleX="1" scaleY="1" source="bcbm_caricon_bmw2"/>
+			<e:Image x="769.36" y="104" scaleX="1" scaleY="1" source="bcbm_caricon_bmw"/>
+			<e:Image x="839.33" y="94.73" scaleX="1" scaleY="1" source="bcbm_caricon_vw2"/>
+			<e:Image x="921.99" y="103.36" scaleX="1" scaleY="1" source="bcbm_caricon_vw"/>
+			<e:Image x="531.69" y="96.06" scaleX="1" scaleY="1" source="bcbm_caricon_benz2"/>
+			<e:Image x="614.35" y="103.69" scaleX="1" scaleY="1" source="bcbm_caricon_benz"/>
+			<e:Image x="376.73" y="94.72" scaleX="1" scaleY="1" source="bcbm_caricon_bsj2"/>
+			<e:Image x="455.39" y="105.35" scaleX="1" scaleY="1" source="bcbm_caricon_bsj"/>
+			<e:Image x="676.72" y="520.7" scaleX="1" scaleY="1" source="bcbm_caricon_benz"/>
+			<e:Image x="745.38" y="514.33" scaleX="1" scaleY="1" source="bcbm_caricon_benz2"/>
+			<e:Image x="530.71" y="521.36" scaleX="1" scaleY="1" source="bcbm_caricon_bmw"/>
+			<e:Image x="594.38" y="513.67" scaleX="1" scaleY="1" source="bcbm_caricon_bmw2"/>
+			<e:Image x="378.71" y="520.71" scaleX="1" scaleY="1" source="bcbm_caricon_vw"/>
+			<e:Image x="450.37" y="514.34" scaleX="1" scaleY="1" source="bcbm_caricon_vw2"/>
+			<e:Image x="824.35" y="520.68" scaleX="1" scaleY="1" source="bcbm_caricon_bsj"/>
+			<e:Image x="903.01" y="515.31" scaleX="1" scaleY="1" source="bcbm_caricon_bsj2"/>
+			<e:Image x="989.01" y="105.37" scaleX="1" scaleY="1" source="bcbm_caricon_bsj2"/>
+			<e:Image x="1059.02" y="142.99" scaleX="1" scaleY="1" source="bcbm_caricon_bsj"/>
+			<e:Image x="220.69" y="476.02" scaleX="1" scaleY="1" source="bcbm_caricon_bsj"/>
+			<e:Image x="290.7" y="509.64" scaleX="1" scaleY="1" source="bcbm_caricon_bsj2"/>
+			<e:Image x="983.7" y="520.36" scaleX="1" scaleY="1" source="bcbm_caricon_vw"/>
+			<e:Image x="1052.04" y="477" scaleX="1" scaleY="1" source="bcbm_caricon_vw2"/>
+			<e:Image x="227.71" y="132.69" scaleX="1" scaleY="1" source="bcbm_caricon_vw2"/>
+			<e:Image x="306.05" y="106.33" scaleX="1" scaleY="1" source="bcbm_caricon_vw"/>
+			<e:Image source="bcbm_game_json.bcbm_caricon_bmw2" x="1107.7" y="342.36" scaleX="1" scaleY="1"/>
+			<e:Image x="1115.4" y="425.63" scaleX="1" scaleY="1" source="bcbm_caricon_bmw"/>
+			<e:Image x="1106.39" y="192.71" scaleX="1" scaleY="1" source="bcbm_caricon_benz2"/>
+			<e:Image x="1116.09" y="275.98" scaleX="1" scaleY="1" source="bcbm_caricon_benz"/>
+			<e:Image x="168.38" y="346.37" scaleX="1" scaleY="1" source="bcbm_caricon_benz"/>
+			<e:Image x="164.08" y="408.64" scaleX="1" scaleY="1" source="bcbm_caricon_benz2"/>
+			<e:Image x="174.7" y="194.36" scaleX="1" scaleY="1" source="bcbm_caricon_bmw"/>
+			<e:Image x="163.1" y="263.69" scaleX="1" scaleY="1" source="bcbm_caricon_bmw2"/>
+			<e:Image id="frame1" x="743.75" y="77" scaleX="1" scaleY="1" source="bcbm_game_imgcircle"/>
+			<e:Image x="667.76" y="77" scaleX="1" scaleY="1" id="frame0" source="bcbm_game_imgcircle"/>
+			<e:Image x="821.05" y="75.66" scaleX="1" scaleY="1" id="frame2" source="bcbm_game_imgcircle"/>
+			<e:Image x="896.74" y="77" scaleX="1" scaleY="1" id="frame3" source="bcbm_game_imgcircle"/>
+			<e:Image x="966.41" y="86.36" scaleX="1" scaleY="1" id="frame4" source="bcbm_game_imgcircle"/>
+			<e:Image x="1034.75" y="117.7" scaleX="1" scaleY="1" id="frame5" source="bcbm_game_imgcircle"/>
+			<e:Image x="1089.74" y="174.01" scaleX="1" scaleY="1" id="frame6" source="bcbm_game_imgcircle"/>
+			<e:Image x="1091.39" y="249.35" scaleX="1" scaleY="1" id="frame7" source="bcbm_game_imgcircle"/>
+			<e:Image x="1090.42" y="324.02" scaleX="1" scaleY="1" id="frame8" source="bcbm_game_imgcircle"/>
+			<e:Image x="1091.08" y="398.67" scaleX="1" scaleY="1" id="frame9" source="bcbm_game_imgcircle"/>
+			<e:Image x="1034.42" y="458.01" scaleX="1" scaleY="1" id="frame10" source="bcbm_game_imgcircle"/>
+			<e:Image x="959.05" y="493.67" scaleX="1" scaleY="1" id="frame11" source="bcbm_game_imgcircle"/>
+			<e:Image x="880.09" y="495.69" scaleX="1" scaleY="1" id="frame12" source="bcbm_game_imgcircle"/>
+			<e:Image x="799.75" y="495.35" scaleX="1" scaleY="1" id="frame13" source="bcbm_game_imgcircle"/>
+			<e:Image x="727.76" y="495.02" scaleX="1" scaleY="1" id="frame14" source="bcbm_game_imgcircle"/>
+			<e:Image x="652.76" y="494.7" scaleX="1" scaleY="1" id="frame15" source="bcbm_game_imgcircle"/>
+			<e:Image x="576.92" y="495.01" scaleX="1" scaleY="1" id="frame16" source="bcbm_game_imgcircle"/>
+			<e:Image x="505.92" y="494.85" scaleX="1" scaleY="1" id="frame17" source="bcbm_game_imgcircle"/>
+			<e:Image x="432.42" y="495.01" scaleX="1" scaleY="1" id="frame18" source="bcbm_game_imgcircle"/>
+			<e:Image x="353.6" y="494.69" scaleX="1" scaleY="1" id="frame19" source="bcbm_game_imgcircle"/>
+			<e:Image x="268.76" y="491.35" scaleX="1" scaleY="1" id="frame20" source="bcbm_game_imgcircle"/>
+			<e:Image x="196.75" y="450.64" scaleX="1" scaleY="1" id="frame21" source="bcbm_game_imgcircle"/>
+			<e:Image x="147.42" y="389.33" scaleX="1" scaleY="1" id="frame22" source="bcbm_game_imgcircle"/>
+			<e:Image x="144.08" y="320.35" scaleX="1" scaleY="1" id="frame23" source="bcbm_game_imgcircle"/>
+			<e:Image x="145.44" y="245.7" scaleX="1" scaleY="1" id="frame24" source="bcbm_game_imgcircle"/>
+			<e:Image x="149.75" y="167.03" scaleX="1" scaleY="1" id="frame25" source="bcbm_game_imgcircle"/>
+			<e:Image x="209.75" y="114.37" scaleX="1" scaleY="1" id="frame26" source="bcbm_game_imgcircle"/>
+			<e:Image x="281.76" y="80.36" scaleX="1" scaleY="1" id="frame27" source="bcbm_game_imgcircle"/>
+			<e:Image x="353.76" y="76.02" scaleX="1" scaleY="1" id="frame28" source="bcbm_game_imgcircle"/>
+			<e:Image x="431.76" y="77.69" scaleX="1" scaleY="1" id="frame29" source="bcbm_game_imgcircle"/>
+			<e:Image x="514.74" y="77.01" scaleX="1" scaleY="1" id="frame30" source="bcbm_game_imgcircle"/>
+			<e:Image x="590.12" y="77.36" scaleX="1" scaleY="1" id="frame31" source="bcbm_game_imgcircle"/>
+
+		</e:Group>
+		<e:Image horizontalCenter="0" width="1334" y="0" source="xiaoguotu_png" alpha="0.3" visible="false"/>
+		<e:Group id="tableGrp" width="914.67" height="417.33" x="206.69" y="126.67" anchorOffsetX="0" anchorOffsetY="0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<e:Image id="tableBsj0" source="bcbm_game_json.bcbm_caricon_bsj3" x="163.66000000000008" y="66" scaleX="1" scaleY="1"/>
+			<e:Image id="tableBsj1" source="bcbm_game_json.bcbm_caricon_bsj8" x="170.67000000000002" y="290" scaleX="1" scaleY="1"/>
+			<e:Image id="tableBenz0" source="bcbm_game_json.bcbm_caricon_benz3" x="362.66" y="66" scaleX="1" scaleY="1"/>
+			<e:Image id="tableBenz1" source="bcbm_game_json.bcbm_caricon_benz8" x="372.3200000000001" y="290" scaleX="1" scaleY="1"/>
+			<e:Image id="tableBmw0" source="bcbm_game_json.bcbm_caricon_bmw3" x="585.0000000000002" y="66" scaleX="1" scaleY="1"/>
+			<e:Image id="tableBmw1" source="bcbm_game_json.bcbm_caricon_bmw8" x="591" y="290" scaleX="1" scaleY="1"/>
+			<e:Image id="tableVw0" source="bcbm_game_json.bcbm_caricon_vw3" x="781.3299999999999" y="66" scaleX="1" scaleY="1"/>
+			<e:Image id="tableVw1" source="bcbm_game_json.bcbm_caricon_vw8" x="789.3200000000002" y="290" scaleX="1" scaleY="1"/>
+			<e:Group id="resultGrp0" width="109.33" height="104" x="137.68" y="53.31" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Group width="109.33" height="104" x="348.95" y="52.66" anchorOffsetX="0" anchorOffsetY="0" id="resultGrp1" scaleX="1" scaleY="1"/>
+			<e:Group width="109.33" height="104" x="767.0000000000002" y="53.97999999999999" anchorOffsetX="0" anchorOffsetY="0" id="resultGrp3" scaleX="1" scaleY="1"/>
+			<e:Group width="109.33" height="104" x="569.01" y="53.349999999999994" anchorOffsetX="0" anchorOffsetY="0" id="resultGrp2" scaleX="1" scaleY="1"/>
+			<e:Group width="109.33" height="104" x="142.36" y="267.31" anchorOffsetX="0" anchorOffsetY="0" id="resultGrp4" scaleX="1" scaleY="1"/>
+			<e:Group width="109.33" height="104" x="349.84" y="267.97" anchorOffsetX="0" anchorOffsetY="0" id="resultGrp5" scaleX="1" scaleY="1"/>
+			<e:Group width="109.33" height="104" x="569.17" y="267.29" anchorOffsetX="0" anchorOffsetY="0" id="resultGrp6" scaleX="1" scaleY="1"/>
+			<e:Group width="109.33" height="104" x="767.34" y="268.94" anchorOffsetX="0" anchorOffsetY="0" id="resultGrp7" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+
+		<bcbm:BcbmTip id="countdownTip" width="61.33" height="74.67" x="1255.99" y="154.3" skinName="BcbmTip" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="betHistoryGrp" width="96" height="441.33" x="1235.62" y="134.68" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Scroller id="resultScroller" width="65" height="302.67" x="17.31" y="98.36" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="resultGroup" anchorOffsetX="0" width="65" anchorOffsetY="0" height="357.34" x="1.33">
+			<e:layout>
+				<e:VerticalLayout paddingLeft="10"/>			
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Group id="optGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0" touchThrough="true" x="10" y="10">
+
+		<e:Group width="741.33" height="93.33" x="355" y="35" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Button id="testBtn" label="Button" x="692.75" y="-8.6" scaleX="1" scaleY="1" visible="false"/>
+			<e:Button id="test1" label="1" x="10.66" y="25.99" scaleX="1" scaleY="1" anchorOffsetX="0" width="46.67" anchorOffsetY="0" height="38" visible="false"/>
+			<e:Button id="test2" label="2" x="76.64" y="25.32" scaleX="1" scaleY="1" anchorOffsetX="0" width="46.67" anchorOffsetY="0" height="38" visible="false"/>
+			<e:Button id="test3" label="3" x="150.63" y="24.65" scaleX="1" scaleY="1" anchorOffsetX="0" width="46.67" anchorOffsetY="0" height="38" visible="false"/>
+			<e:Button id="test4" label="4" x="227.31" y="29.33" scaleX="1" scaleY="1" anchorOffsetX="0" width="46.67" anchorOffsetY="0" height="38" visible="false"/>
+			<e:Button id="test5" label="5" x="304" y="26" scaleX="1" scaleY="1" anchorOffsetX="0" width="46.67" anchorOffsetY="0" height="38" visible="false"/>
+			<e:Button id="test6" label="6" x="380.66" y="36" scaleX="1" scaleY="1" anchorOffsetX="0" width="46.67" anchorOffsetY="0" height="38" visible="false"/>
+			<e:Button id="test7" label="7" x="457.33" y="32.67" scaleX="1" scaleY="1" anchorOffsetX="0" width="46.67" anchorOffsetY="0" height="38" visible="false"/>
+			<e:Button id="test8" label="8" x="534" y="29.34" scaleX="1" scaleY="1" anchorOffsetX="0" width="46.67" anchorOffsetY="0" height="38" visible="false"/>
+		</e:Group>
+
+		<e:Image source="bcbm_game_json.bcbm_game_bottom" x="149.66" y="581.99" scaleX="1" scaleY="1"/>
+		<e:Group id="betGroup" width="865.33" height="189.33" x="230.67" y="581.29" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<bcbm:BcbmBetButton id="betButton1" width="111" height="128" x="65.33" y="34.34" skinName="BcbmBetButtonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<bcbm:BcbmBetButton id="betButton5" width="111" height="128" x="193.98" y="33.7" skinName="BcbmBetButtonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<bcbm:BcbmBetButton id="betButton10" width="111" height="128" x="318.66" y="33.01" skinName="BcbmBetButtonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<bcbm:BcbmBetButton id="betButton50" width="111" height="128" x="447.34" y="35.02" skinName="BcbmBetButtonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<bcbm:BcbmBetButton id="betButton100" width="111" height="128" x="574.68" y="34.35" skinName="BcbmBetButtonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+			<bcbm:BcbmBetButton id="betButton200" width="111" height="128" x="701.57" y="33.66" skinName="BcbmBetButtonSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<ns1:IButton id="continueBtn" label="" x="1069.35" y="593.01" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_btn_continue" source.down="bcbm_game_json.bcbm_btn_continue" source.disabled="bcbm_game_json.bcbm_btn_continue0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<bcbm:BcbmUserHead id="selfPlayerHead" width="270" height="103" x="2.33" y="647" skinName="BcbmSelfHeadSkin" currentState="self" scaleX="1" scaleY="1"/>
+		<bcbm:BcbmUserHead id="bankerPlayerHead" width="426.06" height="71.18" x="494.32" y="-34.64" anchorOffsetX="0" anchorOffsetY="0" skinName="BcbmSelfHeadSkin" currentState="banker" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="onlinePlayerBtn" label="" x="1197.35" y="578.33" anchorOffsetX="0" width="140.67" anchorOffsetY="0" height="148.67" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_btn_online" source.down="bcbm_game_json.bcbm_btn_online" source.disabled="bcbm_game_json.bcbm_btn_online"/>
+				<e:BitmapLabel id="bitLabel" font="vbcbm_usernum_fnt" text="140" verticalCenter="29" horizontalCenter="13"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Group id="bsj0BetGroup" width="163.33" height="105.67" x="280" y="192.7" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Group id="benz0BetGroup" width="210.67" height="133.01" x="452.67" y="167.36" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Group id="bmw0BetGroup" width="212" height="132" x="670" y="168" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Group id="vw0BetGroup" width="169" height="105.67" x="889.36" y="193.71" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Group id="bsj1BetGroup" width="161.66" height="109.01" x="276.68" y="370.37" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Group id="benz1BetGroup" width="205" height="139.68" x="454.34" y="367.03" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Group id="bmw1BetGroup" width="208" height="137.34" x="671.66" y="367.04" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Group id="vw1BetGroup" width="166" height="105.68" x="891" y="369.01" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Image id="touchMask0" source="bcbm_game_json.bcbm_game_groupmask1" x="443.31" y="334.48" rotation="180"/>
+		<e:Image id="touchMask1" source="bcbm_game_json.bcbm_game_groupmask1" x="446.6" y="338.39" rotation="180" anchorOffsetY="0" height="-36.67" scaleY="-1"/>
+		<e:Image id="touchMask2" source="bcbm_game_json.bcbm_game_groupmask2" x="449.92" y="161.61"/>
+		<e:Image source="bcbm_game_json.bcbm_game_groupmask2" x="449.57" y="338.3" id="touchMask3"/>
+		<e:Image source="bcbm_game_json.bcbm_game_groupmask2" x="668.25" y="161.64" id="touchMask4"/>
+		<e:Image source="bcbm_game_json.bcbm_game_groupmask2" x="669.9" y="338.31" id="touchMask5"/>
+		<e:Image id="touchMask6" source="bcbm_game_json.bcbm_game_groupmask1" x="886.32" y="334.44" rotation="180" scaleX="-1"/>
+		<e:Image id="touchMask7" source="bcbm_game_json.bcbm_game_groupmask1" x="886.36" y="338.44" rotation="180" scaleX="-1" scaleY="-1"/>
+		<e:BitmapLabel id="betBsjLabel0" width="169" height="28" x="265.83" y="302" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="right" font="vbcbm_t_fnt"/>
+		<e:BitmapLabel id="betBenzLabel0" width="169" height="28" x="483.49" y="302" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="right" font="vbcbm_t_fnt"/>
+		<e:BitmapLabel id="betBmwLabel0" width="169" height="28" x="704.5" y="302" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="right" font="vbcbm_t_fnt"/>
+		<e:BitmapLabel id="betVwLabel0" width="169" height="28" x="898.83" y="302" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="right" font="vbcbm_t_fnt"/>
+		<e:BitmapLabel id="betBsjLabel1" width="169" height="28" x="265.83" y="344" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="right" font="vbcbm_t_fnt"/>
+		<e:BitmapLabel id="betBenzLabel1" width="169" height="28" x="482.83" y="344" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="right" font="vbcbm_t_fnt"/>
+		<e:BitmapLabel id="betBmwLabel1" width="169" height="28" x="704.83" y="344" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="right" font="vbcbm_t_fnt"/>
+		<e:BitmapLabel id="betVwLabel1" width="169" height="28" x="897.83" y="344" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="right" font="vbcbm_t_fnt"/>
+		<e:BitmapLabel id="betBsjLabel2" width="169" height="28" x="241.82" y="302" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="left" font="vbcbm_me_fnt"/>
+		<e:BitmapLabel id="betBenzLabel2" width="169" height="28" x="460.48" y="302" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="left" font="vbcbm_me_fnt"/>
+		<e:BitmapLabel id="betBmwLabel2" width="169" height="28" x="681.49" y="302.03" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="left" font="vbcbm_me_fnt"/>
+		<e:BitmapLabel id="betVwLabel2" width="169" height="28" x="895.77" y="302" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="left" font="vbcbm_me_fnt"/>
+		<e:BitmapLabel id="betBsjLabel3" width="169" height="28" x="242.82" y="344" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="left" font="vbcbm_me_fnt"/>
+		<e:BitmapLabel id="betBenzLabel3" width="169" height="28" x="460.82" y="344" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="left" font="vbcbm_me_fnt"/>
+		<e:BitmapLabel id="betBmwLabel3" width="169" height="28" x="682.82" y="344" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="left" font="vbcbm_me_fnt"/>
+		<e:BitmapLabel id="betVwLabel3" width="169" height="28" x="895.77" y="344" anchorOffsetX="0" anchorOffsetY="0" text="12345" textAlign="left" font="vbcbm_me_fnt"/>
+	</e:Group>
+	<e:Group id="animGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0" touchThrough="true" touchChildren="true">
+		<e:Image id="statusAnimBg" source="bcbm_game_json.bcbm_game_bg2" x="-727.8000000000001" y="269.00000000000006" scaleX="1" scaleY="1"/>
+		<e:Image id="statusAnimImg" source="bcbm_game_json.bcbm_btn_switch" x="1674.8" y="349" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="downBanker" label="" x="1209.42" y="16.65" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_btn_bankerdown" source.down="bcbm_game_json.bcbm_btn_bankerdown" source.disabled="bcbm_game_json.bcbm_btn_bankerdown"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="upBanker" label="" x="1209.28" y="16.31" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_btn_bankerup" source.down="bcbm_game_json.bcbm_btn_bankerup" source.disabled="bcbm_game_json.bcbm_btn_bankerup"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="upBankerNum" text="Label" x="1192.62" y="83.67" textColor="0x63a6dc" fontFamily="Microsoft YaHei" bold="true" size="19" anchorOffsetX="0" width="137" textAlign="center" scaleX="1" scaleY="1"/>
+		<bcbm:BcbmMenu id="bcbmMenu" width="212.42" height="113.94" x="-1.38" y="8.07" scaleX="1" scaleY="1" skinName="BcbmMenuSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:DragonAnim id="waitAnim" width="600" height="20" anchorOffsetX="0" anchorOffsetY="0" anim="bcbm_dengdaixiaju" defaultPlayAnim="waitAnim" aligntype="middle" playOnStage="false" isloop="true" touchEnabled="false" touchChildren="false" scaleX="1" scaleY="1" isTouchByGroup="true" horizontalCenter="0" verticalCenter="0"/>
+
+	</e:Group>
+	<e:Button id="frameBtn10" label="帧率10" x="912" y="18" visible="false"/>
+	<e:Button id="frameBtn20" label="帧率20" x="1023" y="18" visible="false"/>
+	<e:Button id="frameBtn30" label="帧率30" x="1134.68" y="18" visible="false"/>
+</e:Skin>

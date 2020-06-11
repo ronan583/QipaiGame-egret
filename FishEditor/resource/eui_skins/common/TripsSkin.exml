@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TripsSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="common_trips_bg_png" verticalCenter="0" horizontalCenter="0" />
+    <e:Label id="textLab" text="" anchorOffsetX="0" anchorOffsetY="0" height="44" horizontalCenter="0" verticalCenter="0"
+             textAlign="center" verticalAlign="middle" textColor="0xffd234" fontFamily="Microsoft YaHei" size="26"
+             name="textLab" />
+</e:Skin>

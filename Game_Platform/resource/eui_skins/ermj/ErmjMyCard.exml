@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjMyCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*"  width="88" height="129">
+	<w:Declarations>
+		<tween:TweenGroup id="drawCardGroup">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{-180}" y="{-52}" x="{42.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="375">
+					<tween:props>
+						<e:Object rotation="{0}" x="{42.5}" y="{64}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="selectCardGroup">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{42.5}" y="{64}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="125">
+					<tween:props>
+						<e:Object y="{25}" x="{42.5}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="pushGroup">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-55}" x="{109}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{-55}" x="{37}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{42.5}" y="{64}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="cancelGroup">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{25}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="125">
+					<tween:props>
+						<e:Object y="{64}" x="{42.5}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="normalGroup">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{42.5}" y="{64}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="1680ba73e30" ></w:Config>
+	<e:Image id="image" anchorOffsetX="44" anchorOffsetY="64.5" source="ermj_battle_json.title23" x="44" y="64.5"/>
+</e:Skin>

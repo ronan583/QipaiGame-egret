@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BSTweenCardSkin" width="127" height="181" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16630be0058" ></w:Config>
+	<e:Image id="tweenCard" width="127" height="181" x="0" y="0" source=""/>
+</e:Skin>

@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "fqzs_room_bg_jpg,fqzs_qidong_ske_dbbin,fqzs_qidong_tex_png,fqzs_qidong_tex_json",
+			"name": "fqzs_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/fqzs/fqzs_room_bg.jpg",
+			"type": "image",
+			"name": "fqzs_room_bg_jpg"
+		},
+		{
+			"url": "assets/fqzs/animation/room/fqzs_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "fqzs_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/fqzs/animation/room/fqzs_qidong_tex.png",
+			"type": "image",
+			"name": "fqzs_qidong_tex_png"
+		},
+		{
+			"url": "assets/fqzs/animation/room/fqzs_qidong_tex.json",
+			"type": "json",
+			"name": "fqzs_qidong_tex_json"
+		}
+	]
+}

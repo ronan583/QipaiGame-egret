@@ -1,0 +1,126 @@
+option java_package = "com.gp.game.message";
+
+//首次进入房间
+message OpBenzBmwFirstRoom{
+	required int32 roomId = 1; //房间ID
+}
+
+message OpBenzBmwFirstRoomPush{
+	required int32 status = 1; // 0.休息中 1.下注中 2.开奖中 
+	required int32 downTime = 2;//倒计时时间
+	repeated OPBenzBmwRoomStake  roomStakeInfo = 3;//总的下注情况
+	repeated OPBenzBmwRoomStake  myStakeInfo = 4;//玩家的下注情况
+	required int32 upBankerNum = 5;// 庄家信息 集合有多少数量就有多少人
+	required bool isBanker = 6;// 进来的时候判断自己是否为 庄家(掉线进来的时候)
+	required int64 upBankerMinMoney = 7;//上庄最低金额
+	optional PushBenzBmwBattleFinsh  BattleFinsh = 8 ;//判断是否处于结算状态
+	optional int32 serialNumber = 9; //局数编号
+}
+
+ 
+
+//房间的下注
+message OPBenzBmwRoomStake{
+	required int32 type = 1; // 1.大保时捷 2.小保时捷 3.大奔驰 4.小奔驰  5.大宝马  6.小宝马  7.大大众 8.小大众 
+	required int64 value = 2;//下注值
+}
+
+
+//开奖记录
+message OPBenzBmwRoundInfo{
+	required int32 version = 1; 
+}
+message OPBenzBmwRoundInfoRet {
+	repeated int32 type = 1;// 1.大保时捷 2.小保时捷 3.大奔驰 4.小奔驰  5.大宝马  6.小宝马  7.大大众 8.小大众
+}
+
+
+
+//个人的下注
+message OPBenzBmwStake{
+	required int32 type = 1; // 1.大保时捷 2.小保时捷 3.大奔驰 4.小奔驰  5.大宝马  6.小宝马  7.大大众 8.小大众
+	required int64 value = 2;//下注值
+}
+
+message OPBenzBmwStakeRet{
+	required int64 playerId = 1; //下注人
+	required int32 type = 2; // 1.大保时捷 2.小保时捷 3.大奔驰 4.小奔驰  5.大宝马  6.小宝马  7.大大众 8.小大众
+	required int64 value = 3;//下注值
+	optional int64 totalValue = 4;//下注值
+}
+
+
+
+//查看在线玩家排行列表 --按照余额进行排名 
+message OPBenzBmwPlayerRank{
+	required int32 version = 1; //
+}
+message OPBenzBmwPlayerRankRet{
+	repeated OPBenzBmwPlayerInfo playerInfo = 1;//玩家的四个消息都需要
+}
+
+
+//玩家信息
+message OPBenzBmwPlayerInfo{
+	required int64 playerId = 1; //玩家id
+	optional string nickName = 2;//昵称
+	optional int32 headNum = 3;//头像编号
+	optional int64 money = 4;//余额
+	optional string city = 5;//地址
+}
+
+
+//上庄
+message OpBenzBmwUpBanker{
+	required int32 version = 1;  //1普通 2抢庄
+}
+message OpBenzBmwUpBankerRet{
+	repeated OPBenzBmwBankerInfo bankerInfos = 1;//集合里面有多少人就有多少人在等待上庄
+	required int64 bankerPlayerId = 2 ; //申请上庄的人的id
+
+}
+
+
+//下庄
+message OpBenzBmwDownBanker{
+	required int32 version = 1; 
+}
+
+
+message OpBenzBmwDownBankerRet {
+	repeated OPBenzBmwBankerInfo bankerInfos = 1;//集合里面有多少人就有多少人在等待上庄
+	required int64 bankerPlayerId = 2 ; //申请下庄的人的id
+}
+
+
+
+message OPBenzBmwBankerInfo{
+	optional int32 bankerNum = 1[default = 0];//连庄回合
+	required OPBenzBmwPlayerInfo playerInfo = 2;//需要玩家的头像，地址，和余额三个信息
+}
+
+
+//开始or停止下注
+message OPBenzBmwBattleStatusPush {
+	required int32 status = 1; //1开始下注 2.停止下注 3.开始游戏
+	required int32 downTime = 2;//倒计时时间
+	optional  bool isSwitchBanker = 3;//是否切换庄家 true 切换
+	optional int32 serialNumber = 4; //局数编号
+} 
+
+
+
+//游戏结果(结算展示 自己 ，庄家，的输赢金额 ，赢钱前五名的信息)
+message PushBenzBmwBattleFinsh {
+	required int32 winType = 2;// 1.大保时捷 2.小保时捷 3.大奔驰 4.小奔驰  5.大宝马  6.小宝马  7.大大众 8.小大众 --- 胜负情况 最后一个数字为最新数据（要等结算后才显示出来）
+	required int32 rondom = 3 ;//随机数(0-3)
+	repeated OPBenzBmwPlayerBattleInfo battleInfo = 1;//庄家和玩家自己的信息
+	repeated OPBenzBmwPlayerBattleInfo rankInfo = 4;//前五的排行
+}
+//玩家游戏信息 --这句的输赢情况
+message OPBenzBmwPlayerBattleInfo {
+	required int64 playerId = 1; //下注人
+	optional string nickName = 2;//城市
+	required int64 costMoney = 3; //输赢金币
+	required int64 totalMoney=4;//总金币
+}

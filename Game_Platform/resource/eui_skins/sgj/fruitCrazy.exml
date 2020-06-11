@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="fruitCrazy" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image x="0" y="0" source="fruit_bg_xyx_jpg"/>
+	<e:Image y="0" source="fruit_xyx_title" x="325"/>
+	<e:Image x="86" y="160" source="fruit_d4g"/>
+	<e:Image x="86" y="289" source="fruit_d3g"/>
+	<e:Image x="86" y="418" source="fruit_d2g"/>
+	<e:Image x="86" y="546" source="fruit_d1g"/>
+	<e:Group width="954" height="120" x="258" y="508" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:FruitCrazyIcon id="levelIcon1_1" width="122" height="150" x="6" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon1_2" width="122" height="150" x="208" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon1_3" width="122" height="150" x="409" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon1_4" width="122" height="150" x="611" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon1_5" width="122" height="150" x="812" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group width="954" height="118" x="258" y="378" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:FruitCrazyIcon id="levelIcon2_1" width="122" height="150" x="6" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon2_2" width="122" height="150" x="208" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon2_3" width="122" height="150" x="409" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon2_4" width="122" height="150" x="611" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon2_5" width="122" height="150" x="812" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group width="954" height="118" x="258" y="242" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:FruitCrazyIcon id="levelIcon3_1" width="122" height="150" x="6" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon3_2" width="122" height="150" x="208" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon3_3" width="122" height="150" x="409" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon3_4" width="122" height="150" x="611" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon3_5" width="122" height="150" x="812" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group width="954" height="114" x="252" y="112" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:FruitCrazyIcon id="levelIcon4_1" width="122" height="150" x="6" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon4_2" width="122" height="150" x="208" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon4_3" width="122" height="150" x="409" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon4_4" width="122" height="150" x="611" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:FruitCrazyIcon id="levelIcon4_5" width="122" height="150" x="812" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image x="22" y="624" source="fruit_text_zd"/>
+	<e:Image x="542" y="660" source="fruit_text_dqf"/>
+	<e:BitmapLabel id="totalWinLabel" width="172" height="42" x="708" y="664" text="0.00" anchorOffsetX="0" anchorOffsetY="0" font="fruit_crazy_font_fnt"/>
+	<e:Group id="gameOverGroup" width="1280" height="720" x="0" y="0">
+		<e:Rect width="1280" height="720" x="0" y="0" strokeAlpha="0.3" fillAlpha="0.5"/>
+		<e:Image x="354.5" y="256.5" source="fruit_text_go"/>
+		<e:BitmapLabel id="winMoneyLabel" width="301" height="57" x="435.25" y="378" font="fruit_crazy_font_fnt" text="1.00" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" scaleX="1.5" scaleY="1.5"/>
+	</e:Group>
+</e:Skin>

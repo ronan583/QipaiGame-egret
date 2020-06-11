@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzRoomItemSkin" width="270.67" height="576.67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16bcc0ace65" ></w:Config>
+
+	<e:Image id="stateImg" y="384.48" x="135" source="lhdzn_baoman"/>
+
+</e:Skin>

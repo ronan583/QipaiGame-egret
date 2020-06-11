@@ -1,0 +1,16 @@
+{"file":"rank_fnt5.png","frames":{
+",":{"x":53,"y":76,"w":7,"h":9,"offX":1,"offY":15,"sourceW":10,"sourceH":24},
+".":{"x":53,"y":87,"w":6,"h":7,"offX":1,"offY":16,"sourceW":10,"sourceH":24},
+"0":{"x":43,"y":51,"w":15,"h":23,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"1":{"x":52,"y":1,"w":11,"h":22,"offX":1,"offY":0,"sourceW":16,"sourceH":24},
+"2":{"x":43,"y":27,"w":16,"h":22,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"3":{"x":1,"y":100,"w":15,"h":22,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"4":{"x":36,"y":76,"w":15,"h":23,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"5":{"x":1,"y":75,"w":15,"h":23,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"6":{"x":25,"y":27,"w":16,"h":23,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"7":{"x":1,"y":50,"w":16,"h":23,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"8":{"x":19,"y":52,"w":15,"h":23,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"9":{"x":18,"y":77,"w":15,"h":23,"offX":0,"offY":0,"sourceW":16,"sourceH":24},
+"千":{"x":27,"y":1,"w":23,"h":24,"offX":0,"offY":0,"sourceW":24,"sourceH":24},
+"万":{"x":1,"y":26,"w":22,"h":22,"offX":0,"offY":1,"sourceW":24,"sourceH":24},
+"亿":{"x":1,"y":1,"w":24,"h":23,"offX":0,"offY":0,"sourceW":24,"sourceH":24}}}

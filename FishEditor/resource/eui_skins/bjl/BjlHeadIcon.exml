@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlHeadIconSkin" width="152" height="202" currentState="otherRight" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="self,first,second,other,otherRight,banker"  width.self="250" width.banker="242.5" height.banker="100">
+	<w:Config id="168d6abbbcf" ></w:Config>
+	<e:Image width="152" height="80" scale9Grid="14,7,124,49" x="0" y="0" source="play_bg" width.self="251" height.self="114" width.first="134" height.first="173" width.second="134" height.second="173" width.other="134" height.other="173" source.other="play_bg_other" source.self="play_bg_self" source.first="play_bg_other" source.second="play_bg_other" visible="false"/>
+
+	<e:Image id="headFrameImg" y="9" x="17" scaleX="1" scaleY="1" x.first="18" x.second="16" x.other="16" scale9Grid="11,10,45,48" anchorOffsetX="0" anchorOffsetY="0" source="touxiangk" source.banker="headFrame" scale9Grid.banker="24,15,45,46" width.banker="218" source.self="bjlGame_json.headFrame"/>
+	<e:Image id="headIconImg" y="17.5" x="31.5" scaleX="0.7" scaleY="0.7" x.first="26" x.second="25" x.other="31" source="gp_head_1" y.self="12" y.first="15.5" y.second="17.5" y.other="15.5" scaleX.self="0.8" scaleY.self="0.8" x.self="27" width="90" height="94"/>
+	<e:Image source="bjlGame_json.nameBG" x="4.17" y="116" visible.self="false"/>
+	<e:Image source="bjlGame_json.nameBG" x="4.17" y="151" visible.other="false" visible.otherRight="false" source.self="bjlGame_json.hlssm_sjlxbg" x.self="111.33" y.self="50" anchorOffsetX.self="0" width.self="122"/>
+
+	<e:Group x="0" y="142.01" y.banker="21.51" anchorOffsetY.banker="0" height.banker="54" x.banker="98.5">
+
+		<e:Label id="gold" text="10,000" x="43" y="15" size="18" width="100" textAlign="left" verticalAlign="middle" fontFamily="Microsoft YaHei" x.self="122.33" y.self="-86.71" size.self="19" y.first="15" x.first="33" y.second="16" x.second="30" y.other="-3" x.other="42" visible.other="false" visible.otherRight="false" y.banker="33" x.banker="7.5" textColor.banker="0xeaca69" textAlign.banker="center" textColor="0xeaca69"/>
+		<e:Label id="playerName" text="name11111111" x="9.17" y="-21" size="19" width="131" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="23" anchorOffsetX="0" x.first="7" y.first="-22" x.second="6" y.second="-21" size.first="18" x.other="28" y.other="-59.5" size.second="18" size.other="18" y.self="-124.01" fontFamily="Microsoft YaHei" x.self="107.83" textColor="0xfff3db" size.self="18" text.self="1462908573" text.other="name11" width.other="70" x.otherRight="25.5" y.otherRight="-57" width.otherRight="75" height.other="20" size.otherRight="18" height.otherRight="20" y.banker="1.5" x.banker="13.17" width.banker="94.5"/>
+
+	</e:Group>
+	<e:Group id="winTip" width="152" height="202" x="1.33" y="1.99" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="winTipLabel" height="30" text="+7y" textAlign="center" verticalAlign="middle" font="betNum_fnt" anchorOffsetX="0" x.otherRight="41" x.other="41" y="86" textAlign.otherRight="right" right.otherRight="42" left.other="41" left.second="41" right.first="42" left.self="41"/>
+	</e:Group>
+	<e:Group id="loseTip" width="152" height="202" x="0" y="0.33" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="loseTipLabel" height="30" text="-7y" textAlign="center" verticalAlign="middle" anchorOffsetX="0" font="blue_fnt" textAlign.otherRight="right" right.otherRight="43" y.otherRight="86" left.other="44" left.second="44" right.first="43" left.self="44" x="44" y="86"/>
+	</e:Group>
+	<ns1:IButton id="chargeBtn" label="" x="108.36" y="44.27" includeIn="self" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bjlGame_json.Hlssm_Battle_jd2jh" source.down="bjlGame_json.Hlssm_Battle_jd2jh" source.disabled="bjlGame_json.Hlssm_Battle_jd2jh"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:bjl="game.bjl.*" xmlns:tween="egret.tween.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+
+
+</e:Skin>

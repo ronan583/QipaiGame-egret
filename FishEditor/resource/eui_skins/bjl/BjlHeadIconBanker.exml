@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlHeadIconBankerSkin" width="270" height="111" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image x="4" y="6" source="bjl_banker_bg"/>
+	<e:Image source="headFrame" y="19" x="8"/>
+	<e:Image source="Head_Bg_Boy" scale9Grid="24,30,16,10" anchorOffsetX="0" width="75" y="20" height="75" x="16"/>
+	<e:Image id="headIconImg" width="72" height="72" x="18" y="20" source="gp_head_1"/>
+	<e:Label id="playerName" text="Label" x="97" y="34" fontFamily="Microsoft YaHei" size="25" textColor="0xfff3db" anchorOffsetX="0" width="152" textAlign="center" anchorOffsetY="0" height="28"/>
+	<e:BitmapLabel width="44" height="21" x="4" y="69" text="V" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:BitmapLabel id="gameVipLabel" width="44" height="21" x="23" y="70" text="0" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="winTip" width="152" height="202" x="-33.5" y="-17.01" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="winTipLabel" height="30" text="+7y" textAlign="center" verticalAlign="middle" font="betNum_fnt" anchorOffsetX="0" y="86" x="-15.5" width="200"/>
+	</e:Group>
+	<e:Group id="loseTip" width="152" height="202" x="-33.5" y="-18.67" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="loseTipLabel" height="30" text="-7y" textAlign="center" verticalAlign="middle" anchorOffsetX="0" font="blue_fnt" x="-12" y="87" width="200"/>
+	</e:Group>
+	<e:Label text="2.2亿" x="100" y="69.33" anchorOffsetY="0" height="23.67" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="145.67" textAlign="center" id="gold" textColor="0xFFE191"/>
+	<e:Image x="236" y="-3" source="bankerIcon"/>
+	<e:Image x="91" y="68.5" source="gpn_icon_gold" width="30" height="30" scaleX="1" scaleY="1"/>
+	
+
+</e:Skin>

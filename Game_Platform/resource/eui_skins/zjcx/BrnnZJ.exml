@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnZJ" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0.5" verticalCenter="18" x="152" y="17" scaleX="1" scaleY="1" source="brnn_zjcx_json.brnn_zjcx_bg"/>
+		<e:Scroller id="scroller" width="958.11" height="540.55" anchorOffsetY="0" anchorOffsetX="0" y="134.23" alpha="1" scaleX="1" scaleY="1" horizontalCenter="1">
+		<e:Group id="viewport" anchorOffsetX="0" x="190.91" y="0" alpha="1" anchorOffsetY="0">
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="3"/>
+			</e:layout>
+			<ns1:BrnnRecordBar x="4.52" y="110" skinName="BrnnRecordBarSkin"/>
+			<ns1:BrnnRecordBar x="14.52" y="120" skinName="BrnnRecordBarSkin"/>
+			<ns1:BrnnRecordBar x="24.52" y="130" skinName="BrnnRecordBarSkin"/>
+		</e:Group>
+		</e:Scroller>
+		<e:Image y="48.27" horizontalCenter="0.5" source="brnn_zjcx_json.brnn_zjcx_title"/>
+		<ns1:IButton id="closeBtn" label="" x="1124.27" y="35.6" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_bank_json.brnn_bank_close" source.down="brnn_bank_json.brnn_bank_close" source.disabled="brnn_bank_json.brnn_bank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuobaoRoom" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:RoomTop id="roomTop"/>
+
+	<e:Button id="backBtn" label="" x="14" y="120" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image x="1059.46" y="25.11" source="db_title"/>
+	<e:Group width="926.01" height="446" y="228" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-38">
+		<e:Group id="group4" width="284" height="406.67" x="64" y="14" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="btnRoom0" label="" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="db_room1" source.down="db_room1" source.disabled="db_room1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+
+			</e:Button>
+			<e:Image x="3.57" y="-0.96" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" width="294" anchorOffsetY="0" height="402.61" source="duobaoRoom_json.duobao_icon1"/>
+			<ns1:RoomMc x="35" y="220" anchorOffsetY="0" height="68" mcData="tiyan_blue_mc_json" mcName="tiyan_blue" mcTxtr="tiyan_blue_tex_png"/>
+
+
+		</e:Group>
+		<e:Group id="group0" width="284" height="412" x="556" y="14" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="btnRoom1" label="" x="0" y="0" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="db_room2" source.down="db_room2" source.disabled="db_room2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+
+
+
+			</e:Button>
+			<e:Image x="-6.43" y="7.04" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetX="0" width="296" anchorOffsetY="0" height="402.61" source="duobaoRoom_json.duobao_icon2"/>
+			<e:Label text="练习场" x="19.5" y="275" size="50" anchorOffsetX="0" width="225" anchorOffsetY="0" height="100" verticalAlign="middle" textAlign="center" fontFamily="SimHei" bold="true" touchEnabled="false" textColor="0x16ad42" visible="false"/>
+			<ns1:RoomMc height="68" x="41" y="220" mcData="jinbi_mc_json" mcName="jinbi" mcTxtr="jinbi_tex_png"/>
+
+
+
+		</e:Group>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+
+
+
+	</e:Group>
+	<e:Image x="1023.46" y="25.11" source="duobaoRoom_json.duobao_title"/>
+	<e:Group id="animGroup" width="378" height="454" x="86" y="214" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+</e:Skin>

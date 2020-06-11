@@ -1,0 +1,112 @@
+option java_package = "com.gp.game.message";
+
+//开始游戏
+message OPTexasStartGame{
+	repeated OPTexasPlayerInfo playerInfo = 1;//玩家信息
+	required int64 bankerPlayerId = 2;//庄家id
+	required int64 currentOperatorId = 3;//当前操作者
+	required int32 currentOperatorType = 4;//当前操作者类型
+	repeated int64 cardPoolMoney = 5;//牌池的钱
+	required int64 totalPoolMoney = 6;//总池的钱
+	required int32 round = 7;//
+	required int32 downTime = 8;//
+	repeated int32 myCards =9;//自己的手牌
+	required int64 stakeMoney = 10;//跟注金额
+}
+
+message OPTexasPlayerInfo{
+	required int64 playerId = 1;//玩家id
+	required int64 bet = 2;//下注值 只有大盲 小盲者有值 其他为0
+	required int32 type = 3;//状态 0 观看 1正式
+	required int64 money = 4;//余额
+	required int32 cardType = 5;//手牌的类型
+}
+
+//发牌
+message OPTexasDealCard {
+	repeated int32 cards = 1;//牌
+	required int32 cardType = 2;//牌类型
+	required int64 currentOperatorId = 3;//当前操作者
+	required int32 currentOperatorType = 4;//当前操作者类型
+	required int32 downTime = 5;//
+	repeated int64 cardPoolMoney = 6;//牌池的钱
+	required int64 totalPoolMoney = 7;//总池的钱
+	required int32 round = 8;//
+}
+
+//操作
+message OPTexasStep {
+	optional int64 stakeMoney = 1;//下注金额
+	required int32 stakeType = 2;//0.弃牌 1<<1.让牌 1<<2.跟注 1<<3.加注 1<<4.全压 1<<5.大盲*3 1<<6.大盲*4 1<<7.牌底*1
+}
+
+message OPTexasStepRet {
+	required int64 stakePlayerId = 1;//下注者的id
+	required int64 stakeMoney = 2;//下注金额
+	required int32 stakeType = 3;//////-1 不显示操作栏 0.弃牌 1<<1.让牌 1<<2.跟注 1<<3.加注 1<<4.全压 1<<5.大盲*3 1<<6.大盲*4 1<<7.牌底*1
+	required int64 currentOperatorId = 4;//当前操作者 =0 代表当前轮已结束
+	required int32 currentOperatorType = 5;//当前操作者类型
+	required int32 downTime = 6;//
+	repeated OPTexasCurrentMoney currentMoneys = 7;//
+	required int64 totalPoolMoney = 8;//总池的钱
+}
+message OPTexasCurrentMoney {
+	required int64 playerId = 1;//玩家id
+	required int64 currentBets = 2;//当轮下总的注
+	required int64 money = 3;//余额
+}
+
+//完成
+message OPTexasFinish {
+	repeated OPTexasWinBattleInfo winPlayerInfos = 1;//赢者信息
+	repeated OPTexasFinishPlayerInfo playerInfos = 2;//玩家信息
+	required int32 downTime = 3;//
+}
+
+message OPTexasWinBattleInfo {
+	required int64 winPlayerId = 1;//赢者的id
+	required int32 winType = 2;//赢者的牌类型
+}
+
+message OPTexasFinishPlayerInfo {
+	required int64 playerId = 1;//玩家id
+	required int64 costMoney = 2;//玩家输赢钱
+	required int64 totalMoney = 3;//玩家剩余钱
+	repeated int32 cards = 4;//组成的牌
+	repeated int32 handCards = 5;//组成的牌
+}
+
+
+//第一次进入房间  如果房间是战斗中才发
+message OPTexasFisrtEnter {
+	repeated OPTexasPlayerInfo playerInfo = 1;//玩家信息
+	required int64 bankerPlayerId = 2;//庄家id
+	repeated int32 publicCards = 3;//共用牌
+	repeated int32 handCards = 4;//我的手牌
+	required int32 cardType = 5;//牌类型
+	required int64 currentOperatorId = 6;//当前操作者
+	required int32 currentOperatorType = 7;//当前操作者类型
+	required int32 downTime = 8;//
+	repeated int64 cardPoolMoney = 9;//牌池的钱
+	required int64 totalPoolMoney = 10;//总池的钱
+	required int32 round = 11;//回合
+	required int64 stakeMoney = 12;//跟注金额
+}
+
+message OPTexasStepSet {
+	required int32 type = 1;//1.让或弃 2.自动让牌 3.跟任何注
+}
+message OPTexasStepSetRet {
+	required int32 type = 1;//1.让或弃 2.自动让牌 3.跟任何注
+}
+
+
+
+
+
+
+
+
+
+
+

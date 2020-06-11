@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdbZJ" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="zjcx_json.zjcx_bg4" horizontalCenter="0" verticalCenter="0"/>
+	<e:Scroller id="scroller" width="861.03" height="379" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-3.5" y="210" alpha="1">
+		<e:Group id="viewport" anchorOffsetX="0" width="860.03" x="190.91" y="0" height="379" alpha="1" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+			<ns1:LhdbRecordBar width="860" height="59" x="44" y="80" skinName="LhdbRecordBarSkin" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image source="zjcx_json.zjcx_title1" x="562" y="79"/>
+	<e:Image id="closeBtn" source="zjcx_json.zjcx_close_Btn3" x="1044" y="56.5"/>
+	<e:Image source="zjcx_json.zjcx_time1" x="243" y="165"/>
+	<e:Image source="zjcx_json.zjcx_room1" x="373" y="165"/>
+	<e:Image source="zjcx_json.zjcx_xianTiao" x="508" y="165"/>
+	<e:Image source="zjcx_json.zjcx_dianShu" x="634" y="165"/>
+	<e:Image source="zjcx_json.zjcx_xHJingBi" x="755" y="166"/>
+	<e:Image source="zjcx_json.zjcx_hDJingBi" x="921" y="165"/>
+</e:Skin>

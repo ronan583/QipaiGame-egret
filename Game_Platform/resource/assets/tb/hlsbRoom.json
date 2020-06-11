@@ -1,0 +1,13 @@
+{"file":"hlsbRoom.png","frames":{
+"lhsb_baoman":{"x":247,"y":198,"w":70,"h":27,"offX":0,"offY":0,"sourceW":70,"sourceH":27},
+"lhsb_back":{"x":329,"y":130,"w":93,"h":93,"offX":0,"offY":0,"sourceW":93,"sourceH":93},
+"lhsb_add":{"x":1,"y":198,"w":48,"h":52,"offX":0,"offY":0,"sourceW":48,"sourceH":52},
+"lhsb_yongji":{"x":175,"y":198,"w":70,"h":27,"offX":0,"offY":0,"sourceW":70,"sourceH":27},
+"lhsb_logo":{"x":1627,"y":1,"w":288,"h":130,"offX":0,"offY":0,"sourceW":288,"sourceH":130},
+"lhsb_kongxian":{"x":102,"y":198,"w":71,"h":27,"offX":0,"offY":0,"sourceW":71,"sourceH":27},
+"lhsb_help":{"x":1917,"y":111,"w":93,"h":94,"offX":0,"offY":0,"sourceW":93,"sourceH":94},
+"lhsb_headframe":{"x":1917,"y":1,"w":108,"h":108,"offX":0,"offY":0,"sourceW":108,"sourceH":108},
+"lhsb_gold_bg":{"x":1,"y":130,"w":326,"h":66,"offX":0,"offY":0,"sourceW":326,"sourceH":66},
+"lhsb_gold":{"x":51,"y":198,"w":49,"h":49,"offX":5,"offY":0,"sourceW":54,"sourceH":49},
+"lhsb_bottom":{"x":1,"y":1,"w":1624,"h":127,"offX":0,"offY":0,"sourceW":1624,"sourceH":127},
+"lhsb_zhunru":{"x":424,"y":130,"w":52,"h":23,"offX":0,"offY":0,"sourceW":52,"sourceH":24}}}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ImageButtonSkin" width="300" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16635739443" ></w:Config>
+	<e:Button label="Button" x="0" y="0" anchorOffsetX="0" width="300" anchorOffsetY="0" height="146.97">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_up_png" source.down="button_up_png" source.disabled="button_up_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="buttonImage" width="295.77" height="144.24" x="1.96" y="2.12" source="button_up_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="labelImage" width="138" height="77" x="58.06" y="35.74"/>
+</e:Skin>

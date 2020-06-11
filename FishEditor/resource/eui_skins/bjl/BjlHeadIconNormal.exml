@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlHeadIconNormalSkin" width="92" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="92" height="130" x="0" y="0">
+		<e:Image source="touxiangk" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="Head_Bg_Boy" scale9Grid="24,30,16,10" anchorOffsetX="0" width="70" y="4" height="70" x="11" scaleX="1" scaleY="1"/>
+		<e:Group id="fuhaoGroup" width="92" height="151.5" y="-23" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image x="-1.5" y="13.5" anchorOffsetX="0" anchorOffsetY="0" source="bjl_fuhao_head_frame"/>
+			<e:Image x="12" y="28.5" anchorOffsetX="0" anchorOffsetY="0" source="bjl_fuhao_head_bg"/>
+			<ns1:DragonAnim id="fuhaoAnim" width="70" height="18.33" x="10" y="2" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_dfh" touchChildren="false" touchEnabled="false" playOnStage="true" isloop="true" isTouchByGroup="true" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="dushenGroup" width="92" height="151.5" y="-23" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image x="-1.5" y="13.5" anchorOffsetX="0" anchorOffsetY="0" source="bjl_dushen_head_frame"/>
+			<e:Image x="12" y="28.5" anchorOffsetX="0" anchorOffsetY="0" source="bjl_dushen_head_bg"/>
+			<ns1:DragonAnim id="dushenAnim" width="70" height="18.33" x="10" y="2" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_dushen" touchChildren="false" touchEnabled="false" playOnStage="true" isloop="true" isTouchByGroup="true" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Image id="headIconImg" width="68" height="68" x="11.5" y="5.35" source="gp_head_1" scaleX="1" scaleY="1"/>
+		<e:Label id="playerName" text="Label" x="14" y="79" fontFamily="Microsoft YaHei" size="20" textColor="0xfff3db" anchorOffsetX="0" width="61" textAlign="center" height="20" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim id="headChangeAnim" width="91" height="123.33" x="0" y="-8" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_head_change" touchChildren="false" touchEnabled="false" playOnStage="false" isloop="false" isTouchByGroup="true" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel width="44" height="21" x="-1" y="48" text="V" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="gameVipLabel" width="44" height="21" x="18" y="49" text="0" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Group id="winTip" width="152" height="202" x="-33.5" y="-17.01" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scaleX="1" scaleY="1" visible="false">
+			<e:Image width="185" height="59" source="" x="-16" y="72"/>
+			<e:BitmapLabel id="winTipLabel" height="30" text="+7y" textAlign="center" verticalAlign="middle" font="betNum_fnt" anchorOffsetX="0" y="86" width="200" x="-24"/>
+		</e:Group>
+		<e:Group id="loseTip" width="152" height="202" x="-33.5" y="-18.67" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scaleX="1" scaleY="1" visible="false">
+			<e:Image width="185" height="59" source="" x="-16" y="72"/>
+			<e:BitmapLabel id="loseTipLabel" height="30" text="-78.8y" textAlign="center" verticalAlign="middle" anchorOffsetX="0" font="blue_fnt" y="87" width="200" x="-24"/>
+		</e:Group>
+		<e:Group id="goldGroup" width="151" height="32" x="-14" y="105" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="-7.329999999999998" y="-7.5" anchorOffsetX="0" source="bjl_self_gold_bg" scale9Grid="85,27,64,4" width="129" height="40" scaleX="1" scaleY="1"/>
+			<e:Image x="-4" y="-0.5" source="gpn_icon_gold" width="30" height="30" scaleX="1" scaleY="1"/>
+			<e:Label text="10000" x="26" y="0.6599999999999966" anchorOffsetY="0" height="22.67" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="83.67" textAlign="center" id="gold" textColor="0xFFE191" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="posFlagGroup" width="12" height="12" x="40" y="47" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Group id="shensuanziPos" width="7" height="11" x="42" y="-37" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	
+
+</e:Skin>

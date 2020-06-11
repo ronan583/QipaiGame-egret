@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BYChangeCanon" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image height="680" anchorOffsetX="0" anchorOffsetY="0" source="account_cell_bg_png" scale9Grid="12,10,451,61" verticalCenter="19" horizontalCenter="0" width="970"/>
+	<e:Image width="970" height="49" source="title_bar_png" scale9Grid="7,6,492,41" anchorOffsetY="0" horizontalCenter="1" anchorOffsetX="0" y="41"/>
+	<e:Image y="44.68" rotation="0" anchorOffsetY="0" source="chg_title_change" horizontalCenter="0"/>
+
+	<e:Button id="closeBtn" label="" x="1061.05" y="12.35" width="102" height="98">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png" source.down="close_png" source.disabled="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+	<e:Label id="dumiaoLab" text="已发送(120秒)" x="761.37" y="263" size="25" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="30" anchorOffsetX="0" width="179" textColor="0x353232" visible="false"/>
+	<e:Group width="875.52" height="601.88" x="207.01" y="94.01" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:BYCanonView id="canonView1" width="198.79" height="285.15" x="82" y="58.00000000000003" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:BYCanonView id="canonView2" width="198.79" height="285.15" x="92" y="68.00000000000003" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:BYCanonView id="canonView3" width="198.79" height="285.15" x="102" y="78.00000000000003" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:BYCanonView id="canonView4" width="198.79" height="285.15" x="112" y="88.00000000000003" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:BYCanonView id="canonView5" width="198.79" height="285.15" x="122" y="98.00000000000003" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:BYCanonView id="canonView6" width="198.79" height="285.15" x="132" y="108.00000000000003" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:BYCanonView id="canonView7" width="198.79" height="285.15" x="142" y="118.00000000000003" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="20"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+
+
+
+</e:Skin>

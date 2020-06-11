@@ -1,0 +1,710 @@
+{
+	"groups": [
+		{
+			"keys": "fruit_bg_png,fruit_0_fnt,fruit_0_png,fruit_slots_pot_png,fruit_slots_pot_fnt,fruithelp_json,fruit_bg_xyx_jpg,fruit_crazy_font_png,fruit_crazy_font_fnt,fruit_crazy_json,Boom_tex_png,Boom_mc_json,sgjRoom_json,fruit_pool_fnt,fruit_pool_png,fruit_win_png,fruit_win_fnt,fruit_help_title_png,sgj_room_tex_png,sgj_room_tex_json,sgj_room_ske_dbbin,fruit_boxlight_ske_dbbin,fruit_boxlight_tex_png,fruit_chuji_ske_dbbin,fruit_chuji_tex_png,fruit_putong_ske_dbbin,fruit_putong_tex_png,fruit_qidong_ske_dbbin,fruit_qidong_tex_png,fruit_quickstart_ske_dbbin,fruit_quickstart_tex_png,fruit_tiyan_ske_dbbin,fruit_tiyan_tex_png,fruit_zhongji_ske_dbbin,fruit_zhongji_tex_png,fruit_boxlight_tex_json,fruit_putong_tex_json,fruit_chuji_tex_json,fruit_tiyan_tex_json,fruit_quickstart_tex_json,fruit_zhongji_tex_json,fruit_qidong_tex_json,fruit_help_bg_png,fruit_help_close_png,fruit_help_content_png,fruit_gaoji_ske_dbbin,fruit_gaoji_tex_json,fruit_gaoji_tex_png,nfruit_bg_jpg,fruitfnt1_fnt,fruitfnt1_png,fruitfnt2_fnt,fruitfnt2_png,nfruit_json,fruitfnt3_png,fruitfnt3_fnt,fruitAnim10_ske_dbbin,fruitAnim10_tex_png,fruitAnim11_ske_dbbin,fruitAnim11_tex_png,fruitAnim12_ske_dbbin,fruitAnim12_tex_png,fruitAnim13_ske_dbbin,fruitAnim13_tex_png,fruitAnim1_ske_dbbin,fruitAnim1_tex_png,fruitAnim2_ske_dbbin,fruitAnim2_tex_png,fruitAnim3_ske_dbbin,fruitAnim3_tex_png,fruitAnim4_ske_dbbin,fruitAnim4_tex_png,fruitAnim5_ske_dbbin,fruitAnim5_tex_png,fruitAnim6_ske_dbbin,fruitAnim6_tex_png,fruitAnim7_ske_dbbin,fruitAnim7_tex_png,fruitAnim8_ske_dbbin,fruitAnim8_tex_png,fruitAnim9_ske_dbbin,fruitAnim9_tex_png,fruitAnim10_tex_json,fruitAnim12_tex_json,fruitAnim11_tex_json,fruitAnim13_tex_json,fruitAnim1_tex_json,fruitAnim2_tex_json,fruitAnim4_tex_json,fruitAnim6_tex_json,fruitAnim3_tex_json,fruitAnim7_tex_json,fruitAnim5_tex_json,fruitAnim9_tex_json,fruitAnim8_tex_json,fruitIcon_json,fruitSetting_json,fruit_bigwin_ske_dbbin,fruit_bigwin_tex_png,fruit_bigwin_tex_json,fruit_bank_bg_png,fruit_bank_bg2_png,fruit_bank_close_png,fruit_bank_draw_btn_png,fruit_bank_input_bg_png,fruit_bank_pro_bar_png,fruit_bank_pro_bg_png,fruit_bank_thumb_png,fruit_bank_title_png,fruit_bank_max_png,fruitfnt4_fnt,fruitfnt4_png,bottomDisable_png,lineDisable_png,maxDisable_png,fruit_win_2_fnt,fruit_win_2_png,fruit_startmenu_effect_tex_png,fruit_startmenu_effect_tex_json,fruit_startmenu_effect_ske_dbbin,fruit_fly_coin_png,fruit_result_bg1_png,fruit_fly_coin_nb_png,fruit_fly_coin_ns_png,fruit_particle_win_png,fruit_particle_win_json",
+			"name": "fruit"
+		},
+		{
+			"keys": "fruit_background_mp3,fruit_bgFree_mp3,fruit_bigWin_mp3,fruit_smallBoom_mp3,fruit_smallFruit_mp3,fruit_start_mp3,fruit_winBig_mp3,fruit_winLittle_mp3,fruit_roll_mp3",
+			"name": "sound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/fruit/fruit_bg.png",
+			"type": "image",
+			"name": "fruit_bg_png"
+		},
+		{
+			"url": "assets/fruit/font/fruit_0.fnt",
+			"type": "font",
+			"name": "fruit_0_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruit_0.png",
+			"type": "image",
+			"name": "fruit_0_png"
+		},
+		{
+			"url": "assets/fruit/font/fruit_slots_pot.fnt",
+			"type": "font",
+			"name": "fruit_slots_pot_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruit_slots_pot.png",
+			"type": "image",
+			"name": "fruit_slots_pot_png"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_background.mp3",
+			"type": "sound",
+			"name": "fruit_background_mp3"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_bgFree.mp3",
+			"type": "sound",
+			"name": "fruit_bgFree_mp3"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_bigWin.mp3",
+			"type": "sound",
+			"name": "fruit_bigWin_mp3"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_smallBoom.mp3",
+			"type": "sound",
+			"name": "fruit_smallBoom_mp3"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_smallFruit.mp3",
+			"type": "sound",
+			"name": "fruit_smallFruit_mp3"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_start.mp3",
+			"type": "sound",
+			"name": "fruit_start_mp3"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_winBig.mp3",
+			"type": "sound",
+			"name": "fruit_winBig_mp3"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_winLittle.mp3",
+			"type": "sound",
+			"name": "fruit_winLittle_mp3"
+		},
+		{
+			"url": "assets/fruit/fruithelp.json",
+			"type": "sheet",
+			"name": "fruithelp_json",
+			"subkeys": "fruitHelp1,fruitHelp2,fruitHelp3,helpTitle"
+		},
+		{
+			"url": "assets/fruit/fruit_bg_xyx.jpg",
+			"type": "image",
+			"name": "fruit_bg_xyx_jpg"
+		},
+		{
+			"url": "assets/fruit/font/fruit_crazy_font.fnt",
+			"type": "font",
+			"name": "fruit_crazy_font_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruit_crazy_font.png",
+			"type": "image",
+			"name": "fruit_crazy_font_png"
+		},
+		{
+			"url": "assets/fruit/fruit_crazy.json",
+			"type": "sheet",
+			"name": "fruit_crazy_json",
+			"subkeys": "fruit_Btn_back2,fruit_d1g,fruit_d2g,fruit_d3g,fruit_d4g,fruit_nm,fruit_pg,fruit_pt,fruit_text_dqf,fruit_text_go,fruit_text_win,fruit_text_zd,fruit_xyx_title,fruit_yt,fruit_zd"
+		},
+		{
+			"url": "assets/fruit/animation/Boom_tex.png",
+			"type": "image",
+			"name": "Boom_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/Boom_mc.json",
+			"type": "json",
+			"name": "Boom_mc_json"
+		},
+		{
+			"url": "assets/fruit/sgjRoom.json",
+			"type": "sheet",
+			"name": "sgjRoom_json",
+			"subkeys": "fruitn_add,fruitn_back,fruitn_bg_chuji,fruitn_bg_gaoji,fruitn_bg_putong,fruitn_bg_tiyan,fruitn_bg_zhongji,fruitn_bottom,fruitn_gold,fruitn_gold_bg,fruitn_headframe,fruitn_help,fruitn_huobao,fruitn_kongxian,fruitn_logo,fruitn_mianfei,fruitn_yongji,fruitn_zhunru10,fruitn_zhunru100,fruitn_zhunru1000,fruitn_zhunru500"
+		},
+		{
+			"url": "assets/fruit/font/fruit_pool.fnt",
+			"type": "font",
+			"name": "fruit_pool_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruit_pool.png",
+			"type": "image",
+			"name": "fruit_pool_png"
+		},
+		{
+			"url": "assets/fruit/font/fruit_win.fnt",
+			"type": "font",
+			"name": "fruit_win_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruit_win.png",
+			"type": "image",
+			"name": "fruit_win_png"
+		},
+		{
+			"url": "assets/fruit/fruit_help_title.png",
+			"type": "image",
+			"name": "fruit_help_title_png"
+		},
+		{
+			"url": "assets/fruit/animation/sgj_room_ske.dbbin",
+			"type": "bin",
+			"name": "sgj_room_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/sgj_room_tex.json",
+			"type": "json",
+			"name": "sgj_room_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/sgj_room_tex.png",
+			"type": "image",
+			"name": "sgj_room_tex_png"
+		},
+		{
+			"url": "assets/fruit/fruitn_room_preview.jpg",
+			"type": "image",
+			"name": "fruitn_room_preview_jpg"
+		},
+		{
+			"url": "assets/fruit/fruitn_room_bg.jpg",
+			"type": "image",
+			"name": "fruitn_room_bg_jpg"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_boxlight_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_boxlight_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_boxlight_tex.png",
+			"type": "image",
+			"name": "fruit_boxlight_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_chuji_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_chuji_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_chuji_tex.png",
+			"type": "image",
+			"name": "fruit_chuji_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_putong_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_putong_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_putong_tex.png",
+			"type": "image",
+			"name": "fruit_putong_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_qidong_tex.png",
+			"type": "image",
+			"name": "fruit_qidong_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_quickstart_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_quickstart_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_quickstart_tex.png",
+			"type": "image",
+			"name": "fruit_quickstart_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_tiyan_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_tiyan_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_tiyan_tex.png",
+			"type": "image",
+			"name": "fruit_tiyan_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_zhongji_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_zhongji_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_zhongji_tex.png",
+			"type": "image",
+			"name": "fruit_zhongji_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_boxlight_tex.json",
+			"type": "json",
+			"name": "fruit_boxlight_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_putong_tex.json",
+			"type": "json",
+			"name": "fruit_putong_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_chuji_tex.json",
+			"type": "json",
+			"name": "fruit_chuji_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_tiyan_tex.json",
+			"type": "json",
+			"name": "fruit_tiyan_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_quickstart_tex.json",
+			"type": "json",
+			"name": "fruit_quickstart_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_zhongji_tex.json",
+			"type": "json",
+			"name": "fruit_zhongji_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_qidong_tex.json",
+			"type": "json",
+			"name": "fruit_qidong_tex_json"
+		},
+		{
+			"url": "assets/fruit/help/fruit_help_bg.png",
+			"type": "image",
+			"name": "fruit_help_bg_png"
+		},
+		{
+			"url": "assets/fruit/help/fruit_help_close.png",
+			"type": "image",
+			"name": "fruit_help_close_png"
+		},
+		{
+			"url": "assets/fruit/help/fruit_help_content.png",
+			"type": "image",
+			"name": "fruit_help_content_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_gaoji_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_gaoji_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_gaoji_tex.png",
+			"type": "image",
+			"name": "fruit_gaoji_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_gaoji_tex.json",
+			"type": "json",
+			"name": "fruit_gaoji_tex_json"
+		},
+		{
+			"url": "assets/fruit/nfruit_bg.jpg",
+			"type": "image",
+			"name": "nfruit_bg_jpg"
+		},
+		{
+			"url": "assets/fruit/nfruit_preview.png",
+			"type": "image",
+			"name": "nfruit_preview_png"
+		},
+		{
+			"url": "assets/fruit/font/fruitfnt1.fnt",
+			"type": "font",
+			"name": "fruitfnt1_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruitfnt1.png",
+			"type": "image",
+			"name": "fruitfnt1_png"
+		},
+		{
+			"url": "assets/fruit/font/fruitfnt2.fnt",
+			"type": "font",
+			"name": "fruitfnt2_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruitfnt2.png",
+			"type": "image",
+			"name": "fruitfnt2_png"
+		},
+		{
+			"url": "assets/fruit/nfruit.json",
+			"type": "sheet",
+			"name": "nfruit_json",
+			"subkeys": "nf_l1_off,nf_l1_on,nf_l2_off,nf_l2_on,nf_l3_off,nf_l3_on,nf_l4_off,nf_l4_on,nf_l5_off,nf_l5_on,nf_l6_off,nf_l6_on,nf_l7_off,nf_l7_on,nf_l8_off,nf_l8_on,nf_l9_off,nf_l9_on,nfruitLine_x1,nfruitLine_x2,nfruitLine_x3,nfruitLine_x4,nfruitLine_x5,nfruitLine_x6,nfruitLine_x7,nfruitLine_x8,nfruitLine_x9,nfruit_back,nfruit_bottom,nfruit_bottom_down,nfruit_btn_down,nfruit_btn_up,nfruit_cancelauto,nfruit_cancelauto_down,nfruit_exit,nfruit_lines,nfruit_lines_disbale,nfruit_lines_down,nfruit_max,nfruit_menu_bg,nfruit_qukuan,nfruit_rules,nfruit_setting,nfruit_setting_close,nfruit_setting_open,nfruit_start,nfruit_start_down,nfruit_yaman,nfruit_yaman_disable,nfruit_yaman_down"
+		},
+		{
+			"url": "assets/fruit/font/fruitfnt3.fnt",
+			"type": "font",
+			"name": "fruitfnt3_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruitfnt3.png",
+			"type": "image",
+			"name": "fruitfnt3_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim10_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim10_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim10_tex.png",
+			"type": "image",
+			"name": "fruitAnim10_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim11_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim11_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim11_tex.png",
+			"type": "image",
+			"name": "fruitAnim11_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim12_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim12_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim12_tex.png",
+			"type": "image",
+			"name": "fruitAnim12_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim13_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim13_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim13_tex.png",
+			"type": "image",
+			"name": "fruitAnim13_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim1_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim1_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim1_tex.png",
+			"type": "image",
+			"name": "fruitAnim1_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim2_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim2_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim2_tex.png",
+			"type": "image",
+			"name": "fruitAnim2_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim3_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim3_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim3_tex.png",
+			"type": "image",
+			"name": "fruitAnim3_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim4_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim4_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim4_tex.png",
+			"type": "image",
+			"name": "fruitAnim4_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim5_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim5_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim5_tex.png",
+			"type": "image",
+			"name": "fruitAnim5_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim6_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim6_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim6_tex.png",
+			"type": "image",
+			"name": "fruitAnim6_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim7_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim7_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim7_tex.png",
+			"type": "image",
+			"name": "fruitAnim7_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim8_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim8_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim8_tex.png",
+			"type": "image",
+			"name": "fruitAnim8_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim9_ske.dbbin",
+			"type": "bin",
+			"name": "fruitAnim9_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim9_tex.png",
+			"type": "image",
+			"name": "fruitAnim9_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim10_tex.json",
+			"type": "json",
+			"name": "fruitAnim10_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim12_tex.json",
+			"type": "json",
+			"name": "fruitAnim12_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim11_tex.json",
+			"type": "json",
+			"name": "fruitAnim11_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim13_tex.json",
+			"type": "json",
+			"name": "fruitAnim13_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim1_tex.json",
+			"type": "json",
+			"name": "fruitAnim1_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim2_tex.json",
+			"type": "json",
+			"name": "fruitAnim2_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim4_tex.json",
+			"type": "json",
+			"name": "fruitAnim4_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim6_tex.json",
+			"type": "json",
+			"name": "fruitAnim6_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim3_tex.json",
+			"type": "json",
+			"name": "fruitAnim3_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim7_tex.json",
+			"type": "json",
+			"name": "fruitAnim7_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim5_tex.json",
+			"type": "json",
+			"name": "fruitAnim5_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim9_tex.json",
+			"type": "json",
+			"name": "fruitAnim9_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruitAnim8_tex.json",
+			"type": "json",
+			"name": "fruitAnim8_tex_json"
+		},
+		{
+			"url": "assets/fruit/fruitIcon.json",
+			"type": "sheet",
+			"name": "fruitIcon_json",
+			"subkeys": "fruitIcon_1,fruitIcon_10,fruitIcon_11,fruitIcon_12,fruitIcon_13,fruitIcon_2,fruitIcon_3,fruitIcon_4,fruitIcon_5,fruitIcon_6,fruitIcon_7,fruitIcon_8,fruitIcon_9"
+		},
+		{
+			"url": "assets/fruit/fruitSetting.json",
+			"type": "sheet",
+			"name": "fruitSetting_json",
+			"subkeys": "nfs_bg,nfs_close,nfs_dian,nfs_effect,nfs_music,nfs_off,nfs_on,nfs_yinxiao"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruit_bigwin_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_bigwin_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruit_bigwin_tex.png",
+			"type": "image",
+			"name": "fruit_bigwin_tex_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruit_bigwin_tex.json",
+			"type": "json",
+			"name": "fruit_bigwin_tex_json"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_bg.png",
+			"type": "image",
+			"name": "fruit_bank_bg_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_bg2.png",
+			"type": "image",
+			"name": "fruit_bank_bg2_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_close.png",
+			"type": "image",
+			"name": "fruit_bank_close_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_draw_btn.png",
+			"type": "image",
+			"name": "fruit_bank_draw_btn_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_input_bg.png",
+			"type": "image",
+			"name": "fruit_bank_input_bg_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_pro_bar.png",
+			"type": "image",
+			"name": "fruit_bank_pro_bar_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_pro_bg.png",
+			"type": "image",
+			"name": "fruit_bank_pro_bg_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_thumb.png",
+			"type": "image",
+			"name": "fruit_bank_thumb_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_title.png",
+			"type": "image",
+			"name": "fruit_bank_title_png"
+		},
+		{
+			"url": "assets/fruit/bank/fruit_bank_max.png",
+			"type": "image",
+			"name": "fruit_bank_max_png"
+		},
+		{
+			"url": "assets/fruit/font/fruitfnt4.fnt",
+			"type": "font",
+			"name": "fruitfnt4_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruitfnt4.png",
+			"type": "image",
+			"name": "fruitfnt4_png"
+		},
+		{
+			"url": "assets/fruit/game/bottomDisable.png",
+			"type": "image",
+			"name": "bottomDisable_png"
+		},
+		{
+			"url": "assets/fruit/game/lineDisable.png",
+			"type": "image",
+			"name": "lineDisable_png"
+		},
+		{
+			"url": "assets/fruit/game/maxDisable.png",
+			"type": "image",
+			"name": "maxDisable_png"
+		},
+		{
+			"url": "assets/fruit/sound/fruit_roll.mp3",
+			"type": "sound",
+			"name": "fruit_roll_mp3"
+		},
+		{
+			"url": "assets/fruit/font/fruit_win_2.fnt",
+			"type": "font",
+			"name": "fruit_win_2_fnt"
+		},
+		{
+			"url": "assets/fruit/font/fruit_win_2.png",
+			"type": "image",
+			"name": "fruit_win_2_png"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruit_startmenu_effect_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_startmenu_effect_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruit_startmenu_effect_tex.json",
+			"type": "json",
+			"name": "fruit_startmenu_effect_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/game/fruit_startmenu_effect_tex.png",
+			"type": "image",
+			"name": "fruit_startmenu_effect_tex_png"
+		},
+		{
+			"url": "assets/fruit/game/fruit_fly_coin.png",
+			"type": "image",
+			"name": "fruit_fly_coin_png"
+		},
+		{
+			"url": "assets/fruit/game/fruit_fly_coin_nb.png",
+			"type": "image",
+			"name": "fruit_fly_coin_nb_png"
+		},
+		{
+			"url": "assets/fruit/game/fruit_fly_coin_ns.png",
+			"type": "image",
+			"name": "fruit_fly_coin_ns_png"
+		},
+		{
+			"url": "assets/fruit/game/fruit_result_bg1.png",
+			"type": "image",
+			"name": "fruit_result_bg1_png"
+		},
+		{
+			"url": "assets/fruit/particle/fruit_particle_win.png",
+			"type": "image",
+			"name": "fruit_particle_win_png"
+		},
+		{
+			"url": "assets/fruit/particle/fruit_particle_win.json",
+			"type": "json",
+			"name": "fruit_particle_win_json"
+		}
+	]
+}

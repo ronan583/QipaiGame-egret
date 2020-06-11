@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BRNNCardGroupSkin" width="323" height="181" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:brnn="game.brnn.*" >
+	<e:Group id="cardGroup" x="0" y="0" width="317" anchorOffsetX="0">
+		<brnn:BRCard id="card1" x="0" y="-2"/>
+		<brnn:BRCard id="card2" x="50" y="-2"/>
+		<brnn:BRCard id="card3" width="127" height="181" x="100" y="-2"/>
+		<brnn:BRCard id="card4" width="127" height="181" x="149" y="-2"/>
+		<brnn:BRCard id="card5" width="127" height="181" x="198" y="-2"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+
+	</e:Group>
+	<e:Image id="noBetLabel" source="" x="32.5" y="176.55" anchorOffsetX="0" width="229" anchorOffsetY="0" height="58"/>
+	<ns1:BrnnResultIcon id="typeIcon" y="101" x="17"/>
+	
+	<ns1:Cuopai id="cuopai" x="60" y="26" visible="false"/>
+</e:Skin>

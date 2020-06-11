@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PdkRoomItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16bc872ec37" ></w:Config>
+	<e:Image id="roomImg" horizontalCenter="0" verticalCenter="0" source="pdkn_chuji"/>
+	<e:Image id="freeImg" source="pdkn_mianfei" horizontalCenter="0" verticalCenter="55" visible="false"/>
+	<e:Image id="stateImg" source="pdkn_kongxian" horizontalCenter="4" verticalCenter="83"/>
+	<e:Group id="infoGroup" width="157.33" height="22.67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="4" verticalCenter="54">
+		<e:Image source="pdkn_zhunru" x="22.66"/>
+		<e:BitmapLabel id="limitLabel" width="78.67" height="22.67" x="73" anchorOffsetX="0" anchorOffsetY="0" font="pdkroomfnt_fnt" text="50y"/>
+	</e:Group>
+</e:Skin>

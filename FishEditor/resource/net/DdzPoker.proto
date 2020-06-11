@@ -1,0 +1,134 @@
+option java_package = "com.gp.game.message";
+
+
+//开始游戏
+message OPDdzStartGame {
+	repeated int32 handCards = 1;//手牌
+	required int32 downTime = 2;//
+	required int64 callScoreId = 3 ;//叫分者id
+	repeated OpDdzBattleInfo battleInfo = 4 ;//玩家信息
+}
+
+//接收叫分
+message OPDdzCallScore {
+	required int32 score = 1;// 1分 2分3分
+}
+
+//广播所有人
+message OPDdzCallScoreRet {
+	required int64 currentPlayerId = 1;//当前叫分的玩家id
+	required int32 score = 2;
+	required int64 nextPlayerId = 3;//当前叫分的玩家id
+	optional int64 landlordId = 4;//地主id
+	repeated int32 bottomCard = 5;//底牌
+	required int32 downTime = 6;//
+}
+
+//接收加倍
+message OPDdzDouble{
+	required int32 multiple = 1;//倍率 1不加倍 2 加倍
+}
+//广播所有人
+message OPDdzDoubleRet{
+	required int64 currentPlayerId = 1;//当前操作的id
+	required int32 multiple = 2;//倍数
+	optional int64 playPlayerId = 3;//出牌者id
+	optional int32 downTime = 4;//
+	repeated OPDdzCardHolder cardHolder = 5;//记牌琪
+}
+
+message OpDdzBattleInfo {
+	required int64 playerId = 1;//玩家id
+	optional int32 cardCount = 2;//剩余牌数量
+	optional int32 status = 3;//0.准备中 1.叫分 2.已叫分3.加倍 4.已加倍 5.战斗中 6.战斗完成
+}
+
+//记牌器
+message OPDdzCardHolder{
+	required int32 card = 1;//牌
+	required int32 count = 2;//数量
+}
+
+//出牌 -- 
+message OpDdzBattleStep {
+	required bool isDont = 1;// true不要 false 要
+	repeated int32 cards = 2;//出的牌
+}
+
+message OpDdzBattleStepRet {
+	repeated int32 cards = 1;//出的牌
+	required int32 cardType = 2;//出的牌的类型
+	required int64 currentPlayerId = 3;//当前出牌的id
+	required int64 nextPlayerId = 4;//下个出牌的id
+	optional int32 downTime = 5;//
+	repeated OPDdzCardHolder cardHolder = 6;//记牌器
+	required int32 multiple = 7;//倍数
+	optional bool isTrusteeship = 8 ;//是否托管 true 托管
+}
+
+//结算
+message OpDdzBattleFinish {
+	repeated OpDdzFinishInfo finishInfo = 1;//
+	required int32 downTime = 2;//
+	required bool isWin = 3;//地主赢 true  false农民赢
+	required OPDdzMultipleDetailRet detail = 4;//
+}
+
+//倍数详情
+message OPDdzMultipleDetailRet {
+	required bool isLandlord = 1;//是否为地主
+	required int32 rob = 2;//抢地主倍数
+	required int32 bomb = 3;//炸弹倍数
+	required int32 spring = 4;//春天倍数
+	required int32 total = 5;//总倍倍数
+	optional int32 common = 6;//共用倍数
+	optional int32 jiabei = 7;//加倍倍数
+}
+//请求倍数详情
+message OPDdzMultipleDetail {
+	required int32 version = 1;
+}
+
+//战斗完成信息
+message OpDdzFinishInfo{
+	optional int64 playerId = 1; //玩家id
+	optional int64 money = 2; //当局金币情况
+	optional int64 totalMoney = 3; //最终的总金币
+	required bool isTrusteeship =4;//是否托管
+	repeated int32 handCards = 5;//手牌
+	required int32 total = 6;//总倍倍数
+}
+
+
+//重连
+message OpDdzReconnect{
+	repeated int32 handCards = 1;//手牌
+	optional int64 currentPlayerId = 2;//当前出牌的id
+	repeated int32 currentCards = 3;//手牌
+	required int32 cardType = 4;//出的牌的类型
+	optional int64 nextPlayerId = 5;//下个出牌的id
+	repeated int32 bottomCard = 6;//底牌
+	repeated OpDdzBattleInfo battleInfo = 7 ;//玩家信息
+	repeated OPDdzCardHolder cardHolder = 8;//记牌器
+	optional int64 landlordId = 9;//地主id
+	required int32 score = 10;// 1分 2分3分
+	required int32 downTime = 11;//
+	required int32 multiple = 12;//倍数
+	required bool isTrusteeship =13;//是否托管
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

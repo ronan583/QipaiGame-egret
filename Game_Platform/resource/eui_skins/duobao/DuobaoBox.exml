@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuobaoBoxSkin" width="86" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1698c70aa5d" ></w:Config>
+	<e:Image x="0" y="0" source="duobao_box_lan" anchorOffsetX="0" width="83.67" anchorOffsetY="0" height="68"/>
+	<e:BitmapLabel id="rewardBoxLabel" width="150" height="41.33" x="-3" y="21" font="font_reward_fnt" text="12.8k" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6" scaleY="0.6" textAlign="center"/>
+</e:Skin>

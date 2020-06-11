@@ -1,0 +1,13 @@
+{"file":"fruitfnt2.png","frames":{
+"7":{"x":1,"y":85,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"8":{"x":39,"y":29,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"9":{"x":20,"y":57,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+".":{"x":1,"y":113,"w":6,"h":6,"offX":10,"offY":18,"sourceW":17,"sourceH":26},
+"-":{"x":1,"y":1,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"0":{"x":20,"y":29,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"1":{"x":1,"y":57,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"2":{"x":1,"y":29,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"3":{"x":39,"y":57,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"4":{"x":20,"y":1,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"5":{"x":20,"y":85,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26},
+"6":{"x":39,"y":1,"w":17,"h":26,"offX":0,"offY":0,"sourceW":17,"sourceH":26}}}

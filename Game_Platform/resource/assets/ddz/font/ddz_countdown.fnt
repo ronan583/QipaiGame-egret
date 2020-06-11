@@ -1,0 +1,13 @@
+{"file":"ddz_countdown.png","frames":{
+"5":{"x":46,"y":0,"w":21,"h":34,"offX":0,"offY":0,"sourceW":21,"sourceH":34},
+"6":{"x":67,"y":36,"w":20,"h":34,"offX":0,"offY":0,"sourceW":20,"sourceH":34},
+"7":{"x":0,"y":0,"w":21,"h":34,"offX":0,"offY":0,"sourceW":21,"sourceH":34},
+"8":{"x":45,"y":36,"w":20,"h":34,"offX":0,"offY":0,"sourceW":20,"sourceH":34},
+"9":{"x":0,"y":36,"w":21,"h":34,"offX":0,"offY":0,"sourceW":21,"sourceH":34},
+"(":{"x":105,"y":36,"w":12,"h":38,"offX":0,"offY":0,"sourceW":12,"sourceH":38},
+")":{"x":0,"y":72,"w":12,"h":38,"offX":0,"offY":0,"sourceW":12,"sourceH":38},
+"0":{"x":92,"y":0,"w":21,"h":34,"offX":0,"offY":0,"sourceW":21,"sourceH":34},
+"1":{"x":89,"y":36,"w":14,"h":34,"offX":0,"offY":0,"sourceW":14,"sourceH":34},
+"2":{"x":23,"y":36,"w":20,"h":34,"offX":0,"offY":0,"sourceW":20,"sourceH":34},
+"3":{"x":23,"y":0,"w":21,"h":34,"offX":0,"offY":0,"sourceW":21,"sourceH":34},
+"4":{"x":69,"y":0,"w":21,"h":34,"offX":0,"offY":0,"sourceW":21,"sourceH":34}}}

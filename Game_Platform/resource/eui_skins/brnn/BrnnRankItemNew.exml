@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnRankItemNewSkin" width="87" height="141" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image x="-5" y="26" source="brnnn_headframe" anchorOffsetX="0" width="96"/>
+	<e:Image id="headIcon" x="7" y="38" source="gp_head_1" scaleX="0.8" scaleY="0.8" width="90" height="94"/>
+	<e:Label id="nameLabel" text="name" y="4" size="25" fontFamily="Microsoft YaHei" horizontalCenter="0" height="25" width="150" textAlign="center" verticalAlign="bottom"/>
+	<e:Label id="moneyLabel" text="name" y="119" size="20" fontFamily="Microsoft YaHei" horizontalCenter="0.5" textColor="0xE8D274"/>
+	<e:Image id="dushenFlag" x="-57" y="-2" source="brnn_online_dushen_png"/>
+	<e:Image id="fuhaoFlag" x="-57" y="-2" source="brnn_online_fuhao_png"/>
+</e:Skin>

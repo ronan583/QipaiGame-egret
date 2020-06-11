@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjAnimBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*"  width="160" height="160">
+	<w:Config id="1680ba73e30" ></w:Config>
+	<e:Image id="buttons" horizontalCenter="0" verticalCenter="0" source="ermj_battle_json.ermj_pass_btn"/>
+	<ns1:DragonAnim id="dragonAnim" aligntype="bottom" anim="erqs_guomenu" width="150" height="150" x="5" y="-75" visible="false"/>
+</e:Skin>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HitCardGroupSkin" currentState="self" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*"  states="self,other" >
+	<w:Config id="167dc571152" ></w:Config>
+	<e:Group id="hitGroup" x="110" y="0" horizontalCenter="0" width="590" height="132">
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="49"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="98"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="147"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="196"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="245"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="294"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="343"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="392"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="441"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="490"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="539"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="0" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="49" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="98" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="147" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="196" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="245" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="294" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="343" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="392" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="441" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="490" y.other="61"/>
+		<e:Image source="ermj_battle_json.playedTiles11" source.other="ermj_battle_json.otherTiles11" x.other="539" y.other="61"/>
+		<e:layout.self>
+			<e:TileLayout requestedColumnCount="12" verticalGap="-10" horizontalGap="-2" orientation="rows"/>
+		</e:layout.self>
+	</e:Group>
+	<e:Group id="playedArrow" x="84" y="47" anchorOffsetX="28" anchorOffsetY="30">
+		<ns1:DragonAnim id="icon" anim="erqs_paitipseffect" aligntype="middle" width="60" height="70"/>
+	</e:Group>
+	<!--<e:Image includeIn="other" source="ermj_battle_json.otherTiles11" x="539" y="0" locked="true" visible="false"/>
+	<e:Image includeIn="other" source="ermj_battle_json.otherTiles11" x="539" y="61" locked="true" visible="false"/>-->
+</e:Skin>

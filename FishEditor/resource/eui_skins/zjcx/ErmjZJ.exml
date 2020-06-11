@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjZJ" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="zjcx_json.zjcx_bg2" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label text="小提示：仅显示最近十条记录" x="165" y="596" size="21" fontFamily="Microsoft YaHei" textColor="0xFEF6C0"/>
+	<e:Scroller id="scroller" width="948" height="362" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-1" y="229" alpha="1">
+		<e:Group id="viewport" anchorOffsetX="0" width="948" x="190.91" y="0" height="362" alpha="1" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+			<ns1:ErmjRecordBar width="920" height="45" x="16" y="2" skinName="ErmjRecordBarSkin"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image source="zjcx_json.zjcx_sy" x="998" y="180"/>
+	<e:Image id="roomLab" source="zjcx_json.zjcx_room" x="427" y="180"/>
+	<e:Image source="zjcx_json.zjcx_time" x="247" y="180"/>
+	<e:Image id="timeLab" source="zjcx_json.zjcx_title" verticalCenter="-231" horizontalCenter="0"/>
+	<e:Image id="closeBtn" source="zjcx_json.zjcx_close_Btn1" x="1017" y="104"/>
+	<e:Image source="zjcx_json.zjcx_diFen" x="595.5" y="180"/>
+	<e:Image source="zjcx_json.zjcx_zFS" x="782" y="180"/>
+</e:Skin>

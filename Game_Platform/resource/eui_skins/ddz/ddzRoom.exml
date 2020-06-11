@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZRoomSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="bgImg" source="ddz_room_bg_jpg" horizontalCenter="0"/>
+	<e:Image horizontalCenter="0" source="ddz_room_preview_png" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="1334" height="750" y="0" horizontalCenter="0">
+
+
+		<e:Group id="bottomGroup" width="1443" height="100" y="652" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" x="-54" scaleX="1" scaleY="1">
+			<e:Image source="ddzn_bottom"/>
+			<e:Image x="64" y="-26" anchorOffsetX="0" anchorOffsetY="0" source="ddzn_icon_headframe"/>
+			<e:Label id="nameLabel" text="Guest123456" x="194" y="32" anchorOffsetX="0" width="194" anchorOffsetY="0" height="54" verticalAlign="middle" textAlign="left" fontFamily="Microsoft YaHei" textColor="0xffffff" size="24" bold="true"/>
+			<e:Image x="418" y="38" source="ddzn_icon_gold_bg"/>
+			<e:Image x="413.57" y="36.66" source="ddzn_icon_gold"/>
+			<e:Button id="jiluBtn" label="" x="821.04" y="48.04">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddzn_icon_jilu" source.down="ddzn_icon_jilu" source.disabled="ddzn_icon_jilu"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="headImg" width="80" height="80" source="gp_head_7" horizontalCenter="-597.5" verticalCenter="-16"/>
+			<e:Image id="headFrameImg" width="90" height="90" source="ddz_battle_json.ddz_heads_frame3" verticalCenter="-16.5" horizontalCenter="-598"/>
+			<e:BitmapLabel id="goldLabel" width="210.91" height="41.33" x="442" y="41" anchorOffsetX="0" anchorOffsetY="0" text="12.22" font="gpn_gold_fnt" textAlign="center" verticalAlign="middle"/>
+			<e:Button id="goldAddBtn" label="" x="650" y="36" width="55" height="55">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddzn_icon_add" source.down="ddzn_icon_add" source.disabled="ddzn_icon_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="quickStartBtn" label="" x="1024" y="-32">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ddzn_quickstart" source.down="ddzn_quickstart" source.disabled="ddzn_quickstart"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<ns1:DragonAnim id="roomAnim1" width="265.94" height="317.73" x="81.29" y="164.73" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="ddz_tiyan" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<ns1:DDZRoomItem id="roomItem1" width="277.58" height="420" x="77.61" y="161.98000000000002" anchorOffsetX="0" anchorOffsetY="0" gameLevel="0" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim id="roomAnim2" width="265.94" height="317.73" x="365.68" y="209.65" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="ddz_chuji" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<ns1:DDZRoomItem id="roomItem2" width="277.58" height="423.03" x="363.52" y="225.03" anchorOffsetX="0" anchorOffsetY="0" gameLevel="1" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim id="roomAnim3" width="265.94" height="317.73" x="678.36" y="78.33" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="ddz_zhongji" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<ns1:DDZRoomItem id="roomItem3" width="277.58" height="415.45" x="674.68" y="92.23" anchorOffsetX="0" anchorOffsetY="0" gameLevel="2" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim id="roomAnim4" width="265.94" height="317.73" x="991.01" y="201.67000000000002" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="ddz_gaoji" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<ns1:DDZRoomItem id="roomItem4" width="277.58" height="276.06" x="978.23" y="215.54000000000002" anchorOffsetX="0" anchorOffsetY="0" gameLevel="3" scaleX="1" scaleY="1"/>
+		<e:Group id="leftCornerGroup" width="272.73" height="127.27" anchorOffsetX="0" anchorOffsetY="0" left="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Button id="backBtn" label="" x="8" y="8" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddzn_icon_back" source.down="ddzn_icon_back" source.disabled="ddzn_icon_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" x="102.91000000000001" y="7" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddzn_icon_help" source.down="ddzn_icon_help" source.disabled="ddzn_icon_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

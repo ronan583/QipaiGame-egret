@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnRoundResultSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16c722ac9c3" ></w:Config>
+	<e:Image id="loseBg" source="brnn_end_lose_bg" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="winBg" verticalCenter="30.5" horizontalCenter="0" source="brnn_end_win_bg"/>
+	<e:Image id="loseTitle" y="32" source="brnn_end_losetitle" x="365"/>
+	<e:Image id="winTitle" y="-4" source="brnn_end_wintitle" horizontalCenter="0"/>
+	<e:Group width="774" height="484" x="284" y="206" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image x="50" y="19.33" source="brnn_end_self"/>
+		<e:Label id="selfNameLabel" text="Guest123456" x="109" y="18" anchorOffsetX="0" width="290" anchorOffsetY="0" height="38" fontFamily="Microsoft YaHei" textAlign="left" verticalAlign="middle" size="25"/>
+		<e:Label id="bankerNameLabel" text="Guest123456" x="109" y="100" anchorOffsetX="0" width="290" anchorOffsetY="0" height="38" fontFamily="Microsoft YaHei" textAlign="left" verticalAlign="middle" size="25"/>
+		<e:Image id="selfTotalUnBetImg" x="521.67" y="15.01" source="brnn_end_unbet"/>
+		<e:Image x="49" y="88.33" source="brnn_end_banker"/>
+		<e:BitmapLabel id="bankerLoseLabel" width="240" height="32" x="491.66" y="96.68" font="brnn_lose_fnt_fnt" text="-123123123" anchorOffsetX="0" anchorOffsetY="0" textAlign="right"/>
+		<e:BitmapLabel id="bankerWinLabel" width="240" height="32" x="492.35" y="96.04" text="+123123123" anchorOffsetX="0" anchorOffsetY="0" font="brnn_win_fnt_fnt" textAlign="right" verticalAlign="middle"/>
+		<e:BitmapLabel id="selfLoseLabel" width="240" height="32" x="490.98" y="21.35" font="brnn_lose_fnt_fnt" text="-123123123" anchorOffsetX="0" anchorOffsetY="0" textAlign="right"/>
+		<e:BitmapLabel id="selfWinLabel" width="240" height="32" x="491.67" y="20.71" text="+123123123" anchorOffsetX="0" anchorOffsetY="0" font="brnn_win_fnt_fnt" textAlign="right"/>
+		<e:Image x="35" y="171" source="brnn_end_area_1"/>
+		<e:Image x="399" y="171" source="brnn_end_area_2"/>
+		<e:Image x="35" y="247.67" source="brnn_end_area_3"/>
+		<e:Image x="399" y="247.67" source="brnn_end_area_4"/>
+		<e:Group id="playerGroup1" width="718.67" height="32.01" x="20" y="307" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image x="12" y="0" source="brnn_end_rank1"/>
+			<e:Label id="playerName1" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney1" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+		</e:Group>
+		<e:Group id="playerGroup2" width="718.67" height="32.01" x="20" y="338" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image x="12" y="0" source="brnn_end_rank2"/>
+			<e:Label id="playerName2" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney2" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+		</e:Group>
+		<e:Group id="playerGroup3" width="718.67" height="32.01" x="20" y="368" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image x="12" y="0" source="brnn_end_rank3"/>
+			<e:Label id="playerName3" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney3" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+		</e:Group>
+		<e:Group id="playerGroup4" width="718.67" height="32.01" x="20" y="399" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label id="playerName4" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney4" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+			<e:Label width="20" height="20" x="20" y="6" text="4" size="23" fontFamily="Microsoft YaHei" bold="true" textColor="0xc78f3b"/>
+		</e:Group>
+		<e:Group id="playerGroup5" width="718.67" height="32.01" x="20" y="429" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label id="playerName5" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney5" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+			<e:Label width="20" height="20" x="20.36" y="7.009999999999991" text="5" scaleX="1" scaleY="1" size="23" fontFamily="Microsoft YaHei" bold="true" textColor="0xc78f3b"/>
+		</e:Group>
+		<ns1:BrnnEndCards id="endCardsBanker" x="293" y="81.79" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:BrnnEndCards id="endCards1" x="73.77" y="154" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="areaMoney1" text="67749" x="281.37" y="180.19" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="110.09" textAlign="right" anchorOffsetY="0" height="23.48" textColor="0xf0cb6e"/>
+		<e:Label id="areaMoney2" text="67749" x="621.67" y="182.59" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="138.88" textAlign="right" anchorOffsetY="0" height="23.48" textColor="0xf0cb6e"/>
+		<e:Label id="areaMoney3" text="67749" x="288.88" y="250.25" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="102.52" textAlign="right" anchorOffsetY="0" height="23.48" textColor="0xf0cb6e"/>
+		<e:Label id="areaMoney4" text="67749" x="621.48" y="251.77" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="138.88" textAlign="right" anchorOffsetY="0" height="23.48" textColor="0xf0cb6e"/>
+		<ns1:BrnnEndCards id="endCards2" x="439.17" y="154" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:BrnnEndCards id="endCards3" x="74.68" y="236.91" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:BrnnEndCards id="endCards4" x="440.08" y="236.91" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="zhuangtongshaImg" y="360.88" source="betKililIcon" horizontalCenter="0"/>
+	</e:Group>
+	<ns1:IButton id="closeBtn" label="" x="1044" y="81">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="brnn_close" source.down="brnn_close" source.disabled="brnn_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<ns1:IButton id="closeBtn2" label="" x="1044" y="81">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="brnn_close2" source.down="brnn_close2" source.disabled="brnn_close2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+</e:Skin>

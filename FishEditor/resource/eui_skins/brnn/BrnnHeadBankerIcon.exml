@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnHeadBankerIconSkin" width="352" height="110.33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<e:Image x="0" y="0" source="brnn_self_head"/>
+	<e:Image x="28" y="27" source="brnn_head_male" width="66" height="68"/>
+
+	<e:Image id="headIconImg" y="27.5" x="27" scaleX="1" scaleY="1" source="gp_head_1" width="68" height="68"/>
+	<e:Image id="headFrameImg" y="7.19" x="16" scaleX="1" scaleY="1" source="brnn_head_female" visible="false"/>
+
+	<e:Group x="0" y="111.01">
+
+	</e:Group>
+
+	<e:Label id="gold" text="10,000" x="125.67" y="69.81" size="25" width="180.83" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" anchorOffsetX="0" anchorOffsetY="0" height="22" textColor="0xfff3db"/>
+	<e:Label id="playerName" text="name11111111" x="110" y="25" size="30" width="191" textAlign="left" verticalAlign="middle" anchorOffsetY="0" height="30" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0xa79a81"/>
+
+
+	<e:BitmapLabel width="44" height="21" x="13" y="75" text="V" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:BitmapLabel id="gameVipLabel" width="44" height="21" x="32" y="76" text="0" font="gamevip_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="bankerImg" x="261.7" y="-17.66" source="brnn_banker"/>
+	<e:Image x="93.68" y="66" width="35" height="35" source="gpn_icon_gold"/>
+	<e:Group id="winTip" width="152" height="202" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="winTipLabel" height="30" text="+7y" textAlign="center" verticalAlign="middle" font="betNum_fnt" horizontalCenter="-0.5" anchorOffsetX="0" y="86"/>
+	</e:Group>
+	<e:Group id="loseTip" width="152" height="202" x="0" y="0.33" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="loseTipLabel" height="30" text="-7y" textAlign="center" verticalAlign="middle" horizontalCenter="0" anchorOffsetX="0" font="blue_fnt" y="86"/>
+	</e:Group>
+</e:Skin>

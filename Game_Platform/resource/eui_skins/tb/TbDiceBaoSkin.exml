@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbDiceBaoSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+
+	</w:Declarations>
+<e:Group id="touzhiPoint" y="369" anchorOffsetX="0" x="667">
+	<e:layout>
+		<e:BasicLayout/>
+	</e:layout>
+
+</e:Group>
+	<e:Group id="animPoint" y="254" anchorOffsetX="0" x="667">
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="resultGroup" y="453" horizontalCenter="0.5" anchorOffsetY="-2" height="236" anchorOffsetX="232" scaleX="1" scaleY="1">
+		<e:BitmapLabel id="pointLabel" y="-26" font="jiesuanwenzi_fnt" text="18点豹子" textAlign="center" horizontalCenter="0"/>
+		<e:BitmapLabel id="typeLabel" x="307" y="-26" font="jiesuanwenzi_fnt" text="" visible="false"/>
+		<e:Image id="dice1" x="30" y="133" source="diceGame_json.game_dice_image_result_dice_1"/>
+		<e:Image id="dice2" y="133" x="210" source="diceGame_json.game_dice_image_result_dice_1"/>
+		<e:Image id="dice3" y="133" x="390" source="diceGame_json.game_dice_image_result_dice_1"/>
+	</e:Group>
+
+</e:Skin>

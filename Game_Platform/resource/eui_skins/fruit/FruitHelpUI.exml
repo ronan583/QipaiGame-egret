@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitHelpUISkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Image x="29.17" y="35" source="fruit_panel" scale9Grid="64,162,384,99" anchorOffsetX="0" width="1230.18" anchorOffsetY="0" height="669.52"/>
+	<e:Scroller width="1168.18" height="574.24" x="56.55" y="98" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group anchorOffsetX="0" width="737.88" anchorOffsetY="0" height="563.63" x="34.85">
+			<e:Image x="82.79" y="7" source="fruitHelp1"/>
+			<e:Image x="82.79" y="550" source="fruitHelp2"/>
+			<e:Image x="82.79" y="1100" source="fruitHelp3"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="closeBtn" label="" x="1198.38" y="38.04">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_rect_png" source.down="close_rect_png" source.disabled="close_rect_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image x="544.26" y="3.04" source="helpTitle"/>
+</e:Skin>

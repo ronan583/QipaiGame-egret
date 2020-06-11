@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlTrendItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c22ff2b81" ></w:Config>
+	<e:Image id="item1" y="8" x="6" source="bjlGame_json.hlssm_luzi_battle_zpl_2"/>
+	<e:Image id="item3" y="38" x="6" source="bjlGame_json.hlssm_luzi_battle_zpl_3"/>
+	<e:Image id="item2" y="68" x="6" source="bjlGame_json.hlssm_luzi_battle_zpl_1"/>
+	<e:Image id="bgItem" y="0" x="0" source="bjlGame_json.hlssm_log_grid_right"/>
+</e:Skin>

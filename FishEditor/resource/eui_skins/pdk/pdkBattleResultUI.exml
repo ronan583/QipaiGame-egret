@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pdkBattleResultUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="274.42" source="pdk_battle_json.pdk_result_bg" horizontalCenter="0" x="284" scaleX="1" scaleY="1"/>
+		<e:Image id="bgImg" verticalCenter="-105" source="pdk_battle_json.pdk_result_win" horizontalCenter="0" x="152" y="-42" scaleX="1" scaleY="1"/>
+		<e:Group width="755" y="391.92" horizontalCenter="0">
+			<e:layout>
+			<e:VerticalLayout gap="0"/>
+			</e:layout>
+			<ns1:PDKResultItem id="item1" x="93" y="10.61"/>
+			<ns1:PDKResultItem id="item2" x="103" y="47"/>
+			<ns1:PDKResultItem id="item3" x="113" y="57"/>
+		</e:Group>
+		<ns1:IButton id="leaveBtn" label="" verticalCenter="295" horizontalCenter="-175" x="356" y="622" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_battle_json.pdk_continue_btn" source.down="pdk_battle_json.pdk_continue_btn" source.disabled="pdk_battle_json.pdk_continue_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="continueBtn" label="" verticalCenter="295" horizontalCenter="168" x="699" y="622" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_battle_json.pdk_leave_btn" source.down="pdk_battle_json.pdk_leave_btn" source.disabled="pdk_battle_json.pdk_leave_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:BitmapLabel id="leftTime" text="15" horizontalCenter="266" verticalCenter="291" x="917" y="642" font="pdk_result_fnt"/>
+		<e:Label text="昵称" bold="true" fontFamily="Microsoft YaHei" size="24" textColor="0x782f17" verticalCenter="17" horizontalCenter="-264" x="379" y="380" scaleX="1" scaleY="1"/>
+		<e:Label text="底分" bold="true" fontFamily="Microsoft YaHei" size="24" textColor="0x782f17" horizontalCenter="-72" verticalCenter="17" x="594" y="380" scaleX="1" scaleY="1"/>
+		<e:Label text="余牌" bold="true" fontFamily="Microsoft YaHei" size="24" textColor="0x782f17" horizontalCenter="45" verticalCenter="17" x="732" y="380" scaleX="1" scaleY="1"/>
+		<e:Label text="元" bold="true" fontFamily="Microsoft YaHei" size="24" textColor="0x782f17" horizontalCenter="212" verticalCenter="17" x="930" y="380" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

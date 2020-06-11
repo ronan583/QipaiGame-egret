@@ -1,0 +1,551 @@
+{
+	"groups": [
+		{
+			"keys": "duobao_game_bg_jpg,duobao_fnt_fnt,duobao_fnt_png,font_reward_fnt,font_reward_png,duobaoreward_fnt_fnt,duobaoreward_fnt_png,duobao_help_bg_png,duobaohelp_content_png,duobaon_room_preview_jpg,duobao_help_c1_png,duobao_help_c2_png,duobao_help_c3_png,duobao_help_c4_png,duobao_help_jieshao_png,db_top_png,db_preview_png,db_bg2_jpg,db_bg1_png,db_dragon_ske_dbbin,db_dragon_tex_png,db_posui_ske_dbbin,db_posui_tex_png,db_tongguan_ske_dbbin,db_tongguan_tex_png,db_dragon_tex_json,db_tongguan_tex_json,db_posui_tex_json,lhdb_qidong_ske_dbbin,lhdb_qidong_tex_png,lhdb_qidong_tex_json,gui-dia-bank_fnt,gui-dia-bank_png,xbly_d1_fnt,xbly_d1_png,xbly_d2_fnt,xbly_d2_png,xbly_d3_fnt,xbly_d3_png,xbly_j1_fnt,xbly_j1_png,xbly_j2_fnt,xbly_j2_png,xbly_j3_fnt,xbly_j3_png,xbly_szty_fnt,xbly_szty_png,boomRed_png,boomRed_json,boomBlue_json,boomBlue_png,boomGray_json,boomGray_png,db_final_reward_item_png,db_final_reward_item_bg_png,db_final_reward_icon_png,db_final_bg_jpg,db_final_bottom_png,db_fanpai_tex_png,db_fanpai_tex_json,db_fanpai_ske_dbbin,db_fanpai_guangbiao_tex_png,db_fanpai_guangbiao_tex_json,db_fanpai_guangbiao_ske_dbbin,db_exit_desc_png,db_leiji_desc_png,db_leiji_panel_png,db_setting_bg_png,db_bank_add_png,db_bank_bar_png,db_bank_bg_png,db_bank_draw_btn_png,db_bank_flag1_png,db_bank_gold_png,db_bank_progressbar_png,db_bank_progressbg_png,db_bank_thumb_png,game_diamondDrag_imges_images_gui-dia-bank_icon_png,db_bank_max_png,db_bank_title_png,db_baofu_tex_png,db_baofu_ske_dbbin,db_baofu_tex_json,lhdb_putong_ske_dbbin,lhdb_putong_tex_png,lhdb_tiyan_tex_png,lhdb_tiyan_ske_dbbin,lhdb_putong_tex_json,lhdb_tiyan_tex_json,xunbaoleyuan4_tongguan_1_tex_png,xunbaoleyuan4_tongguan_1_ske_dbbin,xunbaoleyuan4_tongguan_1_tex_json,db_add_money_png",
+			"name": "duobao"
+		},
+		{
+			"keys": "",
+			"name": "sound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/duobao/duobao_game_bg.jpg",
+			"type": "image",
+			"name": "duobao_game_bg_jpg"
+		},
+		{
+			"url": "assets/duobao/font/duobao_fnt.fnt",
+			"type": "font",
+			"name": "duobao_fnt_fnt"
+		},
+		{
+			"url": "assets/duobao/font/duobao_fnt.png",
+			"type": "image",
+			"name": "duobao_fnt_png"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_background.mp3",
+			"type": "sound",
+			"name": "duobao_background_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_big_win.mp3",
+			"type": "sound",
+			"name": "duobao_big_win_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_box_destory.mp3",
+			"type": "sound",
+			"name": "duobao_box_destory_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_box_effect.mp3",
+			"type": "sound",
+			"name": "duobao_box_effect_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_button_effect.mp3",
+			"type": "sound",
+			"name": "duobao_button_effect_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_gem_destory.mp3",
+			"type": "sound",
+			"name": "duobao_gem_destory_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_gem_fall.mp3",
+			"type": "sound",
+			"name": "duobao_gem_fall_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_jump.mp3",
+			"type": "sound",
+			"name": "duobao_jump_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_round_over.mp3",
+			"type": "sound",
+			"name": "duobao_round_over_mp3"
+		},
+		{
+			"url": "assets/duobao/sound/duobao_zuan_destory.mp3",
+			"type": "sound",
+			"name": "duobao_zuan_destory_mp3"
+		},
+		{
+			"url": "assets/duobao/font/font_reward.fnt",
+			"type": "font",
+			"name": "font_reward_fnt"
+		},
+		{
+			"url": "assets/duobao/font/font_reward.png",
+			"type": "image",
+			"name": "font_reward_png"
+		},
+		{
+			"url": "assets/duobao/duobaoRoom.json",
+			"type": "sheet",
+			"name": "duobaoRoom_json",
+			"subkeys": "duobao_help_bg1,duobao_help_bg2,duobao_help_close,duobao_help_jeishao_s,duobao_help_jeishao_s1,duobao_help_next,duobao_help_next1,duobao_help_prev,duobao_help_prev1,duobao_help_title1,duobao_help_wanfa_s,duobao_help_wanfa_s1,duobaon_add,duobaon_back,duobaon_gold,duobaon_gold_bg,duobaon_head1,duobaon_headbar,duobaon_help,duobaon_logo,duobaon_mask,duobaon_mianfei,duobaon_mianfei2,duobaon_quickstart,duobaon_title_putong,duobaon_title_tiyan,duobaon_zhunru1"
+		},
+		{
+			"url": "assets/duobao/font/duobaoreward_fnt.fnt",
+			"type": "font",
+			"name": "duobaoreward_fnt_fnt"
+		},
+		{
+			"url": "assets/duobao/font/duobaoreward_fnt.png",
+			"type": "image",
+			"name": "duobaoreward_fnt_png"
+		},
+		{
+			"url": "assets/duobao/duobao_help_bg.png",
+			"type": "image",
+			"name": "duobao_help_bg_png"
+		},
+		{
+			"url": "assets/duobao/duobaohelp_content.png",
+			"type": "image",
+			"name": "duobaohelp_content_png"
+		},
+		{
+			"url": "assets/duobao/duobaon_room_bg.jpg",
+			"type": "image",
+			"name": "duobaon_room_bg_jpg"
+		},
+		{
+			"url": "assets/duobao/duobaon_room_preview.jpg",
+			"type": "image",
+			"name": "duobaon_room_preview_jpg"
+		},
+		{
+			"url": "assets/duobao/help/duobao_help_c1.png",
+			"type": "image",
+			"name": "duobao_help_c1_png"
+		},
+		{
+			"url": "assets/duobao/help/duobao_help_c2.png",
+			"type": "image",
+			"name": "duobao_help_c2_png"
+		},
+		{
+			"url": "assets/duobao/help/duobao_help_c3.png",
+			"type": "image",
+			"name": "duobao_help_c3_png"
+		},
+		{
+			"url": "assets/duobao/help/duobao_help_c4.png",
+			"type": "image",
+			"name": "duobao_help_c4_png"
+		},
+		{
+			"url": "assets/duobao/help/duobao_help_jieshao.png",
+			"type": "image",
+			"name": "duobao_help_jieshao_png"
+		},
+		{
+			"url": "assets/duobao/db_bg1.png",
+			"type": "image",
+			"name": "db_bg1_png"
+		},
+		{
+			"url": "assets/duobao/db_bg2.jpg",
+			"type": "image",
+			"name": "db_bg2_jpg"
+		},
+		{
+			"url": "assets/duobao/db_preview.png",
+			"type": "image",
+			"name": "db_preview_png"
+		},
+		{
+			"url": "assets/duobao/db_top.png",
+			"type": "image",
+			"name": "db_top_png"
+		},
+		{
+			"url": "assets/duobao/db_game.json",
+			"type": "sheet",
+			"name": "db_game_json",
+			"subkeys": "db_add_btn,db_add_btn_disable,db_add_btn_s,db_back,db_bank,db_btn_down,db_btn_off,db_btn_on,db_btn_up,db_cancel,db_close,db_confirm,db_danxian,db_dragon_reward,db_gem_0,db_gem_1,db_gem_10,db_gem_11,db_gem_12,db_gem_13,db_gem_14,db_gem_15,db_gem_2,db_gem_3,db_gem_4,db_gem_5,db_gem_6,db_gem_7,db_gem_8,db_gem_9,db_gold_flag,db_jieshao,db_leiji,db_leiji_shuoming,db_leijiyingqu,db_level1,db_level1_4,db_level2,db_level2_5,db_level3,db_level3_6,db_max_btn,db_menu_bg,db_player_name,db_plz_choose_reward,db_progress_1,db_progress_bg_1,db_putong,db_question,db_quit,db_quit_giveup,db_quit_save,db_reset,db_rule,db_setting,db_start,db_sub_btn,db_sub_btn_disable,db_tiyan,db_tuoguan,db_tuoguan_ing,db_xianshu,db_zhuankuai,db_zhuankuai2,duobao_icon_effect,duobao_icon_music,duobao_icon_texiao,duobao_progress_bar1,duobao_progress_bg1,duobao_setting_title,duobao_thump,pop_exitback"
+		},
+		{
+			"url": "assets/duobao/animation/db_dragon_ske.dbbin",
+			"type": "bin",
+			"name": "db_dragon_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/db_dragon_tex.png",
+			"type": "image",
+			"name": "db_dragon_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/db_posui_ske.dbbin",
+			"type": "bin",
+			"name": "db_posui_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/db_posui_tex.png",
+			"type": "image",
+			"name": "db_posui_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/db_tongguan_ske.dbbin",
+			"type": "bin",
+			"name": "db_tongguan_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/db_tongguan_tex.png",
+			"type": "image",
+			"name": "db_tongguan_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/db_dragon_tex.json",
+			"type": "json",
+			"name": "db_dragon_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/db_tongguan_tex.json",
+			"type": "json",
+			"name": "db_tongguan_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/db_posui_tex.json",
+			"type": "json",
+			"name": "db_posui_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "lhdb_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_qidong_tex.png",
+			"type": "image",
+			"name": "lhdb_qidong_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_qidong_tex.json",
+			"type": "json",
+			"name": "lhdb_qidong_tex_json"
+		},
+		{
+			"url": "assets/duobao/font/gui-dia-bank.fnt",
+			"type": "font",
+			"name": "gui-dia-bank_fnt"
+		},
+		{
+			"url": "assets/duobao/font/gui-dia-bank.png",
+			"type": "image",
+			"name": "gui-dia-bank_png"
+		},
+		{
+			"url": "assets/duobao/font/xbly_d1.fnt",
+			"type": "font",
+			"name": "xbly_d1_fnt"
+		},
+		{
+			"url": "assets/duobao/font/xbly_d1.png",
+			"type": "image",
+			"name": "xbly_d1_png"
+		},
+		{
+			"url": "assets/duobao/font/xbly_d2.fnt",
+			"type": "font",
+			"name": "xbly_d2_fnt"
+		},
+		{
+			"url": "assets/duobao/font/xbly_d2.png",
+			"type": "image",
+			"name": "xbly_d2_png"
+		},
+		{
+			"url": "assets/duobao/font/xbly_d3.fnt",
+			"type": "font",
+			"name": "xbly_d3_fnt"
+		},
+		{
+			"url": "assets/duobao/font/xbly_d3.png",
+			"type": "image",
+			"name": "xbly_d3_png"
+		},
+		{
+			"url": "assets/duobao/font/xbly_j1.fnt",
+			"type": "font",
+			"name": "xbly_j1_fnt"
+		},
+		{
+			"url": "assets/duobao/font/xbly_j1.png",
+			"type": "image",
+			"name": "xbly_j1_png"
+		},
+		{
+			"url": "assets/duobao/font/xbly_j2.fnt",
+			"type": "font",
+			"name": "xbly_j2_fnt"
+		},
+		{
+			"url": "assets/duobao/font/xbly_j2.png",
+			"type": "image",
+			"name": "xbly_j2_png"
+		},
+		{
+			"url": "assets/duobao/font/xbly_j3.fnt",
+			"type": "font",
+			"name": "xbly_j3_fnt"
+		},
+		{
+			"url": "assets/duobao/font/xbly_j3.png",
+			"type": "image",
+			"name": "xbly_j3_png"
+		},
+		{
+			"url": "assets/duobao/font/xbly_szty.fnt",
+			"type": "font",
+			"name": "xbly_szty_fnt"
+		},
+		{
+			"url": "assets/duobao/font/xbly_szty.png",
+			"type": "image",
+			"name": "xbly_szty_png"
+		},
+		{
+			"url": "assets/duobao/particle/boomRed.png",
+			"type": "image",
+			"name": "boomRed_png"
+		},
+		{
+			"url": "assets/duobao/particle/boomRed.json",
+			"type": "json",
+			"name": "boomRed_json"
+		},
+		{
+			"url": "assets/duobao/particle/boomBlue.png",
+			"type": "image",
+			"name": "boomBlue_png"
+		},
+		{
+			"url": "assets/duobao/particle/boomGray.png",
+			"type": "image",
+			"name": "boomGray_png"
+		},
+		{
+			"url": "assets/duobao/particle/boomGray.json",
+			"type": "json",
+			"name": "boomGray_json"
+		},
+		{
+			"url": "assets/duobao/particle/boomBlue.json",
+			"type": "json",
+			"name": "boomBlue_json"
+		},
+		{
+			"url": "assets/duobao/db_final_bg.jpg",
+			"type": "image",
+			"name": "db_final_bg_jpg"
+		},
+		{
+			"url": "assets/duobao/db_final_reward_icon.png",
+			"type": "image",
+			"name": "db_final_reward_icon_png"
+		},
+		{
+			"url": "assets/duobao/db_final_reward_item.png",
+			"type": "image",
+			"name": "db_final_reward_item_png"
+		},
+		{
+			"url": "assets/duobao/db_final_reward_item_bg.png",
+			"type": "image",
+			"name": "db_final_reward_item_bg_png"
+		},
+		{
+			"url": "assets/duobao/db_final_bottom.png",
+			"type": "image",
+			"name": "db_final_bottom_png"
+		},
+		{
+			"url": "assets/duobao/db_top_bg.png",
+			"type": "image",
+			"name": "db_top_bg_png"
+		},
+		{
+			"url": "assets/duobao/animation/db_fanpai_ske.dbbin",
+			"type": "bin",
+			"name": "db_fanpai_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/db_fanpai_tex.png",
+			"type": "image",
+			"name": "db_fanpai_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/db_fanpai_tex.json",
+			"type": "json",
+			"name": "db_fanpai_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/db_fanpai_guangbiao_ske.dbbin",
+			"type": "bin",
+			"name": "db_fanpai_guangbiao_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/db_fanpai_guangbiao_tex.json",
+			"type": "json",
+			"name": "db_fanpai_guangbiao_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/db_fanpai_guangbiao_tex.png",
+			"type": "image",
+			"name": "db_fanpai_guangbiao_tex_png"
+		},
+		{
+			"url": "assets/duobao/db_leiji_desc.png",
+			"type": "image",
+			"name": "db_leiji_desc_png"
+		},
+		{
+			"url": "assets/duobao/db_leiji_panel.png",
+			"type": "image",
+			"name": "db_leiji_panel_png"
+		},
+		{
+			"url": "assets/duobao/db_exit_desc.png",
+			"type": "image",
+			"name": "db_exit_desc_png"
+		},
+		{
+			"url": "assets/duobao/db_setting_bg.png",
+			"type": "image",
+			"name": "db_setting_bg_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_add.png",
+			"type": "image",
+			"name": "db_bank_add_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_bar.png",
+			"type": "image",
+			"name": "db_bank_bar_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_bg.png",
+			"type": "image",
+			"name": "db_bank_bg_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_draw_btn.png",
+			"type": "image",
+			"name": "db_bank_draw_btn_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_flag1.png",
+			"type": "image",
+			"name": "db_bank_flag1_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_gold.png",
+			"type": "image",
+			"name": "db_bank_gold_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_progressbar.png",
+			"type": "image",
+			"name": "db_bank_progressbar_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_progressbg.png",
+			"type": "image",
+			"name": "db_bank_progressbg_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_thumb.png",
+			"type": "image",
+			"name": "db_bank_thumb_png"
+		},
+		{
+			"url": "assets/duobao/bank/game_diamondDrag_imges_images_gui-dia-bank_icon.png",
+			"type": "image",
+			"name": "game_diamondDrag_imges_images_gui-dia-bank_icon_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_max.png",
+			"type": "image",
+			"name": "db_bank_max_png"
+		},
+		{
+			"url": "assets/duobao/bank/db_bank_title.png",
+			"type": "image",
+			"name": "db_bank_title_png"
+		},
+		{
+			"url": "assets/duobao/animation/db_baofu_tex.png",
+			"type": "image",
+			"name": "db_baofu_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/db_baofu_ske.dbbin",
+			"type": "bin",
+			"name": "db_baofu_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/db_baofu_tex.json",
+			"type": "json",
+			"name": "db_baofu_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_putong_ske.dbbin",
+			"type": "bin",
+			"name": "lhdb_putong_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_putong_tex.png",
+			"type": "image",
+			"name": "lhdb_putong_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_tiyan_tex.png",
+			"type": "image",
+			"name": "lhdb_tiyan_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_tiyan_ske.dbbin",
+			"type": "bin",
+			"name": "lhdb_tiyan_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_putong_tex.json",
+			"type": "json",
+			"name": "lhdb_putong_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_tiyan_tex.json",
+			"type": "json",
+			"name": "lhdb_tiyan_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/xunbaoleyuan4_tongguan_1_ske.dbbin",
+			"type": "bin",
+			"name": "xunbaoleyuan4_tongguan_1_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/xunbaoleyuan4_tongguan_1_tex.png",
+			"type": "image",
+			"name": "xunbaoleyuan4_tongguan_1_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/xunbaoleyuan4_tongguan_1_tex.json",
+			"type": "json",
+			"name": "xunbaoleyuan4_tongguan_1_tex_json"
+		},
+		{
+			"url": "assets/duobao/img/db_add_money.png",
+			"type": "image",
+			"name": "db_add_money_png"
+		}
+	]
+}

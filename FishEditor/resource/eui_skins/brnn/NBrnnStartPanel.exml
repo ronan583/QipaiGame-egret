@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnStartPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Image horizontalCenter="0" source="brnnn_room_bg_jpg"/>
+	<e:Image horizontalCenter="0" source="brnn_roompreview_png" visible="false"/>
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image x="1054.73" y="10.08" scaleX="1" scaleY="1" source="brnnn_logo"/>
+		<ns1:DragonAnim width="484" height="524" x="46" y="40" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="brnn_girl"/>
+		<e:Group id="bottomGroup" width="1334" height="94" y="676" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1">
+			<e:Image source="brnnn_bottom" horizontalCenter="0" y="0"/>
+			<e:Image x="8" source="brnnn_headframe" y="-24"/>
+			<e:Image id="headImg" width="74.97" height="76.48" x="22" y="-12" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="nameLabel" text="Guest1234" x="121.09" y="27" anchorOffsetX="0" width="210.36" anchorOffsetY="0" height="36.06" fontFamily="Microsoft YaHei" size="24" verticalAlign="middle" textAlign="left" bold="true"/>
+			<e:Image x="472.23" y="19.39" source="brnnn_gold_bg"/>
+			<e:Image x="446.96" y="9.96" anchorOffsetX="0" anchorOffsetY="0" source="brnnn_gold"/>
+			<e:Group id="goldAddBtn" width="98" height="55" x="697.67" y="16.72" anchorOffsetX="0" anchorOffsetY="0">
+				<ns1:DragonAnim width="50" height="50" x="0" y="0" scaleX="1" scaleY="1" aligntype="middle" anim="qznn_addgold"/>
+			</e:Group>
+
+			<e:BitmapLabel id="goldLabel" width="160.91" height="32.12" x="515" y="27.52" anchorOffsetX="0" anchorOffsetY="0" font="gpn_gold_fnt" text="1234.44" textAlign="center" verticalAlign="middle"/>
+		</e:Group>
+		<ns1:BrnnRoomItem id="roomItem1" width="487" height="170" x="531.67" y="102.08" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnnputongchang" gameLevel="0"/>
+		<ns1:BrnnRoomItem id="roomItem2" width="487" height="170" x="699.45" y="301" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" anim="brnngaojichang" aligntype="middle" gameLevel="1"/>
+		<ns1:BrnnRoomItem id="roomItem3" width="487" height="170" x="838.51" y="497.94" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" gameLevel="2" aligntype="middle" anim="brnnfuhaochang"/>
+		<e:Group id="leftCornerGroup" width="262.12" height="122.73" y="5" anchorOffsetX="0" anchorOffsetY="0" left="0" x="0" scaleX="1" scaleY="1">
+			<e:Button id="backBtn" label="" x="11" y="7">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnnn_back" source.down="brnnn_back" source.disabled="brnnn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" x="111.91" y="-0.6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnnn_help" source.down="brnnn_help" source.disabled="brnnn_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+
+	</e:Group>
+
+	<e:Group id="quickStartGroup" width="381.82" height="115.15" y="596" anchorOffsetX="0" anchorOffsetY="0" right="14" touchEnabled="false">
+		<ns1:DragonAnim id="quickStartAnim" width="380" height="115" y="0" scaleX="1" scaleY="1" aligntype="bottom" anim="brnn_quickstart"/>
+	</e:Group>
+
+
+
+
+
+</e:Skin>

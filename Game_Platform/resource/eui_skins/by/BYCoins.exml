@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BYCoinsSkin" width="267" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="168764996a9" ></w:Config>
+	<e:Group id="bulletMoneyGroup" width="195" height="55" x="0" y="0">
+		<e:Image id="bgImg" x="70" y="7" scaleX="1" scaleY="1" source="by_money_bg" visible="false"/>
+
+
+
+		<e:Button id="addBtn" label="" x="213" y="-10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_c_add1_0" source.down="by_c_add1_1" source.disabled="by_c_add1_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="subBtn" label="" x="3" y="-10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_c_sub1_0" source.down="by_c_sub1_1" source.disabled="by_c_sub1_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="bulletValueLabel" width="137" height="36" x="64" y="14" font="fishingJoy_battle_ui_font_blue_fnt" text="0.1" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+	<e:Group id="waittingGroup" width="176" height="60" y="6" anchorOffsetX="0" anchorOffsetY="0" x="46">
+		<e:Image id="bgWaittingImg" x="5" y="-22" scaleX="1" scaleY="1" source="by_cannon_dizuo1"/>
+		<e:Image id="waittingImg" y="11" scaleX="1" scaleY="1" source="by_waiting_player" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

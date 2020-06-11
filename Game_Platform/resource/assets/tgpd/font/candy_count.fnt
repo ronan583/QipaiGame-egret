@@ -1,0 +1,14 @@
+{"file":"candy_count.png","frames":{
+"6":{"x":1,"y":168,"w":37,"h":54,"offX":0,"offY":0,"sourceW":37,"sourceH":54},
+"7":{"x":1,"y":57,"w":40,"h":53,"offX":0,"offY":1,"sourceW":40,"sourceH":54},
+"8":{"x":1,"y":1,"w":40,"h":54,"offX":0,"offY":0,"sourceW":40,"sourceH":54},
+"9":{"x":85,"y":1,"w":40,"h":54,"offX":0,"offY":0,"sourceW":40,"sourceH":54},
+"/":{"x":41,"y":113,"w":34,"h":53,"offX":0,"offY":1,"sourceW":35,"sourceH":54},
+",":{"x":40,"y":223,"w":23,"h":25,"offX":0,"offY":29,"sourceW":23,"sourceH":54},
+".":{"x":1,"y":224,"w":19,"h":18,"offX":1,"offY":36,"sourceW":20,"sourceH":54},
+"0":{"x":43,"y":57,"w":39,"h":54,"offX":1,"offY":0,"sourceW":40,"sourceH":54},
+"1":{"x":77,"y":113,"w":27,"h":53,"offX":0,"offY":1,"sourceW":28,"sourceH":54},
+"2":{"x":1,"y":112,"w":38,"h":54,"offX":0,"offY":0,"sourceW":38,"sourceH":54},
+"3":{"x":84,"y":57,"w":38,"h":54,"offX":0,"offY":0,"sourceW":38,"sourceH":54},
+"4":{"x":43,"y":1,"w":40,"h":54,"offX":0,"offY":0,"sourceW":40,"sourceH":54},
+"5":{"x":40,"y":168,"w":36,"h":53,"offX":0,"offY":1,"sourceW":36,"sourceH":54}}}

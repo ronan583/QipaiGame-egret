@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzStartAnimationSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="startAnim">
+
+
+
+
+
+			<tween:TweenItem target="{startIcon}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1050"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}" x="{-500}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" x="{439}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500" ease="backIn">
+					<tween:props>
+						<e:Object x="{1280}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+
+
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="16727e26bc6" ></w:Config>
+	<e:Image id="startIcon" source="lhdzGame_json.start" x="359" y="311"/>
+
+
+
+</e:Skin>

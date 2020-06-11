@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DdzRecordBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="884">
+	<e:Group width="881" height="77" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="zjLine" bottom="0" horizontalCenter="50" x="-5" y="72" scaleX="1" scaleY="1" source="ddz_zjcx_json.ddz_zjcx_line"/>
+		<e:Image id="resultIcon" x="60.65" verticalCenter="0.5" y="6" scaleX="1" scaleY="1" source="ddz_zjcx_json.ddz_zjcx_iconwin"/>
+		<e:Image x="141.98" verticalCenter="-1" anchorOffsetX="0" width="245.67" scale9Grid="21,5,128,35" y="14" scaleX="1" scaleY="1" source="ddz_zjcx_json.ddz_zjcx_bglabel"/>
+		<e:Image x="399.28" verticalCenter="-1" anchorOffsetX="0" width="128.33" scale9Grid="26,6,157,37" y="14" scaleX="1" scaleY="1" source="ddz_zjcx_json.ddz_zjcx_bglabel"/>
+		<e:Image id="roomLevelImg" x="412.45" verticalCenter="0.5" y="23" scaleX="1" scaleY="1" source="ddz_zjcx_json.ddz_zjcx_level0"/>
+		<e:Label id="zjTime" text="12-12 12:12" x="542.48" size="28" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" verticalCenter="-0.5" bold="true" y="24" scaleX="1" scaleY="1" textColor="0x7c6c57"/>
+		<e:BitmapLabel id="totalWin" width="222" height="50" x="146.31" anchorOffsetX="0" anchorOffsetY="0" text="+1234.万" verticalCenter="0.5" letterSpacing="-8" y="14" scaleX="1" scaleY="1" font="ddz_zjcx_win_fnt"/>
+		<ns1:IButton id="detailBtn" xmlns:ns1="*" label="" x="720.32" anchorOffsetY="0" verticalCenter="3" y="10" scaleX="1" scaleY="1">
+			<ns1:skinName xmlns:ns1="*">
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_zjcx_json.ddz_zjcx_btndetail" source.down="ddz_zjcx_json.ddz_zjcx_btndetail" source.disabled="ddz_zjcx_json.ddz_zjcx_btndetail"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:Image id="bankerIcon" source="ddz_zjcx_json.ddz_zjcx_iconbank" x="9" y="21"/>
+	</e:Group>
+
+
+
+
+
+</e:Skin>

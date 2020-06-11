@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlTrendContentSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" >
+	<w:Config id="16c22fcaf1b" ></w:Config>
+	<e:Image y="0" x="0" source="bjlGame_json.bg_threeRoad"/>
+	<e:Image y="16" x="10" source="bjlGame_json.label_zpl_simple"/>
+	<e:Scroller id="itemScroll" width="435" height="90" x="70" y="5" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="itemGroup" anchorOffsetX="0">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<bjl:BjlTrendItem id="item1" x="-141" y="-150"/>
+			<bjl:BjlTrendItem x="-131" y="-140" id="item2"/>
+			<bjl:BjlTrendItem x="-121" y="-130" id="item3"/>
+			<bjl:BjlTrendItem x="-111" y="-120" id="item4"/>
+			<bjl:BjlTrendItem x="-101" y="-110" id="item5"/>
+			<bjl:BjlTrendItem x="-91" y="-100" id="item6"/>
+			<bjl:BjlTrendItem x="-81" y="-90" id="item7"/>
+			<bjl:BjlTrendItem x="-71" y="-80" id="item8"/>
+			<bjl:BjlTrendItem x="-61" y="-70" id="item9"/>
+			<bjl:BjlTrendItem x="-51" y="-60" id="item10"/>
+			<bjl:BjlTrendItem x="-41" y="-50" id="item11"/>
+			<bjl:BjlTrendItem x="-31" y="-40" id="item12"/>
+			<bjl:BjlTrendItem x="-21" y="-30" id="item13"/>
+			<bjl:BjlTrendItem x="-11" y="-20" id="item14"/>
+			<bjl:BjlTrendItem x="-1" y="-10" id="item15"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image y="5" x="39" source="bjlGame_json.hlssm_log_grid_right"/>
+	<e:Image y="9" x="43" source="bjlGame_json.icon_xian"/>
+	<e:Image y="41" x="43" source="bjlGame_json.icon_ping"/>
+	<e:Image y="70" x="42" source="bjlGame_json.icon_zhuang"/>
+</e:Skin>

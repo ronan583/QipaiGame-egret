@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZCartoonSkin" width="155" height="277" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16e5c81d60e" ></w:Config>
+	<ns1:DragonAnim id="landlord" width="155" height="277" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="ddz_dz" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" y="0" x="0"/>
+	<ns1:DragonAnim id="farm" width="155" height="277" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="ddz_nm_nan" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" x="0" y="0"/>
+	<ns1:DragonAnim id="bianshe" width="155" height="189" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="ddz_bianshe" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

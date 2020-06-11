@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlBigRoadItemSkin" width="16" height="16" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1693524632f" ></w:Config>
+	<e:Image id="itemIcon" x="0" y="0" source="bjlGame_json.hlssm_luzi_item_1_1"/>
+	<e:Image id="heNumIcon" source="" x="4" y="3"/>
+	<e:Label id="bankerHeLabel" text="1" x="2.86" y="2.59" fontFamily="Microsoft YaHei" size="10" anchorOffsetX="0" width="10.71" anchorOffsetY="0" height="10" textAlign="center" textColor="0xbf4b87" visible="false"/>
+	<e:Label id="playerHeLabel" text="1" x="2.86" y="2.59" fontFamily="Microsoft YaHei" size="10" anchorOffsetX="0" width="10.71" anchorOffsetY="0" height="10" textAlign="center" textColor="0x5076d8" visible="false"/>
+</e:Skin>

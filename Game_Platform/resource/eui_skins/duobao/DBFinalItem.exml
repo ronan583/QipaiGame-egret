@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DBFinalItemSkin" width="243" height="364" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16c32a7ca73" ></w:Config>
+	<e:Image id="backImg" source="db_final_reward_item_png" width="260" height="390" x="-8" y="-13" touchEnabled="false"/>
+	<ns1:DragonAnim id="fanpaiAnim" width="243" height="364" aligntype="middle" anim="db_fanpai" playOnStage="false" isloop="false" touchChildren="false" touchEnabled="false" visible="false"/>
+	<ns1:DragonAnim id="fanpaiGuangbiaoAnim" width="243" height="364" aligntype="middle" anim="db_fanpai_guangbiao" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" visible="false"/>
+	<e:Group id="frontGroup" width="242" height="368" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="false" touchThrough="false">
+
+
+		<e:BitmapLabel id="rewardLabel" width="116.33" height="22" y="249.4" text="123123123" anchorOffsetX="58.2" anchorOffsetY="11.4" textAlign="center" verticalAlign="middle" touchEnabled="false" font="xbly_d1_fnt" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PdkRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg1" horizontalCenter="0.5" verticalCenter="15.5" source="pdk_zjcx_json.pdk_zjcx_bgpanel"/>
+		<e:Image id="winIcon" x="378.93" y="307.66" source="pdk_zjcx_iconwin"/>
+		<e:Label id="bottomBet" text="12345" x="831.03" y="304.8" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" fontFamily="Microsoft YaHei" textColor="0x6f4b40"/>
+		<e:Label id="boomNum" text="12345" x="832.03" y="436.12" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" fontFamily="Microsoft YaHei" textColor="0x6f4b40"/>
+		<e:Label id="spring" text="12345" x="832.05" y="372.13" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" fontFamily="Microsoft YaHei" textColor="0x6f4b40"/>
+		<e:Label id="cardNum" text="12345" x="522.38" y="437" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" fontFamily="Microsoft YaHei" textColor="0x6f4b40"/>
+		<e:BitmapLabel id="winLabel" width="195.33" height="41" x="464.95" y="321.06" anchorOffsetX="0" anchorOffsetY="0" text="12345" letterSpacing="-8" font="pdk_zjcx_win_fnt"/>
+		<e:Image id="baopeiIcon" source="pdk_zjcx_json.pdk_lose_all" x="325" y="276" visible="false"/>
+		<e:Image id="cardnumImg1" source="pdk_zjcx_json.pdk_zjcx_cardnum" x="376" y="432" visible="false"/>
+		<e:Image id="cardnumImg" source="pdk_zjcx_json.pdk_zjcx_cardnum1" x="348" y="432"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzMenuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*"  width="234" height="468">
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="16b6c06ce3f" ></w:Config>
+	<ns1:IButton id="downBtn" label="" y="0" x="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hhdz_desk011" source.down="hhdz_desk011" source.disabled="hhdz_desk011"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+	<ns1:IButton id="upBtn" label="" y="0" left="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="hhdz_desk047" source.down="hhdz_desk047" source.disabled="hhdz_desk047"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+	<e:Group id="menuGroup" x="3" y="98">
+		<e:Image y="0" x="0" source="hhdz_trip_bg"/>
+		<ns1:IButton id="bankBtn" label="" y="30" x="21">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_bank_bnt" source.down="hhdz_bank_bnt" source.disabled="hhdz_bank_bnt"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="helpBtn" label="" y="110" x="21">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_rule_btn" source.down="hhdz_rule_btn" source.disabled="hhdz_rule_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="settingBtn" label="" y="190" x="21">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_setting_btn" source.down="hhdz_setting_btn" source.disabled="hhdz_setting_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" y="270" x="21">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_exit_btn" source.down="hhdz_exit_btn" source.disabled="hhdz_exit_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

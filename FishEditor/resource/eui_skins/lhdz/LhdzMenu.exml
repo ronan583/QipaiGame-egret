@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzMenuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16b6c0aa87f" ></w:Config>
+	<ns1:IButton id="downBtn" label="" left="20" top="25">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lhdz_battle_json.down_Btn" source.down="lhdz_battle_json.down_Btn" source.disabled="lhdz_battle_json.down_Btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<ns1:IButton id="upBtn" label="" left="20" top="25" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lhdz_battle_json.up_Btn" source.down="lhdz_battle_json.up_Btn" source.disabled="lhdz_battle_json.up_Btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<e:Group id="menuGroup" y="-395">
+		<e:Image y="0" x="0" source="lhdz_battle_json.menu_Bg"/>
+		<ns1:IButton id="bankBtn" label="" horizontalCenter="0" verticalCenter="-145.5">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.bank_Btn" source.down="lhdz_battle_json.bank_Btn" source.disabled="lhdz_battle_json.bank_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="helpBtn" label="" horizontalCenter="0" verticalCenter="-56.5">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.help_Btn" source.down="lhdz_battle_json.help_Btn" source.disabled="lhdz_battle_json.help_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="settingBtn" label="" horizontalCenter="0" verticalCenter="32.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.set_Btn" source.down="lhdz_battle_json.set_Btn" source.disabled="lhdz_battle_json.set_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" horizontalCenter="0" verticalCenter="121.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.back_btn" source.down="lhdz_battle_json.back_btn" source.disabled="lhdz_battle_json.back_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

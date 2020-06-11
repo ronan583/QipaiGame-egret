@@ -1,0 +1,55 @@
+option java_package = "com.gp.game.message";
+enum OPErrorCode {
+	//未登录
+	NOT_LOGIN_DATA = -999;
+	//密码不正确
+	PASSWORD_NO_CORRECT = -1000;
+	//账号不正确
+	ACCOUNT_NO_CORRECT = -1001;
+	//操作失败
+	OPERATION_FAILED   = -1002;
+	//余额不足
+	MONEY_NOT_ENOUGH   = -1003;
+	//房间不存在
+	NOT_ROOM_INFO   = -1004;
+	//不再房间中
+	PLAYER_NOT_ROOM_IN = -10005;
+	//操作非法
+	NOT_OPERATION = -1006;
+	//出的牌不正确
+	NOT_SELECT_CARD = -1007;
+	//重复操作
+	REPEAT_OPERATION = -1008;
+	//上庄余额不得少于10000
+	MONEY_NOT_ENOUGH_10000   = -1009;
+	//验证码不正确
+	NOT_VERIFICATION_CODE   = -1010;
+	//账号已注册
+	ACCOUNT_ALREADY_REG = -1011;
+	//最大下注值
+	MAX_STAKE = -10012;
+	//非法出牌
+	ILLEGAL_PLAY_CARD = -1012;
+	
+	//超出房间最大值
+	EXCEED_MAX_ROOM_MONEY = -1013;
+}	
+
+message OPErrorInfo{
+	optional int32 errorId = 1;
+	optional int32 errorMsg = 2;
+	optional string channelId = 3;//服务器用
+}
+
+message OPMoneyErrorInfo{
+	optional int64 money = 1;
+	optional bool gameIn = 2;//是否在游戏里面
+}
+
+
+message OPErrorUpload{
+	optional string name = 1;
+	optional string type = 2;
+	optional string errorMsg = 3;
+}
+

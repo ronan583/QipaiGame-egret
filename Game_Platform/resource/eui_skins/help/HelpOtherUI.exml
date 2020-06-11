@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpOtherUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillColor="0xffffff" visible="false"/>
+
+	<e:Group id="ddz_group" width="1280" height="720" x="0" y="0" visible="false">
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" horizontalCenter="0" verticalCenter="0" x="125" y="65" scaleX="1" scaleY="1" source="ddz_help_bg_png"/>
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" source="help_title_png" y="112.2" x="562" scaleX="1" scaleY="1"/>
+		<e:Button id="closeBtn" label="" x="1007.9" y="88.42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_help_close_png" source.down="ddz_help_close_png" source.disabled="ddz_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scroller" width="983.03" height="421.88" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-0.5" y="168.33" x="148" scaleX="1" scaleY="1">
+			<e:Group id="viewport" anchorOffsetX="0" width="1095.15" x="190.91" y="0" anchorOffsetY="0" height="424.55">
+				<e:Image source="ddz_help_content_png" x="57.33" y="9.31"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="pdk_group" width="1280" height="720" visible="false">
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" horizontalCenter="0" verticalCenter="0" x="125" y="65" scaleX="1" scaleY="1" source="pdk_help_bg_png"/>
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" source="help_title_png" y="112.2" x="562" scaleX="1" scaleY="1"/>
+		<e:Button id="closeBtnPdk" label="" x="1031.89" y="89.75">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_help_close_png" source.down="pdk_help_close_png" source.disabled="pdk_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrollerPdk" width="983.03" height="421.88" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-0.5" y="168.33" x="148" scaleX="1" scaleY="1">
+		<e:Group id="viewport0" anchorOffsetX="0" width="1095.15" x="190.91" y="0" anchorOffsetY="0" height="424.55">
+			<e:Image x="57.33" y="9.31" source="pdk_help_content_png"/>
+		</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="fruit_group" width="1280" height="720" visible="false">
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" horizontalCenter="0" verticalCenter="0" x="125" y="65" scaleX="1" scaleY="1" source="fruit_help_bg_png"/>
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" y="112.2" x="562" scaleX="1" scaleY="1" source="fruit_help_title_png"/>
+		<e:Button id="closeBtnFruit" label="" x="1031.89" y="89.75">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fruit_help_close_png" source.down="fruit_help_close_png" source.disabled="fruit_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrollerFruit" width="983.03" height="421.88" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-0.5" y="168.33" x="148" scaleX="1" scaleY="1">
+		<e:Group id="viewport1" anchorOffsetX="0" width="1095.15" x="190.91" y="0" anchorOffsetY="0" height="424.55">
+			<e:Image x="57.33" y="9.31" source="fruit_help_content_png"/>
+		</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="ermj_group" width="1280" height="720" visible="false">
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" horizontalCenter="0" verticalCenter="0" x="125" y="65" scaleX="1" scaleY="1" source="ermj_help_bg_png"/>
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" y="112.2" x="562" scaleX="1" scaleY="1" source="help_title_png"/>
+		<e:Button id="closeBtnErmj" label="" x="1031.89" y="89.75">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_help_close_png" source.down="ermj_help_close_png" source.disabled="ermj_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrollerErmj" width="983.03" height="421.88" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-0.5" y="168.33" x="148" scaleX="1" scaleY="1">
+		<e:Group id="viewport2" anchorOffsetX="0" width="1095.15" x="190.91" y="0" anchorOffsetY="0" height="424.55">
+			<e:Image x="57.33" y="9.31" source="help_ermj_content_png"/>
+			<e:Image x="57.33" y="2627" source="help_ermj_content2_png"/>
+			<e:Image x="57.33" y="4056" source="help_ermj_content2_png"/>
+		</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="candy_group" width="1280" height="720" visible="false">
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" horizontalCenter="0" verticalCenter="0" x="125" y="65" scaleX="1" scaleY="1" source="candy_help_bg_png"/>
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" y="39.99" x="563" scaleX="1" scaleY="1" source="candy_help_title_png"/>
+		<e:Button id="closeBtnCandy" label="" x="1039.89" y="47.06">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="candy_help_close_png" source.down="candy_help_close_png" source.disabled="candy_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scrollerCandy" width="983.03" height="451.21" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="23.5" y="176.41" x="148" scaleX="1" scaleY="1">
+		<e:Group id="viewport3" anchorOffsetX="0" width="1095.15" x="190.91" y="0" anchorOffsetY="0" height="455.21">
+			<e:Image x="57.33" y="9.31" source="candy_help_content_png"/>
+		</e:Group>
+		</e:Scroller>
+	</e:Group>
+
+</e:Skin>

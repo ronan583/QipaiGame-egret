@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlTrendPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*"  height="443.09" width="1334">
+	<w:Config id="16bf3e420a2" ></w:Config>
+	<e:Group id="trendGroup" x="6" y="308">
+		<bjl:BjlTrendContent id="trendContent" x="0" y="31.37" anchorOffsetX="0" width="520"/>
+		<e:Image id="showRoadBtn" y="3.67" x="404" source="bjlGame_json.showRoadBtn"/>
+	</e:Group>
+	<e:Group id="roadGroup" x="0" y="0">
+		<e:Image id="hideRoadBtn" y="14.44" x="1106.99" source="bjlGame_json.hideRoadBtn"/>
+	<bjl:BjlCornerPanel id="cornerPanel" x="2.66" y="65.95"/>
+	</e:Group>
+	<e:Image id="bottomBG" y="378" x="-12" source="bjlGame_json.hideRoadBtn" anchorOffsetX="0" width="1123" visible="false"/>
+	
+</e:Skin>

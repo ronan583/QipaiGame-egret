@@ -1,0 +1,104 @@
+option java_package = "com.gp.game.message";
+
+message OPMahjongCheckRoom{
+	required int32 gameLevel = 1;
+}
+message OPMahjongCheckRoomRet{
+	required bool inRoom = 1;//true在房间中 false不在
+}
+
+//战斗开始
+message OPMahjongStartGame {
+	required int64 currentPlayerId = 1; //当前出牌者
+	optional int32 cardPoolsCount = 2;// 牌池当前数量
+	repeated OPMahjongPlayerInfo playerInfo = 3;//玩家牌信息
+	repeated int32 handCards = 4;      // 手牌 万（11-19）风牌（21-27）
+	repeated int32 oppositeCards = 5;      // 对家手牌 只有自己选择了听牌 才会有值 万（11-19）风牌（21-27）
+	optional int32 downTime = 6;//
+	repeated int32 dice = 7;//集合2个数 分别为2个骰子
+	
+}
+
+//玩家信息
+message OPMahjongPlayerInfo{
+	required int64 playerId = 1; 
+	required int32 cardCount = 2;//牌的数量
+	repeated int32 hitCards = 3;      // 打出的牌
+	repeated OPMahjongFallCard fallCards = 4; // 吃碰杠的牌
+	required int32 playType = 5;  // 战斗类型集合
+	repeated int32 cards = 6;  // 操作的牌 打出 或者摸的牌
+	repeated OPTingCard tingDiscards  = 7 ;//当自己打出牌的时候才会有值 表示打出什么牌听什么牌
+	required bool isTing = 8;  // 是否选者了听 如果选择了听 就不能出牌了
+	repeated OPTingHuInfo tingCards  = 9 ;//听的牌 如果集合不为空表示听牌
+	optional bool isTrusteeship = 10 ;//是否托管 true 托管
+	optional int32 jiabeiCount = 11 ;//加倍次数
+	optional int32 totalFan = 12 ;//总番数 计算了加倍
+}
+
+//听的牌 --playCard 打出的牌 hucards 为打出这个牌胡相应的牌
+message OPTingCard {
+	required int32 playCard = 1;  // 打出牌 如果 playCard = 0 表是
+	repeated OPTingHuInfo tingHuInfos = 2;  // 胡的牌
+}
+
+//胡牌信息
+message OPTingHuInfo {
+	required int32 card = 1;//胡的牌
+	required int32 fan = 2;//番数
+	required int32 huCount = 3;//可胡牌数
+}
+
+//倒下的牌
+message OPMahjongFallCard{
+	required int32 type = 1;//类型 吃牌还是碰牌
+	repeated int32 card = 2;      // 牌
+	required int64 targetId = 3; 
+}
+
+//请求战斗  -- 回复开始战斗
+message OPMahjongBattleStep {
+	required int32 playType = 1;  // 战斗类型集合
+	repeated int32 cards = 2;  // 操作的牌 打出 或者吃 碰的牌
+}
+
+//推送听 加倍等信息
+message OPMahjongPushBattleStep {
+	required int64 playerId = 1; 
+	required int32 playType = 2;  // 战斗类型
+}
+
+
+//战斗完成
+message OPMahjongFinishRet {
+	repeated OPMahjongFallCard fallCards = 1; // 赢者 倒下的牌
+	repeated int32 handCards = 2;//赢者手牌
+	repeated OPMahjongHuType huTypes = 3; // 赢者 胡类型详情
+	required int32 huFan = 4;//胡牌番数
+	required int32 totalFan = 5;//总番数
+	required int32 jiabeiCount = 6;//加倍次数
+	required int64 winPlayerId = 7; //赢的人
+	required int64 winMoney = 8;//赢钱
+	required int32 type = 9;//1点炮 2自摸 3黄庄
+	optional int32 downTime = 10;//
+	optional int32 huCard = 11;//胡的牌
+	repeated int32 oppositeCards = 12;//赢者手牌
+}
+
+//胡牌详情
+message OPMahjongHuType {
+	required int32 huType = 1;  // 战斗类型集合
+	required int32 fan = 2;  // 番 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

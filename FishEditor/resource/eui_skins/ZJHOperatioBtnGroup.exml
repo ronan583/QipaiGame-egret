@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZJHOperatioBtnGroupSkin" width="1319.39" height="451.51" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16634d71d4e" ></w:Config>
+
+
+
+	<ns1:IButton id="lookBtn" label="" y="219.49" horizontalCenter="38.80499999999995">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjh_btn_see_png" source.down="zjh_btn_see_png" source.disabled="zjh_btn_see_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+
+
+
+
+
+	<ns1:IButton id="cancelCompareBtn" label="" x="180" y="36.64" visible="false">
+
+	</ns1:IButton>
+	<e:Group id="turnGroup" width="1274.24" height="95.45" x="2" y="330.3" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:IButton id="discardBtn" label="" y="5.76" x="-2" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_btn_drop" source.down="zjh_btn_drop" source.disabled="zjh_btn_drop"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="compareBtn" label="" x="257.54" y="6.3799999999999955" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_btn_cmp" source.down="zjh_btn_cmp" source.disabled="zjh_btn_cmp_f"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="allInBtn" label="" x="516" y="6.140000000000015" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_btn_all" source.down="zjh_btn_all" source.disabled="zjh_btn_all_f"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="followBtn" label="" x="781.95" y="6.78000000000003" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_btn_follow" source.down="zjh_btn_follow" source.disabled="zjh_btn_follow_f"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="addBtn" label="" x="1035" y="6.78">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjhGame_json.zjh_btn_add" source.down="zjhGame_json.zjh_btn_add" source.disabled="zjhGame_json.zjh_btn_add_f"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Group id="addBetGroup" width="286" height="408" x="1164" y="102.28" anchorOffsetX="143" anchorOffsetY="408" visible="false">
+			<e:Image id="addBg" x="143" y="408" source="zjh_add_bg" scaleX="1" scaleY="1" anchorOffsetX="143" anchorOffsetY="408" height="408" scale9Grid="96,51,98,306"/>
+			<ns1:IButton id="addBetBtn4" label="" x="32" y="17.72" name="addBet">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_btn_add_l1" source.down="zjh_btn_add_l1" source.disabled="zjh_btn_add_l1_f"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+			</ns1:IButton>
+
+
+
+			<ns1:IButton id="addBetBtn3" label="" x="32" y="116.11" name="addBet">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_btn_add_l2" source.down="zjh_btn_add_l2" source.disabled="zjh_btn_add_l2_f"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+
+			</ns1:IButton>
+
+			<ns1:IButton id="addBetBtn2" label="" x="32" y="214.11" name="addBet">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_btn_add_l3" source.down="zjh_btn_add_l3" source.disabled="zjh_btn_add_l3_f"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+			</ns1:IButton>
+
+
+			<ns1:IButton id="addBetBtn1" label="" x="32" y="312.11" name="addBet">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_btn_add_l4" source.down="zjh_btn_add_l4" source.disabled="zjh_btn_add_l4_f"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+
+			</ns1:IButton>
+
+		</e:Group>
+
+
+
+
+	</e:Group>
+	<e:Group id="unturnGroup" width="1274.24" height="95.45" x="2" y="336.3" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:IButton id="discardBtn2" label="" y="0" x="422.25" scaleX="1" scaleY="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjh_btn_drop" source.down="zjh_btn_drop" source.disabled="zjh_btn_drop"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="alwaysFollowBtn" label="" x="682.25" y="0.2" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_btn_always" source.down="zjh_btn_always" source.disabled="zjh_btn_always_f"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="cancelFollowBtn" label="" x="682.25" y="0.2" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_btn_cancel_follow" source.down="zjh_btn_cancel_follow" source.disabled="zjh_btn_cancel_follow_f"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:DragonAnim id="shineAnim" width="251" height="113" x="683.58" y="-14.46" anim="zjh_atnguang" aligntype="middle" isloop="true" playOnStage="true" isTouchByGroup="false" visible="false"/>
+	</e:Group>
+</e:Skin>

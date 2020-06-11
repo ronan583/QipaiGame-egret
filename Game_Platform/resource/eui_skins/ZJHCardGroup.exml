@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZJHCardGroupSkin" width="107" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16630a94e13" ></w:Config>
+
+
+
+	<e:Image id="cardTypeImg" x="175.5" y="-52" scaleX="1" scaleY="1" source="gold_flower" visible="false"/>
+	<ns1:ZJHOtherCard id="card1" anchorOffsetX="29" anchorOffsetY="36.5" x="29" y="36.5"/>
+	<ns1:ZJHOtherCard id="card2" anchorOffsetX="29" anchorOffsetY="36.5" x="53" y="36.5"/>
+	<ns1:ZJHOtherCard id="card3" anchorOffsetX="29" anchorOffsetY="36.5" x="78" y="36.5"/>
+</e:Skin>

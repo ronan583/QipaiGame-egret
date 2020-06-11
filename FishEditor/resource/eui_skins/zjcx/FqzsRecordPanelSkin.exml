@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsRecordPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg1" horizontalCenter="0.5" verticalCenter="45" source="fqzs_zjcx_panelbg"/>
+		<e:Image id="winIcon" x="721.34" y="474.27" source="fqzs_zjcx_iconwin"/>
+		<e:BitmapLabel id="winMoneyLabel" width="202.67" height="50.67" x="802.35" y="488.29" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="fqzs_zjcx_lose_fnt"/>
+		<e:Image id="bankerIcon" x="373.65" y="479.93" source="fqzs_zjcx_iconbanker"/>
+		<e:Image id="totalPoolIcon" x="447.67" y="488.99" source="fqzs_zjcx_imgpool"/>
+		<e:Image id="totalBetIcon" x="418.68" y="488.98" source="fqzs_zjcx_imgtotalbet"/>
+		<e:BitmapLabel id="totalBetLabel" width="160" height="50.67" x="545.69" y="488.98" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="fqzs_zjcx_win_fnt"/>
+		<e:Image id="winTypeIcon" x="554.33" y="351.6" source="animald_10"/>
+		<e:Image id="multiIcon" x="670.34" y="366.09" source="fqzs_zjcx_animal7"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzCornerRoadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:hhdz="game.hhdz.*"  width="622" height="175">
+	<w:Config id="16a5fa8e56f" ></w:Config>
+
+
+	<e:Image x="0" y="-43" rotation="0" source="roomRes_json.room_bg" visible="false"/>
+
+	<hhdz:HhdzResultRoad id="resultRoad" x="1" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.05"/>
+	<hhdz:HhdzBigRoad id="bigRoad" width="409" height="86" x="225" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.95"/>
+	<hhdz:HhdzThreeRoad id="dyzRoad" width="195" height="44" x="226" y="87" anchorOffsetY="0" anchorOffsetX="0"/>
+	<hhdz:HhdzThreeRoad id="smallRoad" width="198" height="47" x="422" y="87" anchorOffsetX="0"/>
+	<hhdz:HhdzThreeRoad id="yueyouRoad" width="196" height="44" x="226" y="131" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

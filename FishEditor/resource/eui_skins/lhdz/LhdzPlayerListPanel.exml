@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzPlayerListPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="167559c8606" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="lhdz_battle_json.lhdz_online_bg" horizontalCenter="0" verticalCenter="0" x="223" y="74" scaleX="1" scaleY="1"/>
+		<e:Image source="lhdz_battle_json.lhdz_online_title" x="572" y="94.04" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="closeBtn" label="" horizontalCenter="372" verticalCenter="-42.5" x="932" y="188" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.lhdz_close" source.down="lhdz_battle_json.lhdz_close" source.disabled="lhdz_battle_json.lhdz_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*" xmlns:brnn="game.brnn.*"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image source="lhdz_battle_json.lhdz_online_frame" y="210.2" horizontalCenter="0" x="544" scaleX="1" scaleY="1"/>
+		<e:Label id="onlineNum" text="99在线" size="23" fontFamily="Microsoft YaHei" verticalCenter="-147.5" textColor="0x7c5e32" bold="true" horizontalCenter="0" x="630" y="216" scaleX="1" scaleY="1"/>
+		<e:Scroller id="scroller" width="715" height="363" scaleX="1" scaleY="1" x="310" y="256.67">
+			<e:Group id="playerListGroup" x="-15.15" y="-43.94">
+			<e:layout>
+				<e:TileLayout verticalGap="40" horizontalGap="70" paddingLeft="120" paddingRight="120" requestedColumnCount="4"/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

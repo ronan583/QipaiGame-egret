@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsZJ" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image verticalCenter="0" y="17" scaleX="1" scaleY="1" source="fqzs_help_bg_png" horizontalCenter="0"/>
+		<e:Scroller id="scroller" width="959.02" height="452" anchorOffsetY="0" anchorOffsetX="0" y="150.01" alpha="1" scaleX="1" scaleY="1" horizontalCenter="-2.5">
+		<e:Group id="viewport" anchorOffsetX="0" x="-46.67" y="0" alpha="1" anchorOffsetY="0">
+			<e:layout>
+			<e:VerticalLayout verticalAlign="top" gap="3"/>
+			</e:layout>
+			<ns1:FqzsRecordBar x="13.33" y="13.33" skinName="FqzsRecordBarSkin"/>
+			<ns1:FqzsRecordBar x="23.33" y="23.33" skinName="FqzsRecordBarSkin"/>
+			<ns1:FqzsRecordBar x="33.33" y="33.33" skinName="FqzsRecordBarSkin"/>
+			<ns1:FqzsRecordBar x="43.33" y="43.33" skinName="FqzsRecordBarSkin"/>
+		</e:Group>
+		</e:Scroller>
+		<e:Image y="79.93" source="fqzs_zjcx_title" horizontalCenter="-2.5"/>
+		<ns1:IButton id="closeBtn" xmlns:ns1="*" label="" x="1099.98" y="54.92" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_room_json.fqzs_close" source.down="fqzs_room_json.fqzs_close" source.disabled="fqzs_room_json.fqzs_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

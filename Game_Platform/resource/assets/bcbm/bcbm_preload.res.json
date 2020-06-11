@@ -1,0 +1,110 @@
+{
+	"groups": [
+		{
+			"keys": "bcbm_roombg_jpg,bcbmkuaisukaishi_tex_png,bcbmkuaisukaishi_tex_json,bcbmkuaisukaishi_ske_dbbin,bcbm_js5_ske_dbbin,bcbm_js5_tex_png,bcbmjiazailogo_ske_dbbin,bcbmjiazailogo_tex_png,bcbmputongchang_ske_dbbin,bcbmputongchang_tex_png,bcbmtiyanchang_ske_dbbin,bcbmtiyanchang_tex_png,bcbm_js5_tex_json,bcbmjiazailogo_tex_json,bcbmputongchang_tex_json,bcbmtiyanchang_tex_json,bcbmgaojichang_5_tex_png,bcbmgaojichang_5_ske_dbbin,bcbmgaojichang_5_tex_json,bcbm_gamebg_jpg",
+			"name": "bcbm_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bcbm/image/bcbm_roombg.jpg",
+			"type": "image",
+			"name": "bcbm_roombg_jpg"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmkuaisukaishi_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmkuaisukaishi_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmkuaisukaishi_tex.png",
+			"type": "image",
+			"name": "bcbmkuaisukaishi_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmkuaisukaishi_tex.json",
+			"type": "json",
+			"name": "bcbmkuaisukaishi_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbm_js5_ske.dbbin",
+			"type": "bin",
+			"name": "bcbm_js5_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbm_js5_tex.png",
+			"type": "image",
+			"name": "bcbm_js5_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmjiazailogo_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmjiazailogo_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmjiazailogo_tex.png",
+			"type": "image",
+			"name": "bcbmjiazailogo_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmputongchang_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmputongchang_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmputongchang_tex.png",
+			"type": "image",
+			"name": "bcbmputongchang_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmtiyanchang_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmtiyanchang_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmtiyanchang_tex.png",
+			"type": "image",
+			"name": "bcbmtiyanchang_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbm_js5_tex.json",
+			"type": "json",
+			"name": "bcbm_js5_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmjiazailogo_tex.json",
+			"type": "json",
+			"name": "bcbmjiazailogo_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmputongchang_tex.json",
+			"type": "json",
+			"name": "bcbmputongchang_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmtiyanchang_tex.json",
+			"type": "json",
+			"name": "bcbmtiyanchang_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmgaojichang_5_tex.png",
+			"type": "image",
+			"name": "bcbmgaojichang_5_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmgaojichang_5_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmgaojichang_5_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/bcbmgaojichang_5_tex.json",
+			"type": "json",
+			"name": "bcbmgaojichang_5_tex_json"
+		},
+		{
+			"url": "assets/bcbm/image/bcbm_gamebg.jpg",
+			"type": "image",
+			"name": "bcbm_gamebg_jpg"
+		}
+	]
+}

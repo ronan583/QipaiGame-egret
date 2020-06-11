@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlCardSkin" width="127" height="180" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1692b1ee232" ></w:Config>
+	<e:Image id="bg" width="127" height="181" x="0" y="0" source="cardAssets_json.card_back"/>
+
+
+</e:Skin>

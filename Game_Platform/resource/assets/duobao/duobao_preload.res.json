@@ -1,0 +1,45 @@
+{
+	"groups": [
+		{
+			"keys": "duobaon_room_bg_jpg,lhdb_qidong_ske_dbbin,lhdb_qidong_tex_json,lhdb_tiyan_tex_png,lhdb_LOGO_ske_dbbin,lhdb_LOGO_tex_png,lhdb_LOGO_tex_json",
+			"name": "duobao_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/duobao/duobaon_room_bg.jpg",
+			"type": "image",
+			"name": "duobaon_room_bg_jpg"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "lhdb_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_qidong_tex.json",
+			"type": "json",
+			"name": "lhdb_qidong_tex_json"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_tiyan_tex.png",
+			"type": "image",
+			"name": "lhdb_tiyan_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_LOGO_ske.dbbin",
+			"type": "bin",
+			"name": "lhdb_LOGO_ske_dbbin"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_LOGO_tex.png",
+			"type": "image",
+			"name": "lhdb_LOGO_tex_png"
+		},
+		{
+			"url": "assets/duobao/animation/lhdb_LOGO_tex.json",
+			"type": "json",
+			"name": "lhdb_LOGO_tex_json"
+		}
+	]
+}

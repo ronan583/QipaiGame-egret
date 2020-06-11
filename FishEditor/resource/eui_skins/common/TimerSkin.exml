@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TimerSkin" width="68" height="74" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="pdk_battle_timer_png"/>
+	<e:BitmapLabel id="timeNum" width="45" height="28" anchorOffsetX="0" anchorOffsetY="0" font="number_small_fnt" text="15" y="28" textAlign="center" x="11"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDKCardRecordSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image id="pdk_count_bg" y="0" horizontalCenter="0" source="pdk_record_bg0_png"/>
+	<e:Group id="cardCountGroup" y="64" touchChildren="false" touchEnabled="false" horizontalCenter="4.5" anchorOffsetX="0" width="707">
+		<e:BitmapLabel id="cardCount1" width="21" height="29" x="0" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount2" width="21" height="29" x="57" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount3" width="21" height="29" x="118" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount4" width="21" height="29" x="175" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount5" width="21" height="29" x="229" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount6" width="21" height="29" x="281" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount7" width="21" height="29" x="338" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount8" width="21" height="29" x="394" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount9" width="21" height="29" x="450" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount10" width="21" height="29" x="506" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount11" width="21" height="29" x="562" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount12" width="21" height="29" x="618" text="1" font="pdk_cards_record_fnt"/>
+		<e:BitmapLabel id="cardCount13" width="21" height="29" x="674" text="1" font="pdk_cards_record_fnt"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

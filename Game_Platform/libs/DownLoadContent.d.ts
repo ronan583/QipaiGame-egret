@@ -1,0 +1,1 @@
+declare function downloadContent(filename:string, msg:string): void;

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpOtherUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0">
+		<e:Image y="150.4" source="lhdz_help_bg2_png" anchorOffsetX="0" width="713.48" x="309"/>
+		<e:Image y="77" source="lhdz_help_bg1_png" horizontalCenter="0"/>
+		<e:Image y="95.53" x="574.62" source="lhdz_help_title_png"/>
+		<e:Scroller id="scroller" width="762.3" height="402.66" x="328.55" y="203.52" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group>
+				<e:Group width="683.03" height="427.5" y="6" anchorOffsetX="0">
+					<e:Image x="2.38" source="lhdz_help_content_png" scaleX="0.9" scaleY="0.9"/>
+
+
+				</e:Group>
+			</e:Group>
+		</e:Scroller>
+		<ns1:IButton id="closebtn" label="" x="990.98" y="101.6">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_help_close_png" source.down="lhdz_help_close_png" source.disabled="lhdz_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+
+
+
+</e:Skin>

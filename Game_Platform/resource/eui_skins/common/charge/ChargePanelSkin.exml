@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChargePanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16640feb199" ></w:Config>
+	<e:Group height="750" width="1334" horizontalCenter="0" verticalCenter="0">
+		<e:Image verticalCenter="57.5" horizontalCenter="-2" source="recharge_frame" x="139" y="81" scaleX="1" scaleY="1"/>
+
+
+		<ns1:IButton id="bankSelectBtn" label="银联云闪付" x="161.7" y="180.84" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled,select">
+				<e:Image width="100%" height="100%" source="recharge_normal" source.down="recharge_normal" source.disabled="recharge_normal" source.select="recharge_select"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-3" size="28" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="aliSelectBtn" label="支付宝" x="161.7" y="267.84" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled,select">
+				<e:Image width="100%" height="100%" source="recharge_normal" source.down="recharge_normal" source.disabled="recharge_normal" source.select="recharge_select"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-3" size="28" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="chatSelectBtn" label="微信" x="161.7" y="357.84" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled,select">
+				<e:Image width="100%" height="100%" source="recharge_normal" source.down="recharge_normal" source.disabled="recharge_normal" source.select="recharge_select"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-3" size="28" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image source="mainlayer4_json.effect_1" x="149.09" y="177.4" scaleX="1" scaleY="1"/>
+		<e:Image source="mainlayer4_json.effect_2" x="150.58" y="261.8" scaleX="1" scaleY="1"/>
+		<e:Image source="contact_bg" x="146.26" y="616.68" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="contactBtn" label="" x="180.26" y="657.24" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="contact_btn" source.down="contact_btn" source.disabled="contact_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+
+		<e:Group id="bankChargeGroup" y="173.3" x="410.15" height="520" width="717">
+			<e:Image source="cloud_img"/>
+			<ns1:IButton id="downloadBtn" label="" x="552.66" y="77.97" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="download" source.down="download" source.disabled="download"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Label text="充值金额" x="17" y="201" size="24" fontFamily="Microsoft YaHei"/>
+			<e:Image source="amount_frame" x="124" y="179.54"/>
+			<e:EditableText text="请输入充值金额" y="201.86" size="24" fontFamily="Microsoft YaHei" textColor="0x6c81a6" anchorOffsetX="0" width="406" horizontalCenter="19"/>
+			<ns1:IButton id="resetBankBtn" label="" x="639.24" y="188.48" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="reset_btn" source.down="reset_btn" source.disabled="reset_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Group horizontalCenter="0" verticalCenter="80">
+			<ns1:IButton id="bank_1" label="+50" x="10" y="20">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bank_2" label="+100" x="195" y="20">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bank_3" label="+200" x="380" y="20">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bank_4" label="+300" x="565" y="20">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bank_5" label="+500" x="10" y="95">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bank_6" label="+1000" x="195" y="95">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bank_7" label="+20000" x="380" y="95">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bank_8" label="+3000" x="565" y="95">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			</e:Group>
+			<e:Label text="请使用云闪付APP或各大银行APP支付" y="419.8" size="22" fontFamily="Microsoft YaHei" textColor="0xf0d584" horizontalCenter="0.5"/>
+			<ns1:IButton id="rechargeBankBtn" label="" imageLabelPath="recharge_Imme" horizontalCenter="6" bottom="3">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="notice_button" source.down="notice_button" source.disabled="notice_button"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+		<e:Group id="aliChargeGroup" x="410.15" y="173.3" width="717" height="520">
+			<e:Label text="提示：点击“充值提交”将跳转到支付页面，充值成功后，充值金额自动存储在银行里，请到银行领取。需要安装支付宝客服端。" y="29" size="24" fontFamily="Microsoft YaHei" width="660" horizontalCenter="0.5"/>
+			<e:Label text="充值金额" x="17" y="201" size="24" fontFamily="Microsoft YaHei"/>
+			<e:Image source="amount_frame" x="124" y="179.54"/>
+			<e:EditableText text="请输入充值金额" y="201.86" size="24" fontFamily="Microsoft YaHei" textColor="0x6c81a6" anchorOffsetX="0" width="406" horizontalCenter="19"/>
+			<ns1:IButton id="resetAliBtn" label="" x="639.22" y="190" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="reset_btn" source.down="reset_btn" source.disabled="reset_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Group width="705" height="183" y="254" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:IButton id="ali_1" label="50" x="12" y="25">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="ali_2" label="100" x="194" y="25">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			</e:Group>
+			<ns1:IButton id="rechargeAliBtn" label="" imageLabelPath="recharge_Imme" bottom="3" horizontalCenter="6.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="notice_button" source.down="notice_button" source.disabled="notice_button"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+		<e:Group id="chatChargeGroup" x="410.15" y="173.3" height="520" width="717">
+			<e:Label text="提示：点击“充值提交”将跳转到扫码页面，请按提示扫码支付，超时请勿支付，支付成功后，充值金额自动存储在银行里，请到银行领取。充值方式安全可靠，请放心使用" y="29" size="24" fontFamily="Microsoft YaHei" width="660" horizontalCenter="0.5"/>
+			<e:Label text="充值金额" x="17" y="201" size="24" fontFamily="Microsoft YaHei"/>
+			<e:Image source="amount_frame" x="124" y="179.54"/>
+			<e:EditableText text="请输入充值金额" y="201.86" size="24" fontFamily="Microsoft YaHei" textColor="0x6c81a6" anchorOffsetX="0" width="406" horizontalCenter="19"/>
+			<ns1:IButton id="resetChatBtn" label="" x="639.22" y="190" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="reset_btn" source.down="reset_btn" source.disabled="reset_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Group width="705" height="183" y="254" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:IButton id="chat_1" label="50" x="12" y="25">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="chat_2" label="100" x="194" y="25">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="24" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			</e:Group>
+			<ns1:IButton id="rechargeChatBtn" label="" imageLabelPath="recharge_Imme" horizontalCenter="6.5" bottom="3">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="notice_button" source.down="notice_button" source.disabled="notice_button"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+		<e:Image source="tips_frame" x="166.26" y="598.6" scale9Grid="18,9,114,32" width="330" scaleX="1" scaleY="1"/>
+		<e:Label text="充值不到账？请点击这里查询" x="176.26" y="606.28" size="24" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim width="80" height="55" aligntype="middle" anim="chongzhititle" horizontalCenter="0" x="627" top="43"/>
+		<ns1:IButton id="closeBtn" label="" x="1123.6" y="30.63" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_close" source.down="rank_close" source.disabled="rank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+
+	</e:Group>
+</e:Skin>

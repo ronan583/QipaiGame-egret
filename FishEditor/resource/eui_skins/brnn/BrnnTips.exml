@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="121" height="138">
+	<w:Config id="166b6f75cbf" ></w:Config>
+	<e:Image id="bg" x="12" y="0" source="brnn_clock" visible="false"/>
+	<ns1:DragonAnim id="clockAnim" width="78.4" height="75.6" x="19" y="15.4" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="bjl_clock" isloop="false" playOnStage="false"/>
+	<e:Image x="11" y="81" source="brnn_gold_bg" scale9Grid="22,13,25,2" anchorOffsetX="0" width="96"/>
+
+	<e:BitmapLabel id="countLabel"   text="20" font="brnnRecountFont_fnt" y="34" textAlign="center" x="35" verticalAlign="middle" anchorOffsetX="0" width="40"/>
+
+	<e:Label id="showLabel" text="开牌时间" x="19" y="80" size="16" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="76" anchorOffsetY="0" height="29" verticalAlign="middle" textAlign="center"/>
+</e:Skin>

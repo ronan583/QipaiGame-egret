@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BYCanonViewSkin" width="200" height="296" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="168f63b8e94" ></w:Config>
+	<e:Image y="17" source="cannon_seat" horizontalCenter="0"/>
+	<e:Image id="equiped" y="189" source="chg_equiped" horizontalCenter="0"/>
+	<e:Image id="canonBg" y="78" source="cannon_gun_0_bg" horizontalCenter="0"/>
+	<e:Image id="canonImg" y="26" source="cannon_gun_0" horizontalCenter="0"/>
+	<e:Group id="changeBtn" width="120" height="57" y="200" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="nine_btn_green" anchorOffsetX="0" width="119" scaleX="1" scaleY="1" scale9Grid="7,43,43,5"/>
+		<e:Image source="chg_txt_change" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Image id="flagImg" y="135" source="cannon_gun_name_0" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzHistoryPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:hhdz="game.hhdz.*" >
+	<w:Config id="167ae050e20" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="hhdz_history_json.hhdz_history_bg" horizontalCenter="-1" verticalCenter="0"/>
+		<e:Image id="blackWinBg" source="hhdz_history_json.hhdz_history_win_black_bg" y="110" scale9Grid="7,11,20,16" width="800" anchorOffsetX="0" anchorOffsetY="0" height="56" x="264.34"/>
+		<e:Image id="redWinBg" source="hhdz_history_json.hhdz_history_win_red_bg" y="110" scale9Grid="7,11,20,16" anchorOffsetX="0" width="400" anchorOffsetY="0" height="56" x="261.68"/>
+		<e:Image source="hhdz_history_json.hhdz_bg_line" y="182" anchorOffsetX="0" width="949" height="32" x="193"/>
+		<e:Image source="hhdz_history_json.hhdz_hhzs_20jzs" y="122" x="580"/>
+		<e:Group id="winType20Gruop" width="950" height="32" y="182" x="192">
+			<e:layout>
+				<e:HorizontalLayout gap="14" horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:BitmapLabel id="redWinValue" x="326" y="125" text="90%" anchorOffsetX="0" width="82" font="hhdz_win_fail_fnt" height="25"/>
+		<e:BitmapLabel id="blackWinValue" x="929.44" y="125" text="90%" anchorOffsetX="0" width="82" font="hhdz_win_fail_fnt" height="25"/>
+
+		<hhdz:HhdzResultRoad id="resultRoad" x="78.7" y="244.96" anchorOffsetX="0" anchorOffsetY="0" width="456" height="228"/>
+		<hhdz:HhdzBigRoad id="bigRoad" width="709" height="144" x="543.45" y="250.78" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<hhdz:HhdzThreeRoad id="dyzRoad" width="714" height="72" x="543" y="394.96" anchorOffsetY="0" scaleX="1" anchorOffsetX="0" scaleY="1"/>
+		<hhdz:HhdzThreeRoad id="smallRoad" width="714" height="72" x="544" y="469.96" anchorOffsetY="0" scaleX="1" anchorOffsetX="0" scaleY="1"/>
+
+		<hhdz:HhdzThreeRoad id="yueyouRoad" width="724" height="80" x="544" y="544.04" scaleX="1" anchorOffsetX="0" anchorOffsetY="0" scaleY="1"/>
+		<e:Image source="hhdz_history_json.hhdz_history_nv" x="138.68" y="60"/>
+		<e:Image source="hhdz_history_json.hhdz_history_nan" x="1063.98" y="60.66"/>
+		<ns1:IButton id="closeBtn" label="" x="1225.58" y="30.7" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_history_json.hhdz_history_close" source.down="hhdz_history_json.hhdz_history_close" source.disabled="hhdz_history_json.hhdz_history_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*" xmlns:lhdz="game.lhdz.*"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Group id="cardTypeGroud" y="643.7" anchorOffsetX="0" width="1159.72" x="88" anchorOffsetY="0" height="68" scaleX="1" scaleY="1">
+			<e:layout>
+			<e:TileLayout orientation="columns" verticalGap="6" horizontalAlign="left" verticalAlign="top" rowAlign="top" columnAlign="left"/>
+			</e:layout>
+		</e:Group>
+		<e:BitmapLabel id="totalCountLab" x="240" y="491" font="hhdz_js_fnt" text="第500局"/>
+		<e:BitmapLabel id="blackWinCountLab" x="197" y="586" text="黑:500局" anchorOffsetX="0" anchorOffsetY="0" font="hhdz_heijushu_fnt"/>
+		<e:BitmapLabel id="redWinCountLab" x="315" y="586" text="红:500局" font="hhdz_hongjushu_fnt"/>
+
+
+	</e:Group>
+</e:Skin>

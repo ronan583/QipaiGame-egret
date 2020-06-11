@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZJHCardSkin" width="105" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16b4c8cec48" ></w:Config>
+	<e:Image id="bg" x="0" y="0" source="zjh_self_card_bg" scaleX="1" scaleY="1" width="104" height="136"/>
+	<e:Image id="maskFlag" x="0" y="0" source="zjh_self_card_bg" scaleX="1" scaleY="1" width="104" height="136"/>
+
+
+	<e:Rect id="huiseMask" width="127" height="180" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x7f7e7e" strokeColor="0x727272" alpha="0.6" visible="false"/>
+	<e:Image id="cardMask" source="zjh_new_json.zjh_card_imgmask" x="0" y="0" visible="false"/>
+</e:Skin>

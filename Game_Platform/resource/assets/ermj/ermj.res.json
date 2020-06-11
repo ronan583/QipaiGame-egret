@@ -1,0 +1,932 @@
+{
+	"groups": [
+		{
+			"keys": "help_ermj0_jpg,help_ermj_jpg,help_ermj_content3_png,help_ermj_content2_png,help_ermj_content_png,ermj_putong_ske_dbbin,ermj_putong_tex_png,ermj_tiyan_ske_dbbin,ermj_tiyan_tex_png,ermj_zhongji_ske_dbbin,ermj_zhongji_tex_png,ermj_putong_tex_json,ermj_zhongji_tex_json,ermj_tiyan_tex_json,ermj_girl_ske_dbbin,ermj_girl_tex_png,ermj_qidong_ske_dbbin,ermj_qidong_tex_png,ermj_quickstart_ske_dbbin,ermj_quickstart_tex_png,ermj_qidong_tex_json,ermj_quickstart_tex_json,ermj_girl_tex_json,ermj_room_bg_jpg,ermj_roomfnt_fnt,ermj_roomfnt_png,ermj_chuji_ske_dbbin,ermj_chuji_tex_png,ermj_gaoji_ske_dbbin,ermj_gaoji_tex_png,ermj_chuji_tex_json,ermj_gaoji_tex_json,ermj_help_bg_png,ermj_help_c1_png,ermj_help_c2_png,ermj_help_c3_png,ermj_help_c4_png,ermj_help_c5_png,ermj_help_close_png,ermj_help_title_png,ermj_countdown_png,ermj_countdown_fnt,erqs_humenu_tex_png,erqs_pengmenu_guess_5_ske_dbbin,erqs_pengmenu_guess_5_tex_png,erqs_tingmenu_guess_4_ske_dbbin,erqs_chimenu_guess_3_ske_dbbin,erqs_tingmenu_guess_4_tex_png,erqs_chimenu_guess_3_tex_png,erqs_gangmenu_guess_2_ske_dbbin,erqs_guomenu_ske_dbbin,erqs_gangmenu_guess_2_tex_png,erqs_guomenu_tex_png,erqs_humenu_ske_dbbin,erqs_pengmenu_guess_5_tex_json,erqs_tingmenu_guess_4_tex_json,erqs_gangmenu_guess_2_tex_json,erqs_chimenu_guess_3_tex_json,erqs_guomenu_tex_json,erqs_humenu_tex_json,erqs_chitext_ske_dbbin,erqs_chitext_tex_png,erqs_gangtexteffect_ske_dbbin,erqs_gangtexteffect_tex_png,erqs_hutext_ske_dbbin,erqs_hutext_tex_png,erqs_pengtext_tex_png,erqs_pengtext_ske_dbbin,erqs_tingtext_ske_dbbin,erqs_tingtext_tex_png,erqs_zimotext_ske_dbbin,erqs_zimotext_tex_png,erqs_chitext_tex_json,erqs_gangtexteffect_tex_json,erqs_hutext_tex_json,erqs_pengtext_tex_json,erqs_tingtext_tex_json,erqs_zimotext_tex_json,erqs_paitipseffect_ske_dbbin,erqs_paitipseffect_tex_png,erqs_paitipseffect_tex_json,erqs_winner_guess_2_ske_dbbin,erqs_winner_guess_2_tex_png,erqs_failure_ske_dbbin,erqs_failure_tex_png,erqs_winner_guess_2_tex_json,erqs_failure_tex_json,ermj_lose_big_fnt,ermj_lose_big_png,ermj_lose_small_fnt,ermj_lose_small_png,ermj_win_big_png,ermj_win_big_fnt,ermj_win_small_png,ermj_win_small_fnt,ermj_result_countdown_fnt,ermj_result_countdown_png,ermj_lose_times_png,ermj_lose_times_fnt,ermj_win_times_fnt,ermj_win_times_png,ermjHuOrDouble_png,ermjHuOrDouble_fnt,preload.thm_json,loading.res_json,ermj_battle_json,tings_farme_png,ermj_help_c7_png,ermj_help_c6_png,ermj_result_double_png,ermj_result_double_fnt,erqs_liuju_ske_dbbin,erqs_liuju_tex_png,erqs_liuju_tex_json,ermj_result_3_jpg,erqs_touzi_tex_png,erqs_touzi_ske_dbbin,erqs_touzi_tex_json,erqs_luoxuaneffect_tex_png,erqs_luoxuaneffect_ske_dbbin,erqs_luoxuaneffect_tex_json,ermj_zjcx_json,ermj_zjcx_lose_fnt,ermj_zjcx_lose_png,ermj_zjcx_win_fnt,ermj_zjcx_win_png",
+			"name": "ermj"
+		},
+		{
+			"keys": "ermj_ting_mp3,ermj_peng_mp3,ermj_gang_mp3,ermj_chi_mp3,ermj_27_mp3,ermj_26_mp3,ermj_25_mp3,ermj_24_mp3,ermj_23_mp3,ermj_22_mp3,ermj_21_mp3,ermj_19_mp3,ermj_18_mp3,ermj_17_mp3,ermj_16_mp3,ermj_15_mp3,ermj_14_mp3,ermj_13_mp3,ermj_12_mp3,ermj_11_mp3,ermj_me_ting_mp3,ermj_me_peng_mp3,ermj_me_gang_mp3,ermj_me_chi_mp3,ermj_me_27_mp3,ermj_me_26_mp3,ermj_me_25_mp3,ermj_me_24_mp3,ermj_me_23_mp3,ermj_me_22_mp3,ermj_me_21_mp3,ermj_me_19_mp3,ermj_me_18_mp3,ermj_me_17_mp3,ermj_me_16_mp3,ermj_me_15_mp3,ermj_me_14_mp3,ermj_me_13_mp3,ermj_me_12_mp3,ermj_me_11_mp3,ermj_zimo_mp3,ermj_win_mp3,ermj_ting_bg_mp3,ermj_sendcard_mp3,ermj_send_tile_mp3,ermj_lose_mp3,ermj_hu_mp3,ermj_get_tile_mp3,ermj_fangqiang_mp3,ermj_draw_mp3,ermj_double_mp3,ermj_dice_mp3,ermj_countdown_mp3,ermj_bg_mp3",
+			"name": "ermjSound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/ermj/sound_mp3/ermj_bg.mp3",
+			"type": "sound",
+			"name": "ermj_bg_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_countdown.mp3",
+			"type": "sound",
+			"name": "ermj_countdown_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_dice.mp3",
+			"type": "sound",
+			"name": "ermj_dice_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_double.mp3",
+			"type": "sound",
+			"name": "ermj_double_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_draw.mp3",
+			"type": "sound",
+			"name": "ermj_draw_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_fangqiang.mp3",
+			"type": "sound",
+			"name": "ermj_fangqiang_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_get_tile.mp3",
+			"type": "sound",
+			"name": "ermj_get_tile_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_hu.mp3",
+			"type": "sound",
+			"name": "ermj_hu_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_lose.mp3",
+			"type": "sound",
+			"name": "ermj_lose_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_send_tile.mp3",
+			"type": "sound",
+			"name": "ermj_send_tile_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_sendcard.mp3",
+			"type": "sound",
+			"name": "ermj_sendcard_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_ting_bg.mp3",
+			"type": "sound",
+			"name": "ermj_ting_bg_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_win.mp3",
+			"type": "sound",
+			"name": "ermj_win_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/ermj_zimo.mp3",
+			"type": "sound",
+			"name": "ermj_zimo_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_11.mp3",
+			"type": "sound",
+			"name": "ermj_11_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_12.mp3",
+			"type": "sound",
+			"name": "ermj_12_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_13.mp3",
+			"type": "sound",
+			"name": "ermj_13_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_14.mp3",
+			"type": "sound",
+			"name": "ermj_14_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_15.mp3",
+			"type": "sound",
+			"name": "ermj_15_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_16.mp3",
+			"type": "sound",
+			"name": "ermj_16_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_17.mp3",
+			"type": "sound",
+			"name": "ermj_17_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_18.mp3",
+			"type": "sound",
+			"name": "ermj_18_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_19.mp3",
+			"type": "sound",
+			"name": "ermj_19_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_21.mp3",
+			"type": "sound",
+			"name": "ermj_21_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_22.mp3",
+			"type": "sound",
+			"name": "ermj_22_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_23.mp3",
+			"type": "sound",
+			"name": "ermj_23_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_24.mp3",
+			"type": "sound",
+			"name": "ermj_24_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_25.mp3",
+			"type": "sound",
+			"name": "ermj_25_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_26.mp3",
+			"type": "sound",
+			"name": "ermj_26_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_27.mp3",
+			"type": "sound",
+			"name": "ermj_27_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_chi.mp3",
+			"type": "sound",
+			"name": "ermj_chi_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_gang.mp3",
+			"type": "sound",
+			"name": "ermj_gang_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_peng.mp3",
+			"type": "sound",
+			"name": "ermj_peng_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/player/ermj_ting.mp3",
+			"type": "sound",
+			"name": "ermj_ting_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_11.mp3",
+			"type": "sound",
+			"name": "ermj_me_11_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_12.mp3",
+			"type": "sound",
+			"name": "ermj_me_12_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_13.mp3",
+			"type": "sound",
+			"name": "ermj_me_13_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_14.mp3",
+			"type": "sound",
+			"name": "ermj_me_14_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_15.mp3",
+			"type": "sound",
+			"name": "ermj_me_15_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_16.mp3",
+			"type": "sound",
+			"name": "ermj_me_16_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_17.mp3",
+			"type": "sound",
+			"name": "ermj_me_17_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_18.mp3",
+			"type": "sound",
+			"name": "ermj_me_18_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_19.mp3",
+			"type": "sound",
+			"name": "ermj_me_19_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_21.mp3",
+			"type": "sound",
+			"name": "ermj_me_21_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_22.mp3",
+			"type": "sound",
+			"name": "ermj_me_22_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_23.mp3",
+			"type": "sound",
+			"name": "ermj_me_23_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_24.mp3",
+			"type": "sound",
+			"name": "ermj_me_24_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_25.mp3",
+			"type": "sound",
+			"name": "ermj_me_25_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_26.mp3",
+			"type": "sound",
+			"name": "ermj_me_26_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_27.mp3",
+			"type": "sound",
+			"name": "ermj_me_27_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_chi.mp3",
+			"type": "sound",
+			"name": "ermj_me_chi_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_gang.mp3",
+			"type": "sound",
+			"name": "ermj_me_gang_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_peng.mp3",
+			"type": "sound",
+			"name": "ermj_me_peng_mp3"
+		},
+		{
+			"url": "assets/ermj/sound_mp3/me/ermj_me_ting.mp3",
+			"type": "sound",
+			"name": "ermj_me_ting_mp3"
+		},
+		{
+			"url": "assets/ermj/ermj.res.json",
+			"type": "json",
+			"name": "ermj.res_json"
+		},
+		{
+			"url": "assets/ermj/help_ermj.jpg",
+			"type": "image",
+			"name": "help_ermj_jpg"
+		},
+		{
+			"url": "assets/ermj/help_ermj0.jpg",
+			"type": "image",
+			"name": "help_ermj0_jpg"
+		},
+		{
+			"url": "assets/ermj/help_ermj_content.png",
+			"type": "image",
+			"name": "help_ermj_content_png"
+		},
+		{
+			"url": "assets/ermj/help_ermj_content2.png",
+			"type": "image",
+			"name": "help_ermj_content2_png"
+		},
+		{
+			"url": "assets/ermj/help_ermj_content3.png",
+			"type": "image",
+			"name": "help_ermj_content3_png"
+		},
+		{
+			"url": "assets/ermj/ermjRoom.json",
+			"type": "sheet",
+			"name": "ermjRoom_json",
+			"subkeys": "ermjn_add,ermjn_back,ermjn_baoman,ermjn_bg1,ermjn_bottom,ermjn_chuji,ermjn_dizhu,ermjn_gaoji,ermjn_gold1,ermjn_gold2,ermjn_gold_bg,ermjn_headframe,ermjn_help,ermjn_kongxian,ermjn_logo,ermjn_mianfei,ermjn_putong,ermjn_tiyan,ermjn_yongji,ermjn_zhongji,ermjn_zhunru"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_putong_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_putong_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_putong_tex.png",
+			"type": "image",
+			"name": "ermj_putong_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_tiyan_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_tiyan_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_tiyan_tex.png",
+			"type": "image",
+			"name": "ermj_tiyan_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_zhongji_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_zhongji_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_zhongji_tex.png",
+			"type": "image",
+			"name": "ermj_zhongji_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_putong_tex.json",
+			"type": "json",
+			"name": "ermj_putong_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_zhongji_tex.json",
+			"type": "json",
+			"name": "ermj_zhongji_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_tiyan_tex.json",
+			"type": "json",
+			"name": "ermj_tiyan_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_girl_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_girl_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_girl_tex.png",
+			"type": "image",
+			"name": "ermj_girl_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_qidong_tex.png",
+			"type": "image",
+			"name": "ermj_qidong_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_quickstart_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_quickstart_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_quickstart_tex.png",
+			"type": "image",
+			"name": "ermj_quickstart_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_qidong_tex.json",
+			"type": "json",
+			"name": "ermj_qidong_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_quickstart_tex.json",
+			"type": "json",
+			"name": "ermj_quickstart_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_girl_tex.json",
+			"type": "json",
+			"name": "ermj_girl_tex_json"
+		},
+		{
+			"url": "assets/ermj/ermj_room_bg.jpg",
+			"type": "image",
+			"name": "ermj_room_bg_jpg"
+		},
+		{
+			"url": "assets/ermj/font/ermj_roomfnt.fnt",
+			"type": "font",
+			"name": "ermj_roomfnt_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_roomfnt.png",
+			"type": "image",
+			"name": "ermj_roomfnt_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_chuji_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_chuji_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_chuji_tex.png",
+			"type": "image",
+			"name": "ermj_chuji_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_gaoji_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_gaoji_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_gaoji_tex.png",
+			"type": "image",
+			"name": "ermj_gaoji_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_chuji_tex.json",
+			"type": "json",
+			"name": "ermj_chuji_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_gaoji_tex.json",
+			"type": "json",
+			"name": "ermj_gaoji_tex_json"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_bg.png",
+			"type": "image",
+			"name": "ermj_help_bg_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_c1.png",
+			"type": "image",
+			"name": "ermj_help_c1_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_c2.png",
+			"type": "image",
+			"name": "ermj_help_c2_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_c3.png",
+			"type": "image",
+			"name": "ermj_help_c3_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_c4.png",
+			"type": "image",
+			"name": "ermj_help_c4_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_c5.png",
+			"type": "image",
+			"name": "ermj_help_c5_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_close.png",
+			"type": "image",
+			"name": "ermj_help_close_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_title.png",
+			"type": "image",
+			"name": "ermj_help_title_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_countdown.png",
+			"type": "image",
+			"name": "ermj_countdown_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_countdown.fnt",
+			"type": "font",
+			"name": "ermj_countdown_fnt"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_humenu_tex.png",
+			"type": "image",
+			"name": "erqs_humenu_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_pengmenu_guess_5_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_pengmenu_guess_5_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_pengmenu_guess_5_tex.png",
+			"type": "image",
+			"name": "erqs_pengmenu_guess_5_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_tingmenu_guess_4_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_tingmenu_guess_4_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_chimenu_guess_3_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_chimenu_guess_3_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_tingmenu_guess_4_tex.png",
+			"type": "image",
+			"name": "erqs_tingmenu_guess_4_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_chimenu_guess_3_tex.png",
+			"type": "image",
+			"name": "erqs_chimenu_guess_3_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_gangmenu_guess_2_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_gangmenu_guess_2_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_guomenu_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_guomenu_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_gangmenu_guess_2_tex.png",
+			"type": "image",
+			"name": "erqs_gangmenu_guess_2_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_guomenu_tex.png",
+			"type": "image",
+			"name": "erqs_guomenu_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_humenu_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_humenu_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_pengmenu_guess_5_tex.json",
+			"type": "json",
+			"name": "erqs_pengmenu_guess_5_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_tingmenu_guess_4_tex.json",
+			"type": "json",
+			"name": "erqs_tingmenu_guess_4_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_gangmenu_guess_2_tex.json",
+			"type": "json",
+			"name": "erqs_gangmenu_guess_2_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_chimenu_guess_3_tex.json",
+			"type": "json",
+			"name": "erqs_chimenu_guess_3_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_guomenu_tex.json",
+			"type": "json",
+			"name": "erqs_guomenu_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_humenu_tex.json",
+			"type": "json",
+			"name": "erqs_humenu_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_chitext_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_chitext_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_chitext_tex.png",
+			"type": "image",
+			"name": "erqs_chitext_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_gangtexteffect_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_gangtexteffect_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_gangtexteffect_tex.png",
+			"type": "image",
+			"name": "erqs_gangtexteffect_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_hutext_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_hutext_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_hutext_tex.png",
+			"type": "image",
+			"name": "erqs_hutext_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_pengtext_tex.png",
+			"type": "image",
+			"name": "erqs_pengtext_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_pengtext_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_pengtext_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_tingtext_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_tingtext_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_tingtext_tex.png",
+			"type": "image",
+			"name": "erqs_tingtext_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_zimotext_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_zimotext_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_zimotext_tex.png",
+			"type": "image",
+			"name": "erqs_zimotext_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_chitext_tex.json",
+			"type": "json",
+			"name": "erqs_chitext_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_gangtexteffect_tex.json",
+			"type": "json",
+			"name": "erqs_gangtexteffect_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_hutext_tex.json",
+			"type": "json",
+			"name": "erqs_hutext_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_pengtext_tex.json",
+			"type": "json",
+			"name": "erqs_pengtext_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_tingtext_tex.json",
+			"type": "json",
+			"name": "erqs_tingtext_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_zimotext_tex.json",
+			"type": "json",
+			"name": "erqs_zimotext_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_paitipseffect_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_paitipseffect_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_paitipseffect_tex.png",
+			"type": "image",
+			"name": "erqs_paitipseffect_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_paitipseffect_tex.json",
+			"type": "json",
+			"name": "erqs_paitipseffect_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_winner_guess_2_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_winner_guess_2_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_winner_guess_2_tex.png",
+			"type": "image",
+			"name": "erqs_winner_guess_2_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_failure_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_failure_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_failure_tex.png",
+			"type": "image",
+			"name": "erqs_failure_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_winner_guess_2_tex.json",
+			"type": "json",
+			"name": "erqs_winner_guess_2_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_failure_tex.json",
+			"type": "json",
+			"name": "erqs_failure_tex_json"
+		},
+		{
+			"url": "assets/ermj/font/ermj_lose_big.fnt",
+			"type": "font",
+			"name": "ermj_lose_big_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_lose_big.png",
+			"type": "image",
+			"name": "ermj_lose_big_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_lose_small.fnt",
+			"type": "font",
+			"name": "ermj_lose_small_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_lose_small.png",
+			"type": "image",
+			"name": "ermj_lose_small_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_win_big.png",
+			"type": "image",
+			"name": "ermj_win_big_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_win_big.fnt",
+			"type": "font",
+			"name": "ermj_win_big_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_win_small.png",
+			"type": "image",
+			"name": "ermj_win_small_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_win_small.fnt",
+			"type": "font",
+			"name": "ermj_win_small_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_result_countdown.fnt",
+			"type": "font",
+			"name": "ermj_result_countdown_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_result_countdown.png",
+			"type": "image",
+			"name": "ermj_result_countdown_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_lose_times.png",
+			"type": "image",
+			"name": "ermj_lose_times_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_lose_times.fnt",
+			"type": "font",
+			"name": "ermj_lose_times_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_win_times.png",
+			"type": "image",
+			"name": "ermj_win_times_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_win_times.fnt",
+			"type": "font",
+			"name": "ermj_win_times_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermjHuOrDouble.png",
+			"type": "image",
+			"name": "ermjHuOrDouble_png"
+		},
+		{
+			"url": "assets/ermj/font/ermjHuOrDouble.fnt",
+			"type": "font",
+			"name": "ermjHuOrDouble_fnt"
+		},
+		{
+			"url": "preload.thm.json",
+			"type": "json",
+			"name": "preload.thm_json"
+		},
+		{
+			"url": "loading.res.json",
+			"type": "json",
+			"name": "loading.res_json"
+		},
+		{
+			"url": "assets/ermj/ermj_battle.json",
+			"type": "sheet",
+			"name": "ermj_battle_json",
+			"subkeys": "antes_lose,antes_win,back_btn,battle_bg,cancel_auto_btn,cancel_btn,chi_bg,coin_big,coins_small,current_lose,current_win,double_Txt,double_Txt2,double_btn,down_btn,ermj_banker_flag,ermj_chi_btn,ermj_east,ermj_east_dark,ermj_effect,ermj_gang_btn,ermj_head_frame,ermj_hu_btn,ermj_hu_tips,ermj_light_bottom,ermj_light_top,ermj_line,ermj_max,ermj_music,ermj_mute,ermj_pass_btn,ermj_peng_btn,ermj_pointer,ermj_pull_btn,ermj_pull_off,ermj_pull_on,ermj_qukuan_huadong,ermj_ready,ermj_result_X,ermj_result_back,ermj_result_double,ermj_result_double_bg,ermj_set,ermj_set_bg,ermj_start,ermj_ting_btn,ermj_tites_bg,ermj_west,ermj_west_dark,ermj_withdraw,ermj_withdraw_bar,ermj_withdraw_bar_bg,ermj_withdraw_btn,ermj_withdraw_frame,ermj_withdraw_img,erqs_winner139,fan_lose,fan_win,gang_bg,help_btn,hu_btn,liuju_tips,lose_type_101,lose_type_102,lose_type_103,lose_type_104,lose_type_105,lose_type_106,lose_type_107,lose_type_108,lose_type_109,lose_type_110,lose_type_111,lose_type_112,lose_type_113,lose_type_114,lose_type_115,lose_type_116,lose_type_117,lose_type_118,lose_type_119,lose_type_120,lose_type_121,lose_type_122,lose_type_123,lose_type_124,lose_type_125,lose_type_126,lose_type_127,lose_type_128,lose_type_129,lose_type_130,lose_type_131,lose_type_132,lose_type_133,lose_type_134,lose_type_135,lose_type_136,lose_type_137,lose_type_138,lose_type_139,lose_type_140,lose_type_141,lose_type_142,lose_type_143,lose_type_144,lose_type_145,lose_type_146,lose_type_147,lose_type_148,lose_type_149,lose_type_150,lose_type_151,lose_type_152,lose_type_153,lose_type_154,lose_type_155,lose_type_156,lose_type_157,lose_type_158,lose_type_159,lose_type_160,lose_type_161,lose_type_162,lose_type_163,lose_type_164,menu_bg,otherTiles11,otherTiles12,otherTiles13,otherTiles14,otherTiles15,otherTiles16,otherTiles17,otherTiles18,otherTiles19,otherTiles21,otherTiles22,otherTiles23,otherTiles24,otherTiles25,otherTiles26,otherTiles27,playedTiles0,playedTiles11,playedTiles12,playedTiles13,playedTiles14,playedTiles15,playedTiles16,playedTiles17,playedTiles18,playedTiles19,playedTiles21,playedTiles22,playedTiles23,playedTiles24,playedTiles25,playedTiles26,playedTiles27,pop_Bg,select_bg,select_chi,select_gang,select_hu,select_ting,select_tip,setting_btn,ting_tips,tings_bg,tings_farme,title0,title11,title12,title13,title14,title15,title16,title17,title18,title19,title21,title22,title23,title24,title25,title26,title27,totalfan_lose,totalfan_win,up_btn,win_type_101,win_type_102,win_type_103,win_type_104,win_type_105,win_type_106,win_type_107,win_type_108,win_type_109,win_type_110,win_type_111,win_type_112,win_type_113,win_type_114,win_type_115,win_type_116,win_type_117,win_type_118,win_type_119,win_type_120,win_type_121,win_type_122,win_type_123,win_type_124,win_type_125,win_type_126,win_type_127,win_type_128,win_type_129,win_type_130,win_type_131,win_type_132,win_type_133,win_type_134,win_type_135,win_type_136,win_type_137,win_type_138,win_type_139,win_type_140,win_type_141,win_type_142,win_type_143,win_type_144,win_type_145,win_type_146,win_type_147,win_type_148,win_type_149,win_type_150,win_type_151,win_type_152,win_type_153,win_type_154,win_type_155,win_type_156,win_type_157,win_type_158,win_type_159,win_type_160,win_type_161,win_type_162,win_type_163,win_type_164,withdraw_btn"
+		},
+		{
+			"url": "assets/ermj/tings_farme.png",
+			"type": "image",
+			"name": "tings_farme_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_c7.png",
+			"type": "image",
+			"name": "ermj_help_c7_png"
+		},
+		{
+			"url": "assets/ermj/help/ermj_help_c6.png",
+			"type": "image",
+			"name": "ermj_help_c6_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_result_double.png",
+			"type": "image",
+			"name": "ermj_result_double_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_result_double.fnt",
+			"type": "font",
+			"name": "ermj_result_double_fnt"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_liuju_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_liuju_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_liuju_tex.png",
+			"type": "image",
+			"name": "erqs_liuju_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_liuju_tex.json",
+			"type": "json",
+			"name": "erqs_liuju_tex_json"
+		},
+		{
+			"url": "assets/ermj/ermj_result_3.jpg",
+			"type": "image",
+			"name": "ermj_result_3_jpg"
+		},
+		{
+			"url": "assets/ermj/ermj_preload.res.json",
+			"type": "json",
+			"name": "ermj_preload.res_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_touzi_tex.png",
+			"type": "image",
+			"name": "erqs_touzi_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_touzi_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_touzi_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_touzi_tex.json",
+			"type": "json",
+			"name": "erqs_touzi_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_luoxuaneffect_tex.png",
+			"type": "image",
+			"name": "erqs_luoxuaneffect_tex_png"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_luoxuaneffect_ske.dbbin",
+			"type": "bin",
+			"name": "erqs_luoxuaneffect_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/battle/erqs_luoxuaneffect_tex.json",
+			"type": "json",
+			"name": "erqs_luoxuaneffect_tex_json"
+		},
+		{
+			"url": "assets/ermj/ermj_zjcx.json",
+			"type": "sheet",
+			"name": "ermj_zjcx_json",
+			"subkeys": "ermj_room_zjcxbtn,ermj_zjcx_bg,ermj_zjcx_bglabel,ermj_zjcx_bgpanel,ermj_zjcx_btndetail,ermj_zjcx_fanshuIcon,ermj_zjcx_fanshuIconwin,ermj_zjcx_iconliuju,ermj_zjcx_iconlose,ermj_zjcx_iconwin,ermj_zjcx_level0,ermj_zjcx_level1,ermj_zjcx_level2,ermj_zjcx_level3,ermj_zjcx_line,ermj_zjcx_title"
+		},
+		{
+			"url": "assets/ermj/font/ermj_zjcx_win.fnt",
+			"type": "font",
+			"name": "ermj_zjcx_win_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_zjcx_lose.png",
+			"type": "image",
+			"name": "ermj_zjcx_lose_png"
+		},
+		{
+			"url": "assets/ermj/font/ermj_zjcx_lose.fnt",
+			"type": "font",
+			"name": "ermj_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/ermj/font/ermj_zjcx_win.png",
+			"type": "image",
+			"name": "ermj_zjcx_win_png"
+		}
+	]
+}

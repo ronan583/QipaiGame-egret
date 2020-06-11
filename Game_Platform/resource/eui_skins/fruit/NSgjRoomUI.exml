@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NSgjRoomUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.fruit.*" xmlns:ns1="*" >
+	<e:Image horizontalCenter="0" source="fruitn_room_bg_jpg"/>
+
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image x="1074" y="12" scaleX="1" scaleY="1" source="fruitn_logo"/>
+		<e:Group id="bottomGroup" width="1334" height="92" y="654" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Image y="16" horizontalCenter="0" source="fruitn_bottom"/>
+			<e:Image x="28" y="-4" source="fruitn_headframe" anchorOffsetX="0" width="110.8" anchorOffsetY="0" height="107.23"/>
+			<e:Image id="headImg" width="72.66" height="72.66" x="41.31" y="11.98" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image x="431.27" y="46.1" scaleX="1" scaleY="1" source="fruitn_gold_bg" scale9Grid="47,17,23,3" anchorOffsetX="0" width="271.94" anchorOffsetY="0" height="35.45"/>
+			<e:Image x="405.32" y="40" scaleX="1" scaleY="1" source="fruitn_gold"/>
+			<e:Button id="goldAddBtn" label="" x="674.03" y="41.34" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fruitn_add" source.down="fruitn_add" source.disabled="fruitn_add"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:BitmapLabel id="goldLabel" width="234" height="38" x="454" y="48" anchorOffsetX="0" anchorOffsetY="0" text="11111" font="gpn_gold_fnt" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			<e:Label id="nameLabel" text="Guest12354" x="136" y="48" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1" bold="true" anchorOffsetX="0" width="214" anchorOffsetY="0" height="35" verticalAlign="middle" textAlign="left"/>
+		</e:Group>
+		<ns1:SgjRoomItem id="roomItem1" width="274" height="404" x="71.83" y="198" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" aligntype="middle" anim="fruit_tiyan" gameLevel="0"/>
+		<ns1:SgjRoomItem id="roomItem2" width="274" height="404" x="374" y="198" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" aligntype="middle" anim="fruit_chuji" gameLevel="1"/>
+		<ns1:SgjRoomItem id="roomItem3" width="274" height="404" x="675" y="198" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" aligntype="middle" anim="fruit_putong" gameLevel="2"/>
+		<ns1:SgjRoomItem id="roomItem4" width="274" height="404" x="977" y="198" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" aligntype="middle" anim="fruit_zhongji" gameLevel="3"/>
+		<e:Group id="leftCornerGroup" width="272" height="144" y="0" anchorOffsetX="0" anchorOffsetY="0" left="0" x="0" scaleX="1" scaleY="1">
+			<e:Button id="backBtn" label="" x="30" y="32">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fruitn_back" source.down="fruitn_back" source.disabled="fruitn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" x="140" y="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fruitn_help" source.down="fruitn_help" source.disabled="fruitn_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+
+	</e:Group>
+
+	<e:Group id="quickStartGroup" width="390" height="100" y="648" right="0">
+		<ns1:DragonAnim width="390" height="100" x="0" y="0" aligntype="origin" anim="fruit_quickstart"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   width="140" height="140">
+	<w:Config id="166a1e66db7" ></w:Config>
+	<e:Image id="betImage" horizontalCenter="0" verticalCenter="0" source="chip_3_1"/>
+
+</e:Skin>

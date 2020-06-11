@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZJHBipaiSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16b47600f69" ></w:Config>
+	<e:Group id="animGroup" width="1280" height="720"/>
+	<e:Group id="leftNode" width="118.68" height="156.06" x="270.9" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" y="192.54">
+	</e:Group>
+	<e:Group id="rightNode" width="123.23" height="162.12" x="751.17" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" y="219.49">
+	</e:Group>
+</e:Skin>

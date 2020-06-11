@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlStartPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" xmlns:ns1="*" >
+	<w:Config id="168f5b4350f" ></w:Config>
+	<e:Image source="bjln_room_bg_jpg" horizontalCenter="0"/>
+	<e:Image horizontalCenter="0" source="bjln_preview_png" visible="false"/>
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image x="1118" y="-4" source="bjln_logo" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim width="244.31" height="414.28" x="3.41" y="122.33" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="bjl_girl" scaleX="1.3" scaleY="1.3"/>
+		<e:Group id="bottomGroup" width="1334" height="92" y="654" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Image y="-34" source="bjln_bottom" horizontalCenter="0"/>
+			<e:Image x="29" y="4" source="bjl_head_bg_2" width="80" height="80"/>
+			<e:Image id="headImg" width="74" height="78" x="32" y="6" anchorOffsetX="0" anchorOffsetY="0" source="gp_head_1"/>
+			<e:Image x="404" y="34" source="bjln_gold_bg" scaleX="1" scaleY="1"/>
+			<e:Image x="400" y="40" source="bjln_gold" scaleX="1" scaleY="1"/>
+			<e:Button id="goldAddBtn" label="" x="686" y="44" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjln_add" source.down="bjln_add" source.disabled="bjln_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:BitmapLabel id="goldLabel" width="234" height="38" x="454" y="48" anchorOffsetX="0" anchorOffsetY="0" text="11111" font="gpn_gold_fnt" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+			<e:Label id="nameLabel" text="Guest12354" x="136" y="48" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1" anchorOffsetX="0" width="223" anchorOffsetY="0" height="35" verticalAlign="middle" textAlign="left" bold="true"/>
+		</e:Group>
+		<ns1:BjlRoomItem id="roomItem1" width="274" height="404" x="354.86" y="239.42" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" aligntype="middle" anim="bjl_putong" gameLevel="0"/>
+		<ns1:BjlRoomItem id="roomItem2" width="274" height="404" x="657.64" y="239.42" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" aligntype="middle" anim="bjl_gaoji" gameLevel="1"/>
+		<ns1:BjlRoomItem id="roomItem3" width="274" height="404" x="962.14" y="239.42" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" aligntype="middle" anim="bjl_fuhao" gameLevel="2"/>
+		<e:Group id="leftCornerGroup" width="272" height="144" anchorOffsetX="0" anchorOffsetY="0" left="40" x="0" scaleX="1" scaleY="1" top="30">
+			<e:Button id="backBtn" label="" x="30" y="32">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjln_back" source.down="bjln_back" source.disabled="bjln_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" x="140" y="30">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjln_help" source.down="bjln_help" source.disabled="bjln_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="zjcxBtn" label="" x="150" y="40">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bjl_zjcx_json.bjl_room_zjcxbtn" source.down="bjl_zjcx_json.bjl_room_zjcxbtn" source.disabled="bjl_zjcx_json.bjl_room_zjcxbtn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:HorizontalLayout gap="17"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+
+	<e:Group id="quickStartGroup" width="390" height="100" y="648" right="0">
+		<ns1:DragonAnim width="390" height="100" x="0" y="0" aligntype="bottom" anim="bjl_quickstart"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

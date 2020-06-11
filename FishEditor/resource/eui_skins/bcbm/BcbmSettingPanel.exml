@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmSettingPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166405aa8fa" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="18" scaleX="1" scaleY="1"  source="bcbm_set-room-bank_json.bcbm_room_bg2" x="212"/>
+		<e:Image x="478.75" y="31" source="bcbm_setting_labelSet"/>
+		<ns1:IButton id="closeBtn" label="" x="985.68" y="47.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_set-room-bank_json.bcbm_room_btnxx" source.down="bcbm_set-room-bank_json.bcbm_room_btnxx" source.disabled="bcbm_set-room-bank_json.bcbm_room_btnxx"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image verticalCenter="-74.5" horizontalCenter="-193.5" source="bcbm_set-room-bank_json.bcbm_setting_labelYy"/>
+		<e:Image verticalCenter="-73.5" horizontalCenter="111.5" source="bcbm_set-room-bank_json.bcbm_setting_labelYx"/>
+		<e:Image horizontalCenter="-208" verticalCenter="61.5" source="bcbm_setting_labelQuiet"/>
+		<e:ToggleSwitch id="switchBgBtn" label="" verticalCenter="-73" left="531" selected="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_set-room-bank_json.bcbm_setting_toggleOff" source.down="bcbm_set-room-bank_json.bcbm_setting_toggleOn" source.disabled="bcbm_set-room-bank_json.bcbm_setting_toggleOn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" scaleX="1" scaleY="1" verticalCenter="-73" left="835" selected="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_set-room-bank_json.bcbm_setting_toggleOff" source.down="bcbm_set-room-bank_json.bcbm_setting_toggleOn" source.disabled="bcbm_set-room-bank_json.bcbm_setting_toggleOn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" scaleX="1" scaleY="1" verticalCenter="62" left="515" selected="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_set-room-bank_json.bcbm_setting_toggleOff" source.down="bcbm_set-room-bank_json.bcbm_setting_toggleOn" source.disabled="bcbm_set-room-bank_json.bcbm_setting_toggleOn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<ns1:IButton id="confirmBtn" label="" bottom="36" horizontalCenter="172">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*">
+				<e:Image width="100%" height="100%" source="bcbm_set-room-bank_json.bcbm_room_btnConfirm" source.down="bcbm_set-room-bank_json.bcbm_room_btnConfirm" source.disabled="bcbm_set-room-bank_json.bcbm_room_btnConfirm"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

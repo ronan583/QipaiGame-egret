@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnRoomItemSkin" width="720.67" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16bcc0ace65" ></w:Config>
+	<e:Image id="freeImg" y="57" x="137.33" source="brnnn_mianfei" visible="false"/>
+	<e:Image id="stateImg" y="94.82" x="271.7" source="brnnn_baomao"/>
+	<e:Group id="infoGroup" width="133" height="41" y="93.98" anchorOffsetX="0" anchorOffsetY="0" x="174.84">
+		<e:Image x="12" source="brnnn_zhunru"/>
+		<e:Image x="19" y="22" source="brnnn_dizhu" visible="false"/>
+		<e:BitmapLabel id="maxLimitLabel" width="90" height="17" x="72" y="1.66" anchorOffsetX="0" anchorOffsetY="0" text="200y" font="brnnroomfnt_fnt"/>
+	</e:Group>
+</e:Skin>

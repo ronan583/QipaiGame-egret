@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnBattleSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:brnn="game.brnn.*" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="diamondLightingTween">
+			<tween:TweenItem target="{diamondLighting}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="heartLightingTween">
+			<tween:TweenItem target="{heartLighting}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="spadeLightingTween">
+			<tween:TweenItem target="{spadeLighting}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="clubLightingTween">
+			<tween:TweenItem target="{clubLighting}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+
+	</w:Declarations>
+	<w:Config id="166a1a7f9f9" ></w:Config>
+	<e:Image horizontalCenter="0" y="0" source="brnn_game_bg_jpg" locked="true"/>
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image id="fapaiqiImg" x="109.18" y="81.97" source="brnn_fapaiqi"/>
+
+
+
+		<e:Group id="betGroup" x="413" y="585.02" scaleX="1" scaleY="1">
+			<brnn:BetButton id="betButton1" x="6.89" y="13" scaleX="1" scaleY="1"/>
+			<brnn:BetButton id="betButton10" x="134" y="13" scaleX="1" scaleY="1"/>
+			<brnn:BetButton id="betButton50" x="258.33" y="13.34" scaleX="1" scaleY="1"/>
+			<brnn:BetButton id="betButton100" x="384" y="13.33" scaleX="1" scaleY="1"/>
+			<brnn:BetButton id="betButton500" x="508" y="13.32" scaleX="1" scaleY="1"/>
+			<brnn:BetButton id="betButton1000" x="635.69" y="12.980000000000018" scaleX="1" scaleY="1"/>
+			<e:Button id="xuyaBtn" label="" x="759.98" y="11.99">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="brnn_btn_xuya" source.down="brnn_btn_xuya" source.disabled="brnn_btn_xuya0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="lightFlagImg1" x="22" y="85" source="brnn_choum_liang"/>
+			<e:Image id="lightFlagImg2" x="147" y="85" source="brnn_choum_liang"/>
+			<e:Image id="lightFlagImg3" x="272" y="85" source="brnn_choum_liang"/>
+			<e:Image id="lightFlagImg4" x="397" y="85" source="brnn_choum_liang"/>
+			<e:Image id="lightFlagImg5" x="522.67" y="85" source="brnn_choum_liang"/>
+			<e:Image id="lightFlagImg6" x="652.7" y="85" source="brnn_choum_liang"/>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<brnn:BrnnHeadIcon id="bankerHead" width="332.71" height="109.41" x="279.11" y="27.38" currentState="banker" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" skinName="BrnnHeadBankerIconSkin"/>
+		<brnn:BrnnHeadIcon id="headIcon1" y="170" currentState="first" scaleX="1" scaleY="1" posFlag="1" anchorOffsetY="0" anchorOffsetX="0" x="1207" side="2" touchChildren="false"/>
+		<brnn:BrnnHeadIcon id="headIcon2" y="170" currentState="second" x="28.32" scaleX="1" scaleY="1" posFlag="-1" anchorOffsetY="0" anchorOffsetX="0" side="1" touchChildren="false"/>
+		<brnn:BrnnHeadIcon id="headIcon3" y="325" x="28.32" scaleX="1" scaleY="1" posFlag="-1" anchorOffsetX="0" anchorOffsetY="0" side="1"/>
+		<brnn:BrnnHeadIcon id="headIcon4" y="325" currentState="other" scaleX="1" scaleY="1" posFlag="1" anchorOffsetY="0" anchorOffsetX="0" x="1207" side="2"/>
+
+
+		<brnn:BrnnHeadIcon id="selfHead" width="114.57" height="111.09" currentState="self" scaleX="1" scaleY="1" left="1" bottom="156" posFlag="-1" anchorOffsetY="0" anchorOffsetX="0" x="12" y="609.91" skinName="BrnnHeadSelfIconSkin"/>
+
+
+		<e:Group id="betInfoGroup" y="181.63" scaleY="0.9000000000000001" scaleX="0.9000000000000001" x="234.82" width="993.46" height="270.06" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="areaBtn1" label="" x="-5" y="-6.13" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="brnn_area_bg_1" source.down="brnn_area_bg_1-1" source.disabled="brnn_area_bg_1-1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="areaBtn2" label="" x="254" y="-5" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="brnn_area_bg_2" source.down="brnn_area_bg_2-2" source.disabled="brnn_area_bg_2-2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="areaBtn3" label="" x="501" y="-5" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="brnn_area_bg_3" source.down="brnn_area_bg_3-3" source.disabled="brnn_area_bg_3-3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="areaBtn4" label="" x="758" y="-5" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="brnn_area_bg_4" source.down="brnn_area_bg_4-4" source.disabled="brnn_area_bg_4-4"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<brnn:BrnnTypeBetInfoUI id="typeBetInfo1" x="-4.79" y="-6" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" areaIndex="1" touchChildren="false" touchEnabled="false"/>
+			<brnn:BrnnTypeBetInfoUI id="typeBetInfo2" scaleX="1" scaleY="1" x="253.84" y="-6" anchorOffsetY="0" anchorOffsetX="0" areaIndex="2" touchChildren="false" touchEnabled="false"/>
+			<brnn:BrnnTypeBetInfoUI id="typeBetInfo3" scaleX="1" scaleY="1" anchorOffsetX="0" x="501" y="-6" anchorOffsetY="0" areaIndex="3" touchChildren="false" touchEnabled="false"/>
+			<brnn:BrnnTypeBetInfoUI id="typeBetInfo4" scaleY="1" scaleX="1" x="759.25" anchorOffsetY="0" y="-6" areaIndex="4" touchChildren="false" touchEnabled="false"/>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="spadeLighting" y="172.2" anchorOffsetX="0" anchorOffsetY="0" x="223.46" touchEnabled="false" alpha="0" scaleX="1" scaleY="1" source="brnn_head_bright"/>
+		<e:Image id="heartLighting" y="172.76" anchorOffsetX="0" anchorOffsetY="0" x="453.69" touchEnabled="false" alpha="0" scaleX="1" scaleY="1" source="brnn_head_bright"/>
+		<e:Image id="clubLighting" y="173.64" anchorOffsetX="0" anchorOffsetY="0" x="676.67" touchEnabled="false" alpha="0" scaleX="1" scaleY="1" source="brnn_head_bright"/>
+		<e:Image id="diamondLighting" y="173" anchorOffsetX="0" anchorOffsetY="0" x="906.2" touchEnabled="false" alpha="0" scaleX="1" scaleY="1" source="brnn_head_bright"/>
+		<e:Group id="TouchAreaGroup" y="193.36" scaleY="0.9000000000000001" scaleX="0.9000000000000001" x="223.54000000000002" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Group id="areaGroup1" y="-14.34" scaleY="1" scaleX="1" x="14.74" width="206.04" height="252.3" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="areaGroup2" y="-12.62" scaleY="1" scaleX="1" x="267.49" width="208" height="253" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="areaGroup3" y="-13.12" scaleY="1" scaleX="1" x="515.19" width="208" height="253" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="areaGroup4" y="-13.18" scaleY="1" scaleX="1" x="773.43" width="208" height="253" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			</e:Group>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="239.98" y="444.39" scaleX="1" scaleY="1" anchorOffsetX="0" width="872.67">
+			<brnn:BRNNCardGroup id="cardGroup2" height="181" x="-10.05" y="-25" scaleX="0.6" scaleY="0.6"/>
+			<brnn:BRNNCardGroup id="cardGroup3" height="181" x="223.64" y="-25" scaleX="0.6" scaleY="0.6"/>
+			<brnn:BRNNCardGroup id="cardGroup4" width="295" height="181" x="444.97" y="-25" scaleX="0.6" scaleY="0.6"/>
+			<brnn:BRNNCardGroup id="cardGroup5" height="181" x="676.34" y="-25" scaleX="0.6" scaleY="0.6"/>
+			<brnn:BRNNCardGroup id="cardGroup1" y="-412.07" scaleX="0.7" scaleY="0.7" x="386.12"/>
+			<e:layout>
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+
+		<brnn:BrnnTips id="recoutTips" y="39" horizontalCenter="279.5" scaleX="1" scaleY="1" anchorOffsetY="0" x="543"/>
+
+
+
+
+		<e:Label id="bottomBetLabel" text="1" x="915.46" y="683.67" size="25" width="105.5" textAlign="left" verticalAlign="middle" fontFamily="Microsoft YaHei" anchorOffsetX="0" anchorOffsetY="0" height="21" textColor="0xFFF3DB" scaleX="1" scaleY="1" visible="false"/>
+
+		<brnn:BrnnHistoryPanel id="brnnHistoryPanel" y="597.99" scaleX="1" scaleY="1" x="0"/>
+
+		<e:Group id="fapaiFlag" width="20" height="20" x="184.55" y="127.12"/>
+
+		<ns1:IButton id="applyBanker" label="" x="1153.81" y="19.12" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_btn_shangzhuang" source.down="brnn_btn_shangzhuang" source.disabled="brnn_btn_shangzhuang"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="forceBanker" label="" x="996.49" y="19.12" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_btn_qiangzhuang" source.down="brnn_btn_qiangzhuang" source.disabled="brnn_btn_qiangzhuang"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="downBanker" label="" x="1153.81" y="19.12" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_btn_xiazhuang" source.down="brnn_btn_xiazhuang" source.disabled="brnn_btn_xiazhuang"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="bankerApplyCountLabel" text="申请人数:10" x="1185" y="111" fontFamily="Microsoft YaHei" size="22" textColor="0xa88880"/>
+
+		<ns1:IButton id="chargeBtn" label="" x="187.06" y="501.72" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_btn_add_money" source.down="brnn_btn_add_money" source.disabled="brnn_btn_add_money"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+
+		<e:Group y="36.84" scaleX="1" scaleY="1" left="127">
+			<e:BitmapLabel id="roomName" text="初级场" verticalAlign="middle" anchorOffsetX="0" textAlign="center" scaleX="0.9" scaleY="0.9" y="3" x="12.34" font="RoomLevelFont_fnt"/>
+		</e:Group>
+
+
+	</e:Group>
+
+
+	<e:Group id="playerOnlineGroup" width="148" height="86" y="474" anchorOffsetY="0" anchorOffsetX="0" right="0">
+		<e:Button id="playerListBtn" label="" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_players_png" source.down="brnn_players_png" source.disabled="brnn_players_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</e:Button>
+		<e:BitmapLabel id="onlineLabel" text="011" x="67" y="55" textAlign="center"  font="brnn_online_count_fnt"/>
+		<e:Group id="otherPlayerGoldenFlag" width="20" height="20" x="79.66" y="38.67" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="betContainer" width="1334" height="750" touchEnabled="false" touchChildren="false" horizontalCenter="0" locked="true">
+		<e:Group id="stakeArea1" width="185" height="145" x="235.21" y="248" anchorOffsetY="0" anchorOffsetX="0" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Group id="stakeArea2" width="185" height="145" x="464" y="248" anchorOffsetY="0" anchorOffsetX="0" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Group id="stakeArea3" width="185" height="145" x="693" y="248" anchorOffsetY="0" anchorOffsetX="0" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Group id="stakeArea4" width="185" height="145" x="920.47" y="248" anchorOffsetY="0" anchorOffsetX="0" touchChildren="false" touchEnabled="false" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="betChangeBgImg" y="197" source="brnn_bet_bg" horizontalCenter="0" visible="false"/>
+	<e:Group id="stopGroup" y="276.49" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:Image id="stopIcon" y="0" x="-4" source="brnn_end_bet"/>
+	</e:Group>
+	<e:Group id="startGroup" y="276.61000000000007" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:Image id="startbetImg" x="0" y="0" source="brnn_start_bet"/>
+	</e:Group>
+
+	<e:Group id="changeBankerGroup" y="276.61000000000007" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:Image x="0" y="0" source="brnn_btn_change_banker"/>
+	</e:Group>
+	<e:Group id="waitGroup" y="276.61000000000007" scaleX="1" scaleY="1" horizontalCenter="0" touchChildren="false" touchEnabled="false" touchThrough="false">
+		<ns1:DragonAnim id="waitAnim" width="242" height="96" x="27" y="-23" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_wait" isloop="true" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="specialGroup" width="200" height="156" y="113.67" horizontalCenter="-103" anchorOffsetY="0" touchChildren="false" touchEnabled="false" touchThrough="false">
+		<ns1:DragonAnim id="tongchiAnim" left="0" right="0" top="0" bottom="0" aligntype="middle" anim="brnn_tongchi" isloop="false" playOnStage="false" touchEnabled="false" touchChildren="false" isTouchByGroup="true"/>
+		<ns1:DragonAnim id="tongpeiAnim" left="0" right="0" top="0" bottom="0" aligntype="middle" anim="brnn_tongpei" isloop="false" touchChildren="false" touchEnabled="false" playOnStage="false" isTouchByGroup="true"/>
+	</e:Group>
+	<e:Button id="testBtn" label="测试粒子" x="889" y="9" visible="false"/>
+	<e:Group id="leftUpGroup" width="204.55" height="331.82" y="1.43" left="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-564.5">
+		<e:Image id="menuArrowImg" x="20" y="8" source="brnn_menu_btn_down"/>
+		<e:Group id="menuContent" width="200" height="200" x="14.31" y="212.05" visible="false">
+		<e:Image x="9" y="-74" scaleX="1" scaleY="1" scale9Grid="105,223,53,44" anchorOffsetY="0" height="392.52" source="brnn_menu_bg"/>
+		<ns1:IButton id="helpBtn" label="" x="49.37" y="47" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_btn_rule" source.down="brnn_btn_rule" source.disabled="brnn_btn_rule"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="settingAudioBtn" label="" x="49.37" y="130" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_btn_setting" source.down="brnn_btn_setting" source.disabled="brnn_btn_setting"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" x="49.37" y="210.03" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_btn_back" source.down="brnn_btn_back" source.disabled="brnn_btn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="bankBtn" label="" x="43.29" y="-31.97" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_btn_withdraw" source.down="brnn_btn_withdraw" source.disabled="brnn_btn_withdraw"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:IButton>
+		</e:Group>
+	</e:Group>
+	<ns1:BrnnRoundResult id="roundResult" width="1334" height="750" horizontalCenter="0" visible="false"/>
+
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsRecordBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="970.99" height="83">
+	<e:Group width="973" height="83" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="zjLine" bottom="0" source="fqzs_zjcx_line" horizontalCenter="0" x="3" y="78" scaleX="1" scaleY="1"/>
+		<e:Image id="resultIcon" x="50.65" verticalCenter="4" source="fqzs_zjcx_iconwin" y="15" scaleX="1" scaleY="1"/>
+		<e:Image x="131.98" verticalCenter="0.5" anchorOffsetX="0" width="245.67" scale9Grid="21,5,128,35" source="fqzs_zjcx_imglabelbg" y="18" scaleX="1" scaleY="1"/>
+		<e:Image x="405.28" verticalCenter="0.5" anchorOffsetX="0" width="156.33" scale9Grid="26,6,157,37" source="fqzs_zjcx_imglabelbg" y="18" scaleX="1" scaleY="1"/>
+		<e:Image id="roomLevelImg" x="429.29" verticalCenter="2.5" source="fqzs_zjcx_levelimg1" y="27" scaleX="1" scaleY="1"/>
+		<e:Label id="zjTime" text="12-12 12:12" x="592.48" size="30" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" verticalCenter="0" bold="true" textColor="0xe6c693" y="27" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="totalWin" width="172" height="50" x="157.31" anchorOffsetX="0" anchorOffsetY="0" text="1234.-万" verticalCenter="7" font="fqzs_zjcx_lose_fnt" y="24" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="detailBtn" label="" x="794.32" anchorOffsetY="0" verticalCenter="0.5" y="-6" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_zjcx_btndetail" source.down="fqzs_zjcx_btndetail" source.disabled="fqzs_zjcx_btndetail"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image id="bankerIcon" source="fqzs_room_json.fqzs_zjcx_iconbanker" x="0.33" y="22.68" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg" horizontalCenter="0.5" verticalCenter="15.5" source="bjl_zjcx_json.bjl_zjcx_bgpanel"/>
+		<e:Image id="zhuangCard1" x="340.7" y="265.4" source="bjl_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="zhuangCard0" x="388.7" y="265.4" source="bjl_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="zhuangCard2" x="436.7" y="265.4" source="bjl_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="xianCard1" x="890.5" y="265.4" source="bjl_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="xianCard0" x="940.5" y="265.4" source="bjl_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="xianCard2" x="990.5" y="265.4" source="bjl_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="bankerIcon" x="184.81" y="362.92" source="bjl_zjcx_json.bjl_zjcx_bankericon"/>
+		<e:Image id="totalPoolImg" x="239.42" y="374.23" source="bjl_zjcx_json.bjl_zjcx_imgpool"/>
+		<e:Image id="totalBetImg" x="217.42" y="372.23" source="bjl_zjcx_json.bjl_zjcx_imgtotalbet"/>
+		<e:BitmapLabel id="zhuangWinLabel" width="223.03" height="44.24" x="280.7" y="412.44" anchorOffsetX="0" anchorOffsetY="0" font="bjl_zjcx_win_fnt" text="1234"/>
+		<e:BitmapLabel id="xianWinLabel" width="223.03" height="44.24" x="579.7" y="412.44" anchorOffsetX="0" anchorOffsetY="0" font="bjl_zjcx_win_fnt" text="1234"/>
+		<e:BitmapLabel id="heWinLabel" width="223.03" height="44.24" x="910.7" y="412.44" anchorOffsetX="0" anchorOffsetY="0" font="bjl_zjcx_win_fnt" text="1234"/>
+		<e:BitmapLabel id="zhuangduiWinLabel" width="223.03" height="44.24" x="310.7" y="458.44" anchorOffsetX="0" anchorOffsetY="0" font="bjl_zjcx_win_fnt" text="1234"/>
+		<e:BitmapLabel id="xianduiWinLabel" width="223.03" height="44.24" x="610.7" y="458.44" anchorOffsetX="0" anchorOffsetY="0" font="bjl_zjcx_win_fnt" text="1234"/>
+	</e:Group>
+</e:Skin>

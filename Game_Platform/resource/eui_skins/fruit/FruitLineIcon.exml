@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitLineIconSkin" width="40" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a8d6a5214" ></w:Config>
+	<e:Image id="lineIconImg" x="0" y="0" source="nf_l1_on" width="40" height="40"/>
+</e:Skin>

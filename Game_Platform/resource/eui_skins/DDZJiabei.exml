@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZJiabeiSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="550" height="115">
+	<w:Config id="16687f2e2fe" ></w:Config>
+	<ns1:IButton id="jiaobei0" label="" left="0" verticalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_nodouble_btn" source.down="ddz_battle_json.ddz_nodouble_btn" source.disabled="ddz_battle_json.ddz_nodouble_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<ns1:IButton id="jiaobei1" label="" verticalCenter="0" right="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_double_btn" source.down="ddz_battle_json.ddz_double_btn" source.disabled="ddz_battle_json.ddz_double_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<ns1:DDZClock id="clock" verticalCenter="-6.5" horizontalCenter="0" x="224.5"/>
+</e:Skin>

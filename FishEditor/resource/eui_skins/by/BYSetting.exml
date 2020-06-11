@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BYSettingSkin" width="171" height="370" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="168b3401956" ></w:Config>
+	<e:Button id="chargeBtnOut" label="" x="20.5" y="-52" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="toll_btn_charge" source.down="toll_btn_charge" source.disabled="toll_btn_charge"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+	<e:Group id="moveGroup" width="146" height="321" x="20" y="15" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image x="12" y="0" source="toll_kuang"/>
+		<e:Button id="settingBtn" label="" x="72.5" y="235" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="toll_btn_setting" source.down="toll_btn_setting" source.disabled="toll_btn_setting"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="leaveBtn" label="" x="72.5" y="166" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="toll_btn_quit" source.down="toll_btn_quit" source.disabled="toll_btn_quit"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="fishBtn" label="" x="72.5" y="97" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="toll_btn_fishkinds" source.down="toll_btn_fishkinds" source.disabled="toll_btn_fishkinds"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="chargeBtn" label="" x="71" y="21" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="toll_btn_charge" source.down="toll_btn_charge" source.disabled="toll_btn_charge"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="arrow" width="55" height="66" x="29" y="166.5" anchorOffsetX="27.5" anchorOffsetY="33" scaleX="-1">
+			<e:Image x="0" y="0" source="toll_arrow_bg" scaleX="1" scaleY="1"/>
+			<e:Image scaleX="1" scaleY="1" source="toll_arrow" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

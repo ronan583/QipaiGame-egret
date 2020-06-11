@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TgpdCongratulationsPanelSkin" width="797" height="460.6" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="free,grand,mini,major,minor" >
+	<w:Config id="16991887864" ></w:Config>
+	<e:Image width="780" height="321" anchorOffsetY="0" scaleY="1" y="122.85" x="5" source="candyParty_json.bg_kuang" anchorOffsetX="0"/>
+	<e:Image width="788" height="256" anchorOffsetY="0" scaleY="1" y="-1.52" x="6.08" source="candyParty_json.winning_point" source.grand="candyParty_json.winning_grand" source.mini="candyParty_json.winning_mini" source.major="candyParty_json.winning_major" source.minor="candyParty_json.winning_minor" y.grand="19.69" y.mini="13.64" y.major="12.16" x.major="3.04" y.minor="9.12"/>
+	<e:BitmapLabel id="totalPointLabel" width="559.79" height="103.03" x="64.7" y="271.2" anchorOffsetX="0" anchorOffsetY="0" text="21.00" scaleX="1.2" scaleY="1.2" textAlign="right" verticalAlign="center" font="CandyNum6_fnt"/>
+</e:Skin>

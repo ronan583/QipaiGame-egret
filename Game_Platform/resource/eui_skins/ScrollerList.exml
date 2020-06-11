@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ScrollerListSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1703136a0b0" ></w:Config>
+	<e:Scroller id="scroller" left="0" right="0" top="0" bottom="0">
+		<e:List id="dataListView">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="3" horizontalGap="6" verticalGap="6" paddingLeft="0"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

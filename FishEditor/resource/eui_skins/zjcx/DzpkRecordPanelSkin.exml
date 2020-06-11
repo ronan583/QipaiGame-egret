@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DzpkRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg1" horizontalCenter="0.5" verticalCenter="15.5" source="dzpk_zjcx_json.dzpk_zjcx_bgpanel"/>
+		<e:Image id="selfCard0" x="439.72" y="297.84" source="dzpk_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="selfCard1" x="487.72" y="297.84" source="dzpk_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="typeBg1" x="448.05" y="340.85" source="dzpk_zjcx_json.dzpk_zjcx_bgtype"/>
+		<e:Label id="type1" text="同花顺" x="459.05" y="344.85" size="22" fontFamily="Microsoft YaHei" width="66" height="22" textAlign="center"/>
+		<e:Image id="publicCard0" x="698.67" y="298.28" source="dzpk_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="publicCard1" x="748.67" y="298.28" source="dzpk_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="publicCard2" x="798.67" y="298.28" source="dzpk_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="publicCard3" x="846.01" y="298.28" source="dzpk_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="publicCard4" x="895.01" y="298.28" source="dzpk_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="winIcon" x="686.33" y="417.65" source="dzpk_zjcx_iconwin"/>
+		<e:BitmapLabel id="totalBetLabel" width="210.67" height="45.33" x="468" y="434" anchorOffsetX="0" anchorOffsetY="0" text="1234" letterSpacing="-8" font="dzpk_zjcx_win_fnt"/>
+		<e:BitmapLabel id="winLabel" width="196.67" height="45.33" x="753" y="433" anchorOffsetX="0" anchorOffsetY="0" text="1234" letterSpacing="-8" font="dzpk_zjcx_win_fnt"/>
+	</e:Group>
+</e:Skin>

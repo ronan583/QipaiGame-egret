@@ -1,0 +1,14 @@
+{"file":"bjlRoom.png","frames":{
+"bjln_gold":{"x":1844,"y":167,"w":49,"h":49,"offX":5,"offY":0,"sourceW":54,"sourceH":49},
+"bjln_bottom":{"x":1,"y":1,"w":1624,"h":127,"offX":0,"offY":0,"sourceW":1624,"sourceH":127},
+"bjln_baomao":{"x":329,"y":130,"w":70,"h":27,"offX":0,"offY":0,"sourceW":70,"sourceH":27},
+"bjln_back":{"x":1939,"y":1,"w":93,"h":93,"offX":0,"offY":0,"sourceW":93,"sourceH":93},
+"bjln_add":{"x":1982,"y":166,"w":48,"h":52,"offX":0,"offY":0,"sourceW":48,"sourceH":52},
+"bjln_zhunru":{"x":1914,"y":166,"w":66,"h":38,"offX":0,"offY":0,"sourceW":66,"sourceH":38},
+"bjln_yongji":{"x":1968,"y":220,"w":70,"h":27,"offX":0,"offY":0,"sourceW":70,"sourceH":27},
+"bjln_logo":{"x":1627,"y":1,"w":215,"h":174,"offX":0,"offY":0,"sourceW":215,"sourceH":174},
+"bjln_kongxian":{"x":1895,"y":206,"w":71,"h":27,"offX":0,"offY":0,"sourceW":71,"sourceH":27},
+"bjln_help":{"x":1844,"y":1,"w":93,"h":94,"offX":0,"offY":0,"sourceW":93,"sourceH":94},
+"bjln_gold_bg":{"x":1,"y":130,"w":326,"h":66,"offX":0,"offY":0,"sourceW":326,"sourceH":66},
+"bjl_head_bg_2":{"x":1939,"y":96,"w":68,"h":68,"offX":0,"offY":0,"sourceW":68,"sourceH":68},
+"bjl_head_bg_1":{"x":1844,"y":97,"w":68,"h":68,"offX":0,"offY":0,"sourceW":68,"sourceH":68}}}

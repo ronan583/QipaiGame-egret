@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VIPPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1664008bdd8" ></w:Config>
+	<e:Image source="vip_bg0" horizontalCenter="0" verticalCenter="0"/>
+
+
+
+	<e:Image source="vip_title_label_full_png" x="427.24" y="65.04" visible="false"/>
+
+
+
+	<e:Image id="hideLabel" x="356.84" y="53.37" source="icon_vip_lable1"/>
+
+	<e:Image source="vip_title_progressbg_png" x="469.73" y="153.92"/>
+	<e:Image x="904.69" y="141.04" source="icon_vip_big"/>
+	<e:Image id="nextVIPNum" x="918.68" y="156.04" source="num_vip_2"/>
+	<e:Image x="372.27" y="140.4" source="icon_vip_big"/>
+	<e:Image id="currVIPNum" x="386.26" y="155.4" source="num_vip_1"/>
+	<e:Image source="vip_title_progress_png" x="391.76" y="158.67" visible="false"/>
+	<ns1:IButton label="" x="966.26" y="77.24" width="164" height="60" anchorOffsetX="82" anchorOffsetY="28" imageLabelPath="icon_vip_charge">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common_btn4" source.down="common_btn4" source.disabled="common_btn4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<ns1:IButton id="closeBtn" label="" x="1054.34" y="14.58">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close" source.down="close" source.disabled="close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<e:BitmapLabel id="chargeNumLabel" width="201.83" height="48.78" x="481.6" y="56.38" text="88888" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" font="vipui_fnt_fnt" scaleX="0.8" scaleY="0.8" verticalAlign="middle"/>
+
+
+	<e:ProgressBar id="vipExpBar" width="427.59" height="19.99" x="471.25" y="156.96" skinName="VIPProgressBarSkinSkin" anchorOffsetX="0" anchorOffsetY="0" value="30"/>
+	<e:Image source="vip_title_label_full_png" x="426.64" y="65.56" visible="false"/>
+	<ns1:IScrollerPage width="868" height="471.39" x="212.81" y="208.3" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group>
+			<e:Group id="vip1Group" x="-226.74999999999997" y="-196.65999999999997" scaleX="1" scaleY="1" anchorOffsetX="0" width="868">
+				<e:Image x="0" y="0" source="vip_bg1"/>
+				<e:Image source="vip_leftbg_png" x="0" y="0" visible="false"/>
+				<e:Image x="412.91" y="4.2" source="vip_bg2"/>
+				<e:Image x="431.03" y="21.12" source="icon_vip_big"/>
+				<e:Image x="445.02" y="36.12" source="num_vip_1"/>
+				<e:Image x="529.36" y="22.5" source="icon_right"/>
+				<e:Image x="441.36" y="85" source="icon_vip_bar1"/>
+				<e:Image x="442.86" y="150" source="icon_vip_bar2"/>
+				<e:Image x="442.86" y="215" source="icon_vip_bar3"/>
+				<e:Image source="vip_battery_1_png" x="192.83" y="315.05"/>
+				<e:Image source="vip_btn_play_png" x="228.83" y="339.05"/>
+				<e:Image source="cannon_seat_png" x="28.15" y="310.49" anchorOffsetY="0" height="141.24" anchorOffsetX="0" width="140"/>
+				<e:Image source="cannon_gun_1_png" x="55.67" y="300.49"/>
+				<e:Image source="cannon_gun_1_bg_png" x="44.51" y="361.67" width="110"/>
+				<e:Image source="cannon_gun_name_1_png" x="40.76" y="371.04"/>
+				<e:Image source="frame_2_png" x="111.8" y="55.52" width="130" height="130"/>
+				<e:Image x="81.11" y="16.99" source="icon_only_headframe"/>
+				<e:Image x="109.63" y="233.02" source="icon_only_cannon"/>
+			</e:Group>
+			<e:Group id="vip2Group" x="-216.74999999999997" y="-186.65999999999997" scaleX="1" scaleY="1" anchorOffsetX="0" width="868">
+				<e:Image x="0" y="0" source="vip_bg1"/>
+				<e:Image source="vip_leftbg_png" x="0" y="0" visible="false"/>
+				<e:Image x="412.91" y="4.2" source="vip_bg2"/>
+				<e:Image x="431.03" y="21.12" source="icon_vip_big"/>
+				<e:Image x="445.02" y="36.12" source="num_vip_1"/>
+				<e:Image x="529.36" y="22.5" source="icon_right"/>
+				<e:Image x="441.36" y="85" source="icon_vip_bar1"/>
+				<e:Image x="442.86" y="150" source="icon_vip_bar2"/>
+				<e:Image x="442.86" y="215" source="icon_vip_bar3"/>
+				<e:Image source="vip_battery_1_png" x="192.83" y="315.05"/>
+				<e:Image source="vip_btn_play_png" x="228.83" y="339.05"/>
+				<e:Image source="cannon_seat_png" x="28.15" y="310.49" anchorOffsetY="0" height="141.24" anchorOffsetX="0" width="140"/>
+				<e:Image source="cannon_gun_1_png" x="55.67" y="300.49"/>
+				<e:Image source="cannon_gun_1_bg_png" x="44.51" y="361.67" width="110"/>
+				<e:Image source="cannon_gun_name_1_png" x="40.76" y="371.04"/>
+				<e:Image source="frame_2_png" x="111.8" y="55.52" width="130" height="130"/>
+				<e:Image x="81.11" y="16.99" source="icon_only_headframe"/>
+				<e:Image x="109.63" y="233.02" source="icon_only_cannon"/>
+			</e:Group>
+			<e:Group id="vip3Group" x="-206.74999999999997" y="-176.65999999999997" scaleX="1" scaleY="1" anchorOffsetX="0" width="868">
+				<e:Image x="0" y="0" source="vip_bg1"/>
+				<e:Image source="vip_leftbg_png" x="0" y="0" visible="false"/>
+				<e:Image x="412.91" y="4.2" source="vip_bg2"/>
+				<e:Image x="431.03" y="21.12" source="icon_vip_big"/>
+				<e:Image x="445.02" y="36.12" source="num_vip_1"/>
+				<e:Image x="529.36" y="22.5" source="icon_right"/>
+				<e:Image x="441.36" y="85" source="icon_vip_bar1"/>
+				<e:Image x="442.86" y="150" source="icon_vip_bar2"/>
+				<e:Image x="442.86" y="215" source="icon_vip_bar3"/>
+				<e:Image source="vip_battery_1_png" x="192.83" y="315.05"/>
+				<e:Image source="vip_btn_play_png" x="228.83" y="339.05"/>
+				<e:Image source="cannon_seat_png" x="28.15" y="310.49" anchorOffsetY="0" height="141.24" anchorOffsetX="0" width="140"/>
+				<e:Image source="cannon_gun_1_png" x="55.67" y="300.49"/>
+				<e:Image source="cannon_gun_1_bg_png" x="44.51" y="361.67" width="110"/>
+				<e:Image source="cannon_gun_name_1_png" x="40.76" y="371.04"/>
+				<e:Image source="frame_2_png" x="111.8" y="55.52" width="130" height="130"/>
+				<e:Image x="81.11" y="16.99" source="icon_only_headframe"/>
+				<e:Image x="109.63" y="233.02" source="icon_only_cannon"/>
+			</e:Group>
+			<e:Group id="vip4Group" x="-196.74999999999997" y="-166.65999999999997" scaleX="1" scaleY="1" anchorOffsetX="0" width="868">
+				<e:Image x="0" y="0" source="vip_bg1"/>
+				<e:Image source="vip_leftbg_png" x="0" y="0" visible="false"/>
+				<e:Image x="412.91" y="4.2" source="vip_bg2"/>
+				<e:Image x="431.03" y="21.12" source="icon_vip_big"/>
+				<e:Image x="445.02" y="36.12" source="num_vip_1"/>
+				<e:Image x="529.36" y="22.5" source="icon_right"/>
+				<e:Image x="441.36" y="85" source="icon_vip_bar1"/>
+				<e:Image x="442.86" y="150" source="icon_vip_bar2"/>
+				<e:Image x="442.86" y="215" source="icon_vip_bar3"/>
+				<e:Image source="vip_battery_1_png" x="192.83" y="315.05"/>
+				<e:Image source="vip_btn_play_png" x="228.83" y="339.05"/>
+				<e:Image source="cannon_seat_png" x="28.15" y="310.49" anchorOffsetY="0" height="141.24" anchorOffsetX="0" width="140"/>
+				<e:Image source="cannon_gun_1_png" x="55.67" y="300.49"/>
+				<e:Image source="cannon_gun_1_bg_png" x="44.51" y="361.67" width="110"/>
+				<e:Image source="cannon_gun_name_1_png" x="40.76" y="371.04"/>
+				<e:Image source="frame_2_png" x="111.8" y="55.52" width="130" height="130"/>
+				<e:Image x="81.11" y="16.99" source="icon_only_headframe"/>
+				<e:Image x="109.63" y="233.02" source="icon_only_cannon"/>
+			</e:Group>
+			<e:Group id="vip5Group" x="-186.74999999999997" y="-156.65999999999997" scaleX="1" scaleY="1" anchorOffsetX="0" width="868">
+				<e:Image x="0" y="0" source="vip_bg1"/>
+				<e:Image source="vip_leftbg_png" x="0" y="0" visible="false"/>
+				<e:Image x="412.91" y="4.2" source="vip_bg2"/>
+				<e:Image x="431.03" y="21.12" source="icon_vip_big"/>
+				<e:Image x="445.02" y="36.12" source="num_vip_1"/>
+				<e:Image x="529.36" y="22.5" source="icon_right"/>
+				<e:Image x="441.36" y="85" source="icon_vip_bar1"/>
+				<e:Image x="442.86" y="150" source="icon_vip_bar2"/>
+				<e:Image x="442.86" y="215" source="icon_vip_bar3"/>
+				<e:Image source="vip_battery_1_png" x="192.83" y="315.05"/>
+				<e:Image source="vip_btn_play_png" x="228.83" y="339.05"/>
+				<e:Image source="cannon_seat_png" x="28.15" y="310.49" anchorOffsetY="0" height="141.24" anchorOffsetX="0" width="140"/>
+				<e:Image source="cannon_gun_1_png" x="55.67" y="300.49"/>
+				<e:Image source="cannon_gun_1_bg_png" x="44.51" y="361.67" width="110"/>
+				<e:Image source="cannon_gun_name_1_png" x="40.76" y="371.04"/>
+				<e:Image source="frame_2_png" x="111.8" y="55.52" width="130" height="130"/>
+				<e:Image x="81.11" y="16.99" source="icon_only_headframe"/>
+				<e:Image x="109.63" y="233.02" source="icon_only_cannon"/>
+			</e:Group>
+			<e:Group id="vip6Group" x="-176.74999999999997" y="-146.65999999999997" scaleX="1" scaleY="1" anchorOffsetX="0" width="868">
+				<e:Image x="0" y="0" source="vip_bg1"/>
+				<e:Image source="vip_leftbg_png" x="0" y="0" visible="false"/>
+				<e:Image x="412.91" y="4.2" source="vip_bg2"/>
+				<e:Image x="431.03" y="21.12" source="icon_vip_big"/>
+				<e:Image x="445.02" y="36.12" source="num_vip_1"/>
+				<e:Image x="529.36" y="22.5" source="icon_right"/>
+				<e:Image x="441.36" y="85" source="icon_vip_bar1"/>
+				<e:Image x="442.86" y="150" source="icon_vip_bar2"/>
+				<e:Image x="442.86" y="215" source="icon_vip_bar3"/>
+				<e:Image source="vip_battery_1_png" x="192.83" y="315.05"/>
+				<e:Image source="vip_btn_play_png" x="228.83" y="339.05"/>
+				<e:Image source="cannon_seat_png" x="28.15" y="310.49" anchorOffsetY="0" height="141.24" anchorOffsetX="0" width="140"/>
+				<e:Image source="cannon_gun_1_png" x="55.67" y="300.49"/>
+				<e:Image source="cannon_gun_1_bg_png" x="44.51" y="361.67" width="110"/>
+				<e:Image source="cannon_gun_name_1_png" x="40.76" y="371.04"/>
+				<e:Image source="frame_2_png" x="111.8" y="55.52" width="130" height="130"/>
+				<e:Image x="81.11" y="16.99" source="icon_only_headframe"/>
+				<e:Image x="109.63" y="233.02" source="icon_only_cannon"/>
+			</e:Group>
+
+
+
+
+
+
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+	</ns1:IScrollerPage>
+</e:Skin>

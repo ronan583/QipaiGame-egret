@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DdzBankUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="9" verticalCenter="8">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" source="ddz_battle_json.ddz_bank_bg"/>
+		<e:Image y="72.77" horizontalCenter="0.5" source="ddz_battle_json.ddz_bank_title"/>
+		<ns1:IButton id="closebtn" label="" x="1116.34" y="84.77">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_close" source.down="ddz_battle_json.ddz_close" source.disabled="ddz_battle_json.ddz_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="" text="银行金额：" size="32" fontFamily="Microsoft YaHei" left="266" textColor="0x8E5533" top="207"/>
+		<e:Label id="bankMoney" text="0" size="32" fontFamily="Microsoft YaHei" textColor="0x8E5533" left="418" verticalCenter="-152"/>
+		<e:Label id="" text="当前金额：" size="32" fontFamily="Microsoft YaHei" textColor="0x8E5533" left="806" top="207"/>
+		<e:Label id="curMoney" text="0" size="32" fontFamily="Microsoft YaHei" textColor="0x8E5533" left="959" verticalCenter="-152"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="-8" source="ddz_battle_json.ddz_withdraw_frame" verticalCenter="-44.5"/>
+		<e:EditableText id="drawMoneyLabel" width="545" height="65" text="" fontFamily="Microsoft YaHei" verticalAlign="middle" y="298" size="25" textColor="0xBDB9B9" horizontalCenter="-3.5"/>
+		<e:Label text="零" y="366" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="24" horizontalCenter="-10" textColor="0x735747" visible="false"/>
+		<ns1:IButton id="maxBtn" label="" x="1004.34" y="422.01" scaleX="1" scaleY="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_max" source.down="ddz_battle_json.ddz_max" source.disabled="ddz_battle_json.ddz_max"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<e:Image source="ddz_battle_json.ddz_percentage" verticalCenter="126" horizontalCenter="-41"/>
+		<e:ProgressBar id="progressbar" skinName="DDZSettingProgressBarSkin" verticalCenter="81" horizontalCenter="-44"/>
+		<ns1:SettingSlider id="slider" enabled="true" value="0" maximum="100" horizontalCenter="-45" verticalCenter="79" width="778" skinName="DDZSettingSliderSkin" anchorOffsetX="0"/>
+		<ns1:IButton id="drawBtn" label="" bottom="81" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_withdraw_btn" source.down="ddz_battle_json.ddz_withdraw_btn" source.disabled="ddz_battle_json.ddz_withdraw_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+</e:Skin>

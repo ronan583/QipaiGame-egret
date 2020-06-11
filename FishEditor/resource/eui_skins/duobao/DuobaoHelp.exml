@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuobaoHelpSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+
+
+
+	<e:Group width="1334" height="750" y="0" horizontalCenter="0">
+		<e:Group width="166" height="72" x="40.67" y="106" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="jieshaoSelect" source="duobao_help_jeishao_s" y="0" x="0"/>
+			<e:Image id="jieshaoUnSelect" x="0" y="0" source="duobao_help_jeishao_s1"/>
+		</e:Group>
+		<e:Group width="166" height="72" x="40.67" y="200" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="wanfaSelect" y="0" x="0" source="duobao_help_wanfa_s"/>
+			<e:Image id="wanfaUnSelect" x="0" y="0" source="duobao_help_wanfa_s1"/>
+		</e:Group>
+		<e:Image scale9Grid="64,162,384,99" anchorOffsetX="0" anchorOffsetY="0" x="157.67" y="32" source="duobao_help_bg2" scaleX="1" scaleY="1"/>
+		<e:Image scale9Grid="64,162,384,99" anchorOffsetX="0" anchorOffsetY="0" x="243.67" y="136" scaleX="1" scaleY="1" source="duobao_help_bg1"/>
+
+		<e:Image x="638.84" y="55.34" source="duobao_help_title1" scaleX="1" scaleY="1"/>
+		<e:Group id="jieshaoGroup" width="930" height="500" x="243.67" y="136" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image scale9Grid="64,162,384,99" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" source="duobao_help_bg1" scaleX="1" scaleY="1" height="490"/>
+			<e:Scroller id="scroller" width="914.17" height="454" x="11" y="10" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Group anchorOffsetX="0" width="831.88" anchorOffsetY="0" height="1370">
+				<e:Image anchorOffsetX="0" source="duobao_help_jieshao_png"/>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="ruleGroup" width="930" height="500" x="243.67" y="136" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:IButton id="prevBtn" label="" x="197" y="420">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="duobao_help_prev" source.down="duobao_help_prev" source.disabled="duobao_help_prev1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="nextBtn" label="" x="588" y="420">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="duobao_help_next" source.down="duobao_help_next" source.disabled="duobao_help_next1"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<e:Image id="img1" scale9Grid="64,162,384,99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="duobao_help_c1_png" x="38" y="10"/>
+			<e:Image scale9Grid="64,162,384,99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="38" y="10" id="img2" source="duobao_help_c2_png"/>
+			<e:Image scale9Grid="64,162,384,99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="14" y="10" id="img3" source="duobao_help_c3_png"/>
+			<e:Image scale9Grid="64,162,384,99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="38" y="10" id="img4" source="duobao_help_c4_png"/>
+		</e:Group>
+		<ns1:IButton id="closebtn" label="" x="1179.63" y="60.32">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duobao_help_close" source.down="duobao_help_close" source.disabled="duobao_help_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+
+
+
+</e:Skin>

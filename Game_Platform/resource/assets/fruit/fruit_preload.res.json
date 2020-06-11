@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "fruit_qidong_ske_dbbin,fruit_qidong_tex_json,fruit_qidong_tex_png,fruitn_room_bg_jpg",
+			"name": "fruit_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/fruit/fruitn_room_bg.jpg",
+			"type": "image",
+			"name": "fruitn_room_bg_jpg"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "fruit_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_qidong_tex.json",
+			"type": "json",
+			"name": "fruit_qidong_tex_json"
+		},
+		{
+			"url": "assets/fruit/animation/fruit_qidong_tex.png",
+			"type": "image",
+			"name": "fruit_qidong_tex_png"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TgpdZJ" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="zjcx_json.zjcx_bg5" verticalCenter="0" horizontalCenter="0"/>
+	<e:Scroller id="scroller" width="890.03" height="405" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-1" y="226" alpha="1">
+		<e:Group id="viewport" anchorOffsetX="0" width="889.03" x="190.91" y="0" height="404" alpha="1" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+			<ns1:TgpdRecordBar width="880" height="50" x="282" y="63" skinName="TgpdRecordBarSkin"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="closeBtn" source="zjcx_json.zjcx_close_Btn4" x="1052" y="54"/>
+	<e:Image source="zjcx_json.zjcx_time2" x="266" y="143"/>
+	<e:Image source="zjcx_json.zjcx_room2" x="430" y="143"/>
+	<e:Image source="zjcx_json.zjcx_zhuShu" x="595" y="144"/>
+	<e:Image source="zjcx_json.zjcx_dXianShu" x="749" y="144"/>
+	<e:Image source="zjcx_json.zjcx_sy1" x="941" y="142"/>
+</e:Skin>

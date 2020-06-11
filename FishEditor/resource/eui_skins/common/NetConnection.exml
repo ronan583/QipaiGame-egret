@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NetConnectionSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<e:Group id="connectGroup" height="750" y="0" left="0" right="0" visible="false">
+		<e:Image id="bgimg" horizontalCenter="0" source="gpn_loading_bg2_jpg"/>
+		<ns1:DragonAnim id="loadingAnim" width="1334" height="750" aligntype="middle" anim="dengluJM" horizontalCenter="0"/>
+		<e:Image source="loading_label_bg_png" left="0" right="0"/>
+		<e:Group width="782" height="46" y="656" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image id="progressbar" source="gpn_bar_png" x="-56"/>
+			<e:Image id="progressbg" source="gpn_bar_bg_png" x="-56"/>
+			<e:Rect id="maskRect" width="393" height="40" anchorOffsetX="0" anchorOffsetY="0" x="-56"/>
+			<e:Label id="tipsLabel" text="只要你不是最大的牌，你就要想对手下重注的理由" y="-30" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="22" textColor="0xecbe68" verticalAlign="middle" textAlign="center" width="900" horizontalCenter="0"/>
+			<e:Image y="22" source="gpn_loading_bg_png" x="-101"/>
+			<e:Label id="progressLabel" text="100%" y="7.34" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="22" verticalAlign="middle" textAlign="center" width="100" x="716.33" textColor="0xa36f33"/>
+			<e:Label id="tipsLabel2" text="提示:充值成功后需要在银行领取哦" y="48" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="25" verticalAlign="middle" textAlign="center" width="1334" textColor="0x837f7c" horizontalCenter="0"/>
+		</e:Group>
+		<e:Image id="bgImg" x="0" y="0" width="1280" height="720" scaleX="1" scaleY="1" source="loadingpreview_jpg" visible="false"/>
+		<e:Image id="flowerImg" y="451.63" horizontalCenter="0.5" anchorOffsetX="35" anchorOffsetY="35" x="623" scaleX="1" scaleY="1" width="70" height="70" source="netLoading_png" visible="false"/>
+		<e:Label text="网络连接中" y="509.33" horizontalCenter="0" x="565" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image y="621.55" source="loading_server_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="24.5" visible="false"/>
+	</e:Group>
+
+	<e:Group id="reConnectGroup" width="1334" height="750" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="424" y="208.5" source="noticetip_bg_png" scale9Grid="35,39,31,18" width="482.67" height="353.33"/>
+
+
+
+		<e:Label text="网络连接失败，请检查网络!" y="330.21" fontFamily="Microsoft YaHei" size="28" verticalAlign="middle" textAlign="center" x="491.28" textColor="0xffffff"/>
+
+		<e:Label text="系统提示" y="224" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="33" x="606"/>
+		<e:Group id="reConnectBtn" width="177" height="63" x="581" y="432" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button label="">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="noticetip_btn_png" source.down="noticetip_btn_png" source.disabled="noticetip_btn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label text="重连" x="58" y="14" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+    </e:Group>
+	<e:Group id="shotflowerGroup" width="200" height="200" x="540" y="260"/>
+</e:Skin>

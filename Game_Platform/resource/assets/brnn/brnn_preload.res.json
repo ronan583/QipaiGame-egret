@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "brnn_qidong_ske_dbbin,brnn_qidong_tex_json,brnn_qidong_tex_png,brnnn_room_bg_jpg",
+			"name": "brnn_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/brnn/animation/room/brnn_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_qidong_tex.json",
+			"type": "json",
+			"name": "brnn_qidong_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_qidong_tex.png",
+			"type": "image",
+			"name": "brnn_qidong_tex_png"
+		},
+		{
+			"url": "assets/brnn/brnnn_room_bg.jpg",
+			"type": "image",
+			"name": "brnnn_room_bg_jpg"
+		}
+	]
+}

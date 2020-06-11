@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PokerCardSkin" width="139" height="191" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16682efa82d" ></w:Config>
+	<e:Image id="cardBg" x="0" y="0" source="ddz_card_bg"/>
+	<e:Image id="cardNum" x="7" y="0" source="ddz_b1"/>
+	<e:Image id="flower" x="52" y="94.5" source="ddz_card_club"/>
+	<e:Image id="flower1" x="22" y="41" source="ddz_card_diamond11"/>
+	<e:Image id="flowerSmall" x="9" y="54" source="ddz_card_club_s"/>
+	<e:Image id="king" x="13" y="7.5" source="ddz_black_joker"/>
+	<e:Image id="landlord" x="0" y="0" source="" visible="false"/>
+</e:Skin>

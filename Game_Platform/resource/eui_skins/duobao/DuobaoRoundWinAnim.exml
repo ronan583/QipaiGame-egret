@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuobaoRoundWinAnimSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchChildren="false" touchThrough="true">
+		<ns1:DragonAnim id="baofuAnim" width="800" height="480" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-13" verticalCenter="-52" anim="db_baofu" aligntype="middle" defaultPlayAnim="animation" isloop="false" playOnStage="false"/>
+		<e:BitmapLabel id="winMoneyLabel" width="356.36" height="104.85" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-51.5" horizontalCenter="-13" text="25000" font="xbly_j1_fnt" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+</e:Skin>

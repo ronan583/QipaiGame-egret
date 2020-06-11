@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DzpkRecordBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="916">
+	<e:Group width="916" height="77" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="zjLine" bottom="0" horizontalCenter="0" x="-5" y="72" scaleX="1" scaleY="1" source="dzpk_zjcx_json.dzpk_zjcx_bgline"/>
+		<e:Image id="resultIcon" x="40.65" verticalCenter="3" y="6" scaleX="1" scaleY="1" source="dzpk_zjcx_json.dzpk_zjcx_iconwin"/>
+		<e:Image x="141.98" verticalCenter="-1" anchorOffsetX="0" width="245.67" scale9Grid="21,5,128,35" y="14" scaleX="1" scaleY="1" source="dzpk_zjcx_json.dzpk_zjcx_bglabel"/>
+		<e:Image x="409.28" verticalCenter="-1" anchorOffsetX="0" width="108.33" scale9Grid="26,6,157,37" y="14" scaleX="1" scaleY="1" source="dzpk_zjcx_json.dzpk_zjcx_bglabel"/>
+		<e:Image id="roomLevelImg" x="422.45" verticalCenter="0" y="23" scaleX="1" scaleY="1" source="dzpk_zjcx_json.dzpk_zjcx_level0"/>
+		<e:Label id="zjTime" text="12-12 12:12" x="550.48" size="28" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" verticalCenter="-0.5" bold="true" y="24" scaleX="1" scaleY="1" textColor="0xa1c2ff"/>
+		<e:BitmapLabel id="totalWin" width="238" height="50" x="146.31" anchorOffsetX="0" anchorOffsetY="0" text="+1234.万" verticalCenter="0.5" letterSpacing="-8" y="14" scaleX="1" scaleY="1" font="dzpk_zjcx_win_fnt"/>
+		<ns1:IButton id="detailBtn" xmlns:ns1="*" label="" x="758.32" anchorOffsetY="0" verticalCenter="0" y="10" scaleX="1" scaleY="1">
+			<ns1:skinName xmlns:ns1="*">
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dzpk_zjcx_json.dzpk_zjcx_btndetail" source.down="dzpk_zjcx_json.dzpk_zjcx_btndetail" source.disabled="dzpk_zjcx_json.dzpk_zjcx_btndetail"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+</e:Skin>

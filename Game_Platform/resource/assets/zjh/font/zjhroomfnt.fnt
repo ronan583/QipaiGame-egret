@@ -1,0 +1,14 @@
+{"file":"zjhroomfnt.png","frames":{
+"2":{"x":45,"y":1,"w":13,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"3":{"x":60,"y":23,"w":13,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"4":{"x":45,"y":23,"w":13,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"5":{"x":29,"y":1,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"6":{"x":89,"y":23,"w":12,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"7":{"x":29,"y":23,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"8":{"x":60,"y":1,"w":13,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"9":{"x":75,"y":23,"w":12,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"y":{"x":1,"y":26,"w":26,"h":22,"offX":0,"offY":0,"sourceW":26,"sourceH":22},
+".":{"x":98,"y":1,"w":4,"h":5,"offX":4,"offY":15,"sourceW":14,"sourceH":20},
+"0":{"x":75,"y":1,"w":13,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"1":{"x":90,"y":1,"w":6,"h":20,"offX":4,"offY":0,"sourceW":14,"sourceH":20},
+"w":{"x":1,"y":1,"w":26,"h":23,"offX":0,"offY":0,"sourceW":26,"sourceH":23}}}

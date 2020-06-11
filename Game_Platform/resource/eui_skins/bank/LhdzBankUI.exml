@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzBankUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" source="lhdz_battle_json.lhdz_bank_bg"/>
+		<e:Image y="72.77" horizontalCenter="0.5" source="lhdz_battle_json.lhdz_bank_title"/>
+		<ns1:IButton id="closebtn" label="" x="1042.09" y="163.55">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.lhdz_close" source.down="lhdz_battle_json.lhdz_close" source.disabled="lhdz_battle_json.lhdz_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="" text="银行余额：" size="32" fontFamily="Microsoft YaHei" left="318" textColor="0x8e5533" top="207"/>
+		<e:Label id="bankMoney" text="0" size="32" fontFamily="Microsoft YaHei" textColor="0x8e5533" left="481" verticalCenter="-152"/>
+		<e:Label id="" text="当前金额：" size="32" fontFamily="Microsoft YaHei" textColor="0x8e5533" left="807" top="207"/>
+		<e:Label id="curMoney" text="0" size="32" fontFamily="Microsoft YaHei" textColor="0x8e5533" left="971" verticalCenter="-152"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="9" verticalCenter="-34.5" source="lhdz_battle_json.lhdz_withdraw_frame"/>
+		<e:EditableText id="drawMoneyLabel" width="549.55" height="57.42" text="0" fontFamily="Microsoft YaHei" verticalAlign="middle" y="310.03" size="25" textColor="0xbdb9b9" horizontalCenter="12" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="零" y="376.61" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="24" textColor="0x735747" horizontalCenter="0" visible="false"/>
+		<ns1:IButton id="maxBtn" label="" scaleX="1" scaleY="1" horizontalCenter="375" verticalCenter="87.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.lhdz_max" source.down="lhdz_battle_json.lhdz_max" source.disabled="lhdz_battle_json.lhdz_max"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image verticalCenter="124" horizontalCenter="3" source="lhdz_battle_json.lhdz_percentage"/>
+		<e:ProgressBar id="progressbar" skinName="LhdzSettingProgressBarSkin" verticalCenter="88" horizontalCenter="-7"/>
+		<ns1:SettingSlider id="slider" enabled="true" value="0" maximum="100" horizontalCenter="-9" verticalCenter="86.5" skinName="LhdzSettingSliderSkin" anchorOffsetX="0" width="644"/>
+		<ns1:IButton id="drawBtn" label="" bottom="97" horizontalCenter="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.lhdz_withdraw_btn" source.down="lhdz_battle_json.lhdz_withdraw_btn" source.disabled="lhdz_battle_json.lhdz_withdraw_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

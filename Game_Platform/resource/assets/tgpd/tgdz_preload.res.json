@@ -1,0 +1,86 @@
+{
+	"groups": [
+		{
+			"keys": "tgpd_qidong_ske_dbbin,tgpd_qidong_tex_json,tgpd_qidong_tex_png,tgpdn_room_bg_png,candy_room_new_json,tgpd_putongc_tex_png,tgpd_tiyanc_ske_dbbin,tgpd_putongc_ske_dbbin,tgpd_tiyanc_tex_png,tgpd_putongc_tex_json,tgpd_tiyanc_tex_json,tgpd_quickstart_tex_png,tgpd_quickstart_tex_json,tgpd_quickstart_ske_dbbin,candy_bg_jpg",
+			"name": "tgdz_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/tgpd/tgpdn_room_bg.png",
+			"type": "image",
+			"name": "tgpdn_room_bg_png"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "tgpd_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_qidong_tex.json",
+			"type": "json",
+			"name": "tgpd_qidong_tex_json"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_qidong_tex.png",
+			"type": "image",
+			"name": "tgpd_qidong_tex_png"
+		},
+		{
+			"url": "assets/tgpd/candy_room_new.json",
+			"type": "sheet",
+			"name": "candy_room_new_json",
+			"subkeys": "ncandy_history_bg,ncandy_history_split,ncandy_room_btnback,ncandy_room_btncharge,ncandy_room_btnhelp,ncandy_room_btnhistory,ncandy_room_btnquick,ncandy_room_headbg,ncandy_room_icongold,ncandy_room_imgbottom,ncandy_room_labelbg,ncandy_room_logo,ncandy_room_roomitem0,ncandy_room_roomitem1,ncandy_room_roomlevel0,ncandy_room_roomlevel1"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_putongc_tex.png",
+			"type": "image",
+			"name": "tgpd_putongc_tex_png"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_tiyanc_ske.dbbin",
+			"type": "bin",
+			"name": "tgpd_tiyanc_ske_dbbin"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_putongc_ske.dbbin",
+			"type": "bin",
+			"name": "tgpd_putongc_ske_dbbin"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_tiyanc_tex.png",
+			"type": "image",
+			"name": "tgpd_tiyanc_tex_png"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_putongc_tex.json",
+			"type": "json",
+			"name": "tgpd_putongc_tex_json"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_tiyanc_tex.json",
+			"type": "json",
+			"name": "tgpd_tiyanc_tex_json"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_quickstart_ske.dbbin",
+			"type": "bin",
+			"name": "tgpd_quickstart_ske_dbbin"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_quickstart_tex.png",
+			"type": "image",
+			"name": "tgpd_quickstart_tex_png"
+		},
+		{
+			"url": "assets/tgpd/animation/tgpd_quickstart_tex.json",
+			"type": "json",
+			"name": "tgpd_quickstart_tex_json"
+		},
+		{
+			"url": "assets/tgpd/candy_bg.jpg",
+			"type": "image",
+			"name": "candy_bg_jpg"
+		}
+	]
+}

@@ -1,0 +1,2823 @@
+{
+	"groups": [
+		{
+			"keys": "t_bg_3_jpg,t_bg_2_jpg,t_bg_1_jpg,2000_dat,2001_dat,2002_dat,2003_dat,2004_dat,2005_dat,2006_dat,2007_dat,2008_dat,2009_dat,2010_dat,2011_dat,2012_dat,2013_dat,2014_dat,2015_dat,2016_dat,2017_dat,2018_dat,2019_dat,2020_dat,2021_dat,2022_dat,2024_dat,2025_dat,2026_dat,2027_dat,2030_dat,2031_dat,2032_dat,2033_dat,2035_dat,2036_dat,2037_dat,2038_dat,2039_dat,2040_dat,2041_dat,2042_dat,2043_dat,2044_dat,2045_dat,2046_dat,2047_dat,2048_dat,2049_dat,2050_dat,2051_dat,2052_dat,2053_dat,2054_dat,2055_dat,2056_dat,50001_dat,50002_dat,50003_dat,50004_dat,50005_dat,50006_dat,50007_dat,50008_dat,50009_dat,50010_dat,50011_dat,script_dat,fireeffect_mc_json,fireeffect_tex_png,BYCoins_tex_png,BYCoins_mc_json,byui_json,bolang_tex_png,bolang_mc_json,bycanon_json,bybaike_json,bycoins_fnt,bycoins_png,ring_json,bossBg_tex_png,bossBg_mc_json,bossnotice_json,title_bar_png,close_png,paopao_png,paopao_json,by_room_new_json,byRoomFnt1_fnt,byRoomFnt1_png,byRoomFnt2_fnt,byRoomFnt2_png,by_chuji_ske_dbbin,by_chuji_tex_png,by_gaoji_ske_dbbin,by_gaoji_tex_png,by_quick_ske_dbbin,by_quick_tex_png,by_tiyan_ske_dbbin,by_tiyan_tex_png,by_zhongji_ske_dbbin,by_zhongji_tex_png,by_chuji_tex_json,by_gaoji_tex_json,by_quick_tex_json,by_zhongji_tex_json,by_tiyan_tex_json,bybankfnt_fnt,bybankfnt_png,by_bank_json,by_help_bg_png,by_help_content_png,by_cannon_1_ske_dbbin,by_cannon_1_tex_png,by_cannon_2_ske_dbbin,by_cannon_2_tex_png,by_cannon_3_ske_dbbin,by_cannon_3_tex_png,by_cannon_1_tex_json,by_cannon_2_tex_json,by_cannon_3_tex_json,fishingJoy_battle_ui_font_blue_png,fishingJoy_battle_ui_font_blue_fnt,fishingJoy_battle_ui_font_yellow_fnt,fishingJoy_battle_ui_font_yellow_png,by_fish_yellow_fnt,by_fish_yellow_png,buyu_jinbi_tex_png,buyu_jinbi_mc_json,buyu_yinbi_tex_png,buyu_yinbi_mc_json,fishsheet1-1_json,by_coins_effect_tex_png,by_coins_effect_mc_json,fish10_mc_json,fish11_mc_json,fish13_mc_json,fish15_mc_json,fish16_mc_json,fish0_mc_json,fish18_mc_json,fish17_mc_json,fish1_mc_json,fish12_mc_json,fish23_mc_json,fish21_mc_json,fish25_mc_json,fish14_mc_json,fish26_mc_json,fish27_mc_json,fish28_mc_json,fish29_mc_json,fish2_mc_json,fish31_mc_json,fish30_mc_json,fish32_mc_json,fish3_mc_json,fish4_mc_json,fish5_mc_json,fish6_mc_json,fish9_mc_json,fish8_mc_json,fish7_mc_json,fish2_tex_png,fishsheet1-2_json",
+			"name": "by"
+		},
+		{
+			"keys": "boom_mp3,bybg1_mp3,bybg2_mp3,bybg3_mp3,bybg4_mp3,bybg5_mp3,click_mp3,coins1_mp3,coins2_mp3,coinscollect_mp3,shoot_mp3,singleCoin_mp3,warning_mp3,byvoice_1_mp3,byvoice_10_mp3,byvoice_11_mp3,byvoice_12_mp3,byvoice_13_mp3,byvoice_14_mp3,byvoice_15_mp3,byvoice_2_mp3,byvoice_3_mp3,byvoice_4_mp3,byvoice_5_mp3,byvoice_6_mp3,byvoice_7_mp3,byvoice_8_mp3,byvoice_9_mp3",
+			"name": "by_sound"
+		},
+		{
+			"keys": "",
+			"name": "fish"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/by/t_bg_1.jpg",
+			"type": "image",
+			"name": "t_bg_1_jpg"
+		},
+		{
+			"url": "assets/by/t_bg_2.jpg",
+			"type": "image",
+			"name": "t_bg_2_jpg"
+		},
+		{
+			"url": "assets/by/t_bg_3.jpg",
+			"type": "image",
+			"name": "t_bg_3_jpg"
+		},
+		{
+			"url": "assets/by/track/1.cfg",
+			"type": "text",
+			"name": "1_cfg"
+		},
+		{
+			"url": "assets/by/script/2000.dat",
+			"type": "text",
+			"name": "2000_dat"
+		},
+		{
+			"url": "assets/by/script/2001.dat",
+			"type": "text",
+			"name": "2001_dat"
+		},
+		{
+			"url": "assets/by/script/2002.dat",
+			"type": "text",
+			"name": "2002_dat"
+		},
+		{
+			"url": "assets/by/script/2003.dat",
+			"type": "text",
+			"name": "2003_dat"
+		},
+		{
+			"url": "assets/by/script/2004.dat",
+			"type": "text",
+			"name": "2004_dat"
+		},
+		{
+			"url": "assets/by/script/2005.dat",
+			"type": "text",
+			"name": "2005_dat"
+		},
+		{
+			"url": "assets/by/script/2006.dat",
+			"type": "text",
+			"name": "2006_dat"
+		},
+		{
+			"url": "assets/by/script/2007.dat",
+			"type": "text",
+			"name": "2007_dat"
+		},
+		{
+			"url": "assets/by/script/2008.dat",
+			"type": "text",
+			"name": "2008_dat"
+		},
+		{
+			"url": "assets/by/script/2009.dat",
+			"type": "text",
+			"name": "2009_dat"
+		},
+		{
+			"url": "assets/by/script/2010.dat",
+			"type": "text",
+			"name": "2010_dat"
+		},
+		{
+			"url": "assets/by/script/2011.dat",
+			"type": "text",
+			"name": "2011_dat"
+		},
+		{
+			"url": "assets/by/script/2012.dat",
+			"type": "text",
+			"name": "2012_dat"
+		},
+		{
+			"url": "assets/by/script/2013.dat",
+			"type": "text",
+			"name": "2013_dat"
+		},
+		{
+			"url": "assets/by/script/2014.dat",
+			"type": "text",
+			"name": "2014_dat"
+		},
+		{
+			"url": "assets/by/script/2015.dat",
+			"type": "text",
+			"name": "2015_dat"
+		},
+		{
+			"url": "assets/by/script/2016.dat",
+			"type": "text",
+			"name": "2016_dat"
+		},
+		{
+			"url": "assets/by/script/2017.dat",
+			"type": "text",
+			"name": "2017_dat"
+		},
+		{
+			"url": "assets/by/script/2018.dat",
+			"type": "text",
+			"name": "2018_dat"
+		},
+		{
+			"url": "assets/by/script/2019.dat",
+			"type": "text",
+			"name": "2019_dat"
+		},
+		{
+			"url": "assets/by/script/2020.dat",
+			"type": "text",
+			"name": "2020_dat"
+		},
+		{
+			"url": "assets/by/script/2021.dat",
+			"type": "text",
+			"name": "2021_dat"
+		},
+		{
+			"url": "assets/by/script/2022.dat",
+			"type": "text",
+			"name": "2022_dat"
+		},
+		{
+			"url": "assets/by/script/2024.dat",
+			"type": "text",
+			"name": "2024_dat"
+		},
+		{
+			"url": "assets/by/script/2025.dat",
+			"type": "text",
+			"name": "2025_dat"
+		},
+		{
+			"url": "assets/by/script/2026.dat",
+			"type": "text",
+			"name": "2026_dat"
+		},
+		{
+			"url": "assets/by/script/2027.dat",
+			"type": "text",
+			"name": "2027_dat"
+		},
+		{
+			"url": "assets/by/script/2030.dat",
+			"type": "text",
+			"name": "2030_dat"
+		},
+		{
+			"url": "assets/by/script/2031.dat",
+			"type": "text",
+			"name": "2031_dat"
+		},
+		{
+			"url": "assets/by/script/2032.dat",
+			"type": "text",
+			"name": "2032_dat"
+		},
+		{
+			"url": "assets/by/script/2033.dat",
+			"type": "text",
+			"name": "2033_dat"
+		},
+		{
+			"url": "assets/by/script/2035.dat",
+			"type": "text",
+			"name": "2035_dat"
+		},
+		{
+			"url": "assets/by/script/2036.dat",
+			"type": "text",
+			"name": "2036_dat"
+		},
+		{
+			"url": "assets/by/script/2037.dat",
+			"type": "text",
+			"name": "2037_dat"
+		},
+		{
+			"url": "assets/by/script/2038.dat",
+			"type": "text",
+			"name": "2038_dat"
+		},
+		{
+			"url": "assets/by/script/2039.dat",
+			"type": "text",
+			"name": "2039_dat"
+		},
+		{
+			"url": "assets/by/script/2040.dat",
+			"type": "text",
+			"name": "2040_dat"
+		},
+		{
+			"url": "assets/by/script/2041.dat",
+			"type": "text",
+			"name": "2041_dat"
+		},
+		{
+			"url": "assets/by/script/2042.dat",
+			"type": "text",
+			"name": "2042_dat"
+		},
+		{
+			"url": "assets/by/script/2043.dat",
+			"type": "text",
+			"name": "2043_dat"
+		},
+		{
+			"url": "assets/by/script/2044.dat",
+			"type": "text",
+			"name": "2044_dat"
+		},
+		{
+			"url": "assets/by/script/2045.dat",
+			"type": "text",
+			"name": "2045_dat"
+		},
+		{
+			"url": "assets/by/script/2046.dat",
+			"type": "text",
+			"name": "2046_dat"
+		},
+		{
+			"url": "assets/by/script/2047.dat",
+			"type": "text",
+			"name": "2047_dat"
+		},
+		{
+			"url": "assets/by/script/2048.dat",
+			"type": "text",
+			"name": "2048_dat"
+		},
+		{
+			"url": "assets/by/script/2049.dat",
+			"type": "text",
+			"name": "2049_dat"
+		},
+		{
+			"url": "assets/by/script/2050.dat",
+			"type": "text",
+			"name": "2050_dat"
+		},
+		{
+			"url": "assets/by/script/2051.dat",
+			"type": "text",
+			"name": "2051_dat"
+		},
+		{
+			"url": "assets/by/script/2052.dat",
+			"type": "text",
+			"name": "2052_dat"
+		},
+		{
+			"url": "assets/by/script/2053.dat",
+			"type": "text",
+			"name": "2053_dat"
+		},
+		{
+			"url": "assets/by/script/2054.dat",
+			"type": "text",
+			"name": "2054_dat"
+		},
+		{
+			"url": "assets/by/script/2055.dat",
+			"type": "text",
+			"name": "2055_dat"
+		},
+		{
+			"url": "assets/by/script/2056.dat",
+			"type": "text",
+			"name": "2056_dat"
+		},
+		{
+			"url": "assets/by/script/50001.dat",
+			"type": "text",
+			"name": "50001_dat"
+		},
+		{
+			"url": "assets/by/script/50002.dat",
+			"type": "text",
+			"name": "50002_dat"
+		},
+		{
+			"url": "assets/by/script/50003.dat",
+			"type": "text",
+			"name": "50003_dat"
+		},
+		{
+			"url": "assets/by/script/50004.dat",
+			"type": "text",
+			"name": "50004_dat"
+		},
+		{
+			"url": "assets/by/script/50005.dat",
+			"type": "text",
+			"name": "50005_dat"
+		},
+		{
+			"url": "assets/by/script/50006.dat",
+			"type": "text",
+			"name": "50006_dat"
+		},
+		{
+			"url": "assets/by/script/50007.dat",
+			"type": "text",
+			"name": "50007_dat"
+		},
+		{
+			"url": "assets/by/script/50008.dat",
+			"type": "text",
+			"name": "50008_dat"
+		},
+		{
+			"url": "assets/by/script/50009.dat",
+			"type": "text",
+			"name": "50009_dat"
+		},
+		{
+			"url": "assets/by/script/50010.dat",
+			"type": "text",
+			"name": "50010_dat"
+		},
+		{
+			"url": "assets/by/script/50011.dat",
+			"type": "text",
+			"name": "50011_dat"
+		},
+		{
+			"url": "assets/by/script/script.dat",
+			"type": "text",
+			"name": "script_dat"
+		},
+		{
+			"url": "assets/by/track/10.cfg",
+			"type": "text",
+			"name": "10_cfg"
+		},
+		{
+			"url": "assets/by/track/100.cfg",
+			"type": "text",
+			"name": "100_cfg"
+		},
+		{
+			"url": "assets/by/track/1000.cfg",
+			"type": "text",
+			"name": "1000_cfg"
+		},
+		{
+			"url": "assets/by/track/10040.cfg",
+			"type": "text",
+			"name": "10040_cfg"
+		},
+		{
+			"url": "assets/by/track/10041.cfg",
+			"type": "text",
+			"name": "10041_cfg"
+		},
+		{
+			"url": "assets/by/track/10042.cfg",
+			"type": "text",
+			"name": "10042_cfg"
+		},
+		{
+			"url": "assets/by/track/101.cfg",
+			"type": "text",
+			"name": "101_cfg"
+		},
+		{
+			"url": "assets/by/track/1010.cfg",
+			"type": "text",
+			"name": "1010_cfg"
+		},
+		{
+			"url": "assets/by/track/10100.cfg",
+			"type": "text",
+			"name": "10100_cfg"
+		},
+		{
+			"url": "assets/by/track/10110.cfg",
+			"type": "text",
+			"name": "10110_cfg"
+		},
+		{
+			"url": "assets/by/track/10111.cfg",
+			"type": "text",
+			"name": "10111_cfg"
+		},
+		{
+			"url": "assets/by/track/10112.cfg",
+			"type": "text",
+			"name": "10112_cfg"
+		},
+		{
+			"url": "assets/by/track/10113.cfg",
+			"type": "text",
+			"name": "10113_cfg"
+		},
+		{
+			"url": "assets/by/track/10114.cfg",
+			"type": "text",
+			"name": "10114_cfg"
+		},
+		{
+			"url": "assets/by/track/10115.cfg",
+			"type": "text",
+			"name": "10115_cfg"
+		},
+		{
+			"url": "assets/by/track/10116.cfg",
+			"type": "text",
+			"name": "10116_cfg"
+		},
+		{
+			"url": "assets/by/track/10117.cfg",
+			"type": "text",
+			"name": "10117_cfg"
+		},
+		{
+			"url": "assets/by/track/10118.cfg",
+			"type": "text",
+			"name": "10118_cfg"
+		},
+		{
+			"url": "assets/by/track/10119.cfg",
+			"type": "text",
+			"name": "10119_cfg"
+		},
+		{
+			"url": "assets/by/track/10120.cfg",
+			"type": "text",
+			"name": "10120_cfg"
+		},
+		{
+			"url": "assets/by/track/10130.cfg",
+			"type": "text",
+			"name": "10130_cfg"
+		},
+		{
+			"url": "assets/by/track/10131.cfg",
+			"type": "text",
+			"name": "10131_cfg"
+		},
+		{
+			"url": "assets/by/track/10140.cfg",
+			"type": "text",
+			"name": "10140_cfg"
+		},
+		{
+			"url": "assets/by/track/10141.cfg",
+			"type": "text",
+			"name": "10141_cfg"
+		},
+		{
+			"url": "assets/by/track/102.cfg",
+			"type": "text",
+			"name": "102_cfg"
+		},
+		{
+			"url": "assets/by/track/1020.cfg",
+			"type": "text",
+			"name": "1020_cfg"
+		},
+		{
+			"url": "assets/by/track/103.cfg",
+			"type": "text",
+			"name": "103_cfg"
+		},
+		{
+			"url": "assets/by/track/1030.cfg",
+			"type": "text",
+			"name": "1030_cfg"
+		},
+		{
+			"url": "assets/by/track/104.cfg",
+			"type": "text",
+			"name": "104_cfg"
+		},
+		{
+			"url": "assets/by/track/105.cfg",
+			"type": "text",
+			"name": "105_cfg"
+		},
+		{
+			"url": "assets/by/track/10500.cfg",
+			"type": "text",
+			"name": "10500_cfg"
+		},
+		{
+			"url": "assets/by/track/106.cfg",
+			"type": "text",
+			"name": "106_cfg"
+		},
+		{
+			"url": "assets/by/track/107.cfg",
+			"type": "text",
+			"name": "107_cfg"
+		},
+		{
+			"url": "assets/by/track/108.cfg",
+			"type": "text",
+			"name": "108_cfg"
+		},
+		{
+			"url": "assets/by/track/109.cfg",
+			"type": "text",
+			"name": "109_cfg"
+		},
+		{
+			"url": "assets/by/track/10900.cfg",
+			"type": "text",
+			"name": "10900_cfg"
+		},
+		{
+			"url": "assets/by/track/11.cfg",
+			"type": "text",
+			"name": "11_cfg"
+		},
+		{
+			"url": "assets/by/track/110.cfg",
+			"type": "text",
+			"name": "110_cfg"
+		},
+		{
+			"url": "assets/by/track/1100.cfg",
+			"type": "text",
+			"name": "1100_cfg"
+		},
+		{
+			"url": "assets/by/track/110300.cfg",
+			"type": "text",
+			"name": "110300_cfg"
+		},
+		{
+			"url": "assets/by/track/111.cfg",
+			"type": "text",
+			"name": "111_cfg"
+		},
+		{
+			"url": "assets/by/track/1110.cfg",
+			"type": "text",
+			"name": "1110_cfg"
+		},
+		{
+			"url": "assets/by/track/11110.cfg",
+			"type": "text",
+			"name": "11110_cfg"
+		},
+		{
+			"url": "assets/by/track/11111.cfg",
+			"type": "text",
+			"name": "11111_cfg"
+		},
+		{
+			"url": "assets/by/track/11112.cfg",
+			"type": "text",
+			"name": "11112_cfg"
+		},
+		{
+			"url": "assets/by/track/11113.cfg",
+			"type": "text",
+			"name": "11113_cfg"
+		},
+		{
+			"url": "assets/by/track/11120.cfg",
+			"type": "text",
+			"name": "11120_cfg"
+		},
+		{
+			"url": "assets/by/track/11121.cfg",
+			"type": "text",
+			"name": "11121_cfg"
+		},
+		{
+			"url": "assets/by/track/11122.cfg",
+			"type": "text",
+			"name": "11122_cfg"
+		},
+		{
+			"url": "assets/by/track/11123.cfg",
+			"type": "text",
+			"name": "11123_cfg"
+		},
+		{
+			"url": "assets/by/track/11124.cfg",
+			"type": "text",
+			"name": "11124_cfg"
+		},
+		{
+			"url": "assets/by/track/11125.cfg",
+			"type": "text",
+			"name": "11125_cfg"
+		},
+		{
+			"url": "assets/by/track/11126.cfg",
+			"type": "text",
+			"name": "11126_cfg"
+		},
+		{
+			"url": "assets/by/track/11127.cfg",
+			"type": "text",
+			"name": "11127_cfg"
+		},
+		{
+			"url": "assets/by/track/112.cfg",
+			"type": "text",
+			"name": "112_cfg"
+		},
+		{
+			"url": "assets/by/track/1120.cfg",
+			"type": "text",
+			"name": "1120_cfg"
+		},
+		{
+			"url": "assets/by/track/113.cfg",
+			"type": "text",
+			"name": "113_cfg"
+		},
+		{
+			"url": "assets/by/track/1130.cfg",
+			"type": "text",
+			"name": "1130_cfg"
+		},
+		{
+			"url": "assets/by/track/114.cfg",
+			"type": "text",
+			"name": "114_cfg"
+		},
+		{
+			"url": "assets/by/track/1140.cfg",
+			"type": "text",
+			"name": "1140_cfg"
+		},
+		{
+			"url": "assets/by/track/115.cfg",
+			"type": "text",
+			"name": "115_cfg"
+		},
+		{
+			"url": "assets/by/track/1150.cfg",
+			"type": "text",
+			"name": "1150_cfg"
+		},
+		{
+			"url": "assets/by/track/116.cfg",
+			"type": "text",
+			"name": "116_cfg"
+		},
+		{
+			"url": "assets/by/track/1160.cfg",
+			"type": "text",
+			"name": "1160_cfg"
+		},
+		{
+			"url": "assets/by/track/117.cfg",
+			"type": "text",
+			"name": "117_cfg"
+		},
+		{
+			"url": "assets/by/track/1170.cfg",
+			"type": "text",
+			"name": "1170_cfg"
+		},
+		{
+			"url": "assets/by/track/118.cfg",
+			"type": "text",
+			"name": "118_cfg"
+		},
+		{
+			"url": "assets/by/track/1180.cfg",
+			"type": "text",
+			"name": "1180_cfg"
+		},
+		{
+			"url": "assets/by/track/119.cfg",
+			"type": "text",
+			"name": "119_cfg"
+		},
+		{
+			"url": "assets/by/track/1190.cfg",
+			"type": "text",
+			"name": "1190_cfg"
+		},
+		{
+			"url": "assets/by/track/12.cfg",
+			"type": "text",
+			"name": "12_cfg"
+		},
+		{
+			"url": "assets/by/track/120.cfg",
+			"type": "text",
+			"name": "120_cfg"
+		},
+		{
+			"url": "assets/by/track/1200.cfg",
+			"type": "text",
+			"name": "1200_cfg"
+		},
+		{
+			"url": "assets/by/track/120200.cfg",
+			"type": "text",
+			"name": "120200_cfg"
+		},
+		{
+			"url": "assets/by/track/121.cfg",
+			"type": "text",
+			"name": "121_cfg"
+		},
+		{
+			"url": "assets/by/track/1210.cfg",
+			"type": "text",
+			"name": "1210_cfg"
+		},
+		{
+			"url": "assets/by/track/122.cfg",
+			"type": "text",
+			"name": "122_cfg"
+		},
+		{
+			"url": "assets/by/track/1220.cfg",
+			"type": "text",
+			"name": "1220_cfg"
+		},
+		{
+			"url": "assets/by/track/123.cfg",
+			"type": "text",
+			"name": "123_cfg"
+		},
+		{
+			"url": "assets/by/track/1230.cfg",
+			"type": "text",
+			"name": "1230_cfg"
+		},
+		{
+			"url": "assets/by/track/1240.cfg",
+			"type": "text",
+			"name": "1240_cfg"
+		},
+		{
+			"url": "assets/by/track/1250.cfg",
+			"type": "text",
+			"name": "1250_cfg"
+		},
+		{
+			"url": "assets/by/track/1260.cfg",
+			"type": "text",
+			"name": "1260_cfg"
+		},
+		{
+			"url": "assets/by/track/1270.cfg",
+			"type": "text",
+			"name": "1270_cfg"
+		},
+		{
+			"url": "assets/by/track/1280.cfg",
+			"type": "text",
+			"name": "1280_cfg"
+		},
+		{
+			"url": "assets/by/track/1290.cfg",
+			"type": "text",
+			"name": "1290_cfg"
+		},
+		{
+			"url": "assets/by/track/13.cfg",
+			"type": "text",
+			"name": "13_cfg"
+		},
+		{
+			"url": "assets/by/track/130.cfg",
+			"type": "text",
+			"name": "130_cfg"
+		},
+		{
+			"url": "assets/by/track/1300.cfg",
+			"type": "text",
+			"name": "1300_cfg"
+		},
+		{
+			"url": "assets/by/track/130400.cfg",
+			"type": "text",
+			"name": "130400_cfg"
+		},
+		{
+			"url": "assets/by/track/131.cfg",
+			"type": "text",
+			"name": "131_cfg"
+		},
+		{
+			"url": "assets/by/track/1310.cfg",
+			"type": "text",
+			"name": "1310_cfg"
+		},
+		{
+			"url": "assets/by/track/132.cfg",
+			"type": "text",
+			"name": "132_cfg"
+		},
+		{
+			"url": "assets/by/track/1320.cfg",
+			"type": "text",
+			"name": "1320_cfg"
+		},
+		{
+			"url": "assets/by/track/133.cfg",
+			"type": "text",
+			"name": "133_cfg"
+		},
+		{
+			"url": "assets/by/track/1330.cfg",
+			"type": "text",
+			"name": "1330_cfg"
+		},
+		{
+			"url": "assets/by/track/1340.cfg",
+			"type": "text",
+			"name": "1340_cfg"
+		},
+		{
+			"url": "assets/by/track/1350.cfg",
+			"type": "text",
+			"name": "1350_cfg"
+		},
+		{
+			"url": "assets/by/track/1360.cfg",
+			"type": "text",
+			"name": "1360_cfg"
+		},
+		{
+			"url": "assets/by/track/1370.cfg",
+			"type": "text",
+			"name": "1370_cfg"
+		},
+		{
+			"url": "assets/by/track/1380.cfg",
+			"type": "text",
+			"name": "1380_cfg"
+		},
+		{
+			"url": "assets/by/track/1390.cfg",
+			"type": "text",
+			"name": "1390_cfg"
+		},
+		{
+			"url": "assets/by/track/14.cfg",
+			"type": "text",
+			"name": "14_cfg"
+		},
+		{
+			"url": "assets/by/track/1400.cfg",
+			"type": "text",
+			"name": "1400_cfg"
+		},
+		{
+			"url": "assets/by/track/1410.cfg",
+			"type": "text",
+			"name": "1410_cfg"
+		},
+		{
+			"url": "assets/by/track/1420.cfg",
+			"type": "text",
+			"name": "1420_cfg"
+		},
+		{
+			"url": "assets/by/track/1430.cfg",
+			"type": "text",
+			"name": "1430_cfg"
+		},
+		{
+			"url": "assets/by/track/1440.cfg",
+			"type": "text",
+			"name": "1440_cfg"
+		},
+		{
+			"url": "assets/by/track/1450.cfg",
+			"type": "text",
+			"name": "1450_cfg"
+		},
+		{
+			"url": "assets/by/track/1460.cfg",
+			"type": "text",
+			"name": "1460_cfg"
+		},
+		{
+			"url": "assets/by/track/1470.cfg",
+			"type": "text",
+			"name": "1470_cfg"
+		},
+		{
+			"url": "assets/by/track/1480.cfg",
+			"type": "text",
+			"name": "1480_cfg"
+		},
+		{
+			"url": "assets/by/track/1490.cfg",
+			"type": "text",
+			"name": "1490_cfg"
+		},
+		{
+			"url": "assets/by/track/15.cfg",
+			"type": "text",
+			"name": "15_cfg"
+		},
+		{
+			"url": "assets/by/track/1500.cfg",
+			"type": "text",
+			"name": "1500_cfg"
+		},
+		{
+			"url": "assets/by/track/1510.cfg",
+			"type": "text",
+			"name": "1510_cfg"
+		},
+		{
+			"url": "assets/by/track/1520.cfg",
+			"type": "text",
+			"name": "1520_cfg"
+		},
+		{
+			"url": "assets/by/track/16.cfg",
+			"type": "text",
+			"name": "16_cfg"
+		},
+		{
+			"url": "assets/by/track/1600.cfg",
+			"type": "text",
+			"name": "1600_cfg"
+		},
+		{
+			"url": "assets/by/track/1610.cfg",
+			"type": "text",
+			"name": "1610_cfg"
+		},
+		{
+			"url": "assets/by/track/1620.cfg",
+			"type": "text",
+			"name": "1620_cfg"
+		},
+		{
+			"url": "assets/by/track/1630.cfg",
+			"type": "text",
+			"name": "1630_cfg"
+		},
+		{
+			"url": "assets/by/track/1640.cfg",
+			"type": "text",
+			"name": "1640_cfg"
+		},
+		{
+			"url": "assets/by/track/1650.cfg",
+			"type": "text",
+			"name": "1650_cfg"
+		},
+		{
+			"url": "assets/by/track/17.cfg",
+			"type": "text",
+			"name": "17_cfg"
+		},
+		{
+			"url": "assets/by/track/1700.cfg",
+			"type": "text",
+			"name": "1700_cfg"
+		},
+		{
+			"url": "assets/by/track/1710.cfg",
+			"type": "text",
+			"name": "1710_cfg"
+		},
+		{
+			"url": "assets/by/track/18.cfg",
+			"type": "text",
+			"name": "18_cfg"
+		},
+		{
+			"url": "assets/by/track/19.cfg",
+			"type": "text",
+			"name": "19_cfg"
+		},
+		{
+			"url": "assets/by/track/2.cfg",
+			"type": "text",
+			"name": "2_cfg"
+		},
+		{
+			"url": "assets/by/track/20.cfg",
+			"type": "text",
+			"name": "20_cfg"
+		},
+		{
+			"url": "assets/by/track/200.cfg",
+			"type": "text",
+			"name": "200_cfg"
+		},
+		{
+			"url": "assets/by/track/201.cfg",
+			"type": "text",
+			"name": "201_cfg"
+		},
+		{
+			"url": "assets/by/track/2010.cfg",
+			"type": "text",
+			"name": "2010_cfg"
+		},
+		{
+			"url": "assets/by/track/2016001.cfg",
+			"type": "text",
+			"name": "2016001_cfg"
+		},
+		{
+			"url": "assets/by/track/202.cfg",
+			"type": "text",
+			"name": "202_cfg"
+		},
+		{
+			"url": "assets/by/track/2020.cfg",
+			"type": "text",
+			"name": "2020_cfg"
+		},
+		{
+			"url": "assets/by/track/20200.cfg",
+			"type": "text",
+			"name": "20200_cfg"
+		},
+		{
+			"url": "assets/by/track/203.cfg",
+			"type": "text",
+			"name": "203_cfg"
+		},
+		{
+			"url": "assets/by/track/2030.cfg",
+			"type": "text",
+			"name": "2030_cfg"
+		},
+		{
+			"url": "assets/by/track/204.cfg",
+			"type": "text",
+			"name": "204_cfg"
+		},
+		{
+			"url": "assets/by/track/2040.cfg",
+			"type": "text",
+			"name": "2040_cfg"
+		},
+		{
+			"url": "assets/by/track/205.cfg",
+			"type": "text",
+			"name": "205_cfg"
+		},
+		{
+			"url": "assets/by/track/2050.cfg",
+			"type": "text",
+			"name": "2050_cfg"
+		},
+		{
+			"url": "assets/by/track/2060.cfg",
+			"type": "text",
+			"name": "2060_cfg"
+		},
+		{
+			"url": "assets/by/track/2070.cfg",
+			"type": "text",
+			"name": "2070_cfg"
+		},
+		{
+			"url": "assets/by/track/2080.cfg",
+			"type": "text",
+			"name": "2080_cfg"
+		},
+		{
+			"url": "assets/by/track/21.cfg",
+			"type": "text",
+			"name": "21_cfg"
+		},
+		{
+			"url": "assets/by/track/2100.cfg",
+			"type": "text",
+			"name": "2100_cfg"
+		},
+		{
+			"url": "assets/by/track/2110.cfg",
+			"type": "text",
+			"name": "2110_cfg"
+		},
+		{
+			"url": "assets/by/track/22.cfg",
+			"type": "text",
+			"name": "22_cfg"
+		},
+		{
+			"url": "assets/by/track/220.cfg",
+			"type": "text",
+			"name": "220_cfg"
+		},
+		{
+			"url": "assets/by/track/2200.cfg",
+			"type": "text",
+			"name": "2200_cfg"
+		},
+		{
+			"url": "assets/by/track/221.cfg",
+			"type": "text",
+			"name": "221_cfg"
+		},
+		{
+			"url": "assets/by/track/2210.cfg",
+			"type": "text",
+			"name": "2210_cfg"
+		},
+		{
+			"url": "assets/by/track/222.cfg",
+			"type": "text",
+			"name": "222_cfg"
+		},
+		{
+			"url": "assets/by/track/2220.cfg",
+			"type": "text",
+			"name": "2220_cfg"
+		},
+		{
+			"url": "assets/by/track/223.cfg",
+			"type": "text",
+			"name": "223_cfg"
+		},
+		{
+			"url": "assets/by/track/2230.cfg",
+			"type": "text",
+			"name": "2230_cfg"
+		},
+		{
+			"url": "assets/by/track/2240.cfg",
+			"type": "text",
+			"name": "2240_cfg"
+		},
+		{
+			"url": "assets/by/track/2250.cfg",
+			"type": "text",
+			"name": "2250_cfg"
+		},
+		{
+			"url": "assets/by/track/2260.cfg",
+			"type": "text",
+			"name": "2260_cfg"
+		},
+		{
+			"url": "assets/by/track/2270.cfg",
+			"type": "text",
+			"name": "2270_cfg"
+		},
+		{
+			"url": "assets/by/track/2280.cfg",
+			"type": "text",
+			"name": "2280_cfg"
+		},
+		{
+			"url": "assets/by/track/2290.cfg",
+			"type": "text",
+			"name": "2290_cfg"
+		},
+		{
+			"url": "assets/by/track/23.cfg",
+			"type": "text",
+			"name": "23_cfg"
+		},
+		{
+			"url": "assets/by/track/2300.cfg",
+			"type": "text",
+			"name": "2300_cfg"
+		},
+		{
+			"url": "assets/by/track/2310.cfg",
+			"type": "text",
+			"name": "2310_cfg"
+		},
+		{
+			"url": "assets/by/track/2320.cfg",
+			"type": "text",
+			"name": "2320_cfg"
+		},
+		{
+			"url": "assets/by/track/2330.cfg",
+			"type": "text",
+			"name": "2330_cfg"
+		},
+		{
+			"url": "assets/by/track/2340.cfg",
+			"type": "text",
+			"name": "2340_cfg"
+		},
+		{
+			"url": "assets/by/track/2350.cfg",
+			"type": "text",
+			"name": "2350_cfg"
+		},
+		{
+			"url": "assets/by/track/2360.cfg",
+			"type": "text",
+			"name": "2360_cfg"
+		},
+		{
+			"url": "assets/by/track/2370.cfg",
+			"type": "text",
+			"name": "2370_cfg"
+		},
+		{
+			"url": "assets/by/track/2380.cfg",
+			"type": "text",
+			"name": "2380_cfg"
+		},
+		{
+			"url": "assets/by/track/2390.cfg",
+			"type": "text",
+			"name": "2390_cfg"
+		},
+		{
+			"url": "assets/by/track/24.cfg",
+			"type": "text",
+			"name": "24_cfg"
+		},
+		{
+			"url": "assets/by/track/2400.cfg",
+			"type": "text",
+			"name": "2400_cfg"
+		},
+		{
+			"url": "assets/by/track/2410.cfg",
+			"type": "text",
+			"name": "2410_cfg"
+		},
+		{
+			"url": "assets/by/track/2420.cfg",
+			"type": "text",
+			"name": "2420_cfg"
+		},
+		{
+			"url": "assets/by/track/2430.cfg",
+			"type": "text",
+			"name": "2430_cfg"
+		},
+		{
+			"url": "assets/by/track/2440.cfg",
+			"type": "text",
+			"name": "2440_cfg"
+		},
+		{
+			"url": "assets/by/track/2450.cfg",
+			"type": "text",
+			"name": "2450_cfg"
+		},
+		{
+			"url": "assets/by/track/2460.cfg",
+			"type": "text",
+			"name": "2460_cfg"
+		},
+		{
+			"url": "assets/by/track/2470.cfg",
+			"type": "text",
+			"name": "2470_cfg"
+		},
+		{
+			"url": "assets/by/track/2480.cfg",
+			"type": "text",
+			"name": "2480_cfg"
+		},
+		{
+			"url": "assets/by/track/2490.cfg",
+			"type": "text",
+			"name": "2490_cfg"
+		},
+		{
+			"url": "assets/by/track/25.cfg",
+			"type": "text",
+			"name": "25_cfg"
+		},
+		{
+			"url": "assets/by/track/2500.cfg",
+			"type": "text",
+			"name": "2500_cfg"
+		},
+		{
+			"url": "assets/by/track/2510.cfg",
+			"type": "text",
+			"name": "2510_cfg"
+		},
+		{
+			"url": "assets/by/track/2520.cfg",
+			"type": "text",
+			"name": "2520_cfg"
+		},
+		{
+			"url": "assets/by/track/26.cfg",
+			"type": "text",
+			"name": "26_cfg"
+		},
+		{
+			"url": "assets/by/track/2600.cfg",
+			"type": "text",
+			"name": "2600_cfg"
+		},
+		{
+			"url": "assets/by/track/2610.cfg",
+			"type": "text",
+			"name": "2610_cfg"
+		},
+		{
+			"url": "assets/by/track/2620.cfg",
+			"type": "text",
+			"name": "2620_cfg"
+		},
+		{
+			"url": "assets/by/track/2630.cfg",
+			"type": "text",
+			"name": "2630_cfg"
+		},
+		{
+			"url": "assets/by/track/27.cfg",
+			"type": "text",
+			"name": "27_cfg"
+		},
+		{
+			"url": "assets/by/track/2700.cfg",
+			"type": "text",
+			"name": "2700_cfg"
+		},
+		{
+			"url": "assets/by/track/2710.cfg",
+			"type": "text",
+			"name": "2710_cfg"
+		},
+		{
+			"url": "assets/by/track/28.cfg",
+			"type": "text",
+			"name": "28_cfg"
+		},
+		{
+			"url": "assets/by/track/2800.cfg",
+			"type": "text",
+			"name": "2800_cfg"
+		},
+		{
+			"url": "assets/by/track/2810.cfg",
+			"type": "text",
+			"name": "2810_cfg"
+		},
+		{
+			"url": "assets/by/track/29.cfg",
+			"type": "text",
+			"name": "29_cfg"
+		},
+		{
+			"url": "assets/by/track/2900.cfg",
+			"type": "text",
+			"name": "2900_cfg"
+		},
+		{
+			"url": "assets/by/track/2910.cfg",
+			"type": "text",
+			"name": "2910_cfg"
+		},
+		{
+			"url": "assets/by/track/2920.cfg",
+			"type": "text",
+			"name": "2920_cfg"
+		},
+		{
+			"url": "assets/by/track/2930.cfg",
+			"type": "text",
+			"name": "2930_cfg"
+		},
+		{
+			"url": "assets/by/track/2940.cfg",
+			"type": "text",
+			"name": "2940_cfg"
+		},
+		{
+			"url": "assets/by/track/2950.cfg",
+			"type": "text",
+			"name": "2950_cfg"
+		},
+		{
+			"url": "assets/by/track/3.cfg",
+			"type": "text",
+			"name": "3_cfg"
+		},
+		{
+			"url": "assets/by/track/30.cfg",
+			"type": "text",
+			"name": "30_cfg"
+		},
+		{
+			"url": "assets/by/track/3000.cfg",
+			"type": "text",
+			"name": "3000_cfg"
+		},
+		{
+			"url": "assets/by/track/3010.cfg",
+			"type": "text",
+			"name": "3010_cfg"
+		},
+		{
+			"url": "assets/by/track/3020.cfg",
+			"type": "text",
+			"name": "3020_cfg"
+		},
+		{
+			"url": "assets/by/track/3030.cfg",
+			"type": "text",
+			"name": "3030_cfg"
+		},
+		{
+			"url": "assets/by/track/3040.cfg",
+			"type": "text",
+			"name": "3040_cfg"
+		},
+		{
+			"url": "assets/by/track/3050.cfg",
+			"type": "text",
+			"name": "3050_cfg"
+		},
+		{
+			"url": "assets/by/track/3060.cfg",
+			"type": "text",
+			"name": "3060_cfg"
+		},
+		{
+			"url": "assets/by/track/3070.cfg",
+			"type": "text",
+			"name": "3070_cfg"
+		},
+		{
+			"url": "assets/by/track/3080.cfg",
+			"type": "text",
+			"name": "3080_cfg"
+		},
+		{
+			"url": "assets/by/track/31.cfg",
+			"type": "text",
+			"name": "31_cfg"
+		},
+		{
+			"url": "assets/by/track/3100.cfg",
+			"type": "text",
+			"name": "3100_cfg"
+		},
+		{
+			"url": "assets/by/track/3110.cfg",
+			"type": "text",
+			"name": "3110_cfg"
+		},
+		{
+			"url": "assets/by/track/3120.cfg",
+			"type": "text",
+			"name": "3120_cfg"
+		},
+		{
+			"url": "assets/by/track/3130.cfg",
+			"type": "text",
+			"name": "3130_cfg"
+		},
+		{
+			"url": "assets/by/track/3140.cfg",
+			"type": "text",
+			"name": "3140_cfg"
+		},
+		{
+			"url": "assets/by/track/32.cfg",
+			"type": "text",
+			"name": "32_cfg"
+		},
+		{
+			"url": "assets/by/track/3200.cfg",
+			"type": "text",
+			"name": "3200_cfg"
+		},
+		{
+			"url": "assets/by/track/330.cfg",
+			"type": "text",
+			"name": "330_cfg"
+		},
+		{
+			"url": "assets/by/track/3300.cfg",
+			"type": "text",
+			"name": "3300_cfg"
+		},
+		{
+			"url": "assets/by/track/331.cfg",
+			"type": "text",
+			"name": "331_cfg"
+		},
+		{
+			"url": "assets/by/track/332.cfg",
+			"type": "text",
+			"name": "332_cfg"
+		},
+		{
+			"url": "assets/by/track/333.cfg",
+			"type": "text",
+			"name": "333_cfg"
+		},
+		{
+			"url": "assets/by/track/3330.cfg",
+			"type": "text",
+			"name": "3330_cfg"
+		},
+		{
+			"url": "assets/by/track/3331.cfg",
+			"type": "text",
+			"name": "3331_cfg"
+		},
+		{
+			"url": "assets/by/track/3332.cfg",
+			"type": "text",
+			"name": "3332_cfg"
+		},
+		{
+			"url": "assets/by/track/3333.cfg",
+			"type": "text",
+			"name": "3333_cfg"
+		},
+		{
+			"url": "assets/by/track/3334.cfg",
+			"type": "text",
+			"name": "3334_cfg"
+		},
+		{
+			"url": "assets/by/track/3335.cfg",
+			"type": "text",
+			"name": "3335_cfg"
+		},
+		{
+			"url": "assets/by/track/3336.cfg",
+			"type": "text",
+			"name": "3336_cfg"
+		},
+		{
+			"url": "assets/by/track/334.cfg",
+			"type": "text",
+			"name": "334_cfg"
+		},
+		{
+			"url": "assets/by/track/335.cfg",
+			"type": "text",
+			"name": "335_cfg"
+		},
+		{
+			"url": "assets/by/track/34.cfg",
+			"type": "text",
+			"name": "34_cfg"
+		},
+		{
+			"url": "assets/by/track/3400.cfg",
+			"type": "text",
+			"name": "3400_cfg"
+		},
+		{
+			"url": "assets/by/track/3500.cfg",
+			"type": "text",
+			"name": "3500_cfg"
+		},
+		{
+			"url": "assets/by/track/4.cfg",
+			"type": "text",
+			"name": "4_cfg"
+		},
+		{
+			"url": "assets/by/track/40.cfg",
+			"type": "text",
+			"name": "40_cfg"
+		},
+		{
+			"url": "assets/by/track/400.cfg",
+			"type": "text",
+			"name": "400_cfg"
+		},
+		{
+			"url": "assets/by/track/401.cfg",
+			"type": "text",
+			"name": "401_cfg"
+		},
+		{
+			"url": "assets/by/track/402.cfg",
+			"type": "text",
+			"name": "402_cfg"
+		},
+		{
+			"url": "assets/by/track/403.cfg",
+			"type": "text",
+			"name": "403_cfg"
+		},
+		{
+			"url": "assets/by/track/41.cfg",
+			"type": "text",
+			"name": "41_cfg"
+		},
+		{
+			"url": "assets/by/track/410.cfg",
+			"type": "text",
+			"name": "410_cfg"
+		},
+		{
+			"url": "assets/by/track/411.cfg",
+			"type": "text",
+			"name": "411_cfg"
+		},
+		{
+			"url": "assets/by/track/412.cfg",
+			"type": "text",
+			"name": "412_cfg"
+		},
+		{
+			"url": "assets/by/track/413.cfg",
+			"type": "text",
+			"name": "413_cfg"
+		},
+		{
+			"url": "assets/by/track/42.cfg",
+			"type": "text",
+			"name": "42_cfg"
+		},
+		{
+			"url": "assets/by/track/420.cfg",
+			"type": "text",
+			"name": "420_cfg"
+		},
+		{
+			"url": "assets/by/track/421.cfg",
+			"type": "text",
+			"name": "421_cfg"
+		},
+		{
+			"url": "assets/by/track/422.cfg",
+			"type": "text",
+			"name": "422_cfg"
+		},
+		{
+			"url": "assets/by/track/423.cfg",
+			"type": "text",
+			"name": "423_cfg"
+		},
+		{
+			"url": "assets/by/track/43.cfg",
+			"type": "text",
+			"name": "43_cfg"
+		},
+		{
+			"url": "assets/by/track/430.cfg",
+			"type": "text",
+			"name": "430_cfg"
+		},
+		{
+			"url": "assets/by/track/431.cfg",
+			"type": "text",
+			"name": "431_cfg"
+		},
+		{
+			"url": "assets/by/track/44.cfg",
+			"type": "text",
+			"name": "44_cfg"
+		},
+		{
+			"url": "assets/by/track/440.cfg",
+			"type": "text",
+			"name": "440_cfg"
+		},
+		{
+			"url": "assets/by/track/441.cfg",
+			"type": "text",
+			"name": "441_cfg"
+		},
+		{
+			"url": "assets/by/track/442.cfg",
+			"type": "text",
+			"name": "442_cfg"
+		},
+		{
+			"url": "assets/by/track/443.cfg",
+			"type": "text",
+			"name": "443_cfg"
+		},
+		{
+			"url": "assets/by/track/45.cfg",
+			"type": "text",
+			"name": "45_cfg"
+		},
+		{
+			"url": "assets/by/track/450.cfg",
+			"type": "text",
+			"name": "450_cfg"
+		},
+		{
+			"url": "assets/by/track/451.cfg",
+			"type": "text",
+			"name": "451_cfg"
+		},
+		{
+			"url": "assets/by/track/452.cfg",
+			"type": "text",
+			"name": "452_cfg"
+		},
+		{
+			"url": "assets/by/track/460.cfg",
+			"type": "text",
+			"name": "460_cfg"
+		},
+		{
+			"url": "assets/by/track/461.cfg",
+			"type": "text",
+			"name": "461_cfg"
+		},
+		{
+			"url": "assets/by/track/470.cfg",
+			"type": "text",
+			"name": "470_cfg"
+		},
+		{
+			"url": "assets/by/track/471.cfg",
+			"type": "text",
+			"name": "471_cfg"
+		},
+		{
+			"url": "assets/by/track/472.cfg",
+			"type": "text",
+			"name": "472_cfg"
+		},
+		{
+			"url": "assets/by/track/473.cfg",
+			"type": "text",
+			"name": "473_cfg"
+		},
+		{
+			"url": "assets/by/track/475.cfg",
+			"type": "text",
+			"name": "475_cfg"
+		},
+		{
+			"url": "assets/by/track/476.cfg",
+			"type": "text",
+			"name": "476_cfg"
+		},
+		{
+			"url": "assets/by/track/477.cfg",
+			"type": "text",
+			"name": "477_cfg"
+		},
+		{
+			"url": "assets/by/track/478.cfg",
+			"type": "text",
+			"name": "478_cfg"
+		},
+		{
+			"url": "assets/by/track/480.cfg",
+			"type": "text",
+			"name": "480_cfg"
+		},
+		{
+			"url": "assets/by/track/481.cfg",
+			"type": "text",
+			"name": "481_cfg"
+		},
+		{
+			"url": "assets/by/track/482.cfg",
+			"type": "text",
+			"name": "482_cfg"
+		},
+		{
+			"url": "assets/by/track/483.cfg",
+			"type": "text",
+			"name": "483_cfg"
+		},
+		{
+			"url": "assets/by/track/490.cfg",
+			"type": "text",
+			"name": "490_cfg"
+		},
+		{
+			"url": "assets/by/track/491.cfg",
+			"type": "text",
+			"name": "491_cfg"
+		},
+		{
+			"url": "assets/by/track/492.cfg",
+			"type": "text",
+			"name": "492_cfg"
+		},
+		{
+			"url": "assets/by/track/493.cfg",
+			"type": "text",
+			"name": "493_cfg"
+		},
+		{
+			"url": "assets/by/track/494.cfg",
+			"type": "text",
+			"name": "494_cfg"
+		},
+		{
+			"url": "assets/by/track/495.cfg",
+			"type": "text",
+			"name": "495_cfg"
+		},
+		{
+			"url": "assets/by/track/496.cfg",
+			"type": "text",
+			"name": "496_cfg"
+		},
+		{
+			"url": "assets/by/track/497.cfg",
+			"type": "text",
+			"name": "497_cfg"
+		},
+		{
+			"url": "assets/by/track/5.cfg",
+			"type": "text",
+			"name": "5_cfg"
+		},
+		{
+			"url": "assets/by/track/500.cfg",
+			"type": "text",
+			"name": "500_cfg"
+		},
+		{
+			"url": "assets/by/track/501.cfg",
+			"type": "text",
+			"name": "501_cfg"
+		},
+		{
+			"url": "assets/by/track/502.cfg",
+			"type": "text",
+			"name": "502_cfg"
+		},
+		{
+			"url": "assets/by/track/503.cfg",
+			"type": "text",
+			"name": "503_cfg"
+		},
+		{
+			"url": "assets/by/track/504.cfg",
+			"type": "text",
+			"name": "504_cfg"
+		},
+		{
+			"url": "assets/by/track/505.cfg",
+			"type": "text",
+			"name": "505_cfg"
+		},
+		{
+			"url": "assets/by/track/506.cfg",
+			"type": "text",
+			"name": "506_cfg"
+		},
+		{
+			"url": "assets/by/track/507.cfg",
+			"type": "text",
+			"name": "507_cfg"
+		},
+		{
+			"url": "assets/by/track/508.cfg",
+			"type": "text",
+			"name": "508_cfg"
+		},
+		{
+			"url": "assets/by/track/509.cfg",
+			"type": "text",
+			"name": "509_cfg"
+		},
+		{
+			"url": "assets/by/track/510.cfg",
+			"type": "text",
+			"name": "510_cfg"
+		},
+		{
+			"url": "assets/by/track/511.cfg",
+			"type": "text",
+			"name": "511_cfg"
+		},
+		{
+			"url": "assets/by/track/512.cfg",
+			"type": "text",
+			"name": "512_cfg"
+		},
+		{
+			"url": "assets/by/track/513.cfg",
+			"type": "text",
+			"name": "513_cfg"
+		},
+		{
+			"url": "assets/by/track/514.cfg",
+			"type": "text",
+			"name": "514_cfg"
+		},
+		{
+			"url": "assets/by/track/515.cfg",
+			"type": "text",
+			"name": "515_cfg"
+		},
+		{
+			"url": "assets/by/track/550.cfg",
+			"type": "text",
+			"name": "550_cfg"
+		},
+		{
+			"url": "assets/by/track/551.cfg",
+			"type": "text",
+			"name": "551_cfg"
+		},
+		{
+			"url": "assets/by/track/552.cfg",
+			"type": "text",
+			"name": "552_cfg"
+		},
+		{
+			"url": "assets/by/track/553.cfg",
+			"type": "text",
+			"name": "553_cfg"
+		},
+		{
+			"url": "assets/by/track/5550.cfg",
+			"type": "text",
+			"name": "5550_cfg"
+		},
+		{
+			"url": "assets/by/track/5551.cfg",
+			"type": "text",
+			"name": "5551_cfg"
+		},
+		{
+			"url": "assets/by/track/5552.cfg",
+			"type": "text",
+			"name": "5552_cfg"
+		},
+		{
+			"url": "assets/by/track/5553.cfg",
+			"type": "text",
+			"name": "5553_cfg"
+		},
+		{
+			"url": "assets/by/track/5554.cfg",
+			"type": "text",
+			"name": "5554_cfg"
+		},
+		{
+			"url": "assets/by/track/6.cfg",
+			"type": "text",
+			"name": "6_cfg"
+		},
+		{
+			"url": "assets/by/track/660.cfg",
+			"type": "text",
+			"name": "660_cfg"
+		},
+		{
+			"url": "assets/by/track/661.cfg",
+			"type": "text",
+			"name": "661_cfg"
+		},
+		{
+			"url": "assets/by/track/662.cfg",
+			"type": "text",
+			"name": "662_cfg"
+		},
+		{
+			"url": "assets/by/track/663.cfg",
+			"type": "text",
+			"name": "663_cfg"
+		},
+		{
+			"url": "assets/by/track/6660.cfg",
+			"type": "text",
+			"name": "6660_cfg"
+		},
+		{
+			"url": "assets/by/track/6661.cfg",
+			"type": "text",
+			"name": "6661_cfg"
+		},
+		{
+			"url": "assets/by/track/6662.cfg",
+			"type": "text",
+			"name": "6662_cfg"
+		},
+		{
+			"url": "assets/by/track/6663.cfg",
+			"type": "text",
+			"name": "6663_cfg"
+		},
+		{
+			"url": "assets/by/track/7.cfg",
+			"type": "text",
+			"name": "7_cfg"
+		},
+		{
+			"url": "assets/by/track/770.cfg",
+			"type": "text",
+			"name": "770_cfg"
+		},
+		{
+			"url": "assets/by/track/771.cfg",
+			"type": "text",
+			"name": "771_cfg"
+		},
+		{
+			"url": "assets/by/track/772.cfg",
+			"type": "text",
+			"name": "772_cfg"
+		},
+		{
+			"url": "assets/by/track/773.cfg",
+			"type": "text",
+			"name": "773_cfg"
+		},
+		{
+			"url": "assets/by/track/774.cfg",
+			"type": "text",
+			"name": "774_cfg"
+		},
+		{
+			"url": "assets/by/track/7770.cfg",
+			"type": "text",
+			"name": "7770_cfg"
+		},
+		{
+			"url": "assets/by/track/7771.cfg",
+			"type": "text",
+			"name": "7771_cfg"
+		},
+		{
+			"url": "assets/by/track/7772.cfg",
+			"type": "text",
+			"name": "7772_cfg"
+		},
+		{
+			"url": "assets/by/track/7773.cfg",
+			"type": "text",
+			"name": "7773_cfg"
+		},
+		{
+			"url": "assets/by/track/7774.cfg",
+			"type": "text",
+			"name": "7774_cfg"
+		},
+		{
+			"url": "assets/by/track/7775.cfg",
+			"type": "text",
+			"name": "7775_cfg"
+		},
+		{
+			"url": "assets/by/track/7776.cfg",
+			"type": "text",
+			"name": "7776_cfg"
+		},
+		{
+			"url": "assets/by/track/7777.cfg",
+			"type": "text",
+			"name": "7777_cfg"
+		},
+		{
+			"url": "assets/by/track/7778.cfg",
+			"type": "text",
+			"name": "7778_cfg"
+		},
+		{
+			"url": "assets/by/track/7779.cfg",
+			"type": "text",
+			"name": "7779_cfg"
+		},
+		{
+			"url": "assets/by/track/8.cfg",
+			"type": "text",
+			"name": "8_cfg"
+		},
+		{
+			"url": "assets/by/track/880.cfg",
+			"type": "text",
+			"name": "880_cfg"
+		},
+		{
+			"url": "assets/by/track/881.cfg",
+			"type": "text",
+			"name": "881_cfg"
+		},
+		{
+			"url": "assets/by/track/882.cfg",
+			"type": "text",
+			"name": "882_cfg"
+		},
+		{
+			"url": "assets/by/track/883.cfg",
+			"type": "text",
+			"name": "883_cfg"
+		},
+		{
+			"url": "assets/by/track/8880.cfg",
+			"type": "text",
+			"name": "8880_cfg"
+		},
+		{
+			"url": "assets/by/track/8881.cfg",
+			"type": "text",
+			"name": "8881_cfg"
+		},
+		{
+			"url": "assets/by/track/8882.cfg",
+			"type": "text",
+			"name": "8882_cfg"
+		},
+		{
+			"url": "assets/by/track/8883.cfg",
+			"type": "text",
+			"name": "8883_cfg"
+		},
+		{
+			"url": "assets/by/track/9.cfg",
+			"type": "text",
+			"name": "9_cfg"
+		},
+		{
+			"url": "assets/by/track/996.cfg",
+			"type": "text",
+			"name": "996_cfg"
+		},
+		{
+			"url": "assets/by/track/997.cfg",
+			"type": "text",
+			"name": "997_cfg"
+		},
+		{
+			"url": "assets/by/track/998.cfg",
+			"type": "text",
+			"name": "998_cfg"
+		},
+		{
+			"url": "assets/by/track/999.cfg",
+			"type": "text",
+			"name": "999_cfg"
+		},
+		{
+			"url": "assets/by/track/9990.cfg",
+			"type": "text",
+			"name": "9990_cfg"
+		},
+		{
+			"url": "assets/by/track/9991.cfg",
+			"type": "text",
+			"name": "9991_cfg"
+		},
+		{
+			"url": "assets/by/track/9992.cfg",
+			"type": "text",
+			"name": "9992_cfg"
+		},
+		{
+			"url": "assets/by/track/9993.cfg",
+			"type": "text",
+			"name": "9993_cfg"
+		},
+		{
+			"url": "assets/by/bycanon.json",
+			"type": "sheet",
+			"name": "bycanon_json",
+			"subkeys": "cannon_gun_0,cannon_gun_0_bg,cannon_gun_1,cannon_gun_101,cannon_gun_1_bg,cannon_gun_2,cannon_gun_2_bg,cannon_gun_3,cannon_gun_3_bg,cannon_gun_4,cannon_gun_4_bg,cannon_gun_5,cannon_gun_5_bg,cannon_gun_6,cannon_gun_6_bg,cannon_gun_name_0,cannon_gun_name_1,cannon_gun_name_101,cannon_gun_name_2,cannon_gun_name_3,cannon_gun_name_4,cannon_gun_name_5,cannon_gun_name_6,cannon_seat"
+		},
+		{
+			"url": "assets/by/bybullet.json",
+			"type": "sheet",
+			"name": "bybullet_json",
+			"subkeys": "bullet_sty_0,bullet_sty_1,bullet_sty_101,bullet_sty_2,bullet_sty_3,bullet_sty_4,bullet_sty_5,bullet_sty_6,kb_boom_1,kb_boom_2,kb_boom_3,kb_boom_4,kb_boom_5,kb_boom_6,kb_bullet_1,kb_bullet_2,kb_bullet_3,kb_bullet_4,sty_0_net0,sty_1_net0,sty_2_net0,sty_3_net0,sty_4_net0,sty_5_net0,sty_6_net0"
+		},
+		{
+			"url": "assets/by/animation/fire/fireeffect_mc.json",
+			"type": "json",
+			"name": "fireeffect_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fire/fireeffect_tex.png",
+			"type": "image",
+			"name": "fireeffect_tex_png"
+		},
+		{
+			"url": "assets/by/animation/BYCoins_mc.json",
+			"type": "json",
+			"name": "BYCoins_mc_json"
+		},
+		{
+			"url": "assets/by/animation/BYCoins_tex.png",
+			"type": "image",
+			"name": "BYCoins_tex_png"
+		},
+		{
+			"url": "assets/by/byui.json",
+			"type": "sheet",
+			"name": "byui_json",
+			"subkeys": "MyLock0,MyLock1,OtherLock0,OtherLock1,OtherLock2,OtherLock3,OtherLockLine,OtherLockTarget,by_arrow_down,by_arrow_up,by_c_add1_0,by_c_add1_1,by_c_add1_2,by_c_add2_0,by_c_add2_1,by_c_add2_2,by_c_add3_0,by_c_add3_1,by_c_add3_2,by_c_add4_0,by_c_add4_1,by_c_add4_2,by_c_add5_0,by_c_add5_1,by_c_add5_2,by_c_add6_0,by_c_add6_1,by_c_add6_2,by_c_sub1_0,by_c_sub1_1,by_c_sub1_2,by_c_sub2_0,by_c_sub2_1,by_c_sub2_2,by_c_sub3_0,by_c_sub3_1,by_c_sub3_2,by_c_sub4_0,by_c_sub4_1,by_c_sub4_2,by_c_sub5_0,by_c_sub5_1,by_c_sub5_2,by_c_sub6_0,by_c_sub6_1,by_c_sub6_2,by_cancel,by_cannon_dizuo1,by_cannon_dizuo2,by_cannon_dizuo3,by_cannon_dizuo4,by_close,by_coins,by_confirm,by_draw,by_exit,by_fire1,by_fire2,by_fire3,by_fire4,by_fire5,by_fire6,by_fish,by_hit_grid1,by_hit_grid2,by_hit_grid3,by_line_off_wifi,by_line_off_x,by_menu_bg,by_money_bg,by_ol_bg,by_room_bg2,by_setting,by_speedup,by_waiting_player,by_waiting_player_bg,chg_equiped,chg_lock,chg_title_change,chg_txt_change,chg_txt_get,chg_txt_own,gold_lock,gold_tag,lock_head,lock_head_change,lock_head_change_bg,lock_head_change_circle,lock_line,lock_pp,long_press_tip,nine_btn_blue,nine_btn_green,nine_btn_yellow,skill_lock_tip,toll_arrow,toll_arrow_bg,toll_bt_auto,toll_bt_auto_ing,toll_bt_exchange,toll_bt_lock,toll_bt_lock_ing,toll_btn_charge,toll_btn_chat,toll_btn_fishkinds,toll_btn_quit,toll_btn_setting,toll_charge_light,toll_gun_add0,toll_gun_add1,toll_gun_add101,toll_gun_add2,toll_gun_add3,toll_gun_add4,toll_gun_add5,toll_gun_add6,toll_gun_change,toll_gun_sub0,toll_gun_sub1,toll_gun_sub101,toll_gun_sub2,toll_gun_sub3,toll_gun_sub4,toll_gun_sub5,toll_gun_sub6,toll_gun_yuan_0,toll_gun_yuan_1,toll_gun_yuan_2,toll_gun_yuan_3,toll_gun_yuan_4,toll_gun_yuan_5,toll_gun_yuan_6,toll_gunbg_0,toll_gunbg_1,toll_gunbg_101,toll_gunbg_2,toll_gunbg_3,toll_gunbg_4,toll_gunbg_5,toll_gunbg_6,toll_item_bg,toll_kuang,toll_money_bg,toll_tip_arrow"
+		},
+		{
+			"url": "assets/by/animation/effect/bolang_tex.png",
+			"type": "image",
+			"name": "bolang_tex_png"
+		},
+		{
+			"url": "assets/by/animation/effect/bolang_mc.json",
+			"type": "json",
+			"name": "bolang_mc_json"
+		},
+		{
+			"url": "assets/by/bybaike.json",
+			"type": "sheet",
+			"name": "bybaike_json",
+			"subkeys": "baike_boss,baike_fish_bg,baike_money,baike_task_0,baike_task_1,baike_task_2,baike_text,baike_title,bei_10,bei_100,bei_100-200,bei_1000,bei_12,bei_120,bei_150,bei_160,bei_18,bei_2,bei_20,bei_200,bei_25,bei_250,bei_3,bei_30,bei_300,bei_35,bei_4,bei_40,bei_45,bei_5,bei_50,bei_500,bei_6,bei_60,bei_600,bei_7,bei_70,bei_700,bei_8,bei_80,bei_9,bei_90,fish_baike_0,fish_baike_1,fish_baike_10,fish_baike_11,fish_baike_12,fish_baike_13,fish_baike_14,fish_baike_15,fish_baike_16,fish_baike_17,fish_baike_18,fish_baike_19,fish_baike_2,fish_baike_20,fish_baike_21,fish_baike_22,fish_baike_23,fish_baike_24,fish_baike_25,fish_baike_26,fish_baike_27,fish_baike_28,fish_baike_29,fish_baike_3,fish_baike_30,fish_baike_31,fish_baike_33,fish_baike_4,fish_baike_5,fish_baike_6,fish_baike_7,fish_baike_8,fish_baike_9"
+		},
+		{
+			"url": "assets/by/font/bycoins.fnt",
+			"type": "font",
+			"name": "bycoins_fnt"
+		},
+		{
+			"url": "assets/by/font/bycoins.png",
+			"type": "image",
+			"name": "bycoins_png"
+		},
+		{
+			"url": "assets/by/ring.json",
+			"type": "sheet",
+			"name": "ring_json",
+			"subkeys": "by_circle,by_combination_oneCatch,by_ring0_0,by_ring0_1,by_ring1_0,by_ring1_1,by_ring2_0,by_ring2_1,by_ring3_0,by_ring3_1,by_ring_boom"
+		},
+		{
+			"url": "assets/by/animation/bossBg_mc.json",
+			"type": "json",
+			"name": "bossBg_mc_json"
+		},
+		{
+			"url": "assets/by/animation/bossBg_tex.png",
+			"type": "image",
+			"name": "bossBg_tex_png"
+		},
+		{
+			"url": "assets/by/bossnotice.json",
+			"type": "sheet",
+			"name": "bossnotice_json",
+			"subkeys": "boss_28,boss_29,boss_30,boss_31,boss_33,boss_come"
+		},
+		{
+			"url": "assets/by/sounds/boom.mp3",
+			"type": "sound",
+			"name": "boom_mp3"
+		},
+		{
+			"url": "assets/by/sounds/bybg1.mp3",
+			"type": "sound",
+			"name": "bybg1_mp3"
+		},
+		{
+			"url": "assets/by/sounds/bybg2.mp3",
+			"type": "sound",
+			"name": "bybg2_mp3"
+		},
+		{
+			"url": "assets/by/sounds/bybg3.mp3",
+			"type": "sound",
+			"name": "bybg3_mp3"
+		},
+		{
+			"url": "assets/by/sounds/bybg4.mp3",
+			"type": "sound",
+			"name": "bybg4_mp3"
+		},
+		{
+			"url": "assets/by/sounds/bybg5.mp3",
+			"type": "sound",
+			"name": "bybg5_mp3"
+		},
+		{
+			"url": "assets/by/sounds/click.mp3",
+			"type": "sound",
+			"name": "click_mp3"
+		},
+		{
+			"url": "assets/by/sounds/coins1.mp3",
+			"type": "sound",
+			"name": "coins1_mp3"
+		},
+		{
+			"url": "assets/by/sounds/coins2.mp3",
+			"type": "sound",
+			"name": "coins2_mp3"
+		},
+		{
+			"url": "assets/by/sounds/coinscollect.mp3",
+			"type": "sound",
+			"name": "coinscollect_mp3"
+		},
+		{
+			"url": "assets/by/sounds/shoot.mp3",
+			"type": "sound",
+			"name": "shoot_mp3"
+		},
+		{
+			"url": "assets/by/sounds/singleCoin.mp3",
+			"type": "sound",
+			"name": "singleCoin_mp3"
+		},
+		{
+			"url": "assets/by/sounds/warning.mp3",
+			"type": "sound",
+			"name": "warning_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_1.mp3",
+			"type": "sound",
+			"name": "byvoice_1_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_10.mp3",
+			"type": "sound",
+			"name": "byvoice_10_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_11.mp3",
+			"type": "sound",
+			"name": "byvoice_11_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_12.mp3",
+			"type": "sound",
+			"name": "byvoice_12_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_13.mp3",
+			"type": "sound",
+			"name": "byvoice_13_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_14.mp3",
+			"type": "sound",
+			"name": "byvoice_14_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_15.mp3",
+			"type": "sound",
+			"name": "byvoice_15_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_2.mp3",
+			"type": "sound",
+			"name": "byvoice_2_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_3.mp3",
+			"type": "sound",
+			"name": "byvoice_3_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_4.mp3",
+			"type": "sound",
+			"name": "byvoice_4_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_5.mp3",
+			"type": "sound",
+			"name": "byvoice_5_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_6.mp3",
+			"type": "sound",
+			"name": "byvoice_6_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_7.mp3",
+			"type": "sound",
+			"name": "byvoice_7_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_8.mp3",
+			"type": "sound",
+			"name": "byvoice_8_mp3"
+		},
+		{
+			"url": "assets/by/sounds/byvoice_9.mp3",
+			"type": "sound",
+			"name": "byvoice_9_mp3"
+		},
+		{
+			"url": "assets/by/close.png",
+			"type": "image",
+			"name": "close_png"
+		},
+		{
+			"url": "assets/by/title_bar.png",
+			"type": "image",
+			"name": "title_bar_png"
+		},
+		{
+			"url": "assets/by/animation/paopao.json",
+			"type": "json",
+			"name": "paopao_json"
+		},
+		{
+			"url": "assets/by/animation/paopao.png",
+			"type": "image",
+			"name": "paopao_png"
+		},
+		{
+			"url": "assets/by/by_room_new.json",
+			"type": "sheet",
+			"name": "by_room_new_json",
+			"subkeys": "by_title,nby_back,nby_baoman,nby_chuji,nby_close,nby_gaoji,nby_gold_bg,nby_head_bg_female,nby_head_bg_male,nby_head_frame,nby_history_bg,nby_history_btn,nby_kongxian,nby_mianfei,nby_tiyan,nby_wanfa,nby_yongji,nby_zhongji,nby_zhunru"
+		},
+		{
+			"url": "assets/by/font/byRoomFnt1.fnt",
+			"type": "font",
+			"name": "byRoomFnt1_fnt"
+		},
+		{
+			"url": "assets/by/font/byRoomFnt1.png",
+			"type": "image",
+			"name": "byRoomFnt1_png"
+		},
+		{
+			"url": "assets/by/font/byRoomFnt2.fnt",
+			"type": "font",
+			"name": "byRoomFnt2_fnt"
+		},
+		{
+			"url": "assets/by/font/byRoomFnt2.png",
+			"type": "image",
+			"name": "byRoomFnt2_png"
+		},
+		{
+			"url": "assets/by/animation/room/by_chuji_ske.dbbin",
+			"type": "bin",
+			"name": "by_chuji_ske_dbbin"
+		},
+		{
+			"url": "assets/by/animation/room/by_chuji_tex.png",
+			"type": "image",
+			"name": "by_chuji_tex_png"
+		},
+		{
+			"url": "assets/by/animation/room/by_gaoji_ske.dbbin",
+			"type": "bin",
+			"name": "by_gaoji_ske_dbbin"
+		},
+		{
+			"url": "assets/by/animation/room/by_gaoji_tex.png",
+			"type": "image",
+			"name": "by_gaoji_tex_png"
+		},
+		{
+			"url": "assets/by/animation/room/by_quick_ske.dbbin",
+			"type": "bin",
+			"name": "by_quick_ske_dbbin"
+		},
+		{
+			"url": "assets/by/animation/room/by_quick_tex.png",
+			"type": "image",
+			"name": "by_quick_tex_png"
+		},
+		{
+			"url": "assets/by/animation/room/by_tiyan_ske.dbbin",
+			"type": "bin",
+			"name": "by_tiyan_ske_dbbin"
+		},
+		{
+			"url": "assets/by/animation/room/by_tiyan_tex.png",
+			"type": "image",
+			"name": "by_tiyan_tex_png"
+		},
+		{
+			"url": "assets/by/animation/room/by_zhongji_ske.dbbin",
+			"type": "bin",
+			"name": "by_zhongji_ske_dbbin"
+		},
+		{
+			"url": "assets/by/animation/room/by_zhongji_tex.png",
+			"type": "image",
+			"name": "by_zhongji_tex_png"
+		},
+		{
+			"url": "assets/by/animation/room/by_chuji_tex.json",
+			"type": "json",
+			"name": "by_chuji_tex_json"
+		},
+		{
+			"url": "assets/by/animation/room/by_gaoji_tex.json",
+			"type": "json",
+			"name": "by_gaoji_tex_json"
+		},
+		{
+			"url": "assets/by/animation/room/by_quick_tex.json",
+			"type": "json",
+			"name": "by_quick_tex_json"
+		},
+		{
+			"url": "assets/by/animation/room/by_zhongji_tex.json",
+			"type": "json",
+			"name": "by_zhongji_tex_json"
+		},
+		{
+			"url": "assets/by/animation/room/by_tiyan_tex.json",
+			"type": "json",
+			"name": "by_tiyan_tex_json"
+		},
+		{
+			"url": "assets/by/font/bybankfnt.fnt",
+			"type": "font",
+			"name": "bybankfnt_fnt"
+		},
+		{
+			"url": "assets/by/font/bybankfnt.png",
+			"type": "image",
+			"name": "bybankfnt_png"
+		},
+		{
+			"url": "assets/by/by_bank.json",
+			"type": "sheet",
+			"name": "by_bank_json",
+			"subkeys": "by_bank_bg,by_bank_bg_2,by_bank_bg_3,by_bank_cur,by_bank_max,by_bank_mon,by_bank_pro_bar,by_bank_pro_bg,by_bank_thumb,by_effect,by_jingyin,by_music,by_off,by_on,by_setting_bg"
+		},
+		{
+			"url": "assets/by/help/by_help_bg.png",
+			"type": "image",
+			"name": "by_help_bg_png"
+		},
+		{
+			"url": "assets/by/help/by_help_content.png",
+			"type": "image",
+			"name": "by_help_content_png"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_1_ske.dbbin",
+			"type": "bin",
+			"name": "by_cannon_1_ske_dbbin"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_1_tex.png",
+			"type": "image",
+			"name": "by_cannon_1_tex_png"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_2_ske.dbbin",
+			"type": "bin",
+			"name": "by_cannon_2_ske_dbbin"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_2_tex.png",
+			"type": "image",
+			"name": "by_cannon_2_tex_png"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_3_ske.dbbin",
+			"type": "bin",
+			"name": "by_cannon_3_ske_dbbin"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_3_tex.png",
+			"type": "image",
+			"name": "by_cannon_3_tex_png"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_1_tex.json",
+			"type": "json",
+			"name": "by_cannon_1_tex_json"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_2_tex.json",
+			"type": "json",
+			"name": "by_cannon_2_tex_json"
+		},
+		{
+			"url": "assets/by/animation/canon/by_cannon_3_tex.json",
+			"type": "json",
+			"name": "by_cannon_3_tex_json"
+		},
+		{
+			"url": "assets/by/font/fishingJoy_battle_ui_font_blue.fnt",
+			"type": "font",
+			"name": "fishingJoy_battle_ui_font_blue_fnt"
+		},
+		{
+			"url": "assets/by/font/fishingJoy_battle_ui_font_blue.png",
+			"type": "image",
+			"name": "fishingJoy_battle_ui_font_blue_png"
+		},
+		{
+			"url": "assets/by/font/fishingJoy_battle_ui_font_yellow.fnt",
+			"type": "font",
+			"name": "fishingJoy_battle_ui_font_yellow_fnt"
+		},
+		{
+			"url": "assets/by/font/fishingJoy_battle_ui_font_yellow.png",
+			"type": "image",
+			"name": "fishingJoy_battle_ui_font_yellow_png"
+		},
+		{
+			"url": "assets/by/font/by_fish_yellow.fnt",
+			"type": "font",
+			"name": "by_fish_yellow_fnt"
+		},
+		{
+			"url": "assets/by/font/by_fish_yellow.png",
+			"type": "image",
+			"name": "by_fish_yellow_png"
+		},
+		{
+			"url": "assets/by/animation/effect/buyu_jinbi_tex.png",
+			"type": "image",
+			"name": "buyu_jinbi_tex_png"
+		},
+		{
+			"url": "assets/by/animation/effect/buyu_jinbi_mc.json",
+			"type": "json",
+			"name": "buyu_jinbi_mc_json"
+		},
+		{
+			"url": "assets/by/animation/effect/buyu_yinbi_tex.png",
+			"type": "image",
+			"name": "buyu_yinbi_tex_png"
+		},
+		{
+			"url": "assets/by/animation/effect/buyu_yinbi_mc.json",
+			"type": "json",
+			"name": "buyu_yinbi_mc_json"
+		},
+		{
+			"url": "assets/by/fish/fishsheet1-1.json",
+			"type": "sheet",
+			"name": "fishsheet1-1_json",
+			"subkeys": "0_01,0_02,0_03,0_04,0_05,0_06,0_07,0_08,0_09,0_10,0_11,0_12,10_01,10_02,10_03,10_04,10_05,10_06,10_07,10_08,10_09,10_10,10_11,10_12,11_01,11_02,11_03,11_04,11_05,11_06,11_07,11_08,11_09,11_10,11_11,11_12,12_01,12_02,12_03,12_04,12_05,12_06,12_07,12_08,12_09,12_10,12_11,12_12,13_01,13_02,13_03,13_04,13_05,13_06,13_07,13_08,13_09,13_10,13_11,13_12,14_01,14_02,14_03,14_04,14_05,14_06,14_07,14_08,14_09,14_10,14_11,14_12,15_01,15_02,15_03,15_04,15_05,15_06,15_07,15_08,15_09,15_10,15_11,15_12,16_01,16_02,16_03,16_04,16_05,16_06,16_07,16_08,16_09,16_10,16_11,16_12,17_01,17_02,17_03,17_04,17_05,17_06,17_07,17_08,17_09,17_10,17_11,17_12,18_01,18_02,18_03,18_04,18_05,18_06,18_07,18_08,18_09,18_10,18_11,18_12,19_0,19_1,1_01,1_02,1_03,1_04,1_05,1_06,1_07,1_08,1_09,1_10,1_11,1_12,23_01,23_02,23_03,23_04,23_05,23_06,23_07,23_08,23_09,23_10,23_11,23_12,24_01,24_02,24_03,24_04,24_05,24_06,24_07,24_08,24_09,24_10,24_11,24_12,2_01,2_02,2_03,2_04,2_05,2_06,2_07,2_08,2_09,2_10,2_11,2_12,3_01,3_02,3_03,3_04,3_05,3_06,3_07,3_08,3_09,3_10,3_11,3_12,4_01,4_02,4_03,4_04,4_05,4_06,4_07,4_08,4_09,4_10,4_11,4_12,5_01,5_02,5_03,5_04,5_05,5_06,5_07,5_08,5_09,5_10,5_11,5_12,6_01,6_02,6_03,6_04,6_05,6_06,6_07,6_08,6_09,6_10,6_11,6_12,7_01,7_02,7_03,7_04,7_05,7_06,7_07,7_08,7_09,7_10,7_11,7_12,8_01,8_02,8_03,8_04,8_05,8_06,8_07,8_08,8_09,8_10,8_11,8_12,9_01,9_02,9_03,9_04,9_05,9_06,9_07,9_08,9_09,9_10,9_11,9_12,ring1_0,ring1_1,ring2_0,ring2_1,ring3_0,ring3_1"
+		},
+		{
+			"url": "assets/by/animation/fish/by_coins_effect_tex.png",
+			"type": "image",
+			"name": "by_coins_effect_tex_png"
+		},
+		{
+			"url": "assets/by/animation/fish/by_coins_effect_mc.json",
+			"type": "json",
+			"name": "by_coins_effect_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish10_mc.json",
+			"type": "json",
+			"name": "fish10_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish11_mc.json",
+			"type": "json",
+			"name": "fish11_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish13_mc.json",
+			"type": "json",
+			"name": "fish13_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish15_mc.json",
+			"type": "json",
+			"name": "fish15_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish16_mc.json",
+			"type": "json",
+			"name": "fish16_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish0_mc.json",
+			"type": "json",
+			"name": "fish0_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish18_mc.json",
+			"type": "json",
+			"name": "fish18_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish17_mc.json",
+			"type": "json",
+			"name": "fish17_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish1_mc.json",
+			"type": "json",
+			"name": "fish1_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish12_mc.json",
+			"type": "json",
+			"name": "fish12_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish23_mc.json",
+			"type": "json",
+			"name": "fish23_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish21_mc.json",
+			"type": "json",
+			"name": "fish21_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish25_mc.json",
+			"type": "json",
+			"name": "fish25_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish14_mc.json",
+			"type": "json",
+			"name": "fish14_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish26_mc.json",
+			"type": "json",
+			"name": "fish26_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish27_mc.json",
+			"type": "json",
+			"name": "fish27_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish28_mc.json",
+			"type": "json",
+			"name": "fish28_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish29_mc.json",
+			"type": "json",
+			"name": "fish29_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish2_mc.json",
+			"type": "json",
+			"name": "fish2_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish31_mc.json",
+			"type": "json",
+			"name": "fish31_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish30_mc.json",
+			"type": "json",
+			"name": "fish30_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish32_mc.json",
+			"type": "json",
+			"name": "fish32_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish3_mc.json",
+			"type": "json",
+			"name": "fish3_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish4_mc.json",
+			"type": "json",
+			"name": "fish4_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish5_mc.json",
+			"type": "json",
+			"name": "fish5_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish6_mc.json",
+			"type": "json",
+			"name": "fish6_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish9_mc.json",
+			"type": "json",
+			"name": "fish9_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish8_mc.json",
+			"type": "json",
+			"name": "fish8_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish7_mc.json",
+			"type": "json",
+			"name": "fish7_mc_json"
+		},
+		{
+			"url": "assets/by/animation/fish/fish2_tex.png",
+			"type": "image",
+			"name": "fish2_tex_png"
+		},
+		{
+			"url": "assets/by/fish/fishsheet1-2.json",
+			"type": "sheet",
+			"name": "fishsheet1-2_json",
+			"subkeys": "25_01,25_02,25_03,25_04,25_05,25_06,25_07,25_08,25_09,25_10,25_11,25_12,26_01,26_02,26_03,26_04,26_05,26_06,26_07,26_08,26_09,26_10,26_11,26_12,27_01,27_02,27_03,27_04,27_05,27_06,27_07,27_08,27_09,27_10,27_11,27_12,29_01,29_02,29_03,29_04,29_05,29_06,29_07,29_08,29_09,29_10,29_11,29_12,combination_oneCatch,fish_frame_36"
+		}
+	]
+}

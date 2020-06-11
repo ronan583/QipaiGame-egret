@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnRecordBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="952.33">
+
+
+
+
+
+
+
+
+	<e:Group width="949.33" height="74" horizontalCenter="-2.6650000000000205" verticalCenter="0" anchorOffsetX="0">
+		<e:Image id="zjLine" bottom="0" horizontalCenter="0" x="68" y="69" scaleX="1" scaleY="1" source="brnn_zjcx_line"/>
+		<e:Image id="resultIcon" x="60" verticalCenter="4" y="12" scaleX="1" scaleY="1" source="brnn_zjcx_json.brnn_zjcx_iconwin"/>
+		<e:Image x="112.01" verticalCenter="0.5" y="13" scaleX="1" scaleY="1" source="brnn_zjcx_json.brnn_zjcx_bglabel" anchorOffsetX="0" width="289.67"/>
+		<e:Image x="399.02" verticalCenter="0.5" scale9Grid="26,6,157,37" anchorOffsetX="0" width="199" y="13" scaleX="1" scaleY="1" source="brnn_zjcx_json.brnn_zjcx_bglabel"/>
+		<e:Label id="zjTime" text="12-12 12:12" x="597.48" size="30" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" verticalCenter="0" y="22" scaleX="1" scaleY="1" textColor="0xfdd7a8"/>
+		<e:BitmapLabel id="totalWin" width="231" height="50" x="157.67" anchorOffsetX="0" anchorOffsetY="0" text="1234.-万" verticalCenter="6" y="18" scaleX="1" scaleY="1" font="brnn_zjcx_lose_fnt"/>
+		<ns1:IButton id="detailBtn" xmlns:ns1="*" label="" x="792.67" anchorOffsetY="0" verticalCenter="6" y="7" scaleX="1" scaleY="1">
+			<ns1:skinName xmlns:ns1="*">
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_zjcx_json.brnn_zjcx_btndetail" source.down="brnn_zjcx_json.brnn_zjcx_btndetail" source.disabled="brnn_zjcx_json.brnn_zjcx_btndetail"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image id="roomLevelImg" x="447.02" verticalCenter="1" y="21" scaleX="1" scaleY="1" source="brnn_zjcx_json.brnn_zjcx_level1"/>
+		<e:Image id="bankerIcon" source="brnn_zjcx_json.brnn_zjcx_iconbanker" x="8.99" y="11.97"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "ddz_qidong_3_tex_png,ddz_qidong_3_tex_json,ddz_qidong_3_ske_dbbin,ddz_room_anim_bg_jpg",
+			"name": "ddz_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/ddz/animation/room/ddz_qidong_3_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_qidong_3_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_qidong_3_tex.json",
+			"type": "json",
+			"name": "ddz_qidong_3_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_qidong_3_tex.png",
+			"type": "image",
+			"name": "ddz_qidong_3_tex_png"
+		},
+		{
+			"url": "assets/ddz/ddz_room_anim_bg.jpg",
+			"type": "image",
+			"name": "ddz_room_anim_bg_jpg"
+		}
+	]
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnCornerPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="615">
+	<w:Config id="16ad3a2ad12" ></w:Config>
+
+
+
+
+
+	<e:Group id="spadeGroup" x="43.43" y="45" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image x="0" y="0" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="10" y="10" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="20" y="20" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="30" y="30" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="40" y="40" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="50" y="50" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="60" y="60" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="70" y="70" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="80" y="80" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="90" y="90" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="100" y="100" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="110" y="110" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="120" y="120" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.lose" width="29" height="29"/>
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:layout>
+			<e:HorizontalLayout gap="15" verticalAlign="middle" paddingLeft="2.8"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="heartGroup" x="43.43" y="89" anchorOffsetY="0">
+		<e:Image x="0" y="0" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="10" y="10" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="20" y="20" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="30" y="30" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="40" y="40" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="50" y="50" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="60" y="60" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="70" y="70" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="80" y="80" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="90" y="90" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="100" y="100" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="110" y="110" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="120" y="120" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" paddingLeft="2.8" gap="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="clubGroup" x="43.43" y="133.69" anchorOffsetY="0">
+		<e:Image x="0" y="0" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="10" y="10" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="20" y="20" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="30" y="30" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="40" y="40" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="50" y="50" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="60" y="60" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="70" y="70" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="80" y="80" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="90" y="90" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="100" y="100" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="110" y="110" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="120" y="120" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" paddingLeft="2.8" gap="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="diamondGroup" x="42.43" y="179.32" anchorOffsetY="0">
+		<e:Image x="0" y="0" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="10" y="10" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="20" y="20" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="30" y="30" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="40" y="40" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="50" y="50" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="60" y="60" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="70" y="70" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="80" y="80" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="90" y="90" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="100" y="100" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="110" y="110" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+		<e:Image x="120" y="120" rotation="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="brnnGame_json.win" width="29" height="29"/>
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" paddingLeft="2.75" gap="15"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

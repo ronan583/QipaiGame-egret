@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BigRoadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" >
+	<w:Config id="169351b7185" ></w:Config>
+	<e:Image y="0" x="0" source="bjlGame_json.bg_threeRoad" scaleX="1.4" scaleY="1.37"/>
+	<e:Image y="40.2" x="14.4" scaleX="1" scaleY="1" source="bjlGame_json.label_dl"/>
+	<e:Group x="53" y="6">
+		<e:Image y="0" x="0" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="10" x="10" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="20" x="20" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="30" x="30" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="40" x="40" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="50" x="50" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="60" x="60" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="70" x="70" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="80" x="80" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="90" x="90" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="100" x="100" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="110" x="110" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="120" x="120" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="130" x="130" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="140" x="140" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="150" x="150" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="160" x="160" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="170" x="170" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="180" x="180" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="190" x="190" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="200" x="200" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="210" x="210" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="220" x="220" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="230" x="230" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="240" x="240" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="250" x="250" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="260" x="260" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="270" x="270" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="280" x="280" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="290" x="290" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="300" x="300" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:Image y="310" x="310" scaleX="1" scaleY="1" source="bjlGame_json.hlssm_luzi_item_bg_2"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="roadGroup" width="667.33" height="125" left="54" top="6" anchorOffsetX="0" anchorOffsetY="0">
+		<bjl:BjlBigRowList x="193" y="33"/>
+		<bjl:BjlBigRowList x="203" y="43"/>
+		<bjl:BjlBigRowList x="213" y="53"/>
+		<bjl:BjlBigRowList x="223" y="63"/>
+		<bjl:BjlBigRowList x="233" y="73"/>
+		<bjl:BjlBigRowList x="243" y="83"/>
+		<bjl:BjlBigRowList x="253" y="93"/>
+		<bjl:BjlBigRowList x="263" y="103"/>
+		<bjl:BjlBigRowList x="273" y="113"/>
+		<bjl:BjlBigRowList x="283" y="123"/>
+		<bjl:BjlBigRowList x="293" y="133"/>
+		<bjl:BjlBigRowList x="303" y="143"/>
+		<bjl:BjlBigRowList x="313" y="153"/>
+		<bjl:BjlBigRowList x="323" y="163"/>
+		<bjl:BjlBigRowList x="333" y="173"/>
+		<bjl:BjlBigRowList x="343" y="183"/>
+		<bjl:BjlBigRowList x="353" y="193"/>
+		<bjl:BjlBigRowList x="363" y="203"/>
+		<bjl:BjlBigRowList x="373" y="213"/>
+		<bjl:BjlBigRowList x="383" y="223"/>
+		<bjl:BjlBigRowList x="393" y="233"/>
+		<bjl:BjlBigRowList x="403" y="243"/>
+		<bjl:BjlBigRowList x="413" y="253"/>
+		<bjl:BjlBigRowList x="423" y="263"/>
+		<bjl:BjlBigRowList x="433" y="273"/>
+		<bjl:BjlBigRowList x="443" y="283"/>
+		<bjl:BjlBigRowList x="453" y="293"/>
+		<bjl:BjlBigRowList x="463" y="303"/>
+		<bjl:BjlBigRowList x="473" y="313"/>
+		<bjl:BjlBigRowList x="483" y="323"/>
+		<bjl:BjlBigRowList x="493" y="333"/>
+		<bjl:BjlBigRowList x="503" y="343"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:layout>
+			<e:HorizontalLayout gap="4.9" paddingLeft="2" paddingTop="2"/>
+		</e:layout>
+	</e:Group>
+	
+</e:Skin>

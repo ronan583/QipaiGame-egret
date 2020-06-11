@@ -1,0 +1,17 @@
+{"file":"candy_room_new.png","frames":{
+"ncandy_history_split":{"x":1,"y":846,"w":1040,"h":2,"offX":0,"offY":0,"sourceW":1040,"sourceH":2},
+"ncandy_room_btnback":{"x":593,"y":684,"w":84,"h":88,"offX":3,"offY":2,"sourceW":94,"sourceH":90},
+"ncandy_room_btncharge":{"x":1043,"y":774,"w":59,"h":60,"offX":0,"offY":0,"sourceW":59,"sourceH":60},
+"ncandy_room_btnhelp":{"x":507,"y":684,"w":84,"h":88,"offX":2,"offY":2,"sourceW":93,"sourceH":90},
+"ncandy_room_btnhistory":{"x":421,"y":684,"w":84,"h":88,"offX":3,"offY":2,"sourceW":94,"sourceH":90},
+"ncandy_room_btnquick":{"x":1,"y":684,"w":325,"h":110,"offX":0,"offY":0,"sourceW":325,"sourceH":110},
+"ncandy_room_headbg":{"x":328,"y":684,"w":91,"h":93,"offX":0,"offY":0,"sourceW":91,"sourceH":93},
+"ncandy_room_icongold":{"x":328,"y":779,"w":65,"h":65,"offX":0,"offY":0,"sourceW":65,"sourceH":65},
+"ncandy_room_imgbottom":{"x":1,"y":853,"w":1364,"h":92,"offX":0,"offY":0,"sourceW":1364,"sourceH":92},
+"ncandy_room_labelbg":{"x":421,"y":774,"w":176,"h":31,"offX":0,"offY":0,"sourceW":176,"sourceH":31},
+"ncandy_room_logo":{"x":1367,"y":853,"w":391,"h":123,"offX":4,"offY":8,"sourceW":396,"sourceH":131},
+"ncandy_room_roomitem0":{"x":1170,"y":427,"w":333,"h":424,"offX":9,"offY":4,"sourceW":352,"sourceH":435},
+"ncandy_room_roomitem1":{"x":1170,"y":1,"w":333,"h":424,"offX":9,"offY":4,"sourceW":352,"sourceH":435},
+"ncandy_room_roomlevel0":{"x":222,"y":947,"w":216,"h":76,"offX":2,"offY":1,"sourceW":220,"sourceH":77},
+"ncandy_room_roomlevel1":{"x":1,"y":947,"w":219,"h":76,"offX":0,"offY":0,"sourceW":219,"sourceH":76},
+"ncandy_history_bg":{"x":1,"y":1,"w":1167,"h":681,"offX":0,"offY":0,"sourceW":1167,"sourceH":681}}}

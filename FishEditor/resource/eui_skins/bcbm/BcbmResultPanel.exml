@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmResultPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="resultBg" scaleX="1" scaleY="1"  source="bcbm_result_youwinbg" x="61" y="57"/>
+		<e:Image id="winloseImg" x="292.34" y="174.66" source="bcbm_result_youwin"/>
+		<e:Image id="carImg" x="307" y="137" source="bcbm_result_carbenz"/>
+		<e:Image id="carIcon" source="bcbm_caricon_bsj6" x="278.67" y="388.98"/>
+		<e:Image id="multiResult" source="bcbm_result_json.bcbm_result_mutiple10w" x="402.98" y="451.99"/>
+		<e:Group width="518.67" height="65.34" x="645" y="181.68" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="selfBg" x="0" y="0" scaleX="1" scaleY="1" source="bcbm_result_youwinbg1"/>
+			<e:Image id="selfIcon" source="bcbm_result_json.bcbm_result_icon_me" x="25.66" y="4.66" scaleX="1" scaleY="1"/>
+			<e:Label id="selfName" text="长沙" x="98" y="18.33" fontFamily="Microsoft YaHei" size="27" italic="true"/>
+			<e:BitmapLabel id="selfResult" width="276" height="33.33" x="194" y="14" text="-123456" anchorOffsetX="0" anchorOffsetY="0" font="vbcbm_result_type2_fnt" textAlign="right" visible="false"/>
+			<e:Image id="selfResultImg" source="bcbm_result_json.bcbm_result_nobet" x="291.99" y="9.35"/>
+		</e:Group>
+		<e:Group width="518.67" height="65.34" x="615.01" y="245" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="bankerBg" source="bcbm_result_json.bcbm_result_youwinbg1" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image id="bankerIcon" x="33.67" y="8.65" scaleX="1" scaleY="1" source="bcbm_result_icon_banker"/>
+			<e:Label id="bankerName" text="长沙" x="98" y="18.33" fontFamily="Microsoft YaHei" size="27" italic="true"/>
+			<e:BitmapLabel id="bankerResult" width="276" height="33.33" x="154" y="14.02" text="-123456" anchorOffsetX="0" anchorOffsetY="0" font="vbcbm_result_type2_fnt" textAlign="right"/>
+		</e:Group>
+		<e:Group width="449.67" height="50.34" x="579.69" y="321.66" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="plistBg0" x="13.34" y="0.67" scaleX="1" scaleY="1" source="bcbm_result_youwinbg2"/>
+			<e:Image id="plistIcon0" x="-7.69" y="4.66" scaleX="1" scaleY="1" source="bcbm_result_w1"/>
+			<e:Label id="plistName0" text="长沙" x="78" y="15.33" fontFamily="Microsoft YaHei" size="23" textColor="0x9ad7f9"/>
+			<e:BitmapLabel id="plistResult0" width="276" height="33.33" x="134" y="9.02" text="123456" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" font="vbcbm_result_win_rank_fnt"/>
+		</e:Group>
+		<e:Group width="449.67" height="50.34" x="555.03" y="368.65" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="bcbm_result_json.bcbm_result_youwinbg2" x="13.34" y="0.67" scaleX="1" scaleY="1" id="plistBg1"/>
+			<e:Image id="plistIcon1" x="-7.69" y="4.66" scaleX="1" scaleY="1" source="bcbm_result_json.bcbm_result_w2"/>
+			<e:Label id="plistName1" text="长沙" x="78" y="15.33" fontFamily="Microsoft YaHei" size="23" textColor="0xB97FF0"/>
+			<e:BitmapLabel width="276" height="33.33" x="134" y="9.02" text="123456" anchorOffsetX="0" anchorOffsetY="0" font="vbcbm_result_win_rank_fnt" textAlign="right" id="plistResult1"/>
+		</e:Group>
+		<e:Group width="449.67" height="50.34" x="529.67" y="415.67" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="bcbm_result_json.bcbm_result_youwinbg2" x="13.34" y="0.67" scaleX="1" scaleY="1" id="plistBg2"/>
+			<e:Image id="plistIcon2" x="-7.69" y="4.66" scaleX="1" scaleY="1" source="bcbm_result_json.bcbm_result_w3"/>
+			<e:Label id="plistName2" text="长沙" x="78" y="15.33" fontFamily="Microsoft YaHei" size="23" textColor="0xB97FF0"/>
+			<e:BitmapLabel width="276" height="33.33" x="134" y="9.02" text="123456" anchorOffsetX="0" anchorOffsetY="0" font="vbcbm_result_win_rank_fnt" textAlign="right" id="plistResult2"/>
+		</e:Group>
+		<e:Group width="449.67" height="50.34" x="506.99" y="462.72" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="bcbm_result_json.bcbm_result_youwinbg2" x="13.34" y="0.67" scaleX="1" scaleY="1" id="plistBg3"/>
+			<e:Image id="plistIcon3" x="26.97" y="8.65" scaleX="1.2" scaleY="1.2" source="bcbm_result_w4"/>
+			<e:Label id="plistName3" text="长沙" x="78" y="15.33" fontFamily="Microsoft YaHei" size="23" textColor="0xB97FF0"/>
+			<e:BitmapLabel width="276" height="33.33" x="134" y="9.02" text="123456" anchorOffsetX="0" anchorOffsetY="0" font="vbcbm_result_win_rank_fnt" textAlign="right" id="plistResult3"/>
+		</e:Group>
+		<e:Group width="449.67" height="50.34" x="483.64" y="506.76" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="bcbm_result_json.bcbm_result_youwinbg2" x="13.34" y="0.67" scaleX="1" scaleY="1" id="plistBg4"/>
+			<e:Image id="plistIcon4" x="32.25" y="8.65" scaleX="1.2" scaleY="1.2" source="bcbm_result_w5"/>
+			<e:Label id="plistName4" text="长沙" x="78" y="15.33" fontFamily="Microsoft YaHei" size="23" textColor="0xB97FF0"/>
+			<e:BitmapLabel width="276" height="33.33" x="134" y="9.02" text="123456" anchorOffsetX="0" anchorOffsetY="0" font="vbcbm_result_win_rank_fnt" textAlign="right" id="plistResult4"/>
+		</e:Group>
+		<ns1:DragonAnim id="animResultL" width="390.67" height="276" x="455.95" y="216.97" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" playOnStage="false" defaultPlayAnim="start" anim="bcbmfailjiesuan" isloop="false" scaleX="1.1" scaleY="1.1"/>
+		<ns1:DragonAnim id="animResultW" width="390.67" height="276" x="455.95" y="216.97" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" playOnStage="false" defaultPlayAnim="start" anim="bcbmwinjiesuan" isloop="false" scaleX="1.1" scaleY="1.1"/>
+		<ns1:IButton id="confirmBtn" label="" bottom="36" horizontalCenter="172">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*">
+				<e:Image width="100%" height="100%" source="bcbm_set-room-bank_json.bcbm_room_btnConfirm" source.down="bcbm_set-room-bank_json.bcbm_room_btnConfirm" source.disabled="bcbm_set-room-bank_json.bcbm_room_btnConfirm"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

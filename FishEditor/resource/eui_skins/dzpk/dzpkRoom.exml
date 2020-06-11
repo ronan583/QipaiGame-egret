@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZjhRoom" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="dzpkn_room_bg_jpg" horizontalCenter="0" x="-145" y="0" scaleX="1" scaleY="1"/>
+	<e:Group id="contentGroup" width="1334" height="750" y="0" horizontalCenter="0">
+		<e:Image horizontalCenter="0" source="dzpk_room_preview_png" x="0" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image x="1051.46" y="9.11" source="dzpkn_logo" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim width="413.34" height="686.67" x="21.33" y="68" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="dzpk_npc"/>
+		<e:Group id="bottomGroup" width="1624" height="115.34" y="641" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="-145" scaleX="1" scaleY="1">
+			<e:Image source="dzpkn_bottom"/>
+			<e:Image x="153" y="14.65" source="dzpkn_headframe"/>
+			<e:Label id="nameLabel" text="Guest1234" x="256" y="61" anchorOffsetX="0" width="198" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="left" size="25" bold="true"/>
+			<e:Image id="headImg" width="70.67" height="70.67" x="164" y="17" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image x="657.35" y="50.36" source="dzpkn_gold_bg" scale9Grid="22,17,82,2" anchorOffsetX="0" width="190.67"/>
+			<e:Image x="622.67" y="47.66" source="gpn_icon_gold"/>
+			<e:Button id="goldAddBtn" label="" x="814.69" y="47.67">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dzpkn_add" source.down="dzpkn_add" source.disabled="dzpkn_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:BitmapLabel id="goldLabel" width="140" height="29.33" x="680" y="59" text="10000.00" font="gpn_gold_fnt" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle"/>
+			<e:Button id="quickbtn" label="" x="1006.32" y="-8.14">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dzpkn_quickstart" source.down="dzpkn_quickstart" source.disabled="dzpkn_quickstart"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group id="quickStartGroup" width="381.34" height="102.67" x="1094.33" y="6.66" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+				<ns1:DragonAnim width="380" height="102" aligntype="bottom" anim="dzpk_quickstart"/>
+			</e:Group>
+		</e:Group>
+		<ns1:DZPKRoomItem id="roomItem1" width="404" height="170" x="471" y="183" anchorOffsetX="0" anchorOffsetY="0" gameLevel="0" aligntype="middle" anim="dzpk_tiyanchang_guess_5"/>
+		<ns1:DZPKRoomItem id="roomItem2" width="404" height="170" x="922" y="183" anchorOffsetX="0" anchorOffsetY="0" gameLevel="1" aligntype="middle" anim="dzpk_chujichang"/>
+		<ns1:DZPKRoomItem id="roomItem3" width="404" height="170" x="412" y="398" anchorOffsetX="0" anchorOffsetY="0" gameLevel="2" aligntype="middle" anim="dzpk_putongchang_guess_2"/>
+		<ns1:DZPKRoomItem id="roomItem4" width="404" height="170" x="889" y="398" anchorOffsetX="0" anchorOffsetY="0" gameLevel="3" aligntype="middle" anim="dzpk_zhongjichang_guess_4"/>
+		<e:Group id="leftCornerGroup" width="208" height="100" anchorOffsetX="0" anchorOffsetY="0" y="13.33" scaleX="1" scaleY="1" left="26" x="0">
+			<e:Button id="backBtn" label="" x="2" y="8" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dzpkn_back" source.down="dzpkn_back" source.disabled="dzpkn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" x="100" y="8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dzpkn_help" source.down="dzpkn_help" source.disabled="dzpkn_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="zjcxBtn" label="" x="110" y="18">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="dzpk_zjcx_json.dzpk_room_zjcxbtn" source.down="dzpk_zjcx_json.dzpk_room_zjcxbtn" source.disabled="dzpk_zjcx_json.dzpk_room_zjcxbtn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

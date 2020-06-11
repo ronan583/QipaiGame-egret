@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HHDZLoadSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image horizontalCenter="0" source="hhdzn_room_bg_png"/>
+	<e:Group id="animGroup" width="1334" height="750" horizontalCenter="0">
+		<ns1:DragonAnim id="anim" xmlns:ns1="*" width="1334" height="750" aligntype="middle" anim="hhdz_qidong" horizontalCenter="0" isloop="false" playOnStage="false"/>
+	</e:Group>
+
+
+
+</e:Skin>

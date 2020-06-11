@@ -1,0 +1,14 @@
+{"file":"fruit_win_2.png","frames":{
+"4":{"x":1,"y":1,"w":47,"h":64,"offX":0,"offY":1,"sourceW":47,"sourceH":65},
+"5":{"x":95,"y":68,"w":44,"h":64,"offX":1,"offY":1,"sourceW":45,"sourceH":65},
+"6":{"x":1,"y":134,"w":45,"h":65,"offX":0,"offY":0,"sourceW":45,"sourceH":65},
+"7":{"x":50,"y":1,"w":43,"h":62,"offX":0,"offY":1,"sourceW":43,"sourceH":63},
+"8":{"x":95,"y":134,"w":45,"h":65,"offX":0,"offY":0,"sourceW":45,"sourceH":65},
+"9":{"x":48,"y":67,"w":45,"h":65,"offX":0,"offY":0,"sourceW":45,"sourceH":65},
+",":{"x":176,"y":1,"w":18,"h":38,"offX":0,"offY":27,"sourceW":18,"sourceH":65},
+".":{"x":176,"y":41,"w":17,"h":24,"offX":1,"offY":41,"sourceW":18,"sourceH":65},
+"+":{"x":141,"y":67,"w":41,"h":48,"offX":1,"offY":9,"sourceW":42,"sourceH":65},
+"0":{"x":48,"y":134,"w":45,"h":65,"offX":0,"offY":0,"sourceW":45,"sourceH":65},
+"1":{"x":141,"y":1,"w":33,"h":64,"offX":0,"offY":1,"sourceW":33,"sourceH":65},
+"2":{"x":95,"y":1,"w":44,"h":65,"offX":1,"offY":0,"sourceW":45,"sourceH":65},
+"3":{"x":1,"y":67,"w":45,"h":65,"offX":0,"offY":0,"sourceW":45,"sourceH":65}}}

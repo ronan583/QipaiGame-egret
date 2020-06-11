@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbTrendItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="65">
+	<w:Config id="16bd2bd0836" ></w:Config>
+	<e:Image id="newIcon" y="1" x="0" source="diceGame_json.game_dice_image_trend_icon_new" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="dice1" y="0" x="17" source="diceGame_json.game_dice_image_trend_dice_1" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="dice2" y="29" x="3" source="diceGame_json.game_dice_image_trend_dice_1" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="dice3" y="30" x="30" source="diceGame_json.game_dice_image_trend_dice_1" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="typeIcon" y="70" source="diceGame_json.game_dice_image_trend_txt_da" horizontalCenter="-2"/>
+	<e:BitmapLabel id="pointNum" y="55.5" text="12" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" width="30" horizontalCenter="-1.5" scaleX="0.85" scaleY="0.85" font="lushu_fnt"/>
+</e:Skin>

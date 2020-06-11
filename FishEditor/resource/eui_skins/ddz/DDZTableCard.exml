@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZTableCardSkin" width="90" height="121" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e69d9eb94" ></w:Config>
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" x="-6" y="-2" source=""/>
+	<e:Image id="cardImg" anchorOffsetX="0" anchorOffsetY="0" source="cs3_55"/>
+	<e:Image id="lordlandImg" x="24" y="54" source="ddz_table_lord_png" visible="false"/>
+</e:Skin>

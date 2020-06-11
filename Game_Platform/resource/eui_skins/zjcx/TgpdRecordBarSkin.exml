@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TgpdRecordBarSkin" width="880" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImage" x="0" y="0" anchorOffsetX="0" width="880" anchorOffsetY="0" height="49" scale9Grid="6,6,41,41" source="exchange_bg"/>
+	<e:Label id="zjRoom" text="体验场1" x="216.15" size="25" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" verticalAlign="middle" y="11" anchorOffsetX="0" width="107" anchorOffsetY="0" height="26" textAlign="center"/>
+	<e:Label id="zjZS" text="0" x="376" size="25" verticalCenter="1.5" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="120" height="25"/>
+	<e:Label id="zjDXS" text="0" x="547" size="25" verticalCenter="2.5" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" verticalAlign="middle" anchorOffsetX="0" width="135" anchorOffsetY="0" height="25" textAlign="center"/>
+	<e:Label id="zjSy" text="0" x="734" size="25" verticalCenter="0.5" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="104" anchorOffsetY="0" height="25"/>
+	<e:Label id="zjTime" text="20-20 23:22" x="23.48" size="25" verticalCenter="1.5" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="149"/>
+	<e:Image source="zjcx_json.zjcx_line4" x="2" y="46"/>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjSelectGroupPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ermj="game.ermj.*"  width="572" height="98">
+	<w:Config id="16819ea83b1" ></w:Config>
+	<e:Image id="titleImg" source="ermj_battle_json.select_gang" verticalCenter="0" horizontalCenter="-229"/>
+	<e:Group id="selectGroup" verticalCenter="0" left="136">
+		<ermj:ErmjSmallGroup height="110" x="0" y="0" scaleX="0.8" scaleY="0.8"/>
+		<ermj:ErmjSmallGroup width="190" height="110" x="171.5" y="0" scaleX="0.8" scaleY="0.8"/>
+		<ermj:ErmjSmallGroup width="190" height="110" x="328" y="0" scaleX="0.8" scaleY="0.8"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="55"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

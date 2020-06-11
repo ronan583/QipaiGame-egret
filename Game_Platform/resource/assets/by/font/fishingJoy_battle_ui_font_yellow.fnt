@@ -1,0 +1,17 @@
+{"file":"fishingJoy_battle_ui_font_yellow.png","frames":{
+"百":{"x":1,"y":25,"w":20,"h":21,"offX":0,"offY":1,"sourceW":20,"sourceH":22},
+",":{"x":17,"y":73,"w":5,"h":11,"offX":0,"offY":11,"sourceW":5,"sourceH":22},
+".":{"x":17,"y":118,"w":4,"h":8,"offX":0,"offY":14,"sourceW":4,"sourceH":22},
+"千":{"x":24,"y":1,"w":20,"h":22,"offX":0,"offY":0,"sourceW":20,"sourceH":22},
+"万":{"x":1,"y":1,"w":21,"h":22,"offX":0,"offY":0,"sourceW":21,"sourceH":22},
+"亿":{"x":23,"y":25,"w":19,"h":22,"offX":0,"offY":0,"sourceW":19,"sourceH":22},
+"0":{"x":33,"y":49,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"1":{"x":49,"y":95,"w":9,"h":21,"offX":1,"offY":1,"sourceW":10,"sourceH":22},
+"2":{"x":44,"y":25,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"3":{"x":1,"y":96,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"4":{"x":17,"y":49,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"5":{"x":49,"y":72,"w":14,"h":21,"offX":0,"offY":1,"sourceW":14,"sourceH":22},
+"6":{"x":1,"y":48,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"7":{"x":49,"y":49,"w":14,"h":21,"offX":0,"offY":1,"sourceW":14,"sourceH":22},
+"8":{"x":1,"y":72,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"9":{"x":46,"y":1,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22}}}

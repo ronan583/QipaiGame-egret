@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzBigRoadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:lhdz="game.lhdz.*" >
+	<w:Config id="1694a17174c" ></w:Config>
+	<e:Group id="roadGroup" width="548" horizontalCenter="0" verticalCenter="0" height="125">
+	<lhdz:LhdzBigRowList x="0" y="0"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="10" y="10"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="20" y="20"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="30" y="30"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="40" y="40"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="50" y="50"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="60" y="60"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="70" y="70"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="80" y="80"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="90" y="90"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="100" y="100"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="110" y="110"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="120" y="120"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="130" y="130"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="140" y="140"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="150" y="150"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="160" y="160"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="170" y="170"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="180" y="180"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="190" y="190"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="200" y="200"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="210" y="210"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="220" y="220"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="230" y="230"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="240" y="240"/>
+		<lhdz:LhdzBigRowList width="20" height="20" x="250" y="250"/>
+
+
+
+
+		<e:layout>
+			<e:HorizontalLayout gap="1"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

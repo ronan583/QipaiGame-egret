@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzBetInfoUISkin" currentState="dragon" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="tiger,tie,dragon"  height="21">
+	<w:Config id="167414acfad" ></w:Config>
+	<e:BitmapLabel id="betLabel" width="100" text="999999" textAlign="left" verticalAlign="center" font="lhdz_area_allbet_fnt" height="21" x="0" y="0"/>
+	<e:BitmapLabel id="selfBetLabel" width="100" text="999999" textAlign="left" verticalAlign="center" font="lhdz_area_selfbet_fnt" height="21" x="100" y="0"/>
+	<e:Image id="shensuanziPos" source="lhdz_battle_json.lhdz_online_calculation" x="183" verticalCenter="0"/>
+	<ns1:DragonAnim id="shensuanziAnim" width="20" height="20" x="187" y="-2" aligntype="middle" anim="lhd_xingxing" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

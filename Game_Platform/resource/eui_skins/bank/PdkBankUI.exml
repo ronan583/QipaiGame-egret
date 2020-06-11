@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpOtherUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="pdk_battle_json.pdk_set_frame" horizontalCenter="0" verticalCenter="0" x="296" y="133"/>
+		<e:Image source="pdk_battle_json.pdk_bank_title" y="62.13" horizontalCenter="0"/>
+		<ns1:IButton id="closebtn" label="" x="1048.67" y="122">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="pdk_battle_json.pdk_close" source.down="pdk_battle_json.pdk_close" source.disabled="pdk_battle_json.pdk_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="" text="银行金额：" y="190" size="24" fontFamily="Microsoft YaHei" textColor="0x735747" left="306"/>
+		<e:Label id="bankMoney" text="0" y="190" size="24" fontFamily="Microsoft YaHei" left="430" textColor="0xE6C769"/>
+		<e:Label id="" text="当前金额：" y="190" size="24" fontFamily="Microsoft YaHei" textColor="0x735747" left="679"/>
+		<e:Label id="curMoney" text="0" y="190" size="24" fontFamily="Microsoft YaHei" left="799" textColor="0xE6C769"/>
+		<e:Image y="289.65" scaleX="1" scaleY="1" source="pdk_battle_json.pdk_withdraw_frame" horizontalCenter="-8"/>
+		<e:EditableText id="drawMoneyLabel" width="399.99" height="40" text="" anchorOffsetY="0" fontFamily="Microsoft YaHei" anchorOffsetX="0" verticalAlign="middle" y="301.33" scaleX="1" scaleY="1" size="25" textColor="0xBDB9B9" horizontalCenter="-6"/>
+		<e:Label text="零" y="366" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="24" horizontalCenter="-10" textColor="0x735747" visible="false"/>
+		<ns1:IButton id="maxBtn" label="" x="928.34" y="438" scaleX="1" scaleY="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="pdk_battle_json.pdk_max" source.down="pdk_battle_json.pdk_max" source.disabled="pdk_battle_json.pdk_max"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<e:Label text="0%" x="335.98" y="502.66" size="24" fontFamily="Microsoft YaHei" textColor="0x735747"/>
+		<e:Label text="50%" y="502.66" size="24" fontFamily="Microsoft YaHei" textColor="0x735747" x="611.98"/>
+		<e:Label text="100%" x="885.98" y="501.66" size="24" fontFamily="Microsoft YaHei" textColor="0x735747"/>
+		<e:ProgressBar id="progressbar" x="345.98" y="475" skinName="PDKSettingProgressBarSkin"/>
+		<ns1:SettingSlider id="slider" enabled="true" value="0" maximum="100" horizontalCenter="-42" verticalCenter="106" skinName="PDKSettingSliderSkin" width="630"/>
+		<ns1:IButton id="drawBtn" label="" horizontalCenter="17" bottom="63">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="pdk_battle_json.pdk_withdraw_btn" source.down="pdk_battle_json.pdk_withdraw_btn" source.disabled="pdk_battle_json.pdk_withdraw_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+</e:Skin>

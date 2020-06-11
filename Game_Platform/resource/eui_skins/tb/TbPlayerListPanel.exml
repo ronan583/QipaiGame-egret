@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbPlayerListPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tb="game.tb.*" >
+	<w:Config id="16be0d751ad" ></w:Config>
+	<e:Group y="90.91" horizontalCenter="0">
+		<e:Image y="0" scale9Grid="20,51,185,36" anchorOffsetX="0" anchorOffsetY="0" source="diceGame_json.panel_bg" x="0"/>
+		<ns1:IButton id="closeBtn" label="" x="604.61" y="17.97">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="diceGame_json.closeBtn" source.down="diceGame_json.closeBtn" source.disabled="diceGame_json.closeBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+
+		<e:Image x="232.01" y="25" source="tb_player_title_png"/>
+		<e:Label id="onlineNum" text="0在线" y="77.53999999999999" size="35" fontFamily="Microsoft YaHei" height="35" horizontalCenter="0.5" textAlign="center" verticalAlign="middle" x="299" scaleX="1" scaleY="1"/>
+		<ns1:ScrollerList id="scrollerList" width="520" height="330" x="82" y="122" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+</e:Skin>

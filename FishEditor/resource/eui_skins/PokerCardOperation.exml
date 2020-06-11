@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PokerCardOperationSkin" width="1280" height="190" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16682e96779" ></w:Config>
+	<e:Group id="cardGroup" width="1275" height="200" horizontalCenter="0" verticalCenter="5">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="cardTypeAnim" x="123" y="74" source="4and2" left="0" scaleX="2" scaleY="2" visible="false"/>
+</e:Skin>

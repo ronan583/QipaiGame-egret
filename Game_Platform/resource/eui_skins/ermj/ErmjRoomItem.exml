@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjRoomItemSkin" width="317" height="473" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16bcb6ef1f2" ></w:Config>
+	<e:Image x="62" y="356" source="ermjn_bg1"/>
+	<e:Image id="freeImg" x="111" y="348" source="ermjn_mianfei"/>
+	<e:Group id="infoGroup" width="194" height="39" x="64" y="342" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image x="28" y="8" source="ermjn_zhunru"/>
+		<e:BitmapLabel id="limitLabel" width="85" height="23" x="94" y="9" anchorOffsetX="0" anchorOffsetY="0" font="ermj_roomfnt_fnt" text="50y"/>
+	</e:Group>
+	<e:Image id="gameLevelImg" y="271" source="ermjn_chuji" x="62"/>
+	<e:Image id="stateImg" y="388" source="ermjn_baoman" x="127"/>
+</e:Skin>

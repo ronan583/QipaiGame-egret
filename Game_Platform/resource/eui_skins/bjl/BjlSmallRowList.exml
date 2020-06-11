@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlSmallRowListSkin" width="19" height="119" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16938bdd17f" ></w:Config>
+	<e:Image x="0" y="0" source="hlssm_luzi_item_2_1"/>
+	<e:Image x="0" y="21" source="hlssm_luzi_item_2_2"/>
+	<e:Image x="0" y="41" source="hlssm_luzi_item_2_2"/>
+	<e:Image x="0" y="62" source="hlssm_luzi_item_2_2"/>
+	<e:Image x="0" y="83" source="hlssm_luzi_item_2_2"/>
+	<e:Image x="0" y="103.5" source="hlssm_luzi_item_2_2"/>
+</e:Skin>

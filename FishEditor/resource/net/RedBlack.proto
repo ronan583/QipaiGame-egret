@@ -1,0 +1,178 @@
+option java_package = "com.gp.game.message";
+
+
+//请求单个房间信息
+message OPRedBlackSingle {
+	required int32 roomId = 1;//房间id
+}
+message OPRedBlackSingleRet {
+	required OPRedBlackRoomInfo roomInfos = 1;
+}
+
+//房间列表
+message OPRedBlackList {
+	required int32 gameType = 1;
+}
+message OPRedBlackListRet {
+	repeated OPRedBlackRoomInfo roomInfos = 1;
+}
+
+//房间信息
+message OPRedBlackRoomInfo {
+	required int32 gameLevel = 1;//房间类型 0.体验场 1.普通 2.贵宾 3.豪华
+	required int32 type = 2;//1.下注中 2.结算中
+	required int32 downTime = 3;//倒计时时间
+	repeated OPRedBlackWinFails winFails = 4;//
+	required int32 roomId = 5;//房间id
+	required int32 order = 6;//序号
+}
+
+//输赢情况
+message OPRedBlackWinFails {
+	required int32 round = 1;//回合数
+	required int32 winType = 2;//1.红 2.黑 
+}
+
+//开始or停止下注
+message OPPushRedBlackBattleStatus {
+	required int32 status = 1; //1开始下注 2.停止下注3发牌
+	required int32 downTime = 2;//超时时间
+	optional bool isSwitchBanker = 3;//是否切换庄家 true 切换
+	required int32 serialNumber = 4; //局数编号
+} 
+
+//下注
+message OPRedBlackStake{
+	required int32 type = 1; //1.红 2.黑3.幸运
+	required int64 value = 2;//下注值
+}
+message OPRedBlackStakeRet{
+	required int64 playerId = 1; //下注人
+	required int32 type = 2; //1.红 2.黑3.幸运
+	required int64 value = 3;//下注值
+	optional int64 totalValue = 4;//下注值
+}
+
+//查看玩家列表排行
+message OPRedBlackPlayerRank{
+	required int32 version = 1; //
+}
+message OPRedBlackPlayerRankRet{
+	repeated OPRedBlackPlayerRankInfo rankInfo = 1; //下标 0.神算子 1以后排行
+}
+
+//玩家排名信息
+message OPRedBlackPlayerRankInfo{
+	required int32 headNum = 1;//头像编号
+	required string nickName = 2;//昵称
+	required int64 money = 3;//余额
+}
+
+//查看胜负情况
+message OPRedBlackWinFail{
+	required int32 version = 1; //
+}
+message OPRedBlackWinFailRet{
+	repeated int32 winType = 1;//1.红 2.黑
+	repeated int32 cardType = 2; //牌类型 单个 对子等。。。
+	optional int32 redCount = 3;//红赢次数
+	optional int32 blackCount = 4;//黑赢次数
+}
+
+//开始游戏
+message OPPushRedBlackStartGame {
+	repeated OPRedBlackCardInfo cardInfos = 1;// 牌信息
+	repeated OPRedBlackPlayerBattleInfo battleInfo = 2;// 玩家战斗信息
+}
+
+//牌信息
+message OPRedBlackCardInfo {
+	repeated int32 card = 1; //牌
+	required int32 type = 2; //1.红 2.黑 
+	optional bool isWin = 3; // true 赢 false输
+	required int32 cardType = 4; //牌类型 单个 对子等。。。
+}
+
+//玩家牌信息
+message OPRedBlackPlayerBattleInfo {
+	required int64 playerId = 1; //
+	repeated OPRedBlackPlayerStakeInfo playerStake = 2;// 下注信息
+	optional int64 money = 3; //输赢金币
+	optional int64 totalMoney = 4; //最终的总金币
+}
+
+//下注信息
+message OPRedBlackPlayerStakeInfo {
+	required int32 type = 1; //1.红 2.黑 3.幸运
+	required int64 value = 2;//下注值
+}
+
+message OpRedBlackFirstRoom{
+	required int32 roomId = 1; //房间ID
+}
+
+message OpRedBlackFirstRoomPush{
+	required int32 status = 1; //1开始下注 2.停止下注3发牌
+	required int32 downTime = 2;//超时时间
+	repeated OPRedBlackPlayerBattleInfo battleInfo = 3;//
+	repeated OPRedBlackCardInfo cardInfos = 4 ;      // 牌
+	repeated OPRedBlackWinFailInfo winFails = 5 ;   
+	repeated OPRedBlackBankerInfo bankerInfos = 6;//申请上庄 庄家信息 集合有多少数量就有多少人
+	optional int64 upBankerMinMoney = 7 ;//上庄最低金额
+	required int32 serialNumber = 8; //局数编号
+	repeated OPRedBlackPlayerStakeInfo totalStake = 9;//每个区域总下注值 1.红 2.黑 3.幸运
+}
+
+
+//输赢情况
+message OPRedBlackWinFailInfo {
+	required int32 winType = 1;//1.红 2.黑
+	required int32 cardType = 2;//牌类型 单个 对子等。。。
+}
+
+message OPRedBlackFirstRoomBattleInfo {
+	required int64 playerId = 1; //
+	repeated OPRedBlackPlayerStakeInfo playerStake = 2;// 下注信息
+}
+
+
+message OPRedBlackBankerInfo {
+	required int32 type = 1; //1普通 2抢庄
+	required int64 playerId = 2; //1普通 2抢庄
+	required string applyBankerName = 3;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+//上庄
+message OpRedBlackUpBanker{
+	required int32 type = 1; //1普通 2抢庄
+}
+message OpRedBlackUpBankerRet{
+	required OPRedBlackBankerInfo bankerInfos = 1;
+}
+
+//下庄
+message OpRedBlackDownBanker{
+	required int32 version = 1; //
+}
+message OpRedBlackDownBankerRet{
+	repeated OPRedBlackBankerInfo bankerInfos = 6;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

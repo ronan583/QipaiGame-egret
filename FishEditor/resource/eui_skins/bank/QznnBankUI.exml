@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QznnBankUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="qznn_help_bg_png" horizontalCenter="0" verticalCenter="0" x="296" y="133" scaleX="1" scaleY="1"/>
+		<e:Image source="qznn_battle_json.qznn_withdraw" y="59" horizontalCenter="0"/>
+		<ns1:IButton id="closebtn" label="" x="1068" y="64" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="qznn_help_close_png" source.down="qznn_help_close_png" source.disabled="qznn_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="bankMoney" text="0" y="222.64" size="25" fontFamily="Microsoft YaHei" textColor="0x7b5934" horizontalCenter="-175.5" anchorOffsetX="0" width="128.64" anchorOffsetY="0" height="28.03"/>
+		<e:Label id="curMoney" text="0" y="224.16" size="25" fontFamily="Microsoft YaHei" textColor="0x7b5934" horizontalCenter="265" anchorOffsetX="0" width="98.33" anchorOffsetY="0" height="28.03"/>
+
+
+		<e:Image x="411.5" y="300" scaleX="1" scaleY="1" source="withdraw_frame"/>
+		<e:EditableText id="drawMoneyLabel" width="448" height="40" text="0" x="437.67" anchorOffsetY="0" fontFamily="Microsoft YaHei" anchorOffsetX="0" verticalAlign="middle" y="317.98" scaleX="1" scaleY="1" size="25" textColor="0xffffff" textAlign="center"/>
+		<e:Label text="零" y="387" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="25" textColor="0x7b5934" horizontalCenter="-23.5" visible="false"/>
+		<ns1:IButton id="maxBtn" label="" x="989.67" y="433.38" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="all_btn" source.down="all_btn" source.disabled="all_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:ProgressBar id="progressbar" width="679.09" height="18.48" x="276.24" y="459" skinName="QznnBankProgressBarSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:SettingSlider id="slider" enabled="true" value="0" maximum="100" horizontalCenter="-66" verticalCenter="95" skinName="QynnSetSliderSkin"/>
+		<ns1:IButton id="drawBtn" label="" y="590" horizontalCenter="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="qznn_withdraws_Btn" source.down="qznn_withdraws_Btn" source.disabled="qznn_withdraws_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label text="银行余额：" x="298" y="223" fontFamily="Microsoft YaHei" size="25" textColor="0x7b5934"/>
+		<e:Label text="当前余额：" x="755" y="221.12" fontFamily="Microsoft YaHei" size="25" textColor="0x7B5934"/>
+
+	</e:Group>
+</e:Skin>

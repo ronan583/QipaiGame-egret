@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlStartPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" xmlns:ns1="*" >
+	<w:Config id="168f5b4350f" ></w:Config>
+	<e:Image width="1280" height="720" x="0" y="0" scale9Grid="64,64,384,100" source="main_bg_png"/>
+	<e:Image x="0" y="0" source="roomRes_json.topBar"/>
+
+	<ns1:IButton id="backBtn" label="" x="29.73" y="21.67">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="roomRes_json.btn_back" source.down="roomRes_json.btn_back" source.disabled="roomRes_json.btn_back"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<e:Image x="176.82" y="20.92" source="roomRes_json.nameLabelBG"/>
+	<e:Label id="nameLabel" text="我的名称7个字" x="190.49" y="29.91" size="31" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xFFF3DB" width="261" height="31"/>
+	<e:Image x="1057.75" y="19" source="bjl_title"/>
+	<e:Group x="538" y="14.92">
+		<e:Image x="35.05" y="10.83" width="263.67" height="47" anchorOffsetY="0" source="gp_main_coin_bg" scale9Grid="138,20,24,13" anchorOffsetX="0"/>
+		<e:Image x="10.09" y="6.41" source="gp_main_coin"/>
+		<ns1:IButton id="addMoneyBtn" label="" x="258.31" y="11.8">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:game="game.*" xmlns:tween="egret.tween.*">
+				<e:Image width="100%" height="100%" source="gp_coin_add" source.down="gp_coin_add" source.disabled="gp_coin_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:BitmapLabel id="goldNum" width="223.03" height="45.76" x="56" y="12" text="0.55" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="commonfnt_fnt"/>
+	</e:Group>
+	<bjl:StartPanelRadioGroup id="radioGroup" x="21.25" y="107.67"/>
+	<e:Scroller id="_scroller" width="1226" height="534.12" x="24" y="183" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" width="1226" height="1106.12">
+
+
+
+
+
+
+			<e:Group id="itemGroup" x="0" y="0" anchorOffsetX="0" width="1219">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<e:layout>
+					<e:TileLayout requestedColumnCount="2" horizontalGap="5" verticalGap="2" orientation="rows"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+
+		</e:Group>
+	</e:Scroller>
+
+</e:Skin>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlResultRoadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" >
+	<w:Config id="169353fae19" ></w:Config>
+	
+	<e:Image y="0" x="0" source="bjlGame_json.bg_zpl"/>
+	<e:Group x="38" y="0" scaleX="0.975">
+		<e:Image y="0" x="0" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="0" x="0" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="10" x="10" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="20" x="20" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="30" x="30" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="40" x="40" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="50" x="50" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="60" x="60" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="70" x="70" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="80" x="80" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:Image y="90" x="90" source="bjlGame_json.hlssm_luzi_item_bg_1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="resultGroup" x="38" y="0" anchorOffsetX="0" width="545.42" anchorOffsetY="0" height="304">
+		<bjl:BjlResultItem x="-87" y="-130"/>
+		<bjl:BjlResultItem x="-77" y="-120"/>
+		<bjl:BjlResultItem x="-67" y="-110"/>
+		<bjl:BjlResultItem x="-57" y="-100"/>
+		<bjl:BjlResultItem x="-47" y="-90"/>
+		<bjl:BjlResultItem x="-37" y="-80"/>
+		<bjl:BjlResultItem x="-27" y="-70"/>
+		<bjl:BjlResultItem x="-17" y="-60"/>
+		<bjl:BjlResultItem x="-7" y="-50"/>
+		<bjl:BjlResultItem x="3" y="-40"/>
+		<bjl:BjlResultItem x="13" y="-30"/>
+		<bjl:BjlResultItem x="23" y="-20"/>
+		<bjl:BjlResultItem x="33" y="-10"/>
+		<bjl:BjlResultItem x="43" y="0"/>
+		<bjl:BjlResultItem x="53" y="10"/>
+		<bjl:BjlResultItem x="63" y="20"/>
+		<bjl:BjlResultItem x="73" y="30"/>
+		<bjl:BjlResultItem x="83" y="40"/>
+		<bjl:BjlResultItem x="93" y="50"/>
+		<bjl:BjlResultItem x="103" y="60"/>
+		<bjl:BjlResultItem x="113" y="70"/>
+		<bjl:BjlResultItem x="123" y="80"/>
+		<bjl:BjlResultItem x="133" y="90"/>
+		<bjl:BjlResultItem x="143" y="100"/>
+		<bjl:BjlResultItem x="153" y="110"/>
+		<bjl:BjlResultItem x="163" y="120"/>
+		<bjl:BjlResultItem x="173" y="130"/>
+		<bjl:BjlResultItem x="183" y="140"/>
+		<bjl:BjlResultItem x="193" y="150"/>
+		<bjl:BjlResultItem x="203" y="160"/>
+		<bjl:BjlResultItem x="213" y="170"/>
+		<bjl:BjlResultItem x="223" y="180"/>
+		<bjl:BjlResultItem x="233" y="190"/>
+		<bjl:BjlResultItem x="243" y="200"/>
+		<bjl:BjlResultItem x="253" y="210"/>
+		<bjl:BjlResultItem x="263" y="220"/>
+		<bjl:BjlResultItem x="273" y="230"/>
+		<bjl:BjlResultItem x="283" y="240"/>
+		<bjl:BjlResultItem x="293" y="250"/>
+		<bjl:BjlResultItem x="303" y="260"/>
+		<bjl:BjlResultItem x="313" y="270"/>
+		<bjl:BjlResultItem x="323" y="280"/>
+		<bjl:BjlResultItem x="333" y="290"/>
+		<bjl:BjlResultItem x="343" y="300"/>
+		<bjl:BjlResultItem x="353" y="310"/>
+		<bjl:BjlResultItem x="363" y="320"/>
+		<bjl:BjlResultItem x="373" y="330"/>
+		<bjl:BjlResultItem x="383" y="340"/>
+		<bjl:BjlResultItem x="393" y="350"/>
+		<bjl:BjlResultItem x="403" y="360"/>
+		<bjl:BjlResultItem x="413" y="370"/>
+		<bjl:BjlResultItem x="423" y="380"/>
+		<bjl:BjlResultItem x="433" y="390"/>
+		<bjl:BjlResultItem x="443" y="400"/>
+		<bjl:BjlResultItem x="453" y="410"/>
+		<bjl:BjlResultItem x="463" y="420"/>
+		<bjl:BjlResultItem x="473" y="430"/>
+		<bjl:BjlResultItem x="483" y="440"/>
+		<bjl:BjlResultItem x="493" y="450"/>
+		<bjl:BjlResultItem x="503" y="460"/>
+		<bjl:BjlResultItem x="513" y="470"/>
+		<bjl:BjlResultItem x="523" y="480"/>
+		<bjl:BjlResultItem x="533" y="490"/>
+		<bjl:BjlResultItem x="543" y="500"/>
+		<bjl:BjlResultItem x="553" y="510"/>
+		<bjl:BjlResultItem x="563" y="520"/>
+		<e:layout>
+		<e:TileLayout requestedColumnCount="3" requestedRowCount="6" orientation="columns" horizontalAlign="center" verticalAlign="middle" paddingLeft="5" paddingTop="5" horizontalGap="9.5" verticalGap="10.5"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

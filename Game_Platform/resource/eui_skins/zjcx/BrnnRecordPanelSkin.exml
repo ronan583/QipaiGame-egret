@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg" horizontalCenter="0.5" verticalCenter="45" source="brnn_zjcx_json.brnn_zjcx_bgpanel"/>
+		<e:Image id="bankerWinBg" source="brnn_zjcx_json.brnn_zjcx_bgpanellabel" x="847.98" y="163"/>
+		<e:Image source="brnn_zjcx_json.brnn_zjcx_bgpanellabel" x="847.98" y="273" id="bankerWinBg0"/>
+		<e:Image source="brnn_zjcx_json.brnn_zjcx_bgpanellabel" x="847.98" y="383" id="bankerWinBg1"/>
+		<e:Image source="brnn_zjcx_json.brnn_zjcx_bgpanellabel" x="847.98" y="493" id="bankerWinBg2"/>
+		<e:Image source="brnn_zjcx_json.brnn_zjcx_bgpanellabel" x="847.98" y="605" id="bankerWinBg3"/>
+		<e:BitmapLabel id="winMoneyLabel0" width="222.67" height="50.67" x="910.35" y="173.33" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="brnn_zjcx_win_fnt"/>
+		<e:BitmapLabel id="winMoneyLabel1" width="222.67" height="50.67" x="910.35" y="286.33" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="brnn_zjcx_lose_fnt"/>
+		<e:BitmapLabel id="winMoneyLabel2" width="222.67" height="50.67" x="910.35" y="396.33" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="brnn_zjcx_lose_fnt"/>
+		<e:BitmapLabel id="winMoneyLabel3" width="222.67" height="50.67" x="910.35" y="507.33" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="brnn_zjcx_lose_fnt"/>
+		<e:BitmapLabel id="winMoneyLabel4" width="222.67" height="50.67" x="910.35" y="617.33" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="brnn_zjcx_lose_fnt"/>
+		<e:Group width="292" height="598.67" x="284" y="126.65" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:BrnnRecordCardGroup id="cardGroup0" skinName="RecordCardGroup" y="-26.66" x="13.33"/>
+			<ns1:BrnnRecordCardGroup skinName="RecordCardGroup" y="-16.66" x="23.33" id="cardGroup1"/>
+			<ns1:BrnnRecordCardGroup skinName="RecordCardGroup" y="-6.66" x="33.33" id="cardGroup2"/>
+			<ns1:BrnnRecordCardGroup skinName="RecordCardGroup" y="3.34" x="43.33" id="cardGroup3"/>
+			<ns1:BrnnRecordCardGroup skinName="RecordCardGroup" y="13.34" x="53.33" id="cardGroup4"/>
+			<e:layout>
+				<e:VerticalLayout gap="-16"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="nobetImg0" source="brnn_zjcx_json.brnn_zjcx_imgnobet" x="591.01" y="173.66" visible="false"/>
+		<e:Image id="nobetImg1" source="brnn_zjcx_json.brnn_zjcx_imgnobet" x="591.01" y="287.01" visible="false"/>
+		<e:Image id="nobetImg2" source="brnn_zjcx_json.brnn_zjcx_imgnobet" x="591.01" y="398.34" visible="false"/>
+		<e:Image id="nobetImg3" source="brnn_zjcx_json.brnn_zjcx_imgnobet" x="591.01" y="503.66" visible="false"/>
+		<e:Image id="nobetImg4" source="brnn_zjcx_json.brnn_zjcx_imgnobet" x="591.01" y="617.65" visible="false"/>
+		<e:Label id="betLabel0" text="下注：12345" x="571.67" y="177.02" anchorOffsetX="0" width="275.34" anchorOffsetY="0" height="54" textColor="0x493621" bold="true" size="33" fontFamily="Microsoft YaHei"/>
+		<e:Label text="下注：12345" x="571.67" y="293.69" anchorOffsetX="0" width="275.34" anchorOffsetY="0" height="54" textColor="0x493621" bold="true" size="33" fontFamily="Microsoft YaHei" id="betLabel1"/>
+		<e:Label text="下注：12345" x="571.67" y="400.69" anchorOffsetX="0" width="275.34" anchorOffsetY="0" height="54" textColor="0x493621" bold="true" size="33" fontFamily="Microsoft YaHei" id="betLabel2"/>
+		<e:Label text="下注：12345" x="571.67" y="509.68" anchorOffsetX="0" width="275.34" anchorOffsetY="0" height="54" textColor="0x493621" bold="true" size="33" fontFamily="Microsoft YaHei" id="betLabel3"/>
+		<e:Label text="下注：12345" x="571.67" y="625" anchorOffsetX="0" width="275.34" anchorOffsetY="0" height="54" textColor="0x493621" bold="true" size="33" fontFamily="Microsoft YaHei" id="betLabel4"/>
+	</e:Group>
+</e:Skin>

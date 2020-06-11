@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlChangeRoomPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:bjl="game.bjl.*" >
+	<w:Config id="1693ddedf8d" ></w:Config>
+	<e:Image width="1022.43" height="589.7" x="130.3" y="66" source="blacktonone_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:IButton id="closeBtn" label="" x="1063.23" y="44.18">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png" source.down="close_png" source.disabled="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<e:Image width="180" height="53" x="547.79" y="69.67" source="bjlGame_json.baijiale"/>
+	<e:Scroller width="1280" height="662.12" y="123" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" horizontalCenter="0">
+		<e:Group anchorOffsetY="0" height="662.12">
+		<bjl:StartCornerItem id="item0" width="640" height="280" x="-193.54000000000005" y="65.57" scaleX="1" scaleY="1"/>
+		<bjl:StartCornerItem id="item1" width="640" height="280" x="447.46000000000004" y="65.57" scaleX="1" scaleY="1"/>
+		<bjl:StartCornerItem id="item2" width="640" height="280" x="-193.54000000000005" y="347.57" scaleX="1" scaleY="1"/>
+		<bjl:StartCornerItem id="item3" width="640" height="280" x="447.46000000000004" y="347.57" scaleX="1" scaleY="1"/>
+		<bjl:StartCornerItem id="item4" width="640" height="280" x="-193.54000000000005" y="629.5699999999999" scaleX="1" scaleY="1"/>
+		<bjl:StartCornerItem id="item5" width="640" height="280" x="447.46000000000004" y="629.5699999999999" scaleX="1" scaleY="1"/>
+		<bjl:StartCornerItem id="item6" width="640" height="280" x="457.46000000000004" y="639.5699999999999" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="2" verticalGap="2" requestedColumnCount="2"/>
+		</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

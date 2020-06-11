@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DdzRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg1" horizontalCenter="0.5" verticalCenter="15.5" source="ddz_zjcx_json.ddz_zjcx_bgpanel"/>
+		<e:Image id="winIcon" x="813.61" y="267.67" source="ddz_zjcx_json.ddz_zjcx_iconwin"/>
+		<e:Image id="roleIcon" x="306" y="277.03" source="ddz_zjcx_imgbanker"/>
+		<e:Image id="bankerIcon" source="ddz_zjcx_json.ddz_zjcx_iconbank" x="165.56" y="266.38"/>
+		<e:Label id="bottomBet" text="12345" x="280" y="367.27" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" textColor="0xa61e1e" fontFamily="Microsoft YaHei"/>
+		<e:Label id="publicMulti" text="12345" x="540" y="367.27" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" textColor="0xA61E1E" fontFamily="Microsoft YaHei"/>
+		<e:Label id="farmerMulti" text="12345" x="814" y="367.27" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" textColor="0xA61E1E" fontFamily="Microsoft YaHei"/>
+		<e:Label id="allMulti" text="12345" x="1053" y="367.27" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" textColor="0xA61E1E" fontFamily="Microsoft YaHei"/>
+		<e:Label id="callScore" text="12345" x="280" y="457.27" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" textColor="0xA61E1E" fontFamily="Microsoft YaHei"/>
+		<e:Label id="boomNum" text="12345" x="537" y="457.27" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" textColor="0xA61E1E" fontFamily="Microsoft YaHei"/>
+		<e:Label id="spring" text="12345" x="817" y="457.27" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" textColor="0xA61E1E" fontFamily="Microsoft YaHei"/>
+		<e:BitmapLabel id="winLabel" width="174" height="41" x="913" y="283" anchorOffsetX="0" anchorOffsetY="0" font="ddz_zjcx_win_fnt" text="12345" letterSpacing="-8"/>
+	</e:Group>
+</e:Skin>

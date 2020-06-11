@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzCornerRoadSkin" width="884" height="264" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:lhdz="game.lhdz.*" >
+	<w:Config id="16a40f33b93" ></w:Config>
+
+
+	<e:Image y="-59.34" rotation="0" source="roomRes_json.room_bg" scaleX="1.42" scaleY="1.47" visible="false"/>
+	<lhdz:LhdzResultRoad id="resultRoad" width="352" height="292.3" x="1.26" y="2.19" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.88"/>
+	<lhdz:LhdzBigRoad id="bigRoad" x="320.99" y="1.96" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.864" scaleY="0.86" height="148.05"/>
+	<lhdz:LhdzThreeRoad id="dyzRoad" x="321" y="133.96" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.91" scaleY="0.85"/>
+	<lhdz:LhdzThreeRoad id="smallRoad" width="281.67" height="75.01" x="601.02" y="133.96" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.91" scaleY="0.85"/>
+	<lhdz:LhdzThreeRoad id="yueyouRoad" x="321.01" y="198.96" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.91" scaleY="0.85" height="74.41"/>
+
+</e:Skin>

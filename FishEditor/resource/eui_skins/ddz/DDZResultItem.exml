@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZResultItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="800" height="65">
+	<w:Config id="166b0dd1327" ></w:Config>
+	<e:Image id="itemBg" source="ddz_battle_json.ddz_results_win_frame" horizontalCenter="0" verticalCenter="11"/>
+	<e:Image id="lordFlag" source="ddz_battle_json.ddz_lords_icon" verticalCenter="0" left="0"/>
+	<e:Label id="playerName" text="一二三四五六七" size="24" verticalAlign="middle" textAlign="center" width="220" fontFamily="Microsoft YaHei" left="58" verticalCenter="0" textColor="0xe4cdbe"/>
+	<e:Label id="base" text="0.05元" size="24" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xe4cdbe" verticalCenter="0" left="313"/>
+	<e:Label id="multi" text="3" size="24" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xe4cdbe" verticalCenter="0" left="500"/>
+	<e:Label id="coin" text="-10000元" size="24" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" width="143" textColor="0xe4cdbe" verticalCenter="0" left="624"/>
+	<e:Image id="multiImg" source="ddz_battle_json.ddz_rate_btn" left="543" verticalCenter="0.5"/>
+	<e:Group id="lordGroup" x="284" y="-214" visible="false">
+		<e:Image source="ddz_battle_json.ddz_results_lord_bg" horizontalCenter="0" verticalCenter="0"/>
+		<e:BitmapLabel id="lord" text="x3" font="ddz_res_red_fnt" verticalCenter="-36" horizontalCenter="-115.5"/>
+		<e:BitmapLabel id="bomb" text="-" font="ddz_res_red_fnt" verticalCenter="-35.5" horizontalCenter="37.5"/>
+		<e:BitmapLabel id="spring" text="-" font="ddz_res_red_fnt" verticalCenter="-35.5" horizontalCenter="208.5"/>
+		<e:BitmapLabel id="total" text="1" font="ddz_res_redo_fnt" verticalCenter="63.5" horizontalCenter="197"/>
+		<e:Label id="lordName" text="Guest4..." textColor="0x000000" size="24" fontFamily="Microsoft YaHei" verticalCenter="62" left="18"/>
+	</e:Group>
+	<e:Group id="multiGroup" horizontalCenter="141" y="-214" visible="false">
+		<e:Image x="2" y="0" source="ddz_battle_json.ddz_results_multi_bg"/>
+		<e:BitmapLabel id="lordMulti" text="x3" font="ddz_res_red_fnt" verticalCenter="-36" horizontalCenter="-115.5"/>
+		<e:BitmapLabel id="bombMulti" text="-" font="ddz_res_red_fnt" verticalCenter="-35.5" horizontalCenter="37.5"/>
+		<e:BitmapLabel id="springMulti" text="-" font="ddz_res_red_fnt" verticalCenter="-35.5" horizontalCenter="208.5"/>
+		<e:BitmapLabel id="peasantMulti" text="1" font="ddz_res_redo_fnt" verticalCenter="63.5" horizontalCenter="-11"/>
+		<e:BitmapLabel id="commonMulti" text="1" font="ddz_res_redo_fnt" verticalCenter="63.5" horizontalCenter="102"/>
+		<e:BitmapLabel id="totalMulti" text="1" font="ddz_res_redo_fnt" verticalCenter="63.5" horizontalCenter="198"/>
+	</e:Group>
+</e:Skin>

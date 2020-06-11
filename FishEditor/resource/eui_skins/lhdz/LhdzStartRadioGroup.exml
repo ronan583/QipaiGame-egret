@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzStartRadioGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a434d3f90" ></w:Config>
+	<e:Image id="imgLevelAll0" x="0" y="0" touchEnabled="false" source="roomRes_json.title_bg"/>
+
+	<e:Group x="0" y="0">
+		<ns1:IButton id="radioBtnAll" xmlns:ns1="*" label="" x="0" y="2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:bjl="game.bjl.*">
+			<e:Image width="100%" height="100%" source="roomRes_json.radioBtn" source.down="roomRes_json.radioBtn" source.disabled="roomRes_json.radioBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="radioBtn0" xmlns:ns1="*" label="" x="240.92" y="2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:bjl="game.bjl.*">
+			<e:Image width="100%" height="100%" source="roomRes_json.radioBtn" source.down="roomRes_json.radioBtn" source.disabled="roomRes_json.radioBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="radioBtn1" xmlns:ns1="*" label="" x="501.44" y="2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:bjl="game.bjl.*">
+			<e:Image width="100%" height="100%" source="roomRes_json.radioBtn" source.down="roomRes_json.radioBtn" source.disabled="roomRes_json.radioBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="radioBtn2" xmlns:ns1="*" label="" x="758.04" y="2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:bjl="game.bjl.*">
+			<e:Image width="100%" height="100%" source="roomRes_json.radioBtn" source.down="roomRes_json.radioBtn" source.disabled="roomRes_json.radioBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="radioBtn3" xmlns:ns1="*" label="" x="1003.04" y="2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:bjl="game.bjl.*">
+			<e:Image width="100%" height="100%" source="roomRes_json.radioBtn" source.down="roomRes_json.radioBtn" source.disabled="roomRes_json.radioBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<e:Image id="imgLevelAll" width="68" height="36" x="73.99" y="15" touchEnabled="false" source="roomRes_json.all_over"/>
+		<e:Image id="imgLevel0" x="296.92" y="15" touchEnabled="false" source="roomRes_json.level0_over"/>
+		<e:Image id="imgLevel1" x="562.99" y="15" touchEnabled="false" source="roomRes_json.level1_over"/>
+		<e:Image id="imgLevel2" width="100" height="36" x="819.99" y="13" touchEnabled="false" source="roomRes_json.level2_over"/>
+		<e:Image id="imgLevel3" width="100" height="36" x="1059.32" y="13" touchEnabled="false" source="roomRes_json.level3_over"/>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

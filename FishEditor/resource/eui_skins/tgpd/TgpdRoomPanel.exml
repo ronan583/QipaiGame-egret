@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TgpdRoomPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.tgpd.*" xmlns:ns1="*" >
+	<e:Image horizontalCenter="0" source="tgpdn_room_bg_png"/>
+
+
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image x="927.11" y="5.12" scaleX="1" scaleY="1" source="ncandy_room_logo"/>
+		<e:Group id="bottomGroup" width="1334" height="92" y="654" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" touchThrough="true" touchChildren="true">
+			<e:Image source="candy_room_new_json.ncandy_room_imgbottom" y="0" horizontalCenter="0"/>
+
+
+			<e:Image x="527.44" y="49.73" scaleX="1" scaleY="1" source="ncandy_room_labelbg"/>
+			<e:Image x="479.46" y="33.09" scaleX="1" scaleY="1" source="candy_room_new_json.ncandy_room_icongold"/>
+			<e:Label id="goldLabel" text="478773.2" x="504.01" y="42.82" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" anchorOffsetY="0" height="44.15" anchorOffsetX="0" width="220.55" verticalAlign="middle" textAlign="center" textColor="0xfde67c"/>
+
+
+			<e:Image source="candy_room_new_json.ncandy_room_headbg" x="68" y="2.64"/>
+			<e:Image id="headImg" width="63.12" height="64.12" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="80.32" y="15.3" source="gp_head_1"/>
+
+			<e:Image source="candy_room_new_json.ncandy_room_labelbg" x="172.58" y="52.31"/>
+			<e:Label id="nameLabel" text="Guest12354" x="151.36" y="44.63" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" anchorOffsetY="0" height="44.15" anchorOffsetX="0" width="220.55" verticalAlign="middle" textAlign="center" textColor="0xffffff"/>
+
+		</e:Group>
+		<e:Group id="roomItem111" width="313.64" height="392.42" x="295" y="179" anchorOffsetX="0" anchorOffsetY="0" touchChildren="true">
+			<e:Image y="-6.08" x="-19.71" source="ncandy_room_roomitem0" visible="false"/>
+			<ns1:DragonAnim id="anim0" width="332" height="372" x="-4.65" y="18.62" anchorOffsetX="0" anchorOffsetY="0" anim="tgpd_tiyanc" aligntype="middle" defaultPlayAnim="animation" isloop="false" playOnStage="true"/>
+			<e:Image source="candy_room_new_json.ncandy_room_roomlevel0" x="46.82" y="211.42" visible="false"/>
+			<e:Rect id="roomItem1" width="295.76" height="388.18" x="10.85" y="10.77" fillAlpha="0" strokeAlpha="0" anchorOffsetX="0" anchorOffsetY="0"/>
+
+		</e:Group>
+		<e:Group id="roomItem22" width="313.64" height="392.42" x="725" y="179" anchorOffsetX="0" anchorOffsetY="0" touchChildren="true">
+			<e:Image y="-6.08" x="-19.71" source="ncandy_room_roomitem1" visible="false"/>
+			<ns1:DragonAnim id="anim1" width="332" height="372" x="-7.98" y="7.36" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="tgpd_putongc" defaultPlayAnim="animation" isloop="false" playOnStage="true"/>
+			<e:Image source="candy_room_new_json.ncandy_room_roomlevel1" x="48.52" y="212.42" visible="false"/>
+			<e:Rect id="roomItem2" width="295.76" height="388.18" x="12.86" y="7.36" fillAlpha="0" strokeAlpha="0" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Button id="goldAddBtn" label="" x="686.62" y="690.77" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="candy_room_new_json.ncandy_room_btncharge" source.down="candy_room_new_json.ncandy_room_btncharge" source.disabled="candy_room_new_json.ncandy_room_btncharge"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="quickStartGroup" width="390" height="100" y="650.55" right="0" touchEnabled="true">
+			<ns1:DragonAnim width="360" height="100" x="28" y="0" aligntype="middle" anim="tgpd_quickstart" defaultPlayAnim="animation" playOnStage="true" isloop="true"/>
+		</e:Group>
+
+
+
+
+
+	</e:Group>
+	<e:Group id="leftCornerGroup" width="272" height="144" y="0" anchorOffsetX="0" anchorOffsetY="0" left="19">
+		<e:Button id="backBtn" label="" x="45.15" y="19.86">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ncandy_room_btnback" source.down="ncandy_room_btnback" source.disabled="ncandy_room_btnback"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="helpBtn" label="" x="153.33" y="19.36">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ncandy_room_btnhelp" source.down="ncandy_room_btnhelp" source.disabled="ncandy_room_btnhelp"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="animGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0" touchThrough="true" visible="false">
+		<ns1:DragonAnim id="curtainAnim" width="400" height="300" anim="tgly_mubuluo" aligntype="middle" defaultPlayAnim="animation_1" isloop="false" playOnStage="false" horizontalCenter="13" verticalCenter="0"/>
+	</e:Group>
+
+
+	<e:Button id="testBtn" label="Button" x="915" y="64" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

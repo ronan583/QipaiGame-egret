@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPlayCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="777" height="115">
+	<w:Config id="166884034f8" ></w:Config>
+	<ns1:IButton id="buyaoBtn" label="" verticalCenter="0" left="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_pass_btn" source.down="ddz_battle_json.ddz_pass_btn" source.disabled="ddz_battle_json.ddz_pass_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<ns1:IButton id="tipsBtn" label="" verticalCenter="0.5" horizontalCenter="47">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_tips_btn" source.down="ddz_battle_json.ddz_tips_btn" source.disabled="ddz_battle_json.ddz_tips_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<ns1:IButton id="playBtn" label="" x="548" verticalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_play_btn" source.down="ddz_battle_json.ddz_play_btn" source.disabled="ddz_battle_json.ddz_play_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<ns1:IButton id="yaobuqiBtn" label="" horizontalCenter="47" verticalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_nomore_btn" source.down="ddz_battle_json.ddz_nomore_btn" source.disabled="ddz_battle_json.ddz_nomore_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<ns1:DDZClock id="clock" verticalCenter="-6" x="227"/>
+</e:Skin>

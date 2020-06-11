@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmBankUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" source="bcbm_set-room-bank_json.bcbm_room_bg2"/>
+		<e:Image y="-15.65" source="bcbm_set-room-bank_json.bcbm_bank_titleWithdraw" horizontalCenter="138.5"/>
+		<ns1:IButton id="closebtn" label="" x="1002.33" y="49.02">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_room_btnxx" source.down="bcbm_room_btnxx" source.disabled="bcbm_room_btnxx"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="bankMoney" text="5123502.22" size="22" fontFamily="Microsoft YaHei" left="556" verticalCenter="-130" textColor="0xcdf0ff" anchorOffsetX="0" width="175" italic="true"/>
+		<e:Label id="curMoney" text="22400" size="22" fontFamily="Microsoft YaHei" left="864" verticalCenter="-129" textColor="0xcdf0ff" anchorOffsetX="0" width="165" italic="true"/>
+		<e:BitmapLabel id="curMoney2" width="163" height="41" x="554" y="228.5" anchorOffsetX="0" anchorOffsetY="0" font="vbcbm_bank_dq_fnt" text="34400" visible="false"/>
+		<e:BitmapLabel id="bankMoney2" width="163" height="41" x="832.5" y="227" anchorOffsetX="0" anchorOffsetY="0" text="234551" font="vbcbm_bank_dq_fnt" visible="false"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="35.5" verticalCenter="-20.5" source="bcbm_set-room-bank_json.bcbm_bank_dikuang"/>
+		<e:EditableText id="drawMoneyLabel" width="496.22" height="57.42" text="" fontFamily="Microsoft YaHei" verticalAlign="middle" y="324.69" size="25" textColor="0xbdb9b9" horizontalCenter="37" anchorOffsetX="0" anchorOffsetY="0" prompt="请输入取款金额" promptColor="0x153355"/>
+		<e:Label text="零" y="376.61" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="24" textColor="0x735747" horizontalCenter="0" visible="false"/>
+		<ns1:IButton id="maxBtn" label="" scaleX="1" scaleY="1" horizontalCenter="271.5" verticalCenter="87.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_set-room-bank_json.bcbm_bank_btnAll" source.down="bcbm_set-room-bank_json.bcbm_bank_btnAll" source.disabled="bcbm_set-room-bank_json.bcbm_bank_btnAll"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:ProgressBar id="progressbar" verticalCenter="88" horizontalCenter="-7" skinName="BcbmSettingProgressBarSkin"/>
+		<ns1:SettingSlider id="slider" enabled="true" value="0" maximum="100" horizontalCenter="-31.5" verticalCenter="86.5" anchorOffsetX="0" width="462.67" skinName="BcbmSettingSliderSkin"/>
+		<ns1:IButton id="drawBtn" label="" bottom="19" horizontalCenter="133">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_set-room-bank_json.bcbm_room_btnConfirm" source.down="bcbm_set-room-bank_json.bcbm_room_btnConfirm" source.disabled="bcbm_set-room-bank_json.bcbm_room_btnConfirm"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image source="bcbm_set-room-bank_json.bcbm_bank_labelBalance" x="742.66" y="231.35"/>
+		<e:Image source="bcbm_set-room-bank_json.bcbm_bank_labelBank" x="440.01" y="231"/>
+		<e:BitmapLabel id="bankMoney0" width="20" height="20" x="592" y="233" visible="false"/>
+		<e:BitmapLabel id="curMoney0" width="20" height="20" x="860" y="239" visible="false"/>
+		<e:Image source="bcbm_set-room-bank_json.bcbm_bank_labelPct0" x="405" y="488.33"/>
+		<e:Image source="bcbm_set-room-bank_json.bcbm_bank_labelPct100" x="825.67" y="488.67"/>
+		<e:Image source="bcbm_set-room-bank_json.bcbm_bank_labelPct50" x="624.33" y="487"/>
+		<e:Rect width="223" height="229" x="120" y="112" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xffffff" visible="false"/>
+		<e:Rect width="117" height="90" x="172" y="214" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x8c26c9" visible="false"/>
+	</e:Group>
+</e:Skin>

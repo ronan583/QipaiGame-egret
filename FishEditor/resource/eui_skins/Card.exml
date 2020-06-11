@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardSkin" height="102" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="78">
+	<w:Config id="166304db0b3" ></w:Config>
+
+	<e:Image id="bg" x="0" y="0" source="ndzpk_card" width="78" height="102"/>
+	<e:Image id="maskFlag" source="ndzpk_card" width="85" height="108" x="-3" y="-3"/>
+	<e:Rect id="huiseMask" fillColor="0x7f7e7e" strokeColor="0x727272" alpha="0.6" width="71" height="95" x="4" y="1.67" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="22" ellipseHeight="22" visible="false"/>
+</e:Skin>

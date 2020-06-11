@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ByRoomItemSkin" width="348" height="413" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16d2ffe93e0" ></w:Config>
+	<e:Image id="freeImg" x="121" y="331" source="nby_mianfei"/>
+	<e:Group id="infoGroup" width="197" height="35" x="85" y="329" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image x="39" y="7" source="nby_zhunru"/>
+		<e:BitmapLabel id="limitLabel" width="103" height="30" x="88" y="7" text="1111元" anchorOffsetX="0" anchorOffsetY="0" font="byRoomFnt1_fnt"/>
+	</e:Group>
+	<e:Image id="gameLevelImg" x="93" y="252" source="nby_tiyan"/>
+	<e:Image id="stateImg" y="393" source="nby_yongji" x="138"/>
+</e:Skin>

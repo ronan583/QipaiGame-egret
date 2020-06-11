@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameBulletinList" width="685" height="115" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="notice_frame_bg" width="685" height="115" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="notice_email" source="notice_email_read" horizontalCenter="-273.5" verticalCenter="0"/>
+	<e:Label id="titleLab" y="21" size="24" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="415" textAlign="left" text="欢迎来到《xxxx》" height="25" x="128" textColor="0xffffff"/>
+	<e:Label id="dateLab" x="348.64" y="54" size="24" fontFamily="Microsoft YaHei" anchorOffsetX="0" textAlign="left" text="2019-03-11 12:12:12" width="243" height="25" textColor="0x64abd8"/>
+	<e:Label text="发件人：" y="54" size="24" fontFamily="Microsoft YaHei" x="128" textColor="0xcee3ff" anchorOffsetX="0" width="96"/>
+	<e:Label id="senderLab" y="54" fontFamily="Microsoft YaHei" size="24" anchorOffsetX="0" width="125" anchorOffsetY="0" height="23.33" textAlign="left" text="系统" x="224" textColor="0xcee3ff"/>
+	<e:Image id="annImg" x="592" y="16" alpha="1" source="notice_read"/>
+</e:Skin>

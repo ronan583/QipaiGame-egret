@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzXianzhiFlagSkin" width="40" height="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16e279332da" ></w:Config>
+	<ns1:DragonAnim id="shensuanziAnim" width="20" height="20" x="10" y="5" aligntype="middle" anim="hhdz_xianzhi_anim" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+	<e:Group width="8" height="9" x="17" y="10" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

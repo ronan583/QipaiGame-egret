@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeHeadIconPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16635a50c1f" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="info_frame_1" y="118" x="296" scaleX="1" scaleY="1"/>
+		<e:Image y="77.56" source="info_title_frame" horizontalCenter="0" x="409" scaleX="1" scaleY="1"/>
+		<e:Image y="95" source="info_title_2" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<ns1:IButton id="closeBtn" label="" x="971" y="131.69" width="60" height="60" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_close" source.down="rank_close" source.disabled="rank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Scroller id="headScroller" width="636" height="341" y="195" anchorOffsetX="0" anchorOffsetY="0" x="349" scaleX="1" scaleY="1">
+			<e:Group id="headGroup" x="-56.06" y="-29.85">
+			<e:layout>
+				<e:TileLayout rowHeight="108" columnWidth="130" requestedColumnCount="4" horizontalGap="20" verticalGap="6" paddingTop="8" paddingLeft="30"/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

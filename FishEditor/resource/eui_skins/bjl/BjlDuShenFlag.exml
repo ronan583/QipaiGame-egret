@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlDuShenFlagSkin" width="40.91" height="33.33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16e0880fceb" ></w:Config>
+	<ns1:DragonAnim id="shensuanziAnim" width="20" height="20" x="4" y="0" aligntype="middle" anim="brnn_xingxing" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

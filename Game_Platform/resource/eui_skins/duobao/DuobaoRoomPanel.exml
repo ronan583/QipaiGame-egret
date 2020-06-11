@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuobaoRoomPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.duobao.*" xmlns:ns1="*" >
+	<e:Image horizontalCenter="0" source="duobaon_room_bg_jpg"/>
+	<e:Image horizontalCenter="0" source="duobaon_room_preview_jpg" visible="false"/>
+	<e:Group width="368" height="128" anchorOffsetY="0" bottom="-4" anchorOffsetX="0" left="0">
+		<e:Image x="106" y="42" source="duobaon_headbar"/>
+		<e:Image x="34" y="2" source="duobaon_head1"/>
+		<e:Image x="34" y="2" source="duobaon_mask"/>
+		<e:Image id="headImg" width="90" height="94" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="45" y="10"/>
+		<e:Image id="headMaskImg" x="34" y="2" source="duobaon_mask"/>
+		<e:Label id="nameLabel" text="Guest12354" x="174" y="70" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="1056" y="10" scaleX="1" scaleY="1" source="duobaon_logo"/>
+
+		<e:Group id="bottomGroup" width="1334" height="92" y="654" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+
+
+			<e:Image x="480" y="22" scaleX="1" scaleY="1" source="duobaon_gold_bg"/>
+			<e:Image x="476" y="28" scaleX="1" scaleY="1" source="duobaon_gold"/>
+			<e:Button id="goldAddBtn" label="" x="762" y="32" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="duobaon_add" source.down="duobaon_add" source.disabled="duobaon_add"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:BitmapLabel id="goldLabel" width="234" height="38" x="530" y="36" anchorOffsetX="0" anchorOffsetY="0" text="11111" font="gpn_gold_fnt" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+
+		</e:Group>
+
+
+		<e:Group id="roomItem1" width="324" height="516" x="284" y="88" anchorOffsetX="0" anchorOffsetY="0" touchThrough="false" touchChildren="false" touchEnabled="true">
+			<ns1:DragonAnim id="tiyanAnim" width="324" height="516" aligntype="middle" anim="lhdb_tiyan" y="3.33" scaleX="1.2" scaleY="1.2" x="9.34" touchEnabled="false" touchChildren="false" isTouchByGroup="true"/>
+			<e:Image y="8" anchorOffsetX="0" anchorOffsetY="0" source="duobaon_title_tiyan" x="65"/>
+			<e:Image y="393.31" source="duobaon_mianfei" x="119"/>
+			<e:Image y="409.31" source="duobaon_mianfei2" x="78"/>
+			<e:Group id="roomItemTouch1" width="322" height="504" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="roomItem2" width="324" height="516" x="728" y="88" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchThrough="false">
+			<ns1:DragonAnim id="putongAnim" width="324" height="479" x="-12" y="-6" scaleX="1.2" scaleY="1.2" aligntype="middle" anim="lhdb_putong" touchEnabled="true" touchChildren="true" isTouchByGroup="true"/>
+			<e:Image y="8" anchorOffsetX="0" anchorOffsetY="0" source="duobaon_title_putong" x="66"/>
+			<e:Image y="392" source="duobaon_zhunru1" x="92"/>
+			<e:Group id="roomItemTouch2" width="322" height="494" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true"/>
+		</e:Group>
+		<e:Group id="leftCornerGroup" width="272" height="144" y="0" anchorOffsetX="0" anchorOffsetY="0" left="0" x="0" scaleX="1" scaleY="1">
+			<e:Button id="backBtn" label="" x="40" y="20">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duobaon_back" source.down="duobaon_back" source.disabled="duobaon_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" x="150" y="20">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duobaon_help" source.down="duobaon_help" source.disabled="duobaon_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+
+	<e:Group id="quickStartGroup" width="390" height="152" y="596" right="0" anchorOffsetY="0">
+		<e:Button label="">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duobaon_quickstart" source.down="duobaon_quickstart" source.disabled="duobaon_quickstart"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+	</e:Group>
+	<e:Group id="animGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0" touchThrough="true" x="10" y="10" visible="false">
+		<ns1:DragonAnim id="curtainAnim" width="400" height="300" anim="lhdb_qidong" aligntype="middle" defaultPlayAnim="animation1" isloop="false" playOnStage="false" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

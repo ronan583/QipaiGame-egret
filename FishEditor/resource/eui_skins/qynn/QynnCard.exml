@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QynnCardSkin" width="127" height="181" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="169df36778c" ></w:Config>
+	<e:Image id="bg" width="127" height="181" x="0" y="0" source="othercards_json.oc_9"/>
+	<e:Rect id="huiseMask" width="118" height="168" fillColor="0x7F7E7E" strokeColor="0x727272" alpha="0.6" horizontalCenter="0" verticalCenter="-3" ellipseWidth="30" ellipseHeight="30" visible="false"/>
+</e:Skin>

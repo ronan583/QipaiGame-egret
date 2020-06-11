@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZPokerCardSkin" width="155" height="214" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16682efa82d" ></w:Config>
+	<e:Image id="cardBg" horizontalCenter="0" verticalCenter="0" source="ddz_card_back_png" width="158" height="208"/>
+
+
+	<e:Image id="cardImg" source="oc_12" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="cardMask" horizontalCenter="0" verticalCenter="0" source="ddz_card_mask_png" visible="false"/>
+	<e:Image id="landlord" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="11.5" verticalCenter="-36" source="ddz_self_lord_png" visible="false"/>
+
+</e:Skin>

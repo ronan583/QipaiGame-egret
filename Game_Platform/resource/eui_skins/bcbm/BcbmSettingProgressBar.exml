@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmSettingProgressBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" scale9Grid="154,12,124,2" verticalCenter="0" source="bcbm_set-room-bank_json.bcbm_bank_imgPgsbg"/>
+	<e:Image id="thumb" width="100%" scale9Grid="47,13,286,4" verticalCenter="0" source="bcbm_set-room-bank_json.bcbm_bank_imgPgs"/>
+</e:Skin>

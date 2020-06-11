@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QznnRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg" horizontalCenter="0.5" verticalCenter="45" source="qznn_zjcx_banknobg"/>
+		<e:Image id="bgImg0" verticalCenter="13" y="177" scaleX="1" scaleY="1" alpha="1" horizontalCenter="0" source="qznn_zjcx_bankerbg" visible="false"/>
+		<e:Image id="winIcon" x="708.01" y="274.32" source="qznn_zjcx_iconwin"/>
+		<e:BitmapLabel id="winMoneyLabel" width="202.67" height="50.67" x="789.02" y="285.65" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="qznn_zjcx_lose_fnt"/>
+		<e:Image id="bankerIcon" source="qznnroom_json.qznn_zjcx_iconbanker" x="590.98" y="242.66"/>
+		<ns1:QznnRecordCardGroup id="myGroup" x="346.34" y="228.01" skinName="RecordCardGroup"/>
+		<ns1:QznnRecordCardGroup id="otherGroup0" x="346.34" y="344.65" skinName="RecordCardGroup"/>
+		<ns1:QznnRecordCardGroup x="706.34" y="344.65" skinName="RecordCardGroup" id="otherGroup1"/>
+		<ns1:QznnRecordCardGroup x="346.34" y="444.65" skinName="RecordCardGroup" id="otherGroup2"/>
+		<ns1:QznnRecordCardGroup x="706.34" y="444.65" skinName="RecordCardGroup" id="otherGroup3"/>
+		<ns1:QznnRecordCardGroup id="otherGroup00" y="367.98" skinName="RecordCardGroup" horizontalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

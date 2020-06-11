@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsBattleSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:lhdz="game.lhdz.*" xmlns:ns1="*" xmlns:tween="egret.tween.*" xmlns:fqzs="game.fqzs.*" >
+	<w:Config id="1671dbaaa68" ></w:Config>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="fqzs_battle_bg_jpg"/>
+	<e:Group id="fqzs" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="tipImage" source="fqzs_battle_json.fqzs_recount_tips_1" horizontalCenter="8.5" top="44"/>
+		<e:Group width="1334" height="750">
+			<e:Image id="frame1" source="fqzs_battle_json.animalBox" x="98" y="70"/>
+			<e:Image id="frame2" source="fqzs_battle_json.animalBox" x="235" y="70"/>
+			<e:Image id="frame3" source="fqzs_battle_json.animalBox" x="357" y="70"/>
+			<e:Image id="frame4" source="fqzs_battle_json.animalBox" x="478" y="70"/>
+			<e:Image id="frame5" source="fqzs_battle_json.animalBox" x="607" y="68"/>
+			<e:Image id="frame6" source="fqzs_battle_json.animalBox" x="741" y="70"/>
+			<e:Image id="frame7" source="fqzs_battle_json.animalBox" x="865" y="70"/>
+			<e:Image id="frame8" source="fqzs_battle_json.animalBox" x="988" y="70"/>
+			<e:Image id="frame9" source="fqzs_battle_json.animalBox" x="1107" y="70"/>
+			<e:Image id="frame10" source="fqzs_battle_json.animalBox" x="1107" y="157"/>
+			<e:Image id="frame11" source="fqzs_battle_json.animalBox" x="1107" y="234"/>
+			<e:Image id="frame12" source="fqzs_battle_json.animalBox" x="1107" y="309"/>
+			<e:Image id="frame13" source="fqzs_battle_json.animalBox" x="1107" y="386"/>
+			<e:Image id="frame14" source="fqzs_battle_json.animalBox" x="1107" y="466"/>
+			<e:Image id="frame15" source="fqzs_battle_json.animalBox" x="1107" y="543"/>
+			<e:Image id="frame16" source="fqzs_battle_json.animalBox" x="988" y="543"/>
+			<e:Image id="frame17" source="fqzs_battle_json.animalBox" x="865" y="543"/>
+			<e:Image id="frame18" source="fqzs_battle_json.animalBox" x="741" y="543"/>
+			<e:Image id="frame19" source="fqzs_battle_json.animalBox" x="607" y="546"/>
+			<e:Image id="frame20" source="fqzs_battle_json.animalBox" x="478" y="543"/>
+			<e:Image id="frame21" source="fqzs_battle_json.animalBox" x="357" y="543"/>
+			<e:Image id="frame22" source="fqzs_battle_json.animalBox" x="235" y="543"/>
+			<e:Image id="frame23" source="fqzs_battle_json.animalBox" x="98" y="543"/>
+			<e:Image id="frame24" source="fqzs_battle_json.animalBox" x="98" y="466"/>
+			<e:Image id="frame25" source="fqzs_battle_json.animalBox" x="98" y="386"/>
+			<e:Image id="frame26" source="fqzs_battle_json.animalBox" x="98" y="309"/>
+			<e:Image id="frame27" source="fqzs_battle_json.animalBox" x="98" y="234"/>
+			<e:Image id="frame28" source="fqzs_battle_json.animalBox" x="98" y="157"/>
+			<e:Image source="fqzs_battle_json.animald_7" x="119" y="248"/>
+			<e:Image source="fqzs_battle_json.animald_7" x="119" y="172"/>
+			<e:Image source="fqzs_battle_json.animald_7" x="119" y="86"/>
+			<e:Image source="fqzs_battle_json.animald_8" y="82" x="250"/>
+			<e:Image source="fqzs_battle_json.animald_8" y="82" x="373"/>
+			<e:Image source="fqzs_battle_json.animald_8" y="82" x="494"/>
+			<e:Image source="fqzs_battle_json.animald_1" x="614" y="66"/>
+			<e:Image source="fqzs_battle_json.animald_3" x="774" y="85"/>
+			<e:Image source="fqzs_battle_json.animald_3" y="85" x="897"/>
+			<e:Image source="fqzs_battle_json.animald_3" y="85" x="1018"/>
+			<e:Image source="fqzs_battle_json.animald_4" y="85" x="1133"/>
+			<e:Image source="fqzs_battle_json.animald_4" y="172" x="1133"/>
+			<e:Image source="fqzs_battle_json.animald_4" x="1133" y="249"/>
+			<e:Image source="fqzs_battle_json.animald_13" x="1101" y="298"/>
+			<e:Image source="fqzs_battle_json.animald_6" x="1142" y="401"/>
+			<e:Image source="fqzs_battle_json.animald_6" x="1142" y="480"/>
+			<e:Image source="fqzs_battle_json.animald_6" x="1142" y="558"/>
+			<e:Image source="fqzs_battle_json.animald_5" x="1009" y="556"/>
+			<e:Image source="fqzs_battle_json.animald_5" x="888" y="556"/>
+			<e:Image source="fqzs_battle_json.animald_5" x="762" y="556"/>
+			<e:Image source="fqzs_battle_json.animald_2" y="555" x="610"/>
+			<e:Image source="fqzs_battle_json.animald_10" y="557" x="501"/>
+			<e:Image source="fqzs_battle_json.animald_10" y="557" x="378"/>
+			<e:Image source="fqzs_battle_json.animald_10" y="557" x="256"/>
+			<e:Image source="fqzs_battle_json.animald_9" x="110" y="554"/>
+			<e:Image source="fqzs_battle_json.animald_9" x="110" y="475"/>
+			<e:Image source="fqzs_battle_json.animald_9" x="110" y="398"/>
+			<e:Image source="fqzs_battle_json.animald_14" x="119" y="319"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image id="select7" source="fqzs_battle_json.selection_box_1" verticalCenter="-139.5" horizontalCenter="-370.5"/>
+			<e:Image id="select8" source="fqzs_battle_json.selection_box_2" verticalCenter="-139.5" horizontalCenter="-224.5"/>
+			<e:Image id="select9" source="fqzs_battle_json.selection_box_1" verticalCenter="4.5" horizontalCenter="-370.5"/>
+			<e:Image id="select10" source="fqzs_battle_json.selection_box_21" verticalCenter="4.5" horizontalCenter="-224.5"/>
+			<e:Image id="select12" source="fqzs_battle_json.selection_box_3" verticalCenter="126.5" horizontalCenter="-298"/>
+			<e:Image id="select4" source="fqzs_battle_json.selection_box_4" verticalCenter="-139.5" horizontalCenter="371.5"/>
+			<e:Image id="select3" source="fqzs_battle_json.selection_box_5" verticalCenter="-139.5" horizontalCenter="226.5"/>
+			<e:Image id="select6" source="fqzs_battle_json.selection_box_4" verticalCenter="3.5" horizontalCenter="371.5"/>
+			<e:Image id="select5" source="fqzs_battle_json.selection_box_51" verticalCenter="3.5" horizontalCenter="226.5"/>
+			<e:Image id="select11" source="fqzs_battle_json.selection_box_6" verticalCenter="127.5" horizontalCenter="300"/>
+			<e:Image id="select2" source="fqzs_battle_json.selection_box_7" anchorOffsetY="0" height="200" verticalCenter="74" horizontalCenter="1"/>
+		</e:Group>
+
+		<e:Group id="bankerGroup" width="280" height="120" horizontalCenter="0" verticalCenter="-149">
+			<e:Label id="bankernameLabel" text="长沙一二三长沙一二三" size="24" textColor="0xd8ba71" fontFamily="Microsoft YaHei" bold="true" verticalCenter="-21" left="105" width="120" height="24"/>
+			<e:Image source="fqzs_room_json.fqzs_room_head_bg" horizontalCenter="-72" verticalCenter="4" width="58" height="58"/>
+			<e:Image id="bankerheadImg" width="38" height="38" horizontalCenter="-72" verticalCenter="2"/>
+			<e:Label id="bankergoldLabel" text="6.04亿" size="24" textColor="0xd8ba71" fontFamily="Microsoft YaHei" bold="true" verticalCenter="13" left="133"/>
+			<e:Image source="gpn_mainlayer_json.gpn_icon_gold" x="98" y="58.5" scaleX="0.6" scaleY="0.6"/>
+			<e:Image source="fqzs_battle_json.bank" horizontalCenter="114" verticalCenter="-30.5"/>
+			<e:BitmapLabel id="bankResult" font="fqzs_lose_fnt" text="-12345.6789" horizontalCenter="0.5" y="12" visible="false"/>
+		</e:Group>
+		<e:Group width="369.7" height="100" anchorOffsetX="0" left="0" bottom="0" anchorOffsetY="0">
+			<e:Image source="fqzs_room_json.fqzs_room_head_bg" horizontalCenter="-127.85" verticalCenter="0"/>
+			<e:Image id="headImg" width="55" height="55" horizontalCenter="-128.35" verticalCenter="-3.5"/>
+			<e:Image source="fqzs_room_json.fqzs_coin_bg" horizontalCenter="40" verticalCenter="17.5"/>
+			<e:Label id="nameLabel" text="Guest1234" width="280" height="36" fontFamily="Microsoft YaHei" size="24" verticalAlign="middle" textAlign="left" bold="true" y="14" textColor="0xd8ba71" x="105"/>
+			<e:BitmapLabel id="goldLabel" width="180" text="1234.44" textAlign="center" verticalAlign="middle" font="gpn_gold_fnt" horizontalCenter="40.150000000000006" verticalCenter="18.5"/>
+			<e:Button id="goldAddBtn" label="" horizontalCenter="145.15" verticalCenter="19">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_room_json.fqzs_add" source.down="fqzs_room_json.fqzs_add" source.disabled="fqzs_room_json.fqzs_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:BitmapLabel id="myResult" text="+12.3456789" font="fqzs_win_fnt" left="15" y="630"/>
+		<ns1:IButton id="playerListBtn" label="" horizontalCenter="617" verticalCenter="205">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_battle_json.playerList" source.down="fqzs_battle_json.playerList" source.disabled="fqzs_battle_json.playerList"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="playerLabel" text="123" textColor="0xd4a756" size="20" fontFamily="Microsoft YaHei" horizontalCenter="617" verticalCenter="244"/>
+		<e:BitmapLabel id="playerResult" text="+12.3456789" font="fqzs_win_fnt" right="5" y="550"/>
+		<e:Button id="continueBtn" label="" horizontalCenter="582" verticalCenter="309">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_battle_json.continuous" source.down="fqzs_battle_json.continuous" source.disabled="fqzs_battle_json.continuous_dark"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="gameLevelLabel" text="普通场" height="320" fontFamily="Microsoft YaHei" size="24" bold="true" textColor="0xd8ba71" width="24" verticalAlign="middle" horizontalCenter="-628" verticalCenter="-92"/>
+		<e:Group width="700" height="110" x="469" y="627">
+			<fqzs:FqzsBetButton id="betButton1" x="0" y="0" skinName="FqzsBetButtonSkin"/>
+			<fqzs:FqzsBetButton id="betButton10" x="10" y="10" skinName="FqzsBetButtonSkin"/>
+			<fqzs:FqzsBetButton id="betButton50" x="20" y="20" skinName="FqzsBetButtonSkin"/>
+			<fqzs:FqzsBetButton id="betButton100" x="30" y="30" skinName="FqzsBetButtonSkin"/>
+			<fqzs:FqzsBetButton id="betButton500" x="40" y="40" skinName="FqzsBetButtonSkin"/>
+			<fqzs:FqzsBetButton id="betButton1000" x="50" y="50" skinName="FqzsBetButtonSkin"/>
+			<e:layout>
+			<e:HorizontalLayout gap="9"/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller id="resultScroller" width="53" height="440" scrollPolicyH="off" y="83" x="1273.6">
+			<e:Group id="resultGroup" x="1.52">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Group width="294" height="100" anchorOffsetX="0" right="0" top="0" anchorOffsetY="0">
+			<e:Button id="robBanker" label="" top="0" x="7">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fqzs_battle_json.lootBet_Btn" source.down="fqzs_battle_json.lootBet_Btn" source.disabled="fqzs_battle_json.lootBet_Btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+
+			</e:Button>
+			<e:Button id="downBanker" label="" top="0" x="148">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="downBet_Btn" source.down="downBet_Btn" source.disabled="downBet_Btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="upBanker" label="" top="0" x="148">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fqzs_battle_json.upBet_Btn" source.down="fqzs_battle_json.upBet_Btn" source.disabled="fqzs_battle_json.upBet_Btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="upBankerNum" text="申请人数：10" x="129.96" y="69.96" textColor="0xd8ba71" size="24" fontFamily="Microsoft YaHei" bold="true"/>
+		</e:Group>
+		<e:Group id="stakerGroup" horizontalCenter="0" verticalCenter="0" touchThrough="true">
+			<e:BitmapLabel id="stake2" font="fqzs_bet_all_fnt" text="40.00" horizontalCenter="0.5" verticalCenter="-4.5"/>
+			<e:BitmapLabel id="stake3" font="fqzs_bet_all_fnt" text="40.00" right="374" horizontalCenter="261.5" verticalCenter="-196.5"/>
+			<e:BitmapLabel id="stake4" font="fqzs_bet_all_fnt" text="40.00" right="233" horizontalCenter="402.5" verticalCenter="-196.5"/>
+			<e:BitmapLabel id="stake5" font="fqzs_bet_all_fnt" text="40.00" right="374" horizontalCenter="261.5" verticalCenter="-53.5"/>
+			<e:BitmapLabel id="stake6" font="fqzs_bet_all_fnt" text="40.00" right="233" horizontalCenter="402.5" verticalCenter="-53.5"/>
+			<e:BitmapLabel id="stake7" font="fqzs_bet_all_fnt" text="40.00" horizontalCenter="-405.5" verticalCenter="-196.5"/>
+			<e:BitmapLabel id="stake8" font="fqzs_bet_all_fnt" text="40.00" horizontalCenter="-264.5" verticalCenter="-197.5"/>
+			<e:BitmapLabel id="stake9" font="fqzs_bet_all_fnt" text="40.00" horizontalCenter="-405.5" verticalCenter="-53.5"/>
+			<e:BitmapLabel id="stake10" font="fqzs_bet_all_fnt" text="40.00" horizontalCenter="-264.5" verticalCenter="-53.5"/>
+			<e:BitmapLabel id="stake12" font="fqzs_bet_all_fnt" text="40.00" horizontalCenter="-385.5" verticalCenter="94.5"/>
+			<e:BitmapLabel id="stake11" font="fqzs_bet_all_fnt" text="40.00" right="249" horizontalCenter="386.5" verticalCenter="94.5"/>
+			<e:BitmapLabel id="totalStake" font="fqzs_allbet_fnt" text="15.675.700" horizontalCenter="0.5" verticalCenter="-64.5"/>
+			<e:BitmapLabel id="myStake2" font="fqzs_bet_mine_fnt" text="40.00" horizontalCenter="0.5" verticalCenter="16.5"/>
+			<e:BitmapLabel id="myStake3" font="fqzs_bet_mine_fnt" text="40.00" right="374" horizontalCenter="261.5" verticalCenter="-175.5"/>
+			<e:BitmapLabel id="myStake4" font="fqzs_bet_mine_fnt" text="40.00" right="233" horizontalCenter="402.5" verticalCenter="-175.5"/>
+			<e:BitmapLabel id="myStake5" font="fqzs_bet_mine_fnt" text="40.00" right="374" horizontalCenter="261.5" verticalCenter="-32.5"/>
+			<e:BitmapLabel id="myStake6" font="fqzs_bet_mine_fnt" text="40.00" right="233" horizontalCenter="402.5" verticalCenter="-32.5"/>
+			<e:BitmapLabel id="myStake7" font="fqzs_bet_mine_fnt" text="40.00" horizontalCenter="-405.5" verticalCenter="-175.5"/>
+			<e:BitmapLabel id="myStake8" font="fqzs_bet_mine_fnt" text="40.00" horizontalCenter="-264.5" verticalCenter="-175.5"/>
+			<e:BitmapLabel id="myStake9" font="fqzs_bet_mine_fnt" text="40.00" horizontalCenter="-405.5" verticalCenter="-32.5"/>
+			<e:BitmapLabel id="myStake10" font="fqzs_bet_mine_fnt" text="40.00" horizontalCenter="-264.5" verticalCenter="-32.5"/>
+			<e:BitmapLabel id="myStake12" font="fqzs_bet_mine_fnt" text="40.00" horizontalCenter="-385.5" verticalCenter="115.5"/>
+			<e:BitmapLabel id="myStake11" font="fqzs_bet_mine_fnt" text="40.00" right="249" horizontalCenter="386.5" verticalCenter="115.5"/>
+		</e:Group>
+
+		<e:Image id="statusTips" horizontalCenter="0" verticalCenter="0" source="fqzs_battle_json.startBet"/>
+		<fqzs:FqzsMenu id="menus" left="0" top="0" skinName="FqzsMenuSkin"/>
+	</e:Group>
+</e:Skin>

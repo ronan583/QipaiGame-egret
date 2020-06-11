@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZClockSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="100" height="100">
+	<w:Config id="166b70e6acd" ></w:Config>
+	<e:Image id="bgImg" horizontalCenter="0" verticalCenter="0" source="ddz_battle_json.ddz_countdowns"/>
+	<e:BitmapLabel id="leftTimeLabel" text="15" textAlign="center" horizontalCenter="0" verticalCenter="0" font="ddz_clock_num_fnt"/>
+	<e:Image id="aperture" x="49.65" y="46.68" source="ddz_aperture_png" anchorOffsetY="41" anchorOffsetX="41"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+{"file":"brnnResult.png","frames":{
+"brnnresult_coin_gold_broken":{"x":631,"y":577,"w":132,"h":106,"offX":0,"offY":0,"sourceW":132,"sourceH":106},
+"brnnresult_coin_red":{"x":1947,"y":2,"w":94,"h":90,"offX":0,"offY":0,"sourceW":94,"sourceH":90},
+"brnnresult_coin_red_broken":{"x":754,"y":687,"w":105,"h":90,"offX":0,"offY":0,"sourceW":105,"sourceH":90},
+"brnnresult_history_bg":{"x":2,"y":2,"w":792,"h":490,"offX":0,"offY":0,"sourceW":792,"sourceH":490},
+"brnnresult_lose":{"x":1947,"y":338,"w":66,"h":69,"offX":1,"offY":0,"sourceW":67,"sourceH":69},
+"brnnresult_lose_title":{"x":1507,"y":821,"w":215,"h":141,"offX":0,"offY":0,"sourceW":215,"sourceH":141},
+"brnnresult_result_bg":{"x":2,"y":821,"w":619,"h":136,"offX":0,"offY":1,"sourceW":619,"sourceH":137},
+"brnnresult_vain_title":{"x":1145,"y":821,"w":358,"h":142,"offX":0,"offY":0,"sourceW":358,"sourceH":142},
+"brnnresult_win":{"x":1947,"y":260,"w":73,"h":74,"offX":0,"offY":0,"sourceW":73,"sourceH":74},
+"brnnresult_win_light":{"x":625,"y":821,"w":516,"h":156,"offX":0,"offY":0,"sourceW":516,"sourceH":156},
+"brnnresult_win_title":{"x":1726,"y":821,"w":217,"h":131,"offX":0,"offY":0,"sourceW":217,"sourceH":131},
+"brnnresult_bg":{"x":2,"y":496,"w":625,"h":321,"offX":0,"offY":0,"sourceW":625,"sourceH":321},
+"brnnresult_btn_coninue":{"x":631,"y":496,"w":208,"h":77,"offX":0,"offY":0,"sourceW":208,"sourceH":77},
+"brnnresult_coin_blue":{"x":1947,"y":189,"w":89,"h":67,"offX":0,"offY":0,"sourceW":89,"sourceH":67},
+"brnnresult_coin_blue_broken":{"x":1947,"y":96,"w":95,"h":89,"offX":0,"offY":0,"sourceW":95,"sourceH":89},
+"brnnresult_coin_gold":{"x":631,"y":687,"w":119,"h":106,"offX":0,"offY":0,"sourceW":119,"sourceH":106}}}

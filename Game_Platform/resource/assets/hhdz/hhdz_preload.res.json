@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "hhdz_qidong_ske_dbbin,hhdz_qidong_tex_json,hhdz_qidong_tex_png,hhdzn_room_bg_png",
+			"name": "hhdz_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/hhdz/hhdzn_room_bg.png",
+			"type": "image",
+			"name": "hhdzn_room_bg_png"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "hhdz_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_qidong_tex.json",
+			"type": "json",
+			"name": "hhdz_qidong_tex_json"
+		},
+		{
+			"url": "assets/hhdz/animation/room/hhdz_qidong_tex.png",
+			"type": "image",
+			"name": "hhdz_qidong_tex_png"
+		}
+	]
+}

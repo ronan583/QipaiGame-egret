@@ -1,0 +1,45 @@
+{
+	"groups": [
+		{
+			"keys": "lhdz_qidong_ske_dbbin,lhdz_qidong_tex_json,lhdz_qidong_tex_png,lhdz_room_bg_png,lhdz_qidong2_ske_dbbin,lhdz_qidong2_tex_json,lhdz_qidong2_tex_png",
+			"name": "lhdz_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/lhdz/lhdz_room_bg.png",
+			"type": "image",
+			"name": "lhdz_room_bg_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong_tex.json",
+			"type": "json",
+			"name": "lhdz_qidong_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong_tex.png",
+			"type": "image",
+			"name": "lhdz_qidong_tex_png"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong2_ske.dbbin",
+			"type": "bin",
+			"name": "lhdz_qidong2_ske_dbbin"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong2_tex.json",
+			"type": "json",
+			"name": "lhdz_qidong2_tex_json"
+		},
+		{
+			"url": "assets/lhdz/animation/room/lhdz_qidong2_tex.png",
+			"type": "image",
+			"name": "lhdz_qidong2_tex_png"
+		}
+	]
+}

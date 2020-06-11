@@ -1,0 +1,7 @@
+{"file":"common.png","frames":{
+"btn_quickstart":{"x":162,"y":116,"w":150,"h":38,"offX":0,"offY":0,"sourceW":150,"sourceH":38},
+"gp_close":{"x":1,"y":151,"w":72,"h":76,"offX":0,"offY":0,"sourceW":72,"sourceH":76},
+"textfield_bg":{"x":194,"y":1,"w":290,"h":43,"offX":0,"offY":0,"sourceW":290,"sourceH":43},
+"btn_common1":{"x":1,"y":84,"w":159,"h":65,"offX":0,"offY":0,"sourceW":159,"sourceH":65},
+"btn_common2":{"x":194,"y":46,"w":167,"h":68,"offX":0,"offY":0,"sourceW":167,"sourceH":68},
+"btn_common3":{"x":1,"y":1,"w":191,"h":81,"offX":0,"offY":0,"sourceW":191,"sourceH":81}}}

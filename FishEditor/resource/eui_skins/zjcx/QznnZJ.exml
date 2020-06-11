@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QznnZJ" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+
+
+
+
+
+
+
+
+
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" source="qznn_zjcx_bg" x="152" y="17" scaleX="1" scaleY="1"/>
+		<e:Label text="小提示：仅显示最近15条记录" x="210.6" y="651.3" size="21" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" scaleX="1" scaleY="1"/>
+		<e:Scroller id="scroller" width="865.69" height="436" anchorOffsetY="0" anchorOffsetX="0" y="166" alpha="1" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Group id="viewport" anchorOffsetX="0" x="190.91" y="0" alpha="1" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="3"/>
+			</e:layout>
+
+			</e:Group>
+		</e:Scroller>
+
+		<e:Image source="qznnroom_json.qznn_zjcx_title" y="66.6" horizontalCenter="0.5"/>
+		<ns1:IButton id="closeBtn" label="" x="1063.67" y="50.7" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="qznn_room_btnclose"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

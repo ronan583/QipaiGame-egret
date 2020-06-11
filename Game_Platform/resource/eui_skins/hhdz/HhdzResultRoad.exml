@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzResultRoadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="456" height="228">
+	<w:Config id="16948deaac9" ></w:Config>
+	<e:Group id="resultGroup" x="0" y="0" anchorOffsetY="0" width="456" height="228">
+		<e:Image x="0" y="0" source="hhdz_history_black_dian_2"/>
+		<e:Image x="10" y="10" source="hhdz_history_black_dian_2"/>
+		<e:Image x="20" y="20" source="hhdz_history_black_dian_2"/>
+		<e:Image x="30" y="30" source="hhdz_history_black_dian_2"/>
+		<e:Image x="40" y="40" source="hhdz_history_black_dian_2"/>
+		<e:Image x="50" y="50" source="hhdz_history_black_dian_2"/>
+		<e:Image x="60" y="60" source="hhdz_history_black_dian_2"/>
+		<e:Image x="70" y="70" source="hhdz_history_black_dian_2"/>
+		<e:Image x="80" y="80" source="hhdz_history_black_dian_2"/>
+		<e:Image x="90" y="90" source="hhdz_history_black_dian_2"/>
+		<e:Image x="100" y="100" source="hhdz_history_black_dian_2"/>
+		<e:Image x="110" y="110" source="hhdz_history_black_dian_2"/>
+		<e:Image x="120" y="120" source="hhdz_history_black_dian_2"/>
+		<e:Image x="130" y="130" source="hhdz_history_black_dian_2"/>
+		<e:Image x="140" y="140" source="hhdz_history_black_dian_2"/>
+		<e:Image x="150" y="150" source="hhdz_history_black_dian_2"/>
+		<e:Image x="160" y="160" source="hhdz_history_black_dian_2"/>
+		<e:Image x="170" y="170" source="hhdz_history_black_dian_2"/>
+		<e:Image x="180" y="180" source="hhdz_history_black_dian_2"/>
+		<e:Image x="190" y="190" source="hhdz_history_black_dian_2"/>
+		<e:Image x="200" y="200" source="hhdz_history_black_dian_2"/>
+		<e:Image x="210" y="210" source="hhdz_history_black_dian_2"/>
+		<e:Image x="220" y="220" source="hhdz_history_black_dian_2"/>
+		<e:Image x="230" y="230" source="hhdz_history_black_dian_2"/>
+		<e:Image x="240" y="240" source="hhdz_history_black_dian_2"/>
+		<e:Image x="250" y="250" source="hhdz_history_black_dian_2"/>
+		<e:Image x="260" y="260" source="hhdz_history_black_dian_2"/>
+		<e:Image x="270" y="270" source="hhdz_history_black_dian_2"/>
+		<e:Image x="280" y="280" source="hhdz_history_black_dian_2"/>
+		<e:Image x="290" y="290" source="hhdz_history_black_dian_2"/>
+		<e:Image x="300" y="300" source="hhdz_history_black_dian_2"/>
+		<e:Image x="310" y="310" source="hhdz_history_black_dian_2"/>
+		<e:Image x="320" y="320" source="hhdz_history_black_dian_2"/>
+		<e:Image x="330" y="330" source="hhdz_history_black_dian_2"/>
+		<e:Image x="340" y="340" source="hhdz_history_black_dian_2"/>
+		<e:Image x="350" y="350" source="hhdz_history_black_dian_2"/>
+		<e:Image x="360" y="360" source="hhdz_history_black_dian_2"/>
+		<e:Image x="370" y="370" source="hhdz_history_black_dian_2"/>
+		<e:Image x="380" y="380" source="hhdz_history_black_dian_2"/>
+		<e:Image x="390" y="390" source="hhdz_history_black_dian_2"/>
+		<e:Image x="400" y="400" source="hhdz_history_black_dian_2"/>
+		<e:Image x="410" y="410" source="hhdz_history_black_dian_2"/>
+		<e:Image x="420" y="420" source="hhdz_history_black_dian_2"/>
+		<e:Image x="430" y="430" source="hhdz_history_black_dian_2"/>
+		<e:Image x="510" y="510" source="hhdz_history_black_dian_2"/>
+		<e:Image x="520" y="520" source="hhdz_history_black_dian_2"/>
+		<e:Image x="530" y="530" source="hhdz_history_black_dian_2"/>
+		<e:Image x="540" y="540" source="hhdz_history_black_dian_2"/>
+		<e:Image x="550" y="550" source="hhdz_history_black_dian_2"/>
+		<e:Image x="560" y="560" source="hhdz_history_black_dian_2"/>
+		<e:Image x="570" y="570" source="hhdz_history_black_dian_2"/>
+		<e:Image x="580" y="580" source="hhdz_history_black_dian_2"/>
+		<e:Image x="590" y="590" source="hhdz_history_black_dian_2"/>
+		<e:Image x="600" y="600" source="hhdz_history_black_dian_2"/>
+		<e:Image x="610" y="610" source="hhdz_history_black_dian_2"/>
+		<e:Image x="620" y="620" source="hhdz_history_black_dian_2"/>
+		<e:Image x="630" y="630" source="hhdz_history_black_dian_2"/>
+		<e:Image x="650" y="650" source="hhdz_history_black_dian_2"/>
+		<e:Image x="660" y="660" source="hhdz_history_black_dian_2"/>
+		<e:Image x="670" y="670" source="hhdz_history_black_dian_2"/>
+		<e:Image x="680" y="680" source="hhdz_history_black_dian_2"/>
+		<e:Image x="690" y="690" source="hhdz_history_black_dian_2"/>
+		<e:Image x="700" y="700" source="hhdz_history_black_dian_2"/>
+		<e:Image x="710" y="710" source="hhdz_history_black_dian_2"/>
+		<e:Image x="720" y="720" source="hhdz_history_black_dian_2"/>
+		<e:Image x="730" y="730" source="hhdz_history_black_dian_2"/>
+		<e:Image x="740" y="740" source="hhdz_history_black_dian_2"/>
+		<e:Image x="750" y="750" source="hhdz_history_black_dian_2"/>
+		<e:Image x="760" y="760" source="hhdz_history_black_dian_2"/>
+		<e:Image x="770" y="770" source="hhdz_history_black_dian_2"/>
+		<e:Image x="780" y="780" source="hhdz_history_black_dian_2"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:layout>
+			<e:TileLayout requestedRowCount="6" horizontalAlign="left" verticalAlign="top" paddingTop="5" orientation="columns" requestedColumnCount="12" verticalGap="0" paddingLeft="2" horizontalGap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

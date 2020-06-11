@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HongHeiRecordBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1007.34" height="91.67">
+
+
+
+
+
+
+
+
+	<e:Group width="1007" height="91" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="zjLine" bottom="0" horizontalCenter="0" source="hhdz_zjcx_line" x="81" y="86.67" scaleX="1" scaleY="1"/>
+		<e:Image id="resultIcon" x="70.65" verticalCenter="2.664999999999999" source="hhdz_zjcx_iconwin" y="18" scaleX="1" scaleY="1"/>
+		<e:Image x="161.98" verticalCenter="-0.8350000000000009" anchorOffsetX="0" width="245.67" scale9Grid="21,5,128,35" source="hhdz_zjcx_json.hhdz_zjcx_bglabel" y="24" scaleX="1" scaleY="1"/>
+		<e:Image x="445.28" verticalCenter="-0.8350000000000009" anchorOffsetX="0" width="156.33" scale9Grid="26,6,157,37" source="hhdz_zjcx_json.hhdz_zjcx_bglabel" y="24" scaleX="1" scaleY="1"/>
+		<e:Image id="roomLevelImg" x="469.29" verticalCenter="1.1649999999999991" source="hhdz_zjcx_level1" y="28" scaleX="1" scaleY="1"/>
+		<e:Label id="zjTime" text="12-12 12:12" x="630.48" size="28" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" verticalCenter="-0.8350000000000009" bold="true" textColor="0xf4b481" y="31" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="totalWin" width="172" height="50" x="187.31" anchorOffsetX="0" anchorOffsetY="0" text="+1234.万" verticalCenter="6.164999999999999" font="hhdz_zjcx_win_fnt" y="27" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="detailBtn" label="" x="844.32" anchorOffsetY="0" verticalCenter="-0.33500000000000085" y="20" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_zjcx_json.hhdz_zjcx_btndetail" source.down="hhdz_zjcx_json.hhdz_zjcx_btndetail" source.disabled="hhdz_zjcx_json.hhdz_zjcx_btndetail"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image id="bankerIcon" x="16.33" y="24.35" source="hhdz_zjcx_iconbanker" scaleX="1.2" scaleY="1.2"/>
+	</e:Group>
+
+
+
+
+
+
+
+</e:Skin>

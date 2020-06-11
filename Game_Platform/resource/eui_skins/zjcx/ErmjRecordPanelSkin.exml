@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PdkRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg1" verticalCenter="-4.5" source="ermj_zjcx_json.ermj_zjcx_bgpanel" anchorOffsetX="0" width="1007.33" anchorOffsetY="0" horizontalCenter="-0.5" height="321"/>
+		<e:Image id="winIcon" x="248.96" y="271.67" source="ermj_zjcx_iconwin" scaleX="1" scaleY="1"/>
+		<e:Label id="bottomBet" text="12345" x="978.96" y="285.47" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" fontFamily="Microsoft YaHei" bold="true" textColor="0xeae9c3"/>
+		<e:Label id="fanshu" text="12345" x="689.44" y="286.15" anchorOffsetX="0" width="114.91" anchorOffsetY="0" height="43.64" fontFamily="Microsoft YaHei" bold="true" textColor="0xeae9c3"/>
+		<e:BitmapLabel id="winLabel" width="195.33" height="41" x="354.98" y="281.07" anchorOffsetX="0" anchorOffsetY="0" text="12345" letterSpacing="-8" font="ermj_zjcx_win_fnt"/>
+		<e:Image id="fanImg" source="ermj_zjcx_json.ermj_zjcx_fanshuIcon" x="552.36" y="281.02" anchorOffsetX="0" width="81.67" anchorOffsetY="0" height="41" visible="false"/>
+		<e:Image id="winFanImg" source="ermj_zjcx_json.ermj_zjcx_fanshuIconwin" x="514.76" y="281.91" anchorOffsetX="0" width="159.18" anchorOffsetY="0" height="42.06"/>
+		<e:Group id="cardGroup" width="904" height="105.33" y="387.98" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-6">
+			<e:Image id="huIcon" source="ermj_battle_json.ermj_hu_tips" x="308.96" y="-22.79"/>
+			<e:Image id="majongCard0" source="ermj_battle_json.playedTiles11" x="1.33" y="8" scaleX="1" scaleY="1"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="51.33" y="8" scaleX="1" scaleY="1" id="majongCard1"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="101.33" y="8" scaleX="1" scaleY="1" id="majongCard2"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="151.33" y="8" scaleX="1" scaleY="1" id="majongCard3"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="201.33" y="8" scaleX="1" scaleY="1" id="majongCard4"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="251.33" y="8" scaleX="1" scaleY="1" id="majongCard5"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="301.33" y="8" scaleX="1" scaleY="1" id="majongCard6"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="351.33" y="8" scaleX="1" scaleY="1" id="majongCard7"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="401.33" y="8" scaleX="1" scaleY="1" id="majongCard8"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="451.33" y="8" scaleX="1" scaleY="1" id="majongCard9"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="501.33" y="8" scaleX="1" scaleY="1" id="majongCard10"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="551.33" y="8" scaleX="1" scaleY="1" id="majongCard11"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="601.33" y="8" scaleX="1" scaleY="1" id="majongCard12"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="651.33" y="8" scaleX="1" scaleY="1" id="majongCard13"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="701.33" y="8" scaleX="1" scaleY="1" id="majongCard14"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="751.33" y="8" scaleX="1" scaleY="1" id="majongCard15"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="801.33" y="8" scaleX="1" scaleY="1" id="majongCard16"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="851.32" y="7.33" scaleX="1" scaleY="1" id="majongCard17"/>
+		</e:Group>
+		<e:Group id="cardGroup0" y="384.94" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+			<e:layout>
+			<e:HorizontalLayout gap="-1" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

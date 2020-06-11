@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsSetPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166405aa8fa" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" scaleX="1" scaleY="1"  source="fqzs_battle_json.fqzs_set_bg"/>
+		<e:Image source="fqzs_battle_json.fqzs_set_title" horizontalCenter="0" verticalCenter="-203"/>
+		<ns1:IButton id="closeBtn" label="" x="913" y="128.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_close" source.down="fqzs_close" source.disabled="fqzs_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image verticalCenter="-59.5" horizontalCenter="-234.5" source="fqzs_battle_json.fqzs_music"/>
+		<e:Image verticalCenter="-59" horizontalCenter="66.5" source="fqzs_battle_json.fqzs_effect"/>
+		<e:Image horizontalCenter="-234" verticalCenter="61" source="fqzs_battle_json.fqzs_mute"/>
+		<e:ToggleSwitch id="switchBgBtn" label="" verticalCenter="-52.5" left="490" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="fqzs_battle_json.fqzs_set_on" source.up="fqzs_battle_json.fqzs_set_off" source.down="fqzs_battle_json.fqzs_set_off" source.disabled="fqzs_battle_json.fqzs_set_off" verticalCenter="0" left="0" right="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" verticalCenter="-52.5" left="790" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="fqzs_battle_json.fqzs_set_on" source.up="fqzs_battle_json.fqzs_set_off" source.down="fqzs_battle_json.fqzs_set_off" source.disabled="fqzs_battle_json.fqzs_set_off" left="0" right="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" verticalCenter="65.5" left="490">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="fqzs_battle_json.fqzs_set_on" source.up="fqzs_battle_json.fqzs_set_off" source.down="fqzs_battle_json.fqzs_set_off" source.disabled="fqzs_battle_json.fqzs_set_off" left="0" right="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+</e:Skin>

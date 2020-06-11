@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CoinSkin" width="62" height="68" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166367b7a8c" ></w:Config>
+	<e:Image id="chipImg" x="0" y="0" source="zjh_chip_4"/>
+	<e:BitmapLabel id="iconLabel" text="50万" anchorOffsetX="0" anchorOffsetY="0" width="61" height="68" x="0" y="0" textAlign="center" verticalAlign="middle" font="zjh_battle_coin_fnt"/>
+
+</e:Skin>

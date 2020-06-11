@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbPlayerListPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tb="game.tb.*" >
+	<w:Config id="16be0d751ad" ></w:Config>
+	<e:Group y="90.91" horizontalCenter="0">
+		<e:Image y="0" scale9Grid="20,51,185,36" anchorOffsetX="0" anchorOffsetY="0" source="diceGame_json.panel_bg" x="0"/>
+		<ns1:IButton id="closeBtn" label="" x="604.61" y="17.97">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="diceGame_json.closeBtn" source.down="diceGame_json.closeBtn" source.disabled="diceGame_json.closeBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Scroller id="scroller" height="330.31" y="122.46" anchorOffsetX="0" anchorOffsetY="0" width="520.33" x="82.34">
+			<e:Group id="scrollerGroup" anchorOffsetX="0" x="0" y="-6.06" anchorOffsetY="0" height="336.37">
+				<e:Group id="rankGroup" width="452" height="321.33" x="31.01" y="1.02" anchorOffsetX="0" anchorOffsetY="0">
+					<tb:TbRankItem x="-278.99999999999994" y="-25" width="87" height="141" scaleX="1" scaleY="1"/>
+					<tb:TbRankItem x="14" y="-25" width="87" height="141" scaleX="1" scaleY="1"/>
+					<tb:TbRankItem x="307" y="-25" width="87" height="141" scaleX="1" scaleY="1"/>
+					<tb:TbRankItem x="-278.99999999999994" y="190" width="87" height="141" scaleX="1" scaleY="1"/>
+					<tb:TbRankItem x="14" y="190" width="87" height="141" scaleX="1" scaleY="1"/>
+					<tb:TbRankItem x="307" y="190" width="87" height="141" scaleX="1" scaleY="1"/>
+					<tb:TbRankItem x="-278.99999999999994" y="404.99999999999994" width="87" height="141" scaleX="1" scaleY="1"/>
+					<tb:TbRankItem x="14" y="404.99999999999994" width="87" height="141" scaleX="1" scaleY="1"/>
+					<tb:TbRankItem x="307" y="404.99999999999994" width="87" height="141" scaleX="1" scaleY="1"/>
+					<e:layout>
+						<e:TileLayout horizontalGap="93" verticalGap="15" requestedColumnCount="3"/>
+					</e:layout>
+				</e:Group>
+
+
+
+
+
+
+
+
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+
+			</e:Group>
+		</e:Scroller>
+		<e:Image x="232.01" y="25" source="tb_player_title_png"/>
+	</e:Group>
+	<e:Label id="onlineNum" text="0在线" y="168.45" size="35" fontFamily="Microsoft YaHei" height="35" horizontalCenter="0.5" textAlign="center" verticalAlign="middle"/>
+</e:Skin>

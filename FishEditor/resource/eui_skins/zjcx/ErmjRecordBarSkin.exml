@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjRecordBarSkin" width="920" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="zjcx_json.zjcx_line2" x="4" y="48"/>
+	<e:Label id="zjTime" text="---------" x="535.48" size="25" verticalCenter="1.5" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle"/>
+	<e:Label id="roomLevel" text="体验场1" x="352.15" size="25" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" verticalAlign="middle" y="11" anchorOffsetX="0" width="107" anchorOffsetY="0" height="26" textAlign="center"/>
+	<e:Label id="totalWin" text="0" x="151" size="25" verticalCenter="1.5" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="120" height="25"/>
+
+	<e:Label id="resultIcon" text="0" x="16" size="25" verticalCenter="0.5" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="104" anchorOffsetY="0" height="25"/>
+	<ns1:IButton id="detailBtn" label="Button" x="746" y="10" anchorOffsetY="0" height="32"/>
+</e:Skin>

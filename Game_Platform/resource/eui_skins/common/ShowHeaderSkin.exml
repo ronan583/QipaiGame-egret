@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShowHeaderSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="460" height="280" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="common_pop_bg_png"/>
+	<e:Image source="common_header_srk_png" x="550" y="263"/>
+	<e:Image source="common_header_k_png" x="467" y="209"/>
+	<e:Image id="heardImg" source="main_header_wait_png" x="469" y="212" anchorOffsetX="0" width="101" anchorOffsetY="0" height="101"/>
+	<e:Image source="common_header_bg_png" y="412" horizontalCenter="1" anchorOffsetX="0" width="400" anchorOffsetY="0" height="76"/>
+	<e:Image source="common_header_boy_png" x="741" y="269"/>
+	<e:Label id="nameLab" text="" x="575" y="269" anchorOffsetX="0" width="167" fontFamily="Microsoft YaHei" size="24" height="24"/>
+	<e:Image source="common_header_id_png" x="477" y="325"/>
+	<e:Image id="ipName" source="common_header_ip_png" x="477" y="367"/>
+	<e:Image source="common_header_ju_png" x="697" y="323" visible="false"/>
+	<e:Label id="idLab" text="" x="517" y="326" fontFamily="Microsoft YaHei" textColor="0xa86003" size="24" textAlign="left" anchorOffsetX="0" width="112" height="24"/>
+	<e:Label id="ipLab" text="" x="515" y="367" fontFamily="Microsoft YaHei" textColor="0xA86003" size="24" anchorOffsetX="0" width="199" textAlign="left" height="24"/>
+	<e:Label text="0" x="737" y="324" fontFamily="Microsoft YaHei" textColor="0xA86003" size="24" anchorOffsetX="0" width="111" height="24" visible="false"/>
+	<e:Image source="common_header_yuan_png" x="475" y="419"/>
+	<e:Image source="common_header_yuan_png" x="556" y="419"/>
+	<e:Image source="common_header_yuan_png" x="637" y="420"/>
+	<e:Image source="common_header_yuan_png" x="718" y="420"/>
+	<e:Image source="common_header_yuan_png" x="796" y="419"/>
+</e:Skin>

@@ -1,0 +1,13 @@
+{"file":"bcbm_room.png","frames":{
+"0":{"x":16,"y":49,"w":13,"h":22,"offX":0,"offY":0,"sourceW":13,"sourceH":22},
+"1":{"x":16,"y":73,"w":9,"h":22,"offX":0,"offY":0,"sourceW":9,"sourceH":22},
+"2":{"x":46,"y":49,"w":13,"h":22,"offX":0,"offY":0,"sourceW":13,"sourceH":22},
+"3":{"x":31,"y":49,"w":13,"h":22,"offX":0,"offY":0,"sourceW":13,"sourceH":22},
+"4":{"x":1,"y":29,"w":13,"h":22,"offX":0,"offY":0,"sourceW":13,"sourceH":22},
+"5":{"x":44,"y":25,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"6":{"x":1,"y":53,"w":13,"h":22,"offX":0,"offY":0,"sourceW":13,"sourceH":22},
+"7":{"x":44,"y":1,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"8":{"x":28,"y":25,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"9":{"x":28,"y":1,"w":14,"h":22,"offX":0,"offY":0,"sourceW":14,"sourceH":22},
+"y":{"x":1,"y":1,"w":25,"h":26,"offX":0,"offY":0,"sourceW":25,"sourceH":26},
+".":{"x":16,"y":29,"w":6,"h":6,"offX":0,"offY":15,"sourceW":6,"sourceH":22}}}

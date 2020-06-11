@@ -1,0 +1,12 @@
+{"file":"brnn_bank.png","frames":{
+"brnn_bank_btn_max":{"x":1640,"y":778,"w":82,"h":64,"offX":0,"offY":0,"sourceW":82,"sourceH":64},
+"brnn_bank_close":{"x":199,"y":804,"w":72,"h":72,"offX":0,"offY":0,"sourceW":72,"sourceH":72},
+"brnn_bank_draw_btn":{"x":1742,"y":727,"w":254,"h":118,"offX":0,"offY":0,"sourceW":254,"sourceH":118},
+"brnn_bank_draw_btn_text":{"x":1,"y":857,"w":102,"h":49,"offX":0,"offY":0,"sourceW":102,"sourceH":49},
+"brnn_bank_draw_btn_title":{"x":1,"y":804,"w":196,"h":51,"offX":0,"offY":0,"sourceW":196,"sourceH":51},
+"brnn_bank_edit_bg":{"x":1,"y":727,"w":852,"h":75,"offX":0,"offY":0,"sourceW":852,"sourceH":75},
+"brnn_bank_p_bar":{"x":855,"y":793,"w":783,"h":13,"offX":0,"offY":0,"sourceW":783,"sourceH":13},
+"brnn_bank_p_bg":{"x":855,"y":778,"w":783,"h":13,"offX":0,"offY":0,"sourceW":783,"sourceH":13},
+"brnn_bank_p_thumb":{"x":105,"y":857,"w":59,"h":60,"offX":0,"offY":0,"sourceW":59,"sourceH":60},
+"brnn_bank_bg":{"x":1,"y":1,"w":1089,"h":724,"offX":0,"offY":0,"sourceW":1089,"sourceH":724},
+"brnn_bank_bg2":{"x":855,"y":727,"w":885,"h":49,"offX":0,"offY":0,"sourceW":885,"sourceH":49}}}

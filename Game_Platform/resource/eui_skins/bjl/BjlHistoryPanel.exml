@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlHistoryPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:bjl="game.bjl.*" >
+	<w:Config id="16aca0b3f93" ></w:Config>
+	<e:Image id="bgImg" y="128.5" x="190.61" source="bjlGame_json.bg_trend"/>
+	<e:Image y="134.5" width="184" height="64" x="595.61" source="bjlGame_json.title_trend"/>
+	<ns1:IButton id="closeBtn" label="" x="999.95" y="130.15">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bjlGame_json.trendCloseBtn" source.down="close_png" source.disabled="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*" xmlns:lhdz="game.lhdz.*" xmlns:hhdz="game.hhdz.*"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<bjl:BjlResultRoad id="resultRoad" x="199.92" y="200.97" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.18" scaleY="1.28" width="308.45" height="226.45"/>
+	<bjl:BigRoad id="bigRoad" height="120" x="566.3" y="202.49" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.23" scaleY="1.2" width="410.28"/>
+	<bjl:BjlDyzRoad id="dyzRoad" width="217.45" height="50.22" x="565.77" y="347.94" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.25" scaleY="1.5"/>
+	<bjl:BjlSmallRoad id="smallRoad" width="217.97" height="47.35" x="565.25" y="422.16" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.25" scaleY="1.35"/>
+	<bjl:BjlYueyouRoad id="yueyouRoad" width="201.91" height="49.8" x="839.63" anchorOffsetX="0" anchorOffsetY="0" y="348.94" scaleX="1.25" scaleY="1.45"/>
+
+</e:Skin>

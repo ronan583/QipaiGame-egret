@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainInstructionSkin" width="282" height="377" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="169ca264409" ></w:Config>
+	<e:Group id="motionGroup" width="564" height="377" x="0" y="0">
+		<e:Image id="instructionImg1" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="instruction1" height="377"/>
+		<e:Image id="instructionImg2" x="282" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="instruction1" height="377"/>
+	</e:Group>
+	<e:Rect id="maskRect" width="282" height="377" x="0" y="0"/>
+</e:Skin>

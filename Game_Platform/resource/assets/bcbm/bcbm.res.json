@@ -1,0 +1,437 @@
+{
+	"groups": [
+		{
+			"keys": "bcbm_result_json,bcbm_game_json,vbcbm_usernum_png,vbcbm_usernum_fnt,vbcbm_time_png,vbcbm_time_fnt,vbcbm_t_png,vbcbm_t_fnt,vbcbm_s_png,vbcbm_s_fnt,vbcbm_room_pt_png,vbcbm_room_pt_fnt,vbcbm_result_win_rank_png,vbcbm_result_win_rank_fnt,vbcbm_result_type2_png,vbcbm_result_type2_fnt,vbcbm_result_type1_png,vbcbm_result_type1_fnt,vbcbm_result_lost_rank_png,vbcbm_result_lost_rank_fnt,vbcbm_play_p_png,vbcbm_play_p_fnt,vbcbm_me_png,vbcbm_me_fnt,vbcbm_loading_png,vbcbm_loading_fnt,vbcbm_battle_bank_png,vbcbm_battle_bank_fnt,vbcbm_bank_ye_png,vbcbm_bank_ye_fnt,vbcbm_bank_dq_png,vbcbm_bank_dq_fnt,bcbm_room_png,bcbm_room_fnt,bcbm_set-room-bank_json,bcbmwinjiesuan_tex_png,bcbmwinjiesuan_tex_json,bcbmwinjiesuan_ske_dbbin,bcbmfailjiesuan_tex_png,bcbmfailjiesuan_tex_json,bcbmfailjiesuan_ske_dbbin,xiaoguotu_png,bcbmgameselectgq_ske_dbbin,bcbmgameselectgq_tex_png,bcbmgameselectgq_tex_json,baoma_tex_png,baoshijie_ske_dbbin,baoshijie_tex_png,bcbmgamexzqlogo_ske_dbbin,bcbmgamexzqlogo_tex_png,benchi_ske_dbbin,benchi_tex_png,baoma_ske_dbbin,baoma_tex_json,bcbmgamexzqlogo_tex_json,baoshijie_tex_json,benchi_tex_json,bcbmcheweiqi_ske_dbbin,bcbmcheweiqi_tex_png,bcbmcheweiqi_tex_json,bcbm_bg_mp3,bcbm_close_mp3,bcbm_coin_mp3,bcbm_countdown_mp3,bcbm_gold_mp3,bcbm_lotteryBg_mp3,bcbm_music_mp3,bcbm_result_mp3,bcbm_result_confirm_mp3,bcbm_result2_mp3,bcbm_startBet_mp3,bcbm_stopBet_mp3,bcbm_touch_mp3,bcbm_bet_mp3,bcbm_result_win_mp3,bcbm_result_lose_mp3,bcbm_dengdaixiaju_ske_dbbin,bcbm_dengdaixiaju_tex_png,bcbm_dengdaixiaju_tex_json,bcbm_zjcx_lose_fnt,bcbm_zjcx_lose_png,bcbm_zjcx_win_fnt,bcbm_zjcx_win_png",
+			"name": "bcbm"
+		},
+		{
+			"keys": "",
+			"name": "bcbmSound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bcbm/atlas/bcbm_result.json",
+			"type": "sheet",
+			"name": "bcbm_result_json",
+			"subkeys": "bcbm_result_carbenz,bcbm_result_carbmw,bcbm_result_carbsj,bcbm_result_carvw,bcbm_result_icon_banker,bcbm_result_icon_me,bcbm_result_l1,bcbm_result_l2,bcbm_result_l3,bcbm_result_l4,bcbm_result_l5,bcbm_result_mutiple10l,bcbm_result_mutiple10w,bcbm_result_mutiple20l,bcbm_result_mutiple20w,bcbm_result_mutiple30l,bcbm_result_mutiple30w,bcbm_result_mutiple40l,bcbm_result_mutiple40w,bcbm_result_mutiple5l,bcbm_result_mutiple5w,bcbm_result_nobet,bcbm_result_nowin,bcbm_result_w1,bcbm_result_w2,bcbm_result_w3,bcbm_result_w4,bcbm_result_w5,bcbm_result_youlose,bcbm_result_youlosebg,bcbm_result_youlosebg1,bcbm_result_youlosebg2,bcbm_result_youwin,bcbm_result_youwinbg,bcbm_result_youwinbg1,bcbm_result_youwinbg2"
+		},
+		{
+			"url": "assets/bcbm/atlas/bcbm_game.json",
+			"type": "sheet",
+			"name": "bcbm_game_json",
+			"subkeys": "bcbm_bankericon,bcbm_bankerlist_bg,bcbm_bankerlist_split,bcbm_betkuang,bcbm_btn_all,bcbm_btn_bankerdown,bcbm_btn_bankerup,bcbm_btn_betover,bcbm_btn_betstart,bcbm_btn_close,bcbm_btn_confirm,bcbm_btn_continue,bcbm_btn_continue0,bcbm_btn_down,bcbm_btn_online,bcbm_btn_plus,bcbm_btn_switch,bcbm_btn_up,bcbm_caricon_benz,bcbm_caricon_benz1,bcbm_caricon_benz2,bcbm_caricon_benz3,bcbm_caricon_benz4,bcbm_caricon_benz5,bcbm_caricon_benz6,bcbm_caricon_benz7,bcbm_caricon_benz8,bcbm_caricon_benz9,bcbm_caricon_bmw,bcbm_caricon_bmw1,bcbm_caricon_bmw2,bcbm_caricon_bmw3,bcbm_caricon_bmw4,bcbm_caricon_bmw5,bcbm_caricon_bmw6,bcbm_caricon_bmw7,bcbm_caricon_bmw8,bcbm_caricon_bmw9,bcbm_caricon_bsj,bcbm_caricon_bsj1,bcbm_caricon_bsj2,bcbm_caricon_bsj3,bcbm_caricon_bsj4,bcbm_caricon_bsj5,bcbm_caricon_bsj6,bcbm_caricon_bsj7,bcbm_caricon_bsj8,bcbm_caricon_bsj9,bcbm_caricon_vw,bcbm_caricon_vw1,bcbm_caricon_vw2,bcbm_caricon_vw3,bcbm_caricon_vw4,bcbm_caricon_vw5,bcbm_caricon_vw6,bcbm_caricon_vw7,bcbm_caricon_vw8,bcbm_caricon_vw9,bcbm_chip_high_10,bcbm_chip_high_100,bcbm_chip_high_1000,bcbm_chip_high_1000t,bcbm_chip_high_100t,bcbm_chip_high_10t,bcbm_chip_high_200,bcbm_chip_high_200t,bcbm_chip_high_50,bcbm_chip_high_500,bcbm_chip_high_500t,bcbm_chip_high_50t,bcbm_chip_tiyan_1,bcbm_chip_tiyan_10,bcbm_chip_tiyan_100,bcbm_chip_tiyan_100t,bcbm_chip_tiyan_10t,bcbm_chip_tiyan_1t,bcbm_chip_tiyan_200,bcbm_chip_tiyan_200t,bcbm_chip_tiyan_5,bcbm_chip_tiyan_50,bcbm_chip_tiyan_50t,bcbm_chip_tiyan_5t,bcbm_game_bet,bcbm_game_bg,bcbm_game_bg1,bcbm_game_bg2,bcbm_game_bottom,bcbm_game_groupmask1,bcbm_game_groupmask2,bcbm_game_idle,bcbm_game_idle1,bcbm_game_imgcar,bcbm_game_imgcircle,bcbm_game_level1,bcbm_game_level2,bcbm_game_open,bcbm_game_paolaba,bcbm_game_paomadeng,bcbm_game_selectcar,bcbm_icon_jindou,bcbm_icon_money,bcbm_menu_back,bcbm_menu_help,bcbm_menu_setting,bcbm_menu_withdraw,bcbm_player,bcbm_player_headbg,bcbm_player_headbgbanker,bcbm_player_headnan,bcbm_player_headnv"
+		},
+		{
+			"url": "assets/bcbm/font/bcbm_room.fnt",
+			"type": "font",
+			"name": "bcbm_room_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/bcbm_room.png",
+			"type": "image",
+			"name": "bcbm_room_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_bank_dq.fnt",
+			"type": "font",
+			"name": "vbcbm_bank_dq_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_bank_dq.png",
+			"type": "image",
+			"name": "vbcbm_bank_dq_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_bank_ye.fnt",
+			"type": "font",
+			"name": "vbcbm_bank_ye_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_bank_ye.png",
+			"type": "image",
+			"name": "vbcbm_bank_ye_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_battle_bank.fnt",
+			"type": "font",
+			"name": "vbcbm_battle_bank_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_battle_bank.png",
+			"type": "image",
+			"name": "vbcbm_battle_bank_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_loading.fnt",
+			"type": "font",
+			"name": "vbcbm_loading_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_loading.png",
+			"type": "image",
+			"name": "vbcbm_loading_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_me.fnt",
+			"type": "font",
+			"name": "vbcbm_me_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_me.png",
+			"type": "image",
+			"name": "vbcbm_me_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_play_p.fnt",
+			"type": "font",
+			"name": "vbcbm_play_p_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_play_p.png",
+			"type": "image",
+			"name": "vbcbm_play_p_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_result_lost_rank.fnt",
+			"type": "font",
+			"name": "vbcbm_result_lost_rank_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_result_lost_rank.png",
+			"type": "image",
+			"name": "vbcbm_result_lost_rank_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_result_type1.fnt",
+			"type": "font",
+			"name": "vbcbm_result_type1_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_result_type1.png",
+			"type": "image",
+			"name": "vbcbm_result_type1_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_result_type2.fnt",
+			"type": "font",
+			"name": "vbcbm_result_type2_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_result_type2.png",
+			"type": "image",
+			"name": "vbcbm_result_type2_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_result_win_rank.fnt",
+			"type": "font",
+			"name": "vbcbm_result_win_rank_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_result_win_rank.png",
+			"type": "image",
+			"name": "vbcbm_result_win_rank_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_room_pt.fnt",
+			"type": "font",
+			"name": "vbcbm_room_pt_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_room_pt.png",
+			"type": "image",
+			"name": "vbcbm_room_pt_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_s.fnt",
+			"type": "font",
+			"name": "vbcbm_s_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_s.png",
+			"type": "image",
+			"name": "vbcbm_s_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_t.fnt",
+			"type": "font",
+			"name": "vbcbm_t_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_t.png",
+			"type": "image",
+			"name": "vbcbm_t_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_time.fnt",
+			"type": "font",
+			"name": "vbcbm_time_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_time.png",
+			"type": "image",
+			"name": "vbcbm_time_png"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_usernum.fnt",
+			"type": "font",
+			"name": "vbcbm_usernum_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/vbcbm_usernum.png",
+			"type": "image",
+			"name": "vbcbm_usernum_png"
+		},
+		{
+			"url": "assets/bcbm/atlas/bcbm_set-room-bank.json",
+			"type": "sheet",
+			"name": "bcbm_set-room-bank_json",
+			"subkeys": "bcbm_bank_btnAll,bcbm_bank_btnSlide,bcbm_bank_dikuang,bcbm_bank_imgPgs,bcbm_bank_imgPgsbg,bcbm_bank_imgTalk,bcbm_bank_labelBalance,bcbm_bank_labelBank,bcbm_bank_labelPct0,bcbm_bank_labelPct100,bcbm_bank_labelPct50,bcbm_bank_titleWithdraw,bcbm_room_bg1,bcbm_room_bg2,bcbm_room_btnBack,bcbm_room_btnConfirm,bcbm_room_btnHelp,bcbm_room_btnHistory,bcbm_room_btnxx,bcbm_room_difen,bcbm_room_helpTitle,bcbm_room_iconBaoman,bcbm_room_iconKongxian,bcbm_room_imgHelp,bcbm_room_imgLine,bcbm_room_imgTitle,bcbm_room_labelCost,bcbm_room_labelFree,bcbm_room_labelHuode,bcbm_room_labelRoom,bcbm_room_labelTime,bcbm_room_labelZero,bcbm_room_labelZhunru,bcbm_setting_labelQuiet,bcbm_setting_labelSet,bcbm_setting_labelTx,bcbm_setting_labelYx,bcbm_setting_labelYy,bcbm_setting_toggleOff,bcbm_setting_toggleOn,bcbm_zjcx_btnclose,bcbm_zjcx_btndetail,bcbm_zjcx_iconbanker,bcbm_zjcx_iconlose,bcbm_zjcx_iconwin,bcbm_zjcx_imglabelbg,bcbm_zjcx_imgpool,bcbm_zjcx_imgtotalbet,bcbm_zjcx_levelimg1,bcbm_zjcx_levelimg2,bcbm_zjcx_levelimg3,bcbm_zjcx_line,bcbm_zjcx_panelbg,bcbm_zjcx_title"
+		},
+		{
+			"url": "assets/bcbm/bcbm.res.json",
+			"type": "json",
+			"name": "bcbm.res_json"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmfailjiesuan_tex.png",
+			"type": "image",
+			"name": "bcbmfailjiesuan_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmwinjiesuan_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmwinjiesuan_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmwinjiesuan_tex.png",
+			"type": "image",
+			"name": "bcbmwinjiesuan_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmfailjiesuan_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmfailjiesuan_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmwinjiesuan_tex.json",
+			"type": "json",
+			"name": "bcbmwinjiesuan_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmfailjiesuan_tex.json",
+			"type": "json",
+			"name": "bcbmfailjiesuan_tex_json"
+		},
+		{
+			"url": "assets/bcbm/image/xiaoguotu.png",
+			"type": "image",
+			"name": "xiaoguotu_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmgameselectgq_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmgameselectgq_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmgameselectgq_tex.png",
+			"type": "image",
+			"name": "bcbmgameselectgq_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmgameselectgq_tex.json",
+			"type": "json",
+			"name": "bcbmgameselectgq_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/game/baoma_tex.png",
+			"type": "image",
+			"name": "baoma_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/baoshijie_ske.dbbin",
+			"type": "bin",
+			"name": "baoshijie_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/baoshijie_tex.png",
+			"type": "image",
+			"name": "baoshijie_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmgamexzqlogo_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmgamexzqlogo_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmgamexzqlogo_tex.png",
+			"type": "image",
+			"name": "bcbmgamexzqlogo_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/benchi_ske.dbbin",
+			"type": "bin",
+			"name": "benchi_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/benchi_tex.png",
+			"type": "image",
+			"name": "benchi_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/baoma_ske.dbbin",
+			"type": "bin",
+			"name": "baoma_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/baoma_tex.json",
+			"type": "json",
+			"name": "baoma_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmgamexzqlogo_tex.json",
+			"type": "json",
+			"name": "bcbmgamexzqlogo_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/game/baoshijie_tex.json",
+			"type": "json",
+			"name": "baoshijie_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/game/benchi_tex.json",
+			"type": "json",
+			"name": "benchi_tex_json"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmcheweiqi_ske.dbbin",
+			"type": "bin",
+			"name": "bcbmcheweiqi_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmcheweiqi_tex.png",
+			"type": "image",
+			"name": "bcbmcheweiqi_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbmcheweiqi_tex.json",
+			"type": "json",
+			"name": "bcbmcheweiqi_tex_json"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_bg.mp3",
+			"type": "sound",
+			"name": "bcbm_bg_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_close.mp3",
+			"type": "sound",
+			"name": "bcbm_close_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_coin.mp3",
+			"type": "sound",
+			"name": "bcbm_coin_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_countdown.mp3",
+			"type": "sound",
+			"name": "bcbm_countdown_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_gold.mp3",
+			"type": "sound",
+			"name": "bcbm_gold_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_lotteryBg.mp3",
+			"type": "sound",
+			"name": "bcbm_lotteryBg_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_music.mp3",
+			"type": "sound",
+			"name": "bcbm_music_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_result.mp3",
+			"type": "sound",
+			"name": "bcbm_result_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_result_confirm.mp3",
+			"type": "sound",
+			"name": "bcbm_result_confirm_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_result2.mp3",
+			"type": "sound",
+			"name": "bcbm_result2_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_startBet.mp3",
+			"type": "sound",
+			"name": "bcbm_startBet_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_stopBet.mp3",
+			"type": "sound",
+			"name": "bcbm_stopBet_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_touch.mp3",
+			"type": "sound",
+			"name": "bcbm_touch_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_bet.mp3",
+			"type": "sound",
+			"name": "bcbm_bet_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_result_lose.mp3",
+			"type": "sound",
+			"name": "bcbm_result_lose_mp3"
+		},
+		{
+			"url": "assets/bcbm/sound/bcbm_result_win.mp3",
+			"type": "sound",
+			"name": "bcbm_result_win_mp3"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbm_dengdaixiaju_ske.dbbin",
+			"type": "bin",
+			"name": "bcbm_dengdaixiaju_ske_dbbin"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbm_dengdaixiaju_tex.png",
+			"type": "image",
+			"name": "bcbm_dengdaixiaju_tex_png"
+		},
+		{
+			"url": "assets/bcbm/animation/game/bcbm_dengdaixiaju_tex.json",
+			"type": "json",
+			"name": "bcbm_dengdaixiaju_tex_json"
+		},
+		{
+			"url": "assets/bcbm/font/bcbm_zjcx_lose.fnt",
+			"type": "font",
+			"name": "bcbm_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/bcbm_zjcx_lose.png",
+			"type": "image",
+			"name": "bcbm_zjcx_lose_png"
+		},
+		{
+			"url": "assets/bcbm/font/bcbm_zjcx_win.fnt",
+			"type": "font",
+			"name": "bcbm_zjcx_win_fnt"
+		},
+		{
+			"url": "assets/bcbm/font/bcbm_zjcx_win.png",
+			"type": "image",
+			"name": "bcbm_zjcx_win_png"
+		}
+	]
+}

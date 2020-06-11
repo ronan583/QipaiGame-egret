@@ -1,0 +1,1329 @@
+{
+	"groups": [
+		{
+			"keys": "ddz_nazhong_fnt_png,ddz_nazhong_fnt_fnt,card_record_fnt,card_record_png,ddzfnt1_fnt,ddzfnt1_png,ddzfnt2_fnt,ddzfnt2_png,ddzroom_json,ddz_help_content_png,ddz_room_bg_jpg,ddz_room_preview_png,ddzRoomFnt1_png,ddzRoomFnt1_fnt,ddz_chuji_ske_dbbin,ddz_chuji_tex_png,ddz_gaoji_ske_dbbin,ddz_gaoji_tex_png,ddz_tiyan_ske_dbbin,ddz_tiyan_tex_png,ddz_zhongji_ske_dbbin,ddz_zhongji_tex_png,ddz_zhongji_tex_json,ddz_chuji_tex_json,ddz_gaoji_tex_json,ddz_tiyan_tex_json,ddz_room_anim_bg_jpg,ddz_qidong_3_tex_png,ddz_qidong_3_tex_json,ddz_qidong_3_ske_dbbin,ddz_help_bg_png,ddz_help_close_png,ddz_help_title_png,ddz_bg_jpg,ddz_battle_json,ddz_res_redo_png,ddz_clock_num_fnt,ddz_clock_num_png,ddz_countdown_fnt,ddz_countdown_png,ddz_gold_num_fnt,ddz_gold_num_png,ddz_res_red_fnt,ddz_res_red_png,ddz_res_redo_fnt,ddzwinjiesuan_ske_dbbin,ddzwinjiesuan_tex_png,ddzfailjiesuan_ske_dbbin,ddzfailjiesuan_tex_png,ddzwinjiesuan_tex_json,ddzfailjiesuan_tex_json,ddz_card_record_png,ddz_card_record_fnt,ddz_card_count_png,ddz_card_count_fnt,waitAnim_tex_png,waitAnim_ske_dbbin,waitAnim_tex_json,ddz_dz_tex_png,ddz_dz_ske_dbbin,ddz_dz_tex_json,dizhuqz_tex_png,dizhuqz_ske_dbbin,dizhuqz_tex_json,ddz_nm_nan_tex_png,ddz_nm_nan_ske_dbbin,ddz_nm_nan_tex_json,ddzliandui_ske_dbbin,ddzliandui_tex_png,ddzmingpai_ske_dbbin,ddzmingpai_tex_png,ddzchutian_ske_dbbin,ddzchutian_tex_png,ddzchutian_tex_json,ddzliandui_tex_json,ddzmingpai_tex_json,ddzwarning_tex_png,ddzwarning_tex_json,ddzwarning_ske_dbbin,ddzzhadan_ske_dbbin,ddzzhadan_tex_png,ddzzhadan_tex_json,kingboom_mc_ske_dbbin,kingboom_mc_tex_png,ddzplane_ske_dbbin,ddzshunzi_ske_dbbin,ddzplane_tex_png,ddzshunzi_tex_png,ddzplane_tex_json,kingboom_mc_tex_json,ddzshunzi_tex_json,ddz_dz_winlose_tex_png,ddz_dz_winlose_ske_dbbin,ddz_dz_winlose_tex_json,ddz_nm_nan_winlose_ske_dbbin,ddz_nm_nan_winlose_tex_png,ddz_nm_nan_winlose_tex_json,ddzwin_tex_png,ddzwin_ske_dbbin,ddzwin_tex_json,ddz_help_content1_png,ddzfail_ske_dbbin,ddzfail_tex_png,ddzfail_tex_json,ddz_aperture_png,ddz_card_back_png,ddz_history_bg_png,ddz_history_exit_png,ddz_history_split_png,ddz_history_title_png,ddz_self_lord_png,ddz_table_lord_png,ddzwangzha_ske_dbbin,ddzwangzha_tex_png,ddzwangzha_tex_json,ddz_wait_tex_png,ddz_wait_tex_json,ddz_wait_ske_dbbin,ddz_card_mask_png,ddz_tongts_tex_png,ddz_tongts_tex_json,ddz_tongts_ske_dbbin,ddz_bianshe_ske_dbbin,ddz_bianshe_tex_png,ddz_bianshe_tex_json,wait_farmer_jiabei_png,ddz_no_play_png,ddz_game_mask_png,ddz_auto_play_png,ddz_multi_bg_png,ddz_unknown_holder_png,ddz_bei_bg_png,ddz_bei_fnt,ddz_bei_png,ddz_bei_btn_png,ddz_wait_otherplayer_tex_png,ddz_wait_otherplayer_tex_json,ddz_wait_otherplayer_ske_dbbin,ddz_zjcx_win_png,ddz_zjcx_lose_png,ddz_zjcx_win_fnt,ddz_zjcx_lose_fnt,ddz_zjcx_json",
+			"name": "ddz"
+		},
+		{
+			"keys": "ddz_bg_mp3,ddz_lose_mp3,ddz_s_alert_mp3,ddz_s_bg_mp3,ddz_s_bomb_mp3,ddz_s_countdown_mp3,ddz_s_doublestraight_mp3,ddz_s_plane_mp3,ddz_s_planewings_mp3,ddz_s_playcard_mp3,ddz_s_rocket_mp3,ddz_s_selectcard_mp3,ddz_s_sendcard_mp3,ddz_s_spring_mp3,ddz_s_straight_mp3,ddz_win_mp3,ddz_female_3and1_mp3,ddz_female_3and2_mp3,ddz_female_4and1_mp3,ddz_female_4and2_mp3,ddz_female_blackjoker_mp3,ddz_female_bomb_mp3,ddz_female_doubelstraight_mp3,ddz_female_double_mp3,ddz_female_left1_1_mp3,ddz_female_left1_2_mp3,ddz_female_left2_1_mp3,ddz_female_left2_2_mp3,ddz_female_no_double_mp3,ddz_female_pair1_mp3,ddz_female_pair10_mp3,ddz_female_pair11_mp3,ddz_female_pair12_mp3,ddz_female_pair13_mp3,ddz_female_pair2_mp3,ddz_female_pair3_mp3,ddz_female_pair4_mp3,ddz_female_pair5_mp3,ddz_female_pair6_mp3,ddz_female_pair7_mp3,ddz_female_pair8_mp3,ddz_female_pair9_mp3,ddz_female_pass_0_mp3,ddz_female_pass_1_mp3,ddz_female_plane_mp3,ddz_female_planewings_mp3,ddz_female_rate_0_mp3,ddz_female_rate_1_mp3,ddz_female_rate_2_mp3,ddz_female_rate_3_mp3,ddz_female_redjoker_mp3,ddz_female_rocket_mp3,ddz_female_single1_mp3,ddz_female_single10_mp3,ddz_female_single11_mp3,ddz_female_single12_mp3,ddz_female_single13_mp3,ddz_female_single2_mp3,ddz_female_single3_mp3,ddz_female_single4_mp3,ddz_female_single5_mp3,ddz_female_single6_mp3,ddz_female_single7_mp3,ddz_female_single8_mp3,ddz_female_single9_mp3,ddz_female_straight_mp3,ddz_female_triple_mp3,ddz_male_3and1_mp3,ddz_male_3and2_mp3,ddz_male_4and1_mp3,ddz_male_4and2_mp3,ddz_male_blackjoker_mp3,ddz_male_bomb_mp3,ddz_male_doubelstraight_mp3,ddz_male_double_mp3,ddz_male_left1_1_mp3,ddz_male_left2_1_mp3,ddz_male_no_double_mp3,ddz_male_pair1_mp3,ddz_male_pair10_mp3,ddz_male_pair11_mp3,ddz_male_pair12_mp3,ddz_male_pair13_mp3,ddz_male_pair2_mp3,ddz_male_pair3_mp3,ddz_male_pair4_mp3,ddz_male_pair5_mp3,ddz_male_pair6_mp3,ddz_male_pair7_mp3,ddz_male_pair8_mp3,ddz_male_pair9_mp3,ddz_male_pass_0_mp3,ddz_male_pass_1_mp3,ddz_male_plane_mp3,ddz_male_planewings_mp3,ddz_male_rate_0_mp3,ddz_male_rate_1_mp3,ddz_male_rate_2_mp3,ddz_male_rate_3_mp3,ddz_male_redjoker_mp3,ddz_male_rocket_mp3,ddz_male_single1_mp3,ddz_male_single10_mp3,ddz_male_single11_mp3,ddz_male_single12_mp3,ddz_male_single13_mp3,ddz_male_single2_mp3,ddz_male_single3_mp3,ddz_male_single4_mp3,ddz_male_single5_mp3,ddz_male_single6_mp3,ddz_male_single7_mp3,ddz_male_single8_mp3,ddz_male_single9_mp3,ddz_male_straight_mp3,ddz_male_triple_mp3",
+			"name": "ddz_sound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/ddz/sound/ddz_bg.mp3",
+			"type": "sound",
+			"name": "ddz_bg_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_lose.mp3",
+			"type": "sound",
+			"name": "ddz_lose_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_alert.mp3",
+			"type": "sound",
+			"name": "ddz_s_alert_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_bg.mp3",
+			"type": "sound",
+			"name": "ddz_s_bg_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_bomb.mp3",
+			"type": "sound",
+			"name": "ddz_s_bomb_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_countdown.mp3",
+			"type": "sound",
+			"name": "ddz_s_countdown_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_doublestraight.mp3",
+			"type": "sound",
+			"name": "ddz_s_doublestraight_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_plane.mp3",
+			"type": "sound",
+			"name": "ddz_s_plane_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_planewings.mp3",
+			"type": "sound",
+			"name": "ddz_s_planewings_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_playcard.mp3",
+			"type": "sound",
+			"name": "ddz_s_playcard_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_rocket.mp3",
+			"type": "sound",
+			"name": "ddz_s_rocket_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_selectcard.mp3",
+			"type": "sound",
+			"name": "ddz_s_selectcard_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_sendcard.mp3",
+			"type": "sound",
+			"name": "ddz_s_sendcard_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_spring.mp3",
+			"type": "sound",
+			"name": "ddz_s_spring_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_s_straight.mp3",
+			"type": "sound",
+			"name": "ddz_s_straight_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/ddz_win.mp3",
+			"type": "sound",
+			"name": "ddz_win_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_3and1.mp3",
+			"type": "sound",
+			"name": "ddz_female_3and1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_3and2.mp3",
+			"type": "sound",
+			"name": "ddz_female_3and2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_4and1.mp3",
+			"type": "sound",
+			"name": "ddz_female_4and1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_4and2.mp3",
+			"type": "sound",
+			"name": "ddz_female_4and2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_blackjoker.mp3",
+			"type": "sound",
+			"name": "ddz_female_blackjoker_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_bomb.mp3",
+			"type": "sound",
+			"name": "ddz_female_bomb_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_doubelstraight.mp3",
+			"type": "sound",
+			"name": "ddz_female_doubelstraight_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_double.mp3",
+			"type": "sound",
+			"name": "ddz_female_double_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_left1_1.mp3",
+			"type": "sound",
+			"name": "ddz_female_left1_1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_left1_2.mp3",
+			"type": "sound",
+			"name": "ddz_female_left1_2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_left2_1.mp3",
+			"type": "sound",
+			"name": "ddz_female_left2_1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_left2_2.mp3",
+			"type": "sound",
+			"name": "ddz_female_left2_2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_no_double.mp3",
+			"type": "sound",
+			"name": "ddz_female_no_double_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair1.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair10.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair10_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair11.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair11_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair12.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair12_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair13.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair13_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair2.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair3.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair3_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair4.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair4_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair5.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair5_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair6.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair6_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair7.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair7_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair8.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair8_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pair9.mp3",
+			"type": "sound",
+			"name": "ddz_female_pair9_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pass_0.mp3",
+			"type": "sound",
+			"name": "ddz_female_pass_0_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_pass_1.mp3",
+			"type": "sound",
+			"name": "ddz_female_pass_1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_plane.mp3",
+			"type": "sound",
+			"name": "ddz_female_plane_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_planewings.mp3",
+			"type": "sound",
+			"name": "ddz_female_planewings_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_rate_0.mp3",
+			"type": "sound",
+			"name": "ddz_female_rate_0_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_rate_1.mp3",
+			"type": "sound",
+			"name": "ddz_female_rate_1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_rate_2.mp3",
+			"type": "sound",
+			"name": "ddz_female_rate_2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_rate_3.mp3",
+			"type": "sound",
+			"name": "ddz_female_rate_3_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_redjoker.mp3",
+			"type": "sound",
+			"name": "ddz_female_redjoker_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_rocket.mp3",
+			"type": "sound",
+			"name": "ddz_female_rocket_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single1.mp3",
+			"type": "sound",
+			"name": "ddz_female_single1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single10.mp3",
+			"type": "sound",
+			"name": "ddz_female_single10_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single11.mp3",
+			"type": "sound",
+			"name": "ddz_female_single11_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single12.mp3",
+			"type": "sound",
+			"name": "ddz_female_single12_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single13.mp3",
+			"type": "sound",
+			"name": "ddz_female_single13_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single2.mp3",
+			"type": "sound",
+			"name": "ddz_female_single2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single3.mp3",
+			"type": "sound",
+			"name": "ddz_female_single3_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single4.mp3",
+			"type": "sound",
+			"name": "ddz_female_single4_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single5.mp3",
+			"type": "sound",
+			"name": "ddz_female_single5_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single6.mp3",
+			"type": "sound",
+			"name": "ddz_female_single6_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single7.mp3",
+			"type": "sound",
+			"name": "ddz_female_single7_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single8.mp3",
+			"type": "sound",
+			"name": "ddz_female_single8_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_single9.mp3",
+			"type": "sound",
+			"name": "ddz_female_single9_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_straight.mp3",
+			"type": "sound",
+			"name": "ddz_female_straight_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/female/ddz_female_triple.mp3",
+			"type": "sound",
+			"name": "ddz_female_triple_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_3and1.mp3",
+			"type": "sound",
+			"name": "ddz_male_3and1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_3and2.mp3",
+			"type": "sound",
+			"name": "ddz_male_3and2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_4and1.mp3",
+			"type": "sound",
+			"name": "ddz_male_4and1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_4and2.mp3",
+			"type": "sound",
+			"name": "ddz_male_4and2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_blackjoker.mp3",
+			"type": "sound",
+			"name": "ddz_male_blackjoker_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_bomb.mp3",
+			"type": "sound",
+			"name": "ddz_male_bomb_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_doubelstraight.mp3",
+			"type": "sound",
+			"name": "ddz_male_doubelstraight_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_double.mp3",
+			"type": "sound",
+			"name": "ddz_male_double_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_left1_1.mp3",
+			"type": "sound",
+			"name": "ddz_male_left1_1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_left2_1.mp3",
+			"type": "sound",
+			"name": "ddz_male_left2_1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_no_double.mp3",
+			"type": "sound",
+			"name": "ddz_male_no_double_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair1.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair10.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair10_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair11.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair11_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair12.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair12_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair13.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair13_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair2.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair3.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair3_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair4.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair4_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair5.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair5_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair6.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair6_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair7.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair7_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair8.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair8_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pair9.mp3",
+			"type": "sound",
+			"name": "ddz_male_pair9_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pass_0.mp3",
+			"type": "sound",
+			"name": "ddz_male_pass_0_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_pass_1.mp3",
+			"type": "sound",
+			"name": "ddz_male_pass_1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_plane.mp3",
+			"type": "sound",
+			"name": "ddz_male_plane_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_planewings.mp3",
+			"type": "sound",
+			"name": "ddz_male_planewings_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_rate_0.mp3",
+			"type": "sound",
+			"name": "ddz_male_rate_0_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_rate_1.mp3",
+			"type": "sound",
+			"name": "ddz_male_rate_1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_rate_2.mp3",
+			"type": "sound",
+			"name": "ddz_male_rate_2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_rate_3.mp3",
+			"type": "sound",
+			"name": "ddz_male_rate_3_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_redjoker.mp3",
+			"type": "sound",
+			"name": "ddz_male_redjoker_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_rocket.mp3",
+			"type": "sound",
+			"name": "ddz_male_rocket_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single1.mp3",
+			"type": "sound",
+			"name": "ddz_male_single1_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single10.mp3",
+			"type": "sound",
+			"name": "ddz_male_single10_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single11.mp3",
+			"type": "sound",
+			"name": "ddz_male_single11_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single12.mp3",
+			"type": "sound",
+			"name": "ddz_male_single12_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single13.mp3",
+			"type": "sound",
+			"name": "ddz_male_single13_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single2.mp3",
+			"type": "sound",
+			"name": "ddz_male_single2_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single3.mp3",
+			"type": "sound",
+			"name": "ddz_male_single3_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single4.mp3",
+			"type": "sound",
+			"name": "ddz_male_single4_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single5.mp3",
+			"type": "sound",
+			"name": "ddz_male_single5_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single6.mp3",
+			"type": "sound",
+			"name": "ddz_male_single6_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single7.mp3",
+			"type": "sound",
+			"name": "ddz_male_single7_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single8.mp3",
+			"type": "sound",
+			"name": "ddz_male_single8_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_single9.mp3",
+			"type": "sound",
+			"name": "ddz_male_single9_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_straight.mp3",
+			"type": "sound",
+			"name": "ddz_male_straight_mp3"
+		},
+		{
+			"url": "assets/ddz/sound/male/ddz_male_triple.mp3",
+			"type": "sound",
+			"name": "ddz_male_triple_mp3"
+		},
+		{
+			"url": "assets/ddz/ddz.res.json",
+			"type": "json",
+			"name": "ddz.res_json"
+		},
+		{
+			"url": "assets/ddz/font/ddz_nazhong_fnt.fnt",
+			"type": "font",
+			"name": "ddz_nazhong_fnt_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddz_nazhong_fnt.png",
+			"type": "image",
+			"name": "ddz_nazhong_fnt_png"
+		},
+		{
+			"url": "assets/ddz/font/card_record.fnt",
+			"type": "font",
+			"name": "card_record_fnt"
+		},
+		{
+			"url": "assets/ddz/font/card_record.png",
+			"type": "image",
+			"name": "card_record_png"
+		},
+		{
+			"url": "assets/ddz/font/ddzfnt1.fnt",
+			"type": "font",
+			"name": "ddzfnt1_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddzfnt1.png",
+			"type": "image",
+			"name": "ddzfnt1_png"
+		},
+		{
+			"url": "assets/ddz/font/ddzfnt2.fnt",
+			"type": "font",
+			"name": "ddzfnt2_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddzfnt2.png",
+			"type": "image",
+			"name": "ddzfnt2_png"
+		},
+		{
+			"url": "assets/ddz/ddzroom.json",
+			"type": "sheet",
+			"name": "ddzroom_json",
+			"subkeys": "ddzn_1,ddzn_20,ddzn_50,ddzn_bottom,ddzn_difen,ddzn_icon_add,ddzn_icon_back,ddzn_icon_gold,ddzn_icon_gold_bg,ddzn_icon_guobao,ddzn_icon_headframe,ddzn_icon_help,ddzn_icon_jilu,ddzn_icon_kongxian,ddzn_icon_mianfei,ddzn_icon_yongji,ddzn_item_bg,ddzn_quickstart,ddzn_tiyan,notice_bg,notice_laba"
+		},
+		{
+			"url": "assets/ddz/ddz_help_content.png",
+			"type": "image",
+			"name": "ddz_help_content_png"
+		},
+		{
+			"url": "assets/ddz/ddz_room_bg.jpg",
+			"type": "image",
+			"name": "ddz_room_bg_jpg"
+		},
+		{
+			"url": "assets/ddz/ddz_room_preview.png",
+			"type": "image",
+			"name": "ddz_room_preview_png"
+		},
+		{
+			"url": "assets/ddz/font/ddzRoomFnt1.fnt",
+			"type": "font",
+			"name": "ddzRoomFnt1_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddzRoomFnt1.png",
+			"type": "image",
+			"name": "ddzRoomFnt1_png"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_chuji_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_chuji_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_chuji_tex.png",
+			"type": "image",
+			"name": "ddz_chuji_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_gaoji_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_gaoji_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_gaoji_tex.png",
+			"type": "image",
+			"name": "ddz_gaoji_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_tiyan_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_tiyan_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_tiyan_tex.png",
+			"type": "image",
+			"name": "ddz_tiyan_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_zhongji_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_zhongji_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_zhongji_tex.png",
+			"type": "image",
+			"name": "ddz_zhongji_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_zhongji_tex.json",
+			"type": "json",
+			"name": "ddz_zhongji_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_chuji_tex.json",
+			"type": "json",
+			"name": "ddz_chuji_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_gaoji_tex.json",
+			"type": "json",
+			"name": "ddz_gaoji_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_tiyan_tex.json",
+			"type": "json",
+			"name": "ddz_tiyan_tex_json"
+		},
+		{
+			"url": "assets/ddz/ddz_room_anim_bg.jpg",
+			"type": "image",
+			"name": "ddz_room_anim_bg_jpg"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_qidong_3_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_qidong_3_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_qidong_3_tex.json",
+			"type": "json",
+			"name": "ddz_qidong_3_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/room/ddz_qidong_3_tex.png",
+			"type": "image",
+			"name": "ddz_qidong_3_tex_png"
+		},
+		{
+			"url": "assets/ddz/help/ddz_help_bg.png",
+			"type": "image",
+			"name": "ddz_help_bg_png"
+		},
+		{
+			"url": "assets/ddz/help/ddz_help_close.png",
+			"type": "image",
+			"name": "ddz_help_close_png"
+		},
+		{
+			"url": "assets/ddz/help/ddz_help_title.png",
+			"type": "image",
+			"name": "ddz_help_title_png"
+		},
+		{
+			"url": "assets/ddz/ddz_bg.jpg",
+			"type": "image",
+			"name": "ddz_bg_jpg"
+		},
+		{
+			"url": "assets/ddz/ddz_battle.json",
+			"type": "sheet",
+			"name": "ddz_battle_json",
+			"subkeys": "(,),,,-,.,0,1,2,3,3band1,3band2,4,4band1,4band2,5,6,7,8,9,ddz_back_btn,ddz_bank_bg,ddz_bank_btn,ddz_bank_tips,ddz_bank_title,ddz_call_btn,ddz_cancel_trusteeship,ddz_cancel_trusteeship_btn,ddz_card_count,ddz_card_record,ddz_clock_num,ddz_close,ddz_coin,ddz_continue_btn,ddz_count_btn,ddz_countdown,ddz_countdowns,ddz_counts_bg,ddz_counts_btn,ddz_double_btn,ddz_doubles,ddz_effect,ddz_frame,ddz_gold_num,ddz_heads_bg,ddz_heads_frame,ddz_heads_frame2,ddz_heads_frame3,ddz_help_content,ddz_leave_btn,ddz_lordland_card,ddz_lords_icon,ddz_lose_close,ddz_max,ddz_menu_bg,ddz_menu_dow,ddz_menu_up,ddz_music,ddz_mute,ddz_no_bigger,ddz_no_doubles,ddz_nocall_btn,ddz_nodouble_btn,ddz_nomore_btn,ddz_pass_btn,ddz_pass_card,ddz_pass_lords,ddz_percentage,ddz_play_btn,ddz_pull_btn,ddz_rate1_btn,ddz_rate2_btn,ddz_rate3_btn,ddz_rate_btn,ddz_rates1,ddz_rates2,ddz_rates3,ddz_res_red,ddz_res_redo,ddz_results_lord_bg,ddz_results_lose_frame,ddz_results_multi_bg,ddz_results_win_frame,ddz_rule_btn,ddz_self_lordland_card,ddz_set_bg,ddz_set_btn,ddz_set_off,ddz_set_on,ddz_set_progress,ddz_set_progress_bg,ddz_set_title,ddz_tips_btn,ddz_wait_jiabei,ddz_win_close,ddz_withdraw_btn,ddz_withdraw_frame,ddz_zj_title,plist_ddz_font_beishu_3_0,plist_ddz_font_beishu_3_1,plist_ddz_font_beishu_3_2,plist_ddz_font_beishu_3_3,plist_ddz_font_beishu_3_4,plist_ddz_font_beishu_3_5,plist_ddz_font_beishu_3_6,plist_ddz_font_beishu_3_7,plist_ddz_font_beishu_3_8,plist_ddz_font_beishu_3_9,plist_puke_back_big_2,w,x,y"
+		},
+		{
+			"url": "assets/ddz/font/ddz_res_redo.png",
+			"type": "image",
+			"name": "ddz_res_redo_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_clock_num.fnt",
+			"type": "font",
+			"name": "ddz_clock_num_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddz_clock_num.png",
+			"type": "image",
+			"name": "ddz_clock_num_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_countdown.fnt",
+			"type": "font",
+			"name": "ddz_countdown_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddz_countdown.png",
+			"type": "image",
+			"name": "ddz_countdown_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_gold_num.fnt",
+			"type": "font",
+			"name": "ddz_gold_num_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddz_gold_num.png",
+			"type": "image",
+			"name": "ddz_gold_num_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_res_red.fnt",
+			"type": "font",
+			"name": "ddz_res_red_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddz_res_red.png",
+			"type": "image",
+			"name": "ddz_res_red_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_res_redo.fnt",
+			"type": "font",
+			"name": "ddz_res_redo_fnt"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwinjiesuan_ske.dbbin",
+			"type": "bin",
+			"name": "ddzwinjiesuan_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwinjiesuan_tex.png",
+			"type": "image",
+			"name": "ddzwinjiesuan_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzfailjiesuan_ske.dbbin",
+			"type": "bin",
+			"name": "ddzfailjiesuan_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzfailjiesuan_tex.png",
+			"type": "image",
+			"name": "ddzfailjiesuan_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwinjiesuan_tex.json",
+			"type": "json",
+			"name": "ddzwinjiesuan_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzfailjiesuan_tex.json",
+			"type": "json",
+			"name": "ddzfailjiesuan_tex_json"
+		},
+		{
+			"url": "assets/ddz/font/ddz_card_record.png",
+			"type": "image",
+			"name": "ddz_card_record_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_card_record.fnt",
+			"type": "font",
+			"name": "ddz_card_record_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddz_card_count.png",
+			"type": "image",
+			"name": "ddz_card_count_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_card_count.fnt",
+			"type": "font",
+			"name": "ddz_card_count_fnt"
+		},
+		{
+			"url": "assets/ddz/animation/battle/waitAnim_tex.png",
+			"type": "image",
+			"name": "waitAnim_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/waitAnim_ske.dbbin",
+			"type": "bin",
+			"name": "waitAnim_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/waitAnim_tex.json",
+			"type": "json",
+			"name": "waitAnim_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_dz_tex.png",
+			"type": "image",
+			"name": "ddz_dz_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_dz_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_dz_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_dz_tex.json",
+			"type": "json",
+			"name": "ddz_dz_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzchutian_ske.dbbin",
+			"type": "bin",
+			"name": "ddzchutian_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzchutian_tex.png",
+			"type": "image",
+			"name": "ddzchutian_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzchutian_tex.json",
+			"type": "json",
+			"name": "ddzchutian_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/dizhuqz_tex.png",
+			"type": "image",
+			"name": "dizhuqz_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/dizhuqz_ske.dbbin",
+			"type": "bin",
+			"name": "dizhuqz_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/dizhuqz_tex.json",
+			"type": "json",
+			"name": "dizhuqz_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_nm_nan_tex.png",
+			"type": "image",
+			"name": "ddz_nm_nan_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_nm_nan_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_nm_nan_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_nm_nan_tex.json",
+			"type": "json",
+			"name": "ddz_nm_nan_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzliandui_ske.dbbin",
+			"type": "bin",
+			"name": "ddzliandui_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzliandui_tex.png",
+			"type": "image",
+			"name": "ddzliandui_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzmingpai_ske.dbbin",
+			"type": "bin",
+			"name": "ddzmingpai_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzmingpai_tex.png",
+			"type": "image",
+			"name": "ddzmingpai_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwarning_ske.dbbin",
+			"type": "bin",
+			"name": "ddzwarning_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwarning_tex.png",
+			"type": "image",
+			"name": "ddzwarning_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzzhadan_ske.dbbin",
+			"type": "bin",
+			"name": "ddzzhadan_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzzhadan_tex.png",
+			"type": "image",
+			"name": "ddzzhadan_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzliandui_tex.json",
+			"type": "json",
+			"name": "ddzliandui_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzmingpai_tex.json",
+			"type": "json",
+			"name": "ddzmingpai_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwarning_tex.json",
+			"type": "json",
+			"name": "ddzwarning_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzzhadan_tex.json",
+			"type": "json",
+			"name": "ddzzhadan_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/kingboom_mc_ske.dbbin",
+			"type": "bin",
+			"name": "kingboom_mc_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/kingboom_mc_tex.png",
+			"type": "image",
+			"name": "kingboom_mc_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzplane_ske.dbbin",
+			"type": "bin",
+			"name": "ddzplane_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzshunzi_ske.dbbin",
+			"type": "bin",
+			"name": "ddzshunzi_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzplane_tex.png",
+			"type": "image",
+			"name": "ddzplane_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzshunzi_tex.png",
+			"type": "image",
+			"name": "ddzshunzi_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzplane_tex.json",
+			"type": "json",
+			"name": "ddzplane_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/kingboom_mc_tex.json",
+			"type": "json",
+			"name": "kingboom_mc_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzshunzi_tex.json",
+			"type": "json",
+			"name": "ddzshunzi_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_dz_winlose_tex.png",
+			"type": "image",
+			"name": "ddz_dz_winlose_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_dz_winlose_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_dz_winlose_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_dz_winlose_tex.json",
+			"type": "json",
+			"name": "ddz_dz_winlose_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_nm_nan_winlose_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_nm_nan_winlose_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_nm_nan_winlose_tex.png",
+			"type": "image",
+			"name": "ddz_nm_nan_winlose_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_nm_nan_winlose_tex.json",
+			"type": "json",
+			"name": "ddz_nm_nan_winlose_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwin_tex.png",
+			"type": "image",
+			"name": "ddzwin_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwin_ske.dbbin",
+			"type": "bin",
+			"name": "ddzwin_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwin_tex.json",
+			"type": "json",
+			"name": "ddzwin_tex_json"
+		},
+		{
+			"url": "assets/ddz/help/ddz_help_content1.png",
+			"type": "image",
+			"name": "ddz_help_content1_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzfail_ske.dbbin",
+			"type": "bin",
+			"name": "ddzfail_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzfail_tex.png",
+			"type": "image",
+			"name": "ddzfail_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzfail_tex.json",
+			"type": "json",
+			"name": "ddzfail_tex_json"
+		},
+		{
+			"url": "assets/ddz/img/ddz_aperture.png",
+			"type": "image",
+			"name": "ddz_aperture_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_card_back.png",
+			"type": "image",
+			"name": "ddz_card_back_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_history_bg.png",
+			"type": "image",
+			"name": "ddz_history_bg_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_history_exit.png",
+			"type": "image",
+			"name": "ddz_history_exit_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_history_split.png",
+			"type": "image",
+			"name": "ddz_history_split_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_history_title.png",
+			"type": "image",
+			"name": "ddz_history_title_png"
+		},
+		{
+			"url": "assets/ddz/ddz_small_poker.json",
+			"type": "sheet",
+			"name": "ddz_small_poker_json",
+			"subkeys": "cs2_10,cs2_11,cs2_12,cs2_13,cs2_14,cs2_15,cs2_16,cs2_17,cs2_18,cs2_19,cs2_20,cs2_21,cs2_22,cs2_23,cs2_24,cs2_25,cs2_26,cs2_27,cs2_28,cs2_29,cs2_30,cs2_31,cs2_32,cs2_33,cs2_34,cs2_35,cs2_36,cs2_37,cs2_38,cs2_39,cs2_4,cs2_40,cs2_41,cs2_42,cs2_43,cs2_44,cs2_45,cs2_46,cs2_47,cs2_48,cs2_49,cs2_5,cs2_50,cs2_51,cs2_52,cs2_53,cs2_54,cs2_55,cs2_56,cs2_57,cs2_58,cs2_59,cs2_6,cs2_60,cs2_61,cs2_62,cs2_63,cs2_64,cs2_68,cs2_7,cs2_8,cs2_9,ddz_small_poker_bg"
+		},
+		{
+			"url": "assets/ddz/img/ddz_self_lord.png",
+			"type": "image",
+			"name": "ddz_self_lord_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_table_lord.png",
+			"type": "image",
+			"name": "ddz_table_lord_png"
+		},
+		{
+			"url": "assets/ddz/ddz_tables.json",
+			"type": "sheet",
+			"name": "ddz_tables_json",
+			"subkeys": "cs3_10,cs3_11,cs3_12,cs3_13,cs3_14,cs3_15,cs3_16,cs3_17,cs3_18,cs3_19,cs3_20,cs3_21,cs3_22,cs3_23,cs3_24,cs3_25,cs3_26,cs3_27,cs3_28,cs3_29,cs3_30,cs3_31,cs3_32,cs3_33,cs3_34,cs3_35,cs3_36,cs3_37,cs3_38,cs3_39,cs3_4,cs3_40,cs3_41,cs3_42,cs3_43,cs3_44,cs3_45,cs3_46,cs3_47,cs3_48,cs3_49,cs3_5,cs3_50,cs3_51,cs3_52,cs3_53,cs3_54,cs3_55,cs3_56,cs3_57,cs3_58,cs3_59,cs3_6,cs3_60,cs3_61,cs3_62,cs3_63,cs3_64,cs3_68,cs3_7,cs3_8,cs3_9"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwangzha_ske.dbbin",
+			"type": "bin",
+			"name": "ddzwangzha_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwangzha_tex.png",
+			"type": "image",
+			"name": "ddzwangzha_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddzwangzha_tex.json",
+			"type": "json",
+			"name": "ddzwangzha_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_wait_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_wait_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_wait_tex.json",
+			"type": "json",
+			"name": "ddz_wait_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_wait_tex.png",
+			"type": "image",
+			"name": "ddz_wait_tex_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_card_mask.png",
+			"type": "image",
+			"name": "ddz_card_mask_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_tongts_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_tongts_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_tongts_tex.json",
+			"type": "json",
+			"name": "ddz_tongts_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_tongts_tex.png",
+			"type": "image",
+			"name": "ddz_tongts_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_bianshe_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_bianshe_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_bianshe_tex.png",
+			"type": "image",
+			"name": "ddz_bianshe_tex_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_bianshe_tex.json",
+			"type": "json",
+			"name": "ddz_bianshe_tex_json"
+		},
+		{
+			"url": "assets/ddz/img/wait_farmer_jiabei.png",
+			"type": "image",
+			"name": "wait_farmer_jiabei_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_no_play.png",
+			"type": "image",
+			"name": "ddz_no_play_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_game_mask.png",
+			"type": "image",
+			"name": "ddz_game_mask_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_auto_play.png",
+			"type": "image",
+			"name": "ddz_auto_play_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_multi_bg.png",
+			"type": "image",
+			"name": "ddz_multi_bg_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_unknown_holder.png",
+			"type": "image",
+			"name": "ddz_unknown_holder_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_bei_bg.png",
+			"type": "image",
+			"name": "ddz_bei_bg_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_bei.fnt",
+			"type": "font",
+			"name": "ddz_bei_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddz_bei.png",
+			"type": "image",
+			"name": "ddz_bei_png"
+		},
+		{
+			"url": "assets/ddz/img/ddz_bei_btn.png",
+			"type": "image",
+			"name": "ddz_bei_btn_png"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_wait_otherplayer_ske.dbbin",
+			"type": "bin",
+			"name": "ddz_wait_otherplayer_ske_dbbin"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_wait_otherplayer_tex.json",
+			"type": "json",
+			"name": "ddz_wait_otherplayer_tex_json"
+		},
+		{
+			"url": "assets/ddz/animation/battle/ddz_wait_otherplayer_tex.png",
+			"type": "image",
+			"name": "ddz_wait_otherplayer_tex_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_zjcx_win.png",
+			"type": "image",
+			"name": "ddz_zjcx_win_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_zjcx_lose.png",
+			"type": "image",
+			"name": "ddz_zjcx_lose_png"
+		},
+		{
+			"url": "assets/ddz/font/ddz_zjcx_win.fnt",
+			"type": "font",
+			"name": "ddz_zjcx_win_fnt"
+		},
+		{
+			"url": "assets/ddz/font/ddz_zjcx_lose.fnt",
+			"type": "font",
+			"name": "ddz_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/ddz/ddz_zjcx.json",
+			"type": "sheet",
+			"name": "ddz_zjcx_json",
+			"subkeys": "ddz_room_zjcxbtn,ddz_zjcx_bg,ddz_zjcx_bglabel,ddz_zjcx_bgpanel,ddz_zjcx_btndetail,ddz_zjcx_iconbank,ddz_zjcx_iconlose,ddz_zjcx_iconwin,ddz_zjcx_imgbanker,ddz_zjcx_imgfarmer,ddz_zjcx_level0,ddz_zjcx_level1,ddz_zjcx_level2,ddz_zjcx_level3,ddz_zjcx_line,ddz_zjcx_title,ddz_zjcx_xxx"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlBetButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="168d29a5f80" ></w:Config>
+	<e:Image id="betImage" x="0" y="0" source="bjlGame_json.level1_chip_1"/>
+
+</e:Skin>

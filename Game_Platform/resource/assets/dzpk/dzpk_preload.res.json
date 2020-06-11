@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "dzpk_logoqd_ske_dbbin,dzpk_logoqd_tex_json,dzpk_logoqd_tex_png,dzpkn_room_bg_jpg",
+			"name": "dzpk_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/dzpk/dzpkn_room_bg.jpg",
+			"type": "image",
+			"name": "dzpkn_room_bg_jpg"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_logoqd_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_logoqd_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_logoqd_tex.json",
+			"type": "json",
+			"name": "dzpk_logoqd_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_logoqd_tex.png",
+			"type": "image",
+			"name": "dzpk_logoqd_tex_png"
+		}
+	]
+}

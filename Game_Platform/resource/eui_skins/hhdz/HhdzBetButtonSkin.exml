@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzBetButtonSkin" width="140" height="126" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1678cda32ec" ></w:Config>
+	<e:Image x="0" y="0" source="hhdz_desk016"/>
+
+	<e:Group width="112" height="116" x="14" y="5">
+		<e:Image id="betImage" x="1" y="10" scaleX="1" scaleY="1" source="hhdz_bet_max_1_1"/>
+		<e:Image id="darkImg" x="1" y="10" scaleX="1" scaleY="1" source="hhdz_bet_fei" visible="false"/>
+		<e:Image id="lightImg" x="0" y="10" scaleX="1" scaleY="1" source="hhdz_bet_click" visible="false"/>
+	</e:Group>
+
+</e:Skin>

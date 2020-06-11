@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResLoadingSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Rect width="1624" height="750" fillAlpha="0.4" horizontalCenter="0"/>
+
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image x="583.48" y="353.6700000000001" source="gameResLoading_png" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel width="73" height="36" x="713.12" y="374.48" font="resloading_fnt_fnt" text="..." anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="progressLabel" width="73" height="36" x="745.12" y="357.4800000000001" text="100%" font="resloading_fnt_fnt" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Group id="mcParent" width="86" height="82" x="696.12" y="286.4" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

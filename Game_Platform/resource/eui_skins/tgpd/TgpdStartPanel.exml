@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TgpdStartPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="169b0fba56e" ></w:Config>
+	<ns1:RoomTop id="roomTop" width="1280" height="100"/>
+
+	<e:Group width="802.54" height="478" y="218" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-40.5">
+		<e:Group id="group1" x="-77.27" y="25" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="btnRoom0" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tgpd_icon1" source.down="tgpd_icon1" source.disabled="tgpd_icon1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+			<ns1:RoomMc width="231.12" height="78" x="43.27" y="214.45" anchorOffsetX="0" anchorOffsetY="0" mcData="tiyan_green_mc_json" mcTxtr="tiyan_green_tex_png" mcName="tiyan_green"/>
+
+
+		</e:Group>
+		<e:Group id="group2" x="560.97" y="15" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="btnRoom1" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tgpd_icon2" source.down="tgpd_icon2" source.disabled="tgpd_icon2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+			<ns1:RoomMc width="231.12" height="78" x="46.3" y="208.39" anchorOffsetX="0" anchorOffsetY="0" mcData="jinbi_mc_json" mcTxtr="jinbi_tex_png" mcName="jinbi"/>
+
+		<e:Label text="练习场" x="19.5" y="275" size="50" anchorOffsetX="0" width="225" anchorOffsetY="0" height="100" verticalAlign="middle" textAlign="center" fontFamily="SimHei" bold="true" touchEnabled="false" textColor="0x16AD42" visible="false"/>
+
+		</e:Group>
+		<e:layout>
+		<e:HorizontalLayout gap="230"/>
+		</e:layout>
+	</e:Group>
+	
+	<e:Image x="1063.57" y="25.11" source="tgpd_title"/>
+</e:Skin>

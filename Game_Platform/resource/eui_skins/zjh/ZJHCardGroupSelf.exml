@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZJHCardGroupSelfSkin" width="279" height="177" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16b472805d7" ></w:Config>
+	<ns1:ZJHCard id="card1" scaleX="1" scaleY="1" anchorOffsetX="52.5" anchorOffsetY="65" x="90.5" y="63"/>
+	<ns1:ZJHCard id="card2" scaleX="1" scaleY="1" anchorOffsetX="52.5" anchorOffsetY="65" x="136.5" y="63"/>
+	<ns1:ZJHCard id="card3" scaleX="1" scaleY="1" anchorOffsetX="52.5" anchorOffsetY="65" x="188.5" y="63"/>
+	<e:Image id="cardTypeImg" x="67.4" y="128" scaleX="1" scaleY="1" source="zjh_single_card"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDKFirstCardAnimSkin" width="1334" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<w:Config id="16779b662b3" ></w:Config>
+	<e:Group id="node2" width="62" height="68" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-282" verticalCenter="110"/>
+	<e:Group id="node1" width="78" height="75" y="60" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-200">
+	</e:Group>
+	<e:Group id="node3" width="78" height="75" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-417" verticalCenter="52"/>
+	<e:Group id="node6" width="62" height="68" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="282" verticalCenter="110"/>
+	<e:Group id="node4" width="78" height="75" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="417" verticalCenter="52"/>
+	<e:Group id="node5" width="78" height="75" y="60" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="200"/>
+	<ns1:PDKPokerCard id="card" width="151.82" height="212.42" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="44" visible="false"/>
+</e:Skin>

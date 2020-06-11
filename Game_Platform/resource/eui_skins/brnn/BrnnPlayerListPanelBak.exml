@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnPlayerListPanelBakSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:brnn="game.brnn.*" >
+	<w:Config id="166eacce9f9" ></w:Config>
+	<e:Image source="brnnGame_json.rank_bg" y="60" x="125"/>
+	<e:Image y="73.03" source="brnnGame_json.title" x="562"/>
+
+	<e:Scroller height="503.03" x="144.1" y="136.04" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="playerListGroup">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+
+			<brnn:BrnnRankItem x="-143" y="-115"/>
+			<brnn:BrnnRankItem x="-133" y="-105"/>
+			<brnn:BrnnRankItem x="-123" y="-95"/>
+			<brnn:BrnnRankItem x="-113" y="-85"/>
+			<brnn:BrnnRankItem x="-103" y="-75"/>
+		</e:Group>
+	</e:Scroller>
+	<ns1:IButton id="closeBtn" label="" x="1065.18" y="59.9">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="brnnGame_json.closeBtn" source.down="brnnGame_json.closeBtn" source.disabled="brnnGame_json.closeBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*" xmlns:hhdz="game.hhdz.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+</e:Skin>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BankUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1663b6b6a18" ></w:Config>
+	<e:Image source="panel_frame" horizontalCenter="0"/>
+	<e:Image source="top_title" horizontalCenter="0"/>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="top_bg" horizontalCenter="0" top="0" x="518" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="top_symbol" horizontalCenter="-88" top="26" x="560" y="26" scaleX="1" scaleY="1"/>
+		<e:Image source="top_symbol" horizontalCenter="88" top="26" x="736" y="26" scaleX="1" scaleY="1"/>
+		<e:Image top="19" source="bank_title" horizontalCenter="0" x="598" y="19" scaleX="1" scaleY="1"/>
+		<e:Image source="coin_frame" x="1023" y="18.5" scaleX="1" scaleY="1"/>
+		<e:Image left="1023" top="19" x="1023" y="19" scaleX="1" scaleY="1" source="bank_coin"/>
+		<e:Image source="bank_text_frame" horizontalCenter="0" bottom="72" x="306" y="618" scaleX="1" scaleY="1"/>
+		<e:Label text="温馨提示：充值、赠送的金额会存储到银行里！" size="24" fontFamily="Microsoft YaHei" horizontalCenter="0" verticalCenter="271" x="415" y="634" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="rechargeBtn" label="" anchorOffsetX="71" anchorOffsetY="32" top="91" right="31" x="1161" y="91" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_recharge" source.down="bank_recharge" source.disabled="bank_recharge"/>
+				<e:Label id="labelDisplay" horizontalCenter="-12" verticalCenter="-9" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="depositBtn" label="当前金额" anchorOffsetX="71" anchorOffsetY="32" horizontalCenter="-233" verticalCenter="0" x="274" y="190" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_deposit" source.down="bank_deposit" source.disabled="bank_deposit"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="60" fontFamily="Microsoft YaHei" size="24"/>
+				<e:BitmapLabel id="depositLabel" text="99999999999" textAlign="center" verticalAlign="middle" font="bank_fnt_fnt" horizontalCenter="0" verticalCenter="92"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="withdrawBtn" label="银行金额" anchorOffsetX="160" anchorOffsetY="185" horizontalCenter="233" verticalCenter="0" x="740" y="190" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_withdraw" source.down="bank_withdraw" source.disabled="bank_withdraw"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="60" fontFamily="Microsoft YaHei" size="24"/>
+				<e:BitmapLabel id="withdrawLabel" text="99999999999" textAlign="center" verticalAlign="middle" font="bank_fnt_fnt" horizontalCenter="0" verticalCenter="92"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:BitmapLabel id="coinLabel" text="50.0" textAlign="center" verticalAlign="middle" top="21" width="242" height="34" right="32" x="1060" y="21" scaleX="1" scaleY="1" font="bank_fnt_fnt"/>
+	</e:Group>
+	<e:Image id="closeBtn" source="top_back" x="-66" y="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EditTextSkin" width="400" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166263c4cdd" ></w:Config>
+	<e:Image id="bg" source="textfield_bg_png" top="0" bottom="0" left="0" right="0" scale9Grid="107,15,54,13"/>
+	<e:Label id="tipLabel" text="请输入..." left="0" right="0" top="0" bottom="0" verticalAlign="middle" textAlign="center" size="27" fontFamily="Microsoft YaHei" textColor="0x5a5241"/>
+	<e:EditableText id="editInput" text="" verticalAlign="middle" textAlign="center" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" size="23" fontFamily="Microsoft YaHei" textColor="0xb59a7a"/>
+</e:Skin>

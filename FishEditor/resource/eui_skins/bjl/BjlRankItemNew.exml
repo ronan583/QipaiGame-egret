@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlRankItemNewSkin" width="87" height="141" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16cc1563ec2" ></w:Config>
+	<e:Image x="-6" y="34" source="headFrame" scale9Grid="40,36,10,7" width="100" height="100"/>
+	<e:Image source="Head_Bg_Boy" scale9Grid="24,30,16,10" anchorOffsetX="0" width="80" y="36.25" height="78" x="4"/>
+	<e:Image id="headIcon" x="7" y="38" source="gp_head_1" scaleX="0.8" scaleY="0.8" width="90" height="94"/>
+	<e:Label id="nameLabel" text="name" y="4" size="25" fontFamily="Microsoft YaHei" horizontalCenter="0"/>
+	<e:Label id="moneyLabel" text="name" y="119" size="20" fontFamily="Microsoft YaHei" horizontalCenter="0.5" textColor="0xE8D274"/>
+	<e:Image id="dushenFlag" x="-57" y="-2" source="brnn_online_dushen_png"/>
+	<e:Image id="fuhaoFlag" x="-57" y="-2" source="brnn_online_fuhao_png"/>
+</e:Skin>

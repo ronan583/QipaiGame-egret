@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpOtherUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0">
+		<e:Image source="brnnn_help_bg" x="123" y="13"/>
+		<e:Image y="34" source="brnnn_help_title" x="547"/>
+		<e:Scroller id="scroller" width="982" height="576" x="174" y="98" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group>
+				<e:Group width="980" height="1880" y="6">
+					<e:Image source="brnnn_help_1_png" x="110"/>
+					<e:Image x="110" y="938" source="brnnn_help_2_png"/>
+					<e:Image x="110" y="1311" source="brnnn_help_3_png"/>
+				</e:Group>
+			</e:Group>
+		</e:Scroller>
+		<ns1:IButton id="closebtn" label="" x="1140" y="24">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnnn_help_close" source.down="brnnn_help_close" source.disabled="brnnn_help_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+
+
+
+</e:Skin>

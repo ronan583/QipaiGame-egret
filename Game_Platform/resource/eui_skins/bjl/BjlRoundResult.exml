@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlRoundResultSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16c722ac9c3" ></w:Config>
+	<e:Image id="loseBg" verticalCenter="58" horizontalCenter="0" source="bjlGame_json.BG"/>
+	<e:Image id="loseTitle" y="76.01" source="bjlGame_json.failsIcon" horizontalCenter="0.5"/>
+	<e:Image id="winTitle" y="57.3" horizontalCenter="0" source="bjlGame_json.winIcon"/>
+	<e:Image id="winTitle2" y="2.64" horizontalCenter="0.5" source="bjlGame_json.winTitleIcon"/>
+	<e:Image id="loseTitle2" y="2.64" horizontalCenter="0.5" source="bjlGame_json.loseTitleIcon"/>
+	<e:Group width="774" height="484" x="284" y="267.3" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image x="49" y="19.33" source="bjlGame_json.youIcon"/>
+		<e:Label id="selfNameLabel" text="Guest123456" x="109" y="20.66" anchorOffsetX="0" width="290" anchorOffsetY="0" height="38" fontFamily="Microsoft YaHei" textAlign="left" verticalAlign="middle" size="25"/>
+		<e:Label id="bankerNameLabel" text="Guest123456" x="109" y="102.66" anchorOffsetX="0" width="290" anchorOffsetY="0" height="38" fontFamily="Microsoft YaHei" textAlign="left" verticalAlign="middle" size="25"/>
+		<e:Image id="selfTotalUnBetImg" x="521.67" y="15.01" source="bjlGame_json.noBetIcon"/>
+		<e:Image x="49" y="100.32" source="bjlGame_json.bankerIcon"/>
+		<e:BitmapLabel id="bankerLoseLabel" width="240" height="32" x="491.66" y="96.68" text="-123123123" anchorOffsetX="0" anchorOffsetY="0" font="bjl_lose_fnt" textAlign="right"/>
+		<e:BitmapLabel id="bankerWinLabel" width="240" height="32" x="492.35" y="96.04" text="+123123123" anchorOffsetX="0" anchorOffsetY="0" font="bjl_win_fnt" textAlign="right"/>
+		<e:BitmapLabel id="selfLoseLabel" width="240" height="32" x="490.98" y="21.35" text="-123123123" anchorOffsetX="0" anchorOffsetY="0" font="bjl_lose_fnt" textAlign="right"/>
+		<e:BitmapLabel id="selfWinLabel" width="240" height="32" x="491.67" y="20.71" text="+123123123" anchorOffsetX="0" anchorOffsetY="0" font="bjl_win_fnt" textAlign="right"/>
+		<e:Image x="49" y="205.15" source="bjl_xian_flag"/>
+		<e:Image x="432.5" y="205.15" source="bjl_zhuang_flag"/>
+		<e:Group id="playerGroup1" width="718.67" height="32.01" x="20" y="280.34" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image x="12" y="0" source="bjlGame_json.rank1"/>
+			<e:Label id="playerName1" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney1" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+		</e:Group>
+		<e:Group id="playerGroup2" width="718.67" height="32.01" x="20" y="311.34" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image x="12" y="0" source="bjlGame_json.rank2"/>
+			<e:Label id="playerName2" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney2" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+		</e:Group>
+		<e:Group id="playerGroup3" width="718.67" height="32.01" x="20" y="341.34" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image x="12" y="0" source="bjlGame_json.rank3"/>
+			<e:Label id="playerName3" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney3" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+		</e:Group>
+		<e:Group id="playerGroup4" width="718.67" height="32.01" x="20" y="372.34" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label id="playerName4" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney4" text="67749" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+			<e:Label width="20" height="20" x="20" y="6" text="4" size="23" textColor="0xc78f3b" fontFamily="Microsoft YaHei" bold="true"/>
+		</e:Group>
+		<e:Group id="playerGroup5" width="718.67" height="32.01" x="20" y="402.34" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label id="playerName5" text="中山" x="75" y="4.32" size="20" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerMoney5" text="0" x="501.67" y="2.01" size="25" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="201" textAlign="right" textColor="0xf0cb6e"/>
+			<e:Label width="20" height="20" x="20.36" y="7.009999999999991" text="5" scaleX="1" scaleY="1" textColor="0xc78f3b" size="23" fontFamily="Microsoft YaHei" bold="true"/>
+		</e:Group>
+		<ns1:BjlRoundResultCard id="resultCard1" x="109.67" y="185.65"/>
+		<ns1:BjlRoundResultCard id="resultCard2" x="492.35" y="185.65"/>
+	</e:Group>
+	<ns1:IButton id="closeBtn" label="" x="1103.03" y="105.8">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bjlGame_json.closeBtn" source.down="bjlGame_json.closeBtn" source.disabled="bjlGame_json.closeBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+</e:Skin>

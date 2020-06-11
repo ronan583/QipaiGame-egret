@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetSliderSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*"  width="671" height="105">
+	<e:Label text="0%" left="0" bottom="0"/>
+	<e:Label text="50%" horizontalCenter="0" bottom="0"/>
+	<e:Label text="100%" right="0" bottom="0"/>
+	<e:Group height="74" top="0" width="671" x="0">
+		<e:Image source="progress_bar_bg" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="track" source="progress_bar" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image id="bar" source="progress_bar_bg" verticalCenter="0" left="8"/>
+	</e:Group>
+	<e:Image id="thumb" source="bank_chip" x="0"/>
+    <w:Config id="16640746b42" ></w:Config>
+</e:Skin>

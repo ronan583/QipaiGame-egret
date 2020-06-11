@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TingInfoPanelSkin" currentState="single" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ermj="game.ermj.*" states="single,double" >
+	<w:Config id="16833f7a713" ></w:Config>
+	<e:Image id="bgImg" source="tings_farme_png" width="1200" fillMode="scale" height="200" scale9Grid="40,42,241,109" x="0" y="0" width.double="1030" height.double="260" width.single="1030"/>
+	<e:Image x="35" y="61" source="ermj_battle_json.select_hu" verticalCenter.double="0"/>
+	<e:Group id="cardGroup" y="48" y.double="26" width.single="874" x="118" x.double="105">
+		<ermj:TingInfoCard x="20" y="1"/>
+		<ermj:TingInfoCard x="58" y="14"/>
+		<ermj:TingInfoCard x="68" y="24"/>
+		<ermj:TingInfoCard x="78" y="34"/>
+		<ermj:TingInfoCard x="88" y="44"/>
+		<ermj:TingInfoCard x="98" y="98" visible.single="false"/>
+		<e:layout>
+			<e:HorizontalLayout gap="1"/>
+		</e:layout>
+		<e:layout.double>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="5" horizontalGap="1" verticalGap="1"/>
+		</e:layout.double>
+	</e:Group>
+	<e:Label id="rateLabel" text="x2" x="36" y="142.5" width="60" size="19" verticalAlign="middle" textAlign="center" textColor="0xB34414" visible="false"/>
+</e:Skin>

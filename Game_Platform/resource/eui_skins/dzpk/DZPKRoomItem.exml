@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZPKRoomItemSkin" width="400" height="169" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16bc8f0f3e5" ></w:Config>
+	<e:Rect width="398" height="171" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" strokeAlpha="0"/>
+	<e:Image id="maxFlagImg" x="177" y="18" source="dzpkn_limit"/>
+	<e:Image id="gameLevelImg" x="187" y="54" source="dzpkn_tiyan"/>
+	<e:Image id="freeImg" x="156" y="115" source="dzpkn_mianfei" visible="false"/>
+	<e:Image id="stateImg" x="288" y="119" source="dzpkn_baoman"/>
+	<e:BitmapLabel id="maxLimitLabel" width="103" height="20" x="293" y="20" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" text="20000y" font="dzpkroomfnt_fnt"/>
+	<e:Group id="infoGroup" width="128" height="26" x="157" y="114" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image width="20" height="20" x="6" y="3"/>
+		<e:BitmapLabel id="limitLabel" width="90" height="21" x="42" y="4" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" text="500y" font="dzpkroomfnt2_fnt"/>
+		<e:Image x="-5" y="2" source="dzpkn_zhunru"/>
+	</e:Group>
+</e:Skin>

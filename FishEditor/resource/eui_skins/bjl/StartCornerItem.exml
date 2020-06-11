@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartCornerItemSkin" width="621" height="268" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" xmlns:ns1="*" >
+	<w:Config id="168fa0021f8" ></w:Config>
+
+
+	<e:Image x="0" y="0" rotation="0" source="roomRes_json.room_bg"/>
+	<e:Image x="640" y="225" rotation="90" source=""/>
+	
+	<bjl:BjlCornerPanel id="cornerPanel" width="672.82" height="205.9" x="-1" y="38.63" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.925" scaleY="0.87" />
+	<ns1:IButton id="enterGameBtn" label="" anchorOffsetX="54.9" anchorOffsetY="26.04" right="21" bottom="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="roomRes_json.enterRoomBtn" source.down="roomRes_json.enterRoomBtn" source.disabled="roomRes_json.enterRoomBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	
+	<e:BitmapLabel id="recountLabel" width="92.01" height="33.63" x="572" y="3.11" font="number_max_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8"/>
+	<e:Group x="22.6" y="237.49">
+		<e:Label id="zhuangNumLabel" text="庄 3" x="0" y="1.55" textColor="0xe01f1f" size="25" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label id="xianNumLabel" text="闲 5" x="67.7" y="0" size="25" bold="true" textColor="0x1b63c6" fontFamily="Microsoft YaHei"/>
+		<e:Label id="heNumLabel" text="和 6" x="138.74" y="0" size="25" bold="true" textColor="0x07c612" fontFamily="Microsoft YaHei"/>
+		<e:layout>
+			<e:HorizontalLayout gap="19"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Label text="限红1-10000" x="225" y="8.52" size="25" bold="true" fontFamily="Microsoft YaHei" textColor="0xff0808"/>
+	<e:Label id="statusLabel" text="正在结算" x="474.35" y="7.52" size="22" bold="true" textColor="0xd6b660" fontFamily="Microsoft YaHei"/>
+	<e:BitmapLabel id="gameLevelLabel" text="普通场1" verticalAlign="middle" anchorOffsetX="0" textAlign="center" scaleX="0.9" scaleY="0.9" y="8" x="12.34" font="RoomCornerLabelFont_fnt" anchorOffsetY="0"/>
+
+</e:Skin>

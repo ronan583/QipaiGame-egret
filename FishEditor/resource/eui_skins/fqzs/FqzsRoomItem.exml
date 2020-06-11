@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsRoomItemSkin" width="270" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16bcc0ace65" ></w:Config>
+	<e:Image id="freeImg" y="445" source="fqzs_mianfei" x="135"/>
+	<e:Image id="stateImg" source="fqzs_kongxian" y="445" horizontalCenter="0"/>
+	<e:Group id="infoGroup" x="148" width="60" y="445">
+		<e:BitmapLabel id="maxLimitLabel" text="2000y" width="80" font="fqzs_room_num_fnt"/>
+	</e:Group>
+</e:Skin>

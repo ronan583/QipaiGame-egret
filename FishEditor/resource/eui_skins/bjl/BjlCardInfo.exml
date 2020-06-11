@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlCardInfoSkin" width="1334" height="195.15" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" xmlns:ns1="*" >
+	<w:Config id="1692b14ed91" ></w:Config>
+
+
+
+	
+
+
+
+	<e:Group x="487" y="15.41">
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+	<e:Group x="108" y="15.41">
+		
+		
+		
+	</e:Group>
+
+	<e:Group width="348" height="202" x="934" y="-2" anchorOffsetX="0" anchorOffsetY="0">
+		<bjl:BjlCard id="zCard3" width="123.03" height="171.52" x="62.67" y="89.08" anchorOffsetX="60" anchorOffsetY="87.69" scaleX="0.7" scaleY="0.7" rotation="0"/>
+		<bjl:BjlCard id="zCard2" width="123.03" height="171.52" x="121.28" y="89.08" anchorOffsetX="61.54" anchorOffsetY="87.69" scaleX="0.7" scaleY="0.7"/>
+		<bjl:BjlCard id="zCard1" width="123.03" height="171.52" x="180.65" y="89.07" anchorOffsetX="61.54" anchorOffsetY="87.7" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="zCardPoint" x="124.15" y="112" anchorOffsetX="64" anchorOffsetY="31" source="bjlGame_json.cardPoint1" scaleX="1" scaleY="1"/>
+		<ns1:MCAnim id="zhuangWin" width="100" height="60" x="82" y="23" anchorOffsetX="0" anchorOffsetY="0" isLoop="false" playOnAwake="false" mcAnim="bjl_win" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group width="348" height="200" x="166.67" y="-2">
+		<bjl:BjlCard id="xCard1" width="123.03" height="171.52" x="76.49" y="90.33" anchorOffsetX="61.54" anchorOffsetY="89.23" scaleX="0.7" scaleY="0.7"/>
+		<bjl:BjlCard id="xCard2" width="123.03" height="171.52" x="134.23" y="89" anchorOffsetX="63.08" anchorOffsetY="87.69" scaleX="0.7" scaleY="0.7"/>
+		<bjl:BjlCard id="xCard3" width="123.03" height="171.52" x="196.31" y="89" anchorOffsetX="60" anchorOffsetY="87.69" scaleX="0.7" scaleY="0.7" rotation="0"/>
+		<e:Image id="xCardPoint" x="138" y="112" anchorOffsetX="64" anchorOffsetY="31" source="bjlGame_json.cardPoint1" scaleX="1" scaleY="1"/>
+		<ns1:MCAnim id="xianWin" width="100" height="60" x="82" y="23" anchorOffsetX="0" anchorOffsetY="0" isLoop="false" playOnAwake="false" mcAnim="bjl_win" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<ns1:Cuopai id="cuopai1" x="158.29" y="45.31" scaleX="0.7" scaleY="0.7" visible="false"/>
+	<ns1:Cuopai id="cuopai2" x="224.02" y="45.31" scaleX="0.7" scaleY="0.7" visible="false"/>
+	<ns1:Cuopai id="cuopai3" x="914.63" y="45.31" scaleX="0.7" scaleY="0.7" visible="false"/>
+	<ns1:Cuopai id="cuopai4" x="973.65" y="45.31" scaleX="0.7" scaleY="0.7" visible="false"/>
+</e:Skin>

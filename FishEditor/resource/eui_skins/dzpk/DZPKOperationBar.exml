@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="dzpkOperationBarSkin" width="1334" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="167991a3f4d" ></w:Config>
+	<e:Group id="addGroup" width="700" height="91"  y="5" visible="false">
+		<e:Group id="addBtn1" width="165" height="91"  x="-25" y="-1">
+			<e:Button label=""  width="165" height="91">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ndzpk_btn_yellow" source.down="ndzpk_btn_yellow" source.disabled="ndzpk_btn_yellow"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:BitmapLabel id="add1Label" text="1" height="64" width="165" textAlign="center" verticalAlign="middle" font="dzpk_follow_fnt"/>
+		</e:Group>
+		<e:Group id="addBtn2" width="165" height="91"  x="406" y="31">
+			<e:Button label=""  width="165" height="91">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ndzpk_btn_yellow" source.down="ndzpk_btn_yellow" source.disabled="ndzpk_btn_yellow"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:BitmapLabel id="add2Label" text="2" height="64" width="165" textAlign="center" verticalAlign="middle" font="dzpk_follow_fnt"/>
+		</e:Group>
+		<e:Group id="addBtn3" width="165" height="91"  x="416" y="31">
+			<e:Button label=""  width="165" height="91">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ndzpk_btn_yellow" source.down="ndzpk_btn_yellow" source.disabled="ndzpk_btn_yellow"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:BitmapLabel id="add3Label" text="5" height="64" width="165" textAlign="center" verticalAlign="middle" font="dzpk_follow_fnt"/>
+		</e:Group>
+		<e:Group id="addBtn4" width="165" height="91"  x="426" y="31">
+			<e:Button label=""  width="165" height="91">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ndzpk_btn_yellow" source.down="ndzpk_btn_yellow" source.disabled="ndzpk_btn_yellow"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:BitmapLabel id="add4Label" text="10" height="64" width="165" textAlign="center" verticalAlign="middle" font="dzpk_follow_fnt"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="damang3Btn"  width="170" height="89" verticalCenter="0" left="0" visible="false">
+		<ns1:IButton label="" >
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nblinds3" source.down="nblinds3" source.disabled="nblinds3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+	<e:Group id="damang4Btn" width="170" height="89" verticalCenter="0" left="170" visible="false">
+		<ns1:IButton label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nblinds4" source.down="nblinds4" source.disabled="nblinds4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+	<e:Group id="bottom5pBtn" width="170" height="89"  left="0" verticalCenter="0" visible="false">
+		<ns1:IButton label="" >
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nbottom1_3" source.down="nbottom1_3" source.disabled="nbottom1_3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+	<e:Group id="bottom23Btn" width="170" height="89"  left="170" verticalCenter="0" visible="false">
+		<ns1:IButton label=""  x="0" y="0" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nbottom2_3" source.down="nbottom2_3" source.disabled="nbottom2_3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+	<e:Group id="bottomBtn" width="170" height="89"  left="340" verticalCenter="0" visible="false">
+		<ns1:IButton label=""  x="0" y="0" >
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nbottom1" source.down="nbottom1" source.disabled="nbottom1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+	<e:Group id="relayoutGroup" height="91" right="0" verticalCenter="0" visible="false">
+		<ns1:IButton id="dropBtn" label="" x="64" y="28">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ndzpk_fold" source.down="ndzpk_fold" source.disabled="ndzpk_fold"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="allInBtn" label="" x="150" y="28">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ndzpk_all_in" source.down="ndzpk_all_in" source.disabled="ndzpk_all_in"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="passBtn" label="" x="246" y="28">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ndzpk_cheak" source.down="ndzpk_cheak" source.disabled="ndzpk_cheak"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<e:Group id="followBtn" x="248" y="28" width="165" height="75">
+		<e:Button label="">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_btn_yellow" source.down="ndzpk_btn_yellow" source.disabled="ndzpk_btn_yellow"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</e:Button>
+		<e:BitmapLabel id="followLabel" text="g1831" textAlign="center" verticalAlign="middle" font="dzpk_follow_fnt" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<ns1:IButton id="addBtn" label="" y="4" imageLabelPath="ndzpk_label_raise" right="0" x="450">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_raise" source.down="ndzpk_raise" source.disabled="ndzpk_raise_disabled"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:layout>
+		<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="autoPassOrDropBtn" width="260" height="89" verticalCenter="0" right="520" visible="false">
+		<e:Button label="">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_cheakOrdiscard" source.down="ndzpk_cheakOrdiscard" source.disabled="ndzpk_cheakOrdiscard"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="autoPassOrDropImg" source="ndzpk_select" horizontalCenter="-81" verticalCenter="-5"/>
+	</e:Group>
+	<e:Group id="autoPassBtn" height="89" width="260" verticalCenter="0" right="260" visible="false">
+		<e:Button label="">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_auto_cheak" source.down="ndzpk_auto_cheak" source.disabled="ndzpk_auto_cheak"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="autoPassImg" source="ndzpk_select" horizontalCenter="-81" verticalCenter="-5"/>
+	</e:Group>
+	<e:Group id="autoFollowBtn" width="260" height="89" verticalCenter="0" right="0" visible="false">
+		<e:Button label="">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_all_call" source.down="ndzpk_all_call" source.disabled="ndzpk_all_call"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="autoFollowImg" horizontalCenter="-81" verticalCenter="-5" source="ndzpk_select"/>
+	</e:Group>
+	<ns1:DZPKAddBet id="addBet" x="923" y="-698" visible="false"/>
+	<ns1:IButton id="allInBtnInAdd" label="" x="1075.76" y="7.68" visible="false">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ndzpk_all_in" source.down="ndzpk_all_in" source.disabled="ndzpk_all_in"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+
+</e:Skin>

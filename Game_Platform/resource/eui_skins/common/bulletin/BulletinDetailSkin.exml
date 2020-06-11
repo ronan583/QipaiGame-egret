@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BulletinDetailSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="notice_frame" anchorOffsetY="0" scale9Grid="104,82,358,32" anchorOffsetX="0" x="296" y="133" scaleX="1" scaleY="1"/>
+		<e:Image source="notice_frame_mask" x="337" y="210" scaleX="1" scaleY="1"/>
+		<e:Image source="title_frame" y="90" x="409" scaleX="1" scaleY="1"/>
+		<e:Image y="106" source="bulletin_titles" x="624" scaleX="1" scaleY="1"/>
+		<e:Label id="infoLab" text="" fontFamily="Microsoft YaHei" size="24" anchorOffsetX="0" width="655" anchorOffsetY="0" height="271" lineSpacing="10" textAlign="left" textColor="0xffffff" x="340" y="224" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="closeBtn" label="" imageLabelPath="bulletin_ok" x="535" y="502" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="notice_button" source.down="notice_button" source.disabled="notice_button"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

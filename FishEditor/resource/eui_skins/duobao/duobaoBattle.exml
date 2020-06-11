@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="duobaoBattle" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" source="db_bg2_jpg" locked="true" />
+	<ns1:DragonAnim id="dragonAnim" width="1334" height="750" aligntype="middle" anim="db_dragon" isloop="false"
+	                playOnStage="false" horizontalCenter="0"  defaultPlayAnim="animation1"/>
+	<e:Image source="db_bg1_png" horizontalCenter="-1" locked="true" />
+	<ns1:DragonAnim id="dragonAnimClaw" width="1334" height="750" aligntype="middle" anim="db_dragon" isloop="false" playOnStage="false" y="0" defaultPlayAnim="animation3" horizontalCenter="0"/>
+	<e:Image source="db_preview_png"  visible="false"/>
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Group width="672" height="720" x="327.76000000000005" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"
+		         scaleY="1">
+			<e:Image id="layerImg" x="277.44" y="13.75" source="db_level1" />
+			<e:Group id="leftBoxGroup" width="33.33" height="553.02" x="104.93" y="589.71" anchorOffsetX="0"
+			         anchorOffsetY="553.02" />
+			<e:Group id="rightBoxGroup" width="33.33" height="549.99" x="483.61" y="586.69" anchorOffsetX="0"
+			         anchorOffsetY="549.99" />
+			<e:Group id="bottomBoxGroup" width="457.58" height="36.37" x="561.32" y="632.93" anchorOffsetX="457.58"
+			         anchorOffsetY="0" />
+		</e:Group>
+		<ns1:DragonAnim id="posuiAnim" width="76" height="35" x="343" y="16" aligntype="middle" anim="db_posui" isloop="false"
+		                playOnStage="false" visible="false" />
+		<e:Image id="roomImg" x="156.36" y="143.77" source="db_tiyan" />
+		<e:Group id="gameArea" width="498.51" height="568.82" x="407.11" y="79.97" anchorOffsetX="0" anchorOffsetY="0"
+		         scaleX="1" scaleY="1">
+			<ns1:DragonAnim id="posuiBoomerAnim" width="76" height="35" x="-54.110000000000014" y="-53.97" aligntype="middle"
+			                anim="db_posui" isloop="false" playOnStage="false" scaleX="1" scaleY="1" visible="false" />
+		</e:Group>
+		<e:Group id="gameAreaMask" width="1280" height="568.82" x="0" y="76.93" anchorOffsetX="640" anchorOffsetY="0"
+		         scaleX="1" scaleY="1" visible="false">
+			<e:Rect scaleX="1" scaleY="1" top="0" bottom="0" left="0" right="0" strokeColor="0x000000" />
+		</e:Group>
+		<e:Image id="levelTipsImg" source="db_level1_4" verticalCenter="-39" horizontalCenter="-5.5" />
+		<e:Image x="55" y="337.01" source="db_leijiyingqu" visible="false" />
+		<e:Image x="72.32" y="574.84" source="db_player_name" />
+		<e:Image x="67.26" y="604.82"  source="duobaoRoom_json.duobaon_gold" scaleX="0.6" scaleY="0.6"/>
+		<e:BitmapLabel id="rewardCurTotalLabel" width="156.72" height="47.27" x="154" y="327.93" anchorOffsetX="0"
+		               anchorOffsetY="0" text="0" verticalAlign="middle" textAlign="right" font="xbly_d2_fnt" visible="false" />
+		<e:BitmapLabel id="playerMoneyLabel" width="156.72" height="47.27" x="105.96" y="597.93" anchorOffsetX="0"
+		               anchorOffsetY="0" text="2345678" verticalAlign="middle" textAlign="left"  font="xbly_d3_fnt"/>
+		<e:BitmapLabel id="vipLevel0" width="53" height="21" x="98" y="577" anchorOffsetX="0" anchorOffsetY="0" text="V" font="gamevip_fnt"/>
+
+		<e:BitmapLabel id="vipLevel" width="53" height="21" x="118" y="578" anchorOffsetX="0" anchorOffsetY="0" text="1" font="gamevip_fnt"/>
+		<e:BitmapLabel id="totalWinMoneyLabel" width="156.72" height="47.27" x="166.28" y="334.25" anchorOffsetX="0"
+		               anchorOffsetY="0" text="0" verticalAlign="middle" textAlign="left" font="xbly_szty_fnt" />
+		<ns1:DuobaoRoundWinAnim id="roundWinAnim" width="1334" height="750" x="9.31" y="0" anchorOffsetX="0" anchorOffsetY="0"
+		                        skinName="DuobaoRoundWinAnimSkin"  visible="false"/>
+		<e:Label id="playerNameLabel" text="newfont" x="140.5" y="578.17" anchorOffsetX="0" width="177" anchorOffsetY="0"
+		         height="27" fontFamily="Microsoft YaHei" size="20" verticalAlign="top" textAlign="left"
+		         textColor="0xf8deba" />
+
+
+
+
+
+		<e:Group id="rewardShowGroup1" width="264" height="178" x="55" y="378" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="1"/>
+			</e:layout>
+
+		</e:Group>
+
+		<e:Image x="69" y="343" source="db_leijiyingqu" />
+		<e:Group id="leftUpGroup" width="204.55" height="331.82" y="1.43" left="0" anchorOffsetX="0" anchorOffsetY="0" x="0"
+		         scaleX="1" scaleY="1" visible="false">
+			<e:Image id="menuArrowImg" x="20" source="db_btn_down" y="8" />
+			<e:Group id="menuContent" width="200" height="200" x="-16" y="164">
+				<e:Image x="9" y="-74" scaleX="1" scaleY="1" source="db_menu_bg" />
+				<e:Button id="helpBtn" label="" x="63" y="47" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="db_rule" source.down="db_rule" source.disabled="db_rule" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="settingBtn" label="" x="63" y="130" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="db_setting" source.down="db_setting" source.disabled="db_setting" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="exitBtn" label="" x="63" y="210.03" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="db_back" source.down="db_back" source.disabled="db_back" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="bankBtn" label="" x="63" y="-31.97" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="db_bank" source.down="db_bank" source.disabled="db_bank" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+
+	</e:Group>
+	<e:Group id="optGroup" width="1334" height="750" verticalCenter="0" horizontalCenter="0">
+		<e:Button id="testBtn" label="Button" x="1079.86" y="85.44" visible="false"/>
+		<e:Scroller id="rewardShowScroller" width="264" height="178" x="55" y="375.67" anchorOffsetY="0">
+			<e:Group id="rewardShowGroup" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="1" verticalGap="5"/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+
+		<e:Group width="325.75" height="25.76" y="208.71999999999997" anchorOffsetX="0" x="40.95" scaleX="1" scaleY="1" anchorOffsetY="0">
+			<e:Image scaleX="1" scaleY="1" y="-8.74" source="db_leiji" x="8.17"/>
+			<e:BitmapLabel id="accumulateLabel" width="226.05" height="47.27" x="41.17" y="-17.58" anchorOffsetX="0" anchorOffsetY="0" text="23456789" verticalAlign="middle" textAlign="right" font="xbly_d2_fnt"/>
+			<ns1:IButton id="leijiBtn" label="" x="276" y="-15">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_question" source.down="db_question" source.disabled="db_question"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Button id="leijiBtn2" label="" x="276.33" y="-15.31" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_question" source.down="db_question" source.disabled="db_question"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Group width="344" height="384" x="19.66" y="326" scaleX="1" scaleY="1" visible="false">
+			<e:BitmapLabel id="totalGameCoinLabel" text="1" x="67.12" y="86.52" anchorOffsetX="0" width="181.58" anchorOffsetY="0" height="42.12" font="duobaoreward_fnt_fnt" textAlign="center" verticalAlign="middle"/>
+			<e:BitmapLabel id="winGameCoinLabel" text="1" x="68.64" y="196.82" anchorOffsetX="0" width="184.61" anchorOffsetY="0" height="42.12" font="duobaoreward_fnt_fnt" verticalAlign="middle" textAlign="center"/>
+			<e:BitmapLabel id="winAddMoneyLabel" text="+50.0" x="62.05" y="196.82" anchorOffsetX="0" width="202.92" anchorOffsetY="0" height="42.12" font="duobaoreward_fnt_fnt" verticalAlign="middle" textAlign="center"/>
+			</e:Group>
+		</e:Group>
+		<e:Group width="313.33" height="74.67" x="40" y="676" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:BitmapLabel id="singleLineScoreLabel" text="5000" width="89.33" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="41.06" scaleX="1" scaleY="1" x="161.39" anchorOffsetX="0" y="4" font="xbly_d2_fnt"/>
+			<e:Image x="93.35" y="10.33" source="db_danxian"/>
+			<e:ProgressBar id="betProgressBar" width="139.07" height="19.73" x="91.4" y="41.8" anchorOffsetX="0" anchorOffsetY="0" skinName="DBProgress1Skin"/>
+			<e:Button id="betSubBtn1" label="" scaleX="1" scaleY="1" x="16" y="11.98" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_sub_btn" source.down="db_sub_btn" source.disabled="db_sub_btn_disable"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="betAddBtn1" label="" scaleX="1" scaleY="1" y="13.3" x="242" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_add_btn" source.down="db_add_btn" source.disabled="db_add_btn_disable"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<ns1:IButton id="betAddBtn" label="" x="242.98" y="14.66">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_add_btn" source.down="db_add_btn" source.disabled="db_add_btn_disable"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="betSubBtn" label="" x="15.65" y="14.66">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_sub_btn" source.down="db_sub_btn" source.disabled="db_sub_btn_disable"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+		<e:Group width="313.33" height="74.67" x="984.81" y="675.3599999999999" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:BitmapLabel id="betLineLabel" text="5000" width="48.42" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="28.94" scaleX="1" scaleY="1" x="164.78" anchorOffsetX="0" y="27.3" font="xbly_d2_fnt"/>
+			<e:Image x="112.81" y="27.56" source="db_xianshu"/>
+			<ns1:IButton id="lineAddBtn" label="" x="239.1" y="15.67">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_add_btn" source.down="db_add_btn" source.disabled="db_add_btn_disable"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="lineSubBtn" label="" x="13.74" y="15.67">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_sub_btn" source.down="db_sub_btn" source.disabled="db_sub_btn_disable"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Button id="lineSubBtn2" label="" scaleX="1" scaleY="1" x="16" y="11.98" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_sub_btn" source.down="db_sub_btn" source.disabled="db_sub_btn_disable"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="lineAddBtn2" label="" scaleX="1" scaleY="1" y="13.3" x="242" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_add_btn" source.down="db_add_btn" source.disabled="db_add_btn_disable"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="354" height="134.45" x="932.4400000000002" y="528.08" scaleX="1" scaleY="1" anchorOffsetY="0">
+			<e:Button id="startBtn2" label="" x="74" y="3" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_start" source.down="db_start" source.disabled="db_start"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="tuoguanCancelBtn2" label="" x="74" y="3" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_cancel" source.down="db_cancel" source.disabled="db_cancel"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="autoTipImg" x="122.4" y="102" source="db_tuoguan"/>
+			<e:Image id="autoImg" x="122.4" y="102" source="db_tuoguan_ing"/>
+			<ns1:IButton id="startBtn" label="" x="74" y="3">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_start" source.down="db_start" source.disabled="db_start"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="tuoguanCancelBtn" label="" x="74" y="3" visible="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_cancel" source.down="db_cancel" source.disabled="db_cancel"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+		<ns1:DuobaoMenu id="duobaoMenu" width="221" height="94" x="25" y="1" skinName="DuobaoMenuSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Button id="addGoldBtn" label="" x="262.18" y="593.8" scaleX="0.6" scaleY="0.6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_add_money_png" source.down="db_add_money_png" source.disabled="db_add_money_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="congraAnimGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0" visible="false">
+		<ns1:DragonAnim id="congrateAnim" width="1334" height="750" isloop="false" playOnStage="false" aligntype="middle" defaultPlayAnim="animation1" horizontalCenter="0" verticalCenter="0" anim="xunbaoleyuan4_tongguan_1"/>
+	</e:Group>
+	<e:Group id="animGroup" width="1334" height="750" verticalCenter="0" horizontalCenter="0" visible="false">
+
+		<ns1:DragonAnim id="doorAnim" width="1334" height="750" verticalCenter="0" horizontalCenter="0" isloop="false" playOnStage="false" anim="lhdb_qidong" aligntype="middle" defaultPlayAnim="animation3"/>
+	</e:Group>
+
+</e:Skin>

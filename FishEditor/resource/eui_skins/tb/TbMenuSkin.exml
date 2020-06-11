@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbMenuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="228">
+	<w:Config id="16b668288f5" ></w:Config>
+	<ns1:IButton id="downBtn" label="" x="1.09" y="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="diceGame_json.game_dice_image_main_btn_menu_1" source.down="diceGame_json.game_dice_image_main_btn_menu_1" source.disabled="diceGame_json.game_dice_image_main_btn_menu_1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+	<ns1:IButton id="upBtn" label="" x="0.09" y="0" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="diceGame_json.game_dice_image_main_btn_menu_2" source.down="diceGame_json.game_dice_image_main_btn_menu_2" source.disabled="diceGame_json.game_dice_image_main_btn_menu_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+	<e:Group id="menuGroup" x="0" y="-346">
+		<e:Image y="0" x="0" source="diceGame_json.game_dice_image_menu_bg_menu"/>
+		<ns1:IButton id="bankBtn" label="" x="11" y="6">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_dice_image_menu_btn_box" source.down="game_dice_image_menu_btn_box" source.disabled="game_dice_image_menu_btn_box"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="helpBtn" label="" x="11" y="90">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_dice_image_menu_btn_rule" source.down="game_dice_image_menu_btn_rule" source.disabled="game_dice_image_menu_btn_rule"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+
+		</ns1:IButton>
+
+
+		<ns1:IButton id="settingBtn" label="" x="11" y="174">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_dice_image_menu_btn_shez" source.down="game_dice_image_menu_btn_shez" source.disabled="game_dice_image_menu_btn_shez"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" x="11" y="258">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_dice_image_menu_btn_back" source.down="game_dice_image_menu_btn_back" source.disabled="game_dice_image_menu_btn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+
+
+
+
+	</e:Group>
+</e:Skin>

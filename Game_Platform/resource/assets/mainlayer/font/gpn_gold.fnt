@@ -1,0 +1,15 @@
+{"file":"gpn_gold.png","frames":{
+".":{"x":109,"y":50,"w":9,"h":9,"offX":1,"offY":14,"sourceW":11,"sourceH":25},
+"+":{"x":109,"y":28,"w":17,"h":20,"offX":0,"offY":1,"sourceW":17,"sourceH":21},
+"0":{"x":55,"y":1,"w":18,"h":25,"offX":0,"offY":0,"sourceW":18,"sourceH":25},
+"1":{"x":113,"y":1,"w":9,"h":25,"offX":0,"offY":0,"sourceW":9,"sourceH":25},
+"2":{"x":95,"y":1,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"3":{"x":37,"y":28,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"4":{"x":75,"y":1,"w":18,"h":25,"offX":0,"offY":0,"sourceW":18,"sourceH":25},
+"5":{"x":1,"y":28,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"6":{"x":91,"y":28,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"7":{"x":55,"y":28,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"8":{"x":73,"y":28,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"9":{"x":19,"y":28,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":25},
+"万":{"x":1,"y":1,"w":25,"h":25,"offX":0,"offY":0,"sourceW":25,"sourceH":25},
+"亿":{"x":28,"y":1,"w":25,"h":25,"offX":0,"offY":0,"sourceW":25,"sourceH":25}}}

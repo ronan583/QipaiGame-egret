@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerGoldShowSkin" width="248" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166355a0a69" ></w:Config>
+	<e:Image x="0" y="0" source="zjh_chip_bar"/>
+	<e:Image x="2" y="0.7" source="zjh_chip_head"/>
+	<e:BitmapLabel id="goldLabel" text="50000" x="40" y="4" anchorOffsetX="0" width="110" anchorOffsetY="0" height="27" verticalAlign="middle" textAlign="center"  font="zjh_battle_fnt3_fnt"/>
+	<e:Group id="typeArea" width="91" height="35" x="156" y="-1" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image width="83" height="35" x="-1" y="1" scale9Grid="11,13,40,0" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" source="type_bg" visible="false"/>
+		<e:Label id="typeLabel" text="金花" x="-5" y="5" size="25" anchorOffsetX="0" width="88" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" fontFamily="SimHei" visible="false"/>
+		<e:Image id="typeImg" x="7" y="-2" source="pairs"/>
+	</e:Group>
+	<e:BitmapLabel id="goldBitmapLabel" width="114" height="25" x="40" y="6.55" font="betNum_fnt" text="10000" textAlign="center" verticalAlign="middle" anchorOffsetY="0" anchorOffsetX="0" scaleX="0.9" scaleY="0.9" visible="false"/>
+</e:Skin>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameIconSkin" width="340" height="218" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1680e99a2da" ></w:Config>
+
+
+	<e:Image id="updateImg" x="244" y="156" source="downbtn_png"/>
+
+
+	<e:Group width="338" height="231" x="2" y="23" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="gameIconImg1" y="-19" x="6" source="gp_icon_zjh" scaleX="1" scaleY="1"/>
+		<e:Image id="gameIconImg2" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_qznn"/>
+		<e:Image id="gameIconImg3" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_ddz"/>
+		<e:Image id="gameIconImg4" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_brnn"/>
+		<e:Image id="gameIconImg5" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_lhdz"/>
+		<e:Image id="gameIconImg6" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_pdk"/>
+		<e:Image id="gameIconImg7" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_hhdz"/>
+		<e:Image id="gameIconImg8" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_dzpk"/>
+		<e:Image id="gameIconImg9" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_ermj"/>
+		<e:Image id="gameIconImg10" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_by"/>
+		<e:Image id="gameIconImg11" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_bjl"/>
+		<e:Image id="gameIconImg12" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_sgj"/>
+		<e:Image id="gameIconImg13" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_tgly"/>
+		<e:Image id="gameIconImg14" y="-19" x="6" scaleX="1" scaleY="1" source="gp_icon_duobao"/>
+		<e:Image id="gameIconImg15" y="18" x="15" scaleX="1" scaleY="1" source="gp_icon_hlsb"/>
+		<e:Image id="gameIconImg16" y="-20" x="6" scaleX="1" scaleY="1" source="gp_icon_bcbm"/>
+		<e:Image id="gameIconImg17" y="-21" x="6" scaleX="1" scaleY="1" source="gp_icon_fqzs"/>
+	</e:Group>
+
+	<e:Group id="shanguangGroup" width="335" height="6" x="117" y="111.5" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="updateGroup" width="148" height="147" x="198" y="114" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="updateBg" x="46" y="42" scaleX="1" scaleY="1" source="downbtn_png"/>
+		<e:Image id="updateCdImg" x="46" y="42" scaleX="1" scaleY="1" source="downbtn_png"/>
+
+		<e:Label id="updateInfo" text="100%" size="18" verticalAlign="middle" textAlign="center" width="95" height="95" y="20" x="26" fontFamily="Microsoft YaHei" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" textColor="0xffffff" stroke="2" strokeColor="0x2a2a2a"/>
+	</e:Group>
+</e:Skin>

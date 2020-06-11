@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuobaoMenuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="152">
+	<w:Config id="16b6c0aa87f" ></w:Config>
+	<ns1:IButton id="downBtn" label="" left="15" top="43">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="db_btn_down" source.down="db_btn_down" source.disabled="db_btn_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+	<ns1:IButton id="upBtn" label="" left="15" top="38" rotation="180">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="db_btn_down" source.down="db_btn_down" source.disabled="db_btn_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+	<e:Group id="menuGroup" y="52" visible="false">
+		<e:Image y="0" x="0" source="db_menu_bg"/>
+		<ns1:IButton id="bankBtn" label="" horizontalCenter="0.5" verticalCenter="-115.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_bank" source.down="db_bank" source.disabled="db_bank"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+		<ns1:IButton id="helpBtn" label="" horizontalCenter="0.5" verticalCenter="-35">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_rule" source.down="db_rule" source.disabled="db_rule"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+		<ns1:IButton id="settingBtn" label="" horizontalCenter="0.5" verticalCenter="49.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_setting" source.down="db_setting" source.disabled="db_setting"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" horizontalCenter="0.5" verticalCenter="126.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_back" source.down="db_back" source.disabled="db_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

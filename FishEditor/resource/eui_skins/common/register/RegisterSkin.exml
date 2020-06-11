@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RegisterSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="842" height="599" horizontalCenter="0" y="76">
+		<e:Image y="0" source="register_bg" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image source="mainlayer2_json.title_frame" x="180" y="-35.64" scaleX="1" scaleY="1"/>
+		<e:Image y="-21.64" rotation="0" anchorOffsetY="0" horizontalCenter="9.5" source="register_title" x="387" scaleX="1" scaleY="1"/>
+		<e:Image source="register_bg_1" y="84" horizontalCenter="0" x="45" scaleX="1" scaleY="1"/>
+		<e:Button id="closeBtn" label="" x="771.06" y="13.36" width="60" height="60" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_close" source.down="rank_close" source.disabled="rank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:IButton id="registBtn" label="" y="485.5" anchorOffsetY="0" height="77" anchorOffsetX="0" imageLabelPath="register_bnt_zi" width="208" scaleX="1" scaleY="1" horizontalCenter="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="amount_btn" source.down="amount_btn" source.disabled="amount_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="codeBtn" label="获取" x="729" y="245" anchorOffsetY="29.09" anchorOffsetX="82" scaleX="1" scaleY="1" height="60">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="register_btn" source.down="register_btn" source.disabled="register_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-3" fontFamily="Microsoft YaHei" text="获取"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Group id="codeTipsGroup" x="646" y="214.11" scaleX="1" scaleY="1" visible="false">
+			<e:Image x="0" y="0" source="register_btn"/>
+			<e:Label id="dumiaoLab" text="(120秒)" x="33.48" y="19.26" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="77" anchorOffsetY="0" height="33.67" textColor="0xffffff" textAlign="center"/>
+		</e:Group>
+		<e:Label text="手机号" x="128" y="152" fontFamily="Microsoft YaHei"/>
+		<e:Label text="验证码" x="128" y="230" fontFamily="Microsoft YaHei"/>
+		<e:Label text="密码" x="128" y="309" fontFamily="Microsoft YaHei"/>
+		<e:Label text="确认密码" x="128" y="388" fontFamily="Microsoft YaHei"/>
+		<e:Image y="136" horizontalCenter="33.5" x="55" scaleX="1" scaleY="1" source="info_inputbox_short" scale9Grid="32,14,106,32" anchorOffsetX="0" width="369"/>
+		<e:Image source="info_inputbox_short" y="217" horizontalCenter="33.5" x="65" scaleX="1" scaleY="1" scale9Grid="32,14,106,32" anchorOffsetX="0" width="369"/>
+		<e:Image source="info_inputbox_short" y="295" horizontalCenter="33.5" x="75" scaleX="1" scaleY="1" scale9Grid="32,14,106,32" anchorOffsetX="0" width="369"/>
+		<e:Image source="info_inputbox_short" y="372" horizontalCenter="33.5" x="85" scaleX="1" scaleY="1" scale9Grid="32,14,106,32" anchorOffsetX="0" width="369"/>
+		<e:EditableText id="phoneNumberInput" prompt = "请输入手机号" promptColor = "0x6c81a8" width="315" height="60" text="" x="300" y="138" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" fontFamily="Microsoft YaHei" textAlign="center" size="25"/>
+		<e:EditableText id="checkNumberInput" prompt="请输入验证码" promptColor = "0x6c81a8" width="315" height="60" text="" x="300" y="219" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" size="25"/>
+		<e:EditableText id="passwordInput" displayAsPassword="true" prompt="5-12位英文/数字/点/减号/下划线" promptColor = "0x6c81a8" width="315" height="60" text="" x="300" y="296" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" size="20"/>
+		<e:EditableText id="passwordConformInput" displayAsPassword="true" prompt="5-12位英文/数字/点/减号/下划线" promptColor = "0x6c81a8" width="315" height="60" text="" x="300" y="374" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" size="20"/>
+	</e:Group>
+</e:Skin>

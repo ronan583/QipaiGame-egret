@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlZJ" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image verticalCenter="15.5" horizontalCenter="0.5" source="bjl_zjcx_json.bjl_zjcx_bg"/>
+
+	<e:Scroller id="scroller" width="983.03" height="533.52" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-0.5" y="130.48" alpha="1">
+		<e:Group id="viewport" anchorOffsetX="0" x="190.91" y="0" alpha="1" anchorOffsetY="0">
+			<ns1:BjlRecordBar skinName="BjlRecordBarSkin" horizontalCenter="-3.5149999999999864" top="0"/>
+			<ns1:BjlRecordBar skinName="BjlRecordBarSkin" horizontalCenter="-3.5149999999999864" top="0"/>
+			<ns1:BjlRecordBar skinName="BjlRecordBarSkin" horizontalCenter="-3.5149999999999864" top="0"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top" gap="5"/>
+			</e:layout>
+
+		</e:Group>
+	</e:Scroller>
+
+
+
+	<e:Image id="closeBtn" x="1118.78" y="15.6" source="bjl_bank_close_png"/>
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZSettingProgressBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" scale9Grid="154,12,124,2" source="ddz_battle_json.ddz_set_progress_bg" verticalCenter="0"/>
+	<e:Image id="thumb" height="100%" width="100%" scale9Grid="47,13,286,4" source="ddz_battle_json.ddz_set_progress" verticalCenter="0"/>
+
+	
+</e:Skin>

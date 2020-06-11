@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangesPanelSkin" width="1335" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16640feb199" ></w:Config>
+	<e:Image source="panel_frame" y="-1" horizontalCenter="0.5"/>
+	<e:Image source="top_title" y="0" horizontalCenter="0"/>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="top_bg" x="517" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="top_symbol" x="559" y="26" scaleX="1" scaleY="1"/>
+		<e:Image source="top_symbol" x="735" y="26" scaleX="1" scaleY="1"/>
+		<e:Image source="exchange_title" x="597" y="19" scaleX="1" scaleY="1"/>
+		<e:Image source="coin_frame" x="1022" y="18.5" scaleX="1" scaleY="1"/>
+		<e:Image x="1022" y="19" scaleX="1" scaleY="1" source="bank_coin"/>
+		<e:Image source="left_frame" x="81" y="159.37" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="rechargeBtn" label="" anchorOffsetX="71" anchorOffsetY="32" x="1173" y="109.66" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_recharge" source.down="bank_recharge" source.disabled="bank_recharge"/>
+				<e:Label id="labelDisplay" horizontalCenter="-12" verticalCenter="-9" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:BitmapLabel id="coinLabel" text="99999999999" textAlign="center" verticalAlign="middle" font="bank_fnt_fnt" top="21" width="242" height="34" right="32" x="1060" y="21" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="bindingSelectBtn" label="" x="92" y="417" imageLabelPath="binding_normal" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled,select">
+				<e:Image width="100%" height="100%" source="bindbtn_normal" source.down="bindbtn_normal" source.disabled="bindbtn_normal" source.select="bindbtn_selection"/>
+				<e:Label id="labelDisplay" horizontalCenter="-12" verticalCenter="-9" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="recordSelectBtn" label="" x="92" y="296.37" imageLabelPath="record_normal" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled,select">
+				<e:Image width="100%" height="100%" source="bindbtn_normal" source.down="bindbtn_normal" source.disabled="bindbtn_normal" source.select="bindbtn_selection"/>
+				<e:Label id="labelDisplay" horizontalCenter="-12" verticalCenter="-9" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="exchangeSelectBtn" label="" x="92" y="176" imageLabelPath="exchange_normal" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled,select">
+				<e:Image width="100%" height="100%" source="bindbtn_normal" source.down="bindbtn_normal" source.disabled="bindbtn_normal" source.select="bindbtn_selection"/>
+				<e:Label id="labelDisplay" horizontalCenter="-12" verticalCenter="-9" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Group id="exchangeGroup" y="158" scaleX="1" scaleY="1" horizontalCenter="189.5">
+			<ns1:IButton id="exchangeAlipayBtn" label="当前金额" anchorOffsetX="160" anchorOffsetY="185" x="241" y="217" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="exchange_alipay" source.down="exchange_alipay" source.disabled="exchange_alipay"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="60" fontFamily="Microsoft YaHei" size="24"/>
+				<e:BitmapLabel id="bitmapLabel" text="99999999999" textAlign="center" verticalAlign="middle" font="bank_fnt_fnt" horizontalCenter="0" verticalCenter="92"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="exchangeBankCardBtn" label="当前金额" anchorOffsetX="160" anchorOffsetY="185" x="651.09" y="217" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="exchange_bankCard" source.down="exchange_bankCard" source.disabled="exchange_bankCard"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="60" fontFamily="Microsoft YaHei" size="24"/>
+				<e:BitmapLabel id="bitmapLabel" text="99999999999" textAlign="center" verticalAlign="middle" font="bank_fnt_fnt" horizontalCenter="0" verticalCenter="92"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Image source="bank_text_frame" x="-0.91" y="460.44" scaleX="1" scaleY="1" anchorOffsetX="0" width="915"/>
+			<e:Label text="提现5分钟到账，请确定绑定的支付宝账号准确无误，提现收取提现金额2%的手续费" size="24" fontFamily="Microsoft YaHei" x="8.420000000000016" y="476.44" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="recordsGroup" width="898.48" height="516.67" y="174.22" anchorOffsetX="0" anchorOffsetY="0" x="382.17" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="record_right_frame" horizontalCenter="0" verticalCenter="0"/>
+			<e:Scroller width="855" height="455" y="47.89999999999998" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0.2599999999999909">
+			<e:Group id="recordGroup">
+				<e:layout>
+				<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="bindingGroup" x="435" y="159" scaleX="1" scaleY="1" visible="false">
+			<ns1:IButton id="bindAlipayBtn" label="" anchorOffsetX="160" anchorOffsetY="185" x="206" y="217">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="binding_alipay" source.down="binding_alipay" source.disabled="binding_alipay"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="60" fontFamily="Microsoft YaHei" size="24"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bindBankBtn" label="" anchorOffsetX="160" anchorOffsetY="185" x="621" y="214">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="binding_bankCard" source.down="binding_bankCard" source.disabled="binding_bankCard"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="60" fontFamily="Microsoft YaHei" size="24"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+	</e:Group>
+	<e:Image id="closeBtn" source="top_back" x="-66.54" y="-2.5"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

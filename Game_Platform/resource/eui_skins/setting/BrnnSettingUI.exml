@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnSettingUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0" y="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" source="brnn_setting_bg_png"/>
+		<e:Image y="141.49" horizontalCenter="1" source="brnn_setting_title_png"/>
+		<ns1:IButton id="closeBtn" label="" x="962.51" y="125.95">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_setting_exit_png" source.down="brnn_setting_exit_png" source.disabled="brnn_setting_exit_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+
+
+
+
+
+
+		<e:Label text="音乐" x="363" y="271.4" fontFamily="Microsoft YaHei" size="36"/>
+		<e:Label text="静音" x="363" y="430.9" fontFamily="Microsoft YaHei" size="36"/>
+		<e:Label text="音效" x="695.95" y="271.4" fontFamily="Microsoft YaHei" size="36"/>
+		<e:ToggleSwitch id="switchBgBtn" label="" x="467" y="262">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_setting_off_png" source.down="brnn_setting_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" x="810" y="262">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_setting_off_png" source.down="brnn_setting_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" x="467" y="424.9">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="brnn_setting_off_png" source.down="brnn_setting_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:ToggleSwitch>
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+</e:Skin>

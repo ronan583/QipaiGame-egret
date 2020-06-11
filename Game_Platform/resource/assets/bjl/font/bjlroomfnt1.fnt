@@ -1,0 +1,13 @@
+{"file":"bjlroomfnt1.png","frames":{
+"4":{"x":1,"y":65,"w":20,"h":30,"offX":0,"offY":0,"sourceW":20,"sourceH":30},
+"5":{"x":23,"y":33,"w":20,"h":30,"offX":0,"offY":0,"sourceW":20,"sourceH":30},
+"6":{"x":1,"y":33,"w":20,"h":30,"offX":0,"offY":0,"sourceW":20,"sourceH":30},
+"7":{"x":23,"y":65,"w":19,"h":30,"offX":1,"offY":0,"sourceW":20,"sourceH":30},
+"8":{"x":55,"y":1,"w":20,"h":30,"offX":0,"offY":0,"sourceW":20,"sourceH":30},
+"9":{"x":1,"y":97,"w":20,"h":30,"offX":0,"offY":0,"sourceW":20,"sourceH":30},
+"y":{"x":1,"y":1,"w":30,"h":30,"offX":0,"offY":2,"sourceW":30,"sourceH":32},
+".":{"x":41,"y":97,"w":12,"h":13,"offX":0,"offY":16,"sourceW":20,"sourceH":30},
+"0":{"x":98,"y":1,"w":19,"h":30,"offX":0,"offY":0,"sourceW":20,"sourceH":30},
+"1":{"x":23,"y":97,"w":16,"h":30,"offX":2,"offY":0,"sourceW":20,"sourceH":30},
+"2":{"x":77,"y":1,"w":19,"h":30,"offX":0,"offY":0,"sourceW":20,"sourceH":30},
+"3":{"x":33,"y":1,"w":20,"h":30,"offX":0,"offY":0,"sourceW":20,"sourceH":30}}}

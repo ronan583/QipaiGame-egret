@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpOtherUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0.5" verticalCenter="20" x="296" y="133" source="zjh_bank_bg"/>
+		<e:Image y="53.4" horizontalCenter="1" source="zjh_bank_title"/>
+		<ns1:IButton id="closebtn" label="" x="1128.5" y="42.65">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_bank_close" source.down="zjh_bank_close" source.disabled="zjh_bank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:Label id="" text="银行余额：" y="171.27" size="35" fontFamily="Microsoft YaHei" left="266" textColor="0xffffff"/>
+		<e:Label id="bankMoney" text="0" size="35" fontFamily="Microsoft YaHei" left="439" verticalCenter="-183.5" textColor="0xffffff" anchorOffsetX="0" width="190.33"/>
+		<e:Label id="" text="当前金额：" size="35" fontFamily="Microsoft YaHei" left="775" top="171" textColor="0xffffff"/>
+		<e:Label id="curMoney" text="0" size="35" fontFamily="Microsoft YaHei" left="952" verticalCenter="-183.5" textColor="0xffffff" anchorOffsetX="0" width="163.67"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="-9" verticalCenter="-67" anchorOffsetY="0" height="76.3" anchorOffsetX="0" width="707.64" source="zjh_bank_bg3"/>
+		<e:EditableText id="drawMoneyLabel" width="545" height="65" text="0" fontFamily="Microsoft YaHei" verticalAlign="middle" y="274.04" size="35" textColor="0xBDB9B9" horizontalCenter="-3.5" textAlign="center"/>
+		<e:Label text="零" y="366" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="24" horizontalCenter="-10" textColor="0x735747" visible="false"/>
+		<ns1:IButton id="maxBtn" label="" x="1069.67" y="378.01" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_bank_max" source.down="zjh_bank_max" source.disabled="zjh_bank_max"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:Image verticalCenter="75" horizontalCenter="-40.5" source="zjh_bank_bg2"/>
+		<e:ProgressBar id="progressbar" verticalCenter="30.5" horizontalCenter="-48.5" skinName="ZjhBankProgressBarSkin" anchorOffsetX="0" width="822.67" anchorOffsetY="0" height="19"/>
+		<ns1:SettingSlider id="slider" enabled="true" value="0" maximum="100" horizontalCenter="-51" verticalCenter="28" width="870" anchorOffsetX="0" skinName="ZjhBankSliderSkin"/>
+		<ns1:IButton id="drawBtn" label="" bottom="61" horizontalCenter="0.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_bank_btn_draw" source.down="zjh_bank_btn_draw" source.disabled="zjh_bank_btn_draw"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+</e:Skin>

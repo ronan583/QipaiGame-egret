@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitResultIconSkin" width="106.06" height="43.94" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e417d0a9c" ></w:Config>
+	<e:Image id="fruitIconImg" x="2" y="3" source="fruitIcon_1" scaleX="0.3" scaleY="0.3"/>
+	<e:Label id="fruitMultiLabel" text="X30" x="47" y="9" fontFamily="Microsoft YaHei" textColor="0xf4821d"/>
+</e:Skin>

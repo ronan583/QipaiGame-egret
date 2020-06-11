@@ -1,0 +1,98 @@
+option java_package = "com.gp.game.message";
+
+
+//获取房间奖池金额
+message OPFruitsRoomInfo{
+	required string version = 1;//版本
+}
+message OPFruitsRoomInfoRet{
+	required int64 money= 1;//押注
+	required int32 lineCount = 2;//线路
+	required int64 poolMoney = 3;//奖池
+	required int64 winMoney = 4;//输赢的钱
+}
+
+//获取房间奖池金额
+message OPFruitsRoomPoolMoney{
+	required string version = 1;//版本
+}
+message OPFruitsRoomPoolMoneyRet{
+	repeated OPFruitsRoomPoolMoneyInfo moneyInfo = 1;//房间类型
+}
+message OPFruitsRoomPoolMoneyInfo {
+	required int32 gameLevel = 1;//房间类型
+	required int32 poolMoney = 2;//奖池
+}
+
+//房间奖池推送
+message OPFruitsPoolMoneyPush {
+	required OPFruitsRoomPoolMoneyInfo moneyInfo = 1;//房间类型
+	required int64 playerId = 2;//玩家id
+	required int64 money = 3;//玩家金额
+}
+
+//设置金额
+message OPFruitsSetMoney{
+	required int64 money = 1;//金额
+}
+message OPFruitsSetMoneyRet{
+	required int64 money = 1;//金额
+}
+
+//设置线
+message OPFruitsSetLine{
+	required int32 lineCount = 1;//线
+}
+message OPFruitsSetLineRet{
+	required int32 lineCount = 1;//线
+}
+
+//开始游戏
+message OPFruitsStartGame{
+	required string version = 1;//版本
+}
+message OPFruitsStartGameRet{
+	repeated OPFruitsInfo fruitsInfos = 1;//
+	required int64 addMoney = 2;//赢的金额 0未赢
+	required int64 totalMoney = 3;//剩余金额
+	repeated OPFuitsWinInfo winInfos = 4;//赢的线路
+	required int64 roomPoolMoney = 5;//
+	required int32 type = 6;//中奖类型 0无 1不错哟 2中奖啦 3发财啦 4大满贯
+	required int64 winMoney = 7;//输赢的钱
+	repeated OPFuitsWinResult winResult = 8;//赢的线路
+}
+
+message OPFuitsWinResult {
+	required int32 configId = 1;//水果编号
+	required int32 count = 2;//水果数量
+}
+
+message OPFuitsWinInfo {
+	required int32 winLine = 1;//赢的线路
+	repeated int32 postion = 2;//位置
+}
+
+message OPFruitsInfo {
+	required int32 postion = 1;//位置
+	required int32 number = 2;//水果编号
+}
+
+message OPFruitsWarPush {
+	repeated int32 multiple = 1;//集合几个值就几关 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

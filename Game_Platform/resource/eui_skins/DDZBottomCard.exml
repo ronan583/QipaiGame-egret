@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZBottomCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="467" width="663">
+	<w:Config id="1668d0abd43" ></w:Config>
+	<ns1:DDZSmallPoker id="card1" y="8" x="269"/>
+	<ns1:DDZSmallPoker id="card2" y="8" x="297"/>
+	<ns1:DDZSmallPoker id="card3" y="8" x="329"/>
+	<ns1:DDZPokerCard id="oriCard1" x="176" y="306" anchorOffsetX="78" anchorOffsetY="107"/>
+	<ns1:DDZPokerCard id="oriCard2" x="323" y="306" anchorOffsetX="78" anchorOffsetY="107"/>
+	<ns1:DDZPokerCard id="oriCard3" x="470" y="306" anchorOffsetX="78" anchorOffsetY="107"/>
+</e:Skin>

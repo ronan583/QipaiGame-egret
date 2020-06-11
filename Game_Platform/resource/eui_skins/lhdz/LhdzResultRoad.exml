@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzResultRoadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:lhdz="game.lhdz.*" >
+	<w:Config id="1694a114081" ></w:Config>
+	<e:Group id="resultGroup" width="420" height="250" x="0" y="0">
+		<lhdz:LhdzResultItem width="40" height="40" x="0" y="0"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="10" y="10"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="20" y="20"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="30" y="30"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="40" y="40"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="50" y="50"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="60" y="60"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="70" y="70"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="80" y="80"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="90" y="90"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="100" y="100"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="110" y="110"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="120" y="120"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="130" y="130"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="140" y="140"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="150" y="150"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="160" y="160"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="170" y="170"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="180" y="180"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="190" y="190"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="200" y="200"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="210" y="210"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="220" y="220"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="230" y="230"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="240" y="240"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="250" y="250"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="260" y="260"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="270" y="270"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="280" y="280"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="290" y="290"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="300" y="300"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="310" y="310"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="320" y="320"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="330" y="330"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="340" y="340"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="350" y="350"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="360" y="360"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="370" y="370"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="380" y="380"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="390" y="390"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="400" y="400"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="400" y="400"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="400" y="400"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="400" y="400"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="400" y="400"/>
+		<lhdz:LhdzResultItem width="40" height="40" x="400" y="400"/>
+		<e:layout>
+			<e:TileLayout orientation="columns" horizontalGap="2" verticalGap="3" requestedColumnCount="10" requestedRowCount="6"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

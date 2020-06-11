@@ -1,0 +1,12 @@
+{"file":"pdkroomfnt.png","frames":{
+"6":{"x":39,"y":24,"w":16,"h":21,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"7":{"x":57,"y":24,"w":16,"h":21,"offX":2,"offY":0,"sourceW":18,"sourceH":22},
+"8":{"x":61,"y":1,"w":16,"h":21,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"9":{"x":43,"y":1,"w":16,"h":21,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"y":{"x":1,"y":1,"w":22,"h":21,"offX":0,"offY":2,"sourceW":22,"sourceH":24},
+"0":{"x":1,"y":24,"w":17,"h":21,"offX":0,"offY":0,"sourceW":18,"sourceH":22},
+"1":{"x":92,"y":24,"w":10,"h":21,"offX":3,"offY":0,"sourceW":18,"sourceH":22},
+"2":{"x":75,"y":24,"w":15,"h":21,"offX":2,"offY":0,"sourceW":18,"sourceH":22},
+"3":{"x":79,"y":1,"w":15,"h":21,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"4":{"x":20,"y":24,"w":17,"h":21,"offX":1,"offY":0,"sourceW":18,"sourceH":22},
+"5":{"x":25,"y":1,"w":16,"h":21,"offX":1,"offY":0,"sourceW":18,"sourceH":22}}}

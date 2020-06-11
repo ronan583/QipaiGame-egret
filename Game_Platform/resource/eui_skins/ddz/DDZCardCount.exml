@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZCardCountSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16708f5988b" ></w:Config>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="ddz_battle_json.plist_puke_back_big_2" scaleX="0.3" scaleY="0.3"/>
+	<e:BitmapLabel id="leftCountLabel" text="15" textAlign="center" verticalAlign="middle" horizontalCenter="0" verticalCenter="0" font="ddz_card_count_fnt" width="30" height="30"/>
+</e:Skin>

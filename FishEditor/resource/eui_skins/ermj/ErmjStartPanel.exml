@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjStartPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="167bdd3dd39" ></w:Config>
+	<e:Image source="ermj_room_bg_jpg" horizontalCenter="0"/>
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image x="1083.46" y="1.11" source="ermjn_logo" scaleX="1" scaleY="1"/>
+		<e:Scroller id="scroller" width="1334.3" height="610" y="68" anchorOffsetX="0" anchorOffsetY="0" x="0">
+			<e:Group anchorOffsetX="0" width="1602">
+				<ns1:DragonAnim width="314" height="482" x="33.63" y="48" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="ermj_girl" scaleX="1.1" scaleY="1.1"/>
+				<ns1:ErmjRoomItem id="roomItem1" width="318" height="510" x="248" y="92" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="ermj_tiyan"/>
+				<ns1:ErmjRoomItem id="roomItem2" width="318" height="510" x="598" y="92" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="ermj_chuji" gameLevel="1"/>
+				<ns1:ErmjRoomItem id="roomItem3" width="318" height="510" x="960" y="92" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="ermj_zhongji" gameLevel="2"/>
+				<ns1:ErmjRoomItem id="roomItem4" width="318" height="510" x="1295" y="92" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="ermj_gaoji" gameLevel="3"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Group id="bottomGroup" width="1624" height="100" y="652" anchorOffsetX="0" horizontalCenter="0">
+			<e:Image source="ermjn_bottom" y="-12"/>
+			<e:Image x="155" y="8" source="ermjn_headframe"/>
+			<e:Label id="nameLabel" text="Guest1234" x="253" y="40" fontFamily="Microsoft YaHei" size="24" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="200" anchorOffsetY="0" height="47" bold="true"/>
+			<e:Image id="headImg" width="70" height="70" horizontalCenter="-613" verticalCenter="-2" source="gp_head_2"/>
+			<e:Image x="519" y="45.36" anchorOffsetX="0" anchorOffsetY="0" source="ermjn_gold_bg" scale9Grid="22,18,9,2" width="199.94"/>
+			<e:Image x="499.88" y="39.92" anchorOffsetX="0" anchorOffsetY="0" source="ermjn_gold2"/>
+			<e:Button id="goldAddBtn" label="" x="683.21" y="41.96">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermjn_add" source.down="ermjn_add" source.disabled="ermjn_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:BitmapLabel id="goldLabel" width="132.12" height="29.1" x="554" y="50" font="gpn_gold_fnt" textAlign="center" verticalAlign="middle" anchorOffsetX="0" anchorOffsetY="0" text="19999.00"/>
+		</e:Group>
+		<e:Group id="leftupGroup" width="234.85" height="106.06" y="1.96" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1">
+			<e:Button id="backBtn" label="" x="6.44" y="-2.12">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermjn_back" source.down="ermjn_back" source.disabled="ermjn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" x="128.57" y="-4.24">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermjn_help" source.down="ermjn_help" source.disabled="ermjn_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="quickStartGroup" width="372.73" height="96" y="656" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" right="0">
+			<ns1:DragonAnim width="370" height="96" scaleX="1" scaleY="1" aligntype="origin" anim="ermj_quickstart" isloop="true" anchorOffsetX="0" anchorOffsetY="0" x="6" y="0"/>
+		</e:Group>
+	</e:Group>
+
+
+</e:Skin>

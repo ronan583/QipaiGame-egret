@@ -1,0 +1,794 @@
+{
+	"groups": [
+		{
+			"keys": "game2_review_png,game2_bg_png,game1_pass_png,BrnnBetCountFont_png,brnnResult_json,bairenniuniu_png,BrnnBetCountFont_fnt,game1_bg_png,game1_review_png,game2_pass_png,commonNumFont1_fnt,brnnRecountFont_fnt,playListFont_fnt,brnn_girl_ske_dbbin,brnn_girl_tex_png,brnn_qidong_ske_dbbin,brnn_qidong_tex_png,brnn_quickstart_ske_dbbin,brnn_quickstart_tex_png,brnnfuhaochang_ske_dbbin,brnnfuhaochang_tex_png,brnngaojichang_ske_dbbin,brnngaojichang_tex_png,brnn_girl_tex_json,brnngaojichang_tex_json,brnn_quickstart_tex_json,brnn_qidong_tex_json,brnnfuhaochang_tex_json,brnnputongchang_ske_dbbin,brnnputongchang_tex_png,qznn_addgold_ske_dbbin,qznn_addgold_tex_png,brnnputongchang_tex_json,qznn_addgold_tex_json,brnnRecountFont_png,brnnroomfnt_fnt,brnnroomfnt_png,brnnroomfnt2_fnt,brnnroomfnt2_png,brnnn_help_2_png,brnnn_help_1_png,brnn_game_bg_jpg,brnn_record_fnt_fnt,brnn_record_fnt_png,brnn_total_bet_fnt_fnt,brnn_total_bet_fnt_png,brnn_lose_fnt_fnt,brnn_lose_fnt_png,brnn_win_fnt_fnt,brnn_win_fnt_png,brnn_bank_json,brnn_setting_bg_png,brnn_setting_exit_png,brnn_setting_off_png,brnn_setting_on_png,brnn_setting_title_png,brnn_wuhuaniu_tex_png,brnn_wuhuaniu_tex_json,brnn_wuhuaniu_ske_dbbin,brnn_sizha_tex_png,brnn_sizha_tex_json,brnn_sizha_ske_dbbin,brnn_niuniu_tex_png,brnn_niuniu_tex_json,brnn_niuniu_ske_dbbin,brnn_ui_bg_png,brnn_player_title_png,bjl_clock_ske_dbbin,bjl_clock_tex_json,bjl_clock_tex_png,brnnn_help_3_png,brnn_self_bet_fnt,brnn_self_bet_png,brnn_wait_tex_png,brnn_wait_tex_json,brnn_wait_ske_dbbin,brnn_niu_anim2_tex_png,brnn_niu_anim2_tex_json,brnn_niu_anim2_ske_dbbin,brnn_niu_anim1_tex_png,brnn_niu_anim1_tex_json,brnn_niu_anim1_ske_dbbin,brnn_wuniu_tex_png,brnn_wuniu_tex_json,brnn_wuniu_ske_dbbin,brnn_tongpei_tex_png,brnn_tongpei_tex_json,brnn_tongpei_ske_dbbin,brnn_tongchi_tex_png,brnn_tongchi_tex_json,brnn_tongchi_ske_dbbin,brnn_dushen_frame_png,brnn_fuhao_frame_png,brnn_special_frame_png,brnn_dfh_ske_dbbin,brnn_dfh_tex_png,brnn_dushen_ske_dbbin,brnn_dushen_tex_png,brnn_dfh_tex_json,brnn_dushen_tex_json,brnn_dushen_particle_png,brnn_dushen_particle_json,brnn_xingxing_tex_png,brnn_xingxing_tex_json,brnn_xingxing_ske_dbbin,brnn_head_change_tex_png,brnn_head_change_tex_json,brnn_head_change_ske_dbbin,brnn_online_dushen_png,brnn_online_fuhao_png,brnn_banker_bg_png,brnn_banker_split_png,brnn_online_count_fnt,brnn_online_count_png,brnn_zjcx_json,brnn_zjcx_lose_fnt,brnn_zjcx_lose_png,brnn_zjcx_win_fnt,brnn_zjcx_win_png",
+			"name": "brnn"
+		},
+		{
+			"keys": "brnn_alert_mp3,brnn_betcoin_mp3,brnn_bg_mp3,brnn_click_mp3,brnn_countdown_mp3,brnn_lose_mp3,brnn_on_bet_mp3,brnn_sendcard_mp3,brnn_show_mp3,brnn_start_mp3,brnn_stop_mp3,brnn_valid_mp3,brnn_win_mp3,brnn_wincoin_mp3,cow0_mp3,cow1_mp3,cow10_mp3,cow2_mp3,cow3_mp3,cow4_mp3,cow5_mp3,cow6_mp3,cow7_mp3,cow8_mp3,cow9_mp3",
+			"name": "brnnSound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/brnn/bairenniuniu.png",
+			"type": "image",
+			"name": "bairenniuniu_png"
+		},
+		{
+			"url": "assets/brnn/room/game1_bg.png",
+			"type": "image",
+			"name": "game1_bg_png"
+		},
+		{
+			"url": "assets/brnn/room/game1_pass.png",
+			"type": "image",
+			"name": "game1_pass_png"
+		},
+		{
+			"url": "assets/brnn/room/game1_review.png",
+			"type": "image",
+			"name": "game1_review_png"
+		},
+		{
+			"url": "assets/brnn/room/game2_bg.png",
+			"type": "image",
+			"name": "game2_bg_png"
+		},
+		{
+			"url": "assets/brnn/room/game2_pass.png",
+			"type": "image",
+			"name": "game2_pass_png"
+		},
+		{
+			"url": "assets/brnn/room/game2_review.png",
+			"type": "image",
+			"name": "game2_review_png"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_alert.mp3",
+			"type": "sound",
+			"name": "brnn_alert_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_betcoin.mp3",
+			"type": "sound",
+			"name": "brnn_betcoin_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_bg.mp3",
+			"type": "sound",
+			"name": "brnn_bg_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_click.mp3",
+			"type": "sound",
+			"name": "brnn_click_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_countdown.mp3",
+			"type": "sound",
+			"name": "brnn_countdown_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_lose.mp3",
+			"type": "sound",
+			"name": "brnn_lose_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_on_bet.mp3",
+			"type": "sound",
+			"name": "brnn_on_bet_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_sendcard.mp3",
+			"type": "sound",
+			"name": "brnn_sendcard_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_show.mp3",
+			"type": "sound",
+			"name": "brnn_show_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_start.mp3",
+			"type": "sound",
+			"name": "brnn_start_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_stop.mp3",
+			"type": "sound",
+			"name": "brnn_stop_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_valid.mp3",
+			"type": "sound",
+			"name": "brnn_valid_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_win.mp3",
+			"type": "sound",
+			"name": "brnn_win_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_wincoin.mp3",
+			"type": "sound",
+			"name": "brnn_wincoin_mp3"
+		},
+		{
+			"url": "assets/brnn/font/BrnnBetCountFont.fnt",
+			"type": "font",
+			"name": "BrnnBetCountFont_fnt"
+		},
+		{
+			"url": "assets/brnn/font/BrnnBetCountFont.png",
+			"type": "image",
+			"name": "BrnnBetCountFont_png"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow0.mp3",
+			"type": "sound",
+			"name": "cow0_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow1.mp3",
+			"type": "sound",
+			"name": "cow1_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow10.mp3",
+			"type": "sound",
+			"name": "cow10_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow2.mp3",
+			"type": "sound",
+			"name": "cow2_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow3.mp3",
+			"type": "sound",
+			"name": "cow3_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow4.mp3",
+			"type": "sound",
+			"name": "cow4_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow5.mp3",
+			"type": "sound",
+			"name": "cow5_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow6.mp3",
+			"type": "sound",
+			"name": "cow6_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow7.mp3",
+			"type": "sound",
+			"name": "cow7_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow8.mp3",
+			"type": "sound",
+			"name": "cow8_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow9.mp3",
+			"type": "sound",
+			"name": "cow9_mp3"
+		},
+		{
+			"url": "assets/brnn/brnn.res.json",
+			"type": "json",
+			"name": "brnn.res_json"
+		},
+		{
+			"url": "assets/brnn/brnnResult.json",
+			"type": "sheet",
+			"name": "brnnResult_json",
+			"subkeys": "brnnresult_bg,brnnresult_btn_coninue,brnnresult_coin_blue,brnnresult_coin_blue_broken,brnnresult_coin_gold,brnnresult_coin_gold_broken,brnnresult_coin_red,brnnresult_coin_red_broken,brnnresult_history_bg,brnnresult_lose,brnnresult_lose_title,brnnresult_result_bg,brnnresult_vain_title,brnnresult_win,brnnresult_win_light,brnnresult_win_title"
+		},
+		{
+			"url": "assets/brnn/commonNumFont1.fnt",
+			"type": "font",
+			"name": "commonNumFont1_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnnRecountFont.fnt",
+			"type": "font",
+			"name": "brnnRecountFont_fnt"
+		},
+		{
+			"url": "assets/brnn/playListFont.fnt",
+			"type": "font",
+			"name": "playListFont_fnt"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_girl_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_girl_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_girl_tex.png",
+			"type": "image",
+			"name": "brnn_girl_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_qidong_tex.png",
+			"type": "image",
+			"name": "brnn_qidong_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_quickstart_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_quickstart_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_quickstart_tex.png",
+			"type": "image",
+			"name": "brnn_quickstart_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnnfuhaochang_ske.dbbin",
+			"type": "bin",
+			"name": "brnnfuhaochang_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnnfuhaochang_tex.png",
+			"type": "image",
+			"name": "brnnfuhaochang_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnngaojichang_ske.dbbin",
+			"type": "bin",
+			"name": "brnngaojichang_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnngaojichang_tex.png",
+			"type": "image",
+			"name": "brnngaojichang_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_girl_tex.json",
+			"type": "json",
+			"name": "brnn_girl_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnngaojichang_tex.json",
+			"type": "json",
+			"name": "brnngaojichang_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_quickstart_tex.json",
+			"type": "json",
+			"name": "brnn_quickstart_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnn_qidong_tex.json",
+			"type": "json",
+			"name": "brnn_qidong_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnnfuhaochang_tex.json",
+			"type": "json",
+			"name": "brnnfuhaochang_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnnputongchang_ske.dbbin",
+			"type": "bin",
+			"name": "brnnputongchang_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnnputongchang_tex.png",
+			"type": "image",
+			"name": "brnnputongchang_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/room/qznn_addgold_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_addgold_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/room/qznn_addgold_tex.png",
+			"type": "image",
+			"name": "qznn_addgold_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/room/brnnputongchang_tex.json",
+			"type": "json",
+			"name": "brnnputongchang_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/room/qznn_addgold_tex.json",
+			"type": "json",
+			"name": "qznn_addgold_tex_json"
+		},
+		{
+			"url": "assets/brnn/brnnRoom.json",
+			"type": "sheet",
+			"name": "brnnRoom_json",
+			"subkeys": "brnnn_back,brnnn_baomao,brnnn_bottom,brnnn_dizhu,brnnn_gold,brnnn_gold_bg,brnnn_headframe,brnnn_help,brnnn_help_bg,brnnn_help_close,brnnn_help_title,brnnn_kongxian,brnnn_logo,brnnn_mianfei,brnnn_yongji,brnnn_zhunru"
+		},
+		{
+			"url": "assets/brnn/brnnn_room_bg.jpg",
+			"type": "image",
+			"name": "brnnn_room_bg_jpg"
+		},
+		{
+			"url": "assets/brnn/brnn_roompreview.png",
+			"type": "image",
+			"name": "brnn_roompreview_png"
+		},
+		{
+			"url": "assets/brnn/font/brnnRecountFont.png",
+			"type": "image",
+			"name": "brnnRecountFont_png"
+		},
+		{
+			"url": "assets/brnn/font/brnnroomfnt.fnt",
+			"type": "font",
+			"name": "brnnroomfnt_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnnroomfnt.png",
+			"type": "image",
+			"name": "brnnroomfnt_png"
+		},
+		{
+			"url": "assets/brnn/font/brnnroomfnt2.fnt",
+			"type": "font",
+			"name": "brnnroomfnt2_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnnroomfnt2.png",
+			"type": "image",
+			"name": "brnnroomfnt2_png"
+		},
+		{
+			"url": "assets/brnn/brnnn_help_1.png",
+			"type": "image",
+			"name": "brnnn_help_1_png"
+		},
+		{
+			"url": "assets/brnn/brnnn_help_2.png",
+			"type": "image",
+			"name": "brnnn_help_2_png"
+		},
+		{
+			"url": "assets/brnn/brnn_game_bg.jpg",
+			"type": "image",
+			"name": "brnn_game_bg_jpg"
+		},
+		{
+			"url": "assets/brnn/brnn_game.json",
+			"type": "sheet",
+			"name": "brnn_game_json",
+			"subkeys": "Brnn_Battle_tb4btn,Brnn_Record_xuanzhong,Brnn_Room_gb1,Brnn_Room_gb1bg,brnn_area_1,brnn_area_2,brnn_area_3,brnn_area_4,brnn_area_bg_1,brnn_area_bg_1-1,brnn_area_bg_2,brnn_area_bg_2-2,brnn_area_bg_3,brnn_area_bg_3-3,brnn_area_bg_4,brnn_area_bg_4-4,brnn_banker,brnn_bet_bg,brnn_btn_add_money,brnn_btn_back,brnn_btn_change_banker,brnn_btn_changechair,brnn_btn_fanhui,brnn_btn_qiangzhuang,brnn_btn_rule,brnn_btn_setting,brnn_btn_shangzhuang,brnn_btn_up,brnn_btn_wanfa,brnn_btn_withdraw,brnn_btn_xiazhuang,brnn_btn_xiazhuang2,brnn_btn_xuya,brnn_btn_xuya0,brnn_choum_liang,brnn_clock,brnn_close,brnn_close2,brnn_dengdai,brnn_end_area_1,brnn_end_area_2,brnn_end_area_3,brnn_end_area_4,brnn_end_banker,brnn_end_bankerakkkill,brnn_end_bet,brnn_end_lose,brnn_end_lose_bg,brnn_end_losetitle,brnn_end_niu_0,brnn_end_niu_1,brnn_end_niu_10,brnn_end_niu_11,brnn_end_niu_12,brnn_end_niu_2,brnn_end_niu_3,brnn_end_niu_4,brnn_end_niu_5,brnn_end_niu_6,brnn_end_niu_7,brnn_end_niu_8,brnn_end_niu_9,brnn_end_rank1,brnn_end_rank2,brnn_end_rank3,brnn_end_self,brnn_end_totalbet,brnn_end_unbet,brnn_end_win,brnn_end_win_bg,brnn_end_wintitle,brnn_fapaiqi,brnn_fenge,brnn_gold_bg,brnn_guanzhan,brnn_head_bg,brnn_head_bright,brnn_head_female,brnn_head_male,brnn_history_bg,brnn_history_box,brnn_liansheng,brnn_lose_flag,brnn_menu_bg,brnn_menu_btn_down,brnn_menu_btn_up,brnn_niu_0,brnn_niu_1,brnn_niu_10,brnn_niu_11,brnn_niu_12,brnn_niu_2,brnn_niu_3,brnn_niu_4,brnn_niu_5,brnn_niu_6,brnn_niu_7,brnn_niu_8,brnn_niu_9,brnn_niu_bg1,brnn_niu_bg2,brnn_niu_bg3,brnn_niu_bg4,brnn_niu_bg5,brnn_other_card_bg,brnn_self_card_bg,brnn_self_head,brnn_self_headframe,brnn_start_bet,brnn_win_flag,chip_1_1,chip_1_2,chip_1_3,chip_1_4,chip_1_5,chip_1_6,chip_2_1,chip_2_2,chip_2_3,chip_2_4,chip_2_5,chip_2_6,chip_3_1,chip_3_2,chip_3_3,chip_3_4,chip_3_5,chip_3_6,chip_desk_1_1,chip_desk_1_2,chip_desk_1_3,chip_desk_1_4,chip_desk_1_5,chip_desk_1_6,chip_desk_2_1,chip_desk_2_2,chip_desk_2_3,chip_desk_2_4,chip_desk_2_5,chip_desk_2_6,chip_desk_3_1,chip_desk_3_2,chip_desk_3_3,chip_desk_3_4,chip_desk_3_5,chip_desk_3_6"
+		},
+		{
+			"url": "assets/brnn/font/brnn_record_fnt.fnt",
+			"type": "font",
+			"name": "brnn_record_fnt_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnn_record_fnt.png",
+			"type": "image",
+			"name": "brnn_record_fnt_png"
+		},
+		{
+			"url": "assets/brnn/font/brnn_total_bet_fnt.fnt",
+			"type": "font",
+			"name": "brnn_total_bet_fnt_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnn_total_bet_fnt.png",
+			"type": "image",
+			"name": "brnn_total_bet_fnt_png"
+		},
+		{
+			"url": "assets/brnn/font/brnn_lose_fnt.fnt",
+			"type": "font",
+			"name": "brnn_lose_fnt_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnn_lose_fnt.png",
+			"type": "image",
+			"name": "brnn_lose_fnt_png"
+		},
+		{
+			"url": "assets/brnn/font/brnn_win_fnt.fnt",
+			"type": "font",
+			"name": "brnn_win_fnt_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnn_win_fnt.png",
+			"type": "image",
+			"name": "brnn_win_fnt_png"
+		},
+		{
+			"url": "assets/brnn/brnn_bank.json",
+			"type": "sheet",
+			"name": "brnn_bank_json",
+			"subkeys": "brnn_bank_bg,brnn_bank_bg2,brnn_bank_btn_max,brnn_bank_close,brnn_bank_draw_btn,brnn_bank_draw_btn_text,brnn_bank_draw_btn_title,brnn_bank_edit_bg,brnn_bank_p_bar,brnn_bank_p_bg,brnn_bank_p_thumb"
+		},
+		{
+			"url": "assets/brnn/setting/brnn_setting_bg.png",
+			"type": "image",
+			"name": "brnn_setting_bg_png"
+		},
+		{
+			"url": "assets/brnn/setting/brnn_setting_exit.png",
+			"type": "image",
+			"name": "brnn_setting_exit_png"
+		},
+		{
+			"url": "assets/brnn/setting/brnn_setting_off.png",
+			"type": "image",
+			"name": "brnn_setting_off_png"
+		},
+		{
+			"url": "assets/brnn/setting/brnn_setting_on.png",
+			"type": "image",
+			"name": "brnn_setting_on_png"
+		},
+		{
+			"url": "assets/brnn/setting/brnn_setting_title.png",
+			"type": "image",
+			"name": "brnn_setting_title_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niuniu_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_niuniu_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niuniu_tex.png",
+			"type": "image",
+			"name": "brnn_niuniu_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_sizha_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_sizha_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_sizha_tex.png",
+			"type": "image",
+			"name": "brnn_sizha_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wuhuaniu_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_wuhuaniu_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wuhuaniu_tex.png",
+			"type": "image",
+			"name": "brnn_wuhuaniu_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niuniu_tex.json",
+			"type": "json",
+			"name": "brnn_niuniu_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wuhuaniu_tex.json",
+			"type": "json",
+			"name": "brnn_wuhuaniu_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_sizha_tex.json",
+			"type": "json",
+			"name": "brnn_sizha_tex_json"
+		},
+		{
+			"url": "assets/brnn/brnn_ui_bg.png",
+			"type": "image",
+			"name": "brnn_ui_bg_png"
+		},
+		{
+			"url": "assets/brnn/brnn_player_title.png",
+			"type": "image",
+			"name": "brnn_player_title_png"
+		},
+		{
+			"url": "assets/brnn/brnn_players.png",
+			"type": "image",
+			"name": "brnn_players_png"
+		},
+		{
+			"url": "assets/brnn/animation/bjl_clock_ske.dbbin",
+			"type": "bin",
+			"name": "bjl_clock_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/bjl_clock_tex.json",
+			"type": "json",
+			"name": "bjl_clock_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/bjl_clock_tex.png",
+			"type": "image",
+			"name": "bjl_clock_tex_png"
+		},
+		{
+			"url": "assets/brnn/brnnn_help_3.png",
+			"type": "image",
+			"name": "brnnn_help_3_png"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow11.mp3",
+			"type": "sound",
+			"name": "cow11_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_fail.mp3",
+			"type": "sound",
+			"name": "brnn_fail_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_win1.mp3",
+			"type": "sound",
+			"name": "brnn_win1_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/brnn_win2.mp3",
+			"type": "sound",
+			"name": "brnn_win2_mp3"
+		},
+		{
+			"url": "assets/brnn/sound_mp3/card/cow12.mp3",
+			"type": "sound",
+			"name": "cow12_mp3"
+		},
+		{
+			"url": "assets/brnn/font/brnn_self_bet.fnt",
+			"type": "font",
+			"name": "brnn_self_bet_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnn_self_bet.png",
+			"type": "image",
+			"name": "brnn_self_bet_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wait_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_wait_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wait_tex.png",
+			"type": "image",
+			"name": "brnn_wait_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wait_tex.json",
+			"type": "json",
+			"name": "brnn_wait_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niu_anim1_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_niu_anim1_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niu_anim1_tex.png",
+			"type": "image",
+			"name": "brnn_niu_anim1_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niu_anim2_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_niu_anim2_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niu_anim2_tex.png",
+			"type": "image",
+			"name": "brnn_niu_anim2_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niu_anim1_tex.json",
+			"type": "json",
+			"name": "brnn_niu_anim1_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_niu_anim2_tex.json",
+			"type": "json",
+			"name": "brnn_niu_anim2_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wuniu_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_wuniu_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wuniu_tex.png",
+			"type": "image",
+			"name": "brnn_wuniu_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_wuniu_tex.json",
+			"type": "json",
+			"name": "brnn_wuniu_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_tongchi_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_tongchi_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_tongchi_tex.png",
+			"type": "image",
+			"name": "brnn_tongchi_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_tongpei_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_tongpei_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_tongpei_tex.png",
+			"type": "image",
+			"name": "brnn_tongpei_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_tongchi_tex.json",
+			"type": "json",
+			"name": "brnn_tongchi_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_tongpei_tex.json",
+			"type": "json",
+			"name": "brnn_tongpei_tex_json"
+		},
+		{
+			"url": "assets/brnn/img/brnn_dushen_frame.png",
+			"type": "image",
+			"name": "brnn_dushen_frame_png"
+		},
+		{
+			"url": "assets/brnn/img/brnn_fuhao_frame.png",
+			"type": "image",
+			"name": "brnn_fuhao_frame_png"
+		},
+		{
+			"url": "assets/brnn/img/brnn_special_frame.png",
+			"type": "image",
+			"name": "brnn_special_frame_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_dfh_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_dfh_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_dfh_tex.png",
+			"type": "image",
+			"name": "brnn_dfh_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_dushen_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_dushen_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_dushen_tex.png",
+			"type": "image",
+			"name": "brnn_dushen_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_dfh_tex.json",
+			"type": "json",
+			"name": "brnn_dfh_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_dushen_tex.json",
+			"type": "json",
+			"name": "brnn_dushen_tex_json"
+		},
+		{
+			"url": "assets/brnn/particle/brnn_dushen_particle.png",
+			"type": "image",
+			"name": "brnn_dushen_particle_png"
+		},
+		{
+			"url": "assets/brnn/particle/brnn_dushen_particle.json",
+			"type": "json",
+			"name": "brnn_dushen_particle_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_xingxing_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_xingxing_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_xingxing_tex.png",
+			"type": "image",
+			"name": "brnn_xingxing_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_xingxing_tex.json",
+			"type": "json",
+			"name": "brnn_xingxing_tex_json"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_head_change_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_head_change_ske_dbbin"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_head_change_tex.png",
+			"type": "image",
+			"name": "brnn_head_change_tex_png"
+		},
+		{
+			"url": "assets/brnn/animation/brnn_head_change_tex.json",
+			"type": "json",
+			"name": "brnn_head_change_tex_json"
+		},
+		{
+			"url": "assets/brnn/img/brnn_online_dushen.png",
+			"type": "image",
+			"name": "brnn_online_dushen_png"
+		},
+		{
+			"url": "assets/brnn/img/brnn_online_fuhao.png",
+			"type": "image",
+			"name": "brnn_online_fuhao_png"
+		},
+		{
+			"url": "assets/brnn/img/brnn_banker_bg.png",
+			"type": "image",
+			"name": "brnn_banker_bg_png"
+		},
+		{
+			"url": "assets/brnn/img/brnn_banker_split.png",
+			"type": "image",
+			"name": "brnn_banker_split_png"
+		},
+		{
+			"url": "assets/brnn/font/brnn_online_count.fnt",
+			"type": "font",
+			"name": "brnn_online_count_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnn_online_count.png",
+			"type": "image",
+			"name": "brnn_online_count_png"
+		},
+		{
+			"url": "assets/brnn/font/brnn_zjcx_lose.fnt",
+			"type": "font",
+			"name": "brnn_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnn_zjcx_lose.png",
+			"type": "image",
+			"name": "brnn_zjcx_lose_png"
+		},
+		{
+			"url": "assets/brnn/font/brnn_zjcx_win.fnt",
+			"type": "font",
+			"name": "brnn_zjcx_win_fnt"
+		},
+		{
+			"url": "assets/brnn/font/brnn_zjcx_win.png",
+			"type": "image",
+			"name": "brnn_zjcx_win_png"
+		},
+		{
+			"url": "assets/brnn/brnn_zjcx.json",
+			"type": "sheet",
+			"name": "brnn_zjcx_json",
+			"subkeys": "brnn_room_zjcxbtn,brnn_zjcx_bg,brnn_zjcx_bglabel,brnn_zjcx_bgpanel,brnn_zjcx_bgpanellabel,brnn_zjcx_btndetail,brnn_zjcx_icon1,brnn_zjcx_icon2,brnn_zjcx_icon3,brnn_zjcx_icon4,brnn_zjcx_iconbanker,brnn_zjcx_iconlose,brnn_zjcx_iconwin,brnn_zjcx_imgnobet,brnn_zjcx_level1,brnn_zjcx_level2,brnn_zjcx_level3,brnn_zjcx_line,brnn_zjcx_title,qznn_niu0,qznn_niu1,qznn_niu10,qznn_niu11,qznn_niu12,qznn_niu2,qznn_niu3,qznn_niu4,qznn_niu5,qznn_niu6,qznn_niu7,qznn_niu8,qznn_niu9,qznnresult_card_club1,qznnresult_card_club10,qznnresult_card_club11,qznnresult_card_club12,qznnresult_card_club13,qznnresult_card_club2,qznnresult_card_club3,qznnresult_card_club4,qznnresult_card_club5,qznnresult_card_club6,qznnresult_card_club7,qznnresult_card_club8,qznnresult_card_club9,qznnresult_card_diamond1,qznnresult_card_diamond10,qznnresult_card_diamond11,qznnresult_card_diamond12,qznnresult_card_diamond13,qznnresult_card_diamond2,qznnresult_card_diamond3,qznnresult_card_diamond4,qznnresult_card_diamond5,qznnresult_card_diamond6,qznnresult_card_diamond7,qznnresult_card_diamond8,qznnresult_card_diamond9,qznnresult_card_heart1,qznnresult_card_heart10,qznnresult_card_heart11,qznnresult_card_heart12,qznnresult_card_heart13,qznnresult_card_heart2,qznnresult_card_heart3,qznnresult_card_heart4,qznnresult_card_heart5,qznnresult_card_heart6,qznnresult_card_heart7,qznnresult_card_heart8,qznnresult_card_heart9,qznnresult_card_spade1,qznnresult_card_spade10,qznnresult_card_spade11,qznnresult_card_spade12,qznnresult_card_spade13,qznnresult_card_spade2,qznnresult_card_spade3,qznnresult_card_spade4,qznnresult_card_spade5,qznnresult_card_spade6,qznnresult_card_spade7,qznnresult_card_spade8,qznnresult_card_spade9"
+		}
+	]
+}

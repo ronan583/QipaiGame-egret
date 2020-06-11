@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QynnBattleSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:qynn="game.qynn.*" >
+	<w:Config id="1664c3df828" ></w:Config>
+	<e:Image source="qznn_battle_json.battle_bg" horizontalCenter="0"/>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="qznn_battle_json.multiple_img" horizontalCenter="0.5" verticalCenter="-46.5"/>
+		<e:Label id="bottomBetLabel" text="- 底注 : 1.00 -" size="25" width="210" height="25" horizontalCenter="0.5" x="561" fontFamily="Microsoft YaHei" verticalCenter="-9" textColor="0x6f4d27" textAlign="center" scaleY="0.8"/>
+		<e:Label id="gameLeveLabel" text="体验场" size="25" width="210" height="25" horizontalCenter="1" x="561" fontFamily="Microsoft YaHei" verticalCenter="16.5" textColor="0x6f4d27" textAlign="center" scaleY="0.8"/>
+		<ns1:QynnHeadIcon id="player5Icon" currentState="other" left="-6" verticalCenter="8" x="-6" y="275" scaleX="1" scaleY="1"/>
+		<ns1:QynnHeadIcon id="player4Icon" currentState="other" top="85" left="-6" x="-6" y="85" scaleX="1" scaleY="1"/>
+		<ns1:QynnHeadIcon id="player3Icon" top="85" currentState="other" right="0" x="1152" y="85" scaleX="1" scaleY="1"/>
+		<ns1:QynnHeadIcon id="player2Icon" right="0" currentState="other" verticalCenter="8" x="1152" y="275" scaleX="1" scaleY="1"/>
+		<ns1:QynnHeadIcon id="player1Icon" y="544.16" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-254" x="322" scaleX="1" scaleY="1"/>
+		<ns1:QYNNCardGroup id="playerCard5" width="378" height="174" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.5" scaleY="0.5" left="165" x="165" verticalCenter="12.5"/>
+		<ns1:QYNNCardGroup id="playerCard4" width="378" height="174" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.5" scaleY="0.5" left="157" verticalCenter="-176.5" x="157" y="155"/>
+		<ns1:QYNNCardGroup id="playerCard3" width="378" height="174" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.5" scaleY="0.5" right="187" x="958" verticalCenter="-176.5"/>
+		<ns1:QYNNCardGroup id="playerCard2" width="378" height="174" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.5" scaleY="0.5" right="195" verticalCenter="12.5" x="950" y="344"/>
+		<ns1:QYNNCardGroup id="playerCard1" width="378" height="174" y="553.24" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="19" x="554"/>
+		<e:Group id="playerRsGroup1" verticalCenter="137.5" y="505" scaleX="1" scaleY="1" horizontalCenter="0" visible="false">
+			<e:Image id="playerRsBg1" source="qznn_battle_json.result_bg" horizontalCenter="0" verticalCenter="0" height="75"/>
+			<e:BitmapLabel id="playerRsTips1" font="qznn_win_fnt" text="1800.00" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="playerRsGroup2" verticalCenter="-75" right="180" x="918" y="276" scaleX="1" scaleY="1" visible="false">
+			<e:Image id="playerRsBg2" source="qznn_battle_json.result_bg" horizontalCenter="0" verticalCenter="0" height="75"/>
+			<e:BitmapLabel id="playerRsTips2" font="qznn_win_fnt" text="1800.00" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="playerRsGroup3" top="69" right="180" x="918" y="95" scaleX="1" scaleY="1" visible="false">
+			<e:Image id="playerRsBg3" source="qznn_battle_json.result_bg" horizontalCenter="0" verticalCenter="0" height="75"/>
+			<e:BitmapLabel id="playerRsTips3" font="qznn_win_fnt" text="1800.00" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="playerRsGroup4" top="69" left="170" x="170" y="95" scaleX="1" scaleY="1" visible="false">
+			<e:Image id="playerRsBg4" source="qznn_battle_json.result_bg" horizontalCenter="0" verticalCenter="0" height="75"/>
+			<e:BitmapLabel id="playerRsTips4" font="qznn_win_fnt" text="1800.00" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="playerRsGroup5" verticalCenter="-75" left="170" x="170" y="276" scaleX="1" scaleY="1" visible="false">
+			<e:Image id="playerRsBg5" source="qznn_battle_json.result_bg" horizontalCenter="0" verticalCenter="0" height="75"/>
+			<e:BitmapLabel id="playerRsTips5" font="qznn_win_fnt" text="1800.00" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<ns1:DragonAnim id="startAnim" anim="gamestart" width="500" height="300" aligntype="middle" horizontalCenter="0" verticalCenter="0" isloop="false" playOnStage="false" isTouchByGroup="true" visible="false"/>
+		<ns1:QynnTips id="recoutTips" anchorOffsetX="0" anchorOffsetY="0" y="300" scaleX="1" scaleY="1" left="518" visible="false"/>
+		<e:Group id="xzBtnGroup" y="448.21" horizontalCenter="0" x="192" scaleX="1" scaleY="1" visible="false">
+			<ns1:IButton id="multiBtn5" label="" x="57" y="14">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="multiBtnbg" source.down="multiBtnbg" source.disabled="multiBtnbg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_5" verticalCenter="-9" horizontalCenter="-20"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_bei" verticalCenter="-9" horizontalCenter="20"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="multiBtn10" label="" x="67" y="24">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="multiBtnbg" source.down="multiBtnbg" source.disabled="multiBtnbg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_1" verticalCenter="-9" horizontalCenter="-40.5"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_0" horizontalCenter="-9" verticalCenter="-9"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_bei" verticalCenter="-9" horizontalCenter="37.5"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="multiBtn15" label="" x="77" y="34">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="multiBtnbg" source.down="multiBtnbg" source.disabled="multiBtnbg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_2" verticalCenter="-9" horizontalCenter="-40.5"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_0" horizontalCenter="-9" verticalCenter="-9"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_bei" verticalCenter="-9" horizontalCenter="37.5"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="multiBtn20" label="" x="87" y="44">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="multiBtnbg" source.down="multiBtnbg" source.disabled="multiBtnbg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_5" verticalCenter="-9" horizontalCenter="-40.5"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_0" horizontalCenter="-9" verticalCenter="-9"/>
+				<e:Image source="qznn_battle_json.qznnb_btn_bet_times_bei" verticalCenter="-9" horizontalCenter="37.5"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:layout>
+			<e:HorizontalLayout gap="26"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="qzBtnGroup" y="450" anchorOffsetX="0" anchorOffsetY="0" height="100.24" horizontalCenter="0" x="152" scaleX="1" scaleY="1" visible="false">
+			<ns1:IButton id="noRobBtn" label="" x="57" y="14">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="buqiang_Btn" source.down="buqiang_Btn" source.disabled="buqiang_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="multiBtn1" label="" x="67" y="24">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="multi_Btn_1" source.down="multi_Btn_1" source.disabled="multi_Btn_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="multiBtn2" label="" x="67" y="24">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="multi_Btn_2" source.down="multi_Btn_2" source.disabled="multi_Btn_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="multiBtn3" label="" x="77" y="34">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="multi_Btn_3" source.down="multi_Btn_3" source.disabled="multi_Btn_3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="multiBtn4" label="" x="77" y="34">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="multi_Btn_4" source.down="multi_Btn_4" source.disabled="multi_Btn_4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="20"/>
+			</e:layout>
+		</e:Group>
+
+		<ns1:IButton id="showCardBtn" label="" horizontalCenter="387" verticalCenter="292.5" x="931" y="616" scaleX="1" scaleY="1" visible="false">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="show_Btn" source.down="show_Btn" source.disabled="show_Btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:QynnMenu id="menu" width="236" height="114" skinName="QynnMenuSkin" left="0" top="0" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

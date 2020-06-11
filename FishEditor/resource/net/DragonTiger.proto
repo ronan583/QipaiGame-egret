@@ -1,0 +1,169 @@
+option java_package = "com.gp.game.message";
+
+
+//请求单个房间信息
+message OPLhuSingle {
+	required int32 roomId = 1;//房间id
+}
+message OPLhuSingleRet {
+	required OPLhuRoomInfo roomInfos = 1;
+}
+
+//房间列表
+message OPLhuList {
+	required int32 gameType = 1;
+}
+message OPLhuListRet {
+	repeated OPLhuRoomInfo roomInfos = 1;
+}
+
+//房间信息
+message OPLhuRoomInfo {
+	required int32 gameLevel = 1;//房间类型 0.体验场 1.普通 2.贵宾 3.豪华
+	required int32 type = 2;//1.下注中 2.结算中
+	required int32 downTime = 3;//倒计时时间
+	repeated OPLhWinFailsInfo winFails = 4;//
+	required int32 roomId = 5;//房间id
+	required int32 order = 6;//序号
+}
+
+//输赢情况
+message OPLhWinFailsInfo {
+	required int32 round = 1;//回合数
+	required int32 winType = 2;////1.龙 2.虎  3.和 
+}
+
+
+//开始or停止下注
+message OPPushLhuBattleStatus {
+	required int32 status = 1; //1开始下注 2.停止下注3发牌
+	required int32 downTime = 2;//超时时间
+	optional bool isSwitchBanker = 3;//是否切换庄家 true 切换
+	required int32 serialNumber = 4; //局数编号
+} 
+
+//下注
+message OPLhuStake{
+	required int32 type = 1; //1.龙 2.虎  3.和 
+	required int64 value = 2;//下注值
+}
+message OPLhuStakeRet{
+	required int64 playerId = 1; //下注人
+	required int32 type = 2; //1.龙 2.虎  3.和 
+	required int64 value = 3;//下注值
+	optional int64 totalValue = 4;//下注值
+}
+
+//查看玩家列表排行
+message OPLhuPlayerRank{
+	required int32 version = 1; //
+}
+message OPLhuPlayerRankRet{
+	repeated OPLhuPlayerRankInfo rankInfo = 1; //下标 0.神算子 1以后排行
+}
+
+//玩家排名信息
+message OPLhuPlayerRankInfo{
+	required int32 headNum = 1;//头像编号
+	required string nickName = 2;//昵称
+	required int64 money = 3;//余额
+}
+
+//查看胜负情况
+message OPLhuWinFail{
+	required int32 version = 1; //
+}
+message OPLhuWinFailRet{
+	repeated int32 winType = 1;//1.龙 2.虎  3.和 
+}
+
+//开始游戏
+message OPPushLhuStartGame {
+	repeated OPLhuCardInfo cardInfos = 1;// 牌信息
+	repeated OPLhuPlayerBattleInfo battleInfo = 2;// 玩家战斗信息
+	repeated int32 winType = 3;//1.龙 2.虎  3.和  --- 胜负情况 最后一个数字为最新数据（要等结算后才显示出来）
+}
+
+//牌信息
+message OPLhuCardInfo {
+	required int32 card = 1; //牌
+	required int32 type = 2; //1.龙 2.虎 
+	optional bool isWin = 3; // true 赢 false输
+}
+
+//玩家牌信息
+message OPLhuPlayerBattleInfo {
+	required int64 playerId = 1; //
+	repeated OPLhuPlayerStakeInfo playerStake = 2;// 下注信息
+	optional int64 money = 3; //输赢金币
+	optional int64 totalMoney = 4; //最终的总金币
+}
+
+//下注信息
+message OPLhuPlayerStakeInfo {
+	required int32 type = 1; //1.龙 2.虎  3.和 
+	required int64 value = 2;//下注值
+}
+
+message OpLhuFirstRoomPush{
+	required int32 status = 1; //1开始下注 2.停止下注3发牌
+	required int32 downTime = 2;//超时时间
+	repeated OPLhuPlayerBattleInfo stakeInfo = 3;//庄家自己 和有头像 数据
+	repeated OPLhuCardInfo cardInfos = 4 ;      // 牌
+	repeated OPLhuBankerInfo bankerInfos = 5;//申请上庄 庄家信息 集合有多少数量就有多少人
+	optional int64 upBankerMinMoney = 6 ;//上庄最低金额
+	required int32 serialNumber = 7; //局数编号
+	repeated OPLhuPlayerStakeInfo totalStake = 10;//每个区域总下注值 1龙 2虎 3和
+	repeated int32 winType = 11;//1.龙 2.虎  3.和  --- 胜负情况 最后一个数字为最新数据（要等结算后才显示出来）
+}
+
+message OpLhuFirstRoom{
+	required int32 roomId = 1; //房间ID
+}
+
+message OPLhuFirstRoomBattleInfo {
+	required int64 playerId = 1; //
+	repeated OPLhuPlayerStakeInfo playerStake = 2;// 下注信息
+}
+
+
+message OPLhuBankerInfo {
+	required int32 type = 1; //1普通 2抢庄
+	required int64 playerId = 2; //1普通 2抢庄
+	required string applyBankerName = 3;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+//上庄
+message OpLhuUpBanker{
+	required int32 type = 1; //1普通 2抢庄
+}
+message OpLhuUpBankerRet{
+	required OPLhuBankerInfo bankerInfos = 1;
+}
+
+//下庄
+message OpLhuDownBanker{
+	required int32 version = 1; //
+}
+message OpLhuDownBankerRet{
+	repeated OPLhuBankerInfo bankerInfos = 1;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

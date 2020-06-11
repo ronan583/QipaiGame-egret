@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzBigRoadSkin" width="715" height="144" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:hhdz="game.hhdz.*" >
+	<w:Config id="16948dfed67" ></w:Config>
+	<e:Group id="roadGroup" y="0" width="715" height="144">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="top" gap="0"/>
+		</e:layout>
+
+		<hhdz:HhdzBigRoadItem x="148" y="24"/>
+		<hhdz:HhdzBigRoadItem x="158" y="34"/>
+		<hhdz:HhdzBigRoadItem x="158" y="34"/>
+		<hhdz:HhdzBigRoadItem x="168" y="44"/>
+		<hhdz:HhdzBigRoadItem x="168" y="44"/>
+		<hhdz:HhdzBigRoadItem x="178" y="54"/>
+		<hhdz:HhdzBigRoadItem x="178" y="54"/>
+		<hhdz:HhdzBigRoadItem x="188" y="64"/>
+		<hhdz:HhdzBigRoadItem x="188" y="64"/>
+		<hhdz:HhdzBigRoadItem x="198" y="74"/>
+		<hhdz:HhdzBigRoadItem x="198" y="74"/>
+		<hhdz:HhdzBigRoadItem x="208" y="84"/>
+		<hhdz:HhdzBigRoadItem x="208" y="84"/>
+		<hhdz:HhdzBigRoadItem x="218" y="94"/>
+		<hhdz:HhdzBigRoadItem x="218" y="94"/>
+		<hhdz:HhdzBigRoadItem x="228" y="104"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

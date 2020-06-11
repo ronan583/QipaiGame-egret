@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="66" height="123">
+	<w:Config id="16755a4b1ee" ></w:Config>
+	<e:Image id="headFrameIcon" source="lhdz_battle_json.lhdz_online_head" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="headIcon" source="gp_head_1" width="53" height="53" horizontalCenter="0.5" verticalCenter="0"/>
+	<e:Image id="palyerType" source="lhdz_battle_json.lhdz_online_calculation" x="-52" y="0"/>
+	<e:Label id="palyerName" text="一二三四" textColor="0x7c5e32" size="23" fontFamily="Microsoft YaHei" horizontalCenter="0" verticalCenter="-50" width="93" height="23" textAlign="center" verticalAlign="middle"/>
+	<e:Label id="palyerMoney" text="0" textColor="0x7b653f" size="21" fontFamily="Microsoft YaHei" verticalCenter="49" horizontalCenter="0" bottom="2" width="88" height="21" textAlign="center" verticalAlign="middle"/>
+
+</e:Skin>

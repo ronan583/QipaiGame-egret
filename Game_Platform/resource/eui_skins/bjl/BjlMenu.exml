@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlMenuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16b67115670" ></w:Config>
+	<ns1:IButton id="downBtn" label="" x="0" y="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bjlGame_json.btn_xiala" source.down="bjlGame_json.btn_xiala" source.disabled="bjlGame_json.btn_xiala"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<ns1:IButton id="upBtn" label="" x="0" y="0" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bjlGame_json.btn_shangla" source.down="bjlGame_json.btn_shangla" source.disabled="bjlGame_json.btn_shangla"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<e:Group id="menuGroup" x="0" y="-494" height="494">
+		<e:Image y="0" x="0" source="bjlGame_json.bg0"/>
+		<ns1:IButton id="settingBtn" label="" x="37" y="245.23">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjlGame_json.menuSettingBtn" source.down="bjlGame_json.menuSettingBtn" source.disabled="bjlGame_json.menuSettingBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="helpBtn" label="" x="37" y="144.4">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjlGame_json.menuHelpBtn" source.down="bjlGame_json.menuHelpBtn" source.disabled="bjlGame_json.menuHelpBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="bankBtn" label="" x="37" y="51.68">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjlGame_json.menuBankBtn" source.down="bjlGame_json.menuBankBtn" source.disabled="bjlGame_json.menuBankBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" x="37" y="349.46">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjlGame_json.menuBackBtn" source.down="bjlGame_json.menuBackBtn" source.disabled="bjlGame_json.menuBackBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

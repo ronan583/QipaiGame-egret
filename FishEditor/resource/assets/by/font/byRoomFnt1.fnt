@@ -1,0 +1,16 @@
+{"file":"byRoomFnt1.png","frames":{
+"6":{"x":94,"y":1,"w":12,"h":23,"offX":0,"offY":1,"sourceW":12,"sourceH":24},
+"7":{"x":93,"y":26,"w":13,"h":23,"offX":0,"offY":1,"sourceW":13,"sourceH":24},
+"8":{"x":79,"y":1,"w":13,"h":23,"offX":0,"offY":1,"sourceW":13,"sourceH":24},
+"9":{"x":108,"y":1,"w":12,"h":23,"offX":0,"offY":1,"sourceW":12,"sourceH":24},
+"0":{"x":78,"y":26,"w":13,"h":23,"offX":0,"offY":1,"sourceW":13,"sourceH":24},
+"1":{"x":108,"y":26,"w":8,"h":23,"offX":2,"offY":1,"sourceW":12,"sourceH":24},
+"2":{"x":63,"y":26,"w":13,"h":23,"offX":0,"offY":1,"sourceW":13,"sourceH":24},
+"3":{"x":47,"y":26,"w":14,"h":23,"offX":0,"offY":1,"sourceW":14,"sourceH":24},
+"4":{"x":47,"y":1,"w":14,"h":23,"offX":0,"offY":1,"sourceW":14,"sourceH":24},
+"5":{"x":63,"y":1,"w":14,"h":23,"offX":0,"offY":1,"sourceW":14,"sourceH":24},
+"百":{"x":27,"y":1,"w":18,"h":23,"offX":0,"offY":1,"sourceW":18,"sourceH":24},
+".":{"x":118,"y":26,"w":5,"h":5,"offX":0,"offY":18,"sourceW":5,"sourceH":24},
+"千":{"x":27,"y":26,"w":18,"h":22,"offX":0,"offY":2,"sourceW":18,"sourceH":24},
+"万":{"x":1,"y":26,"w":24,"h":22,"offX":0,"offY":2,"sourceW":24,"sourceH":24},
+"元":{"x":1,"y":1,"w":24,"h":23,"offX":0,"offY":0,"sourceW":24,"sourceH":24}}}

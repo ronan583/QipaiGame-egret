@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoomTopSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16b3d56d419" ></w:Config>
+	<e:Image source="main_bg_png" y="-1.52"/>
+	<e:Image x="-1" top="0" anchorOffsetX="0" source="gp_main_top"/>
+	<e:Image x="569.05" y="16.83" width="263.67" height="47" anchorOffsetY="0" source="gp_main_coin_bg" scale9Grid="138,20,24,13" anchorOffsetX="0"/>
+	<e:Image x="269.05" y="15.69" width="263.67" height="47" anchorOffsetY="0" source="gp_main_coin_bg" scale9Grid="138,20,24,13" anchorOffsetX="0"/>
+	<e:Image x="552.09" y="12.41" source="gp_main_coin"/>
+	<ns1:IButton id="addMoneyBtn" label="" x="800.31" y="17.8">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_coin_add" source.down="gp_coin_add" source.disabled="gp_coin_add"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<e:BitmapLabel id="goldNum" width="223.03" height="45.76" x="598" y="18" text="0.55" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="commonfnt_fnt"/>
+	<e:Button id="backToMainBtn" label="" x="20.31" y="22.69">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="roomRes_json.btn_back" source.down="roomRes_json.btn_back" source.disabled="roomRes_json.btn_back"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*" xmlns:tween="egret.tween.*"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="playerName" text="name" x="279.94" y="23.52" anchorOffsetX="0" width="248.25" anchorOffsetY="0" height="31" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" size="31" textColor="0xfff3db"/>
+</e:Skin>

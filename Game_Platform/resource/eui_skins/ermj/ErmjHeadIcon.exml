@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjHeadIconSkin" currentState="self" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="168194cb263" ></w:Config>
+	<e:Image x="0" y="0" source="ermj_battle_json.ermj_head_frame"/>
+	<e:Image id="headIconImg" y="4" x="8" source="gp_head_1" width="68" height="68"/>
+	<e:Image id="bankerIcon" y="-17" x="-12.5" source="ermj_battle_json.ermj_banker_flag" visible="false"/>
+	<e:Group x="79" y="51.5">
+		<e:Label id="gold" text="" y="-5" size="24" width="135" textAlign="left" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0xfff3db" height="24" left="31"/>
+		<e:Label id="playerName" text="" y="-38" size="24" width="130" textAlign="center" verticalAlign="middle" height="23" textColor="0xffffff" fontFamily="Microsoft YaHei" left="3"/>
+	</e:Group>
+	<e:Image source="ermj_battle_json.coins_small" x="73" y="40.5"/>
+	<e:BitmapLabel id="vip" text="V10" font="gamevip_fnt" x="-4" y="50.33"/>
+</e:Skin>

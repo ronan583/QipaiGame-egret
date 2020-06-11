@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbRecordBarSkin" width="920" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="zjTime" text="20-20 23:22" x="15.48" size="25" verticalCenter="1" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle"/>
+	<e:Label id="zjRoom" text="体验场1" x="279.15" size="25" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" verticalAlign="middle" y="11" anchorOffsetX="0" width="107" anchorOffsetY="0" height="26" textAlign="center"/>
+	<e:Label id="zjTotalBet" text="0" x="527" size="25" verticalCenter="1" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="120"/>
+	<e:Label id="zjSy" text="0" x="794" size="25" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0xFEF6C0" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="104" anchorOffsetY="0" height="27"/>
+	<e:Image source="zjcx_json.zjcx_line" x="-13.48" y="43" scaleX="1" scaleY="1"/>
+</e:Skin>

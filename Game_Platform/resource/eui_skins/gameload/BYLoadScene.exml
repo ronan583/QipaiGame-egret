@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZLoadSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image id="by_room_bg" scaleX="1" scaleY="1" horizontalCenter="0" source="by_room_bg_jpg"/>
+	<e:Group id="animGroup" width="1334" height="750" y="0" horizontalCenter="0">
+
+		<ns1:DragonAnim id="anim" xmlns:ns1="*" width="1334" height="750" scaleX="1" scaleY="1" aligntype="middle" anim="by_qidong" isloop="false" horizontalCenter="0" playOnStage="false"/>
+		<e:Group width="800" height="56.06" y="598.38" anchorOffsetX="0" anchorOffsetY="0" x="267">
+			<e:Image id="progressbar" source="gpn_bar_png" scaleX="1" scaleY="1"/>
+			<e:Image id="progressbg" source="gpn_bar_bg_png" scaleX="1" scaleY="1"/>
+			<e:Rect id="maskRect" width="393" height="40" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Label id="progressLabel" text="60%" x="372.18" y="-28.97" fontFamily="Microsoft YaHei" size="25" textColor="0xe7e8a0"/>
+		</e:Group>
+		<e:Image y="674" scale9Grid="29,14,181,3" anchorOffsetX="0" horizontalCenter="16.5" anchorOffsetY="0" source="by_room_bg2_png"/>
+		<e:Label text="胜者才有资格往上爬！" x="561.8" y="678.52" fontFamily="Microsoft YaHei" size="25" textColor="0x70dbdd"/>
+	</e:Group>
+
+
+</e:Skin>

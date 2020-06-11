@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AdapterTestSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16b9d83dd85" ></w:Config>
+	<e:Image source="test_bg_jpg" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZSmallPokerSkin" width="48" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e65625443" ></w:Config>
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" width="48" height="66" source="ddz_small_poker_bg"/>
+	<e:Image id="cardImg" anchorOffsetX="0" anchorOffsetY="0" width="48" height="66" source="cs2_4"/>
+</e:Skin>

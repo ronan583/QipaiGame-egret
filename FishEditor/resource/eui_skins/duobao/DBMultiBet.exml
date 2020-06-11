@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DBMultiBetSkin" width="60" height="91.08" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1695e6532a2" ></w:Config>
+	<e:Image source="duobao_zuanbg1"/>
+	<e:Image id="img" y="6" x="7" source="duobao_zuanshi2"/>
+	<e:Label text="1" x="0" y="63" size="25" textColor="0xf2a129" width="62" verticalAlign="middle" textAlign="center" visible="false"/>
+</e:Skin>

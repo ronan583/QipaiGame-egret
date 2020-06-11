@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjGameInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="1334">
+	<w:Config id="167dc3c8198" ></w:Config>
+	<e:Image source="ermj_battle_json.ermj_east_dark" horizontalCenter="0" verticalCenter="42"/>
+	<e:Group id="roundLightDown" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ermj_battle_json.ermj_light_bottom" horizontalCenter="0" verticalCenter="32" x="-113" y="-3" scaleX="1" scaleY="1"/>
+		<e:Image source="ermj_battle_json.ermj_east" y="99" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image source="ermj_battle_json.ermj_west_dark" horizontalCenter="0" verticalCenter="-40"/>
+	<e:Group id="roundLightUp" verticalCenter="-1" horizontalCenter="0">
+		<e:Image source="ermj_battle_json.ermj_light_top" verticalCenter="-32" y="-59" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image source="ermj_battle_json.ermj_west" y="13" horizontalCenter="-0.5"/>
+	</e:Group>
+	<e:BitmapLabel id="countDownLabel" text="20" textAlign="center" verticalAlign="center" horizontalCenter="0" verticalCenter="5" font="ermj_countdown_fnt"/>
+	<e:Image source="ermj_battle_json.ermj_tiles_bg" verticalCenter="0" right="3"/>
+	<e:Image source="ermj_battle_json.playedTiles0" x="1249.8" scaleX="0.95" scaleY="0.95" verticalCenter="0"/>
+	<e:Label id="remainLabel" text="99" fontFamily="Microsoft YaHei" size="30" verticalCenter="-9.5" verticalAlign="middle" textAlign="center" width="40" right="25" textColor="0xfff3db"/>
+</e:Skin>

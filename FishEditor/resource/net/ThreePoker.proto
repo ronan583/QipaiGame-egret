@@ -1,0 +1,134 @@
+option java_package = "com.gp.game.message";
+
+//玩家信息
+message OPThreeBattle {
+	required int64 playerId = 1;//玩家id
+	required int32 status = 2;//玩家状态0.观战 1.暗牌 2.看牌 3.弃牌 4.失败
+	required int64 costMoney = 3;//已消耗钱
+	required int64 totalMoney = 4;//总金额
+	required bool isPay = 5;//是否能出牌
+	required bool isBanker = 6;//是否是庄家
+	required bool isAlways = 7;//跟到底
+	repeated int32 cards =8;//自己的牌 如果看牌了才有值
+	required int32 cardType = 9;//类型0.散牌 1.对子 2.顺子 3.同花 4.同花顺 5.豹子 -1没看牌
+	repeated int64 betsRecord =10;//自己下注记录 只有重连给数据
+}
+
+//开始游戏
+message OPStartGame{
+	required int32 gameType = 1;//游戏类型 
+	required int64 bottomBet = 2;//底注
+	required int64 singleBet = 3;//单注
+	required int64 totalBet = 4;//总下注
+	required int32 currentRound = 5;//当前回合数
+	required int32 totalRound = 6;//总回合数
+	required int32 downTime = 7;//倒计时
+	repeated OPThreeBattle playerBattle =8;//自己的牌 如果看牌了才有值
+	required bool isAllIn = 9;//是否全压
+}
+
+//下注
+message OPBets {
+	required int32 type = 1;//类型 1.跟注 2.加注
+	required int32 singleBet = 2;//单注注值
+}
+message OPBetsRet {
+	required int32 type = 1;//类型 1.跟注 2.加注
+	required int64 singleBet = 2;//单注注值
+	required int64 nextPlayerId = 3;//下位操作者
+	required int32 downTime = 4;//倒计时
+	required int64 playerId = 5;//下注人的id
+	required int64 costMoney = 6;//已消耗钱
+	
+}
+
+//看牌 -- 其他人推送状态
+message OPLookCard {
+	required string version = 1;
+}
+
+message OPLookCardRet {
+	repeated int32 card =1;//自己的牌
+	required int32 cardType = 2;//类型0.散牌 1.对子 2.顺子 3.同花 4.同花顺 5.豹子
+}
+
+//弃牌 所有人推送状态
+message OPDiscardCard {
+	required string version = 1;
+}
+
+//跟到底 设置
+message OPAlwaysSet {
+	required bool value = 1;//true跟到底 false 取消
+}
+message OPAlwaysSetRet {
+	required bool vaule = 1;//true跟到底 false 取消
+}
+
+//比牌
+message OPComparisonCard {
+	required int64 targetId = 1;//目标玩家id
+}
+message OPComparisonCardRet {
+	required int64 winPlayerId = 1;//赢的id
+	required int64 failPlayerId = 2;//输的id
+	required int64 singleBet = 3;//单注注值
+	required int64 targetId = 4;//目标玩家id
+	required int64 nextPlayerId = 5;//下位操作者
+	required int32 downTime = 6;//倒计时
+	required int64 costMoney = 7;//已消耗钱
+}
+
+//亮牌
+message OPBrightCard {
+	required string version = 1;
+}
+message OPBrightCardRet {
+	repeated OPBrightCardInfo cardInfo = 1;
+}
+
+message OPBrightCardInfo {
+	required int64 targetId = 1;//亮牌者id
+	repeated int32 card = 2;//牌
+	optional int32 cardType = 3;//牌型
+}
+
+//推送牌局结束
+message PushBattleFinsh {
+	required int64 winPlayerId = 1;//赢的玩家id
+	required int64 winMoney = 2;//赢的钱
+	repeated OPBattleFinshInfo finishInfo = 3;
+	required int32 downTime = 4;
+	repeated OPBrightCardInfo brightCardInfo = 5;//亮牌信息
+}
+
+//战斗完成信息
+message OPBattleFinshInfo{
+	required int64 playerId = 1;//
+	required int64 money =2;//玩家信息 玩家剩余的钱
+	required bool isTrusteeship =3;//是否托管
+}
+
+
+//推送玩家状态
+message PushPlayerStatus {
+	required int64 playerId = 1;//状态变化者
+	required int32 status =2;//玩家信息
+	required int64 currentPlayerId = 3;//当前出牌的人
+	required int32 downTime = 4;//倒计时
+	required int32 currentRound = 5;//回合数
+	required int64 totalBet = 6;//总下注
+	required bool isAllIn = 7;//是否全压
+}
+
+
+//推送要玩家准备
+message PushThreeReadyMsg{
+	required int32 version = 1 ;
+}
+
+
+
+
+
+

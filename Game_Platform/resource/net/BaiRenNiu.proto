@@ -1,0 +1,186 @@
+option java_package = "com.gp.game.message";
+
+//请求单个房间信息
+message OPBrenSingle {
+	required int32 roomId = 1;//房间id
+}
+message OPBrenSingleRet {
+	required OPBrenRoomInfo roomInfos = 1;
+}
+
+//房间列表
+message OPBrenList {
+	required int32 gameType = 1;
+}
+message OPBrenListRet {
+	repeated OPBrenRoomInfo roomInfos = 1;
+}
+
+//房间信息
+message OPBrenRoomInfo {
+	required int32 gameLevel = 1;//房间类型 0.体验场 1.普通 2.贵宾 3.豪华
+	required int32 type = 2;//1.休息中 2.下注中 3.结算中
+	required int32 downTime = 3;//倒计时时间
+	repeated OPBrenRoundInfo roundInfos = 4;//
+	required int32 roomId = 5;//房间id
+	required int32 order = 6;//序号
+}
+
+//回合信息
+message OPBrenRoundInfo {
+	required int32 round = 1;//回合数
+	repeated OPBrenWinFailsInfo winFails = 2;//
+}
+//输赢情况
+message OPBrenWinFailsInfo {
+	required int32 type = 1;//1.黑 2.红 3.梅 4.方
+	required bool isWin = 2;//true 赢 false 输
+}
+
+
+
+//开始or停止下注
+message OPPushBrenBattleStatus {
+	required int32 status = 1; //1.休息 2开始下注 3.停止下注4发牌
+	optional int64 bankerPlayerId = 2; //庄家id  开始下注传值
+	required int32 downTime = 3;//超时时间
+	optional bool isSwitchBanker = 4;//是否切换庄家 true 切换
+	required int32 serialNumber = 5; //局数编号
+} 
+
+//下注
+message OPBrenStake{
+	required int32 type = 1; //1.黑 2.红 3.梅 4.方
+	required int64 value = 2;//下注值
+}
+message OPBrenStakeRet{
+	required int64 playerId = 1; //下注人
+	required int32 type = 2; //1.黑 2.红 3.梅 4.方
+	required int64 value = 3;//下注值
+	optional int64 totalValue = 4;//下注值
+}
+
+//查看玩家列表排行
+message OPBrenPlayerRank{
+	required int32 version = 1; //
+}
+message OPBrenPlayerRankRet{
+	repeated OPBrenPlayerRankInfo rankInfo = 1; //下标 0.神算子 1以后排行
+}
+
+//玩家排名信息
+message OPBrenPlayerRankInfo{
+	required int32 headNum = 1;//头像编号
+	required string nickName = 2;//昵称
+	required int64 money = 3;//余额
+}
+
+//查看胜负情况
+message OPWinFail{
+	required int32 version = 1; //
+}
+message OPWinFailRet{
+	repeated OPBrenRound rounds = 3;// 胜负回合信息
+}
+
+//开始游戏
+message OPPushBrenStartGame {
+	repeated OPBrenCardInfo cardInfos = 1;// 牌信息
+	repeated OPBrenPlayerBattleInfo battleInfo = 2;// 玩家战斗信息
+	repeated OPBrenResultPlayerInfo resultInfos = 3;// 战斗结果
+	repeated OPBrenRound rounds = 4;// 胜负回合信息
+}
+
+//牌信息
+message OPBrenResultPlayerInfo {
+	required int64 money = 1;//输赢
+	optional string name = 2;//
+}
+//牌信息
+message OPBrenCardInfo {
+	required int32 type = 1; //0.庄家 1.黑 2.红 3.梅 4.方
+	repeated OPBrenGroupCard groupCards = 2 ;      // 牌
+	required int32 value = 3;//牛值 0 表示无牛
+	optional bool isWin = 4; // 顺序 黑  红 梅  方
+	repeated int32 cardsAll = 5;//所有牌
+}
+
+//回合
+message OPBrenRound {
+	repeated bool isWin = 1; // 顺序 黑  红 梅  方
+}
+
+//玩家牌信息
+message OPBrenPlayerBattleInfo {
+	required int64 playerId = 1; //
+	repeated OPBrenPlayerStakeInfo playerStake = 2;// 下注信息
+	optional int64 money = 3; //输赢金币
+	optional int64 totalMoney = 4; //最终的总金币
+}
+
+//下注信息
+message OPBrenPlayerStakeInfo {
+	required int32 type = 1; //1.黑 2.红 3.梅 4.方
+	required int64 value = 2;//下注值
+}
+
+//一组牌
+message OPBrenGroupCard {
+	repeated int32 cards = 1;//第一组牌
+}
+
+message OpBrenFirstRoom{
+	required int32 roomId = 1; //房间ID
+}
+
+message OpBrenFirstRoomPush{
+	required int32 status = 1; //1.休息 2开始下注 3.停止下注4发牌
+	required int32 downTime = 2;//超时时间
+	repeated OPBrenPlayerBattleInfo battleInfo = 3;//
+	repeated OPBrenCardInfo cardInfos = 4 ;      // 牌
+	optional int64 bankerPlayerId = 5; //庄家id
+	repeated OPBrenResultPlayerInfo resultInfos = 6;// 战斗结果
+	repeated OPBrenBankerInfo bankerInfos = 7;//申请上庄 庄家信息 集合有多少数量就有多少人
+	optional int64 upBankerMinMoney = 8 ;//上庄最低金额
+	required int32 serialNumber = 9; //局数编号
+	repeated OPBrenPlayerStakeInfo totalStake = 10;//每个区域总下注值
+}
+
+message OPBrenBankerInfo {
+	required int32 type = 1; //1普通 2抢庄
+	required int64 playerId = 2; //1普通 2抢庄
+	required string applyBankerName = 3;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+//上庄
+message OpBrenUpBanker{
+	required int32 type = 1; //1普通 2抢庄
+}
+message OpBrenUpBankerRet{
+	required OPBrenBankerInfo bankerInfos = 1;
+}
+
+//下庄
+message OpBrenDownBanker{
+	required int32 version = 1; //
+}
+message OpBrenDownBankerRet{
+	repeated OPBrenBankerInfo bankerInfos = 6;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

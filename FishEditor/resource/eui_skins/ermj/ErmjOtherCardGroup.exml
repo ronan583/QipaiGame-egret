@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjOtherCardGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ermj="game.ermj.*"  height="59">
+	<w:Config id="16829b9d515" ></w:Config>
+	<e:Group id="holdGroup" x="61" y="0">
+		<e:Image source="ermj_battle_json.title0" x="0"/>
+		<e:Image source="ermj_battle_json.title0" x="40"/>
+		<e:Image source="ermj_battle_json.title0" x="80"/>
+		<e:Image source="ermj_battle_json.title0" x="120"/>
+		<e:Image source="ermj_battle_json.title0" x="160"/>
+		<e:Image source="ermj_battle_json.title0" x="200"/>
+		<e:Image source="ermj_battle_json.title0" x="240"/>
+		<e:Image source="ermj_battle_json.title0" x="280"/>
+		<e:Image source="ermj_battle_json.title0" x="320"/>
+		<e:Image source="ermj_battle_json.title0" x="360"/>
+		<e:Image source="ermj_battle_json.title0" x="400"/>
+		<e:Image source="ermj_battle_json.title0" x="440"/>
+		<e:Image source="ermj_battle_json.title0" x="480"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<ermj:ErmjMyCard id="drawedCard" x="0" y="0" width="40" height="59"/>
+</e:Skin>

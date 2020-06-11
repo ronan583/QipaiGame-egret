@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DiceSettingUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0" y="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" source="tb_setting_bg_png"/>
+		<e:Image y="180.83" horizontalCenter="1.5" source="tb_setting_title_png"/>
+		<ns1:IButton id="closeBtn" label="" x="964.03" y="157.81">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tb_setting_close_png" source.down="tb_setting_close_png" source.disabled="tb_setting_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+		<e:Image x="355" y="285" source="tb_setting_music_png"/>
+		<e:Image x="667" y="282.34" source="tb_setting_soundeffect_png"/>
+		<e:Image x="355" y="461.67" source="hlsb_jingyin_png"/>
+
+
+		<e:ToggleSwitch id="switchBgBtn" label="" x="448" y="261">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tb_setting_off_png" source.down="tb_setting_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" x="776" y="261">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tb_setting_off_png" source.down="tb_setting_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" x="448" y="440.17">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tb_setting_off_png" source.down="tb_setting_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:ToggleSwitch>
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+
+
+
+
+
+
+
+
+
+</e:Skin>

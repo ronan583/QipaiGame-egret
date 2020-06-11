@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangePanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1663ec36e60" ></w:Config>
+	<e:Image horizontalCenter="7" verticalCenter="-1" source="safebox_frame"/>
+	<e:Image source="safebox_json.safe_bg_2" x="386" y="138"/>
+
+	<e:Image x="628.42" y="161.92" scale9Grid="40,25,247,17" anchorOffsetY="0" height="45" source="gp_sb_textfield_bg" anchorOffsetX="0" width="298"/>
+	<e:Image x="631.33" y="471.97" scale9Grid="40,25,247,17" anchorOffsetY="0" height="45" source="gp_sb_textfield_bg" width="298"/>
+
+	<ns1:IButton id="aliSelectBtn" label="" x="228" y="176.95" anchorOffsetX="112" anchorOffsetY="42" imageLabelPath="gp_exchange_ali">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sb_btn" source.down="sb_btn" source.disabled="sb_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<ns1:IButton id="bankSelectBtn" label="" x="228" y="281.33" anchorOffsetX="112" anchorOffsetY="42" imageLabelPath="gp_exchange_bank">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sb_btn" source.down="sb_btn" source.disabled="sb_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<ns1:IButton id="aliBtn" label="" x="132" y="161.82">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_exchange_ali" source.down="gp_exchange_ali" source.disabled="gp_exchange_ali"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<ns1:IButton id="bankBtn" label="" x="132" y="269.17">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_exchange_bank" source.down="gp_exchange_bank" source.disabled="gp_exchange_bank"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+
+
+
+	<e:Image x="592.79" y="47.09" source="gp_title_exchange"/>
+
+
+
+
+	<ns1:IButton id="closeBtn" label="" x="1107.53" y="36.37">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_close" source.down="gp_close" source.disabled="gp_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+	<ns1:IButton id="operatorBtn" label="" x="743.87" y="596.47" anchorOffsetX="87" anchorOffsetY="32" imageLabelPath="gp_btn_exchange">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_sb_btn2" source.down="gp_sb_btn2" source.disabled="gp_sb_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+
+	</ns1:IButton>
+	<e:BitmapLabel id="currGoldNumLabel" width="280.2" height="36.25" anchorOffsetX="0" anchorOffsetY="0" text="0.00" scaleX="1" scaleY="1" textAlign="right" font="commonfnt_fnt" verticalAlign="middle" horizontalCenter="138" verticalCenter="-174"/>
+
+	<e:Group id="aliGroup" width="743.34" height="256" x="403.97" y="304.73" anchorOffsetY="0" anchorOffsetX="0">
+
+		<e:Label text="提现5分钟内到账，提现前确认绑定的支付宝账号准确无误，提现收取提现金额2%的手续费。" y="-73.99" anchorOffsetX="0" anchorOffsetY="0" height="76" size="22" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" left="41" right="1.3400000000000318" lineSpacing="6" textColor="0xd9d2c3"/>
+		<e:Image x="33.61" y="14.99" source="gp_exchange_num"/>
+		<e:Image x="19.56" y="233.78" source="gp_line" anchorOffsetX="0" width="720" anchorOffsetY="0" height="5" scale9Grid="30,0,186,5"/>
+		<e:Image x="29.56" y="-14.22" source="gp_line" anchorOffsetX="0" width="720" anchorOffsetY="0" height="5" scale9Grid="30,0,186,5"/>
+		<ns1:IButton id="maxNumBtn" label="" x="654.84" y="105.69" imageLabelPath="gp_btn_sb_max" anchorOffsetX="46" anchorOffsetY="26">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gp_sb_btn1" source.down="gp_sb_btn1" source.disabled="gp_sb_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+	<e:Group id="bankGroup" width="658" height="80" x="349.33" y="304.69" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label text="提现5分钟内到账，提现前确认绑定的银行卡账号准确无误，提现收取提现金额2%的手续费。" x="95.09" y="-75.08" anchorOffsetX="0" width="699.57" anchorOffsetY="0" height="59.33" size="22" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" lineSpacing="6" textColor="0xd9d2c3"/>
+		<e:Image x="87.44" y="14.96" source="gp_exchange_num"/>
+		<e:Image x="92" y="-13" source="gp_line" anchorOffsetX="0" width="720" anchorOffsetY="0" height="5" scale9Grid="30,0,186,5"/>
+		<e:Image x="102" y="233" source="gp_line" anchorOffsetX="0" width="720" anchorOffsetY="0" height="5" scale9Grid="30,0,186,5"/>
+	</e:Group>
+	<ns1:EditText id="opratorGoldInput" width="312.67" height="44" x="628.42" y="314.68" anchorOffsetX="0" anchorOffsetY="0" tipContent="请输入或者拖选兑换金额" tipFontSize="22"/>
+	<e:Image id="bindLabelImage" x="436.01" y="478.31" scaleX="1" scaleY="1" source="gp_get_ali"/>
+	<e:Image source="" x="651.67" y="540.01" scaleX="1" scaleY="1" visible="false"/>
+	<ns1:IButton id="bindBtn" label="" x="1033.62" y="497.49" imageLabelPath="gp_btn_bind_png" anchorOffsetX="87" anchorOffsetY="32" width="173">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_sb_btn2" source.down="gp_sb_btn2" source.disabled="gp_sb_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<e:Label id="bindTipLabel" text="未绑定银行卡账号" x="637.01" y="471.34" anchorOffsetX="0" width="286" anchorOffsetY="0" height="50" verticalAlign="middle" textAlign="center" size="21" fontFamily="Microsoft YaHei" textColor="0x5a5241"/>
+	<ns1:IButton id="clearNumBtn" label="" x="960.94" y="309.68" anchorOffsetX="0" anchorOffsetY="0" imageLabelPath="gp_btn_sb_reset">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_sb_btn1" source.down="gp_sb_btn1" source.disabled="gp_sb_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+	<e:ProgressBar id="exchangeProgress" width="496.67" height="37.33" x="505.53" y="401.08" anchorOffsetX="0" anchorOffsetY="0" value="0" skinName="BankProgressBarSkin"/>
+	<ns1:IButton id="exchangeRecordBtn" label="" x="1030.69" y="184.9" anchorOffsetX="87" anchorOffsetY="32" imageLabelPath="gp_btn_history">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_sb_btn2" source.down="gp_sb_btn2" source.disabled="gp_sb_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+
+	</ns1:IButton>
+
+	<e:HSlider id="exchangeSlider" width="508.12" height="68" x="504.69" y="384.42" anchorOffsetX="0" anchorOffsetY="0" skinName="BankHSliderSkin" value="0" maximum="100"/>
+	<e:Image x="439.86" y="166.64" source="gp_current_jine"/>
+	<e:Image x="93" y="230.74" source="gp_line" anchorOffsetX="0" width="270" anchorOffsetY="0" height="5"/>
+	<e:Image x="93" y="336.18" source="gp_line" anchorOffsetX="0" width="270" anchorOffsetY="0" height="5"/>
+
+
+</e:Skin>

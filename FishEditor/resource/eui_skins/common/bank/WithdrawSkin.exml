@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WithdrawSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="rank_frame" horizontalCenter="0" verticalCenter="18.5" x="146" y="57" scaleX="1" scaleY="1"/>
+		<e:Image verticalCenter="15" source="bank_frame" horizontalCenter="0" x="191" y="138" scaleX="1" scaleY="1"/>
+		<e:Image id="titleImg" horizontalCenter="0" top="46" source="title_frame" x="409" y="46" scaleX="1" scaleY="1"/>
+		<e:Image source="withdraw_title" horizontalCenter="0" top="64" x="624" y="64" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="withdrawBtn" label="" anchorOffsetX="145" anchorOffsetY="39.5" imageLabelPath="withdraw_button_label" horizontalCenter="0" bottom="68" x="522" y="603" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_button" source.down="bank_button" source.disabled="bank_button"/>
+				<e:Label id="labelDisplay" horizontalCenter="-12" verticalCenter="-9" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="closeBtn" label="" horizontalCenter="495" verticalCenter="-265" x="1127" y="75" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_close" source.down="rank_close" source.disabled="rank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="maxBtn" label="" horizontalCenter="360" verticalCenter="88" x="986" y="445" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_max" source.down="bank_max" source.disabled="bank_max"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image source="current_oins" x="744" top="180" y="180" scaleX="1" scaleY="1"/>
+		<e:Image source="bank_balance" top="180" left="224" x="224" y="180" scaleX="1" scaleY="1"/>
+		<e:Image source="bank_text_frame" horizontalCenter="0" verticalCenter="-60" x="306" y="285" scaleX="1" scaleY="1"/>
+		<e:Image source="withdraw_lable" verticalCenter="-60" horizontalCenter="-305.5" x="331" y="298" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="balanceLabel" text="99999999999" textAlign="center" verticalAlign="middle" y="182" horizontalCenter="-176" width="242" height="34" x="370" scaleX="1" scaleY="1" font="bank_fnt_fnt"/>
+		<e:BitmapLabel id="currentLabel" text="99999999999" textAlign="center" verticalAlign="middle" y="182" horizontalCenter="339" width="242" height="34" x="885" scaleX="1" scaleY="1" font="bank_fnt_fnt"/>
+		<ns1:SettingSlider id="coinSlider" enabled="true" skinName="SetSliderSkin" verticalCenter="102" horizontalCenter="-14.5" x="317" y="425" value="0" maximum="100"/>
+		<e:EditableText id="editable" width="605.33" height="40" text="0" x="405" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xfff39c" anchorOffsetX="0" verticalAlign="middle" verticalCenter="-61" y="294" scaleX="1" scaleY="1"/>
+		<e:Label text="(零)" y="351" horizontalCenter="0" fontFamily="Microsoft YaHei" x="642" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

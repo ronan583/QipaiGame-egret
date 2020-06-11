@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbBetButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  >
+	<w:Config id="166a1e66db7" ></w:Config>
+	<e:Image id="betImage" horizontalCenter="0" verticalCenter="0" source="diceGame_json.level1_chip_1"/>
+
+</e:Skin>

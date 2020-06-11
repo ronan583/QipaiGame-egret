@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="byTrackUI" width="1800" height="850" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="t_bg_1_jpg" verticalCenter="0" horizontalCenter="0"/>
+	<ns1:EditText id="fishInput" x="946" y="6" anchorOffsetX="0" width="162" anchorOffsetY="0" height="49" visible="false"/>
+	<e:Label text="路径ID" x="790" y="64" visible="false"/>
+	<e:Label text="鱼ID" x="972" y="64" visible="false"/>
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5" strokeAlpha="0.5"/>
+	<e:Group id="existGroup" bottom="0" touchChildren="false" touchEnabled="false" touchThrough="false" left="0" right="0" top="0"/>
+	<e:Group id="fishGroup" width="1334" height="750" touchChildren="false" touchEnabled="false" touchThrough="false" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="trackGroup" width="1334" height="750" touchChildren="false" touchEnabled="false" touchThrough="false" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="selectGroup" width="1334" height="750" touchChildren="false" touchEnabled="false" touchThrough="false" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="debugGroup" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="operGroup" width="1796.97" height="48.49" x="0" y="0" anchorOffsetX="0" touchEnabled="false" anchorOffsetY="0">
+		<e:Button id="saveBtn" label="保存" x="1567" y="3" scaleX="1" scaleY="1"/>
+		<e:Button id="selectBtn" label="选择或者新建" x="1098.9" y="3" scaleX="1" scaleY="1"/>
+		<e:Button id="clearBtn" label="清除" x="1210.31" y="120.58" scaleX="1" scaleY="1" visible="false"/>
+		<e:Button id="deleteBtn" label="删除" x="1444.55" y="3" scaleX="1" scaleY="1"/>
+		<e:Button id="downloadBtn" label="下载" x="1683.27" y="3" scaleX="1" scaleY="1"/>
+		<e:Button id="repaintBtn" label="重画" x="1310.7" y="3" scaleX="1" scaleY="1"/>
+		<e:Button id="fishTestBtn" label="测试" x="741.06" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" width="66"/>
+		<e:Button id="fishRingTestBtn" label="测试组合" x="617.06" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" width="87"/>
+		<ns1:EditText id="trackInput" x="921.87" y="4" anchorOffsetX="0" width="162" anchorOffsetY="0" height="49" scaleX="1" scaleY="1"/>
+		<ns1:EditText id="timeInput" x="434.9" y="2.48" anchorOffsetX="0" width="162" anchorOffsetY="0" height="49" scaleX="1" scaleY="1"/>
+		<e:Label text="路径选择" x="811.87" y="10.64" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="25"/>
+		<e:Label id="curShowTrackIdsLabel" text="当前显示的路径：" x="30.35" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" width="499.09" anchorOffsetY="0" height="52.73" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="drawMode" width="200" height="104.55" x="1566.67" y="8.65" anchorOffsetY="0">
+		<e:Label text="绘制模式" x="82.73" y="0.36"/>
+		<e:Button id="exitBtn" label="退出" x="92.33" y="36.7"/>
+		<e:Button id="fixBtn" label="微调一下" x="94.73" y="89.15"/>
+	</e:Group>
+</e:Skin>

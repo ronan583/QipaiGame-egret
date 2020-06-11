@@ -1,0 +1,125 @@
+option java_package = "com.gp.game.message";
+
+
+//开始游戏
+message OPRobStartGame {
+	required int64 bottomBet = 1;//底注
+	required int32 downTime = 2;//
+}
+
+//请求抢庄
+message OPRobBanker {
+	required int32 multiple = 1;//倍率 0 1 2 4
+}
+
+message OPRobBankerRet {
+	required int64 playerId = 1;//用户id
+	required int32 multiple = 2;//抢庄倍
+}
+
+//庄家推送
+message OPRobPushBanker {
+	required int64 bankerId = 1;//庄家ID
+	required int32 multiple = 2;//抢庄倍率
+	repeated int64 robPlayerId = 3;//抢庄人id 如果集合只有一个数 就直接显示 如果是多个就做一个随机动画
+	required int32 downTime = 4;//
+}
+
+//请求押注
+message OPRobStake{
+	required int32 bets = 1;//押注 5 10 15 20
+}
+//请求押注
+message OPRobStakeRet{
+	required int64 playerId = 1; // 押注的人
+	required int32 bets = 2; // 押注值
+}
+
+//开始发牌
+message OPRobDealCard {
+	repeated OPRobBattleInfo battleInfos = 1;      // 玩家信息
+	repeated int32 cards = 2;//自己的牌
+	required int32 downTime = 3;//超时时间
+}
+
+//玩家牌信息
+message OPRobBattleInfo {
+	required int64 playerId = 1; //
+	required int32 bets = 2; //押注类型 == -1表示还没有压注 ，0 表示为庄家 庄家没有压注值
+	required int32 robBankerBets = 3; //押注类型 == -1表示还没有抢庄 
+	repeated OPRobGroupCard groupCards = 4;// 亮牌信息 亮牌了才有 
+	optional int32 status = 5; // 0.观看 1.抢庄 ,2已抢庄 3.压注 4.已押注 5.看牌 6.已看牌 
+	optional int32 value = 6;//牛值 0 表示无牛
+}
+
+//一组牌
+message OPRobGroupCard {
+	repeated int32 cards = 1;//第一组牌
+}
+
+//请求看牌
+message OPRobLookCard {
+	required int32 version = 1 [default = 0];
+}
+//请求看牌
+message OPRobLookCardRet {
+	optional int64 playerId = 1; 
+	repeated OPRobGroupCard groupCards = 2;      // 玩家的牌
+	required int32 value = 3;//牛值 0 表示无牛
+	optional bool isEnd = 4 ;//是否全部看牌
+}
+
+
+//结算
+message OPRobNiuBattleFinishRet{
+	required int32 downTime = 1;//超时时间
+	repeated OPRobNiuFinishInfo totalInfo = 2; // 战斗信息
+}
+
+message OPRobNiuFinishInfo {
+	optional int64 playerId = 1; //玩家id
+	optional bool isWin = 2; //false 输 true 赢
+	optional int64 money = 3; //输赢金币
+	optional int64 totalMoney = 4; //最终的总金币
+	required bool isTrusteeship =5;//是否托管
+}
+
+//重连 和 观看者
+message OPReconnectAndGuan {
+	required int32 gameLevel = 1;
+} 
+
+
+//重连 和 观看者
+message OPReconnectAndGuanRet {
+	required int64 bankerPlayerId = 1; //玩家id
+	repeated OPRobBattleInfo battleInfo =2;//玩家信息
+	required int64 bottomBet = 3;//底注
+	required int32 downTime = 4;//倒计时
+	repeated int32 cards = 5;//自己的牌 发牌后才会有值
+	repeated OPRobNiuFinishInfo totalInfo = 6; // 战斗信息
+} 
+
+//推送要玩家准备
+message PushRobNiuniuReadyMsg{
+	required int32 version = 1 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

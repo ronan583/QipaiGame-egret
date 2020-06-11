@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlRoundResultCardSkin" width="208" height="68" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c9bcb03eb" ></w:Config>
+	<e:Image id="cardImg1" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="cs_12" width="46" height="64"/>
+	<e:Image id="cardImg2" x="32" y="0" source="cs_12" anchorOffsetX="0" anchorOffsetY="0" width="46" height="64"/>
+	<e:Image id="cardImg3" x="65" y="0" source="cs_12" anchorOffsetX="0" anchorOffsetY="0" width="46" height="64"/>
+	<e:Image id="dianImg" x="114" y="13" source="bjlGame_json.resultPoint0"/>
+	<e:Image id="failImg" x="1" y="2" source="gapMask" anchorOffsetX="0" width="111" anchorOffsetY="0" height="62"/>
+</e:Skin>

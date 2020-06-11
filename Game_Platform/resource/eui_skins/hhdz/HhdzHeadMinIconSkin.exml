@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzHeadMinIconSkin" width="131" height="116" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*"  >
+	<w:Declarations>
+		<tween:TweenGroup id="winTween">
+			<tween:TweenItem target="{winTipLabel}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" y="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="1250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{0}" y="{-30}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="coseTween">
+			<tween:TweenItem target="{loseTipLabel}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" y="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="1250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{0}" y="{-30}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="1678cc16a1c" ></w:Config>
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="131" height="116">
+		<e:Image id="headBg" y="7.3" x="27" scaleX="1" scaleY="1" source="hhdz_desk017" width="77" height="77"/>
+		<e:Image id="bg_k" y="1" x="20" source="hhdz_desk034" scaleX="1" scaleY="1"/>
+		<e:Image id="headImg" y="9" width="77" height="77" source="head_json.gp_head_1" x="27" scaleX="1" scaleY="1"/>
+		<e:Rect id="maskRect" width="100" height="100" y="9" ellipseWidth="150" ellipseHeight="150" scaleX="0.8" scaleY="0.8" x="26"/>
+		<e:Image x="-15" scale9Grid="12,2,76,19" anchorOffsetX="0" width="162" anchorOffsetY="0" height="29" y="71" source="hhdz_desk015" scaleX="1" scaleY="1"/>
+		<e:Image id="vipImg" x="-10" y="75" source="hhdz_V10" scaleX="1" scaleY="1"/>
+		<e:Label id="nameLab" text="我的名字5个" x="35" y="76" anchorOffsetX="0" width="110" size="18" fontFamily="Microsoft YaHei" height="18" textColor="0xffffff" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="winTipLabel" text="+70000元" textAlign="center" verticalAlign="middle" anchorOffsetX="0" font="hhdz_ying_fnt" width="250" y="66" x="-59" scaleX="1" scaleY="1" visible="false"/>
+		<e:BitmapLabel id="loseTipLabel" text="-7.00元" textAlign="center" verticalAlign="middle" anchorOffsetX="0" font="hhdz_shu_fnt" width="250" y="66" x="-59" scaleX="1" scaleY="1" visible="false"/>
+		<ns1:DragonAnim id="playerWinAnim" width="100" height="100" x="64" y="42" anchorOffsetX="50" anchorOffsetY="50" aligntype="middle" anim="hhdz_player_win" touchChildren="false" touchEnabled="false" playOnStage="false" isloop="false" isTouchByGroup="true" scaleX="1" scaleY="1"/>
+		<ns1:DragonAnim id="headChangeAnim" width="91" height="97.33" x="22" y="-1" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="hhdz_change_player" touchChildren="false" touchEnabled="false" playOnStage="false" isloop="false" isTouchByGroup="true" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="iconPos" width="10" height="10" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="-10"/>
+</e:Skin>

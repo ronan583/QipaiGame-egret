@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LongHuZJ" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="lhdz_zjcx_json.lhdz_zjcx_bg"/>
+	<e:Scroller id="scroller" width="890.61" height="453.33" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" y="156.15" alpha="1">
+		<e:Group id="viewport" anchorOffsetX="0" x="190.91" y="0" alpha="1" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+			<ns1:LongHuRecordBar x="324" y="152" skinName="LongHuRecordBarSkin"/>
+			<ns1:LongHuRecordBar x="334" y="162" skinName="LongHuRecordBarSkin"/>
+			<ns1:LongHuRecordBar x="344" y="172" skinName="LongHuRecordBarSkin"/>
+		</e:Group>
+	</e:Scroller>
+
+
+
+
+
+	<e:Image id="closeBtn" y="75.75" source="lhdz_help_close_png" horizontalCenter="478"/>
+
+
+
+</e:Skin>

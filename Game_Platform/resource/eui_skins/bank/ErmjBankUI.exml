@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjBankUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ermj_help_bg_png" horizontalCenter="0" verticalCenter="0" x="296" y="133"/>
+		<e:Image source="ermj_battle_json.ermj_withdraw" y="36.33" horizontalCenter="0.5"/>
+		<ns1:IButton id="closebtn" label="" x="1072" y="32" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_help_close_png" source.down="ermj_help_close_png" source.disabled="ermj_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="" text="银行金额：" y="165" size="24" fontFamily="Microsoft YaHei" textColor="0x735747" left="310"/>
+		<e:Label id="bankMoney" text="0" y="166" size="24" fontFamily="Microsoft YaHei" textColor="0xffffff" left="427"/>
+		<e:Label id="" text="当前金额：" y="165" size="24" fontFamily="Microsoft YaHei" textColor="0x735747" left="779"/>
+		<e:Label id="curMoney" text="0" y="165" size="24" fontFamily="Microsoft YaHei" left="900" textColor="0xffffff"/>
+
+
+		<e:Image y="300.64" scaleX="1" scaleY="1" source="ermj_withdraw_frame" horizontalCenter="0"/>
+		<e:EditableText id="drawMoneyLabel" width="760" height="40" text="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" anchorOffsetX="0" verticalAlign="middle" y="317.98" scaleX="1" scaleY="1" size="25" textColor="0xffffff" horizontalCenter="0" textAlign="center"/>
+		<e:Label text="零" y="387" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="24" horizontalCenter="-23.5" textColor="0x735747" visible="false"/>
+		<ns1:IButton id="maxBtn" label="" x="989.67" y="494" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_max" source.down="ermj_max" source.disabled="ermj_max"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label text="0%" x="292" y="560" size="24" fontFamily="Microsoft YaHei" textColor="0x735747"/>
+		<e:Label text="100%" x="888" y="560" size="24" fontFamily="Microsoft YaHei" textColor="0x735747"/>
+		<e:ProgressBar id="progressbar" width="680" x="280" y="510" skinName="ERMJSettingProgressBarSkin"/>
+		<ns1:SettingSlider id="slider" enabled="true" value="0" maximum="100" horizontalCenter="-47" verticalCenter="150" skinName="ERMJSettingSliderSkin" anchorOffsetX="0" width="700"/>
+		<ns1:IButton id="drawBtn" label="" y="590" horizontalCenter="0" imageLabelPath="ermj_withdraw_img">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_withdraw_btn" source.down="ermj_withdraw_btn" source.disabled="ermj_withdraw_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

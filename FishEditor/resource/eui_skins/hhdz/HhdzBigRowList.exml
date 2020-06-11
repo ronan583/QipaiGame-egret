@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzBigRowListSkin" width="24" height="144" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:hhdz="game.hhdz.*" >
+	<w:Config id="16948e08704" ></w:Config>
+	
+</e:Skin>

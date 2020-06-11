@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitCrazyIconSkin" width="116" height="124" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16953df5e3f" ></w:Config>
+	<e:Image id="level1" x="57" y="60" source="fruit_yt" anchorOffsetX="71" anchorOffsetY="65" rotation="-90" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="level2" x="63" y="60" anchorOffsetX="71" anchorOffsetY="65" rotation="0" source="fruit_pt" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="level3" x="63" y="60" anchorOffsetX="71" anchorOffsetY="65" rotation="0" source="fruit_pg" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="level4" x="63" y="60" anchorOffsetX="71" anchorOffsetY="65" rotation="0" source="fruit_nm" scaleX="0.8" scaleY="0.8"/>
+	<e:Image id="boom" x="63" y="60" anchorOffsetX="71" anchorOffsetY="65" rotation="0" source="fruit_zd" scaleX="0.8" scaleY="0.8"/>
+	<e:BitmapLabel id="moneyLabel" width="161.25" height="48" x="-8" y="79" text="0.15" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" scaleX="0.8" scaleY="0.8" font="fruit_crazy_font_fnt"/>
+</e:Skin>

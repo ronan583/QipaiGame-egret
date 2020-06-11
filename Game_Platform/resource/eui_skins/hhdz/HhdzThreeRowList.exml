@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzThreeRowListSkin" width="18" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16949319b41" ></w:Config>
+
+
+	<e:Group width="18" height="72" x="0" y="0">
+		<e:Image id="itemIcon" y="0" x="0" scaleX="1" scaleY="1" source="hhdz_history_json.hhdz_history_red_dian_4"/>
+		<e:Image id="itemIcon0" y="18" x="0" scaleX="1" scaleY="1" source="hhdz_history_json.hhdz_history_red_xian_1"/>
+		<e:Image id="itemIcon1" y="36" x="0" scaleX="1" scaleY="1" source="hhdz_history_json.hhdz_history_red_dian_4"/>
+		<e:Image id="itemIcon2" y="54" x="0" scaleX="1" scaleY="1" source="hhdz_history_json.hhdz_history_black_dian_4"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+
+	</e:Group>
+</e:Skin>

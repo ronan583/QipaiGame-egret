@@ -1,0 +1,166 @@
+option java_package = "com.gp.game.message";
+
+
+//请求单个房间信息
+message OPBaccaraSingle {
+	required int32 roomId = 1;//房间id
+}
+message OPBaccaraSingleRet {
+	required OPBaccaraRoomInfo roomInfos = 1;
+}
+
+
+//房间列表
+message OPBaccaraList {
+	required int32 gameType = 1;
+}
+message OPBaccaraListRet {
+	repeated OPBaccaraRoomInfo roomInfos = 1;
+}
+
+//房间信息
+message OPBaccaraRoomInfo {
+	required int32 gameLevel = 1;//房间类型 0.体验场 1.普通 2.贵宾 3.豪华
+	required int32 type = 2;//1.下注中 2.结算中
+	required int32 downTime = 3;//倒计时时间
+	repeated OPWinFailsInfo winFails = 4;//
+	required int32 roomId = 5;//房间id
+	required int32 order = 6;//序号
+}
+
+//查看胜负情况
+message OPBaccaraWinFail{
+	required int32 version = 1; //
+}
+message OPBaccaraWinFailRet{
+	repeated OPWinFailsInfo winFails = 4;//
+}
+
+
+//输赢情况
+message OPWinFailsInfo {
+	required int32 round = 1;//回合数
+	repeated int32 winType = 2;//输赢 1.闲 2.庄 3.和 4.闲对 5.庄对
+}
+
+//开始or停止下注
+message OPPushBaccaraBattleStatus {
+	required int32 status = 1; //0.休息  1开始下注 2.停止下注 
+	required int32 downTime = 2;//超时时间
+	optional bool isSwitchBanker = 3;//是否切换庄家 true 切换
+	required int32 serialNumber = 4; //局数编号
+} 
+
+//下注
+message OPBaccaraStake{
+	required int32 type = 1; // 1.闲 2.庄 3.和 4.闲对 5.庄对
+	required int64 value = 2;//下注值
+}
+message OPBaccaraStakeRet{
+	required int64 playerId = 1; //下注人
+	required int32 type = 2; // 1.闲 2.庄 3.和 4.闲对 5.庄对
+	required int64 value = 3;//下注值
+	optional int64 totalValue = 4;//下注值
+}
+
+//查看玩家列表排行
+message OPBaccaraPlayerRank{
+	required int32 version = 1; //
+}
+message OPBaccaraPlayerRankRet{
+	repeated OPBaccaraPlayerRankInfo rankInfo = 1; //下标 0.神算子 1以后排行
+}
+
+//玩家排名信息
+message OPBaccaraPlayerRankInfo{
+	required int32 headNum = 1;//头像编号
+	required string nickName = 2;//昵称
+	required int64 money = 3;//余额
+}
+
+//发牌
+message OPPushBaccaraStartGame {
+	repeated OPBaccaraGroupCard cardInfos = 1;// 回合牌信息
+	repeated OPBaccaraPlayerBattleInfo battleInfo = 2;// 玩家战斗信息
+	repeated int32 winType = 3;//1.闲 2.庄 3.和 4.闲对 5.庄对
+	repeated OPBaccaraResultPlayerInfo resultInfos = 4;// 战斗结果
+}
+
+//牌信息
+message OPBaccaraResultPlayerInfo {
+	required int64 money = 1;//输赢
+	optional string name = 2;//
+}
+
+//一组牌信息
+message OPBaccaraGroupCard {
+	optional int32 xianCard = 1; //闲家的牌 -1 不补牌
+	optional int32 xianDian = 2; //闲家的点数 -1不补牌
+	optional int32 zhuangCard = 3; //庄家的牌 -1不补牌
+	optional int32 zhuangDian = 4; //庄家的数  -1不补牌
+}
+
+//玩家牌信息
+message OPBaccaraPlayerBattleInfo {
+	required int64 playerId = 1; //
+	repeated OPBaccaraStake playerStake = 2;// 下注信息
+	optional int64 money = 3; //输赢金币
+	optional int64 totalMoney = 4; //最终的总金币
+}
+
+message OpBaccaraFirstRoom{
+	required int32 roomId = 1; //房间ID
+}
+
+message OpBaccaraFirstRoomPush{
+	required int32 status = 1; //0.休息 1开始下注 2.停止下注
+	required int32 downTime = 2;//超时时间
+	repeated OPBaccaraPlayerBattleInfo battleInfo = 3;//
+	repeated OPBaccaraGroupCard cardInfos = 4 ;      // 牌
+	repeated OPBaccaraResultPlayerInfo resultInfos = 5;// 战斗结果
+	repeated int32 winType = 6;//1.闲 2.庄 3.和 4.闲对 5.庄对
+	repeated OPBaccaraBankerInfo bankerInfos = 7;//申请上庄 庄家信息 集合有多少数量就有多少人
+	optional int64 upBankerMinMoney = 8 ;//上庄最低金额
+	required int32 serialNumber = 9; //局数编号
+	repeated OPBaccaraStake totalStake = 10;//每个区域总下注值
+}
+
+
+
+message OPBaccaraBankerInfo {
+	required int32 type = 1; //1普通 2抢庄
+	required int64 playerId = 2; //1普通 2抢庄
+	required string applyBankerName = 3;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+//上庄
+message OpBaccaraUpBanker{
+	required int32 type = 1; //1普通 2抢庄
+}
+message OpBaccaraUpBankerRet{
+	required OPBaccaraBankerInfo bankerInfos = 1;
+}
+
+//下庄
+message OpBaccaraDownBanker{
+	required int32 version = 1; //
+}
+message OpBaccaraDownBankerRet{
+	repeated OPBaccaraBankerInfo bankerInfos = 6;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

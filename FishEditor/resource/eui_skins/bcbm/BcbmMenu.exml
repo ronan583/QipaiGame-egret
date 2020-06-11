@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmMenuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  height="97.15">
+	<w:Config id="16b6c0aa87f" ></w:Config>
+	<ns1:IButton id="downBtn" label="" left="15" top="5">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bcbm_btn_down" source.down="bcbm_btn_down" source.disabled="bcbm_btn_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<ns1:IButton id="upBtn" label="" left="13" top="5" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bcbm_btn_up" source.down="bcbm_btn_up" source.disabled="bcbm_btn_up"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<e:Group id="menuGroup" y="-475.78">
+		<e:Image y="0" x="0" source="bcbm_game_json.bcbm_game_bg1"/>
+		<ns1:IButton id="bankBtn" label="" horizontalCenter="0" verticalCenter="-145.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_menu_withdraw" source.down="bcbm_game_json.bcbm_menu_withdraw" source.disabled="bcbm_game_json.bcbm_menu_withdraw"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="helpBtn" label="" horizontalCenter="0.5" verticalCenter="-45">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_menu_help" source.down="bcbm_game_json.bcbm_menu_help" source.disabled="bcbm_game_json.bcbm_menu_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="settingBtn" label="" horizontalCenter="0" verticalCenter="59">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_menu_setting" source.down="bcbm_game_json.bcbm_menu_setting" source.disabled="bcbm_game_json.bcbm_menu_setting"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" horizontalCenter="0" verticalCenter="156">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bcbm_game_json.bcbm_menu_back" source.down="bcbm_game_json.bcbm_menu_back" source.disabled="bcbm_game_json.bcbm_menu_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

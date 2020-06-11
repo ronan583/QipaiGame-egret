@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NLhdzStartPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Image horizontalCenter="0" source="lhdz_room_bg_png"/>
+	<e:Image horizontalCenter="0" source="lhdzn_room_preview_png" visible="false"/>
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image x="1154.73" y="-21.92" scaleX="1.2" scaleY="1.2" source="lhdzn_logo"/>
+		<e:Group id="bottomGroup" width="1334" height="94" y="676" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1">
+			<e:Image y="-61.31" source="lhdzn_bottom" horizontalCenter="0"/>
+			<e:Image x="55.99" y="-24" source="lhdzn_headframe" scale9Grid="25,31,15,1" anchorOffsetX="0" width="92" anchorOffsetY="0" height="92"/>
+			<e:Image id="headImg" width="74.97" height="76.48" x="64.67" y="-17.32" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="nameLabel" text="Guest1234" x="176" y="18.98" width="280" height="36" fontFamily="Microsoft YaHei" size="25" verticalAlign="middle" textAlign="left" bold="true"/>
+			<e:Image x="472.23" y="19.39" source="lhdzn_gold_bg" scale9Grid="56,17,20,5" anchorOffsetX="0" width="237.33"/>
+			<e:Image x="452.28" y="15.28" anchorOffsetX="0" anchorOffsetY="0" source="lhdzn_gold"/>
+			<e:BitmapLabel id="goldLabel" width="160.91" height="32.12" x="515" y="27.52" anchorOffsetX="0" anchorOffsetY="0" font="gpn_gold_fnt" text="1234.44" textAlign="center" verticalAlign="middle"/>
+			<e:Button id="goldAddBtn" label="" x="681.67" y="17.34">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lhdzn_add" source.down="lhdzn_add" source.disabled="lhdzn_add"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Group id="quickStartGroup" width="381.82" height="153.02" y="-80" anchorOffsetX="0" anchorOffsetY="0" right="14" x="938.1800000000002" scaleX="1" scaleY="1">
+				<ns1:DragonAnim id="quickAnim" width="380" height="97" y="56" scaleX="1" scaleY="1" aligntype="middle" anim="lhdz_quickstart" anchorOffsetY="0" x="0"/>
+			</e:Group>
+		</e:Group>
+
+
+		<e:Group id="roomGroup1" width="313.33" height="457.33" x="91" y="135" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:LhdzRoomItem id="roomItem1" width="340" height="491" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="lhdz_putong" gameLevel="0"/>
+		</e:Group>
+		<e:Group id="roomGroup2" width="313.33" height="462.66" x="487" y="135" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:LhdzRoomItem id="roomItem2" width="340" height="491" x="2" y="3" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" anim="lhdz_gaoji" aligntype="middle" gameLevel="1"/>
+		</e:Group>
+		<e:Group id="roomGroup3" width="313.33" height="462.66" x="882.69" y="135" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:LhdzRoomItem id="roomItem3" width="340" height="491" x="-0.020000000000209184" y="3" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" gameLevel="2" aligntype="middle" anim="lhdz_fuhao"/>
+		</e:Group>
+		<e:Group id="leftCornerGroup" width="262.12" height="122.73" y="5" anchorOffsetX="0" anchorOffsetY="0" left="40" x="0" scaleX="1" scaleY="1">
+			<ns1:IButton id="backBtn" label="" x="45" y="13" scaleX="1.2" scaleY="1.2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdzn_back" source.down="lhdzn_back" source.disabled="lhdzn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="helpBtn" label="" x="191.91" y="13" scaleX="1.2" scaleY="1.2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdzn_help" source.down="lhdzn_help" source.disabled="lhdzn_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="zjcxBtn" label="" x="201.91" y="23" scaleX="1.2" scaleY="1.2">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="lhdz_room_zjcxbtn_png" source.down="lhdz_room_zjcxbtn_png" source.disabled="lhdz_room_zjcxbtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+			</ns1:IButton>
+			<e:layout>
+				<e:HorizontalLayout gap="27"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,94 @@
+option java_package = "com.gp.game.message";
+
+message OpPdkBattleInfo {
+	required int64 playerId = 1;//玩家id
+	optional int32 cardCount = 2;//剩余牌数量
+}
+
+//开始战斗
+message OPPdkBattleStart{
+	repeated int32 handCards = 1;//手牌
+	required int32 downTime = 2;//
+	required int32 minCard = 3 ;//最小牌
+	repeated OpPdkBattleInfo battleInfo = 4 ;//玩家信息
+	required int64 currentPlayerId = 5;//当前出牌者
+	repeated OPPdkCardHolder cardHolder = 6;//记牌琪
+	required bool isMyPlay = 7;//自己是否能牌者
+}
+
+//出牌 -- 
+message OpPdkBattleStep {
+	required bool isDont = 1;// true不要 false 要
+	repeated int32 cards = 2;//出的牌
+}
+
+message OpPdkBattleStepRet {
+	repeated int32 cards = 1;//出的牌
+	required int32 cardType = 2;//出的牌的类型
+	required int64 currentPlayerId = 3;//当前出牌的id
+	required int64 nextPlayerId = 4;//下个出牌的id
+	optional int32 downTime = 5;//
+	optional bool isTrusteeship = 6 ;//是否托管 true 托管
+	repeated OPPdkCardHolder cardHolder = 7;//记牌琪
+	required bool isMyPlay = 8;//自己是否能牌者
+}
+
+//战斗完成信息
+message OpPdkFinishInfo{
+	required int64 playerId = 1;//玩家id
+	optional int64 money = 2; //当局金币情况
+	optional int64 totalMoney = 3; //最终的总金币
+	required bool isTrusteeship =4;//是否托管
+	repeated int32 handCard = 5;//手中牌
+	required bool isSpring =6;//是否春天 true 春天
+	required bool isBaoPei =7;//是否包赔
+}
+
+//推送战斗完成
+message OpPdkBattleFinishRet {
+	repeated OpPdkFinishInfo battleFinish = 1;
+	optional bool isWin = 2;//
+	required int32 downTime = 3;//
+}
+
+//重连
+message OpPdkReconnect{
+	repeated int32 handCards = 1;//手牌
+	optional int64 currentPlayerId = 2;//当前出牌的id
+	repeated int32 currentCards = 3;//出的牌
+	optional int32 cardType = 4;//出的牌的类型
+	optional int64 nextPlayerId = 5;//下个出牌的id
+	repeated OpPdkBattleInfo battleInfo = 7 ;//玩家信息
+	required int32 downTime = 8;//
+	required bool isMyPlay = 9;//自己是否能牌者
+	repeated OPPdkCardHolder cardHolder = 10;//记牌琪
+}
+
+//记牌器
+message OPPdkCardHolder{
+	required int32 card = 1;//牌
+	required int32 count = 2;//数量
+}
+
+//炸弹推送分数
+message OPPdkPushBomb{
+	repeated OPPdkPlayerBomb playerBomb = 1;
+}
+//玩家战斗分数信息
+message OPPdkPlayerBomb{
+	required int64 playerId = 1;//玩家id
+	optional int64 money = 2; //扣除数量
+	optional int64 totalMoney = 3; //总余额
+}
+
+
+
+
+
+
+
+
+
+
+
+

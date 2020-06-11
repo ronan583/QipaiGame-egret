@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "ermj_room_bg_jpg,ermj_qidong_ske_dbbin,ermj_qidong_tex_json,ermj_qidong_tex_png",
+			"name": "ermj_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/ermj/animation/room/ermj_qidong_tex.json",
+			"type": "json",
+			"name": "ermj_qidong_tex_json"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "ermj_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/ermj/animation/room/ermj_qidong_tex.png",
+			"type": "image",
+			"name": "ermj_qidong_tex_png"
+		},
+		{
+			"url": "assets/ermj/ermj_room_bg.jpg",
+			"type": "image",
+			"name": "ermj_room_bg_jpg"
+		}
+	]
+}

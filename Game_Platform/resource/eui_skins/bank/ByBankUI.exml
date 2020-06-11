@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpOtherUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0">
+		<e:Image y="72" scale9Grid="338,211,49,23" anchorOffsetY="0" height="615.33" anchorOffsetX="0" width="1083" horizontalCenter="0" source="by_bank_bg"/>
+
+
+		<ns1:IButton id="closebtn" label="" x="1127" y="108.01">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_close" source.down="by_close" source.disabled="by_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+		<ns1:IButton id="maxBtn" label="" x="1021.5" y="417.65">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_bank_max" source.down="by_bank_max" source.disabled="by_bank_max"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+		<e:ProgressBar id="progressbar" width="785.33" height="30.66" x="219.67" y="427" anchorOffsetX="0" anchorOffsetY="0" skinName="ByBankProgressBarSkin"/>
+		<e:Image y="475" x="225" scaleY="0.9" scaleX="0.9" source="by_bank_bg2"/>
+		<ns1:IButton id="drawBtn" label="" y="593.32" x="665.76" anchorOffsetX="125.76" anchorOffsetY="46.97">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_confirm" source.down="by_confirm" source.disabled="by_confirm"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+
+
+
+
+		<e:HSlider id="slider" width="807.18" height="32.52" x="202.82" y="425.01" anchorOffsetX="0" anchorOffsetY="0" skinName="ByBankSliderSkin"/>
+		<e:Image y="296.95" source="by_bank_bg_3" x="353"/>
+		<e:EditableText id="drawMoneyLabel" text="0" x="357.34" y="308" size="32" fontFamily="Microsoft YaHei" textColor="0xd3af32" anchorOffsetX="0" width="614.66" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="39.33"/>
+		<e:Image x="259" y="210.32" source="by_bank_mon"/>
+		<e:Image x="722" y="210.32" source="by_bank_cur"/>
+		<e:BitmapLabel id="bankMoney" width="226.66" height="34.67" x="421" y="215.64" font="bybankfnt_fnt" text="0000" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:BitmapLabel id="curMoney" width="226.66" height="34.67" x="880" y="215.64" font="bybankfnt_fnt" text="0000" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzBattleSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:hhdz="game.hhdz.*"
+        xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="fapaiAnim">
+			<tween:TweenItem target="{hHCard1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{70}" x="{316}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object x="{55}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{hHCard2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{316}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="400"/>
+				<tween:Set/>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object x="{125}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{hHCard3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{316}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="800"/>
+				<tween:Set/>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object x="{195}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{hHCard4}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{316}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1000"/>
+				<tween:Set/>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object x="{435}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{hHCard5}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{316}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="600"/>
+				<tween:Set/>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object x="{505}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{hHCard6}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{316}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="200"/>
+				<tween:Set/>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object x="{575}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="winFailTween">
+			<tween:TweenItem target="{winFailMoneyLab}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" y="{77}" x="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" y="{12}" x="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="1250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{12}" x="{0}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{0}" y="{-10}" x="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="blankerEinFailMoneyTween">
+			<tween:TweenItem target="{blankerEinFailMoneyLab}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{0}" y="{10}" alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{-50}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="1250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object alpha="{0}" y="{-70}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+
+
+	</w:Declarations>
+	<w:Config id="1677a3a8468"></w:Config>
+	<e:Image source="hhdzn_room_bg_png" horizontalCenter="0" verticalCenter="0"  locked="true"/>
+
+
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="132.32999999999998" y="10" scaleX="1" scaleY="1" source="hhdz_game_json.hhdz_desk071"/>
+		<e:Image source="hhdz_game_json.hhdz_desk072" x="983" y="10" scaleX="1" scaleY="1"/>
+		<e:Group width="194" height="241" y="57.24" x="38.36" scaleX="1" scaleY="1">
+			<ns1:DragonAnim id="redAnim" aligntype="middle" anim="hhdz_gaoji" playOnStage="true" touchEnabled="false" isloop="false" x="0" y="0" scaleX="1" scaleY="1" defaultPlayAnim="animation1" touchChildren="false" isTouchByGroup="true"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="194" height="241" y="16.02" x="915.35" scaleX="1" scaleY="1">
+			<ns1:DragonAnim id="blackAnim" aligntype="middle" anim="hhdz_fuhao" playOnStage="true" touchEnabled="false" isloop="false" x="0" y="-24" scaleX="1" scaleY="1" defaultPlayAnim="animation1" touchChildren="false"/>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Image x="122.31" y="114" scaleX="1" scaleY="1" source="hhdz_game_json.hhdz_desk008"/>
+		<e:Image x="975.68" y="114" scaleX="1" scaleY="1" source="hhdz_game_json.hhdz_desk008"/>
+	</e:Group>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="0" touchEnabled="false" source="hhdz_bg_n2_png" locked="true"/>
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+
+
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" y="0" x="567"  source="hhdz_game_json.hhdz_desk070"/>
+		<e:Image id="roomStatusImg" y="23.44" x="627" source="hhdz_game_json.hhzd_status_touzhuzhong"/>
+		<e:BitmapLabel id="downTimeLab" x="630.39" y="58" font="hhdz-08_fnt" text="20" width="77.28" height="50" textAlign="center" anchorOffsetX="0"/>
+		<ns1:IButton id="playerListBtn" label="" y="592" anchorOffsetX="42.5" anchorOffsetY="40.5" right="34">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_desk030" source.down="hhdz_desk030" source.disabled="hhdz_desk030"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:BitmapLabel id="onlineCountLabel" width="100" height="29" x="1207" y="626" anchorOffsetX="0" anchorOffsetY="0" text="(123)" font="hhdz_online_fnt" textAlign="center"/>
+		<e:Group id="historyCardTypeGroud" x="627.02" y="220.85" anchorOffsetX="0" width="444.67" anchorOffsetY="0" height="34">
+			<e:layout>
+				<e:HorizontalLayout gap="2" horizontalAlign="left" verticalAlign="middle" />
+			</e:layout>
+
+
+
+
+
+
+
+		</e:Group>
+		<e:Group id="historyInfoGroup" x="623.84" y="190.94" anchorOffsetX="0" width="453.34" anchorOffsetY="0" height="26.67">
+			<e:layout>
+				<e:HorizontalLayout gap="5" horizontalAlign="left" verticalAlign="middle" />
+		</e:layout>
+		</e:Group>
+		<e:Group id="cardInfoGruop" width="635" height="140" x="351" y="19" anchorOffsetX="0">
+			<hhdz:HHCard id="hHCard1" x="55" y="70" scaleX="1" scaleY="1" anchorOffsetX="55.5" anchorOffsetY="70"/>
+			<hhdz:HHCard id="hHCard2" x="125" y="70" scaleX="1" scaleY="1" anchorOffsetX="55.5" anchorOffsetY="70"/>
+			<hhdz:HHCard id="hHCard3" x="195" y="70" scaleX="1" scaleY="1" anchorOffsetX="55.5" anchorOffsetY="70"/>
+			<hhdz:HHCard id="hHCard4" x="435" y="70" scaleX="1" scaleY="1" anchorOffsetX="55.5" anchorOffsetY="70"/>
+			<hhdz:HHCard id="hHCard5" x="505" y="70" scaleX="1" scaleY="1" anchorOffsetX="55.5" anchorOffsetY="70"/>
+			<hhdz:HHCard id="hHCard6" x="575" y="70" scaleX="1" scaleY="1" anchorOffsetX="55.5" anchorOffsetY="70"/>
+			<ns1:DragonAnim id="redWinAnim" width="116" height="81" x="118.85" y="44.48" anim="hongheidazhan_huoshen" aligntype="middle" playOnStage="false" isloop="false" touchChildren="false" touchEnabled="false" isTouchByGroup="true"/>
+			<ns1:DragonAnim id="redTypeAnim" width="338" height="84" x="-50.83" y="77" anim="hongheidazhan_paixing" aligntype="middle" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouchByGroup="true"/>
+			<ns1:DragonAnim id="blackWinAnim" width="116" height="81" x="495.51" y="44.48" aligntype="middle" isloop="false" playOnStage="false" anim="hongheidazhan_huoshen" touchChildren="false" touchEnabled="false" isTouchByGroup="true"/>
+			<ns1:DragonAnim id="blackTypeAnim" width="338" height="84" x="330.4" y="77" anim="hongheidazhan_paixing" aligntype="middle" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouchByGroup="true"/>
+		</e:Group>
+
+		<e:Group id="stakeBtn" width="983" height="347" x="178" y="274" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" locked="true">
+			<e:Image x="506" y="14" scaleX="1" scaleY="1" name="2" source="hhdz_game_json.hhdz_desk054"/>
+			<e:Image x="4.860000000000014" y="14" scaleX="1" scaleY="1" name="1" source="hhdz_game_json.hhdz_desk059"/>
+			<e:Image x="229.67000000000002" y="167.31" scaleX="1" scaleY="1" name="3" source="hhdz_game_json.hhdz_desk024"/>
+		</e:Group>
+
+
+
+
+
+		<ns1:IButton id="applyBankerBtn" label="" x="411.66" y="194.65">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_desk060" source.down="hhdz_desk063" source.disabled="hhdz_desk063"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="downBankerBtn" label="" x="411.66" y="194.65">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_desk067" source.down="hhdz_desk067" source.disabled="hhdz_desk069"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:DragonAnim id="leftWinAnim" height="351" width="505" x="164.52" y="274.48" anim="hongheidazhan_win_left" touchChildren="false" touchEnabled="false" playOnStage="false" isloop="false" aligntype="middle" isTouchByGroup="true" visible="false"/>
+		<ns1:DragonAnim id="rigthWinAnim" height="351" width="505" x="669.63" y="275.36" anim="hongheidazhan_win_rigth" touchChildren="false" touchEnabled="false" playOnStage="false" isloop="false" aligntype="middle" isTouchByGroup="true" visible="false"/>
+		<ns1:DragonAnim id="centerWinAnim" height="180" width="560" x="390.23" y="441.4" anim="hongheidazhan_win_center" touchChildren="false" touchEnabled="false" playOnStage="false" isloop="false" aligntype="middle" isTouchByGroup="true" visible="false"/>
+		<ns1:IButton label="" x="544" y="194.32" visible="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_game_json.hhdz_desk041" source.down="hhdz_game_json.hhdz_desk044" source.disabled="hhdz_game_json.hhdz_desk044"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="trendBtn" label="" x="1090.34" y="194.43">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_game_json.hhdz_desk036" source.down="hhdz_game_json.hhdz_desk042" source.disabled="hhdz_game_json.hhdz_desk042"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="continueBtn" label="" scaleX="1" scaleY="1" x="1124" y="650" enabled="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_game_json.hhdz_desk013" source.down="hhdz_game_json.hhdz_desk013" source.disabled="hhdz_game_json.hhdz_desk013_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:Image y="643.86" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="27,18,168,111" x="-5.32"  source="hhdz_game_json.hhdz_desk001"/>
+
+
+
+
+
+
+
+
+
+
+
+		<e:Group id="myInfoGruop" width="286.37" height="107.58" x="-2.7" y="642.42" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="myVipLab" x="49.71" y="23.09999999999991" scaleX="1" scaleY="1" source="hhdz_game_json.hhdz_V0"/>
+			<e:Label id="nickNameLab" text="我的名字" x="92.12" y="21.139999999999873" width="150" fontFamily="Microsoft YaHei" size="24" height="24" textColor="0xe4d7bc" textAlign="center" scaleX="1" scaleY="1"/>
+			<e:Image x="34.66" y="52.66" scaleX="1" scaleY="1" source="gpn_icon_gold" width="40" height="40"/>
+			<e:BitmapLabel id="myGoldenLab" width="140" x="92.26" y="58.42999999999995" text="0" height="28.82" anchorOffsetY="0" font="hhdz-07_fnt" textAlign="center" scaleX="1" scaleY="1"/>
+
+			<e:BitmapLabel id="winFailMoneyLab" width="244" x="30.66" y="48" anchorOffsetX="0" anchorOffsetY="0" font="hhdz_ying_fnt" text="" textAlign="center" height="51"/>
+		</e:Group>
+
+		<ns1:DragonAnim id="redWinMcAnim" x="145.98" y="314.69" touchEnabled="false" width="322" height="272" aligntype="middle" anim="red_win_boom" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" visible="false"/>
+		<ns1:DragonAnim id="blackWinMcAnim" y="308.7" touchEnabled="false" x="888.6" width="290" height="265" aligntype="middle" anim="black_win_boom" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" offsetY="50" visible="false"/>
+		<ns1:MCAnim id="luckyWinMcAnim" y="466.05" touchEnabled="false" playOnAwake="false" isLoop="false" mcAnim="hongheidazhan_result_win_lucky" x="524.66" width="296" height="124" visible="false"/>
+		<e:Group id="redBetGruop" width="234" height="222" x="201.67" y="301.37" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		</e:Group>
+		<e:Group id="blackBetGruop" width="234" height="265" y="300.71" anchorOffsetX="0" anchorOffsetY="0" x="908" touchEnabled="false"/>
+		<e:Group id="luckBetGruop" width="285" height="145" y="453.36" anchorOffsetX="0" anchorOffsetY="0" x="530" touchEnabled="false">
+		</e:Group>
+		<ns1:DragonAnim id="downTimeAnim" width="103" height="103" aligntype="middle" anim="hongheidazhan_daojishi" playOnStage="false" isloop="false" x="616" y="324" touchEnabled="false" touchChildren="false" visible="false"/>
+		<e:Group id="stakeBetGroup" width="842" x="284.01" y="624.01" anchorOffsetY="0" anchorOffsetX="0">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			<hhdz:HhdzBetButton id="betButton1" x="37" y="59" skinName="HhdzBetButtonSkin" name="1" />
+			<hhdz:HhdzBetButton id="betButton2" x="47" y="69" skinName="HhdzBetButtonSkin" name="2" />
+			<hhdz:HhdzBetButton id="betButton3" x="57" y="79" skinName="HhdzBetButtonSkin" name="3" />
+			<hhdz:HhdzBetButton id="betButton4" x="67" y="89" skinName="HhdzBetButtonSkin" name="4" />
+			<hhdz:HhdzBetButton id="betButton5" x="77" y="99" skinName="HhdzBetButtonSkin" name="5" />
+			<hhdz:HhdzBetButton id="betButton6" x="700" y="59" skinName="HhdzBetButtonSkin" name="6" />
+		</e:Group>
+
+		<e:Group id="headInfoGruop" width="1334" height="750" horizontalCenter="0" verticalCenter="0" touchEnabled="false" touchChildren="false" locked="true">
+			<hhdz:HhdzHeadMaxIcon id="hhdzHead2" y="240" skinName="HhdzHeadMaxIconSkin" name="2" anchorOffsetX="82.5" anchorOffsetY="96" x="1225.73" side="2"/>
+			<hhdz:HhdzHeadMaxIcon id="hhdzHead3" y="240" skinName="HhdzHeadMaxIconSkin" name="3" anchorOffsetY="96" anchorOffsetX="82.5" x="103.78" side="1"/>
+			<hhdz:HhdzHeadMinIcon id="hhdzHead4" y="381" skinName="HhdzHeadMinIconSkin" name="4" anchorOffsetX="65.5" anchorOffsetY="58" right="40" side="2"/>
+			<hhdz:HhdzHeadMinIcon id="hhdzHead5" y="381" skinName="HhdzHeadMinIconSkin" name="5" anchorOffsetX="65.5" anchorOffsetY="58" left="40" side="1"/>
+			<hhdz:HhdzHeadMinIcon id="hhdzHead6" y="501" skinName="HhdzHeadMinIconSkin" name="6" anchorOffsetX="65.5" anchorOffsetY="58" right="40" side="2"/>
+			<hhdz:HhdzHeadMinIcon id="hhdzHead7" y="501" skinName="HhdzHeadMinIconSkin" name="7" anchorOffsetX="65.5" anchorOffsetY="58" left="40" side="1"/>
+		</e:Group>
+		<ns1:IButton id="openBankBtn" label="" x="217" y="680">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_desk026" source.down="hhdz_desk026" source.disabled="hhdz_desk026"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:IButton>
+		<e:Group id="bankerGroup" width="210.6" height="66.67" x="294.98" y="222.36" anchorOffsetX="105.34" anchorOffsetY="36" touchEnabled="false">
+			<e:BitmapLabel id="blankerEinFailMoneyLab" width="244" x="-22.39" y="10.12" anchorOffsetX="0" anchorOffsetY="0" font="hhdz_ying_fnt" text="" textAlign="center" height="51"/>
+			<e:Image x="-7.6" y="9.12" source="hhdz_game_json.hhdz_desk025"/>
+			<e:Image id="bankerVipLab" x="45.16" y="11.079999999999984" scaleX="1" scaleY="1" source="hhdz_game_json.hhdz_V10"/>
+			<e:Label id="bankerNameLab" text="" x="86.76" y="10.759999999999962" anchorOffsetX="0" width="120" size="20" fontFamily="Microsoft YaHei" height="24" textColor="0xf8deba" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="bankerMoneyLab" width="156.36" height="27.58" x="46.36000000000004" y="34.639999999999986" anchorOffsetX="0" anchorOffsetY="0" text="0" textAlign="center" font="hhdz-07_fnt" scaleX="1" scaleY="1"/>
+			<e:Image x="38.65" y="32.67" scaleX="1" scaleY="1" source="gpn_icon_gold" width="35" height="35"/>
+			<e:Group id="bankerListShowGroup" width="24" height="9.33" x="19.33" y="21.66" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group id="betContainer" width="1334" height="750" scaleX="1" scaleY="1" touchChildren="false" touchEnabled="false" touchThrough="false" locked="true">
+			<e:Rect id="red_point_1" width="20" height="20" x="445.23" y="332.47" scaleX="1" scaleY="1"/>
+			<e:Rect id="red_point_2" width="20" height="20" x="450.4" y="389.33" scaleX="1" scaleY="1"/>
+			<e:Rect id="red_point_3" width="20" height="20" x="328.19" y="530.56" scaleX="1" scaleY="1"/>
+			<e:Rect id="red_point_4" width="20" height="20" x="277.5" y="536.28" scaleX="1" scaleY="1"/>
+			<e:Rect id="red_point_5" width="20" height="20" x="237.55" y="495.98" scaleX="1" scaleY="1"/>
+			<e:Rect id="red_point_6" width="20" height="20" x="234.68" y="369.33" scaleX="1" scaleY="1"/>
+			<e:Rect id="black_point_1" fillColor="0xff0000" width="20" height="20" x="1083.19" y="369.33" scaleX="1" scaleY="1"/>
+			<e:Rect id="black_point_2" fillColor="0xff0000" width="20" height="20" x="1082.08" y="514.45" scaleX="1" scaleY="1"/>
+			<e:Rect id="black_point_3" fillColor="0xff0000" width="20" height="20" x="1025.02" y="551.18" scaleX="1" scaleY="1"/>
+			<e:Rect id="black_point_4" fillColor="0xff0000" width="20" height="20" x="969.79" y="512.95" scaleX="1" scaleY="1"/>
+			<e:Rect id="black_point_5" fillColor="0xff0000" width="20" height="20" x="860.06" y="383.26" scaleX="1" scaleY="1"/>
+			<e:Rect id="black_point_6" fillColor="0xff0000" width="20" height="20" x="871.06" y="332.63" scaleX="1" scaleY="1"/>
+			<e:Rect id="lucky_point_1" fillColor="0xFFff00" width="20" height="20" x="550" y="512.41" scaleX="1" scaleY="1"/>
+			<e:Rect id="lucky_point_2" fillColor="0xFFff00" width="20" height="20" x="773.83" y="513.91" scaleX="1" scaleY="1"/>
+			<e:Rect id="lucky_point_3" fillColor="0xFFff00" width="20" height="20" x="824.2" y="543.85" scaleX="1" scaleY="1"/>
+			<e:Rect id="lucky_point_4" fillColor="0xFFff00" width="20" height="20" x="507.73" y="543.8" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group width="200" height="200" x="411" y="44" touchEnabled="false" touchChildren="false" locked="true">
+			<e:BitmapLabel id="redSelf" x="-208" y="262" text="" height="26" anchorOffsetX="0" width="151" textAlign="center" touchEnabled="false" scaleX="1" scaleY="1" font="hhdz_zijitouzhu_fnt"/>
+			<e:BitmapLabel id="redTotal" x="68.00000000000006" y="352" text="" height="26" anchorOffsetX="0" width="151" touchEnabled="false" textAlign="center" scaleX="1" scaleY="1" font="hhdz_zongtouzhu_fnt"/>
+			<e:BitmapLabel id="luckyTotal" x="114" y="414.00000000000006" text="1" font="hhdz_zongtouzhu_fnt" height="26" anchorOffsetX="0" width="134" textAlign="center" touchEnabled="false" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="luckySelf" x="272" y="414.00000000000006" text="1" height="26" anchorOffsetX="0" width="134" textAlign="center" touchEnabled="false" scaleX="1" scaleY="1" font="hhdz_zijitouzhu_fnt"/>
+			<e:BitmapLabel id="blackSelf" x="574" y="262" text="22222" height="26" anchorOffsetX="0" width="151" textAlign="center" touchEnabled="false" scaleX="1" scaleY="1" font="hhdz_zijitouzhu_fnt"/>
+			<e:BitmapLabel id="blackTotal" x="299" y="352" text="" height="26" anchorOffsetX="0" width="151" textAlign="center" touchEnabled="false" scaleX="1" scaleY="1" font="hhdz_zongtouzhu_fnt"/>
+		</e:Group>
+		<ns1:HhdzXianzhiFlag id="xianzhiGroupRed" x="496.93" y="319.6" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:HhdzXianzhiFlag id="xianzhiGroupBlack" x="811.67" y="319.6" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:HhdzXianzhiFlag id="xianzhiGroupLucky" x="492" y="505" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="blackStartPoint" width="13.33" height="16" x="1022" y="436" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="endPoint" width="13.33" height="16" x="1057.97" y="202.99" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:DragonAnim id="endBoomAnim" width="13" height="16" aligntype="middle" anim="winparticle_boom" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" offsetY="19" offsetX="-14"/>
+		</e:Group>
+		<e:Group id="redStartPoint" width="13.33" height="16" x="301" y="449" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:BitmapLabel id="applyBankerNumLabel" width="59" height="20" x="541.89" y="221.98" anchorOffsetX="0" font="hhdz_banker_apply_fnt" text="1人" textAlign="center"/>
+		<ns1:DragonAnim id="startStakeAnim" aligntype="middle" anim="hongheidazhan_start_stake" playOnStage="false" touchEnabled="false" isloop="false" x="467" y="225" touchChildren="false" visible="false"/>
+		<ns1:DragonAnim id="stopStakeAnim" aligntype="middle" anim="hongheidazhan_stop_stake" playOnStage="false" touchEnabled="false" isloop="false" y="225" x="467" touchChildren="false" visible="false"/>
+		<ns1:DragonAnim id="waitAnim" aligntype="middle" anim="hongheidazhan_wait" playOnStage="false" touchEnabled="false" isloop="true" y="235" x="477" touchChildren="false" visible="false"/>
+		<ns1:DragonAnim id="pkAnim" aligntype="middle" anim="hongheidazhan_pk" playOnStage="false" touchEnabled="false" isloop="false" y="225" x="467" touchChildren="false" visible="false"/>
+		<e:Image id="changeBankerImg" source="hhdz_change_zhuang_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
+
+
+
+		<e:Button id="testBtn" label="Button" x="1069" y="27" visible="false"/>
+
+
+
+
+	</e:Group>
+	<e:Group id="leftUpGroup" width="204.55" height="331.82" y="-9.2" left="-23" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-587.5">
+		<e:Image id="menuArrowImg" x="20" y="8" source="hhdz_desk011"/>
+		<e:Group id="menuContent" width="234" height="356" x="33.94" y="100.35" visible="false">
+		<e:Image x="-1.6" y="4.77" scaleX="1" scaleY="1" scale9Grid="105,223,53,44" anchorOffsetY="0" source="hhdz_trip_bg"/>
+		<ns1:IButton id="helpBtn" label="" x="28.15" y="108.85" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_rule_btn" source.down="hhdz_rule_btn" source.disabled="hhdz_rule_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="settingAudioBtn" label="" x="28.15" y="189.85" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_setting_btn" source.down="hhdz_setting_btn" source.disabled="hhdz_setting_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" x="28.15" y="270.64" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_exit_btn" source.down="hhdz_exit_btn" source.disabled="hhdz_exit_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="bankBtn" label="" x="28.15" y="28.64" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hhdz_bank_bnt" source.down="hhdz_bank_bnt" source.disabled="hhdz_bank_bnt"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

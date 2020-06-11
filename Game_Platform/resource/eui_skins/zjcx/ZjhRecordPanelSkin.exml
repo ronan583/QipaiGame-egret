@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZjhRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg1" horizontalCenter="0.5" verticalCenter="15.5" source="zjh_zjcx_json.zjh_zjcx_bgpanel1"/>
+		<e:Image id="bgImg2" horizontalCenter="1" verticalCenter="-29" source="zjh_zjcx_json.zjh_zjcx_bgpanel2" visible="false"/>
+		<e:Image id="selfCard0" x="333.67" y="312.99" source="zjh_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="selfCard1" x="381.67" y="312.99" source="zjh_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="selfCard2" x="429.67" y="312.99" source="zjh_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="typeBg1" source="zjh_zjcx_json.zjh_zjcx_bgtype" x="365" y="356"/>
+		<e:Label id="type1" text="同花顺" x="376" y="360" size="22" fontFamily="Microsoft YaHei" width="66" height="22" textAlign="center"/>
+		<e:Image id="winnerCard0" x="578.67" y="402.28" source="zjh_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="winnerCard1" x="628.67" y="402.28" source="zjh_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="winnerCard2" x="678.67" y="402.28" source="zjh_zjcx_json.qznnresult_card_club1"/>
+		<e:Image id="typeBg2" source="zjh_zjcx_json.zjh_zjcx_bgtype" x="612" y="444"/>
+		<e:Label id="type2" text="高牌" x="623" y="448" size="22" fontFamily="Microsoft YaHei" width="66" height="22" textAlign="center"/>
+		<e:Image id="winIcon" source="zjh_zjcx_iconwin_png" x="756.33" y="325.65"/>
+		<e:BitmapLabel id="totalBetLabel" width="154.67" height="45.33" x="601" y="341" anchorOffsetX="0" anchorOffsetY="0" font="zjh_zjcx_win_fnt" text="1234" letterSpacing="-8"/>
+		<e:BitmapLabel id="winLabel" width="154.67" height="45.33" x="823" y="341" anchorOffsetX="0" anchorOffsetY="0" font="zjh_zjcx_win_fnt" text="1234" letterSpacing="-8"/>
+		<e:Image id="discardIcon" source="poker_small_json.cs_discard" x="897.33" y="426.33"/>
+	</e:Group>
+</e:Skin>

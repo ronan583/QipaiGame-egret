@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BYFishBaike" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image height="657.27" anchorOffsetX="0" anchorOffsetY="0" source="account_cell_bg_png" scale9Grid="12,10,451,61" verticalCenter="7.5" horizontalCenter="0" width="970"/>
+	<e:Image width="970" height="49" source="title_bar_png" scale9Grid="7,6,492,41" anchorOffsetY="0" horizontalCenter="1" anchorOffsetX="0" y="41"/>
+	<e:Image y="44.68" rotation="0" anchorOffsetY="0" horizontalCenter="0" source="baike_title"/>
+
+	<e:Button id="closeBtn" label="" x="1061.05" y="12.35" width="102" height="98">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png" source.down="close_png" source.disabled="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+	<e:Label id="dumiaoLab" text="已发送(120秒)" x="761.37" y="263" size="25" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="30" anchorOffsetX="0" width="179" textColor="0x353232" visible="false"/>
+	<e:Group width="916.43" height="601.88" x="187.34" y="94.01" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group width="146" height="111" x="-127.74000000000001" y="-76.01" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_0"/>
+			<e:Image y="80.12" source="bei_2" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-117.74000000000001" y="-66.01" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_1"/>
+			<e:Image y="80.12" source="bei_2" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-107.74000000000001" y="-56.010000000000005" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_2"/>
+			<e:Image y="80.12" source="bei_3" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-97.74000000000001" y="-46.010000000000005" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_3"/>
+			<e:Image y="80.12" source="bei_4" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-87.74000000000001" y="-36.010000000000005" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_4"/>
+			<e:Image y="80.12" source="bei_5" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-77.74000000000001" y="-26.010000000000005" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_5"/>
+			<e:Image y="80.12" source="bei_6" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-67.74000000000001" y="-16.010000000000005" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_6"/>
+			<e:Image y="80.12" source="bei_7" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-57.74000000000001" y="-6.010000000000005" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_7"/>
+			<e:Image y="80.12" source="bei_8" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-47.74000000000001" y="3.989999999999995" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_8"/>
+			<e:Image y="80.12" source="bei_9" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-37.74000000000001" y="13.989999999999995" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_9"/>
+			<e:Image y="80.12" source="bei_10" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-27.74000000000001" y="23.989999999999995" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_10"/>
+			<e:Image y="80.12" source="bei_12" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-17.74000000000001" y="33.989999999999995" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_11"/>
+			<e:Image y="80.12" source="bei_18" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="-7.740000000000009" y="43.989999999999995" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_12"/>
+			<e:Image y="80.12" source="bei_18" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="2.259999999999991" y="53.989999999999995" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_13"/>
+			<e:Image y="80.12" source="bei_20" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="12.259999999999991" y="63.989999999999995" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_14"/>
+			<e:Image y="80.12" source="bei_25" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="22.25999999999999" y="73.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_15"/>
+			<e:Image y="80.12" source="bei_30" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="32.25999999999999" y="83.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_16"/>
+			<e:Image y="80.12" source="bei_35" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="42.25999999999999" y="93.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_17"/>
+			<e:Image y="80.12" source="bei_40" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="52.25999999999999" y="103.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_18"/>
+			<e:Image y="80.12" source="bei_45" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="62.25999999999999" y="113.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_19"/>
+			<e:Image y="80.12" source="bei_50" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="72.25999999999999" y="123.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_20"/>
+			<e:Image y="80.12" source="bei_50" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="82.25999999999999" y="133.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_21"/>
+			<e:Image y="80.12" source="bei_50" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="92.25999999999999" y="143.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_22"/>
+			<e:Image y="80.12" source="bei_60" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="102.25999999999999" y="153.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_23"/>
+			<e:Image y="80.12" source="bei_70" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="112.25999999999999" y="163.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_24"/>
+			<e:Image y="80.12" source="bei_80" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="122.25999999999999" y="173.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_25"/>
+			<e:Image y="80.12" source="bei_80" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="132.26" y="183.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_26"/>
+			<e:Image y="80.12" source="bei_100" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="142.26" y="193.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_27"/>
+			<e:Image y="80.12" source="bei_120" right="0"/>
+		</e:Group>
+		<e:Group width="146" height="111" x="152.26" y="203.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="0" y="0" source="baike_fish_bg"/>
+			<e:Image x="-0.74" y="0" source="fish_baike_31"/>
+			<e:Image y="80.12" source="bei_200" right="0"/>
+		</e:Group>
+
+
+
+
+
+
+
+		<e:layout>
+			<e:TileLayout horizontalGap="6" rowHeight="111" columnWidth="146" requestedRowCount="5" requestedColumnCount="6"/>
+		</e:layout>
+	</e:Group>
+
+
+
+
+
+
+
+</e:Skin>

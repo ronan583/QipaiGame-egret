@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BankProgressBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%"
+			 height="100%" verticalCenter="0" scale9Grid="20,10,440,13" source="gp_progress_bg3"/>
+	<e:Image id="thumb" height="100%" width="100%" scale9Grid="59,4,360,24" anchorOffsetX="0" source="gp_progress_bar3" y="-1"/>
+
+	<w:Config id="1663de283a3" ></w:Config>
+</e:Skin>

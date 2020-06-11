@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DBRewardItemSkin" width="239.39" height="31.12" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c3218b078" ></w:Config>
+	<e:Image id="gemImg" x="1" y="-0.5" source="db_gem_0" anchorOffsetX="0" width="33" anchorOffsetY="0" height="33"/>
+	<e:BitmapLabel id="moneyLabel" width="185" height="29" x="44" y="4" text="123123123" anchorOffsetX="0" anchorOffsetY="0" font="xbly_szty_fnt"/>
+</e:Skin>

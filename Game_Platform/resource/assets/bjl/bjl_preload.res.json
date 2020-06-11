@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "bjl_qidong_ske_dbbin,bjl_qidong_tex_json,bjl_qidong_tex_png,bjln_room_bg_jpg",
+			"name": "bjl_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bjl/animation/room/bjl_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "bjl_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/bjl/animation/room/bjl_qidong_tex.json",
+			"type": "json",
+			"name": "bjl_qidong_tex_json"
+		},
+		{
+			"url": "assets/bjl/animation/room/bjl_qidong_tex.png",
+			"type": "image",
+			"name": "bjl_qidong_tex_png"
+		},
+		{
+			"url": "assets/bjl/bjln_room_bg.jpg",
+			"type": "image",
+			"name": "bjln_room_bg_jpg"
+		}
+	]
+}

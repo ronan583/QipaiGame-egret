@@ -1,0 +1,11 @@
+{"file":"ddz_bank.png","frames":{
+"ddz_bank_thumb":{"x":1,"y":805,"w":72,"h":72,"offX":0,"offY":0,"sourceW":72,"sourceH":72},
+"ddz_bank_title":{"x":220,"y":732,"w":85,"h":41,"offX":0,"offY":0,"sourceW":85,"sourceH":41},
+"ddz_bank_bg":{"x":1,"y":1,"w":1074,"h":659,"offX":0,"offY":0,"sourceW":1074,"sourceH":659},
+"ddz_bank_bg2":{"x":1,"y":662,"w":612,"h":68,"offX":0,"offY":1,"sourceW":612,"sourceH":69},
+"ddz_bank_bg3":{"x":615,"y":662,"w":728,"h":46,"offX":0,"offY":0,"sourceW":728,"sourceH":46},
+"ddz_bank_btn_draw":{"x":1345,"y":662,"w":228,"h":112,"offX":0,"offY":0,"sourceW":228,"sourceH":112},
+"ddz_bank_close":{"x":137,"y":732,"w":81,"h":82,"offX":0,"offY":0,"sourceW":81,"sourceH":82},
+"ddz_bank_max":{"x":1,"y":732,"w":134,"h":71,"offX":0,"offY":0,"sourceW":134,"sourceH":71},
+"ddz_bank_pro_bar":{"x":615,"y":726,"w":722,"h":14,"offX":0,"offY":1,"sourceW":722,"sourceH":15},
+"ddz_bank_pro_bg":{"x":615,"y":710,"w":722,"h":14,"offX":0,"offY":1,"sourceW":722,"sourceH":15}}}

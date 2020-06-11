@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="duobaoFinalSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" source="db_final_bg_jpg"/>
+	<e:Image y="566" source="db_final_bottom_png" horizontalCenter="0.5"/>
+	<e:Image y="0" horizontalCenter="0.5" source="db_top_bg_png"/>
+
+
+	<e:Image source="db_preview_png" visible="false"/>
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<ns1:DBFinalItem id="item1" x="164" y="323.33" anchorOffsetX="120" anchorOffsetY="177.33"/>
+		<ns1:DBFinalItem id="item2" x="414.67" y="322" anchorOffsetX="118.67" anchorOffsetY="176"/>
+		<ns1:DBFinalItem id="item3" x="665.67" y="327.33" anchorOffsetX="118.67" anchorOffsetY="181.33"/>
+		<ns1:DBFinalItem id="item4" x="916.67" y="322" anchorOffsetX="118.67" anchorOffsetY="176"/>
+		<ns1:DBFinalItem id="item5" x="1172" y="324.67" anchorOffsetX="124" anchorOffsetY="178.67"/>
+
+		<e:Image id="plzImg" y="614.67" source="db_plz_choose_reward" x="666.67" anchorOffsetX="158.67" anchorOffsetY="106.67"/>
+		<e:Image x="170" y="694" source="db_leiji"/>
+		<e:Image x="839.86" y="692.48" source="db_leijiyingqu"/>
+		<e:BitmapLabel id="leijiLabel" width="239" height="24.67" x="242.99" y="696.01" font="xbly_d2_fnt" text="123123123" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle"/>
+		<e:BitmapLabel id="leijiyingquLabel" width="239" height="24.67" x="930.86" y="694" font="xbly_d2_fnt" text="123123123" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle"/>
+		<e:Rect id="touch1" width="243" height="364" x="163.99" y="333.33" anchorOffsetX="124" anchorOffsetY="183" alpha="0"/>
+		<e:Rect id="touch2" width="243" height="364" x="418.59" y="324.01" anchorOffsetX="121" anchorOffsetY="181" alpha="0"/>
+		<e:Rect id="touch3" width="243" height="364" x="667.65" y="321" anchorOffsetX="120" anchorOffsetY="177.33" alpha="0"/>
+		<e:Rect id="touch4" width="243" height="364" x="921.64" y="323" anchorOffsetX="122.67" anchorOffsetY="178.67" alpha="0"/>
+		<e:Rect id="touch5" width="243" height="364" x="1170.32" y="325.01" anchorOffsetX="121.33" anchorOffsetY="176" alpha="0"/>
+		<e:Button id="testBtn" label="Button" x="943" y="69" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Group id="animGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0" visible="false">
+		<ns1:DragonAnim id="doorAnim" width="1334" height="750" x="0" y="0" aligntype="middle" defaultPlayAnim="animation" isloop="false" playOnStage="false" anim="lhdb_qidong"/>
+	</e:Group>
+
+	
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoticeScrollTextSkin" width="512" height="32" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1664ece0c64" ></w:Config>
+	<e:Image x="-4" y="1" source="labelBg" scale9Grid="29,14,181,4" anchorOffsetX="0" width="525"/>
+	<e:Group id="animGroup" anchorOffsetX="0" anchorOffsetY="0" width="512" height="32" y="0" x="0" visible="false">
+	</e:Group>
+
+	<e:Image x="-15" y="-3" source="laba_png"/>
+	<e:Rect id="maskRect" width="500" height="32" y="-1" x="10"/>
+	<e:Group id="contentGroup" width="500" height="31" x="10" y="-1" anchorOffsetX="0" anchorOffsetY="0">
+
+	</e:Group>
+</e:Skin>

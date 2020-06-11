@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZPKCardsSkin" width="101.33" height="87" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1678dd2576c" ></w:Config>
+	<ns1:Card id="card1" x="6.5" y="2" skinName="CardOtherSkin"/>
+	<ns1:Card id="card2" x="32" y="2" skinName="CardOtherSkin"/>
+</e:Skin>

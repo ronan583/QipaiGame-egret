@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "pdkRoom_bg_jpg,pdk_qidong_ske_dbbin,pdk_qidong_tex_json,pdk_qidong_tex_png",
+			"name": "pdk_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/pdk/animation/room/pdk_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "pdk_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_qidong_tex.json",
+			"type": "json",
+			"name": "pdk_qidong_tex_json"
+		},
+		{
+			"url": "assets/pdk/animation/room/pdk_qidong_tex.png",
+			"type": "image",
+			"name": "pdk_qidong_tex_png"
+		},
+		{
+			"url": "assets/pdk/pdkRoom_bg.jpg",
+			"type": "image",
+			"name": "pdkRoom_bg_jpg"
+		}
+	]
+}

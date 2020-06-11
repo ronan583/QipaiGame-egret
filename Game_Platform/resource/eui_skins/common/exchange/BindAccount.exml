@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BindAccountSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="rank_frame" x="146" y="57" scaleX="1" scaleY="1"/>
+		<e:Image source="bank_frame" x="191" y="138" scaleX="1" scaleY="1"/>
+		<e:Image source="title_frame" x="409" y="7" scaleX="1" scaleY="1"/>
+		<e:Image id="titleName" source="binding_alipay_title" y="23" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<ns1:IButton id="okBtn" label="" anchorOffsetX="145" anchorOffsetY="39.5" imageLabelPath="binding_now" x="667.32" y="642.98" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_button" source.down="bank_button" source.disabled="bank_button"/>
+				<e:Label id="labelDisplay" horizontalCenter="-12" verticalCenter="-9" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="closeBtn" label="" x="1127" y="75" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_close" source.down="rank_close" source.disabled="rank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="accountLabel1" text="支付宝账号" x="282" y="237.6" size="36" fontFamily="Microsoft YaHei"/>
+		<e:Image y="223.6" scaleX="1" scaleY="1" source="Input_box" x="484"/>
+		<e:EditableText id="accountInput1" width="540.33" height="40" text="" x="493" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xfff39c" anchorOffsetX="0" verticalAlign="middle" y="232.6" scaleX="1" scaleY="1"/>
+		<e:Label id="accountLabel2" text="实名制姓名" x="282" y="389.11" size="36" fontFamily="Microsoft YaHei"/>
+		<e:Image y="375.11" scaleX="1" scaleY="1" source="Input_box" x="484"/>
+		<e:EditableText id="accountInput2" width="540.33" height="40" text="" x="493" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xfff39c" anchorOffsetX="0" verticalAlign="middle" y="384.11" scaleX="1" scaleY="1"/>
+		<e:Label id="tipsLabel" text="请输入正确的支付宝账号，以及对应的实名制姓名，否则会导致绑定失败。" y="514" size="24" fontFamily="Microsoft YaHei" x="271"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TgpdBankSlider" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*"  width="730" height="74">
+
+
+
+	<e:Group left="0" right="0" top="0" bottom="0">
+
+		<e:Image id="track" width="100%" verticalCenter="2" x="3" scale9Grid="666,7,44,6" source="" visible="false"/>
+		<e:Image id="thumb" verticalCenter="0.5" x="-5" source="candyBank_json.tgpd_bank_slider"/>
+	</e:Group>
+</e:Skin>

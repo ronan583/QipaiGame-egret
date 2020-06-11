@@ -1,0 +1,661 @@
+{
+	"groups": [
+		{
+			"keys": "RoomLevelFont_fnt,qznn_help_content_png,qznnRecountFont_fnt,qznnn_room_preview_png,qznnn_room_bg_jpg,qznn_chongzhi_ske_dbbin,qznn_chongzhi_tex_png,qznn_chuiji_ske_dbbin,qznn_chuiji_tex_png,qznn_chuji_light_ske_dbbin,qznn_chuji_light_tex_png,qznn_gaoji_ske_dbbin,qznn_gaoji_tex_png,qznn_putong_light_ske_dbbin,qznn_putong_light_tex_png,qznn_putong_ske_dbbin,qznn_putong_tex_png,qznn_quickstart_ske_dbbin,qznn_quickstart_tex_png,qznn_tiyan_light_ske_dbbin,qznn_tiyan_light_tex_png,qznn_tiyan_ske_dbbin,qznn_tiyan_tex_png,qznn_zhongji_light_ske_dbbin,qznn_zhongji_light_tex_png,qznn_zhongji_ske_dbbin,qznn_zhongji_tex_png,qznnb_qidong_ske_dbbin,qznnb_qidong_tex_png,qznn_chongzhi_tex_json,qznn_gaoji_tex_json,qznn_chuiji_tex_json,qznn_putong_light_tex_json,qznn_chuji_light_tex_json,qznn_putong_tex_json,qznn_tiyan_tex_json,qznn_tiyan_light_tex_json,qznn_quickstart_tex_json,qznn_zhongji_light_tex_json,qznn_zhongji_tex_json,qznnb_qidong_tex_json,qznn_addgold_tex_png,qznn_addgold_tex_json,qznn_addgold_ske_dbbin,qznn_help_bg_png,qznn_help_c1_png,qznn_help_c2_png,qznn_help_close_png,qznn_help_title_png,qznn_battle_json,multiple_png,multiple_fnt,bebanker_png,bebanker_fnt,qznn_win_png,qznn_lose_fnt,qznn_lose_png,qznn_win_fnt,gamestart_tex_png,gamestart_ske_dbbin,gamestart_tex_json,zhuang_1_ske_dbbin,zhuang_1_tex_png,zhuang_1_tex_json,renx_ske_dbbin,renx_tex_png,renx_tex_json,qznn_countdown_png,qznn_countdown_fnt,qznn_roomfnt_png,qznn_roomfnt_fnt,qznnb_kuangeffect_ske_dbbin,qznnb_kuangeffect_tex_png,qznnb_kuangeffect_tex_json,qznn_bank_pro_bg_png,playcountdown_png,playcountdown_json,brnn_sizha_tex_png,brnn_sizha_ske_dbbin,brnn_wuhuaniu_tex_png,brnn_wuniu_ske_dbbin,brnn_wuhuaniu_ske_dbbin,brnn_wuniu_tex_png,brnn_niu_anim1_ske_dbbin,brnn_niu_anim2_ske_dbbin,brnn_niu_anim1_tex_png,brnn_niu_anim2_tex_png,brnn_niuniu_ske_dbbin,brnn_niuniu_tex_png,brnn_sizha_tex_json,brnn_wuhuaniu_tex_json,brnn_wuniu_tex_json,brnn_niu_anim2_tex_json,brnn_niu_anim1_tex_json,brnn_niuniu_tex_json,qznn_touxiangkuang_tex_png,qznn_touxiangkuang_mc_json,qznn_jinboom_ske_dbbin,qznn_jinboom_tex_png,qznn_jinboom_tex_json,qznnroom_json,qznn_zjcx_lose_fnt,qznn_zjcx_lose_png,qznn_zjcx_win_png,qznn_zjcx_win_fnt",
+			"name": "qznn"
+		},
+		{
+			"keys": "qynn_banker_mp3,qynn_bg_mp3,qynn_card_select_mp3,qynn_choosing_mp3,qynn_fly_gold_mp3,qynn_game_over_mp3,qynn_game_start_mp3,qynn_game_win_mp3,qynn_niu_0_mp3,qynn_niu_1_mp3,qynn_niu_10_mp3,qynn_niu_2_mp3,qynn_niu_3_mp3,qynn_niu_4_mp3,qynn_niu_5_mp3,qynn_niu_6_mp3,qynn_niu_7_mp3,qynn_niu_8_mp3,qynn_niu_9_mp3,qynn_sendcard_mp3,qynn_show_mp3,qynn_niu_11_mp3,qynn_niu_12_mp3",
+			"name": "qznnSound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/qznn/sound/qynn_banker.mp3",
+			"type": "sound",
+			"name": "qynn_banker_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_bg.mp3",
+			"type": "sound",
+			"name": "qynn_bg_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_card_select.mp3",
+			"type": "sound",
+			"name": "qynn_card_select_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_choosing.mp3",
+			"type": "sound",
+			"name": "qynn_choosing_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_fly_gold.mp3",
+			"type": "sound",
+			"name": "qynn_fly_gold_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_game_over.mp3",
+			"type": "sound",
+			"name": "qynn_game_over_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_game_start.mp3",
+			"type": "sound",
+			"name": "qynn_game_start_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_game_win.mp3",
+			"type": "sound",
+			"name": "qynn_game_win_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_0.mp3",
+			"type": "sound",
+			"name": "qynn_niu_0_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_1.mp3",
+			"type": "sound",
+			"name": "qynn_niu_1_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_10.mp3",
+			"type": "sound",
+			"name": "qynn_niu_10_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_2.mp3",
+			"type": "sound",
+			"name": "qynn_niu_2_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_3.mp3",
+			"type": "sound",
+			"name": "qynn_niu_3_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_4.mp3",
+			"type": "sound",
+			"name": "qynn_niu_4_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_5.mp3",
+			"type": "sound",
+			"name": "qynn_niu_5_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_6.mp3",
+			"type": "sound",
+			"name": "qynn_niu_6_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_7.mp3",
+			"type": "sound",
+			"name": "qynn_niu_7_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_8.mp3",
+			"type": "sound",
+			"name": "qynn_niu_8_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_9.mp3",
+			"type": "sound",
+			"name": "qynn_niu_9_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_sendcard.mp3",
+			"type": "sound",
+			"name": "qynn_sendcard_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_show.mp3",
+			"type": "sound",
+			"name": "qynn_show_mp3"
+		},
+		{
+			"url": "assets/font/RoomLevelFont.fnt",
+			"type": "font",
+			"name": "RoomLevelFont_fnt"
+		},
+		{
+			"url": "assets/qznn/qznn_help_content.png",
+			"type": "image",
+			"name": "qznn_help_content_png"
+		},
+		{
+			"url": "assets/qznn/qznn.res.json",
+			"type": "json",
+			"name": "qznn.res_json"
+		},
+		{
+			"url": "assets/qznn/qznnRecountFont.fnt",
+			"type": "font",
+			"name": "qznnRecountFont_fnt"
+		},
+		{
+			"url": "assets/qznn/qznnroom.json",
+			"type": "sheet",
+			"name": "qznnroom_json",
+			"subkeys": "qznn_niu0,qznn_niu1,qznn_niu10,qznn_niu11,qznn_niu12,qznn_niu2,qznn_niu3,qznn_niu4,qznn_niu5,qznn_niu6,qznn_niu7,qznn_niu8,qznn_niu9,qznn_room_btnclose,qznn_room_btnzjcx,qznn_zjcx_bankerbg,qznn_zjcx_banknobg,qznn_zjcx_bg,qznn_zjcx_detailbtn,qznn_zjcx_iconbanker,qznn_zjcx_iconlose,qznn_zjcx_iconwin,qznn_zjcx_labelbg,qznn_zjcx_labellevel0,qznn_zjcx_labellevel1,qznn_zjcx_labellevel2,qznn_zjcx_labellevel3,qznn_zjcx_line,qznn_zjcx_title,qznnn_back,qznnn_baomao,qznnn_bottom,qznnn_dizhu,qznnn_gold,qznnn_gold_bg,qznnn_headframe,qznnn_help,qznnn_kongxian,qznnn_logo,qznnn_mianfei,qznnn_yongji,qznnn_zhuanru,qznnresult_card_club1,qznnresult_card_club10,qznnresult_card_club11,qznnresult_card_club12,qznnresult_card_club13,qznnresult_card_club2,qznnresult_card_club3,qznnresult_card_club4,qznnresult_card_club5,qznnresult_card_club6,qznnresult_card_club7,qznnresult_card_club8,qznnresult_card_club9,qznnresult_card_diamond1,qznnresult_card_diamond10,qznnresult_card_diamond11,qznnresult_card_diamond12,qznnresult_card_diamond13,qznnresult_card_diamond2,qznnresult_card_diamond3,qznnresult_card_diamond4,qznnresult_card_diamond5,qznnresult_card_diamond6,qznnresult_card_diamond7,qznnresult_card_diamond8,qznnresult_card_diamond9,qznnresult_card_heart1,qznnresult_card_heart10,qznnresult_card_heart11,qznnresult_card_heart12,qznnresult_card_heart13,qznnresult_card_heart2,qznnresult_card_heart3,qznnresult_card_heart4,qznnresult_card_heart5,qznnresult_card_heart6,qznnresult_card_heart7,qznnresult_card_heart8,qznnresult_card_heart9,qznnresult_card_spade1,qznnresult_card_spade10,qznnresult_card_spade11,qznnresult_card_spade12,qznnresult_card_spade13,qznnresult_card_spade2,qznnresult_card_spade3,qznnresult_card_spade4,qznnresult_card_spade5,qznnresult_card_spade6,qznnresult_card_spade7,qznnresult_card_spade8,qznnresult_card_spade9"
+		},
+		{
+			"url": "assets/qznn/qznnn_room_bg.jpg",
+			"type": "image",
+			"name": "qznnn_room_bg_jpg"
+		},
+		{
+			"url": "assets/qznn/qznnn_room_preview.png",
+			"type": "image",
+			"name": "qznnn_room_preview_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chongzhi_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_chongzhi_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chongzhi_tex.png",
+			"type": "image",
+			"name": "qznn_chongzhi_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chuiji_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_chuiji_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chuiji_tex.png",
+			"type": "image",
+			"name": "qznn_chuiji_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chuji_light_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_chuji_light_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chuji_light_tex.png",
+			"type": "image",
+			"name": "qznn_chuji_light_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_gaoji_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_gaoji_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_gaoji_tex.png",
+			"type": "image",
+			"name": "qznn_gaoji_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_putong_light_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_putong_light_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_putong_light_tex.png",
+			"type": "image",
+			"name": "qznn_putong_light_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_putong_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_putong_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_putong_tex.png",
+			"type": "image",
+			"name": "qznn_putong_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_quickstart_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_quickstart_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_quickstart_tex.png",
+			"type": "image",
+			"name": "qznn_quickstart_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_tiyan_light_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_tiyan_light_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_tiyan_light_tex.png",
+			"type": "image",
+			"name": "qznn_tiyan_light_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_tiyan_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_tiyan_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_tiyan_tex.png",
+			"type": "image",
+			"name": "qznn_tiyan_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_zhongji_light_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_zhongji_light_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_zhongji_light_tex.png",
+			"type": "image",
+			"name": "qznn_zhongji_light_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_zhongji_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_zhongji_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_zhongji_tex.png",
+			"type": "image",
+			"name": "qznn_zhongji_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznnb_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "qznnb_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznnb_qidong_tex.png",
+			"type": "image",
+			"name": "qznnb_qidong_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chongzhi_tex.json",
+			"type": "json",
+			"name": "qznn_chongzhi_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_gaoji_tex.json",
+			"type": "json",
+			"name": "qznn_gaoji_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chuiji_tex.json",
+			"type": "json",
+			"name": "qznn_chuiji_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_putong_light_tex.json",
+			"type": "json",
+			"name": "qznn_putong_light_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_chuji_light_tex.json",
+			"type": "json",
+			"name": "qznn_chuji_light_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_putong_tex.json",
+			"type": "json",
+			"name": "qznn_putong_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_tiyan_tex.json",
+			"type": "json",
+			"name": "qznn_tiyan_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_tiyan_light_tex.json",
+			"type": "json",
+			"name": "qznn_tiyan_light_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_quickstart_tex.json",
+			"type": "json",
+			"name": "qznn_quickstart_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_zhongji_light_tex.json",
+			"type": "json",
+			"name": "qznn_zhongji_light_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_zhongji_tex.json",
+			"type": "json",
+			"name": "qznn_zhongji_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznnb_qidong_tex.json",
+			"type": "json",
+			"name": "qznnb_qidong_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_addgold_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_addgold_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_addgold_tex.json",
+			"type": "json",
+			"name": "qznn_addgold_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznn_addgold_tex.png",
+			"type": "image",
+			"name": "qznn_addgold_tex_png"
+		},
+		{
+			"url": "assets/qznn/help/qznn_help_bg.png",
+			"type": "image",
+			"name": "qznn_help_bg_png"
+		},
+		{
+			"url": "assets/qznn/help/qznn_help_c1.png",
+			"type": "image",
+			"name": "qznn_help_c1_png"
+		},
+		{
+			"url": "assets/qznn/help/qznn_help_c2.png",
+			"type": "image",
+			"name": "qznn_help_c2_png"
+		},
+		{
+			"url": "assets/qznn/help/qznn_help_close.png",
+			"type": "image",
+			"name": "qznn_help_close_png"
+		},
+		{
+			"url": "assets/qznn/help/qznn_help_title.png",
+			"type": "image",
+			"name": "qznn_help_title_png"
+		},
+		{
+			"url": "assets/qznn/qznn_battle.json",
+			"type": "sheet",
+			"name": "qznn_battle_json",
+			"subkeys": "MAX,all_btn,back_btn,back_card,banker_flag,battle_bg,buqiang_Btn,chat_Btn,down_Btn,head_bg,help_Btn,light_box1,light_box2,menu_bg,multiBtnbg,multi_Btn_1,multi_Btn_2,multi_Btn_3,multi_Btn_4,multiple_img,ok_Btn,qznn_cow_1,qznn_cow_10,qznn_cow_11,qznn_cow_12,qznn_cow_13,qznn_cow_2,qznn_cow_3,qznn_cow_4,qznn_cow_5,qznn_cow_6,qznn_cow_7,qznn_cow_8,qznn_cow_9,qznn_cow_bg_1,qznn_cow_bg_2,qznn_cow_bg_3,qznn_cow_bg_4,qznn_effect,qznn_fly_gold,qznn_music,qznn_mute,qznn_pull_btn,qznn_pull_off,qznn_pull_on,qznn_set,qznn_withdraw,qznn_withdraws_Btn,qznnb_btn_bet_times_0,qznnb_btn_bet_times_1,qznnb_btn_bet_times_2,qznnb_btn_bet_times_3,qznnb_btn_bet_times_4,qznnb_btn_bet_times_5,qznnb_btn_bet_times_6,qznnb_btn_bet_times_7,qznnb_btn_bet_times_8,qznnb_btn_bet_times_9,qznnb_btn_bet_times_bei,result_bg,self_Bg,setting_Btn,show_Btn,start_tips,trust_Btn,wait_add_tips,wait_banker_tips,wait_next_tips,wait_throw_tips,withdraw_Btn,withdraw_bar,withdraw_bar_bg,withdraw_frame"
+		},
+		{
+			"url": "assets/qznn/font/multiple.png",
+			"type": "image",
+			"name": "multiple_png"
+		},
+		{
+			"url": "assets/qznn/font/multiple.fnt",
+			"type": "font",
+			"name": "multiple_fnt"
+		},
+		{
+			"url": "assets/qznn/font/bebanker.png",
+			"type": "image",
+			"name": "bebanker_png"
+		},
+		{
+			"url": "assets/qznn/font/bebanker.fnt",
+			"type": "font",
+			"name": "bebanker_fnt"
+		},
+		{
+			"url": "assets/qznn/font/qznn_win.png",
+			"type": "image",
+			"name": "qznn_win_png"
+		},
+		{
+			"url": "assets/qznn/font/qznn_lose.fnt",
+			"type": "font",
+			"name": "qznn_lose_fnt"
+		},
+		{
+			"url": "assets/qznn/font/qznn_lose.png",
+			"type": "image",
+			"name": "qznn_lose_png"
+		},
+		{
+			"url": "assets/qznn/font/qznn_win.fnt",
+			"type": "font",
+			"name": "qznn_win_fnt"
+		},
+		{
+			"url": "assets/qznn/animation/battle/gamestart_tex.png",
+			"type": "image",
+			"name": "gamestart_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/gamestart_ske.dbbin",
+			"type": "bin",
+			"name": "gamestart_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/gamestart_tex.json",
+			"type": "json",
+			"name": "gamestart_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/zhuang_1_ske.dbbin",
+			"type": "bin",
+			"name": "zhuang_1_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/zhuang_1_tex.png",
+			"type": "image",
+			"name": "zhuang_1_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/zhuang_1_tex.json",
+			"type": "json",
+			"name": "zhuang_1_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/renx_ske.dbbin",
+			"type": "bin",
+			"name": "renx_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/renx_tex.png",
+			"type": "image",
+			"name": "renx_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/renx_tex.json",
+			"type": "json",
+			"name": "renx_tex_json"
+		},
+		{
+			"url": "assets/qznn/font/qznn_countdown.png",
+			"type": "image",
+			"name": "qznn_countdown_png"
+		},
+		{
+			"url": "assets/qznn/font/qznn_countdown.fnt",
+			"type": "font",
+			"name": "qznn_countdown_fnt"
+		},
+		{
+			"url": "assets/qznn/font/qznn_roomfnt.png",
+			"type": "image",
+			"name": "qznn_roomfnt_png"
+		},
+		{
+			"url": "assets/qznn/font/qznn_roomfnt.fnt",
+			"type": "font",
+			"name": "qznn_roomfnt_fnt"
+		},
+		{
+			"url": "assets/qznn/animation/battle/qznnb_kuangeffect_ske.dbbin",
+			"type": "bin",
+			"name": "qznnb_kuangeffect_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/qznnb_kuangeffect_tex.png",
+			"type": "image",
+			"name": "qznnb_kuangeffect_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/qznnb_kuangeffect_tex.json",
+			"type": "json",
+			"name": "qznnb_kuangeffect_tex_json"
+		},
+		{
+			"url": "assets/qznn/qznn_bank_pro_bg.png",
+			"type": "image",
+			"name": "qznn_bank_pro_bg_png"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_11.mp3",
+			"type": "sound",
+			"name": "qynn_niu_11_mp3"
+		},
+		{
+			"url": "assets/qznn/sound/qynn_niu_12.mp3",
+			"type": "sound",
+			"name": "qynn_niu_12_mp3"
+		},
+		{
+			"url": "assets/qznn/particle/playcountdown.png",
+			"type": "image",
+			"name": "playcountdown_png"
+		},
+		{
+			"url": "assets/qznn/particle/playcountdown.json",
+			"type": "json",
+			"name": "playcountdown_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_sizha_tex.png",
+			"type": "image",
+			"name": "brnn_sizha_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_sizha_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_sizha_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_wuhuaniu_tex.png",
+			"type": "image",
+			"name": "brnn_wuhuaniu_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_wuniu_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_wuniu_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_wuhuaniu_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_wuhuaniu_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_wuniu_tex.png",
+			"type": "image",
+			"name": "brnn_wuniu_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niu_anim1_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_niu_anim1_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niu_anim2_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_niu_anim2_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niu_anim1_tex.png",
+			"type": "image",
+			"name": "brnn_niu_anim1_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niu_anim2_tex.png",
+			"type": "image",
+			"name": "brnn_niu_anim2_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niuniu_ske.dbbin",
+			"type": "bin",
+			"name": "brnn_niuniu_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niuniu_tex.png",
+			"type": "image",
+			"name": "brnn_niuniu_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_sizha_tex.json",
+			"type": "json",
+			"name": "brnn_sizha_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_wuhuaniu_tex.json",
+			"type": "json",
+			"name": "brnn_wuhuaniu_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_wuniu_tex.json",
+			"type": "json",
+			"name": "brnn_wuniu_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niu_anim2_tex.json",
+			"type": "json",
+			"name": "brnn_niu_anim2_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niu_anim1_tex.json",
+			"type": "json",
+			"name": "brnn_niu_anim1_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/brnn_niuniu_tex.json",
+			"type": "json",
+			"name": "brnn_niuniu_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/qznn_touxiangkuang_tex.png",
+			"type": "image",
+			"name": "qznn_touxiangkuang_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/qznn_touxiangkuang_mc.json",
+			"type": "json",
+			"name": "qznn_touxiangkuang_mc_json"
+		},
+		{
+			"url": "assets/qznn/animation/battle/qznn_jinboom_ske.dbbin",
+			"type": "bin",
+			"name": "qznn_jinboom_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/battle/qznn_jinboom_tex.png",
+			"type": "image",
+			"name": "qznn_jinboom_tex_png"
+		},
+		{
+			"url": "assets/qznn/animation/battle/qznn_jinboom_tex.json",
+			"type": "json",
+			"name": "qznn_jinboom_tex_json"
+		},
+		{
+			"url": "assets/qznn/font/qznn_zjcx_lose.fnt",
+			"type": "font",
+			"name": "qznn_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/qznn/font/qznn_zjcx_lose.png",
+			"type": "image",
+			"name": "qznn_zjcx_lose_png"
+		},
+		{
+			"url": "assets/qznn/font/qznn_zjcx_win.png",
+			"type": "image",
+			"name": "qznn_zjcx_win_png"
+		},
+		{
+			"url": "assets/qznn/font/qznn_zjcx_win.fnt",
+			"type": "font",
+			"name": "qznn_zjcx_win_fnt"
+		}
+	]
+}

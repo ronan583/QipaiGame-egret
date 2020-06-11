@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="100" height="160">
+	<w:Config id="167ae217cdd" ></w:Config>
+	<e:Label id="nameLab" text="北京" y="7" size="20" fontFamily="Microsoft YaHei" height="24" width="100" textAlign="center" x="0"/>
+	<e:Label id="moneyLab" text="3000000" y="131" size="20" fontFamily="Microsoft YaHei" height="24" width="100" textAlign="center" x="0"/>
+	<e:Image id="headKImg" source="hhdz_game_json.hhdz_desk037" width="90" height="90" x="5" verticalCenter="0"/>
+	<e:Image id="headImg" source="hhdz_game_json.hhdz_gui-icon-head-01" width="90" height="90" x="9" y="32"/>
+	<e:Rect id="maskRect" width="100" height="100" ellipseWidth="150" ellipseHeight="150" scaleX="0.75" scaleY="0.75" x="14" y="41"/>
+	<e:Image id="dushenFlag" x="-27" y="3" source="hhdz_shensuanzi_flag_png" visible="false"/>
+	<e:Image id="fuhaoFlag" x="-27" y="3" source="hhdz_dafuhao_flag_png" visible="false"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

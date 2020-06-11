@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DepositSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="rank_frame" x="146" y="57" scaleX="1" scaleY="1"/>
+		<e:Image source="bank_frame" x="191" y="138" scaleX="1" scaleY="1"/>
+		<e:Image id="titleImg" source="title_frame" x="409" y="46" scaleX="1" scaleY="1"/>
+		<e:Image source="deposit_title" x="624" y="64" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="depositBtn" label="" anchorOffsetX="145" anchorOffsetY="39.5" imageLabelPath="deposit_button_label" x="667.32" y="642.98" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_button" source.down="bank_button" source.disabled="bank_button"/>
+				<e:Label id="labelDisplay" horizontalCenter="-12" verticalCenter="-9" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="closeBtn" label="" x="1127" y="75" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_close" source.down="rank_close" source.disabled="rank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="maxBtn" label="" x="1011" y="430" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bank_max" source.down="bank_max" source.disabled="bank_max"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image source="bank_balance" x="744" y="180" scaleX="1" scaleY="1"/>
+		<e:Image source="current_oins" x="224" y="180" scaleX="1" scaleY="1"/>
+		<e:Image source="bank_text_frame" x="306" y="285" scaleX="1" scaleY="1"/>
+		<e:Image source="deposit_lable" x="331" y="298" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="currentLabel" text="99999999999" textAlign="center" verticalAlign="middle" font="bank_fnt_fnt" y="182" width="242" height="34" x="370" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="balanceLabel" text="99999999999" textAlign="center" verticalAlign="middle" font="bank_fnt_fnt" y="182" width="242" height="34" x="885" scaleX="1" scaleY="1"/>
+		<ns1:SettingSlider id="coinSlider" enabled="true" skinName="SetSliderSkin" x="317" y="425" value="0" maximum="100"/>
+		<e:EditableText id="editable" width="605.33" height="40" text="0" x="405" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0xfff39c" anchorOffsetX="0" verticalAlign="middle" y="294" scaleX="1" scaleY="1"/>
+		<e:Label text="(零)" y="351" fontFamily="Microsoft YaHei" x="642" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

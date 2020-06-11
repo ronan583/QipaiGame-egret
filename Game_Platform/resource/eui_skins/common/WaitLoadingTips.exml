@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaitLoadingTipsSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1664bb8db88" ></w:Config>
+	<e:Image id="bg" scale9Grid="17,15,69,25" anchorOffsetX="0" width="179.79" horizontalCenter="8" verticalCenter="0.5" height="61" source=""/>
+	<e:Image id="loadIcon" anchorOffsetX="17.5" anchorOffsetY="17.5" x="590.5" y="358.5" source=""/>
+	<e:Label id="tipLabel" text="Label11111" x="617.58" size="22" textAlign="left" verticalCenter="0"/>
+</e:Skin>

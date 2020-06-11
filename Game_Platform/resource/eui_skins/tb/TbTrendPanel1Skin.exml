@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbTrendPanel1Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tbGame_json.TbTrendBg" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="sizeGroup" x="272" y="220" anchorOffsetY="0" anchorOffsetX="0" width="815" height="64">
+		<e:Image source="tbGame_json.tbBig" x="33" y="21" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="43" y="31" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="53" y="41" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="63" y="51" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="73" y="61" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="83" y="71" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="93" y="81" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="103" y="91" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="113" y="101" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="123" y="111" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="133" y="121" scaleX="1" scaleY="1"/>
+		<e:Image source="tbGame_json.tbBig" x="143" y="131" scaleX="1" scaleY="1"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" paddingLeft="7" gap="12.9"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="totalGroup" x="272" y="288" anchorOffsetY="0" anchorOffsetX="0" width="815" height="64">
+		<e:Image x="14" y="8" source="tbGame_json.tbBig3"/>
+		<e:Image source="tbGame_json.tbBig3" x="24" y="18"/>
+		<e:Image source="tbGame_json.tbBig3" x="34" y="28"/>
+		<e:Image source="tbGame_json.tbBig3" x="44" y="38"/>
+		<e:Image source="tbGame_json.tbBig3" x="54" y="48"/>
+		<e:Image source="tbGame_json.tbBig3" x="64" y="58"/>
+		<e:Image source="tbGame_json.tbBig3" x="74" y="68"/>
+		<e:Image source="tbGame_json.tbBig3" x="84" y="78"/>
+		<e:Image source="tbGame_json.tbBig3" x="94" y="88"/>
+		<e:Image source="tbGame_json.tbBig3" x="104" y="98"/>
+		<e:Image source="tbGame_json.tbBig3" x="114" y="108"/>
+		<e:Image source="tbGame_json.tbBig3" x="124" y="118"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" paddingLeft="7" gap="12.9"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="tb1Group" x="272" y="357" anchorOffsetY="0" anchorOffsetX="0" width="815" height="64">
+		<e:Image source="tbGame_json.tbB3" x="6" y="27"/>
+		<e:Image source="tbGame_json.tbB3" x="16" y="37"/>
+		<e:Image source="tbGame_json.tbB3" x="26" y="47"/>
+		<e:Image source="tbGame_json.tbB3" x="36" y="57"/>
+		<e:Image source="tbGame_json.tbB3" x="46" y="67"/>
+		<e:Image source="tbGame_json.tbB3" x="56" y="77"/>
+		<e:Image source="tbGame_json.tbB3" x="66" y="87"/>
+		<e:Image source="tbGame_json.tbB3" x="76" y="97"/>
+		<e:Image source="tbGame_json.tbB3" x="86" y="107"/>
+		<e:Image source="tbGame_json.tbB3" x="96" y="117"/>
+		<e:Image source="tbGame_json.tbB3" x="106" y="127"/>
+		<e:Image source="tbGame_json.tbB3" x="116" y="137"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="4" paddingLeft="4"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="tb2Group" x="272" y="426" anchorOffsetY="0" anchorOffsetX="0" width="815">
+		<e:Image source="tbGame_json.tbB3" x="6" y="27"/>
+		<e:Image source="tbGame_json.tbB3" x="16" y="37"/>
+		<e:Image source="tbGame_json.tbB3" x="26" y="47"/>
+		<e:Image source="tbGame_json.tbB3" x="36" y="57"/>
+		<e:Image source="tbGame_json.tbB3" x="46" y="67"/>
+		<e:Image source="tbGame_json.tbB3" x="56" y="77"/>
+		<e:Image source="tbGame_json.tbB3" x="66" y="87"/>
+		<e:Image source="tbGame_json.tbB3" x="76" y="97"/>
+		<e:Image source="tbGame_json.tbB3" x="86" y="107"/>
+		<e:Image source="tbGame_json.tbB3" x="96" y="117"/>
+		<e:Image source="tbGame_json.tbB3" x="106" y="127"/>
+		<e:Image source="tbGame_json.tbB3" x="116" y="137"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="4" paddingLeft="4"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="tb3Group" x="272" y="495" anchorOffsetY="0" anchorOffsetX="0" width="815">
+		<e:Image source="tbGame_json.tbB3" x="6" y="27"/>
+		<e:Image source="tbGame_json.tbB3" x="16" y="37"/>
+		<e:Image source="tbGame_json.tbB3" x="26" y="47"/>
+		<e:Image source="tbGame_json.tbB3" x="36" y="57"/>
+		<e:Image source="tbGame_json.tbB3" x="46" y="67"/>
+		<e:Image source="tbGame_json.tbB3" x="56" y="77"/>
+		<e:Image source="tbGame_json.tbB3" x="66" y="87"/>
+		<e:Image source="tbGame_json.tbB3" x="76" y="97"/>
+		<e:Image source="tbGame_json.tbB3" x="86" y="107"/>
+		<e:Image source="tbGame_json.tbB3" x="96" y="117"/>
+		<e:Image source="tbGame_json.tbB3" x="106" y="127"/>
+		<e:Image source="tbGame_json.tbB3" x="116" y="137"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" gap="4" paddingLeft="4"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="closeBtn" source="tbGame_json.closeBtn" x="1009" y="152"/>
+</e:Skin>

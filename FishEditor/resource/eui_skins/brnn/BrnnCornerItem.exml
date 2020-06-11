@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnCornerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:brnn="game.brnn.*" xmlns:ns1="*" >
+	<w:Config id="16ad393dcbc" ></w:Config>
+	<e:Image y="0" source="roomRes_json.brnnRoomBG"/>
+
+	<brnn:BrnnCornerPanel id="cornerPanel" x="0" y="0.63" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="620"/>
+	<ns1:IButton id="enterGameBtn" label="" anchorOffsetX="54" anchorOffsetY="29.04" x="550" y="243.04">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="roomRes_json.enterRoomBtn" source.down="roomRes_json.enterRoomBtn" source.disabled="roomRes_json.enterRoomBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:bjl="game.bjl.*"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<e:BitmapLabel id="recountLabel" width="92.01" height="33.63" x="544" y="6.11" font="number_max_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" textAlign="center"/>
+	<e:Group x="13.6" y="228.49">
+		<e:Image x="0" y="-3" rotation="0" scaleX="0.9" scaleY="0.9" anchorOffsetX="0" width="30" anchorOffsetY="0" height="33" source="roomRes_json.spade_icon"/>
+		<e:Label id="spadeNumLabel" text="3/20" x="31" y="2" size="20" bold="true" fontFamily="Microsoft YaHei" textColor="0xd6d4d4"/>
+		<e:Image x="101" y="2" rotation="0" scaleX="0.9" scaleY="0.9" anchorOffsetX="0" width="30" anchorOffsetY="0" height="33" source="roomRes_json.heart_icon"/>
+		<e:Label id="heartNumLabel" text="5/20" x="134" y="2" size="20" bold="true" fontFamily="Microsoft YaHei" textColor="0xd6d4d4"/>
+		<e:Image x="206" y="0" rotation="0" scaleX="0.9" scaleY="0.9" anchorOffsetX="0" width="30" anchorOffsetY="0" height="35" source="roomRes_json.club_icon"/>
+		<e:Label id="clubNumLabel" text="6/20" x="241" y="2" size="20" bold="true" fontFamily="Microsoft YaHei" textColor="0xd6d4d4"/>
+		<e:Image x="311" y="0" rotation="0" scaleX="0.9" scaleY="0.9" anchorOffsetX="0" width="30" anchorOffsetY="0" height="35" source="roomRes_json.diamond_icon"/>
+		<e:Label id="diamondNumLabel" text="6/20" x="346" y="3" size="20" bold="true" fontFamily="Microsoft YaHei" textColor="0xd6d4d4"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+
+	<e:Label text="限红1-10000" x="221" y="8.52" size="22" bold="true" fontFamily="Microsoft YaHei" textColor="0xff0808"/>
+	<e:Label id="statusLabel" text="正在结算" x="454.35" y="7.52" size="22" bold="true" textColor="0xD6B660" fontFamily="Microsoft YaHei"/>
+	<e:BitmapLabel id="roomLevelLabel" text="普通场1" verticalAlign="middle" anchorOffsetX="0" textAlign="center" scaleX="0.9" scaleY="0.9" y="8" x="12.34" font="RoomCornerLabelFont_fnt" anchorOffsetY="0"/>
+	
+	
+	
+	
+</e:Skin>

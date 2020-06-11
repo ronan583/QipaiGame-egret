@@ -1,0 +1,14 @@
+{"file":"candyBank.png","frames":{
+"tgpd_help_ruleTitle":{"x":716,"y":677,"w":128,"h":59,"offX":0,"offY":0,"sourceW":128,"sourceH":59},
+"tgpd_bank_balance":{"x":846,"y":763,"w":140,"h":34,"offX":0,"offY":0,"sourceW":140,"sourceH":34},
+"tgpd_bank_bg":{"x":1,"y":1,"w":917,"h":614,"offX":0,"offY":0,"sourceW":917,"sourceH":614},
+"tgpd_bank_bg2":{"x":1,"y":617,"w":713,"h":76,"offX":0,"offY":0,"sourceW":713,"sourceH":76},
+"tgpd_bank_close":{"x":924,"y":686,"w":63,"h":66,"offX":0,"offY":0,"sourceW":63,"sourceH":66},
+"tgpd_bank_current":{"x":805,"y":799,"w":140,"h":34,"offX":0,"offY":0,"sourceW":140,"sourceH":34},
+"tgpd_bank_max":{"x":865,"y":617,"w":118,"h":67,"offX":0,"offY":0,"sourceW":118,"sourceH":67},
+"tgpd_bank_progress":{"x":1,"y":763,"w":632,"h":23,"offX":0,"offY":0,"sourceW":632,"sourceH":23},
+"tgpd_bank_progressbg":{"x":1,"y":738,"w":632,"h":23,"offX":0,"offY":0,"sourceW":632,"sourceH":23},
+"tgpd_bank_scale":{"x":1,"y":695,"w":653,"h":41,"offX":0,"offY":0,"sourceW":653,"sourceH":41},
+"tgpd_bank_slider":{"x":846,"y":686,"w":76,"h":75,"offX":0,"offY":0,"sourceW":76,"sourceH":75},
+"tgpd_bank_withdraw":{"x":716,"y":617,"w":147,"h":58,"offX":0,"offY":0,"sourceW":147,"sourceH":58},
+"tgpd_bank_withdrawbtn":{"x":635,"y":738,"w":168,"h":72,"offX":0,"offY":0,"sourceW":168,"sourceH":72}}}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PdkZJ" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="zjcx_json.zjcx_bg3" verticalCenter="0" horizontalCenter="0"/>
+	<e:Scroller id="scroller" width="945.03" height="358" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-1.5" y="230" alpha="1">
+		<e:Group id="viewport" anchorOffsetX="0" width="946.03" x="190.91" y="0" height="358" alpha="1" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+		</e:layout>
+			<ns1:PdkRecordBar width="920" height="50" x="14" y="-36" skinName="PdkRecordBarSkin"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Label text="小提示：仅显示最近十条记录" x="166" y="596" size="21" fontFamily="Microsoft YaHei" textColor="0xFEF6C0"/>
+	<e:Image source="zjcx_json.zjcx_sy" x="979" y="184"/>
+	<e:Image id="roomLab" source="zjcx_json.zjcx_room" x="423" y="182"/>
+	<e:Image source="zjcx_json.zjcx_time" x="243" y="182"/>
+	<e:Image id="timeLab" source="zjcx_json.zjcx_title" verticalCenter="-232" horizontalCenter="0.5"/>
+	<e:Image id="closeBtn" source="zjcx_json.zjcx_close_Btn2" x="1013" y="103"/>
+	<e:Image source="zjcx_json.zjcx_diFen" x="616" y="181"/>
+	<e:Image source="zjcx_json.zjcx_yuPai" x="800" y="182"/>
+</e:Skin>

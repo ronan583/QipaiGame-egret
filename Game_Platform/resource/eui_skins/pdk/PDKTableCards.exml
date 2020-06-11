@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDKTableCardsSkin" width="400" height="121" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e9dd0f117" ></w:Config>
+	<e:Group id="cardGroup" anchorOffsetY="0" left="0" right="0" top="0" bottom="0">
+		<ns1:DDZTableCard xmlns:ns1="*" y="0" right="140"/>
+		<ns1:DDZTableCard xmlns:ns1="*" y="0" right="108"/>
+		<ns1:DDZTableCard xmlns:ns1="*" y="0" right="72"/>
+		<ns1:DDZTableCard xmlns:ns1="*" y="0" right="36"/>
+		<ns1:DDZTableCard xmlns:ns1="*" y="0" right="0"/>
+	</e:Group>
+	<e:Image id="cardTypeAnim" y="30" x="151" source="pdk_battle_json.pdk_3band2"/>
+</e:Skin>

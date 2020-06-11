@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmBankerHeadSkin" width="470" height="68" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="headBg" source="bcbm_game_json.bcbm_player_headbgbanker" x="-0.76" y="-13.13"/>
+	<e:Label id="nameLabel" text="user1234" x="68.64" y="23.69" anchorOffsetX="0" width="178.67" size="25" fontFamily="Microsoft YaHei"/>
+	<e:BitmapLabel id="goldNum" width="145.33" height="28.67" x="241.67" y="28.33" anchorOffsetX="0" anchorOffsetY="0" text="3,345.123亿万" font="vbcbm_s_fnt"/>
+	<e:Image id="headImg" width="46.67" height="44" x="15.01" y="11.69" anchorOffsetX="0" anchorOffsetY="0" source="gp_head_1"/>
+	<e:Image id="bankerIcon" source="bcbm_game_json.bcbm_bankericon" x="356.69" y="2"/>
+</e:Skin>

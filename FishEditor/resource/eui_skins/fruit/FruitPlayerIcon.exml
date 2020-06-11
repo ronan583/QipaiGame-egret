@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitPlayerIconSkin" width="149" height="173" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16942797b09" ></w:Config>
+	<e:Image id="headImg" source="icon_0_png" y="12" scaleX="1.2" scaleY="1.2" x="18" anchorOffsetX="0" width="89" anchorOffsetY="0" height="90.67"/>
+	<e:Image x="13" y="8" source="f_headframe"/>
+	<e:Image id="headMask" x="20.8" y="11" source="f_headmask"/>
+	<e:Label id="moneyLabel" text="0.00" x="15" y="111" anchorOffsetX="0" width="119" verticalAlign="middle" textAlign="center" size="25" textColor="0xf7cf88" height="25" visible="false"/>
+	<e:Image id="waitForPlayer" x="37" y="28.4" source="f_headwait" visible="false"/>
+	<e:Label id="nameLabel" text="" x="4" y="139" anchorOffsetX="0" width="141" verticalAlign="middle" textAlign="center" visible="false"/>
+</e:Skin>

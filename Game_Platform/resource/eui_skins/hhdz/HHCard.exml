@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HHCardSkin" width="111" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16791906d73" ></w:Config>
+	<e:Image id="bg" y="0" x="0" width="111" height="141" source="hhdz_game_json.hhdz_desk004"/>
+
+
+
+
+
+
+</e:Skin>

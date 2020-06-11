@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzCuopaiSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16cc58f046c" ></w:Config>
+	<e:Group id="cardGroup" width="173" height="51" x="167.5" y="36" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.5" scaleY="0.5">
+		<e:Image id="cardNumImg" x="172" y="6.5" rotation="90" source="plist_puke_value_0_3"/>
+		<e:Image id="cardFlowerImg" x="118" y="4.5" rotation="90" source="csp_fangkuai"/>
+	</e:Group>
+	<e:Rect id="maskRect" width="73" height="56" x="169" y="-0.25" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="cardImg" width="95" height="130" x="197" y="61" source="oc_12" anchorOffsetY="65" rotation="0" anchorOffsetX="48"/>
+</e:Skin>

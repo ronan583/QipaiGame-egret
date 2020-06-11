@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ByNoticeChangeFishSkin" width="136" height="136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16d559cc897" ></w:Config>
+	<e:Image source="lock_head_change_bg"/>
+	<e:Image source="lock_head_change_circle" y="67" x="68" anchorOffsetX="56" anchorOffsetY="55"/>
+	<e:Image source="lock_head_change" y="13" x="10"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeRecordsBarSkin" width="890" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1664a331c8e" ></w:Config>
+	<e:Image id="bgImage" width="890" height="45" scale9Grid="6,6,41,41" source="exchange_bg" x="0" y="0"/>
+	<e:Label id="exchangeId" text="123456789" x="11.99" size="22" textAlign="left" textColor="0xffffff" fontFamily="SimHei" y="12"/>
+	<e:Label id="exchangeType" text="支付宝" x="265.59" size="22" textAlign="right" textColor="0xffffff" fontFamily="SimHei" y="12"/>
+	<e:Label id="exchangeMoney" text="99999" x="397.5" size="22" textAlign="center" anchorOffsetX="0" width="100" anchorOffsetY="0" height="24" textColor="0xffffff" fontFamily="SimHei" y="11"/>
+	<e:Label id="exchangeTime" text="20-20 23:22:22" x="555.48" size="22" textAlign="center" textColor="0xffffff" fontFamily="SimHei" y="12"/>
+	<e:Label id="exchangeState" text="兑换状态" x="773.15" size="22" textColor="0xffffff" fontFamily="SimHei" y="12"/>
+	<e:Image source="record_line" y="39" horizontalCenter="0"/>
+</e:Skin>

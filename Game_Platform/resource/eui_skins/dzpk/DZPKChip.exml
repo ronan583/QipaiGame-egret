@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZPKChipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="34">
+	<w:Config id="1678dc9251c" ></w:Config>
+	<e:Image source="ndzpk_gold_bg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="goldImg" source="ndzpk_chip_gold" horizontalCenter="-48" verticalCenter="0.5" anchorOffsetX="15" anchorOffsetY="15"/>
+	<e:Label id="gold" text="90000" width="65" height="25" textAlign="center" verticalAlign="middle" size="20" fontFamily="Microsoft YaHei" textColor="0x7ed0aa" left="35" verticalCenter="0"/>
+</e:Skin>

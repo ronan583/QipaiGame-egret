@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZJHPlayerStatusSkin" width="200" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16634cad647" ></w:Config>
+	<e:Image id="kanpaiStatus" horizontalCenter="0" verticalCenter="0" source="flag_see"/>
+	<e:Image id="qipaiStatus" horizontalCenter="0" verticalCenter="0" source="flag_drop"/>
+	<e:Image id="shibaiStatus" horizontalCenter="0" verticalCenter="0" source="flag_out"/>
+</e:Skin>

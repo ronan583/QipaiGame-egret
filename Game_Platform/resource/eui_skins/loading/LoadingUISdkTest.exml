@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingUISdkTestSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="bgimg" horizontalCenter="0" source="gpn_loading_bg2_jpg"/>
+	<ns1:DragonAnim id="loadingAnim" width="1334" height="750" aligntype="middle" anim="loading_sdk" horizontalCenter="0"/>
+	<e:Image source="loading_label_bg_png" left="0" right="0"/>
+	<e:Group width="782" height="46" y="656" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Label id="tipsLabel" text="大牌要你命，小牌能救命" y="-44" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="25" textColor="0xecbe68" verticalAlign="middle" textAlign="center" width="1000" x="-109"/>
+		<e:Image y="30" source="gpn_loading_bg_png" x="-101"/>
+		<e:Label text="游戏正在启动中，请稍等片刻" y="56" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="25" verticalAlign="middle" textAlign="center" width="1334" textColor="0x837f7c" horizontalCenter="0"/>
+	</e:Group>
+	<e:Label id="versionLabel" text="2.0.1.5" fontFamily="Microsoft YaHei" size="25" right="10" bottom="5"/>
+	<e:Group id="barGroup" width="1334" height="98.48" x="0" y="626.76" anchorOffsetY="0">
+		<e:Image id="progressbg" source="loading_sdk_bar_bg_png" x="0" y="29.24000000000001" scaleX="1" scaleY="1" width="1334"/>
+		<e:Image id="progressbar" source="loading_sdk_bar_png" x="0" y="29.24000000000001" scaleX="1" scaleY="1" width="1334"/>
+		<e:Rect id="maskRect" width="10" height="40" anchorOffsetX="0" anchorOffsetY="0" x="0" y="29.24000000000001" scaleX="1" scaleY="1"/>
+		<e:Label id="progressLabel" text="100%" y="-4.329999999999927" scaleX="1" scaleY="1" fontFamily="Microsoft YaHei" size="24" verticalAlign="middle" textAlign="center" width="100" textColor="0xf7cc10" right="0" x="958"/>
+	</e:Group>
+</e:Skin>

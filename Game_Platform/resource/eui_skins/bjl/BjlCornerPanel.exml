@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlCornerPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*"  width="1336" height="400">
+	<w:Config id="168d6dd039e" ></w:Config>
+
+
+
+
+
+
+
+
+
+	<bjl:BjlResultRoad id="resultRoad" x="3" y="4" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" />
+	<e:Image x="6" y="116" source="label_zpl_simple" scaleX="1.5" scaleY="1.5"/>
+	
+	
+	
+	
+	<e:Scroller width="738" height="310.61" x="595.03" y="3.04" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group>
+
+
+
+			<e:Group x="0" y="0" scaleX="1" scaleY="1">
+				<bjl:BigRoad id="bigRoad" x="0" y="-530" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+				<bjl:BjlDyzRoad id="dyzRoad" x="0" y="-398" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+				<bjl:BjlSmallRoad id="smallRoad" x="0" y="-263.99999999999994" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+				<bjl:BjlYueyouRoad id="yueyouRoad" x="0" anchorOffsetX="0" anchorOffsetY="0" y="-131.99999999999994" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:VerticalLayout gap="-6"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+
+		</e:Group>
+	</e:Scroller>
+	<e:Group width="1330" height="86" x="3" y="310" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="bjl_trend_bar" anchorOffsetX="0" width="1319.67"/>
+		<e:Image x="24" y="18" source="label_zhuang"/>
+		<e:BitmapLabel id="zhuangLabel" width="72" height="38" x="55" y="14" text="10" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="bjl_zhuang_fnt"/>
+		<e:Image x="131.6" y="18" source="label_xian"/>
+		<e:BitmapLabel id="xianLabel" width="71" height="38" x="167.6" y="14" text="13" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="bjl_xian_fnt"/>
+		<e:Image x="240.26" y="18" source="icon_ping" width="27" height="28"/>
+		<e:BitmapLabel id="heLabel" width="69" height="38" x="276.26" y="14" text="13" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="bjl_ping_fnt"/>
+		<e:Image x="344.26" y="18" source="label_zhuangdui"/>
+		<e:BitmapLabel id="zhuangduiLabel" width="67" height="38" x="404.26" y="14" text="13" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="bjl_zhuang_fnt"/>
+		<e:Image x="473.41" y="18" source="label_xiandui"/>
+		<e:BitmapLabel id="xianduiLabel" width="82" height="38" x="534.41" y="14" text="13" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="bjl_xian_fnt"/>
+		<e:BitmapLabel id="totalRoundLabel" width="71" height="38" x="710.08" y="14" text="13" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="bjl_zhong_fnt"/>
+		<e:Image x="621.08" y="17" source="toltleRountLabel"/>
+		<e:Image x="918.06" y="17.38" source=""/>
+		<e:Image x="1007.37" y="18.56" source="hlssm_xjz_1_1"/>
+		<e:Image x="1041.37" y="18.56" source="hlssm_xjz_1_2"/>
+		<e:Image x="1075.85" y="18.56" source="hlssm_xjz_2_3"/>
+		<e:Image x="1111.39" y="16.74" source=""/>
+		<e:Image x="1200.7" y="17.92" source="hlssm_xjz_1_1"/>
+		<e:Image x="1234.7" y="17.92" source="hlssm_xjz_1_2"/>
+		<e:Image x="1269.18" y="17.92" source="hlssm_xjz_2_3"/>
+	</e:Group>
+</e:Skin>

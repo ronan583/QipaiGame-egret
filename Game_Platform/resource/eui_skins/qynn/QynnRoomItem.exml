@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QynnRoomItemSkin" width="250" height="455" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16bcc0ace65" ></w:Config>
+	<e:Image id="freeImg" y="347" source="qznnn_mianfei" x="70"/>
+	<e:Image id="stateImg" y="442" source="qznnn_baomao" x="98"/>
+	<e:Group id="infoGroup" width="133" height="41" y="327" anchorOffsetX="0" anchorOffsetY="0" x="59">
+		<e:Image source="qznnn_zhuanru" x="12"/>
+		<e:Image x="19" y="22" source="qznnn_dizhu"/>
+		<e:BitmapLabel id="maxLimitLabel" width="55" height="17" x="72" y="2" font="qznn_roomfnt_fnt" anchorOffsetX="0" anchorOffsetY="0" text="10y"/>
+		<e:BitmapLabel id="dizhuLabel" width="55" height="17" x="69" y="23" font="qznn_roomfnt_fnt" anchorOffsetX="0" anchorOffsetY="0" text="1y"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,91 @@
+option java_package = "com.gp.game.message";
+
+//进入游戏
+message OPTreasureEnterGame{
+	required int32 gameLevel = 1;//房间类型
+}
+
+message OPTreasureEnterGameRet{
+	required int32 currentLayer = 1;//当前层 1=1层 2=2层 3=3层
+	required int64 totalMoney = 2;//余额
+	required int32 currentPassCount = 3;//当前过关图案的数量
+	required int32 totalPassCount = 4;//总过关图案数量
+	required int64 rewardPool = 5;//奖池
+	required int64 stake = 6;//注数
+	required int32 line = 7;//单线点数
+	required int32 gameLevel = 8;//房间类型
+	required int64 winMoney = 9;//输赢的钱
+}
+
+//设置注值
+message OPTreasureStake{
+	required int64 money = 1;//金额
+}
+message OPTreasureStakeRet{
+	required int64 money = 1;//金额
+}
+
+//设置线路值
+message OPTreasureLine{
+	required int32 value = 1;//线路值
+}
+
+message OPTreasureLineRet{
+	required int32 value = 1;//线路值
+}
+
+//开始游戏
+message OPTreasureStartGame{
+	required string version = 1;//版本
+}
+
+message OPTreasureStartGameRet{
+	required int32 currentLayer = 1;//当前层 1=1层 2=2层 3=3层
+	required int32 currentPassCount = 2;//当前过关图案的数量
+	required int32 totalPassCount = 3;//总过关图案数量
+	required int32 addPassCount = 4;//本局过关图标数量
+	required int64 totalMoney = 5;//余额
+	repeated OPTreasureEliminateInfo eliminateInfos = 6;//消除谈过个数 集合有几个数就是消除几次
+	optional OPTreasureRewardPoint rewardPoint = 7;//最后奖池关卡
+	required int64 winMoney = 8;//输赢的钱
+}
+message OPTreasureEliminateInfo {
+	required int32 eliminateCount = 1;//消除糖果个数
+	required int32 TreasureId = 2;//玉石id
+	required int64 money = 3;//添加的金额
+}
+
+//退出游戏
+message OPTreasureExitGame{
+	required bool isSave = 1;//是否保存记录 true 保存  false 不保存
+}
+
+message OPTreasureExitGameRet{
+	required int32 result = 1;//退出成功
+}
+
+//奖池推送
+message OPTreasureRewardPoolPush{
+	required int64 rewardPoolMoney = 1;//奖池1
+}
+
+//最后关卡
+message OPTreasureRewardPoint{
+	repeated int64 rewards = 1;//奖池金额
+	required int32 index = 2;//中奖集合下标
+	required int64 totalMoney = 3;//余额
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

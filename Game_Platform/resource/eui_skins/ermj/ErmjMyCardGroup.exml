@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjMyCardGroupSkin" width="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ermj="game.ermj.*" >
+	<w:Config id="167bda9c771" ></w:Config>
+	<e:Group id="holdGroup" y="3" x="47.02">
+		<ermj:ErmjMyCard x="0" y="0"/>
+		<ermj:ErmjMyCard x="88" y="0"/>
+		<ermj:ErmjMyCard x="176" y="0"/>
+		<ermj:ErmjMyCard x="264" y="0"/>
+		<ermj:ErmjMyCard x="352" y="0"/>
+		<ermj:ErmjMyCard x="440" y="0"/>
+		<ermj:ErmjMyCard x="528" y="0"/>
+		<ermj:ErmjMyCard x="616" y="0"/>
+		<ermj:ErmjMyCard x="704" y="0"/>
+		<ermj:ErmjMyCard x="792" y="0"/>
+		<ermj:ErmjMyCard x="880" y="0"/>
+		<ermj:ErmjMyCard x="968" y="0"/>
+		<ermj:ErmjMyCard x="1056" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+
+	</e:Group>
+	<ermj:ErmjMyCard id="drawedCard" right="0" verticalCenter="0"/>
+</e:Skin>

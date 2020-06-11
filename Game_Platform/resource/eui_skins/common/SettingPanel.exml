@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166405aa8fa" ></w:Config>
+	<e:Image source="personalpreview_jpg" visible="false"/>
+	<e:Image horizontalCenter="9.5" verticalCenter="-14.5" source="gp_per_frame"/>
+
+
+	<e:Image x="623.12" y="201.7" source="gp_title_setting"/>
+	<ns1:IButton id="closeBtn" label="" x="842.66" y="196.62" width="50" height="50">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gp_close" source.down="gp_close" source.disabled="gp_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+
+
+	</ns1:IButton>
+
+
+
+	<e:Group x="488.33" y="274.7" anchorOffsetX="0" width="440">
+		<ns1:SettingProgressBar id="musicBar" width="363" height="30" x="16" y="2.66" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:SettingSlider id="musicSlider" width="381.34" height="32" x="2" y="3" anchorOffsetX="0" anchorOffsetY="0" enabled="true" value="0" maximum="100"/>
+
+	</e:Group>
+	<e:Group x="488.33" y="349.15" width="440" height="33">
+		<ns1:SettingProgressBar id="soundBar" width="363" height="30" x="16" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:SettingSlider id="soundSlider" width="381.34" height="32" x="2" y="-1" anchorOffsetX="0" anchorOffsetY="0" enabled="true"/>
+
+	</e:Group>
+	<ns1:IToggleSwitch id="effectSwitch" width="151" height="48" x="520.33" y="458.75" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+	<e:Group id="switchEffectBtn" width="154.67" height="69.33" x="611.64" y="408.01" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="closeImg" x="-1" y="0" scaleX="1" scaleY="1" source="gp_off"/>
+		<e:Image id="openImg" x="-1" y="-5.32" scaleX="1" scaleY="1" source="gp_on"/>
+	</e:Group>
+	<e:Image x="421.69" y="273.32" source="gp_music"/>
+	<e:Image x="421.02" y="346.7" source="gp_per_soundeffect"/>
+	<e:Image x="419.69" y="424.38" source="gp_per_effect"/>
+</e:Skin>

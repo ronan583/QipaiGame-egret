@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallGirlIconSkin" width="354.55" height="431.82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16b4d190206" ></w:Config>
+	<e:Image source="main_menu_icon2_png"/>
+	<e:Group id="animGroup" width="348.48" height="425.76" x="5" anchorOffsetX="0" anchorOffsetY="0" y="3.04">
+		<e:Rect id="maskRect" width="351.82" height="421.52" x="-4" y="3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image x="43.55" y="251.15" source="main_menu_icon1_png"/>
+</e:Skin>

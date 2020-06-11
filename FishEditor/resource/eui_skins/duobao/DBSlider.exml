@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DBSliderSkin" width="341.87" height="62.67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1695e6cc548" ></w:Config>
+	<e:Image x="45.56" y="16.69" source="duobao_xianScoreBg" anchorOffsetX="0" width="221"/>
+	<e:Rect id="sliderBarMask" width="184" height="22" x="65" y="22" anchorOffsetX="0"/>
+	<e:Image id="sliderBg" source="duobao_huadongBg1" x="65" y="22" height="22" anchorOffsetX="0" width="183"/>
+	<e:Image id="sliderBar" x="65" y="22" source="duobao_huadongBg2" height="22" scale9Grid="11,0,200,19" anchorOffsetX="0" width="183" anchorOffsetY="0"/>
+	<e:Button id="addBtn" label="" x="267.06" y="13.69" width="45" height="45">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="duobao_xianNum_add" source.down="duobao_xianNum_add" source.disabled="duobao_xianNum_add"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="sliderBtn" label="" x="67.5" y="34.2" anchorOffsetX="30" anchorOffsetY="21.5" scaleX="0.8" scaleY="0.8" width="60">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="duobao_huadongBt" source.down="duobao_huadongBt" source.disabled="duobao_huadongBt"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="subBtn" label="" x="-2.32" y="8.69" width="45" height="45">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="duobao_xianNum_sub" source.down="duobao_xianNum_sub" source.disabled="duobao_xianNum_sub"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

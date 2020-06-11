@@ -1,0 +1,166 @@
+option java_package = "com.gp.game.message";
+
+
+message OPPlayerInfo {
+	required int32 headNum = 1;//头像编号
+	required int32 headFrameNum = 2;//头像框编号
+	required string nickName = 3;//昵称
+	required int32 vipLevel	 = 4;//vip等级
+	required int64 money = 5;//余额
+	required int32 postion	 = 6;//位置
+	required int64 playerId	 = 7;//玩家id
+	required string city	 = 8;//城市
+	
+}
+
+//请求进入房间
+message OPEnterRoom{
+	required int32 gameType = 1;//游戏类型 
+	required int32 gameLevel = 2;//房间等级 初 中 高 
+}
+
+message OPEnterRoomRet{
+	required int32 gameType = 1;//游戏类型
+	required int32 gameLevel = 2;//房间等级 初 中 高  
+	required int32 status = 3;//房间状态
+	repeated OPPlayerInfo playerInfo = 4;//玩家信息
+	required int32 downTime = 5;//开始游戏倒计时 -1 未达到标准
+	optional int64 bottomBet = 6;//底注
+	optional int64 enterMinMoney = 7;//进入房间最低金额限制
+	optional int32 onlineCount = 8;//在线人数
+	optional int32 roomId = 9;//房间id
+}
+
+//在玩家在房间中推送通知
+message PushRoomStatus {
+	required int32 gameType = 1;//游戏类型  
+}
+
+//玩家重连 - 推送房间信息 -- 推送战斗信息
+message OPRoomReconnect {
+	required int32 gameType = 1;//游戏类型  
+}
+
+//请求进入房间
+message OPExitRoom{
+	required int32 gameType = 1;//游戏类型 
+}
+
+message OPExitRoomRet{
+	required int32 result = 1;//
+}
+
+//请求托管 
+message OPTrusteeship{
+	required int32 gameType = 1;//游戏类型 
+	required bool isTrusteeship = 2;//true 托管 false 取消托管
+}
+
+message OPTrusteeshipRet{
+	required int32 result = 1;//
+}
+
+//请求查看头像
+message OPSeeHead{
+	required int64 targetPlayerId = 1;//被查看的id
+}
+
+message OPSeeHeadRet{
+	required int32 headNum = 1;//头像编号
+	required int32 headFrameNum = 2;//头像框编号
+	required string nickName = 3;//昵称
+	required int32 vipLevel	 = 4;//vip等级
+	required int64 money = 5;//余额
+	optional string city = 6;//城市
+	required int32 level  = 7;//等级
+}
+
+//请求记录
+message OPRoomRecord{
+	required int32 gameType = 1;//游戏类型 
+}
+message OPRoomRecordRet{
+	required int32 gameType = 1;//游戏类型 
+	repeated OPRoomRecordInfo infos = 2;//记录
+}
+
+message OPRoomRecordInfo{
+	required string time = 1;// 时间 
+	required string room = 2;//房间
+	required int64 money = 3;//输赢
+	required string details = 4;//详情 字符串json
+}
+
+//请求房间限制信息
+message OPRoomMoneyRule{
+	required int32 gameType = 1;//游戏类型 0标识获取所有游戏 
+}
+message OPRoomMoneyRuleRet{
+	repeated OPRoomMoneyRuleInfo ruleInfo = 1;
+}
+
+message OPRoomMoneyRuleInfo{
+	required int32 gameType = 1;//游戏类型
+	required int32 gameLevel = 2;//房间类型
+	required int64 minMoney = 3;//最低进入限制 ==0 无限制
+	required int64 maxMoney = 4;//最大进入限制 ==0 无限制
+	required int64 bottomBet = 5;//底注
+}
+
+//存在房间推送
+message OPExistRoomInPush{
+	required int32 gameType = 1;//游戏类型 
+	required int32 gameLevel = 2;//房间等级 初 中 高 
+	required bool isforce = 3;//true 强制不让进入
+}
+
+//请求庄家信息
+message OPRoomBankerList {
+	required int32 gameType = 1;//游戏类型 
+	required int32 gameLevel = 2;//房间等级 初 中 高 
+}
+
+message OPRoomBankerListRet {
+	required int32 gameType = 1;//游戏类型 
+	required int32 gameLevel = 2;//房间等级 初 中 高 
+	repeated OPRoomBankerInfo bankerInfos = 3;//庄家信息
+}
+
+message OPRoomBankerInfo {
+	required string nickName = 1;//昵称
+	required int32 vipLevel	 = 2;//vip等级
+	optional int64 money = 3;//余额 只有当前庄家传值
+	required int32 totalRound	 = 4;//总局数
+	required int32 currentRound	 = 5;//当前拘束
+	required int64 cosMoney	 = 6;//输赢
+}
+
+//请求准备
+message OPRoomReady {
+	required bool isReady = 1;//true 准备  false 取消准备
+	required int32 gameType = 2;
+}
+//回复准备
+message OPRoomReadyRet {
+	required int64 playerId = 1;//玩家id
+	required bool isReady = 2;
+}
+
+//请求玩家游戏的历史纪录
+message OpRoomPlayerRecordInfo {
+	required int32 gameType =1 ;
+}
+
+message OpRoomPlayerRecordInfoRet {
+	repeated OPRoomRecordPlayerInfoList recordInfo =1 ; //集合中的一个数据表示一条记录
+	required int32 gameType = 2 ;
+}
+message  OPRoomRecordPlayerInfoList{
+	required int64 playerId = 1 ;
+	required int32 gameLevel = 3 ;
+	required string recordInfo = 4 ; //详细的记录
+	required string createTime = 5 ;
+	required int64 costMoney = 6 ;
+}
+
+

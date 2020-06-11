@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldWinRankItemSkin" width="965" height="82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1663f9e1f88" ></w:Config>
+	<e:Image id="top3Icon" source="rank_1" verticalCenter="0.5" horizontalCenter="-401.5"/>
+	<e:BitmapLabel id="rankNumLabel" width="150" height="59" text="12" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" font="ranklevelfnt_fnt" verticalCenter="0" horizontalCenter="-402.5"/>
+	<e:Image id="rank_content_bg" source="rank_content_bg" anchorOffsetX="0" anchorOffsetY="0" width="254" verticalCenter="2.5" horizontalCenter="300.5" scale9Grid="112,11,100,16"/>
+	<e:Image id="valueIcon" verticalCenter="2" source="rank_coin" horizontalCenter="196.5"/>
+	<e:BitmapLabel id="valueLabel" height="38" anchorOffsetX="0" anchorOffsetY="0" text="0.555555" scaleX="1" scaleY="1" textAlign="center" verticalAlign="middle" font="rank_fnt5_fnt" left="692" width="195.33" bottom="18"/>
+	<e:Label id="userAccountLabel" text="15454565855" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="156" anchorOffsetY="0" height="22" textAlign="left" verticalAlign="middle" textColor="0xffffff" horizontalCenter="-145.5" verticalCenter="-13"/>
+	<e:Label id="userIdLabe" text="ID:1234567889" size="24" textColor="0xcee3ff" fontFamily="Microsoft YaHei" width="175" height="22" textAlign="left" verticalAlign="middle" horizontalCenter="-136" verticalCenter="16"/>
+	<e:Image source="head_json.gp_head_bg" x="166" y="8" width="70" height="70"/>
+
+	<e:Image id="headIcon" x="167" y="5" source="gp_head_1" width="70" height="70"/>
+	<e:Image id="head_vip_k" x="155" y="-2" source="vip_k_1" width="90" height="90"/>
+
+	<e:Label id="rankLabel" text="财富" fontFamily="Microsoft YaHei" textColor="0xfff082" verticalCenter="0" verticalAlign="middle" textAlign="center" width="120" horizontalCenter="117.5"/>
+	<e:Image id="rank_self" source="mainlayer2_json.rank_self" x="171" y="8"/>
+	<e:Image source="rank_line" y="78" fillMode="scale" width="958" x="4"/>
+
+
+</e:Skin>

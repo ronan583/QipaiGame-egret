@@ -1,0 +1,11 @@
+{"file":"ermj_countdown.png","frames":{
+"6":{"x":32,"y":49,"w":30,"h":47,"offX":0,"offY":0,"sourceW":33,"sourceH":48},
+"7":{"x":102,"y":0,"w":24,"h":45,"offX":5,"offY":1,"sourceW":33,"sourceH":48},
+"8":{"x":0,"y":0,"w":32,"h":47,"offX":0,"offY":0,"sourceW":33,"sourceH":48},
+"9":{"x":95,"y":49,"w":29,"h":46,"offX":4,"offY":0,"sourceW":33,"sourceH":48},
+"0":{"x":34,"y":0,"w":32,"h":47,"offX":0,"offY":0,"sourceW":33,"sourceH":48},
+"1":{"x":0,"y":98,"w":19,"h":47,"offX":8,"offY":0,"sourceW":33,"sourceH":48},
+"2":{"x":68,"y":0,"w":32,"h":47,"offX":0,"offY":0,"sourceW":33,"sourceH":48},
+"3":{"x":0,"y":49,"w":30,"h":47,"offX":1,"offY":0,"sourceW":33,"sourceH":48},
+"4":{"x":64,"y":49,"w":29,"h":47,"offX":2,"offY":0,"sourceW":33,"sourceH":48},
+"5":{"x":95,"y":97,"w":28,"h":47,"offX":3,"offY":0,"sourceW":33,"sourceH":48}}}

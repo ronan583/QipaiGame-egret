@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QynnResultIconSkin" width="295" height="118" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16cc539356a" ></w:Config>
+	<ns1:DragonAnim id="typeAnim0" width="294" height="120" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_wuniu" isloop="false" playOnStage="false" scaleX="1.5" scaleY="1.5" x="-75" y="-31" isTouchByGroup="true" touchChildren="false" touchEnabled="false"/>
+	<ns1:DragonAnim id="typeAnim1" width="294" height="120" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_niu_anim1" isloop="false" playOnStage="false" scaleX="1.5" scaleY="1.5" x="-75" y="-31"  isTouchByGroup="true" touchChildren="false" touchEnabled="false"/>
+	<ns1:DragonAnim id="typeAnim2" width="294" height="120" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_niu_anim2" isloop="false" playOnStage="false" scaleX="1.5" scaleY="1.5" x="-75" y="-31"  isTouchByGroup="true" touchChildren="false" touchEnabled="false"/>
+	<ns1:DragonAnim id="typeAnim10" width="294" height="120" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_niuniu" isloop="false" playOnStage="false" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0"  isTouchByGroup="true" touchChildren="false" touchEnabled="false"/>
+	<ns1:DragonAnim id="typeAnim11" width="294" height="120" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_sizha" isloop="false" playOnStage="false" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0"  isTouchByGroup="true" touchChildren="false" touchEnabled="false"/>
+	<ns1:DragonAnim id="typeAnim12" width="294" height="120" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_wuhuaniu" isloop="false" playOnStage="false" scaleX="0.9" scaleY="0.9" horizontalCenter="0" verticalCenter="0"  isTouchByGroup="true" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

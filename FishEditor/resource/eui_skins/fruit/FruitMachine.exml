@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitMachineSkin" width="935.33" height="478" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1693f4051e6" ></w:Config>
+
+
+	<ns1:FruitIcon id="fruit1_1" width="133" height="135" x="75.68" y="0.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit1_2" width="133" height="135" x="75.68" y="146.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit1_3" width="133" height="135" x="75.68" y="292.05" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit2_1" width="133" height="135" x="233.68" y="0.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit2_2" width="133" height="135" x="233.68" y="146.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit2_3" width="133" height="135" x="233.68" y="291.05" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit3_1" width="133" height="135" x="390.68" y="0.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit3_2" width="133" height="135" x="390.68" y="146.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit3_3" width="133" height="135" x="390.68" y="291.05" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit4_1" width="133" height="135" x="548.68" y="0.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit4_2" width="133" height="135" x="548.68" y="146.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit4_3" width="133" height="135" x="548.68" y="291.05" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit5_1" width="133" height="135" x="708.68" y="0.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit5_2" width="133" height="135" x="708.68" y="146.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<ns1:FruitIcon id="fruit5_3" width="133" height="135" x="708.68" y="292.05" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<e:Image id="line1" x="30" y="205.02" source="nfruitLine_x1"/>
+	<e:Image id="line2" x="31" y="60.02" source="nfruitLine_x2"/>
+	<e:Image id="line3" x="29" y="346.02" source="nfruitLine_x3"/>
+	<e:Image id="line4" x="27" y="76.57" source="nfruitLine_x4"/>
+	<e:Image id="line5" x="31" y="63.7" source="nfruitLine_x5"/>
+	<e:Image id="line6" x="31" y="113.16" source="nfruitLine_x6"/>
+	<e:Image id="line7" x="31" y="220.02" source="nfruitLine_x7"/>
+	<e:Image id="line8" x="33" y="15.18" source="nfruitLine_x8"/>
+	<e:Image id="line9" x="27" y="14.75" source="nfruitLine_x9"/>
+	<ns1:FruitRoll id="fruitRoll1" x="77.33" y="19.59" visible="false"/>
+	<ns1:FruitRoll id="fruitRoll2" x="234.16" y="19.59" visible="false"/>
+	<ns1:FruitRoll id="fruitRoll3" width="135" height="375" x="389.33" y="20.87" visible="false"/>
+	<ns1:FruitRoll id="fruitRoll4" width="145" height="375" x="547.33" y="19.54" visible="false"/>
+	<ns1:FruitRoll id="fruitRoll5" width="135" height="375" x="708.36" y="20.87" visible="false"/>
+
+	<e:Group id="right" width="38.67" height="503.67" x="905.9" y="-7.98" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:FruitLineIcon id="flicon_r9" x="-24" y="15.03"/>
+		<ns1:FruitLineIcon id="flicon_r2" x="-24" y="57"/>
+		<ns1:FruitLineIcon id="flicon_r4" x="-24" y="98.95"/>
+		<ns1:FruitLineIcon id="flicon_r6" x="-24" y="160.35"/>
+		<ns1:FruitLineIcon id="flicon_r1" x="-24" y="202"/>
+		<ns1:FruitLineIcon id="flicon_r7" x="-24" y="244"/>
+		<ns1:FruitLineIcon id="flicon_r5" width="42" height="45" x="-24" y="300"/>
+		<ns1:FruitLineIcon id="flicon_r3" width="42" height="45" x="-22.67" y="342"/>
+		<ns1:FruitLineIcon id="flicon_r8" width="42" height="45" x="-22.67" y="384"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="left" width="38.67" height="503.67" x="27" y="-7.98" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:FruitLineIcon id="flicon_l9" x="-24" y="384"/>
+		<ns1:FruitLineIcon id="flicon_l2" x="-24" y="57"/>
+		<ns1:FruitLineIcon id="flicon_l4" x="-24" y="98.95"/>
+		<ns1:FruitLineIcon id="flicon_l6" x="-24" y="160.35"/>
+		<ns1:FruitLineIcon id="flicon_l1" x="-24" y="202"/>
+		<ns1:FruitLineIcon id="flicon_l7" x="-24" y="244"/>
+		<ns1:FruitLineIcon id="flicon_l5" width="42" height="45" x="-24" y="300"/>
+		<ns1:FruitLineIcon id="flicon_l3" width="42" height="45" x="-22.67" y="342"/>
+		<ns1:FruitLineIcon id="flicon_l8" width="42" height="45" x="-22.67" y="15"/>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="resultGroup" width="200" height="64" y="472.35" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="fruit_result_bg1_png" left="0" right="0" top="0" bottom="0"/>
+
+		<e:Group id="resultContentGroup" y="11" horizontalCenter="0">
+			<ns1:FruitResultIcon x="-113" y="0" scaleX="1" scaleY="1"/>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

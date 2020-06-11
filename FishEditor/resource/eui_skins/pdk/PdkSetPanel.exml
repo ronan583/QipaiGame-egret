@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PdkSetPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166405aa8fa" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="pdk_battle_json.pdk_set_frame" horizontalCenter="0" verticalCenter="0" x="296" y="133" scaleX="1" scaleY="1" />
+		<e:Image source="pdk_battle_json.pdk_set_title" y="64.7" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<ns1:IButton id="closeBtn" label="" x="1050" y="122">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_battle_json.pdk_close" source.down="pdk_battle_json.pdk_close" source.disabled="pdk_battle_json.pdk_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image source="pdk_battle_json.pdk_music" x="412" y="283"/>
+		<e:Image source="pdk_battle_json.pdk_effect" x="756" y="283"/>
+		<e:Image source="pdk_battle_json.pdk_mute" x="412" y="422"/>
+		<e:ToggleSwitch id="switchBgBtn" label="" x="493" y="258" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="pdk_battle_json.pdk_set_on" source.up="pdk_battle_json.pdk_set_off" source.down="pdk_battle_json.pdk_set_off" source.disabled="pdk_battle_json.pdk_set_on" left="0" right="0" verticalCenter="0"/>
+				<e:Image source="" source.up="" source.down="" source.disabled="" horizontalCenter.upAndSelected="-42" horizontalCenter.downAndSelected="-42" horizontalCenter.disabledAndSelected="-42" horizontalCenter="42" verticalCenter="-3"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" x="839" y="258" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="pdk_battle_json.pdk_set_on" source.up="pdk_battle_json.pdk_set_off" source.down="pdk_battle_json.pdk_set_off" source.disabled="pdk_battle_json.pdk_set_on" left="0" right="0" verticalCenter="0"/>
+				<e:Image source="" source.up="" source.down="" source.disabled="" horizontalCenter.upAndSelected="-42" horizontalCenter.downAndSelected="-42" horizontalCenter.disabledAndSelected="-42" horizontalCenter="42" verticalCenter="-3"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" x="493" y="399" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="pdk_battle_json.pdk_set_on" source.up="pdk_battle_json.pdk_set_off" source.down="pdk_battle_json.pdk_set_off" source.disabled="pdk_battle_json.pdk_set_on" left="0" right="0" verticalCenter="0"/>
+				<e:Image source="" source.up="" source.down="" source.disabled="" horizontalCenter.upAndSelected="-42" horizontalCenter.downAndSelected="-42" horizontalCenter.disabledAndSelected="-42" horizontalCenter="42" verticalCenter="-3"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+</e:Skin>

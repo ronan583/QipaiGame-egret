@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ddzBattleResult" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:ddz="game.ddz.*">
+	<e:Group width="1334" height="750" horizontalCenter="0">
+		<ns1:DragonAnim id="winAnim" width="500" height="100" x="441" y="332" scaleX="1" scaleY="1" aligntype="middle" anim="ddzwin" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+		<ns1:DragonAnim id="failAnim" width="500" height="100" x="441" y="332" scaleX="1" scaleY="1" touchChildren="false" touchEnabled="false" playOnStage="false" isloop="false" isTouchByGroup="true" aligntype="middle" anim="ddzfail"/>
+		<e:Group id="resultGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1">
+			<ns1:DragonAnim id="bgWinAnim" width="812" height="656" x="319" y="46" scaleX="1" scaleY="1" aligntype="middle" anim="ddzwinjiesuan" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:DragonAnim id="bgFailAnim" width="812" height="656" x="319" y="46" scaleX="1" scaleY="1" aligntype="middle" anim="ddzfailjiesuan" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label text="昵称" textColor="0xf7d991" size="24" fontFamily="Microsoft YaHei" horizontalCenter="-224" verticalCenter="-71" x="419" y="292" scaleX="1" scaleY="1"/>
+			<e:Label text="底分" textColor="0xf7d991" size="24" fontFamily="Microsoft YaHei" horizontalCenter="15" verticalCenter="-71" x="658" y="292" scaleX="1" scaleY="1"/>
+			<e:Label text="倍数" textColor="0xf7d991" size="24" fontFamily="Microsoft YaHei" horizontalCenter="183" verticalCenter="-71" x="826" y="292" scaleX="1" scaleY="1"/>
+			<e:Label text="金币" textColor="0xf7d991" size="24" fontFamily="Microsoft YaHei" horizontalCenter="362" verticalCenter="-71" x="1005" y="292" scaleX="1" scaleY="1"/>
+			<e:Group horizontalCenter="123" verticalCenter="64" x="340" y="337" scaleX="1" scaleY="1">
+			<e:layout>
+				<e:VerticalLayout gap="30"/>
+			</e:layout>
+			<ns1:DDZResultItem id="item1" width="899.09" height="48" x="218.64" y="-1.52" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:DDZResultItem id="item2" width="899.09" height="48" x="103" y="47" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:DDZResultItem id="item3" width="899.09" height="48" x="113" y="154.67" anchorOffsetX="0" anchorOffsetY="0"/>
+			</e:Group>
+			<ns1:IButton id="leaveBtn" label="" x="371.25" y="600.26" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_leave_btn" source.down="ddz_battle_json.ddz_leave_btn" source.disabled="ddz_battle_json.ddz_leave_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="continueBtn" label="" x="715.08" y="600.26" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_continue_btn" source.down="ddz_battle_json.ddz_continue_btn" source.disabled="ddz_battle_json.ddz_continue_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				<e:BitmapLabel id="leftTime" text="(11)" textAlign="center" verticalAlign="middle" font="ddz_countdown_fnt" verticalCenter="-3" horizontalCenter="96"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:DragonAnim id="lordAnim" width="270" height="334" x="41" y="272" scaleX="1" scaleY="1" aligntype="bottom" anim="ddz_dz_winlose" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:DragonAnim id="farmerAnim" width="272" height="328" x="41" y="272" scaleX="1" scaleY="1" aligntype="bottom" anim="ddz_nm_nan_winlose" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

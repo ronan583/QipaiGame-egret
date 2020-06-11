@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_projectutils" default="compile.module.projectutils">
+  <dirname property="module.projectutils.basedir" file="${ant.file.module_projectutils}"/>
+  
+  <property name="module.jdk.home.projectutils" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.projectutils" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.projectutils" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.projectutils" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="projectutils.output.dir" value="${module.projectutils.basedir}/out/production/ProjectUtils"/>
+  <property name="projectutils.testoutput.dir" value="${module.projectutils.basedir}/out/test/ProjectUtils"/>
+  
+  <path id="projectutils.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="projectutils.module.production.classpath">
+    <path refid="${module.jdk.classpath.projectutils}"/>
+    <path refid="library.commons-codec-1.12.classpath"/>
+  </path>
+  
+  <path id="projectutils.runtime.production.module.classpath">
+    <pathelement location="${projectutils.output.dir}"/>
+    <path refid="library.commons-codec-1.12.classpath"/>
+  </path>
+  
+  <path id="projectutils.module.classpath">
+    <path refid="${module.jdk.classpath.projectutils}"/>
+    <pathelement location="${projectutils.output.dir}"/>
+    <path refid="library.commons-codec-1.12.classpath"/>
+  </path>
+  
+  <path id="projectutils.runtime.module.classpath">
+    <pathelement location="${projectutils.testoutput.dir}"/>
+    <pathelement location="${projectutils.output.dir}"/>
+    <path refid="library.commons-codec-1.12.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.projectutils">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.projectutils">
+    <patternset refid="excluded.from.module.projectutils"/>
+  </patternset>
+  
+  <path id="projectutils.module.sourcepath">
+    <dirset dir="${module.projectutils.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.projectutils" depends="compile.module.projectutils.production,compile.module.projectutils.tests" description="Compile module ProjectUtils"/>
+  
+  <target name="compile.module.projectutils.production" depends="register.custom.compilers" description="Compile module ProjectUtils; production classes">
+    <mkdir dir="${projectutils.output.dir}"/>
+    <javac2 destdir="${projectutils.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.projectutils}/javac">
+      <compilerarg line="${compiler.args.projectutils}"/>
+      <bootclasspath refid="projectutils.module.bootclasspath"/>
+      <classpath refid="projectutils.module.production.classpath"/>
+      <src refid="projectutils.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.projectutils"/>
+    </javac2>
+    
+    <copy todir="${projectutils.output.dir}">
+      <fileset dir="${module.projectutils.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.projectutils.tests" depends="register.custom.compilers,compile.module.projectutils.production" description="compile module ProjectUtils; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.projectutils" description="cleanup module">
+    <delete dir="${projectutils.output.dir}"/>
+    <delete dir="${projectutils.testoutput.dir}"/>
+  </target>
+</project>

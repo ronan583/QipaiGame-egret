@@ -1,0 +1,707 @@
+{
+	"groups": [
+		{
+			"keys": "dzpkBtn_png,dzpkBtn_fnt,fire_tex_png,fire_mc_json,dzpkRoom_json,dzpk_btn_bet_fnt_fnt,dzpk_btn_bet_fnt_png,dzpk_fnt_0_fnt,dzpk_fnt_0_png,dzpk_dizhu_fnt,dzpk_dizhu_png,dzpk_follow_fnt_fnt,dzpk_follow_fnt_png,dzpkn_room_bg_jpg,dzpk_room_preview_png,dzpk_logoqd_ske_dbbin,dzpk_logoqd_tex_png,dzpk_logoqd_tex_json,dzpkroomfnt_png,dzpkroomfnt_fnt,dzpk_chujichang_ske_dbbin,dzpk_chujichang_tex_png,dzpk_npc_ske_dbbin,dzpk_npc_tex_png,dzpk_putongchang_guess_2_ske_dbbin,dzpk_putongchang_guess_2_tex_png,dzpk_quickstart_ske_dbbin,dzpk_quickstart_tex_png,dzpk_tiyanchang_guess_5_ske_dbbin,dzpk_tiyanchang_guess_5_tex_png,dzpk_zhongjichang_guess_4_ske_dbbin,dzpk_zhongjichang_guess_4_tex_png,dzpk_chujichang_tex_json,dzpk_putongchang_guess_2_tex_json,dzpk_quickstart_tex_json,dzpk_npc_tex_json,dzpk_tiyanchang_guess_5_tex_json,dzpk_zhongjichang_guess_4_tex_json,dzpkroomfnt2_png,dzpkroomfnt2_fnt,dzpk_help_bg_png,dzpk_help_close_png,dzpk_help_title_png,dzpk_bg_jpg,dzpk_game_json,dzpk_add_arrow_ske_dbbin,dzpk_add_arrow_tex_png,dzpk_add_arrow_tex_json,playcountdown_png,playcountdown_json,dzpk_youwin_ske_dbbin,dzpk_youwin_tex_png,dzpk_youwin_tex_json,dzpk_dapaijiafenlizi_ske_dbbin,dzpk_dapaijiafenlizi_tex_png,dzpk_dapaijiafenlizi_tex_json,dzpk_girl_ske_dbbin,dzpk_girl_tex_png,dzpk_hjtonghuashun_ske_dbbin,dzpk_hjtonghuashun_tex_png,dzpk_hulu_ske_dbbin,dzpk_hulu_tex_png,dzpk_girl_tex_json,dzpk_hjtonghuashun_tex_json,dzpk_hulu_tex_json,dzpk_fire_ske_dbbin,dzpk_fire_tex_png,dzpk_fire_tex_json,dzpk_allinfirebox_ske_dbbin,dzpk_allinfirebox_tex_json,dzpk_allinfirebox_tex_png,dzpk_bank_bg_png,dzpk_bank_bg2_png,dzpk_bank_close_png,dzpk_bank_draw_btn_png,dzpk_bank_input_bg_png,dzpk_bank_pro_bar_png,dzpk_bank_pro_bg_png,dzpk_bank_thumb_png,dzpk_bank_title_png,dzpk_help_content1_png,dzpk_help_content2_png,dzpk_setting_bg_png,dzpk_setting_effect_png,dzpk_setting_exit_png,dzpk_setting_music_png,dzpk_setting_off_png,dzpk_setting_on_png,dzpk_setting_sound_effect_png,dzpk_setting_title_png,dzpk_bank_max_png,dzpk_card_png,dzpk_jingang_ske_dbbin,dzpk_jingang_tex_json,dzpk_jingang_tex_png,dzpk_tonghuashun_ske_dbbin,dzpk_tonghuashun_tex_json,dzpk_tonghuashun_tex_png,dzpk_follow_fnt,dzpk_follow_png,dzpk_add_bet_bg_png,dzpk_top_coin_ske_dbbin,dzpk_top_coin_tex_png,dzpk_top_coin_tex_json,dzpk_allinfireboxInHead_tex_png,dzpk_allinfireboxInHead_tex_json,dzpk_allinfireboxInHead_ske_dbbin,dzpk_zjcx_lose_png,dzpk_zjcx_win_fnt,dzpk_zjcx_lose_fnt,dzpk_zjcx_win_png,dzpk_zjcx_json",
+			"name": "dzpk"
+		},
+		{
+			"keys": "dzpk_allin_boy_mp3,dzpk_allin_girl_mp3,dzpk_allin_mp3,dzpk_bgm_mp3,dzpk_call_boy_mp3,dzpk_call_girl_mp3,dzpk_cardtype_1_mp3,dzpk_cardtype_2_mp3,dzpk_cardtype_3_mp3,dzpk_cardtype_4_mp3,dzpk_cardtype_5_mp3,dzpk_chip_mp3,dzpk_chipfly_mp3,dzpk_collect_chip_mp3,dzpk_dropcard_mp3,dzpk_fapaia_mp3,dzpk_fapaib_mp3,dzpk_fold_boy_mp3,dzpk_fold_girl_mp3,dzpk_half_time_mp3,dzpk_my_turn_mp3,dzpk_next_mp3,dzpk_progress_mp3,dzpk_raise_boy_mp3,dzpk_raise_girl_mp3,dzpk_win_mp3",
+			"name": "dzpk_sound"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/dzpk/font/dzpkBtn.fnt",
+			"type": "font",
+			"name": "dzpkBtn_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpkBtn.png",
+			"type": "image",
+			"name": "dzpkBtn_png"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_allin.mp3",
+			"type": "sound",
+			"name": "dzpk_allin_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_allin_boy.mp3",
+			"type": "sound",
+			"name": "dzpk_allin_boy_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_allin_girl.mp3",
+			"type": "sound",
+			"name": "dzpk_allin_girl_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_bgm.mp3",
+			"type": "sound",
+			"name": "dzpk_bgm_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_call_boy.mp3",
+			"type": "sound",
+			"name": "dzpk_call_boy_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_call_girl.mp3",
+			"type": "sound",
+			"name": "dzpk_call_girl_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_cardtype_1.mp3",
+			"type": "sound",
+			"name": "dzpk_cardtype_1_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_cardtype_2.mp3",
+			"type": "sound",
+			"name": "dzpk_cardtype_2_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_cardtype_3.mp3",
+			"type": "sound",
+			"name": "dzpk_cardtype_3_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_cardtype_4.mp3",
+			"type": "sound",
+			"name": "dzpk_cardtype_4_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_cardtype_5.mp3",
+			"type": "sound",
+			"name": "dzpk_cardtype_5_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_chip.mp3",
+			"type": "sound",
+			"name": "dzpk_chip_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_chipfly.mp3",
+			"type": "sound",
+			"name": "dzpk_chipfly_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_collect_chip.mp3",
+			"type": "sound",
+			"name": "dzpk_collect_chip_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_dropcard.mp3",
+			"type": "sound",
+			"name": "dzpk_dropcard_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_fapaia.mp3",
+			"type": "sound",
+			"name": "dzpk_fapaia_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_fapaib.mp3",
+			"type": "sound",
+			"name": "dzpk_fapaib_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_fold_boy.mp3",
+			"type": "sound",
+			"name": "dzpk_fold_boy_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_fold_girl.mp3",
+			"type": "sound",
+			"name": "dzpk_fold_girl_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_half_time.mp3",
+			"type": "sound",
+			"name": "dzpk_half_time_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_my_turn.mp3",
+			"type": "sound",
+			"name": "dzpk_my_turn_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_next.mp3",
+			"type": "sound",
+			"name": "dzpk_next_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_progress.mp3",
+			"type": "sound",
+			"name": "dzpk_progress_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_raise_boy.mp3",
+			"type": "sound",
+			"name": "dzpk_raise_boy_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_raise_girl.mp3",
+			"type": "sound",
+			"name": "dzpk_raise_girl_mp3"
+		},
+		{
+			"url": "assets/dzpk/sound/dzpk_win.mp3",
+			"type": "sound",
+			"name": "dzpk_win_mp3"
+		},
+		{
+			"url": "assets/dzpk/animation/fire_tex.png",
+			"type": "image",
+			"name": "fire_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/fire_mc.json",
+			"type": "json",
+			"name": "fire_mc_json"
+		},
+		{
+			"url": "assets/dzpk/dzpkRoom.json",
+			"type": "sheet",
+			"name": "dzpkRoom_json",
+			"subkeys": "dzpkn_add,dzpkn_back,dzpkn_baoman,dzpkn_bottom,dzpkn_chuji,dzpkn_gaoji,dzpkn_gold,dzpkn_gold_bg,dzpkn_headframe,dzpkn_help,dzpkn_kongxian,dzpkn_limit,dzpkn_logo,dzpkn_mianfei,dzpkn_quickstart,dzpkn_tiyan,dzpkn_yongji,dzpkn_zhongji,dzpkn_zhunru"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_btn_bet_fnt.fnt",
+			"type": "font",
+			"name": "dzpk_btn_bet_fnt_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_btn_bet_fnt.png",
+			"type": "image",
+			"name": "dzpk_btn_bet_fnt_png"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_fnt_0.fnt",
+			"type": "font",
+			"name": "dzpk_fnt_0_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_fnt_0.png",
+			"type": "image",
+			"name": "dzpk_fnt_0_png"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_dizhu.fnt",
+			"type": "font",
+			"name": "dzpk_dizhu_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_dizhu.png",
+			"type": "image",
+			"name": "dzpk_dizhu_png"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_follow_fnt.fnt",
+			"type": "font",
+			"name": "dzpk_follow_fnt_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_follow_fnt.png",
+			"type": "image",
+			"name": "dzpk_follow_fnt_png"
+		},
+		{
+			"url": "assets/dzpk/dzpkn_room_bg.jpg",
+			"type": "image",
+			"name": "dzpkn_room_bg_jpg"
+		},
+		{
+			"url": "assets/dzpk/dzpk_room_preview.png",
+			"type": "image",
+			"name": "dzpk_room_preview_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_logoqd_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_logoqd_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_logoqd_tex.png",
+			"type": "image",
+			"name": "dzpk_logoqd_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_logoqd_tex.json",
+			"type": "json",
+			"name": "dzpk_logoqd_tex_json"
+		},
+		{
+			"url": "assets/dzpk/font/dzpkroomfnt.fnt",
+			"type": "font",
+			"name": "dzpkroomfnt_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpkroomfnt.png",
+			"type": "image",
+			"name": "dzpkroomfnt_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_chujichang_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_chujichang_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_chujichang_tex.png",
+			"type": "image",
+			"name": "dzpk_chujichang_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_npc_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_npc_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_npc_tex.png",
+			"type": "image",
+			"name": "dzpk_npc_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_putongchang_guess_2_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_putongchang_guess_2_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_putongchang_guess_2_tex.png",
+			"type": "image",
+			"name": "dzpk_putongchang_guess_2_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_quickstart_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_quickstart_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_quickstart_tex.png",
+			"type": "image",
+			"name": "dzpk_quickstart_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_tiyanchang_guess_5_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_tiyanchang_guess_5_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_tiyanchang_guess_5_tex.png",
+			"type": "image",
+			"name": "dzpk_tiyanchang_guess_5_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_zhongjichang_guess_4_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_zhongjichang_guess_4_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_zhongjichang_guess_4_tex.png",
+			"type": "image",
+			"name": "dzpk_zhongjichang_guess_4_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_chujichang_tex.json",
+			"type": "json",
+			"name": "dzpk_chujichang_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_putongchang_guess_2_tex.json",
+			"type": "json",
+			"name": "dzpk_putongchang_guess_2_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_quickstart_tex.json",
+			"type": "json",
+			"name": "dzpk_quickstart_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_npc_tex.json",
+			"type": "json",
+			"name": "dzpk_npc_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_tiyanchang_guess_5_tex.json",
+			"type": "json",
+			"name": "dzpk_tiyanchang_guess_5_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/room/dzpk_zhongjichang_guess_4_tex.json",
+			"type": "json",
+			"name": "dzpk_zhongjichang_guess_4_tex_json"
+		},
+		{
+			"url": "assets/dzpk/font/dzpkroomfnt2.fnt",
+			"type": "font",
+			"name": "dzpkroomfnt2_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpkroomfnt2.png",
+			"type": "image",
+			"name": "dzpkroomfnt2_png"
+		},
+		{
+			"url": "assets/dzpk/help/dzpk_help_bg.png",
+			"type": "image",
+			"name": "dzpk_help_bg_png"
+		},
+		{
+			"url": "assets/dzpk/help/dzpk_help_close.png",
+			"type": "image",
+			"name": "dzpk_help_close_png"
+		},
+		{
+			"url": "assets/dzpk/help/dzpk_help_title.png",
+			"type": "image",
+			"name": "dzpk_help_title_png"
+		},
+		{
+			"url": "assets/dzpk/dzpk_bg.jpg",
+			"type": "image",
+			"name": "dzpk_bg_jpg"
+		},
+		{
+			"url": "assets/dzpk/dzpk_game.json",
+			"type": "sheet",
+			"name": "dzpk_game_json",
+			"subkeys": "dzpk_common_card_bg,nblinds3,nblinds4,nbottom1,nbottom1_2,nbottom1_3,nbottom2_3,ndzpk_add_chip,ndzpk_all_call,ndzpk_all_in,ndzpk_auto_cheak,ndzpk_bright_card_bg,ndzpk_btn_back,ndzpk_btn_down,ndzpk_btn_rule,ndzpk_btn_setting,ndzpk_btn_up,ndzpk_btn_withdraw,ndzpk_btn_yellow,ndzpk_card,ndzpk_card_s,ndzpk_card_type_bg,ndzpk_cheak,ndzpk_cheakOrdiscard,ndzpk_chip1,ndzpk_chip2,ndzpk_chip3,ndzpk_chip4,ndzpk_chip_gold,ndzpk_flush,ndzpk_fold,ndzpk_four,ndzpk_full_house,ndzpk_girl,ndzpk_gold_bg,ndzpk_head_circle,ndzpk_head_female,ndzpk_head_frame,ndzpk_head_gray_layer,ndzpk_head_male,ndzpk_high_card,ndzpk_icon_dealer,ndzpk_label_all_green,ndzpk_menu_bg,ndzpk_next_game,ndzpk_one_pair,ndzpk_opt_allin,ndzpk_opt_drop,ndzpk_opt_follow,ndzpk_opt_next,ndzpk_opt_raise,ndzpk_please_bg,ndzpk_please_wait_oth,ndzpk_raise,ndzpk_raise_disabled,ndzpk_royal_flush,ndzpk_select,ndzpk_start_tip,ndzpk_straight,ndzpk_straight_flush,ndzpk_three,ndzpk_two_pairs,ndzpk_win_bright_card_bg,ndzpk_win_duizi,ndzpk_win_gaopai,ndzpk_win_hulu,ndzpk_win_jinggang,ndzpk_win_liangdui,ndzpk_win_royal,ndzpk_win_santiao,ndzpk_win_shunzi,ndzpk_win_tonghua,ndzpk_win_tonghuashun,ndzpk_zhu_add_btn,ndzpk_zhu_show_bg,ndzpk_zhu_sub_btn"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_add_arrow_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_add_arrow_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_add_arrow_tex.png",
+			"type": "image",
+			"name": "dzpk_add_arrow_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_add_arrow_tex.json",
+			"type": "json",
+			"name": "dzpk_add_arrow_tex_json"
+		},
+		{
+			"url": "assets/dzpk/particle/playcountdown.png",
+			"type": "image",
+			"name": "playcountdown_png"
+		},
+		{
+			"url": "assets/dzpk/particle/playcountdown.json",
+			"type": "json",
+			"name": "playcountdown_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_youwin_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_youwin_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_youwin_tex.png",
+			"type": "image",
+			"name": "dzpk_youwin_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_youwin_tex.json",
+			"type": "json",
+			"name": "dzpk_youwin_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_dapaijiafenlizi_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_dapaijiafenlizi_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_dapaijiafenlizi_tex.png",
+			"type": "image",
+			"name": "dzpk_dapaijiafenlizi_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_dapaijiafenlizi_tex.json",
+			"type": "json",
+			"name": "dzpk_dapaijiafenlizi_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_girl_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_girl_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_girl_tex.png",
+			"type": "image",
+			"name": "dzpk_girl_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_hjtonghuashun_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_hjtonghuashun_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_hjtonghuashun_tex.png",
+			"type": "image",
+			"name": "dzpk_hjtonghuashun_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_hulu_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_hulu_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_hulu_tex.png",
+			"type": "image",
+			"name": "dzpk_hulu_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_girl_tex.json",
+			"type": "json",
+			"name": "dzpk_girl_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_hjtonghuashun_tex.json",
+			"type": "json",
+			"name": "dzpk_hjtonghuashun_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_hulu_tex.json",
+			"type": "json",
+			"name": "dzpk_hulu_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_fire_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_fire_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_fire_tex.png",
+			"type": "image",
+			"name": "dzpk_fire_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_fire_tex.json",
+			"type": "json",
+			"name": "dzpk_fire_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_allinfirebox_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_allinfirebox_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_allinfirebox_tex.png",
+			"type": "image",
+			"name": "dzpk_allinfirebox_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_allinfirebox_tex.json",
+			"type": "json",
+			"name": "dzpk_allinfirebox_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_jingang_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_jingang_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_jingang_tex.png",
+			"type": "image",
+			"name": "dzpk_jingang_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_tonghuashun_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_tonghuashun_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_tonghuashun_tex.png",
+			"type": "image",
+			"name": "dzpk_tonghuashun_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_jingang_tex.json",
+			"type": "json",
+			"name": "dzpk_jingang_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_tonghuashun_tex.json",
+			"type": "json",
+			"name": "dzpk_tonghuashun_tex_json"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_bg.png",
+			"type": "image",
+			"name": "dzpk_bank_bg_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_bg2.png",
+			"type": "image",
+			"name": "dzpk_bank_bg2_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_close.png",
+			"type": "image",
+			"name": "dzpk_bank_close_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_draw_btn.png",
+			"type": "image",
+			"name": "dzpk_bank_draw_btn_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_input_bg.png",
+			"type": "image",
+			"name": "dzpk_bank_input_bg_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_pro_bar.png",
+			"type": "image",
+			"name": "dzpk_bank_pro_bar_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_pro_bg.png",
+			"type": "image",
+			"name": "dzpk_bank_pro_bg_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_thumb.png",
+			"type": "image",
+			"name": "dzpk_bank_thumb_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_title.png",
+			"type": "image",
+			"name": "dzpk_bank_title_png"
+		},
+		{
+			"url": "assets/dzpk/help/dzpk_help_content1.png",
+			"type": "image",
+			"name": "dzpk_help_content1_png"
+		},
+		{
+			"url": "assets/dzpk/help/dzpk_help_content2.png",
+			"type": "image",
+			"name": "dzpk_help_content2_png"
+		},
+		{
+			"url": "assets/dzpk/setting/dzpk_setting_bg.png",
+			"type": "image",
+			"name": "dzpk_setting_bg_png"
+		},
+		{
+			"url": "assets/dzpk/setting/dzpk_setting_effect.png",
+			"type": "image",
+			"name": "dzpk_setting_effect_png"
+		},
+		{
+			"url": "assets/dzpk/setting/dzpk_setting_exit.png",
+			"type": "image",
+			"name": "dzpk_setting_exit_png"
+		},
+		{
+			"url": "assets/dzpk/setting/dzpk_setting_music.png",
+			"type": "image",
+			"name": "dzpk_setting_music_png"
+		},
+		{
+			"url": "assets/dzpk/setting/dzpk_setting_off.png",
+			"type": "image",
+			"name": "dzpk_setting_off_png"
+		},
+		{
+			"url": "assets/dzpk/setting/dzpk_setting_on.png",
+			"type": "image",
+			"name": "dzpk_setting_on_png"
+		},
+		{
+			"url": "assets/dzpk/setting/dzpk_setting_sound_effect.png",
+			"type": "image",
+			"name": "dzpk_setting_sound_effect_png"
+		},
+		{
+			"url": "assets/dzpk/setting/dzpk_setting_title.png",
+			"type": "image",
+			"name": "dzpk_setting_title_png"
+		},
+		{
+			"url": "assets/dzpk/bank/dzpk_bank_max.png",
+			"type": "image",
+			"name": "dzpk_bank_max_png"
+		},
+		{
+			"url": "assets/dzpk/dzpk_card.png",
+			"type": "image",
+			"name": "dzpk_card_png"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_follow.fnt",
+			"type": "font",
+			"name": "dzpk_follow_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_follow.png",
+			"type": "image",
+			"name": "dzpk_follow_png"
+		},
+		{
+			"url": "assets/dzpk/img/dzpk_add_bet_bg.png",
+			"type": "image",
+			"name": "dzpk_add_bet_bg_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_top_coin_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_top_coin_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_top_coin_tex.png",
+			"type": "image",
+			"name": "dzpk_top_coin_tex_png"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_top_coin_tex.json",
+			"type": "json",
+			"name": "dzpk_top_coin_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_allinfireboxInHead_ske.dbbin",
+			"type": "bin",
+			"name": "dzpk_allinfireboxInHead_ske_dbbin"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_allinfireboxInHead_tex.json",
+			"type": "json",
+			"name": "dzpk_allinfireboxInHead_tex_json"
+		},
+		{
+			"url": "assets/dzpk/animation/game/dzpk_allinfireboxInHead_tex.png",
+			"type": "image",
+			"name": "dzpk_allinfireboxInHead_tex_png"
+		},
+		{
+			"url": "assets/dzpk/dzpk_zjcx.json",
+			"type": "sheet",
+			"name": "dzpk_zjcx_json",
+			"subkeys": "dzpk_room_zjcxbtn,dzpk_zjcx_bg,dzpk_zjcx_bglabel,dzpk_zjcx_bgline,dzpk_zjcx_bgpanel,dzpk_zjcx_bgtype,dzpk_zjcx_btndetail,dzpk_zjcx_iconlose,dzpk_zjcx_iconwin,dzpk_zjcx_level0,dzpk_zjcx_level1,dzpk_zjcx_level2,dzpk_zjcx_level3,dzpk_zjcx_title,qznnresult_card_club1,qznnresult_card_club10,qznnresult_card_club11,qznnresult_card_club12,qznnresult_card_club13,qznnresult_card_club2,qznnresult_card_club3,qznnresult_card_club4,qznnresult_card_club5,qznnresult_card_club6,qznnresult_card_club7,qznnresult_card_club8,qznnresult_card_club9,qznnresult_card_diamond1,qznnresult_card_diamond10,qznnresult_card_diamond11,qznnresult_card_diamond12,qznnresult_card_diamond13,qznnresult_card_diamond2,qznnresult_card_diamond3,qznnresult_card_diamond4,qznnresult_card_diamond5,qznnresult_card_diamond6,qznnresult_card_diamond7,qznnresult_card_diamond8,qznnresult_card_diamond9,qznnresult_card_heart1,qznnresult_card_heart10,qznnresult_card_heart11,qznnresult_card_heart12,qznnresult_card_heart13,qznnresult_card_heart2,qznnresult_card_heart3,qznnresult_card_heart4,qznnresult_card_heart5,qznnresult_card_heart6,qznnresult_card_heart7,qznnresult_card_heart8,qznnresult_card_heart9,qznnresult_card_spade1,qznnresult_card_spade10,qznnresult_card_spade11,qznnresult_card_spade12,qznnresult_card_spade13,qznnresult_card_spade2,qznnresult_card_spade3,qznnresult_card_spade4,qznnresult_card_spade5,qznnresult_card_spade6,qznnresult_card_spade7,qznnresult_card_spade8,qznnresult_card_spade9"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_zjcx_lose.png",
+			"type": "image",
+			"name": "dzpk_zjcx_lose_png"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_zjcx_win.fnt",
+			"type": "font",
+			"name": "dzpk_zjcx_win_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_zjcx_lose.fnt",
+			"type": "font",
+			"name": "dzpk_zjcx_lose_fnt"
+		},
+		{
+			"url": "assets/dzpk/font/dzpk_zjcx_win.png",
+			"type": "image",
+			"name": "dzpk_zjcx_win_png"
+		}
+	]
+}

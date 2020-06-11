@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1671dbe30ca" ></w:Config>
+	<e:Image id="bg" source="lhdz_battle_json.cards_back" horizontalCenter="0" verticalCenter="0" width="95" height="130" rotation="0"/>
+	<ns1:LhdzCuopai id="cuopai" x="9" y="184"/>
+
+
+</e:Skin>

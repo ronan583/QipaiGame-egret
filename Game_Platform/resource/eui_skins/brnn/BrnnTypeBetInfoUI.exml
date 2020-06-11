@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnTypeBetInfoUISkin" width="217" height="263" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  >
+	<w:Config id="166a1c4379d" ></w:Config>
+	<e:Image id="areaImg" source="brnn_area_bg_1" visible="false"/>
+
+	<e:BitmapLabel id="totalBetNumLabel" width="141" x="40" y="16" anchorOffsetX="0" anchorOffsetY="0" text="10" textAlign="center" verticalAlign="middle" font="brnn_self_bet_fnt"/>
+
+	<e:Image id="no1BetFlag" x="3" y="2" source="" scaleX="0.65" scaleY="0.65"/>
+	<e:Group id="selfBetInfo" x="17" y="44">
+
+
+
+		<e:BitmapLabel id="selfBetNumLabel" width="182" x="1" y="4" anchorOffsetX="0" anchorOffsetY="0" text="1" textAlign="center" font="BrnnBetCountFont_fnt"/>
+	</e:Group>
+	<e:Group id="touchArea" y="159">
+
+	</e:Group>
+	<e:Group id="shensuanziPos" width="28" height="28" x="39" y="20" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:DragonAnim id="shensuanziAnim" width="20" height="20" x="26" y="17" aligntype="middle" anim="brnn_xingxing" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

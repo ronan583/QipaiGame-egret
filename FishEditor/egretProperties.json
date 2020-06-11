@@ -1,0 +1,61 @@
+{
+  "engineVersion": "5.2.20",
+  "compilerVersion": "5.2.20",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "puremvc",
+      "path": "../modules/puremvc"
+    },
+    {
+      "name": "protobuf",
+      "path": "../modules/protobuf"
+    },
+    {
+      "name": "particle",
+      "path": "../modules/particle"
+    },
+    {
+      "name": "cryptojs",
+      "path": "../modules/cryptojs"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "gpgame",
+      "packagename": "com.gp.game"
+    },
+    "ios": {
+      "appname": "gpgame",
+      "packagename": "com.gpgame",
+      "hybrid": false
+    }
+  }
+}

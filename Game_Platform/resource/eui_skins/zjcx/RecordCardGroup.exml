@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RecordCardGroup" width="249" height="127" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="card0" x="1" y="42" source=""/>
+	<e:Image id="card1" x="45" y="42" source=""/>
+	<e:Image id="card2" x="89" y="42" source=""/>
+	<e:Image id="card3" x="133" y="42" source=""/>
+	<e:Image id="card4" x="177" y="42" source=""/>
+	<e:Image id="niuImg" x="141" y="58" source=""/>
+</e:Skin>

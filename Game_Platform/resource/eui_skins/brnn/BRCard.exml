@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BRCardSkin" width="127" height="181" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166ab694b86" ></w:Config>
+	<e:Image id="cardImg" width="127" height="181" source="oc_12"/>
+	<e:Image id="bg" width="127" height="181" x="0" y="0" source="brnn_self_card_bg"/>
+
+
+
+</e:Skin>

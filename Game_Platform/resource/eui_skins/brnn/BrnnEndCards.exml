@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnEndCardsSkin" width="183" height="71" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c7abca044" ></w:Config>
+	<e:Image id="cardImg1" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="cs_12" width="46" height="64"/>
+	<e:Image id="cardImg2" x="32" y="0" source="cs_12" anchorOffsetX="0" anchorOffsetY="0" width="46" height="64"/>
+	<e:Image id="cardImg3" x="65" y="0" source="cs_12" anchorOffsetX="0" anchorOffsetY="0" width="46" height="64"/>
+	<e:Image id="cardImg4" x="97" y="-15" source="cs_12" anchorOffsetX="0" anchorOffsetY="0" width="46" height="64"/>
+	<e:Image id="cardImg5" x="129" y="-15" source="cs_12" anchorOffsetX="0" anchorOffsetY="0" width="46" height="64"/>
+	<e:Image id="niuTypeImg" x="102" y="9" source="brnn_end_niu_1"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DBProgress1Skin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%"
+			 height="100%" verticalCenter="0" source="db_progress_bg_1"/>
+	<e:Image id="thumb" height="100%" width="100%" anchorOffsetX="0" y="2" source="db_progress_1" x="2"/>
+
+
+	
+</e:Skin>

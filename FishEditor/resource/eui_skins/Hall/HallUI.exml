@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="gpn_bg_jpg" horizontalCenter="0" y="-1.52"/>
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<ns1:NoticeScrollText id="noticeScrollText" width="512" height="32" x="115.48" y="35" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="particleGroup" width="1334" height="750" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+		</e:Group>
+		<e:Scroller id="gameIconsScroller" width="1334" height="530.64" y="92.87" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Group id="PageGroup">
+			<e:Group id="qipaiGameGroup" width="1280.34" height="540" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Group width="1280" height="540" scaleX="1" scaleY="1" horizontalCenter="-0.16999999999995907">
+					<ns1:GameIcon id="ddz" width="246" height="218" x="140" y="46" game="3" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="dzpk" width="246" height="218" x="516" y="46" game="8" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="pdk" width="246" height="218" x="891" y="46" game="6" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="ermj" width="246" height="218" x="140" y="302.36" game="9" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="qznn" width="246" height="218" x="516" y="302.36" game="2" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="zjh" width="246" height="218" x="891" y="302.36" game="1" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="jiejiGameGroup" width="1280" height="540" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Group width="1280" height="540" scaleX="1" scaleY="1" horizontalCenter="0">
+					<ns1:GameIcon id="fruit" width="246" height="218" x="260" y="35" game="12" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="tgpd" width="246" height="218" x="791" y="35" game="13" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="duobao" width="246" height="218" x="511.82" y="282.48999999999995" game="14" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="multiPlayerGameGroup" width="1446.34" height="540" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.05" strokeAlpha="0" visible="false"/>
+				<e:Group id="multiInnerGroup" width="1340" height="552" anchorOffsetX="0" anchorOffsetY="0" x="53">
+					<ns1:GameIcon id="brnn" width="330" height="220" x="58" y="28" game="4" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="hhdz" width="330" height="220" x="58" y="283" game="7" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="hlsb" width="330" height="220" x="368" y="28" game="15" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="lhdz" width="330" height="220" x="368" y="283" game="5" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="bjl" width="330" height="220" x="678" y="28" game="11" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="bcbm" width="330" height="220" x="678" y="278" game="16" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+					<ns1:GameIcon id="fqzs" width="330" height="220" x="988" y="28" game="17" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+				</e:Group>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+				<e:Group id="byGameGroup" width="1280" height="540" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+					<e:Group width="1280" height="540" horizontalCenter="0">
+						<ns1:GameIcon id="by" width="330" height="220" x="150" y="28" game="10" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:layout>
+					<e:BasicLayout/>
+					</e:layout>
+				</e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Group id="gameGroup" width="1094" height="534" x="74" y="86" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="gamePokerGroup" width="325" height="542" x="438" y="-4" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image x="-4" y="498" source="gpn_touying" width="334" scaleX="1" scaleY="1" anchorOffsetX="0"/>
+				<ns1:DragonAnim id="qipaiAnim" width="324" height="542" y="-35" anchorOffsetX="0" anchorOffsetY="0" anim="hall_qipai" aligntype="bottom" x="-4"/>
+				<e:Rect id="qipaiMaskRect" width="323.04" height="570" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="3.03" y="-30.3"/>
+			</e:Group>
+			<e:Group id="gameByGroup" width="310" height="256" x="776" y="4" anchorOffsetX="0" anchorOffsetY="0">
+				<ns1:DragonAnim width="310" height="240" x="0" y="52" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="hall_by"/>
+			</e:Group>
+			<e:Group id="gameDuorenGroup" width="426" height="542" x="0" y="-4" anchorOffsetX="0" anchorOffsetY="0">
+				<ns1:DragonAnim id="duorenAnim" width="427" height="534" x="-2.04" y="9.6" anchorOffsetX="0" anchorOffsetY="0" anim="duorenicon" aligntype="bottom"/>
+				<e:Rect id="duorenMaskRect" width="432.55" height="573.03" anchorOffsetX="0" anchorOffsetY="0"/>
+			</e:Group>
+			<e:Group id="gameJiejiGroup" width="428" height="242" x="762" y="271" anchorOffsetX="0" anchorOffsetY="0">
+				<ns1:DragonAnim width="329" height="250" x="5.96" y="31.6" anchorOffsetX="0" anchorOffsetY="0" anim="hall_xiuxian" aligntype="bottom"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="topRightGroup" width="276" height="76" x="1054" y="8" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="qiandaoGroup" width="71.21" height="48.48" x="194.21" y="16.08" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:DragonAnim width="70" height="48.79" aligntype="middle" anim="zsb_qdrk" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group id="zhuceGroup" width="71.21" height="48.48" x="90.56" y="10" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:DragonAnim width="70" height="48.79" aligntype="middle" anim="zsb_xbsjrkicon" anchorOffsetX="0" anchorOffsetY="0" isTouchByGroup="true"/>
+		</e:Group>
+		<e:Group id="gameCornerGroup" width="268" height="120" y="-10" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image id="gameCornerImg" source="gpn_jieji_corner"/>
+			<ns1:DragonAnim width="256" height="106" x="8" y="11" anchorOffsetX="0" anchorOffsetY="0" anim="plazasubtitle" aligntype="middle" isTouchByGroup="true" touchChildren="false" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="bottomGroup" width="1463" height="79" y="670" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5">
+		<e:Image source="gpn_bottom_bar" x="-80"/>
+		<e:Image x="352" y="27" anchorOffsetX="0" anchorOffsetY="0" source="labelBg"/>
+		<e:Image x="637.75" y="27" anchorOffsetX="0" anchorOffsetY="0" source="labelBg"/>
+		<e:Image id="bankerImg" x="628" y="27" source="gpn_icon_bank_s"/>
+
+		<e:Image id="goldenImg" x="328.88" y="17.91" source="gpn_icon_gold"/>
+		<e:BitmapLabel id="moneyLabel" width="171.52" height="24.55" x="387" y="32" anchorOffsetX="0" anchorOffsetY="0" font="gpn_gold_fnt" text="1111111" textAlign="center" verticalAlign="middle"/>
+		<e:BitmapLabel id="safeLabel" width="171.52" height="24.55" x="683.48" y="32" anchorOffsetX="0" anchorOffsetY="0" font="gpn_gold_fnt" text="1111111" textAlign="center" verticalAlign="middle"/>
+		<ns1:IButton id="addMoneyBtn" label="" x="545.31" y="21.32">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gpn_add" source.down="gpn_add" source.disabled="gpn_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+	<e:Group id="rightGroup" width="126" height="544" x="1201.92" y="82" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="rightBtnGroup" width="128.79" height="542.42" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="gpn_right" x="0" y="0" scaleX="1" scaleY="1"/>
+			<ns1:IButton id="kefuBtn" label="" x="51.080000000000155" y="28.000000000000014" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gpn_icon_kefu" source.down="gpn_icon_kefu" source.disabled="gpn_icon_kefu"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<e:Group id="rankClick" width="81.82" height="80.31" x="40.41" y="131.36" anchorOffsetX="0" anchorOffsetY="0">
+				<ns1:IButton id="rankBtn" label="" x="0" y="0" scaleX="1" scaleY="1">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gpn_icon_rank" source.down="gpn_icon_rank" source.disabled="gpn_icon_rank"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+				</ns1:IButton>
+				<ns1:DragonAnim width="80.61" height="54.85" x="-3.04" y="-9.12" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="zsbdt_phbeffect"/>
+			</e:Group>
+			<ns1:IButton id="bankBtn" label="" x="51.080000000000155" y="234" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gpn_icon_bank" source.down="gpn_icon_bank" source.disabled="gpn_icon_bank"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="exchangeBtn" label="" x="51.080000000000155" y="338.00000000000006" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gpn_icon_exchange" source.down="gpn_icon_exchange" source.disabled="gpn_icon_exchange"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="noticeBtn" label="" x="51.080000000000155" y="440" scaleX="1" scaleY="1">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="gpn_icon_notice" source.down="gpn_icon_notice" source.disabled="gpn_icon_notice"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+	</e:Group>
+	<e:Group id="chargeGroup" width="160.61" height="71.21" anchorOffsetX="0" anchorOffsetY="0" right="362" bottom="0">
+		<ns1:DragonAnim width="159.39" height="74.55" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="gouwuchongzhi"/>
+	</e:Group>
+	<e:Group id="quickStartGroup" width="353.03" height="83.33" anchorOffsetX="0" anchorOffsetY="0" bottom="0" right="10">
+		<ns1:DragonAnim width="353.33" height="80.61" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="guwukuaisukaishi"/>
+	</e:Group>
+	<e:Group id="headGroup" width="200" height="86" x="0" anchorOffsetY="0" bottom="0">
+		<e:Image id="headFrameImg" x="54" y="34" source="gpn_headframe" scaleX="1" scaleY="1" anchorOffsetX="53" anchorOffsetY="53"/>
+		<e:Image id="headImg" x="53.46" y="34" source="gp_head_1" width="82" height="82" anchorOffsetX="41" anchorOffsetY="41" scaleX="1" scaleY="1"/>
+		<e:Label id="nameLabel" text="Guest3121" x="112" y="36" anchorOffsetX="0" width="144" anchorOffsetY="0" height="32" textAlign="center" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<ns1:IButton id="backToMainBtn" label="" y="13" scaleX="1" scaleY="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gpn_back" source.down="gpn_back" source.disabled="gpn_back"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbStartPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:tb="game.tb.*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:RoomTop id="roomTop" width="1280" height="100"/>
+	<tb:TbStartPanelRadioGroup id="radioGroup" width="1250" height="63" x="19" y="108" skinName="TbStartPanelRadioGroupSkin"/>
+	<e:Scroller id="_scroller" width="1260" height="534.12" x="10" y="174" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" width="1260" height="1106.12" x="-2">
+		<e:Group id="itemGroup" x="0" y="6" anchorOffsetX="0" width="1260">
+			<e:layout>
+			<e:TileLayout requestedColumnCount="2" orientation="rows" paddingTop="0" paddingLeft="0" verticalGap="0" horizontalGap="5"/>
+			</e:layout>
+			<tb:TbCornerItem width="622" height="267" x="345" y="-62" skinName="TbCornerItem" visible="false"/>
+			<tb:TbCornerItem width="622" height="267" x="355" y="-52" skinName="TbCornerItem" visible="false"/>
+		</e:Group>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Image source="tbGame_json.tb_title" x="1098" y="27"/>
+	<!--<tb:TbStartPanelRadioGroup width="1233" height="63" x="18" y="108" skinName="TbStartPanelRadioGroup"/>-->
+</e:Skin>

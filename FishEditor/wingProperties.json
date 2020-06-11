@@ -1,0 +1,71 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/assets/by/by.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/bjl/bjl.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/duobao/duobao.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/roomLayer/roomRes.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/pdk/pdk.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/brnn/brnn.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/default.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/bjl/bjl_preload.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/brnn/brnn_preload.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/duobao/duobao_preload.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/pdk/pdk_preload.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/loading.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/bcbm/bcbm.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/bcbm/bcbm_preload.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/assets/by/by_preload.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/sdk_basic.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/default.thm.json"
+}

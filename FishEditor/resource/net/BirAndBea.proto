@@ -1,0 +1,130 @@
+//飞禽走兽的协议
+option java_package = "com.gp.game.message";
+
+//首次进入房间
+message OpBirAndBeaFirstRoom{
+	required int32 roomId = 1; //房间ID
+}
+
+message OpBirAndBeaFirstRoomPush{
+	required int32 status = 1; //0.休息中 1.下注中 2.开奖中 
+	required int32 downTime = 2;//倒计时时间
+	repeated OPBirAndBeaRoomStake  roomStakeInfo = 3;//总的下注情况
+	repeated OPBirAndBeaRoomStake  myStakeInfo = 4;//玩家的下注情况
+	required int32 upBankerNum = 5;// 庄家信息 集合有多少数量就有多少人
+	required int64 upBankerMinMoney = 6;//上庄最低金额
+	required int64 totalStake = 7;//房间的总下注值
+	optional PushBirAndBeaBattleFinsh BattleFinsh = 8 ;//如果为开奖阶段则展示开奖结果
+	required bool isBanker = 9;// 进来的时候判断自己是否为 庄家(掉线进来的时候)
+	optional int32 serialNumber = 10; //局数编号
+}
+
+//房间的下注
+message OPBirAndBeaRoomStake{
+	required int32 type = 1; // 1.金鲨  2.银鲨 3. 兔子 4.猴子 5.狮子 6.熊猫 7.格子 8.燕子 9.孔雀  10.老鹰 11 走兽 12.飞禽
+	required int64 value = 2;//下注值
+}
+
+//开奖记录
+message OPBirAndBeaRoundInfo{
+	required int32 version = 1; 
+}
+message OPBirAndBeaRoundInfoRet {
+	repeated  int32 type = 1;// 1.金鲨  2.银鲨 3. 兔子 4.猴子 5.狮子 6.熊猫 7.格子 8.燕子 9.孔雀  10.老鹰 13.通吃 14包赔
+}
+
+
+	
+
+
+
+
+//个人的下注
+message OPBirAndBeaStake{
+	required int32 type = 1; // 1.金鲨  2.银鲨 3. 兔子 4.猴子 5.狮子 6.熊猫 7.格子 8.燕子 9.孔雀  10.老鹰 11 走兽 12.飞禽
+	required int64 value = 2;//下注值
+}
+
+message OPBirAndBeaStakeRet{
+	required int64 playerId = 1; //下注人
+	required int32 type = 2; // 1.金鲨  2.银鲨 3. 兔子 4.猴子 5.狮子 6.熊猫 7.格子 8.燕子 9.孔雀  10.老鹰 11 走兽 12.飞禽
+	required int64 value = 3;//下注值
+	optional int64 totalValue = 4;//下注值
+}
+
+
+
+//查看在线玩家排行列表 --按照余额进行排名 
+message OPBirAndBeaPlayerRank{
+	required int32 version = 1; //
+}
+message OPBirAndBeaPlayerRankRet{
+	repeated OPBirAndBeaPlayerInfo playerInfo = 1;//玩家的三个消息都需要
+}
+
+
+//玩家信息
+message OPBirAndBeaPlayerInfo{
+	optional int32 headNum = 2;//头像编号
+	optional int64 money = 3;//余额
+	optional string city = 4;//城市
+}
+
+
+message OPBriAndBeaBankerInfo{
+	required int32 type = 1; //1普通 2抢庄
+	required int64 playerId = 2; 
+	required int64 totalMoney = 3; //余额
+	required int32 headNum = 4; //头像
+	required string city = 5;//城市
+}
+//上庄
+message OpBirAndBeaUpBanker{
+	required int32 type = 1; //1 普通上庄  2 抢庄
+}
+message OpBirAndBeaUpBankerRet{
+	repeated OPBriAndBeaBankerInfo bankerInfos = 1;//集合里面有多少人就有多少人在等待上庄
+	required int64 bankerPlayerid = 2 ;//上庄人的id
+	
+
+}
+
+//下庄
+message OpBirAndBeaDownBanker{
+	required int32 version = 1; 
+}
+
+
+message OpBirAndBeaDownBankerRet {
+	repeated OPBriAndBeaBankerInfo bankerInfos = 1;//集合里面有多少人就有多少人在等待上庄
+	required int64 bankerPlayerid = 2 ;//下庄人的id
+}
+
+
+
+
+//开始or停止下注
+message OPBirAndBeaBattleStatusPush {
+	required int32 status = 1; //1开始下注 2.停止下注 3.开始游戏
+	required int32 downTime = 2;//倒计时时间
+	optional bool isSwitchBanker = 3;//是否切换庄家 true 切换
+	optional int32 serialNumber = 4; //局数编号
+} 
+
+
+
+//游戏结果
+message PushBirAndBeaBattleFinsh {
+	required int32 winType = 1;// 1.金鲨  2.银鲨 3. 兔子 4.猴子 5.狮子 6.熊猫 7.鸽子 8.燕子 9.孔雀  10.老鹰  13.通吃 14包赔 (3-6是走兽，7-10是飞禽)
+	required int64 otherCosMoney = 2 ;//除开庄家和自己之外的其他玩家的输赢情款
+	repeated OPBirAndBeaPlayerBattleInfo battleInfo = 3;//里面只有自己和庄家的信息
+	required int32 random = 4 ;//随机数(1-3)//通吃通赔为1
+	repeated OPBirAndBeaPlayerBattleInfo rankInfo = 5;//前五的排行
+}
+//玩家游戏信息 --这句的输赢情况
+message OPBirAndBeaPlayerBattleInfo {
+	required int64 playerId = 1; //
+	required int64 totalMoney = 2; //总金币
+	required int64 money = 3; //输赢金币
+	required string city = 4 ; //城市
+}

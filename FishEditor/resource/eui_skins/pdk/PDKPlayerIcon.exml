@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDKPlayerIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   width="286" height="85">
+	<e:Image source="pdk_battle_json.pdk_head_frame" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="pdk_battle_json.pdk_coin_small" horizontalCenter="-47" verticalCenter="22"/>
+	<e:Image id="headIconImg" source="gp_head_1" width="66" height="66" horizontalCenter="-102.5" verticalCenter="1"/>
+	<e:Label id="playerName" size="24" verticalAlign="middle" height="23" text="" textAlign="center" fontFamily="Microsoft YaHei" verticalCenter="-14" textColor="0xffffff" left="83"/>
+
+	<e:Label id="gold" size="24" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" height="23" textColor="0xffdc99" text="" verticalCenter="21" left="118"/>
+	<e:BitmapLabel id="gameVipLabel" width="44" height="21" x="218" y="12" text="0" anchorOffsetX="0" anchorOffsetY="0" font="gamevip2_fnt"/>
+	<ns1:DragonAnim id="winAnim" width="76" height="72" x="3" y="8" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="pdk_win" isTouch="false" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false"/>
+	<e:Image id="trusteeshipState" source="pdk_other_trusteeship" width="66" height="66" verticalCenter="1.5" horizontalCenter="-101" visible="false"/>
+	<e:BitmapLabel id="addMoney" width="200" height="24" text="+200.0" font="betNum_fnt" textAlign="center" verticalAlign="middle" anchorOffsetY="0" anchorOffsetX="0" y="31" x="43" visible="false"/>
+	<e:BitmapLabel id="subMoney" width="200" height="24" text="-200.0y" textAlign="center" verticalAlign="middle" anchorOffsetY="0" font="blue_fnt" anchorOffsetX="0" x="43" y="31" visible="false"/>
+
+</e:Skin>

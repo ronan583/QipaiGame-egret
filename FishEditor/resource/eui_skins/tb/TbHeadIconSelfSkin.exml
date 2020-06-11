@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbHeadIconSelfSkin" width="344" height="202" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Image id="headFrameImg" y="7.19" x="16" scaleX="1" scaleY="1" source="" visible="false"/>
+	<e:Image x="0" y="0" source="diceGame_json.game_dice_image_main_bg_user" width="280" height="110"/>
+	<e:Image y="56" x="11" source="gpn_icon_gold" anchorOffsetX="0" width="38" anchorOffsetY="0" height="38"/>
+
+
+	<e:Label id="playerName" text="如来神掌" textAlign="left" verticalAlign="middle" anchorOffsetY="0" anchorOffsetX="0" x="49.5" y="18.67" width="198" fontFamily="Microsoft YaHei" textColor="0xfff3db" size="28" height="28"/>
+	<e:Group id="winTip" width="152" height="202" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="winTipLabel" height="30" text="+7y" textAlign="center" verticalAlign="middle" font="betNum_fnt" horizontalCenter="-0.5" anchorOffsetX="0" y="86" left="41"/>
+	</e:Group>
+	<e:Group id="loseTip" width="152" height="202" x="0" y="0.33" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="loseTipLabel" height="30" text="-7y" textAlign="center" verticalAlign="middle" horizontalCenter="0" anchorOffsetX="0" font="blue_fnt" y="86" left="44"/>
+	</e:Group>
+	<e:BitmapLabel id="gold" width="228" text="12.12" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="50" y="62" textAlign="left" font="gpn_gold_fnt"/>
+	<ns1:IButton id="addBtn" label="" x="233" y="62">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_dice_image_main_gui-btn-bankicon" source.down="game_dice_image_main_gui-btn-bankicon" source.disabled="game_dice_image_main_gui-btn-bankicon"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+</e:Skin>

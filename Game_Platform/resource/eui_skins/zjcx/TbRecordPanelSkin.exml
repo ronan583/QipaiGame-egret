@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbRecordPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Group id="bankerGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bgImg" horizontalCenter="0.5" verticalCenter="45" source="tb_zjcx_json.tb_zjcx_bgpanel"/>
+		<e:Label id="winType" text="13点豹" x="718.3" y="366.99" anchorOffsetX="0" width="151.34" anchorOffsetY="0" height="54" size="33" fontFamily="Microsoft YaHei" textColor="0xffea70"/>
+		<e:Image id="dice0" source="tb_zjcx_json.zjcx_dice_1" x="515.97" y="355"/>
+		<e:Image id="dice1" source="tb_zjcx_json.zjcx_dice_1" x="578.97" y="355"/>
+		<e:Image id="dice2" source="tb_zjcx_json.zjcx_dice_1" x="640.97" y="355"/>
+		<e:Image id="totalPoolIcon" x="404.36" y="440.3" source="tb_zjcx_json.tb_zjcx_imgpool"/>
+		<e:Image id="totalBetIcon" x="390.36" y="440.3" source="tb_zjcx_json.tb_zjcx_imgtotalbet" visible="false"/>
+		<e:BitmapLabel id="totalBetLabel" width="146.67" height="50.67" x="505.02" y="437.66" anchorOffsetX="0" anchorOffsetY="0" text="16万" font="tb_zjcx_win_fnt"/>
+		<e:Image id="winIcon" source="tb_zjcx_json.tb_zjcx_iconwin" x="706.66" y="425.33"/>
+		<e:BitmapLabel id="winMoneyLabel" width="222.67" height="50.67" x="777.05" y="438.65" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="tb_zjcx_win_fnt"/>
+		<e:Image id="bankerIcon" source="tb_zjcx_json.tb_zjcx_iconbanker" x="418.99" y="360.99"/>
+	</e:Group>
+</e:Skin>

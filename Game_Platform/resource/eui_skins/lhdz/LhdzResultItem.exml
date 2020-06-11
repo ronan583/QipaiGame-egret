@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzResultItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="35" height="35">
+	<w:Config id="1694a123f9f" ></w:Config>
+	<e:Image id="itemIcon" source="lhdz_battle_json.lhdz_dragon" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ByRoom" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+
+	
+	<e:Button id="backBtn" label="" x="13" y="120" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" />
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="by_room_bg_jpg" horizontalCenter="0"/>
+	<e:Image source="by_title" right="0" top="0"/>
+
+
+
+	<e:Group id="contentGroup" width="1334" height="750" y="0" horizontalCenter="0">
+		<e:Scroller id="_scroller" width="1272.73" height="601.52" x="3" y="132" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group>
+			<e:Group x="0" anchorOffsetY="0" height="473" anchorOffsetX="0" width="1289.93" scaleX="1" scaleY="1" y="0">
+				<e:layout>
+				<e:BasicLayout/>
+				</e:layout>
+				<ns1:ByRoomItem id="roomItem1" y="34" aligntype="middle" anim="by_tiyan" gameLevel="0" x="14"/>
+				<ns1:ByRoomItem id="roomItem2" aligntype="middle" anim="by_chuji" gameLevel="1" x="328" y="34"/>
+				<ns1:ByRoomItem id="roomItem3" aligntype="middle" anim="by_zhongji" gameLevel="2" x="642" y="34"/>
+				<ns1:ByRoomItem id="roomItem4" aligntype="middle" anim="by_gaoji" gameLevel="3" x="956.1" y="34"/>
+			</e:Group>
+			</e:Group>
+		</e:Scroller>
+		<e:Group id="leftTopGroup" width="539.39" height="109.09" anchorOffsetY="0" anchorOffsetX="0" top="0" left="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Button id="backbtn" label="" x="6.55" y="-2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nby_back" source.down="nby_back" source.disabled="nby_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="helpbtn" label="" x="105.94" y="-2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nby_wanfa" source.down="nby_wanfa" source.disabled="nby_wanfa"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Button id="testBtn" label="Button" x="893" y="32.5"/>
+	</e:Group>
+	<e:Group id="leftBottomGroup" width="539.39" height="109.09" y="643.91" anchorOffsetY="0" left="0" anchorOffsetX="0">
+		<e:Image x="67" y="28" source="nby_gold_bg"/>
+		<e:Image x="-1.82" y="-0.44" source="nby_head_frame" scaleX="1" scaleY="1"/>
+		<e:Image x="14.83" y="16.21" scaleX="1" scaleY="1" source="nby_head_bg_female" width="80" height="80"/>
+		<e:Image id="headImg" x="14" y="16" source="gp_head_1" width="80" height="80"/>
+		<e:Label id="nameLabel" text="Custom1111" x="110" y="47" anchorOffsetX="0" width="182" anchorOffsetY="0" height="28" fontFamily="Microsoft YaHei" textAlign="center"/>
+		<e:Image x="440" y="29" source="nby_gold_bg"/>
+		<e:Image x="447.68" y="38.33" source="gpn_icon_gold"/>
+		<e:BitmapLabel id="goldLabel" width="171.52" height="24.55" x="497.65" y="50.67" anchorOffsetX="0" anchorOffsetY="0" font="gpn_gold_fnt" text="1111111" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+
+	<e:Group id="quickGroup" width="230" height="75" anchorOffsetY="0" right="36" bottom="0">
+		<ns1:DragonAnim width="230" height="75" scaleX="1" scaleY="1" aligntype="middle" anim="by_quick"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZGameMultiSkin" width="433.33" height="268" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e89e8e805" ></w:Config>
+	<e:Group id="summaryGroup" width="200" height="54.67" x="214" y="214" anchorOffsetY="0">
+		<e:Image x="9.34" y="7.35" source="ddz_bei_bg_png"/>
+		<e:Image x="5" y="4.68" source="ddz_bei_btn_png"/>
+		<e:BitmapLabel id="totalLabel" width="92" height="29.33" x="60" y="15.99" font="ddz_bei_fnt" text="1" textAlign="center" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group id="multiGroup" width="418" height="210" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="ddz_multi_bg_png"/>
+		<e:Label id="nameLabel" text="guest" x="13.34" y="162.64" textColor="0x000000" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="92.67" anchorOffsetY="0" height="26.67"/>
+		<e:Label id="commonLabel" text="X1" x="116.67" y="161" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="83.34" anchorOffsetY="0" height="26.67" textAlign="center" verticalAlign="middle" textColor="0xff0000"/>
+		<e:Label id="nongmingLabel" text="X1" x="222.67" y="161" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="83.34" anchorOffsetY="0" height="26.67" textAlign="center" verticalAlign="middle" textColor="0xff0000"/>
+		<e:Label id="totalLabel1" text="X1" x="318" y="161" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="83.34" anchorOffsetY="0" height="26.67" textAlign="center" verticalAlign="middle" textColor="0xff0000"/>
+		<e:Image id="jiaofenHolder" x="104" y="54.98" source="ddz_unknown_holder_png"/>
+		<e:Image id="chuntianHolder" x="104" y="84.96" source="ddz_unknown_holder_png"/>
+		<e:Image id="zhandanHolder" x="291.33" y="54.31" source="ddz_unknown_holder_png"/>
+		<e:Image id="mingpaiHolder" x="291.33" y="84.29" source="ddz_unknown_holder_png"/>
+		<e:Label id="jiaofenLabel" text="X1" x="95.33" y="40" fontFamily="Microsoft YaHei" size="25" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="67" anchorOffsetY="0" height="31.67" textColor="0xff0000"/>
+		<e:Label id="chuntianLabel" text="X1" x="94.65" y="71.33" fontFamily="Microsoft YaHei" size="25" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="67" anchorOffsetY="0" height="31.67" textColor="0xFF0000"/>
+		<e:Label id="zhadanLabel" text="X1" x="282.67" y="38" fontFamily="Microsoft YaHei" size="25" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="67" anchorOffsetY="0" height="31.67" textColor="0xFF0000"/>
+		<e:Label id="mingbaiLabel" text="X1" x="281.99" y="69.33" fontFamily="Microsoft YaHei" size="25" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="67" anchorOffsetY="0" height="31.67" textColor="0xFF0000"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BYCanonSkin" width="200" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16865e2be0b" ></w:Config>
+	<e:Image id="gunBg" y="94" horizontalCenter="0" source="by_cannon_dizuo1"/>
+	<e:Group id="gun" width="100" height="102" anchorOffsetX="50" anchorOffsetY="59.67" x="100" y="107.67" touchThrough="false" touchChildren="false" touchEnabled="true">
+		<e:Image id="gunImg" source="cannon_gun_0" anchorOffsetX="0" anchorOffsetY="0" rotation="0" x="0" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<e:Group id="firePoint" width="1" height="1" y="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		<ns1:DragonAnim id="fishCanonAnim" width="100" height="100" aligntype="bottom" anchorOffsetY="0" anim="paotai00" isloop="true" playOnStage="true" defaultPlayAnim="standby" isTouchByGroup="false" isTouch="false" touchChildren="false" touchEnabled="false"/>
+
+
+
+
+	</e:Group>
+	<e:Button id="changeBtn" label="" x="50.5" y="-47">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="toll_gun_change" source.down="toll_gun_change" source.disabled="toll_gun_change"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="selfTipGroup" width="200" height="150" x="0" y="14" anchorOffsetY="0" touchChildren="false" touchEnabled="false" touchThrough="false" visible="false">
+		<e:Image id="frameImg" x="-109" y="-3" source="by_player_frame_png"/>
+		<e:Image x="16" y="-95" source="by_here_png"/>
+	</e:Group>
+	<e:Group id="winGroup" width="200" height="200" x="5" y="-184">
+		<e:Image id="winCircleImg" source="by_circle" anchorOffsetX="117" anchorOffsetY="117" x="100" y="100"/>
+		<e:Group id="winFontGroup" width="200" height="200" anchorOffsetX="100" anchorOffsetY="100" x="100" y="100">
+			<e:BitmapLabel id="winMoneyLabel" width="210" height="64" y="64" font="by_big_win_money_fnt" text="123123" anchorOffsetX="0" anchorOffsetY="0" x="-5" scaleX="1" scaleY="1" textAlign="center" verticalAlign="middle"/>
+		</e:Group>
+	</e:Group>
+	<ns1:MCAnim id="changeAnim" width="100" height="100" isLoop="false" playOnAwake="false" touchChildren="false" touchEnabled="false" mcAnim="by_change_canon_anim" scaleX="1" scaleY="1" y="94" x="51"/>
+</e:Skin>

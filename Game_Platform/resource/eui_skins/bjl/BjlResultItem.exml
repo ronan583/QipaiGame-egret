@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlResultItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1693548de1a" ></w:Config>
+	<e:Image id="itemIcon" x="0" y="0" source="bjlGame_json.hlssm_luzi_item_5_2"/>
+	<e:Image id="blueDuiIcon" x="30" y="30" source="bjlGame_json.hlssm_luzi_item_zpl_xian_dui"/>
+	<e:Image id="redDuiIcon" x="0" y="0" source="bjlGame_json.hlssm_luzi_item_zpl_zhuang_dui"/>
+</e:Skin>

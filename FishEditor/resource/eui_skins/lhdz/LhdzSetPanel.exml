@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzSetPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166405aa8fa" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" scaleX="1" scaleY="1"  source="lhdz_battle_json.lhdz_set_bg"/>
+		<e:Image source="lhdz_battle_json.lhdz_set_title" horizontalCenter="0" verticalCenter="-214"/>
+		<ns1:IButton id="closeBtn" label="" x="938.71" y="208.09">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.lhdz_close_small" source.down="lhdz_battle_json.lhdz_close_small" source.disabled="lhdz_battle_json.lhdz_close_small"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+
+
+
+		<e:ToggleSwitch id="switchBgBtn" label="" verticalCenter="-52.5" left="490" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="lhdz_battle_json.lhdz_set_off" source.up="lhdz_battle_json.lhdz_set_on" source.down="lhdz_battle_json.lhdz_set_on" source.disabled="lhdz_battle_json.lhdz_set_on" verticalCenter="0" left="0" right="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" scaleX="1" scaleY="1" verticalCenter="-52.5" left="790" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="lhdz_battle_json.lhdz_set_off" source.up="lhdz_battle_json.lhdz_set_on" source.down="lhdz_battle_json.lhdz_set_on" source.disabled="lhdz_battle_json.lhdz_set_on" left="0" right="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" scaleX="1" scaleY="1" verticalCenter="65.5" left="490">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="lhdz_battle_json.lhdz_set_off" source.up="lhdz_battle_json.lhdz_set_on" source.down="lhdz_battle_json.lhdz_set_on" source.disabled="lhdz_battle_json.lhdz_set_on" left="0" right="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:Label text="音乐" x="397.33" y="296.35" fontFamily="Microsoft YaHei" size="35" textColor="0x5d4019"/>
+		<e:Label text="音效" x="698" y="297" fontFamily="Microsoft YaHei" size="35" textColor="0x5d4019"/>
+		<e:Label text="静音" x="396" y="416" fontFamily="Microsoft YaHei" size="35" textColor="0x5d4019"/>
+	</e:Group>
+</e:Skin>

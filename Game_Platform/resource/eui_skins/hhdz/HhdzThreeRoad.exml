@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzThreeRoadSkin" width="715" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:hhdz="game.hhdz.*" >
+	<w:Config id="16948e39347" ></w:Config>
+	<e:Group id="roadGroup" x="0" y="0" anchorOffsetX="0" width="715" anchorOffsetY="0" height="80">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

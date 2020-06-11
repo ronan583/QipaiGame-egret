@@ -1,0 +1,15 @@
+{"file":"vbcbm_battle_bank.png","frames":{
+",":{"x":33,"y":24,"w":5,"h":19,"offX":0,"offY":1,"sourceW":5,"sourceH":20},
+".":{"x":13,"y":25,"w":5,"h":4,"offX":0,"offY":16,"sourceW":5,"sourceH":20},
+"0":{"x":21,"y":24,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"1":{"x":57,"y":45,"w":6,"h":20,"offX":0,"offY":0,"sourceW":6,"sourceH":20},
+"2":{"x":41,"y":23,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"3":{"x":1,"y":25,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"4":{"x":53,"y":23,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"5":{"x":13,"y":46,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"6":{"x":53,"y":1,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"7":{"x":41,"y":1,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"8":{"x":33,"y":45,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"9":{"x":45,"y":45,"w":10,"h":20,"offX":0,"offY":0,"sourceW":10,"sourceH":20},
+"万":{"x":21,"y":1,"w":18,"h":21,"offX":0,"offY":0,"sourceW":18,"sourceH":21},
+"亿":{"x":1,"y":1,"w":18,"h":22,"offX":0,"offY":0,"sourceW":18,"sourceH":22}}}

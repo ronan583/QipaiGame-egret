@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzCornerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:lhdz="game.lhdz.*" xmlns:ns1="*" >
+	<w:Config id="16a40eb07e8" ></w:Config>
+	<e:Image y="0" rotation="0" scaleX="1.1" scaleY="1.1" source="roomRes_json.room0_bg"/>
+
+	<lhdz:LhdzCornerRoad id="cornerPanel" x="1" y="45.63" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.775" scaleY="0.74"/>
+
+	<ns1:IButton id="enterGameBtn" label="" x="564" y="239">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="roomRes_json.enterRoomBtn" source.down="roomRes_json.enterRoomBtn" source.disabled="roomRes_json.enterRoomBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:bjl="game.bjl.*"/>
+			</e:Skin>
+		</ns1:skinName>
+
+	</ns1:IButton>
+	<e:BitmapLabel id="recountLabel" width="92.01" height="33.63" x="596" y="9.11" font="number_max_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8"/>
+	<e:Group x="17.6" y="252.49">
+		<e:Label id="zhuangNumLabel" text="虎 3" x="0" y="1.55" textColor="0xE01F1F" size="25" bold="true" fontFamily="Microsoft YaHei"/>
+		<e:Label id="xianNumLabel" text="龙 5" x="67.7" y="0" size="25" bold="true" textColor="0x1B63C6" fontFamily="Microsoft YaHei"/>
+		<e:Label id="heNumLabel" text="和 6" x="138.74" y="0" size="25" bold="true" textColor="0x07C612" fontFamily="Microsoft YaHei"/>
+		<e:layout>
+		<e:HorizontalLayout gap="19"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Label text="限红1-10000" x="252" y="11.52" size="25" bold="true" fontFamily="Microsoft YaHei" textColor="0xe51d1d"/>
+
+	<e:Label id="statusLabel" text="正在结算" x="486.35" y="9.52" size="25" bold="true" textColor="0xD6B660" fontFamily="Microsoft YaHei"/>
+	<e:Group x="468" y="192.83">
+		<e:Image x="17" y="25.5" source="lhdzGame_json.corner_circle_blue"/>
+		<e:Image x="42" y="25.5" source="lhdzGame_json.corner_ball_blue"/>
+		<e:Image x="67" y="25.5" source="lhdzGame_json.corner_line_blue"/>
+		<e:Image x="131" y="24.5" source="lhdzGame_json.corner_circle_red"/>
+		<e:Image x="155" y="24.5" source="lhdzGame_json.corner_ball_red"/>
+		<e:Image x="179" y="24.5" source="lhdzGame_json.corner_line_red"/>
+	</e:Group>
+	<e:BitmapLabel id="gameLevelLabel" text="普通场1" verticalAlign="middle" anchorOffsetX="0" textAlign="center" scaleX="0.9" scaleY="0.9" y="8" x="12.34" font="RoomCornerLabelFont_fnt" anchorOffsetY="0"/>
+</e:Skin>

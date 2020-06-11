@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzHistoryPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:hhdz="game.hhdz.*" xmlns:lhdz="game.lhdz.*" >
+	<w:Config id="16949eac59d" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="lhdz_battle_json.lhdz_history_bg" verticalCenter="10" horizontalCenter="0" x="73" y="39" scaleX="1" scaleY="1"/>
+		<e:Image verticalCenter="-294.5" horizontalCenter="0.5" source="lhdz_battle_json.lhdz_history_title"/>
+		<e:Group id="resultGroup" verticalCenter="-79.5" height="35" y="278" scaleX="1" scaleY="1" horizontalCenter="-11.5" width="968">
+			<e:Image y="190" anchorOffsetX="0" anchorOffsetY="0" x="205.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="200" anchorOffsetX="0" anchorOffsetY="0" x="215.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="210" anchorOffsetX="0" anchorOffsetY="0" x="225.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="220" anchorOffsetX="0" anchorOffsetY="0" x="235.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="230" anchorOffsetX="0" anchorOffsetY="0" x="245.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="240" anchorOffsetX="0" anchorOffsetY="0" x="255.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="250" anchorOffsetX="0" anchorOffsetY="0" x="265.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="260" anchorOffsetX="0" anchorOffsetY="0" x="275.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="270" anchorOffsetX="0" anchorOffsetY="0" x="285.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="280" anchorOffsetX="0" anchorOffsetY="0" x="295.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="290" anchorOffsetX="0" anchorOffsetY="0" x="305.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="300" anchorOffsetX="0" anchorOffsetY="0" x="315.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="310" anchorOffsetX="0" anchorOffsetY="0" x="325.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="320" anchorOffsetX="0" anchorOffsetY="0" x="335.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="320" anchorOffsetX="0" anchorOffsetY="0" x="335.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="320" anchorOffsetX="0" anchorOffsetY="0" x="335.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="320" anchorOffsetX="0" anchorOffsetY="0" x="335.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="320" anchorOffsetX="0" anchorOffsetY="0" x="335.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="320" anchorOffsetX="0" anchorOffsetY="0" x="335.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:Image y="320" anchorOffsetX="0" anchorOffsetY="0" x="335.13" source="lhdz_battle_json.lhdz_dragon"/>
+			<e:layout>
+			<e:HorizontalLayout gap="16.15"/>
+			</e:layout>
+		</e:Group>
+		<ns1:IButton id="closeBtn" label="" x="1083" y="163" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_battle_json.lhdz_close" source.down="lhdz_battle_json.lhdz_close" source.disabled="lhdz_battle_json.lhdz_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<lhdz:LhdzResultRoad id="resultRoad" horizontalCenter="-275" verticalCenter="113" width="420" height="250" x="182" y="363" scaleX="1" scaleY="1"/>
+		<lhdz:LhdzBigRoad id="bigRoad" verticalCenter="49.5" horizontalCenter="210" x="603" y="363" width="548" height="125"/>
+		<lhdz:LhdzThreeRoad id="dyzRoad" horizontalCenter="83" verticalCenter="143.5" x="600" y="488" scaleX="1" scaleY="1" width="294" height="59"/>
+		<lhdz:LhdzThreeRoad id="smallRoad" verticalCenter="143.5" horizontalCenter="377" x="896" y="488" width="294" height="59"/>
+		<lhdz:LhdzThreeRoad id="yueyouRoad" horizontalCenter="83" verticalCenter="206.5" x="600" y="551" width="294" height="59"/>
+		<e:BitmapLabel id="dragonWinValue" font="lhdz_balance_fnt" text="61%" horizontalCenter="-157" verticalCenter="-137.5" x="451" y="199" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="tigerWinValue" text="39%" font="lhdz_balance_fnt" verticalCenter="-138.5" horizontalCenter="157" x="760" y="198" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

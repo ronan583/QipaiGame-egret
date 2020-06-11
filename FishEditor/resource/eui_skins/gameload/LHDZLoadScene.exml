@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LHDZLoadSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image horizontalCenter="0" source="lhdz_room_bg_png"/>
+	<e:Group id="animGroup" width="1334" height="750" y="0" horizontalCenter="0">
+		<ns1:DragonAnim id="anim" xmlns:ns1="*" width="1334" height="778" scaleX="1.05" scaleY="1.05" aligntype="middle" anim="lhdz_qidong2" anchorOffsetY="0" isloop="false" playOnStage="false" horizontalCenter="0" verticalCenter="0"/>
+		<ns1:DragonAnim xmlns:ns1="*" id="anim1" width="1334" height="750" x="0" y="0" scaleX="1" scaleY="1" aligntype="middle" anim="lhdz_qidong" anchorOffsetY="0" isloop="false" playOnStage="false"/>
+	</e:Group>
+
+
+
+</e:Skin>

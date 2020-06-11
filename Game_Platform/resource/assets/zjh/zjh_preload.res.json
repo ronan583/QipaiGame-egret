@@ -1,0 +1,45 @@
+{
+	"groups": [
+		{
+			"keys": "zjh_qidong_ske_dbbin,zjh_qidong_tex_json,zjh_qidong_tex_png,zjhn_room_bg_jpg,zjh_meinv_ske_dbbin,zjh_meinv_tex_png,zjh_meinv_tex_json",
+			"name": "zjh_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/zjh/zjhn_room_bg.jpg",
+			"type": "image",
+			"name": "zjhn_room_bg_jpg"
+		},
+		{
+			"url": "assets/zjh/animation/room/zjh_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "zjh_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/zjh/animation/room/zjh_qidong_tex.json",
+			"type": "json",
+			"name": "zjh_qidong_tex_json"
+		},
+		{
+			"url": "assets/zjh/animation/room/zjh_qidong_tex.png",
+			"type": "image",
+			"name": "zjh_qidong_tex_png"
+		},
+		{
+			"url": "assets/zjh/animation/room/zjh_meinv_ske.dbbin",
+			"type": "bin",
+			"name": "zjh_meinv_ske_dbbin"
+		},
+		{
+			"url": "assets/zjh/animation/room/zjh_meinv_tex.png",
+			"type": "image",
+			"name": "zjh_meinv_tex_png"
+		},
+		{
+			"url": "assets/zjh/animation/room/zjh_meinv_tex.json",
+			"type": "json",
+			"name": "zjh_meinv_tex_json"
+		}
+	]
+}

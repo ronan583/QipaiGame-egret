@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  width="161" height="164">
+	<w:Config id="1672761408e" ></w:Config>
+	<e:Image id="tipLabel" x="0" y="0" source="lhdz_battle_json.lhdz_recountBb"/>
+	<e:BitmapLabel id="countLabel" text="05" verticalAlign="middle" textAlign="center" font="lhdz_time_fnt" verticalCenter="-20" horizontalCenter="0"/>
+	<e:Image id="tipImage" source="lhdz_battle_json.lhdz_recount_tips_1" verticalCenter="51" horizontalCenter="0"/>
+	<ns1:DragonAnim id="countAnim" width="67" height="67" x="48" y="32" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="lhdz_number" isloop="false" playOnStage="false"/>
+</e:Skin>

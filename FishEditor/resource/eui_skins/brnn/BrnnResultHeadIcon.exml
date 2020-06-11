@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnResultHeadIconSkin" width="200" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="banker,self,other" >
+	<w:Config id="166e03bf61f" ></w:Config>
+	<e:Image id="headIconImg" width="94" height="94" y="25.5" source="icon_0_png" x="22"/>
+	<e:Image id="headFrameImg" y="0" x="-7" source="frame_11_png"/>
+	<e:Label id="nameLabel" text="xxxxxxxxxxxx" x="134" y="36" size="21" textColor="0x000000" visible.self="false" x.other="-7" y.other="-9" width="150" textAlign.other="center"/>
+	<e:Label id="moneyLabel" text="Label" x="133" y="91" size="21" textColor="0x020202" visible.self="false" x.other="-7" y.other="144" verticalAlign.other="middle" width.other="150" width="150" textAlign.other="center"/>
+</e:Skin>

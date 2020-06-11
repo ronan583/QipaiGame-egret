@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SingleLineLabelSkin" width="277.33" height="48" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a17c6c781" ></w:Config>
+	<e:Label id="content" text="Label" top="0" bottom="0" left="0" right="0" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" size="22" textColor="0x020202"/>
+	<e:Rect id="rectMask" top="0" bottom="0" left="0" right="0"/>
+</e:Skin>

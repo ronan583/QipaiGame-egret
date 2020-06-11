@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbHistoryPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:brnn="game.brnn.*" xmlns:ns1="*" xmlns:tb="game.tb.*" >
+	<w:Config id="166eacd7afc" ></w:Config>
+
+
+
+
+	<e:Group id="historyGroup" x="0" y="-344" height="344">
+		<e:Image scale9Grid="159,14,961,90" anchorOffsetY="0" height="344" y="0" x="0" source=""/>
+		<tb:TbHistoryItem width="584" height="218" x="269" y="0" skinName="TbHistoryItemSkin"/>
+		<e:Image x="269" y="0" source="" visible="false"/>
+
+	</e:Group>
+
+
+
+</e:Skin>

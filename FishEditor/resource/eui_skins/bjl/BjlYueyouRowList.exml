@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlYueyouRowListSkin" width="20" height="115" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1693a442e36" ></w:Config>
+	<e:Image x="0" y="0" source="hlssm_luzi_item_4_1"/>
+	<e:Image y="21" source="hlssm_luzi_item_4_2" x="0"/>
+	<e:Image y="42" source="hlssm_luzi_item_4_2" x="0"/>
+	<e:Image y="63" source="hlssm_luzi_item_4_2" x="0"/>
+	<e:Image y="84" source="hlssm_luzi_item_4_2" x="0"/>
+	<e:Image y="105" source="hlssm_luzi_item_4_2" x="0"/>
+
+
+
+
+</e:Skin>

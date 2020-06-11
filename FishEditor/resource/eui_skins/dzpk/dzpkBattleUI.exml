@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ddzBattleUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image y="0" source="dzpk_bg_jpg" horizontalCenter="0" locked="true"/>
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+
+
+		<ns1:DZPKHeadIcon id="player1" x="704" y="477"/>
+		<ns1:DZPKHeadIcon id="player2" x="335" y="477"/>
+		<ns1:DZPKHeadIcon id="player3" x="50" y="350"/>
+		<ns1:DZPKHeadIcon id="player4" x="171" y="63"/>
+		<ns1:DZPKHeadIcon id="player5" skinName="DZPKHeadIconRightSkin" x="1049" y="63"/>
+		<ns1:DZPKHeadIcon id="player6" skinName="DZPKHeadIconRightSkin" x="1128" y="350"/>
+
+		<e:Group width="1334" height="750" verticalCenter="0" horizontalCenter="0">
+			<ns1:DZPKChip id="chip1" x="830" y="499"/>
+			<ns1:DZPKChip id="chip5" x="920" y="90"/>
+			<ns1:DZPKChip id="chip4" x="296" y="90"/>
+			<ns1:DZPKChip id="chip6" x="997" y="377"/>
+			<ns1:DZPKChip id="chip2" x="462" y="499"/>
+			<ns1:DZPKChip id="chip3" x="180" y="377"/>
+			<ns1:DZPKCards id="playerCard1" showState="2" skinName="DZPKCardsSelfSkin" horizontalCenter="210.5" verticalCenter="223.5"/>
+			<ns1:DZPKCards id="playerCard6" horizontalCenter="420" verticalCenter="85"/>
+			<ns1:DZPKCards id="playerCard5" horizontalCenter="334.5" verticalCenter="-192"/>
+			<ns1:DZPKCards id="playerCard4" horizontalCenter="-328.5" verticalCenter="-192"/>
+			<ns1:DZPKCards id="playerCard3" horizontalCenter="-450" verticalCenter="85"/>
+			<ns1:DZPKCards id="playerCard2" horizontalCenter="-166.5" verticalCenter="214.5"/>
+			<e:Label id="gameDes" text="体验场 小/大盲注1/2 不限注" textAlign="center" verticalAlign="middle" size="20" fontFamily="Microsoft YaHei" textColor="0xe0e0e0" horizontalCenter="0" verticalCenter="83"/>
+			<e:Label id="totalBet" text="123456789" width="500" textAlign="center" verticalAlign="middle" size="20" textColor="0xe0e0e0" fontFamily="Microsoft YaHei" height="20" horizontalCenter="0" verticalCenter="-181"/>
+			<e:Group id="chipGroup" width="382" height="75" y="211" horizontalCenter="0">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+			</e:Group>
+			<e:Group id="cardTypeGroup" width="75" height="41" horizontalCenter="212.5" verticalCenter="226.5" visible="false">
+			<e:Image id="cardTypeImgBg" scale9Grid="13,13,84,8" anchorOffsetX="0" left="0" right="0" top="0" bottom="0" source="ndzpk_card_type_bg"/>
+			<e:Image id="cardTypeImg" horizontalCenter="0" verticalCenter="0" source="ndzpk_royal_flush"/>
+			</e:Group>
+		</e:Group>
+		<ns1:DZPKPublicCards id="publicCards" horizontalCenter="0" x="412" y="280"/>
+		<e:Group width="295" height="60" verticalCenter="-50" horizontalCenter="0" touchChildren="false" touchEnabled="false" touchThrough="false">
+			<e:Image id="bg" x="-0.66" y="0" source="ndzpk_please_bg"/>
+			<e:Image id="startCountDownImg" x="9.67" y="10" source="ndzpk_start_tip"/>
+			<e:Image id="nextGameWait" y="392" source="ndzpk_next_game" x="6" visible="false"/>
+			<e:Image id="othersWait" y="13.32" source="dzpk_please_wait_oth" horizontalCenter="0"/>
+			<e:BitmapLabel id="startCountDownLabel" width="25.33" height="36" x="258" y="16.33" font="dzpk_fnt_0_fnt" text="30" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group id="initFapaiGroup" width="100" height="100" y="174.28" anchorOffsetX="50" anchorOffsetY="50" x="667"/>
+		<ns1:DragonAnim id="girlAnim" width="180" height="150" aligntype="bottom" anim="dzpk_girl" isloop="false" playOnStage="false" horizontalCenter="0" y="200" isTouchByGroup="true" touchChildren="false" touchEnabled="false"/>
+		<e:Group id="cardResultGroup" touchThrough="true" horizontalCenter="0" width="200" height="100" verticalCenter="100">
+			<ns1:DragonAnim id="huluAnim" width="200" height="100" aligntype="middle" anim="dzpk_hulu" isloop="false" playOnStage="false"/>
+			<ns1:DragonAnim id="jinggangAnim" width="200" height="100" aligntype="middle" anim="dzpk_jingang" isloop="false" playOnStage="false"/>
+			<ns1:DragonAnim id="thsAnim" width="200" height="100" aligntype="middle" anim="dzpk_tonghuashun" isloop="false" playOnStage="false"/>
+			<ns1:DragonAnim id="hjthsAnim" width="200" height="100" aligntype="middle" anim="dzpk_hjtonghuashun" isloop="false" playOnStage="false"/>
+		</e:Group>
+		<e:Group id="winGroup" width="200" height="100" verticalCenter="-180" horizontalCenter="0">
+			<ns1:DragonAnim id="winAnim" width="200" height="100" aligntype="middle" anim="dzpk_youwin" isloop="false" playOnStage="false"/>
+		</e:Group>
+		<ns1:DZPKOperationBar id="operationBar" currentState="others" bottom="-5" horizontalCenter="0"/>
+		<e:Button id="testBtn" label="Button" x="1197" y="26" visible="false"/>
+		<e:Group id="allInScreenGroup" width="1334" height="750" anchorOffsetX="667" x="667" y="375" anchorOffsetY="375" rotation="90" scaleX="1" scaleY="1">
+			<ns1:DragonAnim id="allInScreenAnim" width="1334" height="750" aligntype="middle" anim="dzpk_fire" playOnStage="true" x="0" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="leftUpGroup" left="0" height="95" top="0">
+		<e:Image id="menuArrowImg" x="20" y="8" source="ndzpk_btn_down"/>
+		<e:Group id="menuContent" x="0" y="100" visible="false">
+		<e:Image scale9Grid="105,223,53,44" height="390" source="ndzpk_menu_bg"/>
+			<e:Button id="bankBtn" label="" y="42" horizontalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="ndzpk_btn_withdraw" source.down="ndzpk_btn_withdraw" source.disabled="ndzpk_btn_withdraw"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		<e:Button id="helpBtn" label="" y="125" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_btn_rule" source.down="ndzpk_btn_rule" source.disabled="ndzpk_btn_rule"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="settingBtn" label="" y="206" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_btn_setting" source.down="ndzpk_btn_setting" source.disabled="ndzpk_btn_setting"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="backBtn" label="" y="284" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_btn_back" source.down="ndzpk_btn_back" source.disabled="ndzpk_btn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbCornerItem" width="622" height="267" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:tb="game.tb.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0" source="tbGame_json.tbRoomBG" fillMode="scale"/>
+	<e:Image source="tbGame_json.tb_liang" x="577" y="44"/>
+	<e:Group x="316.6" y="228.49" width="83" height="30" anchorOffsetX="0">
+		<e:Label text="豹子" x="16" size="23" fontFamily="Microsoft YaHei" textColor="0x08ff3c"/>
+		<e:Label id="baoZiNumLabel" text="40" x="75" y="6" size="23" fontFamily="Microsoft YaHei" textColor="0x08ff3c"/>
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="222.6" y="228.49" width="73" height="30">
+		<e:Label text="小" x="16" size="23" fontFamily="Microsoft YaHei" textColor="0x08b1ff"/>
+		<e:Label id="smallNumLabel" text="40" x="75" y="6" size="23" fontFamily="Microsoft YaHei" textColor="0x08b1ff"/>
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="128.6" y="228.49" width="73" height="30" anchorOffsetX="0">
+		<e:Label text="大" x="16" size="23" fontFamily="Microsoft YaHei" textColor="0xff0808"/>
+		<e:Label id="bigNumLabel" text="40" x="75" y="6" size="23" fontFamily="Microsoft YaHei" textColor="0xff0808"/>
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group x="13.6" y="228.49" width="88" height="30" anchorOffsetX="0">
+		<e:Label text="局数" x="16" size="23" fontFamily="Microsoft YaHei" textColor="0xffd908"/>
+		<e:Label id="totalNumLabel" text="40" x="75" y="6" size="23" fontFamily="Microsoft YaHei" textColor="0xffd908"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<ns1:IButton id="enterGameBtn" label="" anchorOffsetX="54" anchorOffsetY="29.04" x="560" y="242.04">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="roomRes_json.enterRoomBtn" source.down="roomRes_json.enterRoomBtn" source.disabled="roomRes_json.enterRoomBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:bjl="game.bjl.*"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:IButton>
+	<e:BitmapLabel id="recountLabel" width="92.01" height="33.63" x="544" y="6.11" font="number_max_fnt" text="2" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.8" scaleY="0.8" textAlign="center"/>
+	<e:Label id="statusLabel" text="正在结算" x="454.35" y="7.52" size="22" bold="true" textColor="0xD6B660" fontFamily="Microsoft YaHei"/>
+	<e:BitmapLabel id="roomLevelLabel" text="普通场1" verticalAlign="middle" anchorOffsetX="0" textAlign="center" scaleX="0.9" scaleY="0.9" y="8" x="12.34" font="RoomCornerLabelFont_fnt" anchorOffsetY="0"/>
+	<tb:TbCornerPanel id="cornerPanel" width="622" height="180" x="0" y="41.7" skinName="TbCornerPanel" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

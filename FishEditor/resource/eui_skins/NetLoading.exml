@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NetLoadingSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a2c5d51b7" ></w:Config>
+	<e:Rect fillAlpha="0.4" left="0" right="0" top="0" bottom="0" x="-282" y="-194" scaleX="1" scaleY="1" width="1624" height="750"/>
+
+
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+
+		<e:Image id="img" source="netLoading_png" anchorOffsetX="52" anchorOffsetY="49" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Group id="mcGroup" width="109.09" height="109.09" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" x="330" y="126" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

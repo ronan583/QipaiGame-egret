@@ -1,0 +1,175 @@
+option java_package = "com.gp.game.message";
+
+//请求单个房间信息
+message OPDiceBaoSingle {
+	required int32 roomId = 1;//房间id
+}
+message OPDiceBaoSingleRet {
+	required OPDiceBaoRoomInfo roomInfos = 1;
+}
+
+//房间列表
+message OPDiceBaoList {
+	required int32 gameType = 1;
+}
+message OPDiceBaoListRet {
+	repeated OPDiceBaoRoomInfo roomInfos = 1;
+}
+
+//房间信息
+message OPDiceBaoRoomInfo {
+	required int32 gameLevel = 1;//房间类型 0.体验场 1.普通 2.贵宾 3.豪华
+	required int32 type = 2;//1.下注中 2.结算中
+	required int32 downTime = 3;//倒计时时间
+	repeated OPDiceBaoRoundInfo roundInfos = 4;//回合信息
+	required int32 roomId = 5;//房间id
+	required int32 order = 6;//序号
+}
+
+//回合信息
+message OPDiceBaoRoundInfo {
+	required int32 round = 1;//回合数
+	repeated int32 diceNumbers = 2;//集合3个数 对应3个骰子
+}
+
+
+//开始or停止下.
+message OPPushDiceBaoBattleStatus {
+	required int32 status = 1; //1.开始下注2.停止下注 3发牌
+	required int32 downTime = 2;//超时时间
+	optional bool isSwitchBanker = 3;//是否切换庄家 true 切换
+	required int32 serialNumber = 4; //局数编号
+} 
+
+//下注
+message OPDiceBaoStake{
+	required int32 type = 1;//1.大 2.小  3.豹子 4.4点5.5点 6.6点 7.7点 8.8点 9.9点 10.10点 11.11点  12.12点  13.13点   14.14点   15.15点   16.16点   17.17点
+							//21.单  22.双 23.双1 24.双2 25.双3 26.双4 27.双5 28.双6
+							//31.豹子1 32.豹子2 33.豹子3 34.豹子4 35.豹子6
+							//41.1同2 42.1同3 43.1同4 44.1同5 45.1同6 45.2同3 47.2同4 48.2同5 49.2同6 50.3同4 51.3同5 52.3同6 53.4同5 54.4同6 55.5同6
+							//61.单骰1 62.单骰2 63.单骰3 64.单骰4 65.单骰5 66.单骰6
+	required int64 value = 2;//下注值
+}
+message OPDiceBaoStakeRet{
+	required int64 playerId = 1; //下注人
+	required int32 type = 2;//1.大 2.小  3.豹子 4.4点5.5点 6.6点 7.7点 8.8点 9.9点 10.10点 11.11点  12.12点  13.13点   14.14点   15.15点   16.16点   17.17点
+							//21.单  22.双 23.双1 24.双2 25.双3 26.双4 27.双5 28.双6
+							//31.豹子1 32.豹子2 33.豹子3 34.豹子4 35.豹子6
+							//41.1同2 42.1同3 43.1同4 44.1同5 45.1同6 45.2同3 47.2同4 48.2同5 49.2同6 50.3同4 51.3同5 52.3同6 53.4同5 54.4同6 55.5同6
+							//61.单骰1 62.单骰2 63.单骰3 64.单骰4 65.单骰5 66.单骰6
+							
+	required int64 value = 3;//下注值
+	optional int64 totalValue = 4;//下注值
+}
+
+//查看玩家列表排行
+message OPDiceBaoPlayerRank{
+	required int32 version = 1; //
+}
+message OPDiceBaoPlayerRankRet{
+	repeated OPDiceBaoPlayerRankInfo rankInfo = 1; //下标 0.神算子 1以后排行
+}
+
+//玩家排名信息
+message OPDiceBaoPlayerRankInfo{
+	required int32 headNum = 1;//头像编号
+	required string nickName = 2;//昵称
+	required int64 money = 3;//余额
+}
+
+//查看胜负情况--走势图
+message OPWinFail{
+	required int32 version = 1; //
+}
+message OPWinFailRet{
+	repeated OPDiceBaoRoundInfo rounds = 1;// 回合信息
+}
+
+//开始游戏
+message OPPushDiceBaoStartGame {
+	repeated int32 diceNumbers = 1;// 集合3个数 对应3个骰子
+	repeated OPDiceBaoPlayerBattleInfo battleInfo = 2;// 玩家战斗信息//0 庄家 1自己
+	repeated int32 winTypes = 3;// 赢得类型
+	optional int32 onlineNum = 4 ;//在线人数
+}
+
+//玩家牌信息
+message OPDiceBaoPlayerBattleInfo {
+	required int64 playerId = 1; //
+	repeated OPDiceBaoPlayerStakeInfo playerStake = 2;// 下注信息
+	optional int64 money = 3; //输赢金币
+	optional int64 totalMoney = 4; //最终的总金币
+}
+
+//下注信息
+message OPDiceBaoPlayerStakeInfo {
+	required int32 type = 1;//1.大 2.小  3.豹子 4.4点5.5点 6.6点 7.7点 8.8点 9.9点 10.10点 11.11点  12.12点  13.13点   14.14点   15.15点   16.16点   17.17点
+							//21.单  22.双 23.双1 24.双2 25.双3 26.双4 27.双5 28.双6
+							//31.豹子1 32.豹子2 33.豹子3 34.豹子4 35.豹子6
+							//41.1同2 42.1同3 43.1同4 44.1同5 45.1同6 45.2同3 47.2同4 48.2同5 49.2同6 50.3同4 51.3同5 52.3同6 53.4同5 54.4同6 55.5同6
+							//61.单骰1 62.单骰2 63.单骰3 64.单骰4 65.单骰5 66.单骰6
+	required int64 value = 2;//下注值
+}
+
+message OpDiceBaoFirstRoom{
+	required int32 roomId = 1; //房间ID
+}
+
+message OpDiceBaoFirstRoomPush{
+	required int32 status = 1; //1.开始下注 2.停止下注 3.发牌
+	required int32 downTime = 2;//倒计时时间
+	repeated OPDiceBaoPlayerBattleInfo battleInfo = 3;//0 庄家 1自己
+	repeated int32 diceNumbers = 4;// 集合3个数 对应3个骰子
+	repeated int32 winTypes = 5;// 赢得类型
+	repeated OPDiceBaoBankerInfo bankerInfos = 6;//申请上庄 庄家信息 集合有多少数量就有多少人
+	optional int64 upBankerMinMoney = 7 ;//上庄最低金额
+	required int32 serialNumber = 8; //局数编号
+	repeated OPDiceBaoPlayerStakeInfo totalStake = 9;//每个区域总下注值
+}
+
+message OPDiceBaoBankerInfo {
+	required int32 type = 1; //1普通 2抢庄
+	required int64 playerId = 2; //1普通 2抢庄
+	required string applyBankerName = 3;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+//上庄
+message OpDiceBaoUpBanker{
+	required int32 type = 1; //1普通 2抢庄
+}
+message OpDiceBaoUpBankerRet{
+	required OPDiceBaoBankerInfo bankerInfos = 1;
+}
+
+//下庄
+message OpDiceBaoDownBanker{
+	required int32 version = 1; //
+}
+message OpDiceBaoDownBankerRet{
+	repeated OPDiceBaoBankerInfo bankerInfos = 6;//申请上庄 庄家信息 集合有多少数量就有多少人
+}
+
+//续投
+message OpDiceContinueStake{
+	required int32 version = 1; //
+}
+message OpDiceContinueStakeRet{
+	required int32 reslut = 1; //
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

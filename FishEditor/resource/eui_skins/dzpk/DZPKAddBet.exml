@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZPKAddBetSkin" width="413" height="695" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16c53dff377" ></w:Config>
+	<e:Image x="98" y="-1" source="dzpk_add_bet_bg_png"/>
+	<ns1:DragonAnim id="arrowAnim" width="114" height="392" x="240" y="260" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="dzpk_add_arrow" isloop="true" playOnStage="true" touchChildren="true" touchEnabled="true" isTouchByGroup="true"/>
+	<e:Group id="chipGroup" width="121" height="400" x="237" y="260" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" touchChildren="false">
+		<e:Image x="62" y="356" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="346" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="336" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="327" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="317" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="307" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="297" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="287" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="277" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="268" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="258" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="248" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="238" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="228" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="219" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="209" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="199" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="189" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="179" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="169" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="160" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="150" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="140" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="130" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="120" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="111" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="101" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="91" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="81" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="71" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="61" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="52" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="42" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:Image x="62" y="32" source="ndzpk_add_chip" scaleX="1" scaleY="1" anchorOffsetX="59" anchorOffsetY="27"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="operationGroup" width="215" height="205" x="234" y="432" anchorOffsetX="216" anchorOffsetY="101">
+		<e:Image x="5" y="70" source="ndzpk_zhu_show_bg" scaleX="1" scaleY="1"/>
+		<e:Button id="addBtn" label="" x="67" y="10" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_zhu_add_btn" source.down="ndzpk_zhu_add_btn" source.disabled="ndzpk_zhu_add_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="subBtn" label="" x="67" y="144" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ndzpk_zhu_sub_btn" source.down="ndzpk_zhu_sub_btn" source.disabled="ndzpk_zhu_sub_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="betLabel" text="9999" x="34" y="88" anchorOffsetX="0" width="147" anchorOffsetY="0" height="33" fontFamily="Microsoft YaHei" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+	<ns1:DragonAnim id="topCoinAnim" width="116" height="72" x="298" y="294" anchorOffsetX="58" anchorOffsetY="36" aligntype="zero" anim="dzpk_top_coin" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouchByGroup="true"/>
+	<ns1:DragonAnim id="allInFireAnim" width="138" height="452" x="230" y="191" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="dzpk_allinfirebox" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" isTouch="false"/>
+
+</e:Skin>

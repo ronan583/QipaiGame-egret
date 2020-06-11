@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDKResultItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="755" height="80">
+	<e:Image id="selfImg" x="1" y="17" source="pdk_result_self_png"/>
+	<e:Label id="playerName" text="一二三四五六七八九十" size="24" verticalAlign="middle" fontFamily="Microsoft YaHei" textColor="0x6d5142" verticalCenter="0" horizontalCenter="-257.5" textAlign="center"/>
+	<e:Label id="base" text="0.05元" x="268.6666666666667" size="24" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x6d5142" verticalCenter="0.5"/>
+	<e:Label id="leftCardCount" text="3" x="369.33333333333337" size="24" verticalAlign="middle" fontFamily="Microsoft YaHei" width="100" textAlign="center" textColor="0x6d5142" verticalCenter="0.5"/>
+	<e:Label id="coin" text="-0.30元" size="24" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" width="180" anchorOffsetX="0" textColor="0x6d5142" verticalCenter="0.5" right="77"/>
+	<e:Image id="baopeiImg" right="36" verticalCenter="0.5" source="pdk_battle_json.pdk_all_lose"/>
+	<e:Image id="winImg" x="640" y="-3.64" scaleX="1.5" scaleY="1.5" source="pdk_result_win_flag_png"/>
+
+</e:Skin>

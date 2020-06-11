@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzResultItemSkin" width="38" height="38" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16948df6011" ></w:Config>
+	<e:Image id="itemIcon" y="0" source="hhdz_history_black_dian_2"/>
+</e:Skin>

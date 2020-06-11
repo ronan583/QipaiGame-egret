@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbHeadIconSkin" width="291" height="202" currentState="banker" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="second,first,other,banker,self"  width.self="344.33" width.banker="193" height.banker="84">
+	<w:Config id="166a20d941d" ></w:Config>
+
+
+
+	<e:Image id="headFrameImg" y="7.19" x="16" scaleX="1" scaleY="1" source="" x.banker="10.4" y.banker="3.79" visible.self="false" visible="false"/>
+
+
+
+
+
+
+
+	<e:Image includeIn="self" x="0" y="0" source="diceGame_json.game_dice_image_main_bg_user" width="280" height="110"/>
+	<e:Image source="tbGame_json.nameBG" x="7" y="107" includeIn="second,first,other,banker" x.other="1" x.first="3" x.second="4" x.banker="33" y.banker="5" source.banker="diceGame_json.game_dice_image_main_bg_name"/>
+	<e:Image source="diceGame_json.game_dice_image_main_bg_name" x="33" y="43" includeIn="banker"/>
+	<e:Image x="0" y="0" includeIn="banker" source="diceGame_json.game_dice_image_main_icon_zhuang"/>
+	<e:Image x="0" y="40" includeIn="banker,self" source="diceGame_json.game_dice_image_bank_gold_icon" width="39" height="40" y.self="56" x.self="11"/>
+
+
+	<e:Label id="playerName" text="name11111111" x="9" y="107.52" size="16" width="109.67" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="19.67" y.other="112.03" x.banker="61.5" y.banker="8.5" anchorOffsetX="0" x.self="66.5" y.self="12.67" width.self="126" fontFamily="Microsoft YaHei" textColor="0xfff3db" size.banker="16" text.banker="name1111111" width.banker="110.33" size.self="18" x.other="17" y.first="110.52" x.first="16" y.second="112.52" x.second="18"/>
+	<e:Group id="winTip" width="152" height="202" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible.first="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="winTipLabel" height="30" text="+7y" textAlign="center" verticalAlign="middle" font="betNum_fnt" horizontalCenter="-0.5" anchorOffsetX="0" y="86" left.self="41"/>
+	</e:Group>
+	<e:Group id="loseTip" width="152" height="202" x="0" y="0.33" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible.first="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source=""/>
+		<e:BitmapLabel id="loseTipLabel" height="30" text="-7y" textAlign="center" verticalAlign="middle" horizontalCenter="0" anchorOffsetX="0" font="blue_fnt" y="86" left.self="44"/>
+	</e:Group>
+	<e:BitmapLabel id="gold" width="148" x="36" y="46" text="12.12" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" includeIn="banker,self" scaleX="1" scaleY="1" x.self="50" y.self="62" textAlign.self="left" font="gpn_gold_fnt" font.self="gpn_gold_fnt"/>
+</e:Skin>

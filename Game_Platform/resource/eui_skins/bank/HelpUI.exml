@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="1280" height="720" x="0" y="0" fillColor="0xffffff" visible="false"/>
+	<e:Group width="1280" height="720" x="0" y="0">
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" source="help_bg_png" horizontalCenter="0" verticalCenter="0" x="125" y="65" scaleX="1" scaleY="1"/>
+		<e:Image anchorOffsetX="0" scale9Grid="59,33,355,24" source="help_title_png" y="78.76" x="562" scaleX="1" scaleY="1"/>
+		<e:Button id="closeBtn" label="" x="1053.56" y="62.290000000000006" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="help_close_png" source.down="help_close_png" source.disabled="help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+
+	<e:Group id="zjhGroup" width="980" height="1057" x="138" y="136.43" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="10" anchorOffsetX="0" scale9Grid="59,33,355,24" x="67.33" source="zjh_help_content_png"/>
+	</e:Group>
+	<e:Group id="ddzGroup" width="990" height="1300" x="136" y="138" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="4" anchorOffsetX="0" width="984" scale9Grid="59,33,355,24" height="1298" source="help_ddz_jpg" x="0"/>
+	</e:Group>
+	<e:Group id="hhdzGroup" width="986" height="721" x="138" y="144" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="0" anchorOffsetX="0" scale9Grid="59,33,355,24" x="120" source="hhdz_help_content_png"/>
+	</e:Group>
+	<e:Group id="lhdzGroup" width="978" height="393" x="142" y="142" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="14" anchorOffsetX="0" scale9Grid="59,33,355,24" x="52" source="lhdz_help_content_png"/>
+	</e:Group>
+	<e:Group id="pdkGroup" width="986" height="800" x="138" y="143" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="0" anchorOffsetX="0" width="985" scale9Grid="59,33,355,24" height="788" source="help_pdk_jpg" x="0"/>
+	</e:Group>
+	<e:Group id="brnnGroup" width="985.58" height="984" x="140.37" y="138" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="9.09" anchorOffsetX="0" scale9Grid="59,33,355,24" x="66.06" scaleX="1" scaleY="1" source="brnn_help_content_png"/>
+	</e:Group>
+	<e:Group id="qznnGroup" width="986" height="1052" x="144.36" y="138" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="10" anchorOffsetX="0" scale9Grid="59,33,355,24" x="52" source="qznn_help_content_png"/>
+	</e:Group>
+	<e:Group id="ermjGroup" width="986" height="4300" x="144" y="136" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="2420" anchorOffsetX="0" width="989" scale9Grid="59,33,355,24" height="2420" source="help_ermj_jpg" x="0"/>
+		<e:Image y="0" anchorOffsetX="0" width="989" scale9Grid="59,33,355,24" height="2420" x="0" source="help_ermj0_jpg"/>
+	</e:Group>
+	<e:Group id="candyGroup" width="980" height="2700" x="142" y="136" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="0" anchorOffsetX="0" width="980" scale9Grid="59,33,355,24" height="2661" x="0" source="help_candy_jpg"/>
+	</e:Group>
+	<e:Group id="duobaoGroup" width="980" height="2400" x="138" y="142" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="2" anchorOffsetX="0" width="970" scale9Grid="59,33,355,24" height="2368" x="0" source="help_duobao_jpg"/>
+	</e:Group>
+	<e:Group id="bjlGroup" width="980" height="1304" x="138" y="136" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="4" anchorOffsetX="0" scale9Grid="59,33,355,24" x="12" source="bjl_help_content_png"/>
+
+
+	</e:Group>
+	<e:Group id="dzpkGroup" width="980" height="1011" x="136" y="136" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="4" anchorOffsetX="0" scale9Grid="59,33,355,24" x="82" source="dzpk_help_content_png"/>
+	</e:Group>
+	<e:Group id="fruitGroup" width="986" height="1300" x="136" y="140" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+		<e:Image y="0" anchorOffsetX="0" width="969" scale9Grid="59,33,355,24" height="1310" x="0" source="help_fruit_jpg"/>
+	</e:Group>
+	<e:Scroller id="scroller" width="983.03" height="460.54" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-0.5" y="143">
+		<e:Group id="viewport" anchorOffsetX="0" width="1095.15" x="190.91" y="0" anchorOffsetY="0" height="462.54">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDKClockSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="100" height="100">
+	<w:Config id="166b70e6acd" ></w:Config>
+	<e:Image horizontalCenter="4.5" verticalCenter="0.5" source="pdk_clocks_bg"/>
+	<e:BitmapLabel id="leftTimeLabel" width="50" height="30" text="15" textAlign="center" horizontalCenter="2" verticalCenter="10" font="pdk_count_down_fnt"/>
+</e:Skin>

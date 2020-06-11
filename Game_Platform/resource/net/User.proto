@@ -1,0 +1,268 @@
+option java_package = "com.gp.game.message";
+
+//登陆
+message OPLogin{
+	required int32 type = 1;//登陆类型 1.游客 2.正式用户
+	optional string macAddress = 2;//mac地址
+	optional string userAccount = 3;//账号
+	optional string password = 4;//密码
+	optional string os = 5;//系统
+	optional string platform = 6;//平台
+	optional string ip = 7;//服务器用
+	optional string channelId = 8;//服务器用
+}
+message OPLoginRet{
+	required int64 playerId = 1;//数据库自增id
+	required string userId = 2;//用户id
+	required string nickName = 3;//昵称
+	required int32 vipLevel	 = 4;//vip等级
+	required int64 money = 5;//余额
+	required int64 bankMoney  = 6;//
+	required int32 level  = 7;//等级
+	required int32 exp  = 8;//当前经验
+	required int64 vipExp  = 9;//vip经验
+	required int64 vipTotlExp  = 10;//vip总经验
+	required int32 totalExp  = 11;//总经验
+	required int32 headNum = 12;//头像编号
+	required int32 headFrameNum = 13;//头像框编号
+	required string channelId = 14;//服务器用
+	required bool isFormal = 15;//是否正式用户 true：正式  false :游客
+	required string userAccount = 16;//账号
+	required bool isUpateName = 17;//账号是否该过名称
+	optional int32 currentGameType = 18;//当前正在完的游戏类型 0 表示没用在游戏中
+	optional string bindingAlipay = 19;//是否绑定支付宝
+	optional string bindingBank = 20;//是否绑定银行
+	optional int32 roomId = 21;//房间id
+	optional string password = 22;//
+	optional string macAddress = 23;//
+}
+
+//心跳
+message OPHeartbeat{
+}
+message OPHeartbeatRet{
+	required int32 time = 1;
+}
+
+//同步
+message OPSynchPlayerInfo {
+	required int64 money = 1;//余额
+	required int32 vipLevel	 = 2;//vip等级
+	required int64 bankMoney  = 3;//
+	required int32 level  = 4;//等级
+	required int64 exp  = 5;//当前经验
+	required int32 totalExp  = 6;//总经验
+}
+
+//注册账号
+message OPRegisterAccount {
+	required string mobile = 1;
+	required string code = 2;
+	required string password = 3;
+}
+message OPRegisterAccountRet {
+	required string mobile = 1;
+}
+
+//获取验证码
+message OPGetCode {
+	required string mobile = 1;
+	required int32 type = 2;//1.注册 2.重置密码
+}
+message OPGetCodeRet {
+	required int32 result = 1;//
+}
+
+//修改头像
+message OPUpateHead {
+	required int32 type = 1;//1.头像 2.头像框
+	required int32 number = 2;
+}
+message OPUpateHeadRet {
+	required int32 type = 1;//1.头像 2.头像框
+	required int32 number = 2;
+}
+
+//修改昵称
+message OPUpateNickName {
+	required string nickName = 1;//
+}
+message OPUpateNickNameRet {
+	required string nickName = 1;//
+}
+//修改密码
+message OPPassword {
+	required string mobile = 1;//
+	required string password = 2;//
+	required string code = 3;
+}
+message OPPasswordRet {
+	required string password = 1;//
+}
+
+//推送离线
+message PushOffline{
+	required int32 status = 1;//0.正常离线 1.服务器关闭 2.被踢下线
+}
+
+//存钱 取钱
+message OPBankMoney {
+	required int32 type = 1;//1.存钱 2.取钱
+	required int64 money = 2;//数量
+}
+message OPBankMoneyRet {
+	required int32 type = 1;//1.存钱 2.取钱
+	required int64 bankMoney =2;//银行的钱
+	required int64 money = 3;//账户钱
+}
+//游戏内取钱推送
+message OPGameBankMoneyPush {
+	required int64 totalBankMoney =1;//银行总钱
+	required int64 totalMoney = 2;//账户总钱
+	required int64 money = 3;//取得钱
+}
+
+//公告集合
+message OPNoticeList {
+	required string version = 1;
+}
+message OPNoticeListRet {
+	repeated OPNoticeInfo noticeInfos = 1;
+}
+
+//公告内容体
+message OPNoticeInfo {
+	required int64 id = 1;//公告id
+	required string title = 2;//标题
+	required string time = 3;//时间
+	required string sender = 4;//发送者
+	required bool status = 5;//false 为阅读 true 已阅读
+	optional string info = 6;//内容
+	required int32 type = 7;//类型 1.消息 2.奖励
+}
+
+//公告内容请求
+message OPNoticeDetail {
+	required int64 id = 1;//公告id
+}
+message OPNoticeDetailRet {
+	required OPNoticeInfo noticeInfo = 1;
+}
+
+//客服
+message OPCustomerService {
+	required string info = 1;//内容
+}
+message OPCustomerServiceRet {
+	required int32 result = 1;//结果
+}
+
+//排行
+message OPRanking {
+	required int32 type = 1;//类型 ： 1.金币 2时长 3.等级
+}
+message OPRankingRet {
+	required int32 type = 1;//类型 ： 1.总金钱 2今日赢金钱 3.等级
+	optional int64 totalMomey = 2;//总钱
+	optional int64 todayMoney = 3;//金币
+	optional int32 rankNumber = 4;//排行
+	repeated OPRankingInfo rankingInfos = 5;//
+	
+}
+//排行信息
+message OPRankingInfo {
+	required string nickName = 1;//昵称
+	required int32 vipLevel	 = 2;//vip等级
+	required int32 headNum = 3;//头像编号
+	required int32 headFrameNum = 4;//头像框编号
+	required int32 number = 5;//排名
+	required string value = 6;//对应的值  金币--money  时长--时间  等级---对应等级
+	required int64 playerId = 7;//昵称
+	required string userId = 8;//用户id
+}
+
+//设置账号
+message OPSetUpBank {
+	required int32 type = 1;//1.支付宝 2.银行卡
+	required string account = 2;//账号
+	required string name = 3;//姓名
+}
+message OPSetUpBankRet {
+	required int32 type = 1;//1.支付宝 2.银行卡
+	required string account = 2;//账号
+}
+
+//兑换
+message OPExchange {
+	required int32 type = 1;//1.支付宝 2.银行卡
+	required int64 money = 2;//数量
+}
+message OPExchangeRet {
+	required int32 type = 1;//1.支付宝 2.银行卡
+	required int64 money = 2;//数量
+}
+
+//兑换记录
+message OPExchangeRecord {
+	required int32 page = 1;//当前页数
+}
+message OPExchangeRecordRet {
+	repeated OPExchangeRecordInfo recordInfoInfo = 1;//兑换
+	required int32 page = 2;//当前页数
+}
+message OPExchangeRecordInfo {
+	required string no = 1;//编号
+	required int32 type = 2;//类型 1.支付宝 2.银行卡
+	required int64 money = 3;//数量
+	required string dataTime = 4;//时间
+	required int32 status = 5;//类型 1.兑换中 2.已完成
+}
+
+//广播推送
+message OPPushBroadcast{
+	required int32 type = 1;//公告类型 1.系统 2.玩家
+	optional int32 count = 2;//播放次数
+	optional string content = 3;//内容 富文本
+}
+
+message OPUpdateGpsInfo {
+	optional string latitude = 1;//经度
+	optional string longitude = 2;//维度
+	optional string ip = 3;//ip
+}
+message OPUpdateGpsInfoRet {
+	optional string city = 1;//城市
+}
+
+//查询用户的签到信息
+message OPUserSignInfo{
+	required int32 version = 1;
+}
+message OPUserSignInfoRet{
+	repeated  int32 SignDays = 1 ;//1-7 表示周日到周一
+}
+
+//签到
+message OPUseSign{
+	required int32 version = 1;
+}
+
+message OPUseSignRet{
+	required int32 SignDay = 1;// 1-7 表示在周日到周一签到成功 ， 0表示重复签到
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjResultPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ermj="game.ermj.*" xmlns:ns1="*" xmlns:tween="egret.tween.*" states="loseOrwin,liuju" >
+	<w:Config id="168397c7dbf" ></w:Config>
+	<e:Group id="result" verticalCenter="0" horizontalCenter="0" width="1334" height="750">
+		<e:Group id="group" width="648" height="95" x="591" y="124" includeIn="loseOrwin">
+			<e:BitmapLabel id="winMoneyLabel" text="+123,4.56" font="ermj_win_big_fnt" x="141" y="16"/>
+			<e:Image source="ermj_battle_json.ermj_result_double_bg" x="-8" y="-5"/>
+			<e:Image source="ermj_battle_json.ermj_result_X" x="-1.04" y="44"/>
+			<e:Image source="ermj_battle_json.ermj_result_double" x="64.04" y="17.96"/>
+			<e:BitmapLabel id="doubleLabel" text="1" font="ermj_result_double_fnt" rotation="340" horizontalCenter="-276" verticalCenter="1"/>
+		</e:Group>
+		<e:Group id="group1" x="544" y="227" includeIn="loseOrwin">
+			<e:Image id="current" source="ermj_battle_json.current_win" x="0" y="0"/>
+			<e:BitmapLabel id="huFanLabel" text="27" font="ermj_win_small_fnt" x="95" y="0"/>
+			<e:Image id="fan" source="ermj_battle_json.fan_win" x="173" y="0"/>
+			<e:Image id="totalfan" source="ermj_battle_json.totalfan_win" x="247" y="0"/>
+			<e:BitmapLabel id="totalFanLabel" text="20.0" font="ermj_win_small_fnt" x="342" y="0"/>
+			<e:Image id="antes" source="ermj_battle_json.antes_win" x="460" y="0"/>
+			<e:BitmapLabel id="antesLabel" text="0123456789" font="ermj_win_small_fnt" x="548" y="0"/>
+		</e:Group>
+		<e:Group id="fanGroup" x="538" y="297" height="152" anchorOffsetY="0" includeIn="loseOrwin">
+			<ermj:ErmjFanLabel width="220" height="22" x="0" y="0"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="10" y="10"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="20" y="20"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="30" y="30"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="40" y="40"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="50" y="50"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="60" y="60"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="70" y="70"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="70" y="70"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="70" y="70"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="70" y="70"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="70" y="70"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="70" y="70"/>
+			<ermj:ErmjFanLabel width="220" height="20" x="70" y="70"/>
+			<e:layout>
+			<e:TileLayout requestedColumnCount="3" orientation="rows" horizontalGap="10" verticalGap="12" requestedRowCount="3"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="fallGroup" y="495" includeIn="loseOrwin" x="509" width="816">
+			<ermj:ErmjSmallGroup width="174" height="110" x="0" y="0"/>
+			<ermj:ErmjSmallGroup width="174" height="110" x="180" y="0"/>
+			<ermj:ErmjSmallGroup width="174" height="110" x="360" y="0"/>
+			<ermj:ErmjSmallGroup width="174" height="110" x="540" y="0"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="714" y="12"/>
+			<e:Image source="ermj_battle_json.playedTiles11" x="765" y="12"/>
+			<!--<e:layout>
+				<e:HorizontalLayout gap="1"/>
+			</e:layout>-->
+		</e:Group>
+		<e:Image id="huCard" source="ermj_battle_json.ermj_hu_tips" verticalCenter="95" x="640" y="429" includeIn="loseOrwin"/>
+		<ns1:IButton id="continueBtn" label="" x="715" y="604" scaleX="1" scaleY="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ermj_battle_json.ermj_withdraw_btn" source.down="ermj_battle_json.ermj_withdraw_btn" source.disabled="ermj_battle_json.ermj_withdraw_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="ermj_battle_json.ermj_start" verticalCenter="-8" left="47"/>
+			<e:Image source="ermj_battle_json.ermj_line" x="175" y="28.09"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:IButton>
+		<e:BitmapLabel id="downTimeLabel" y="633" text="03" touchEnabled="false" font="ermj_result_countdown_fnt" horizontalCenter="281.5"/>
+		<e:Image source="ermj_battle_json.liuju_tips" x="747.98" y="129" includeIn="liuju"/>
+		<ns1:IButton id="leaveBtn" label="" y="0" scaleX="1" scaleY="1" left="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_battle_json.ermj_result_back" source.down="ermj_battle_json.ermj_result_back" source.disabled="ermj_battle_json.ermj_result_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

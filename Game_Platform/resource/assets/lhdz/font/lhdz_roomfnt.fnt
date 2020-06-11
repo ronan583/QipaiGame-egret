@@ -1,0 +1,13 @@
+{"file":"lhdz_roomfnt.png","frames":{
+"2":{"x":1,"y":81,"w":12,"h":24,"offX":3,"offY":0,"sourceW":16,"sourceH":24},
+"3":{"x":15,"y":79,"w":12,"h":24,"offX":2,"offY":0,"sourceW":16,"sourceH":24},
+"4":{"x":28,"y":1,"w":13,"h":24,"offX":1,"offY":0,"sourceW":16,"sourceH":24},
+"5":{"x":28,"y":27,"w":13,"h":24,"offX":2,"offY":0,"sourceW":16,"sourceH":24},
+"6":{"x":15,"y":53,"w":12,"h":24,"offX":2,"offY":0,"sourceW":16,"sourceH":24},
+"7":{"x":43,"y":1,"w":13,"h":24,"offX":1,"offY":0,"sourceW":16,"sourceH":24},
+"8":{"x":43,"y":27,"w":12,"h":24,"offX":2,"offY":0,"sourceW":16,"sourceH":24},
+"9":{"x":1,"y":29,"w":12,"h":24,"offX":2,"offY":0,"sourceW":16,"sourceH":24},
+"y":{"x":1,"y":1,"w":25,"h":26,"offX":1,"offY":2,"sourceW":26,"sourceH":30},
+".":{"x":15,"y":29,"w":4,"h":5,"offX":2,"offY":18,"sourceW":16,"sourceH":24},
+"0":{"x":1,"y":55,"w":12,"h":24,"offX":2,"offY":0,"sourceW":16,"sourceH":24},
+"1":{"x":29,"y":53,"w":8,"h":24,"offX":3,"offY":0,"sourceW":16,"sourceH":24}}}

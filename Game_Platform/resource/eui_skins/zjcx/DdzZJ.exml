@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DdzZJ" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+
+
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image verticalCenter="23.5" y="109" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="ddz_zjcx_json.ddz_zjcx_bg" width="991.34" horizontalCenter="0"/>
+		<e:Scroller id="scroller" width="888.36" height="404" anchorOffsetY="0" anchorOffsetX="0" alpha="1" horizontalCenter="-1" verticalCenter="51" x="195.00000000000003" y="238.00000000000003" scaleX="1" scaleY="1">
+			<e:Group id="viewport" anchorOffsetX="0" x="190.91" y="0" alpha="1" anchorOffsetY="0" rotation="0.15">
+			<ns1:DdzRecordBar x="13" y="10" skinName="DdzRecordBarSkin"/>
+				<ns1:DdzRecordBar x="23" y="20" skinName="DdzRecordBarSkin"/>
+				<ns1:DdzRecordBar x="33" y="30" skinName="DdzRecordBarSkin"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+
+
+
+
+		<e:Image id="closeBtn" horizontalCenter="450.5" verticalCenter="-210" x="1045" y="118.00000000000001" scaleX="1" scaleY="1" source="ddz_history_exit_png"/>
+		<e:Image id="timeLab" top="122" horizontalCenter="0" x="589" y="110.00000000000001" scaleX="1" scaleY="1" source="ddz_zjcx_json.ddz_zjcx_title"/>
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

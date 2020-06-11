@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbRankItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="87" height="141">
+	<w:Config id="16befd265c7" ></w:Config>
+	<e:Image x="0" y="30" source="diceGame_json.game_dice_image_player_bg_avatar"/>
+	<e:Image id="headIcon" x="7" y="38" source="gp_head_1" scaleX="0.8" scaleY="0.8" width="90" height="94"/>
+	<e:Label id="nameLabel" text="" y="4" size="25" fontFamily="Microsoft YaHei" horizontalCenter="0.5" height="25" anchorOffsetX="0" width="204" textAlign="center" verticalAlign="middle"/>
+	<e:Label id="moneyLabel" text="name11111111" y="119" size="20" fontFamily="Microsoft YaHei" horizontalCenter="-0.5" textColor="0xe8d274" anchorOffsetX="0" width="147.67" textAlign="center"/>
+</e:Skin>

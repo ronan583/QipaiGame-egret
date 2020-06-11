@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZSetPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166405aa8fa" ></w:Config>
+	<e:Group width="1334" height="750" verticalCenter="0" horizontalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" scaleX="1" scaleY="1"  source="ddz_battle_json.ddz_set_bg"/>
+		<e:Image source="ddz_battle_json.ddz_set_title" y="107" horizontalCenter="0"/>
+		<ns1:IButton id="closeBtn" label="" x="972.18" y="105.52">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ddz_battle_json.ddz_close" source.down="ddz_battle_json.ddz_close" source.disabled="ddz_battle_json.ddz_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:Image source="ddz_battle_json.ddz_music" verticalCenter="-70.5" horizontalCenter="-240.5"/>
+		<e:Image source="ddz_battle_json.ddz_effect" verticalCenter="-70.5" horizontalCenter="79.5"/>
+		<e:Image horizontalCenter="-240.5" verticalCenter="80.5" source="ddz_battle_json.ddz_mute"/>
+		<e:ToggleSwitch id="switchBgBtn" label="" x="479.36" y="265.6" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="ddz_battle_json.ddz_set_on" source.up="ddz_battle_json.ddz_set_off" source.down="ddz_battle_json.ddz_set_off" source.disabled="ddz_battle_json.ddz_set_off" left="0" right="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" x="795.04" y="264.08" scaleX="1" scaleY="1" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="ddz_battle_json.ddz_set_on" source.up="ddz_battle_json.ddz_set_off" source.down="ddz_battle_json.ddz_set_off" source.disabled="ddz_battle_json.ddz_set_off" left="0" right="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" x="477.85" y="418.71" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" width="157" height="79">
+				<e:Image source="ddz_battle_json.ddz_set_on" source.up="ddz_battle_json.ddz_set_off" source.down="ddz_battle_json.ddz_set_off" source.disabled="ddz_battle_json.ddz_set_off" left="0" right="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+</e:Skin>

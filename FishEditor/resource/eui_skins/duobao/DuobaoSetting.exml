@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DuobaoSettingSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Group width="1334" height="750" y="0" horizontalCenter="0">
+		<e:Image source="db_setting_bg_png" x="257" y="115.00000000000001" scaleX="1" scaleY="1"/>
+		<e:Button id="closeBtn" label="" x="934.64" y="147.16" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_close" source.down="db_close" source.disabled="db_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image x="608" y="142.02" source="duobao_setting_title" scaleX="1" scaleY="1"/>
+		<e:Label text="静音" x="386" y="435.03" fontFamily="Microsoft YaHei" textColor="0xe9b770" size="35"/>
+		<e:Label text="音效" x="687.67" y="279" fontFamily="Microsoft YaHei" textColor="0xE9B770" size="35"/>
+		<e:Label text="音乐" x="386" y="279" fontFamily="Microsoft YaHei" textColor="0xE9B770" size="35"/>
+		<e:ToggleSwitch id="switchBgBtn" label="" x="485" y="262">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_btn_off" source.down="db_btn_on"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" x="771.51" y="262">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_btn_off" source.down="db_btn_on"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" x="485" y="418.4">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_btn_off" source.down="db_btn_on"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

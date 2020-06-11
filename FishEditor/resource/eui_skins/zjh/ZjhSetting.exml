@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZjhSettingSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image y="101.3" scaleX="1" scaleY="1" source="zjh_bank_setting_json.zjh_setting_bg" horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="" y="101.3" scaleX="1" scaleY="1" horizontalCenter="298">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zjh_bank_close" source.down="zjh_bank_close" source.disabled="zjh_bank_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Group id="switchMusicBtn" width="154.67" height="69.33" y="275.3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-87.5">
+			<e:Group id="closeImg_0" width="160.67" height="74.67" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image source="zjh_bank_setting_json.zjh_setting_offbg" x="4.67" y="13.66"/>
+				<e:Image source="zjh_bank_setting_json.zjh_setting_btn" x="-21.34" y="8.66"/>
+				<e:Image source="zjh_bank_setting_json.zjh_setting_off" x="-7.69" y="20.32"/>
+			</e:Group>
+			<e:Group id="openImg_0" width="160.67" height="74.67" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image source="zjh_bank_setting_json.zjh_setting_onbg" x="3.97" y="13.66"/>
+				<e:Image source="zjh_bank_setting_json.zjh_setting_btn" x="105.35" y="8.32"/>
+				<e:Image source="zjh_bank_setting_json.zjh_setting_on" x="118.67" y="21.65"/>
+			</e:Group>
+			<e:Image id="closeImg0" source="zjh_bank_setting_json.zjh_setting_off1" x="0" y="0"/>
+			<e:Image id="openImg0" source="zjh_bank_setting_json.zjh_setting_on1" x="0" y="0"/>
+
+
+		</e:Group>
+		<e:Group id="switchMusicEffectBtn" width="154.67" height="69.33" y="275.3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="202.5">
+			<e:Group id="closeImg_1" width="160.67" height="74.67" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image source="zjh_bank_setting_json.zjh_setting_offbg" x="4.67" y="13.66"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_btn" x="-21.34" y="8.66"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_off" x="-7.69" y="20.32"/>
+			</e:Group>
+			<e:Group id="openImg_1" width="160.67" height="74.67" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image source="zjh_bank_setting_json.zjh_setting_onbg" x="3.97" y="13.66"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_btn" x="105.35" y="8.32"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_on" x="118.67" y="21.65"/>
+			</e:Group>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_off1" x="0" y="0" id="closeImg1" scaleX="1" scaleY="1"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_on1" x="0" y="0" id="openImg1" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="switchEffectBtn" width="154.67" height="69.33" y="412.42" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="502">
+			<e:Group id="closeImg_" width="160.67" height="74.67" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image source="zjh_bank_setting_json.zjh_setting_offbg" x="4.67" y="13.66"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_btn" x="-21.34" y="8.66"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_off" x="-7.69" y="20.32"/>
+			</e:Group>
+			<e:Group id="openImg_" width="160.67" height="74.67" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image source="zjh_bank_setting_json.zjh_setting_onbg" x="3.97" y="13.66"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_btn" x="105.35" y="8.32"/>
+			<e:Image source="zjh_bank_setting_json.zjh_setting_on" x="118.67" y="21.65"/>
+			</e:Group>
+			<e:Image id="closeImg" source="zjh_bank_setting_json.zjh_setting_off1" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image id="openImg" source="zjh_bank_setting_json.zjh_setting_on1" x="0" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+
+		<e:Label id="musicLabel" text="音乐" y="285.97" fontFamily="Microsoft YaHei" horizontalCenter="-240"/>
+		<e:Label id="musicEffectLabel" text="音效" y="285.17" fontFamily="Microsoft YaHei" horizontalCenter="58"/>
+		<e:Label id="effectLabel" text="特效" y="421.93" fontFamily="Microsoft YaHei" horizontalCenter="-238"/>
+		<e:Image y="119.53" horizontalCenter="0" source="zjh_setting_title"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlDyzRowListSkin" width="21" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="130">
+	<w:Config id="16938ca20b3" ></w:Config>
+	<e:Image x="2" y="0" source="bjlGame_json.hlssm_luzi_item_3_1"/>
+	<e:Image y="21" source="bjlGame_json.hlssm_luzi_item_3_1" x="2"/>
+	<e:Image y="41" source="bjlGame_json.hlssm_luzi_item_3_1" x="2"/>
+	<e:Image x="2" y="62" source="bjlGame_json.hlssm_luzi_item_3_1"/>
+	<e:Image x="2" y="83" source="bjlGame_json.hlssm_luzi_item_3_1"/>
+	<e:Image y="103.5" source="bjlGame_json.hlssm_luzi_item_3_1" x="2"/>
+</e:Skin>

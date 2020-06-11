@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErmjSetPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166405aa8fa" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="ermj_help_bg_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="ermj_set" y="34.77" horizontalCenter="0"/>
+		<ns1:IButton id="closeBtn" label="" x="1072" y="32" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ermj_help_close_png" source.down="ermj_help_close_png" source.disabled="ermj_help_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image source="ermj_battle_json.ermj_music" x="412" y="283"/>
+		<e:Image source="ermj_battle_json.ermj_effect" x="762" y="281.5"/>
+		<e:Image source="ermj_battle_json.ermj_mute" x="409" y="422.5"/>
+		<e:ToggleSwitch id="switchBgBtn" label="" x="493" y="258" scaleX="1" scaleY="1" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="ermj_battle_json.ermj_pull_on" source.up="ermj_battle_json.ermj_pull_off" source.down="ermj_battle_json.ermj_pull_off" source.disabled="ermj_battle_json.ermj_pull_off" verticalCenter="0" horizontalCenter="8"/>
+				<e:Image source="ermj_battle_json.ermj_pull_btn" horizontalCenter.upAndSelected="38" horizontalCenter.downAndSelected="38" horizontalCenter.disabledAndSelected="38" verticalCenter="4" horizontalCenter="-38"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchEffectBtn" label="" x="839" y="258" scaleX="1" scaleY="1" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="ermj_battle_json.ermj_pull_on" source.up="ermj_battle_json.ermj_pull_off" source.down="ermj_battle_json.ermj_pull_off" source.disabled="ermj_battle_json.ermj_pull_off" verticalCenter="0" horizontalCenter="8"/>
+				<e:Image source="ermj_battle_json.ermj_pull_btn" horizontalCenter.upAndSelected="38" horizontalCenter.downAndSelected="38" horizontalCenter.disabledAndSelected="38" verticalCenter="4" horizontalCenter="-38"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="switchQuietBtn" label="" x="493" y="399" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected">
+				<e:Image source="ermj_battle_json.ermj_pull_on" source.up="ermj_battle_json.ermj_pull_off" source.down="ermj_battle_json.ermj_pull_off" source.disabled="ermj_battle_json.ermj_pull_off" verticalCenter="0" horizontalCenter="8"/>
+				<e:Image source="ermj_battle_json.ermj_pull_btn" horizontalCenter.upAndSelected="38" horizontalCenter.downAndSelected="38" horizontalCenter.disabledAndSelected="38" verticalCenter="4" horizontalCenter="-38"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+</e:Skin>

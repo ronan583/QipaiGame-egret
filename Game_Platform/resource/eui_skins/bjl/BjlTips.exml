@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1692a27bd24" ></w:Config>
+
+	<e:Image id="xCardPoint" x="7" y="0" anchorOffsetX="0" anchorOffsetY="0" source="bjlGame_json.Hlssm_Battle_SZjs" visible="false"/>
+	<ns1:DragonAnim id="clockAnim" width="78.4" height="75.6" x="12" y="12.4" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="bjl_clock" isloop="false" playOnStage="false"/>
+	<e:Image id="bg" x="2" y="71" anchorOffsetX="0" anchorOffsetY="0" source="bjlGame_json.hlssm_sjlxbg" width="96.5"/>
+	<e:Label id="statusLabel" text="下注时间" x="0" y="73" size="18" width="100" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="23" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0xFFF3DB"/>
+
+	<e:BitmapLabel id="countLabel" x="32" text="10" y="32" anchorOffsetX="0" width="35" anchorOffsetY="0" height="25" textAlign="center" font="bjl_clock_fnt"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonBgSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16b17b96d0c" ></w:Config>
+	<e:Image id="bgImg0" x="0" y="0" width="1280" height="720" scaleX="1" scaleY="1" source="loadingBg_jpg"/>
+	<e:Group id="loadingAnimGroup" width="400" height="200" x="645.93" y="337.97" anchorOffsetX="200" anchorOffsetY="100" touchEnabled="false" touchChildren="false"/>
+</e:Skin>

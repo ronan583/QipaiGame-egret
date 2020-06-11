@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DZPKPublicCardsSkin" width="583" height="145" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1679e287c2c" ></w:Config>
+
+	<e:Group width="577" height="144" x="4.5" y="1.5" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:DZPKPokerCard id="card1" x="48" y="-2" anchorOffsetX="53" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:DZPKPokerCard id="card2" x="166.65" y="-2" anchorOffsetX="53" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:DZPKPokerCard id="card3" x="286.21" y="-2" anchorOffsetX="53" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:DZPKPokerCard id="card4" x="405.21" y="-2" anchorOffsetX="53" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:DZPKPokerCard id="card5" x="523.71" y="-2" anchorOffsetY="0" scaleX="1" scaleY="1" anchorOffsetX="53"/>
+		<e:Image x="0" y="3" source="dzpk_common_card_bg"/>
+		<e:Image x="120" y="3" source="dzpk_common_card_bg"/>
+		<e:Image x="238.5" y="2.05" source="dzpk_common_card_bg"/>
+		<e:Image x="357.5" y="2.05" source="dzpk_common_card_bg"/>
+		<e:Image x="476" y="3" source="dzpk_common_card_bg"/>
+	</e:Group>
+	<e:Group id="cardBegin" width="8" height="27" y="-158" anchorOffsetX="0" anchorOffsetY="0" x="288"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LhdzBetButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"   width="116" height="146">
+	<w:Config id="1671e696042" ></w:Config>
+	<e:Image id="betImage" x="0" y="0" source="lhdz_battle_json.level1_chip_1"/>
+</e:Skin>

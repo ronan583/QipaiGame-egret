@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlBattleSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" xmlns:ns1="*" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="startGroup">
+			<tween:TweenItem target="{startBetIcon}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{-231}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="backIn">
+					<tween:props>
+						<e:Object x="{520}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{520}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="450" ease="backIn">
+					<tween:props>
+						<e:Object x="{1280}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="stopGroup">
+			<tween:TweenItem target="{stopBetIcon}">
+				<tween:Set>
+				<tween:props>
+					<e:Object x="{-231}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="backIn">
+				<tween:props>
+					<e:Object x="{520}"/>
+				</tween:props>
+				</tween:To>
+				<tween:Wait duration="250"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object x="{520}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="450" ease="backIn">
+				<tween:props>
+					<e:Object x="{1280}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+
+		<tween:TweenGroup id="xianWinGroup">
+			<tween:TweenItem target="{xianWinIcon}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="zhuangWinGroup">
+			<tween:TweenItem target="{zhuangWinIcon}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="xianDuiGroup">
+			<tween:TweenItem target="{xianDuiIcon}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="zhuangDuiGroup">
+			<tween:TweenItem target="{zhuangDuiIcon}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="heWinGroup">
+			<tween:TweenItem target="{heWinIcon}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{1}"/>
+				</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+				<tween:props>
+					<e:Object alpha="{0}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="1689a9c28a4" ></w:Config>
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Image y="0" rotation="0" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="2,15,5,611" source="Bg_jpg" horizontalCenter="-1.5" x="-149" scaleX="1" scaleY="1" locked="true"/>
+		<e:Group y="0" horizontalCenter="-25" x="0" scaleX="1" scaleY="1">
+			<bjl:BjlHeadIcon id="selfHeadIcon" width="286.66" height="91.09" x="7.64" y="531.76" anchorOffsetX="0" anchorOffsetY="0" skinName="BjlHeadIconSelfSkin" side="0"/>
+			<bjl:BjlHeadIcon id="bankerHeadIcon" width="236.66" height="97.09" x="539.64" y="9.76" anchorOffsetX="0" anchorOffsetY="0" skinName="BjlHeadIconBankerSkin" side="0"/>
+			<bjl:BjlHeadIcon x="1115.87" y="131" anchorOffsetX="0" anchorOffsetY="0" id="headIcon1" skinName="BjlHeadIconNormalSkin" side="2"/>
+			<bjl:BjlHeadIcon x="112.91" y="131" anchorOffsetX="0" anchorOffsetY="0" id="headIcon2" skinName="BjlHeadIconNormalSkin" side="1"/>
+			<bjl:BjlHeadIcon x="39.82" y="277.3" anchorOffsetX="0" anchorOffsetY="0" id="headIcon3" skinName="BjlHeadIconNormalSkin" side="1"/>
+			<bjl:BjlHeadIcon x="1196.02" y="277.3" anchorOffsetX="0" anchorOffsetY="0" id="headIcon4" skinName="BjlHeadIconNormalSkin" side="2"/>
+			<bjl:BjlHeadIcon x="90.79" y="426" anchorOffsetX="0" anchorOffsetY="0" id="headIcon5" skinName="BjlHeadIconNormalSkin" side="1"/>
+			<bjl:BjlHeadIcon x="1114.9" y="426" anchorOffsetX="0" anchorOffsetY="0" id="headIcon6" skinName="BjlHeadIconNormalSkin" side="2"/>
+			<bjl:BjlTips id="recoutTips" x="969.52" y="79.09" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Image id="fapaiImg" x="196.64" y="37.32" source="fapai"/>
+		</e:Group>
+
+
+		<ns1:IButton id="changeRoomBtn" label="" x="1007.8199999999999" y="-5.73" scaleX="1" scaleY="1" visible="false">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="" source.down="" source.disabled=""/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*" xmlns:lhdz="game.lhdz.*" xmlns:hhdz="game.hhdz.*"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+
+		<e:Group id="touchGroup" y="167.63" anchorOffsetX="0" width="934.3" horizontalCenter="4" x="204" scaleX="1" scaleY="1">
+			<bjl:BjlTouchArea id="touchArea1" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" currentState="light1" width="380" height="337" x="-7.36"/>
+			<bjl:BjlTouchArea id="touchArea5" y="199.97" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" currentState="light5" width="316.36" height="140.03" x="463.28"/>
+			<bjl:BjlTouchArea id="touchArea4" y="199.97" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" currentState="light4" width="316.36" height="140.03" x="141.4"/>
+			<bjl:BjlTouchArea id="touchArea2" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" currentState="light2" width="380" height="337" x="548.25"/>
+			<bjl:BjlTouchArea id="touchArea3" y="80.32" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" currentState="light3" width="261.82" height="114.27" x="330.33"/>
+			<e:Image id="touchImg2" x="551.64" y="-1.31" source="bjl_area3_png" alpha="0.01"/>
+			<e:Image id="touchImg1" x="369.96" y="1.24" source="bjl_area3_png" scaleX="-1" alpha="0.01"/>
+			<e:Image id="touchImg4" x="460.01" y="200.72" scaleX="-1" source="bjl_area2_png" alpha="0.01"/>
+			<e:Image id="touchImg5" x="465.99" y="200.74" source="bjl_area2_png" scaleX="1" alpha="0.01"/>
+			<e:Image id="touchImg3" x="330.95" y="79.65" scaleX="1" source="bjl_area1_png" alpha="0.01"/>
+		</e:Group>
+		<e:Group id="onlinePlayerGroup" width="100" height="97" x="1227" y="495" anchorOffsetY="0">
+			<ns1:IButton id="playerListBtn" label="" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjlGame_json.playerOnlineBtn" source.down="bjlGame_json.playerOnlineBtn" source.disabled="bjlGame_json.playerOnlineBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*" xmlns:lhdz="game.lhdz.*" xmlns:hhdz="game.hhdz.*"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Label id="onlineLabel" text="0" x="36" y="61" fontFamily="Microsoft YaHei" size="25" anchorOffsetX="0" width="30" textAlign="center" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="betContainer" width="1334" height="750" touchThrough="false" touchEnabled="false" touchChildren="false">
+			<e:Rect id="xianBetFlagPoint1" width="20" height="20" x="323" y="209.64"/>
+			<e:Rect id="xianBetFlagPoint2" width="20" height="20" x="414.17" y="206.64"/>
+			<e:Rect id="xianBetFlagPoint3" width="20" height="20" x="473.49" y="255"/>
+			<e:Rect id="xianBetFlagPoint4" width="20" height="20" x="470.16" y="344"/>
+			<e:Rect id="xianBetFlagPoint5" width="20" height="20" x="296.17" y="433"/>
+			<e:Rect id="xianBetFlagPoint6" width="20" height="20" x="235.5" y="360"/>
+			<e:Rect id="xianBetFlagPoint7" width="20" height="20" x="249.49" y="267.33"/>
+			<e:Rect id="heBetFlagPoint1" width="20" height="20" x="578" y="270.32" fillColor="0xff0000"/>
+			<e:Rect id="heBetFlagPoint2" width="20" height="20" x="563.64" y="294.32" fillColor="0xFF0000"/>
+			<e:Rect id="heBetFlagPoint3" width="20" height="20" x="578.67" y="312" fillColor="0xFF0000"/>
+			<e:Rect id="heBetFlagPoint4" width="20" height="20" x="724.99" y="312" fillColor="0xFF0000"/>
+			<e:Rect id="heBetFlagPoint5" width="20" height="20" x="742.99" y="289.33" fillColor="0xFF0000"/>
+			<e:Rect id="heBetFlagPoint6" width="20" height="20" x="724.33" y="268.66" fillColor="0xFF0000"/>
+			<e:Rect id="zhuangBetFlagPoint1" width="20" height="20" x="885.01" y="196"/>
+			<e:Rect id="zhuangBetFlagPoint2" width="20" height="20" x="981.51" y="203.35"/>
+			<e:Rect id="zhuangBetFlagPoint3" width="20" height="20" x="1040.83" y="261.32"/>
+			<e:Rect id="zhuangBetFlagPoint4" width="20" height="20" x="1057.49" y="362.67"/>
+			<e:Rect id="zhuangBetFlagPoint5" width="20" height="20" x="986.16" y="435.66"/>
+			<e:Rect id="zhuangBetFlagPoint6" width="20" height="20" x="820.17" y="344"/>
+			<e:Rect id="zhuangBetFlagPoint7" width="20" height="20" x="834.16" y="239"/>
+			<e:Rect id="xianduiBetFlagPoint1" width="20" height="20" x="574.67" y="389.65" fillColor="0xFFffff"/>
+			<e:Rect id="xianduiBetFlagPoint2" width="20" height="20" x="425.5" y="475" fillColor="0xFFffff"/>
+			<e:Rect id="xianduiBetFlagPoint3" width="20" height="20" x="616.54" y="475" fillColor="0xFFffff"/>
+			<e:Rect id="xianduiBetFlagPoint4" width="20" height="20" x="612.53" y="389.65" fillColor="0xFFffff"/>
+			<e:Rect id="zhuangduiBetFlagPoint1" width="20" height="20" x="690" y="390.32" fillColor="0xFF00FF"/>
+			<e:Rect id="zhuangduiBetFlagPoint2" width="20" height="20" x="694.16" y="473.01" fillColor="0xFF00FF"/>
+			<e:Rect id="zhuangduiBetFlagPoint3" width="20" height="20" x="863.89" y="471.68" fillColor="0xFF00FF"/>
+			<e:Rect id="zhuangduiBetFlagPoint4" width="20" height="20" x="739.89" y="390.32" fillColor="0xFF00FF"/>
+		</e:Group>
+
+
+
+
+
+
+		<bjl:BjlBetInfoUI id="xianBetInfo" x="403.41" y="228" anchorOffsetX="0" anchorOffsetY="0" currentState="xian" scaleX="1" scaleY="1" touchEnabled="false" touchChildren="false" locked="true"/>
+		<bjl:BjlBetInfoUI id="zhuangBetInfo" x="763.99" y="228" anchorOffsetX="0" anchorOffsetY="0" currentState="zhuang" scaleX="1" scaleY="1" touchEnabled="false" touchChildren="false" locked="true"/>
+		<bjl:BjlBetInfoUI id="xianduiBetInfo" x="538.87" y="361.71" anchorOffsetX="0" anchorOffsetY="0" scaleY="1" scaleX="1" currentState="xian" touchEnabled="false" touchChildren="false" locked="true"/>
+		<bjl:BjlBetInfoUI id="heBetInfo" y="251.81" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" currentState="he" horizontalCenter="0" touchEnabled="false" touchChildren="false" locked="true"/>
+		<bjl:BjlBetInfoUI id="zhuangduiBetInfo" x="638.51" y="361.71" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" currentState="zhuang" touchEnabled="false" touchChildren="false" locked="true"/>
+		<bjl:BjlCardInfo id="bjlCardInfo" height="230" y="251.81" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" touchEnabled="false" touchChildren="false" visible="false" locked="true"/>
+		<bjl:BjlCard id="prepareCard1" width="123.03" height="171.52" x="542" y="170" anchorOffsetX="60" anchorOffsetY="87.69" scaleX="0.5" scaleY="0.5"/>
+		<bjl:BjlCard id="prepareCard2" width="123.03" height="171.52" x="581.01" y="171" anchorOffsetX="60" anchorOffsetY="87.69" scaleX="0.5" scaleY="0.5" rotation="0"/>
+		<bjl:BjlCard id="prepareCard3" width="123.03" height="171.52" x="742.31" y="171" anchorOffsetX="60" anchorOffsetY="87.69" scaleX="0.5" scaleY="0.5" rotation="0"/>
+		<bjl:BjlCard id="prepareCard4" width="123.03" height="171.52" x="778.99" y="171" anchorOffsetX="60" anchorOffsetY="87.69" scaleX="0.5" scaleY="0.5" rotation="0"/>
+		<e:Group id="rightBottomGroup" right="5" bottom="-8" x="528" y="633" scaleX="1" scaleY="1" locked="true">
+			<e:Image x="549.53" y="101.39" anchorOffsetX="0" anchorOffsetY="0" source="bjlGame_json.betBottom"/>
+			<e:Group y="0" scaleX="1" scaleY="1" x="47.99">
+			<bjl:BjlBetButton id="betButton1" width="103" height="116" x="550" y="40"/>
+			<bjl:BjlBetButton id="betButton10" width="103" height="116" x="670" y="40"/>
+			<bjl:BjlBetButton id="betButton50" width="103" height="116" x="790" y="40"/>
+			<bjl:BjlBetButton id="betButton100" width="103" height="116" x="910" y="40"/>
+			<bjl:BjlBetButton id="betButton500" width="103" height="116" x="1028.79" y="40"/>
+			<ns1:IButton id="continueBtn" label="" x="1156.37" y="34.92" enabled="false">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="bjlGame_json.continueBtn" source.down="bjlGame_json.continueBtn" source.disabled="bjlGame_json.continueGray"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+			</ns1:IButton>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+
+			</e:Group>
+		</e:Group>
+		<e:Group x="1100" y="-5.65">
+			<ns1:IButton id="applyBankerBtn" label="" y="4.34" x="35.83" imageLabelPath="applyBankerLabel">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjlGame_json.anniubg" source.down="bjlGame_json.anniubg" source.disabled="bjlGame_json.anniubg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*" xmlns:lhdz="game.lhdz.*" xmlns:hhdz="game.hhdz.*"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="downBankerBtn" label="" y="3.74" x="33.67" imageLabelPath="downBankerLabel">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjlGame_json.anniubg" source.down="bjlGame_json.anniubg" source.disabled="bjlGame_json.anniubg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:brnn="game.brnn.*" xmlns:lhdz="game.lhdz.*" xmlns:hhdz="game.hhdz.*"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<e:Label id="bankerInfo" text="12人排队" x="46.47" y="75.14" size="19" width="131" textAlign="center" verticalAlign="middle" anchorOffsetY="0" height="23" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0xccabdb"/>
+		</e:Group>
+		<ns1:BjlDuShenFlag id="dushenFlag1" width="20" height="20" x="441.33" y="173.67" touchChildren="false" touchEnabled="false"/>
+		<ns1:BjlDuShenFlag id="dushenFlag2" width="20" height="20" x="867.99" y="172.32" touchChildren="false" touchEnabled="false"/>
+		<ns1:BjlDuShenFlag id="dushenFlag3" width="20" height="20" x="563.32" y="258.28" touchChildren="false" touchEnabled="false"/>
+		<ns1:BjlDuShenFlag id="dushenFlag4" width="20" height="20" x="394.67" y="476.32" touchChildren="false" touchEnabled="false"/>
+		<ns1:BjlDuShenFlag id="dushenFlag5" width="20" height="20" x="907.33" y="476.98" touchChildren="false" touchEnabled="false"/>
+		<ns1:DragonAnim id="startAnim" aligntype="middle" anim="bjl_bet_start" isloop="false" playOnStage="false" width="500" height="200" horizontalCenter="0" verticalCenter="0" visible="false" touchChildren="false" touchEnabled="false" isTouchByGroup="true"/>
+		<ns1:DragonAnim id="stopAnim" aligntype="middle" anim="bjl_bet_stop" isloop="false" playOnStage="false" width="500" height="200" horizontalCenter="0" verticalCenter="0" visible="false" touchChildren="false" touchEnabled="false" isTouchByGroup="true"/>
+		<ns1:DragonAnim id="changeBankerAnim" aligntype="middle" anim="bjl_change_banker" isloop="false" playOnStage="false" width="500" height="200" horizontalCenter="0" verticalCenter="0" touchChildren="false" touchEnabled="false" isTouchByGroup="true"/>
+		<bjl:BjlTrendPanel id="trendPanel" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" bottom="-5" horizontalCenter="0" x="0" y="296.90999999999997" visible="false"/>
+
+
+
+
+		<e:Group y="24.8" scaleX="1" scaleY="1" left="86" x="86">
+			<e:Image x="0" y="0" width="130" anchorOffsetY="0" height="30" anchorOffsetX="0" source=""/>
+			<e:BitmapLabel id="roomName" text="初级场1" verticalAlign="middle" anchorOffsetX="0" width="119" textAlign="center" scaleX="0.9" scaleY="0.9" y="3" height="25" x="12.34" font="RoomLevelFont_fnt"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="waitGroup" y="276.61000000000007" scaleX="1" scaleY="1" horizontalCenter="0"  touchEnabled="false" touchChildren="false">
+		<ns1:DragonAnim id="waitAnim" width="242" height="96" x="27" y="-23" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="brnn_wait" isloop="true" playOnStage="false"/>
+	</e:Group>
+	<ns1:BjlRoundResult id="roundResult" horizontalCenter="0" visible="false"/>
+	<e:Group id="leftUpGroup" width="204.55" height="331.82" y="1.43" left="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-564.5">
+		<e:Image id="menuArrowImg" x="-1.32" y="-1.31" source="bjlGame_json.btn_xiala"/>
+		<e:Group id="menuContent" width="200" height="200" x="-7" y="186.73" visible="false">
+		<e:Image x="9" y="-74" scaleX="1" scaleY="1" scale9Grid="105,223,53,44" anchorOffsetY="0" source="bjlGame_json.bg0" height="392.52"/>
+		<ns1:IButton id="helpBtn" label="" x="43" y="47" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:brnn="game.brnn.*">
+				<e:Image width="100%" height="100%" source="bjlGame_json.menuHelpBtn" source.down="bjlGame_json.menuHelpBtn" source.disabled="bjlGame_json.menuHelpBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="settingAudioBtn" label="" x="43" y="130" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:brnn="game.brnn.*">
+				<e:Image width="100%" height="100%" source="bjlGame_json.menuSettingBtn" source.down="bjlGame_json.menuSettingBtn" source.disabled="bjlGame_json.menuSettingBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="backBtn" label="" x="43" y="210.03" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:brnn="game.brnn.*">
+				<e:Image width="100%" height="100%" source="bjlGame_json.menuBackBtn" source.down="bjlGame_json.menuBackBtn" source.disabled="bjlGame_json.menuBackBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="bankBtn" label="" x="43" y="-31.97" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled" xmlns:brnn="game.brnn.*">
+				<e:Image width="100%" height="100%" source="bjlGame_json.menuBankBtn" source.down="bjlGame_json.menuBankBtn" source.disabled="bjlGame_json.menuBankBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		</e:Group>
+	</e:Group>
+
+
+
+
+
+
+
+
+</e:Skin>

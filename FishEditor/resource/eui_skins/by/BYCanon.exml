@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BYCanonSkin" width="200" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16865e2be0b" ></w:Config>
+	<e:Image id="gunBg" y="94" horizontalCenter="0" source="by_cannon_dizuo1"/>
+	<e:Group id="gun" width="100" height="102" anchorOffsetX="50" anchorOffsetY="59.67" x="100" y="107.67">
+		<e:Image id="gunImg" source="cannon_gun_0" anchorOffsetX="0" anchorOffsetY="0" rotation="0" x="0" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<e:Group id="firePoint" width="1" height="1" y="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		<ns1:DragonAnim id="canonAnim1" width="100" height="76" x="0" y="0" aligntype="bottom" anchorOffsetY="0" anim="by_cannon_1" isloop="false" playOnStage="false"/>
+		<ns1:DragonAnim id="canonAnim2" width="100" height="76" aligntype="bottom" anchorOffsetY="0" anim="by_cannon_2" isloop="false" playOnStage="false"/>
+		<ns1:DragonAnim id="canonAnim3" width="100" height="76" aligntype="bottom" anchorOffsetY="0" anim="by_cannon_3" isloop="false" playOnStage="false"/>
+	</e:Group>
+	<e:Button id="changeBtn" label="" x="50.5" y="-47">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="toll_gun_change" source.down="toll_gun_change" source.disabled="toll_gun_change"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "qznnn_room_bg_jpg,qznnb_qidong_ske_dbbin,qznnb_qidong_tex_json,qznnb_qidong_tex_png",
+			"name": "qznn_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/qznn/animation/room/qznnb_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "qznnb_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznnb_qidong_tex.json",
+			"type": "json",
+			"name": "qznnb_qidong_tex_json"
+		},
+		{
+			"url": "assets/qznn/animation/room/qznnb_qidong_tex.png",
+			"type": "image",
+			"name": "qznnb_qidong_tex_png"
+		},
+		{
+			"url": "assets/qznn/qznnn_room_bg.jpg",
+			"type": "image",
+			"name": "qznnn_room_bg_jpg"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QynnTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166639f6abd" ></w:Config>
+	<e:Image id="tipLabel" source="qznn_battle_json.start_tips" verticalCenter="3" x="0"/>
+	<e:BitmapLabel id="countLabel" text="1" font="qznn_countdown_fnt" x="278" verticalCenter="4"/>
+</e:Skin>

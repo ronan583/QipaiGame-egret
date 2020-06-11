@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeadIconSelectedSkin" width="95" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="166441600fe" ></w:Config>
+	<e:Image source="info_headframe" horizontalCenter="0.5" verticalCenter="0.5" width="85" height="85"/>
+	<e:Image id="headImg" source="gp_head_1" width="82" height="82" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="selectedIcon" source="info_headframe_selected" width="85" height="85" horizontalCenter="0.5" verticalCenter="0.5"/>
+</e:Skin>

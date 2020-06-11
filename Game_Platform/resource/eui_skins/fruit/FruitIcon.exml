@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitIconSkin" width="150" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16942ed8ba7" ></w:Config>
+	<e:Image id="fruitImg" source="fruitIcon_1" width="140" height="135" x="5" y="3"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

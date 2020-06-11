@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HlsbRoomItemSkin" width="720.67" height="213.67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image id="freeImg" y="57" x="137.33" source="" visible="false"/>
+	<e:Image id="stateImg" y="88.98" x="243.36" source="lhsb_baoman"/>
+	<e:Group id="infoGroup" width="133" height="41" y="85.98" anchorOffsetX="0" anchorOffsetY="0" x="164.84">
+		<e:Image x="12" source="lhsb_zhunru"/>
+		<e:Image x="19" y="22" source="" visible="false"/>
+		<e:BitmapLabel id="maxLimitLabel" width="94" height="27" x="69" y="1.66" anchorOffsetX="0" anchorOffsetY="0" text="2000y" font="hlsbroomfnt1_fnt"/>
+	</e:Group>
+</e:Skin>

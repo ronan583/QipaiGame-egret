@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TgpdBattleSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tgpd="game.tgpd.*" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="startGame">
+			
+
+
+
+
+			<tween:TweenItem target="{passGroup}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleY="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="800"/>
+				<tween:Set/>
+				<tween:To duration="450" ease="backOut">
+					<tween:props>
+						<e:Object scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{poolGroup}">
+				<tween:Set>
+				<tween:props>
+					<e:Object scaleY="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="800"/>
+				<tween:Set/>
+				<tween:To duration="450" ease="backOut">
+				<tween:props>
+					<e:Object scaleY="{1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+
+			<tween:TweenItem target="{pointGroup}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleY="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1250"/>
+
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleY="{0}" alpha="{1}" y="{300}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="backOut">
+					<tween:props>
+						<e:Object scaleY="{1}" y="{370}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{currPointGroup}">
+				<tween:Set>
+				<tween:props>
+					<e:Object scaleY="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1250"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object scaleY="{0}" alpha="{1}" y="{222}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="backOut">
+				<tween:props>
+					<e:Object scaleY="{1}" y="{378}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{stakeGroup}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1750"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250" ease="bounceOut">
+					<tween:props>
+						<e:Object scaleX="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{lineGroup}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="1900"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250" ease="bounceOut">
+					<tween:props>
+						<e:Object scaleX="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{startGameBtn}">
+				<tween:Set>
+				<tween:props>
+					<e:Object scaleX="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="2050"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object scaleX="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object scaleX="{1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{tuoguanBtn}">
+				<tween:Set>
+				<tween:props>
+					<e:Object scaleX="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:Wait duration="2200"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object scaleX="{0}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+				<tween:props>
+					<e:Object scaleX="{1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="showCurrInfo">
+
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="169516214d7" ></w:Config>
+
+	<e:Image anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0" source="candy_bg_jpg"/>
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+
+		<e:Group id="layerGroup1" x="863.36" y="128.98" scaleX="1" scaleY="1">
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="0" x="0" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="10" x="10" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="20" x="20" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="30" x="30" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="40" x="40" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="50" x="50" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="60" x="60" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="70" x="70" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="80" x="80" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="90" x="90" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="100" x="100" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="110" x="110" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="120" x="120" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="130" x="130" source="pic_common_tile" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="140" x="140" source="pic_common_tile" anchorOffsetX="40"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<e:layout>
+			<e:VerticalLayout verticalAlign="bottom" gap="-25"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="layerGroup2" x="390.3" y="125.97" anchorOffsetY="0" height="512" scaleX="1" scaleY="1">
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="0" source="candyParty_json.pic_common_tile" x="0" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="10" source="candyParty_json.pic_common_tile" x="10" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="20" source="candyParty_json.pic_common_tile" x="20" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="30" source="candyParty_json.pic_common_tile" x="30" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="40" source="candyParty_json.pic_common_tile" x="40" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="50" source="candyParty_json.pic_common_tile" x="50" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="60" source="candyParty_json.pic_common_tile" x="60" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="70" source="candyParty_json.pic_common_tile" x="70" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="80" source="candyParty_json.pic_common_tile" x="80" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="90" source="candyParty_json.pic_common_tile" x="90" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="100" source="candyParty_json.pic_common_tile" x="100" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="110" source="candyParty_json.pic_common_tile" x="110" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="120" source="candyParty_json.pic_common_tile" x="120" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="130" source="candyParty_json.pic_common_tile" x="130" anchorOffsetX="40"/>
+			<e:Image width="81" height="57" anchorOffsetY="28" scaleY="1" y="140" source="candyParty_json.pic_common_tile" x="140" anchorOffsetX="40"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<e:layout>
+			<e:VerticalLayout verticalAlign="middle" gap="-25"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="layerGroupx" x="402.28" y="596.02" rotation="0" scaleX="0.6" scaleY="0.6" visible="false">
+			<e:Image anchorOffsetY="0" scaleY="1" y="0" x="0" rotation="90" source="ncandy_game_block3"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="10" source="ncandy_game_block3" x="10" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="20" source="ncandy_game_block3" x="20" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="30" source="ncandy_game_block3" x="30" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="40" source="ncandy_game_block3" x="40" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="50" source="ncandy_game_block3" x="50" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="60" source="ncandy_game_block3" x="60" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="70" source="ncandy_game_block3" x="70" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="80" source="ncandy_game_block3" x="80" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="90" source="ncandy_game_block3" x="90" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="100" source="ncandy_game_block3" x="100" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="110" source="ncandy_game_block3" x="110" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="120" source="ncandy_game_block3" x="120" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="130" source="ncandy_game_block3" x="130" rotation="90"/>
+			<e:Image anchorOffsetY="0" scaleY="1" y="140" source="ncandy_game_block3" x="140" rotation="90"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<e:layout>
+			<e:HorizontalLayout gap="-89"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="layerGroup3" x="402.16" y="590.9" rotation="0" scaleX="1" scaleY="1">
+			<e:Image anchorOffsetY="28" scaleY="1" y="0" x="0" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="10" x="10" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="20" x="20" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="30" x="30" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="40" x="40" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="50" x="50" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="60" x="60" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="70" x="70" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="80" x="80" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="90" x="90" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="100" x="100" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="110" x="110" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="120" x="120" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="130" x="130" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+			<e:Image anchorOffsetY="28" scaleY="1" y="140" x="140" rotation="320" source="candyParty_json.pic_common_tile" anchorOffsetX="40"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<e:layout>
+			<e:HorizontalLayout gap="-69"/>
+			</e:layout>
+		</e:Group>
+		<ns1:DragonAnim id="blastAnim" width="71.52" height="70" x="145" y="7.45" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="bonustime_blast" defaultPlayAnim="animation" isloop="false" playOnStage="false"/>
+		<e:Group id="layerGroupy" x="441.94" y="602.39" rotation="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image anchorOffsetY="0" scaleY="1" y="0" x="0" rotation="140" source="candyParty_json.pic_common_tile"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="0" source="candyParty_json.pic_common_tile" x="0" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="10" source="candyParty_json.pic_common_tile" x="10" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="10" source="candyParty_json.pic_common_tile" x="10" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="20" source="candyParty_json.pic_common_tile" x="20" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="30" source="candyParty_json.pic_common_tile" x="30" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="40" source="candyParty_json.pic_common_tile" x="40" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="50" source="candyParty_json.pic_common_tile" x="50" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="60" source="candyParty_json.pic_common_tile" x="60" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="70" source="candyParty_json.pic_common_tile" x="70" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="80" source="candyParty_json.pic_common_tile" x="80" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="90" source="candyParty_json.pic_common_tile" x="90" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="100" source="candyParty_json.pic_common_tile" x="100" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="110" source="candyParty_json.pic_common_tile" x="110" rotation="90"/>
+			<e:Image width="81" height="57" anchorOffsetY="0" scaleY="1" y="120" source="candyParty_json.pic_common_tile" x="120" rotation="90"/>
+			<e:layout>
+			<e:HorizontalLayout gap="-28"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="levelImg" x="115.33" y="53" scaleX="1" scaleY="1" source="ncandy_game_leveltiyan"/>
+		<e:BitmapLabel id="layerLabel" width="57.33" height="57.33" x="648.99" y="16.35" anchorOffsetX="0" anchorOffsetY="0" font="candy_layerlinebet_fnt" text="1"/>
+		<e:Image id="titleIcon" width="368" height="130.67" anchorOffsetY="0" x="962.65" y="25.33" source="candy_new_json.ncandy_game_logo"/>
+
+
+
+		<e:Group id="passGroup" x="989.64" y="151.32" scaleX="1" scaleY="1" anchorOffsetY="0" height="193.33">
+			<e:Image width="308" height="171" anchorOffsetY="0" x="0" y="0" anchorOffsetX="0" source="candy_new_json.ncandy_game_bgcount"/>
+			<e:BitmapLabel id="passCountLabel" width="167.79" height="48" x="121.66" y="75.68" anchorOffsetX="0" anchorOffsetY="0" text="13/15" scaleX="1" scaleY="1" textAlign="center" verticalAlign="center" font="candy_count_fnt"/>
+			<e:Image id="layerPassIcon" width="81.33" height="81.33" anchorOffsetY="0" x="34.5" y="60.5" source="ncandy_candy_boomer" anchorOffsetX="0"/>
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+		<tgpd:TgpdGameArea id="gameArea" width="494" height="549.33" y="85.33" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-1"/>
+		<e:Image id="gameAreaMask" width="860.24" height="549" x="78.09" y="85" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="pointGroup" x="85.33" y="172.05" scaleX="1" scaleY="1" anchorOffsetX="0" width="252.67" anchorOffsetY="0" height="176.67">
+			<e:Image source="candy_new_json.ncandy_game_bgleiji" x="0" y="0"/>
+			<e:BitmapLabel id="totalWinMoneyLabel" width="220" height="48.33" x="9.659999999999968" y="83.00999999999999" anchorOffsetX="0" anchorOffsetY="0" font="candy_leiji_fnt" text="656" textAlign="center" scaleX="1" scaleY="1"/>
+
+
+
+
+
+
+		</e:Group>
+		<e:Group id="poolGroup" x="976.33" y="318.66" scaleX="1" scaleY="1">
+			<e:Image width="349" height="236" anchorOffsetY="0" anchorOffsetX="0" x="0" y="0" source="ncandy_game_bgpool"/>
+			<e:Image x="58.97" y="60.01" source="ncandy_game_poollabel1"/>
+			<e:Image x="57.64" y="95.99" source="ncandy_game_poollabel2"/>
+			<e:Image x="57.64" y="130.65" source="ncandy_game_poollabel3"/>
+			<e:Image x="48.32" y="162.68" source="ncandy_game_poollabel4"/>
+			<e:BitmapLabel id="grandLabel" width="161" height="28.67" x="173.79" y="63" anchorOffsetX="0" anchorOffsetY="0" text="123" scaleX="1" scaleY="1" font="candy_win_fnt" verticalAlign="center"/>
+			<e:BitmapLabel id="majorLabel" width="161" height="28.67" x="173.79" y="95.67" anchorOffsetX="0" anchorOffsetY="0" text="123" scaleX="1" scaleY="1" font="candy_win_fnt" verticalAlign="center"/>
+			<e:BitmapLabel id="minorLabel" width="161" height="28.67" x="173.79" y="131" anchorOffsetX="0" anchorOffsetY="0" text="123" scaleX="1" scaleY="1" font="candy_win_fnt" verticalAlign="center"/>
+			<e:BitmapLabel id="miniLabel" width="161" height="28.67" x="173.79" y="163.67" anchorOffsetX="0" anchorOffsetY="0" text="123" scaleX="1" scaleY="1" font="candy_win_fnt" verticalAlign="center"/>
+
+
+
+		</e:Group>
+
+
+	</e:Group>
+	<e:Group id="optGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image x="314.16" y="696.38" scaleX="1" scaleY="1" source="ncandy_room_labelbg"/>
+		<e:Image x="266.18" y="679.74" scaleX="1" scaleY="1" source="candy_room_new_json.ncandy_room_icongold"/>
+		<e:Label id="playerMoneyLabel" text="478773.2" x="290.73" y="689.47" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" anchorOffsetY="0" height="44.15" anchorOffsetX="0" width="220.55" verticalAlign="middle" textAlign="center" textColor="0xFDE67C"/>
+		<e:Button id="goldAddBtn" label="" x="473.34" y="682.87" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:bjl="game.tgpd.*">
+				<e:Image width="100%" height="100%" source="candy_room_new_json.ncandy_room_btncharge" source.down="candy_room_new_json.ncandy_room_btncharge" source.disabled="candy_room_new_json.ncandy_room_btncharge"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="candy_room_new_json.ncandy_room_labelbg" x="92.6" y="696.3"/>
+		<e:Label id="nameLabel" text="Guest12354" x="71.38" y="688.62" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" anchorOffsetY="0" height="44.15" anchorOffsetX="0" width="220.55" verticalAlign="middle" textAlign="center" textColor="0xFFFFFF"/>
+		<e:Image source="candy_room_new_json.ncandy_room_headbg" x="14.68" y="646.63"/>
+		<e:Image id="headImg" width="63.12" height="64.12" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" x="28.6" y="657.29" source="gp_head_1"/>
+		<e:Image id="vipImg" source="ncandy_game_vip0" x="4.96" y="700.12"/>
+		<ns1:CandyRoundWinAnim id="roundWinAnim" width="1334" height="750" x="2.34" y="4.68" scaleX="1" scaleY="1" skinName="CandyRoundWinAnimSkin"/>
+
+		<e:Group id="currPointGroup" x="60.56" y="381.76" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="327.33" height="226">
+			<e:Image x="0" y="0" scaleX="1" scaleY="1" source="ncandy_game_bgwin"/>
+			<e:Image id="rewardPos" x="193.32" y="53.35" scaleX="1" scaleY="1" source="" width="10" height="10"/>
+			<e:Scroller id="rewardShowScroller" width="224.01" height="126.67" x="35.42" y="53.8" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+			<e:Group id="rewardShowGroup" anchorOffsetX="0" anchorOffsetY="0" width="214.34">
+				<e:layout>
+				<e:TileLayout verticalGap="5" requestedColumnCount="1"/>
+				</e:layout>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="lineGroup" x="879.67" y="649.2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image width="168" height="50" anchorOffsetY="0" x="228" y="34" source="candyParty_json.btn_zhushu" anchorOffsetX="0"/>
+			<ns1:IButton id="reduceLineBtn" label="" x="197.96" y="24.39">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="candyParty_json.btn_main_minus_up" source.down="candyParty_json.btn_main_minus_up" source.disabled="candyParty_json.btn_main_minus_no"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+			</ns1:IButton>
+			<ns1:IButton id="increaseLineBtn" label="" x="363.96" y="24.39">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="candyParty_json.btn_main_plus_up" source.down="candyParty_json.btn_main_plus_up" source.disabled="candyParty_json.btn_main_plus_no"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+			</ns1:IButton>
+			<e:Image width="160" height="49" anchorOffsetY="0" x="29.4" y="35" source="candyParty_json.btntext_danxian"/>
+			<e:BitmapLabel id="lineLabel" width="121.93" height="50" x="262.45" y="39.48" anchorOffsetX="0" anchorOffsetY="0" text="1" scaleX="0.8" scaleY="0.8" textAlign="center" font="CandyNum2_fnt"/>
+		</e:Group>
+		<e:Group id="stakeGroup" x="577" y="670.3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image width="186" height="50" anchorOffsetY="0" source="candyParty_json.btn_zhushu" x="94" y="10" anchorOffsetX="0"/>
+			<e:Image width="89" height="48" anchorOffsetY="0" x="-11" y="14" source="candyParty_json.btntext_zhushu"/>
+			<e:BitmapLabel id="stakeLabel" width="137.5" height="45" x="133" y="18" anchorOffsetX="0" anchorOffsetY="0" text="1" scaleX="0.8" scaleY="0.8" textAlign="center" font="CandyNum2_fnt"/>
+			<ns1:IButton id="reduceStakeBtn" label="" x="74" y="-1.09">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="candyParty_json.btn_main_minus_up" source.down="candyParty_json.btn_main_minus_up" source.disabled="candyParty_json.btn_main_minus_no"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+			</ns1:IButton>
+			<ns1:IButton id="increaseStakeBtn" label="" x="240" y="0.91">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="candyParty_json.btn_main_plus_up" source.down="candyParty_json.btn_main_plus_up" source.disabled="candyParty_json.btn_main_plus_no"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+
+			</ns1:IButton>
+		</e:Group>
+		<ns1:IButton id="startGameBtn" label="" x="1075.95" y="624.01" anchorOffsetX="92" anchorOffsetY="52" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ncandy_game_btnstart" source.down="ncandy_game_btnstart" source.disabled="btn_queding2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+
+		</ns1:IButton>
+		<ns1:IButton id="qxTuoguanBtn" label="" x="1272.62" y="624.01" anchorOffsetX="94" anchorOffsetY="52" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="candyParty_json.btn_qxtuoguan" source.down="candyParty_json.btn_qxtuoguan" source.disabled="candyParty_json.btn_qxtuoguan2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<ns1:IButton id="tuoguanBtn" label="" x="1272.62" y="624.01" anchorOffsetX="94" anchorOffsetY="52" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="candyParty_json.btn_tuoguan" source.down="candyParty_json.btn_tuoguan" source.disabled="candyParty_json.btn_tuoguan"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<tgpd:TgpdHelpMenu id="menu" width="230" height="249" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" x="0"/>
+	</e:Group>
+	<e:Group id="animGroup" width="1334" height="750" horizontalCenter="0" verticalCenter="0" touchChildren="true" touchThrough="true" touchEnabled="false">
+		<e:Group id="baofuAnimGroup" width="1334" height="750" touchChildren="true" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false">
+			<ns1:DragonAnim id="baofuAnim" width="400" height="300" anim="tgpd_baofu" aligntype="middle" defaultPlayAnim="animation_1" isloop="false" playOnStage="false" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="congratAnimGroup" width="1334" height="750" touchChildren="true" scaleX="1" scaleY="1" x="0" y="0" visible="false">
+			<ns1:DragonAnim id="congratAnim" width="400" height="300" anim="tgpd_gxtg" aligntype="middle" defaultPlayAnim="animation" isloop="false" playOnStage="false" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		</e:Group>
+		<e:Group id="curtainDownAnimGroup" width="1334" height="750" touchChildren="true" scaleX="1" scaleY="1" x="0" y="0" touchThrough="true" visible="false">
+			<ns1:DragonAnim id="curtainDownAnim" width="400" height="300" anim="tgly_mubuluo" aligntype="middle" defaultPlayAnim="animation_1" isloop="false" playOnStage="false" horizontalCenter="15" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="curtainUpAnimGroup" width="1334" height="750" touchChildren="true" scaleX="1" scaleY="1" x="0" y="0" touchThrough="true" visible="false">
+			<ns1:DragonAnim id="curtainUpAnim" width="400" height="300" anim="tgly_mubushang" aligntype="middle" defaultPlayAnim="animation_1" isloop="false" playOnStage="true" horizontalCenter="15" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Button id="testBtn" label="Button" x="1077.3" y="36.5" visible="false"/>
+
+</e:Skin>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZjhRoom" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="Battle,Wait" >
+	<e:Image y="0" source="zjh_table_jpg" horizontalCenter="0" locked="true"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0" y="-1.33">
+		<e:Image id="foldFlyPos" y="301.66" horizontalCenter="0" source="" visible="false"/>
+		<e:Image id="playerWinPoint0" x="484.38" y="464.99" source="zjh_flag_start" visible="false"/>
+		<e:Image id="playerWinPoint1" x="112.91" y="397.87" source="zjh_flag_start" visible="false"/>
+		<e:Image id="playerWinPoint2" x="113.86" y="142.32" source="zjh_flag_start" visible="false"/>
+		<e:Image id="playerWinPoint3" x="1170.5" y="147.84" source="zjh_flag_start" visible="false"/>
+		<e:Image id="playerWinPoint4" x="1170.06" y="402.05" source="zjh_flag_start" visible="false"/>
+		<e:Image id="bankerImg0" x="426.38" y="473.64" source="zjh_flag_start" visible="false"/>
+		<e:Image id="bankerImg1" x="57.59" y="407.89" source="zjh_flag_start" visible="false"/>
+		<e:Image id="bankerImg2" x="58.52" y="160.31" source="zjh_flag_start" visible="false"/>
+		<e:Image id="bankerImg3" x="1268.48" y="155.16" source="zjh_flag_start" visible="false"/>
+		<e:Image id="bankerImg4" x="1269.41" y="422.74" source="zjh_flag_start" visible="false"/>
+
+		<e:Group id="headGroup" width="1334" height="750" x="0" y="0">
+			<ns1:HeadIcon id="player3" width="153.33" height="180" x="54" y="82" anchorOffsetX="0" anchorOffsetY="0" side="2" scaleX="1" scaleY="1"/>
+			<ns1:HeadIcon id="player2" width="195.67" height="258" x="54" y="337" side="2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<ns1:HeadIcon id="player1" width="218" height="244.67" x="434.19999999999993" y="415.69999999999993" anchorOffsetX="0" anchorOffsetY="0" side="3" scaleX="1" scaleY="1" skinName="HeadIconSelfSkin"/>
+			<ns1:HeadIcon id="player4" width="212.42" height="240.61" x="1105" y="82" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="HeadIconRightSkin"/>
+			<ns1:HeadIcon id="player5" width="227.09" height="241.94" x="1105" y="337" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="HeadIconRightSkin"/>
+		</e:Group>
+
+
+
+
+
+		<ns1:DragonAnim id="playerWinAnim" width="122" height="180" x="108.92" y="389.66" anchorOffsetX="0" anchorOffsetY="0" anim="zjh_bright_cards" aligntype="middle" isloop="false" playOnStage="false" scaleX="0.8" visible="false"/>
+		<e:Group id="goldArea" width="495.23" height="75.83" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="5.5" verticalCenter="-53"/>
+		<e:Group id="cardLayer" width="844" height="465.33" x="202.64" y="79.28" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scaleX="1" scaleY="1">
+			<ns1:ZJHCardGroup id="playerCard3" x="29" y="74.6" scaleX="1.2" scaleY="1.2"/>
+			<ns1:ZJHCardGroup id="playerCard2" x="29" y="327.25" scaleX="1.2" scaleY="1.2"/>
+			<ns1:ZJHCardGroup id="playerCard5" x="809" y="335.85" scaleX="1.2" scaleY="1.2" skinName="ZJHCardGroupRightSkin"/>
+			<ns1:ZJHCardGroup id="playerCard4" x="809" y="77.64" scaleX="1.2" scaleY="1.2" skinName="ZJHCardGroupRightSkin"/>
+		</e:Group>
+
+
+
+
+
+
+
+
+
+
+		<e:BitmapLabel id="roomLevelLabel" width="243.19" height="32.15" x="476.34" y="187" anchorOffsetX="0" anchorOffsetY="0" font="zjh_battle_fnt1_fnt" text="体验场 底注:5万" scaleX="0.9" scaleY="0.9" textAlign="center" verticalAlign="middle"/>
+		<e:BitmapLabel id="gameRoundLabel" width="179.86" height="32.15" x="674.01" y="187" anchorOffsetX="0" anchorOffsetY="0" font="zjh_battle_fnt1_fnt" text="第1/15轮" scaleX="0.9" scaleY="0.9" textAlign="center" verticalAlign="middle"/>
+
+
+		<e:Group id="gameStartCountDown" width="500" height="59.33" y="344.37" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="417" visible="false">
+			<e:Image width="296" height="61" source="please_bg" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" visible="false"/>
+			<e:Image scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="zjh_start_tip" visible="false"/>
+			<e:BitmapLabel id="gameCountDown" width="72.18" height="33.64" x="441.23" y="10.88" text="10" anchorOffsetX="0" anchorOffsetY="0" font="zjh_start_fnt"/>
+
+			<ns1:DragonAnim id="waitAnim" width="438.67" height="60" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="kaishiyouxi" isloop="false" playOnStage="false"/>
+		</e:Group>
+		<e:Group id="gameStartWait" width="200" height="50" x="548" y="339.66" scaleX="1" scaleY="1">
+			<e:Image height="61" scaleX="1" scaleY="1" horizontalCenter="-5.5" verticalCenter="3.5" scale9Grid="30,3,236,56" source="please_bg" anchorOffsetX="0" width="441" visible="false"/>
+			<e:Image id="waitNextStart" scaleX="1" scaleY="1" verticalCenter="165.5" horizontalCenter="48" source="please_wait"/>
+
+			<e:Image id="waitForOtherPlayer" scaleX="1" scaleY="1" verticalCenter="3.5" source="please_wait_oth" horizontalCenter="0" visible="false"/>
+		</e:Group>
+		<e:Group id="gameRunning" width="844" height="474.67" x="203.66" y="72" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" touchEnabled="false" scaleY="1">
+
+
+
+
+
+			<ns1:PlayerGoldShow id="playerCost3" width="145" height="35" x="26.79" y="173.59"/>
+			<ns1:PlayerGoldShow id="playerCost2" width="169" height="35" x="28.47" y="428.33" anchorOffsetX="0"/>
+			<ns1:PlayerGoldShow id="playerCost1" width="145" height="35" y="370.97" horizontalCenter="61.5"/>
+			<ns1:PlayerGoldShow id="playerCost5" x="773.41" y="435.2" anchorOffsetX="0" width="176.79"/>
+			<ns1:PlayerGoldShow id="playerCost4" x="774.23" y="177.11" anchorOffsetX="0" width="172.24"/>
+
+			<e:Image id="pkSelectImg" y="260.99" source="zjh_plz_select" horizontalCenter="39" visible="false"/>
+			<ns1:ZJHCardGroupSelf id="playerCard1" y="408" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="74.5"/>
+			<ns1:IButton id="brightCardBtn" label="" y="437" scaleX="0.5" scaleY="0.5" horizontalCenter="253" visible="false">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_btn_light" source.down="zjh_btn_light" source.disabled="zjh_btn_light_f"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+		<e:Group width="221.22" height="51.51" x="597.31" y="213.77" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image x="-4.38" y="14.26" source="zjh_chip_bar"/>
+			<e:Image source="zjh_chip" y="4.5"/>
+			<e:BitmapLabel id="totalBetLabel" text="10万" x="36" y="14" width="129.11" anchorOffsetY="0" height="33.55"  verticalAlign="middle" textAlign="center" font="zjh_battle_fnt3_fnt" scaleX="0.9" scaleY="0.9" anchorOffsetX="0"/>
+		</e:Group>
+		<ns1:ZJHOtherCard id="dealPos" horizontalCenter="0" verticalCenter="-29.5" anchorOffsetX="29" anchorOffsetY="36.5" visible="false"/>
+
+
+		<ns1:DragonAnim id="ladyAnim" width="243" height="144" x="543" y="3" anchorOffsetX="0" anchorOffsetY="0" aligntype="bottom" anim="zjh_npc" isloop="false" touchChildren="false" touchEnabled="false"/>
+		<ns1:DragonAnim id="allinBoundsAnim" defaultPlayAnim="armature" anim="zjh_allin_bounds" aligntype="middle" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<ns1:ZJHOperatioBtnGroup id="operationBtnGroup" width="1280" height="403.04" x="21.22" y="323.61" includeIn="Battle" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false"/>
+		<e:Button id="testBtn" label="Button" x="1142" y="12" visible="false"/>
+		<e:Group id="leftUpGroup" width="204.55" height="331.82" y="1.43" left="0" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1">
+			<e:Image id="menuArrowImg" source="zjh_btn_down" x="0.67"/>
+			<e:Group id="menuContent" width="200" height="200" x="0" y="100" visible="false">
+			<e:Image x="-17" y="-14.33" scale9Grid="100,65,78,395" anchorOffsetY="0" height="333" source="zjh_menu_bg"/>
+			<e:Button id="bankBtn" label="" x="33.02" y="10.7" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_bank_btn" source.down="zjh_bank_btn" source.disabled="zjh_bank_btn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="helpBtn" label="" x="31" y="75" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_btn_rule" source.down="zjh_btn_rule" source.disabled="zjh_btn_rule"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="settingBtn" label="" x="31" y="141.67" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_btn_setting" source.down="zjh_btn_setting" source.disabled="zjh_btn_setting"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="backBtn" label="" x="31" y="206.03" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="zjh_btn_back" source.down="zjh_btn_back" source.disabled="zjh_btn_back"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			</e:Group>
+		</e:Group>
+
+
+	</e:Group>
+	<e:Group id="bipaiGroup" width="1334" height="750" x="0" y="0" touchChildren="true" touchEnabled="false" touchThrough="true" visible="false">
+		<ns1:ZJHBipai id="zjhbipai" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" width="1333.33" anchorOffsetY="0" height="749.33"/>
+	</e:Group>
+
+	<ns1:DragonAnim id="baoziAnim" horizontalCenter="0" verticalCenter="0" aligntype="middle" anim="zjh_baozi_effect" defaultPlayAnim="start" visible="false"/>
+	<ns1:DragonAnim id="youwinAnim" width="116" height="80" x="478.64" y="582.25" anchorOffsetX="0" anchorOffsetY="0" playOnStage="true" anim="zjh_you_win" isloop="false" visible="false"/>
+
+
+</e:Skin>

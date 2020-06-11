@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbTypeBetInfoUISkin" width="191" height="192" currentState="type1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="type1,type2,type3,type4,type5,type6"  width.type1="173" height.type1="181" width.type2="104" height.type2="202" width.type3="79" height.type3="107" width.type4="86" height.type4="199" width.type5="165" height.type5="67" width.type6="85" height.type6="120">
+	<w:Config id="166a1c4379d" ></w:Config>
+
+
+	<e:BitmapLabel id="totalBetNumLabel" y="3" font="wanjia_fnt" text="1231123" x.type1="49" x.type2="15" x.type3="2" x.type4="6" horizontalCenter="0" horizontalCenter.type1="0" y.type1="2"/>
+	<e:BitmapLabel id="selfBetNumLabel" y="168" text="1231123" font="zijixiazhu_fnt" y.type1="156" x.type1="49" x.type2="13" y.type2="178" x.type3="-1" y.type3="84" horizontalCenter.type4="0" horizontalCenter="0" y.type4="174" horizontalCenter.type2="0" horizontalCenter.type1="0.5" horizontalCenter.type6="0.5" y.type6="96" horizontalCenter.type5="0.5" y.type5="44"/>
+</e:Skin>

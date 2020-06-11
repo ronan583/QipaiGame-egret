@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserInfoSkinSkin" width="413" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16633f6033f" ></w:Config>
+
+
+	<ns1:HeadShow id="headShow" width="119" height="116" x="-21" y="-9" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="userAccountLabel" text="15421213545" x="104.07" y="9.8" anchorOffsetX="0" width="173" anchorOffsetY="0" height="31.82" verticalAlign="middle" textAlign="left" size="22" fontFamily="Microsoft YaHei" textColor="0xb5b5b5"/>
+	<e:Label id="userIDLabel" text="ID:1234567" x="105.07" y="47.8" anchorOffsetX="0" width="173" anchorOffsetY="0" height="31.82" verticalAlign="middle" textAlign="left" size="22" fontFamily="Microsoft YaHei" textColor="0xb5b5b5"/>
+
+	<e:Group id="vipGroup" x="-23.26" y="68.46" touchEnabled="false" touchThrough="false" touchChildren="false">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="" visible="false"/>
+		<e:Image id="vipLevelIcon" x="0" y="0" source="vip0"/>
+	</e:Group>
+	<e:Group id="vipLevelGroup" y="10.28" right="0" visible="false">
+		<e:Image x="9" y="3" source=""/>
+		<e:Label id="levelLabel" text="Lv.8" x="26.69" y="10.12" size="20"/>
+	</e:Group>
+</e:Skin>

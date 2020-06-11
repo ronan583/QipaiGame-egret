@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnZJ" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="zjcx_json.zjcxBg" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label text="小提示：仅显示最近十条记录" x="150" y="621" size="21" fontFamily="Microsoft YaHei" textColor="0xFEF6C0"/>
+	<e:Scroller id="scroller" width="983.03" height="420" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-0.5" y="194" alpha="1">
+		<e:Group id="viewport" anchorOffsetX="0" width="1095.15" x="190.91" y="0" height="420" alpha="1">
+			<ns1:BrnnRecordBar width="920" height="45" skinName="BrnnRecordBarSkin" horizontalCenter="0" top="0"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Image source="zjcx_json.zjcx_sy" x="1007" y="149"/>
+	<e:Image source="zjcx_json.zjcx_room" x="372" y="150"/>
+	<e:Image source="zjcx_json.zjcx_time" x="230" y="150"/>
+	<e:Image id="closeBtn" source="zjcx_json.zjcxCloseBtn" x="1042" y="74"/>
+	<e:Image id="timeLab" source="zjcx_json.zjcx_title" x="587" verticalCenter="-260"/>
+	<e:Image source="zjcx_json.zjcx_fangKuai" x="874" y="151"/>
+	<e:Image source="zjcx_json.zjcx_heiTao" x="502" y="152"/>
+	<e:Image source="zjcx_json.zjcx_hongTao" x="625" y="151"/>
+	<e:Image source="zjcx_json.zjcx_meiHua" x="744" y="150"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeadShowSkin" width="122" height="127" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16b28863f53" ></w:Config>
+	<e:Image id="headIcon" source="gp_head_1" x="16" y="19" width="90" height="90"/>
+	<e:Image id="headIconFrame0" scale9Grid="32,30,23,27" x="15" y="16" source="vip_k_0"/>
+	<e:Image id="headIconFrame2" x="-1" y="14" anchorOffsetY="0" height="111" anchorOffsetX="0" width="114" scale9Grid="15,30,97,27" source="vip_k_2"/>
+	<e:Image id="headIconFrame3" scale9Grid="32,30,23,27" x="-2" y="14" source="vip_k_3"/>
+	<e:Image id="headIconFrame4" scale9Grid="32,30,23,27" x="0" y="13" source="vip_k_4"/>
+	<e:Image id="headIconFrame5" scale9Grid="32,30,23,27" x="2" y="12" source="vip_k_5"/>
+	<e:Image id="headIconFrame6" scale9Grid="32,30,23,27" x="2" y="12" source="vip_k_6"/>
+	<e:Image id="headIconFrame7" scale9Grid="32,30,23,27" x="0" y="6" source="vip_k_7"/>
+	<e:Image id="headIconFrame8" scale9Grid="32,30,23,27" x="3" y="0" source="vip_k_8"/>
+	<e:Image id="headIconFrame9" scale9Grid="32,30,23,27" x="-4" y="9" source="vip_k_9"/>
+	<e:Image id="headIconFrame10" scale9Grid="32,30,23,27" x="-5" y="0" source="vip_k_10"/>
+	<e:Image id="headIconFrame11" scale9Grid="32,30,23,27" x="-6" y="0" source="vip_k_10"/>
+	<e:Image id="headIconFrame1" y="16" x="14" source="vip_k_1"/>
+	<e:Image id="headIconFrame12" x="-4" y="15" source="vip_k_10"/>
+	<e:Image id="headIconFrame13" x="1" y="15" source="vip_k_10"/>
+	<e:Image id="headIconFrame14" x="-3" y="15" source="vip_k_10"/>
+	<e:Image id="headIconFrame15" x="-4" y="15" source="vip_k_10"/>
+	<e:Image id="headIconFrame16" x="-2" y="13" source="vip_k_10"/>
+</e:Skin>

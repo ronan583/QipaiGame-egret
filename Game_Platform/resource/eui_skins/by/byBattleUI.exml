@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="byBattleUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="bgImg" y="0" source="t_bg_1_jpg" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="contentGroup" width="1334" height="750" horizontalCenter="0">
+		<e:Group id="operationGroup" width="1624" height="750" y="0" x="-145"/>
+		<ns1:BYMoney id="playerMoney4" width="189.7" height="41.21" anchorOffsetX="0" anchorOffsetY="0" left="53" top="0" x="0" y="0" scaleX="1" scaleY="1" skinName="BYMoneyUpperSkin"/>
+		<ns1:BYCanon id="canon3" width="200" height="150" x="826.27" y="160" scaleY="-1" scaleX="1"/>
+		<ns1:BYCanon id="canon2" width="200" height="150" x="832.15" y="580.8" scaleX="1" scaleY="1"/>
+		<ns1:BYCanon id="canon1" width="200" height="150" x="278" y="582.42" scaleX="1" scaleY="1"/>
+		<ns1:BYCanon id="canon4" width="200" height="150" x="304" y="162" scaleY="-1" scaleX="1"/>
+		<ns1:BYCoins id="bulletMoney1" width="192.73" height="54.85" x="239.08" y="691.16" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchChildren="true" touchEnabled="false"/>
+		<ns1:BYCoins id="bulletMoney2" width="192.73" height="54.85" x="795.45" y="691" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchChildren="true" touchEnabled="false"/>
+		<ns1:BYCoins id="bulletMoney3" x="929.27" y="17.32" anchorOffsetX="134" anchorOffsetY="35" scaleX="1" scaleY="1" touchChildren="true" touchEnabled="false" rotation="180"/>
+		<ns1:BYCoins id="bulletMoney4" x="406.68" y="19.95" anchorOffsetX="134" anchorOffsetY="35" scaleX="1" scaleY="1" touchChildren="true" touchEnabled="false" rotation="180"/>
+		<ns1:BYMoney id="playerMoney1" anchorOffsetX="0" anchorOffsetY="0" left="0" x="0" scaleX="1" scaleY="1" bottom="0"/>
+		<ns1:BYMoney id="playerMoney2" anchorOffsetX="0" anchorOffsetY="0" right="0" x="1144.3" scaleX="1" scaleY="1" bottom="0"/>
+		<ns1:BYMoney id="playerMoney3" width="259.03" height="41.21" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" x="1144.3" y="0" scaleX="1" scaleY="1" skinName="BYMoneyUpperSkin"/>
+	</e:Group>
+	<e:Group width="229.33" height="107" y="632" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5">
+		<e:Image id="autoShootBtn" source="toll_bt_auto"/>
+		<e:Image id="autoLockBtn" x="0" y="0" source="toll_bt_lock"/>
+		<e:layout>
+		<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+
+	<e:Group width="98.48" height="407.58" anchorOffsetX="0" left="0" top="2" anchorOffsetY="0">
+		<e:Image id="menuImg" y="8.48" x="10" source="by_arrow_down" scaleX="1" scaleY="1"/>
+		<e:Group id="menuContent" y="-0.44" left="-2" x="-2" scaleX="1" scaleY="1" visible="false">
+			<e:Image y="0" x="0" source="by_menu_bg"/>
+			<ns1:IButton id="backBtn" label="" horizontalCenter="-1" verticalCenter="148.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_exit" source.down="by_exit" source.disabled="by_exit"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="fishBtn" label="" x="10" y="158">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_fish" source.down="by_fish" source.disabled="by_fish"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="setBtn" label="" x="11" y="234">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_setting" source.down="by_setting" source.disabled="by_setting"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+			<ns1:IButton id="bankBtn" label="" horizontalCenter="-1" verticalCenter="-80.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="by_draw" source.down="by_draw" source.disabled="by_draw"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:IButton>
+		</e:Group>
+		<e:Label id="roomLabel" text="普通场" x="9" y="98" scaleX="1" scaleY="1" textColor="0x8ab4cc" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="78" textAlign="center"/>
+	</e:Group>
+	<e:Group id="bossNotice" width="1334" height="750" y="0" horizontalCenter="0" touchChildren="false" touchEnabled="false" touchThrough="false">
+		<e:Image source="boss_31" x="439" y="274"/>
+		<e:Image id="bossNoticeShox" x="444.27" y="401.82" source="boss_come"/>
+	</e:Group>
+	<ns1:DragonAnim id="fishInfoNotice" width="1334" height="750" y="0" aligntype="middle" anim="bydh_bosstips" isTouch="false" isTouchByGroup="true" isloop="false" playOnStage="false" touchChildren="false" touchEnabled="false" horizontalCenter="0" visible="false"/>
+	<e:Button id="testBtn" label="Button" x="1085" y="124.67" visible="false"/>
+	
+</e:Skin>

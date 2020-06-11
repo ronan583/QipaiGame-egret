@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlPlayerListPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="1693afbd010" ></w:Config>
+
+
+
+	<e:Group width="1090.91" height="590.91" y="33.48" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image y="71.97" scaleX="1" scaleY="1" source="bjl_panel_bg_png" x="201"/>
+
+		<ns1:IButton id="closeBtn" label="" x="830.1700000000001" y="71.87" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bjlGame_json.closeBtn" source.down="bjlGame_json.closeBtn" source.disabled="bjlGame_json.closeBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*" xmlns:hhdz="game.hhdz.*" xmlns:brnn="game.brnn.*"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Label id="onlineNum" text="98在线" y="161.76" size="35" fontFamily="Microsoft YaHei" horizontalCenter="-6.455000000000041" x="490" scaleX="1" scaleY="1"/>
+		<e:Image x="502" y="94" source="bjl_player_title_png"/>
+		<e:Scroller id="scroller" height="328.98" y="203.65" anchorOffsetX="0" anchorOffsetY="0" width="616.93" x="240.89" scaleX="1" scaleY="1">
+			<e:Group id="scrollerGroup" anchorOffsetX="0" x="0" y="-6.06" anchorOffsetY="0" height="336.37">
+			<e:Group id="rankGroup" width="452" height="321.33" x="91.4" y="1.02" anchorOffsetX="0" anchorOffsetY="0">
+
+
+
+
+
+
+
+
+
+				<e:layout>
+				<e:TileLayout horizontalGap="93" verticalGap="15" requestedColumnCount="3"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DDZCardSkin" width="139" height="191" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16682d62fa8" ></w:Config>
+	<e:Image id="cardBg" x="0" y="0" source="ddz_card_bg"/>
+	<e:Image id="cardNum" x="7" y="0" source="ddz_b1"/>
+	<e:Image id="flower" x="46" y="95.5" source="ddz_card_club"/>
+	<e:Image id="flowerSmall" x="14" y="54" source="ddz_card_club_s"/>
+	<e:Image id="landlord" x="0" y="0" source="ddz_card_lordland"/>
+	<e:Image id="king" x="13" y="7.5" source="ddz_black_joker"/>
+</e:Skin>

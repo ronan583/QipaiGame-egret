@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PokerSmallSkin" width="58" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1668d0efbf0" ></w:Config>
+	<e:Image id="bg" anchorOffsetX="0" anchorOffsetY="0" source="pdk_card_back_s" x="-6" y="-2"/>
+	<e:Image id="cardImg" anchorOffsetX="0" anchorOffsetY="0" source="cs_4"/>
+
+
+
+
+</e:Skin>

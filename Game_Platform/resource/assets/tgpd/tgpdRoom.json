@@ -1,0 +1,14 @@
+{"file":"tgpdRoom.png","frames":{
+"tgpdn_tiyan":{"x":1,"y":438,"w":352,"h":435,"offX":0,"offY":0,"sourceW":352,"sourceH":435},
+"tgpdn_add":{"x":958,"y":1,"w":48,"h":52,"offX":0,"offY":0,"sourceW":48,"sourceH":52},
+"tgpdn_back":{"x":867,"y":147,"w":72,"h":69,"offX":0,"offY":0,"sourceW":72,"sourceH":69},
+"tgpdn_gold":{"x":958,"y":55,"w":49,"h":49,"offX":0,"offY":0,"sourceW":49,"sourceH":49},
+"tgpdn_gold_bg":{"x":515,"y":1,"w":326,"h":66,"offX":0,"offY":0,"sourceW":326,"sourceH":66},
+"tgpdn_headframe":{"x":355,"y":1,"w":158,"h":162,"offX":0,"offY":0,"sourceW":158,"sourceH":162},
+"tgpdn_headMask":{"x":737,"y":147,"w":128,"h":128,"offX":0,"offY":0,"sourceW":128,"sourceH":128},
+"tgpdn_help":{"x":941,"y":147,"w":72,"h":69,"offX":0,"offY":0,"sourceW":72,"sourceH":69},
+"tgpdn_icon_putong":{"x":737,"y":69,"w":219,"h":76,"offX":0,"offY":0,"sourceW":219,"sourceH":76},
+"tgpdn_icon_tiyan":{"x":515,"y":69,"w":220,"h":77,"offX":0,"offY":0,"sourceW":220,"sourceH":77},
+"tgpdn_logo":{"x":1,"y":875,"w":270,"h":114,"offX":0,"offY":0,"sourceW":270,"sourceH":114},
+"tgpdn_name_bg":{"x":273,"y":875,"w":287,"h":85,"offX":0,"offY":0,"sourceW":287,"sourceH":85},
+"tgpdn_putong":{"x":1,"y":1,"w":352,"h":435,"offX":0,"offY":0,"sourceW":352,"sourceH":435}}}

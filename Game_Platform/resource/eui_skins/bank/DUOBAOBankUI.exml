@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpOtherUI" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group width="1334" height="750" horizontalCenter="0">
+		<e:Image x="123" y="13" source="db_bank_bg_png"/>
+		<e:Image y="34" source="db_bank_title_png" x="630"/>
+
+		<ns1:IButton id="closebtn" label="" x="1142.47" y="41.15">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_close" source.down="db_close" source.disabled="db_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+
+		</ns1:IButton>
+		<ns1:IButton id="maxBtn" label="" x="1013.92" y="392.82">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_bank_max_png" source.down="db_bank_max_png" source.disabled="db_bank_max_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:ProgressBar id="progressbar" width="637.33" height="30.66" x="349" y="405.67" anchorOffsetX="0" anchorOffsetY="0" skinName="DBBankProgressBarSkin"/>
+		<e:Image y="453.67" x="330.33" scaleY="0.9" scaleX="0.9" source="db_bank_flag1_png"/>
+		<ns1:IButton id="drawBtn" label="" y="523.97" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="db_bank_draw_btn_png" source.down="db_bank_draw_btn_png" source.disabled="db_bank_draw_btn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:Label text="银行金额：" x="265.3" y="184.31" fontFamily="Microsoft YaHei" size="32" textColor="0xfedcc9"/>
+		<e:Label id="bankMoney" text="0" x="425.3" y="185.31" fontFamily="Microsoft YaHei" size="32" anchorOffsetX="0" width="240.33" anchorOffsetY="0" height="37.33" textAlign="left" textColor="0xfedcc9"/>
+		<e:Label text="当前金额：" x="749.96" y="184.31" fontFamily="Microsoft YaHei" size="32" textColor="0xfedcc9"/>
+		<e:Label id="curMoney" text="0" x="909.96" y="185.31" fontFamily="Microsoft YaHei" size="32" anchorOffsetX="0" width="243" anchorOffsetY="0" height="38.67" textAlign="left" textColor="0xfedcc9"/>
+		<e:HSlider id="slider" width="640.18" height="32.52" x="346.15" y="407.67" anchorOffsetX="0" anchorOffsetY="0" skinName="DBBankSliderSkin"/>
+		<e:Image y="284.97" source="db_bank_bar_png" horizontalCenter="0"/>
+		<e:EditableText id="drawMoneyLabel" text="0" x="446.67" y="301.35" size="32" fontFamily="Microsoft YaHei" textColor="0xd3af32" anchorOffsetX="0" width="414.66" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+</e:Skin>

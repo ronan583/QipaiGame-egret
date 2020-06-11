@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmCar" width="86" height="48" xmlns:e="http://ns.egret.com/eui">
+	<e:Image x="49" y="24" anchorOffsetX="49" anchorOffsetY="24" source="bcbm_game_imgcar"/>
+</e:Skin>

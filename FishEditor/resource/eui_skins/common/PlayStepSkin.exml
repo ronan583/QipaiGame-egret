@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayStepSkin" width="128" height="144" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" source="mahjong_gang_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BrnnLoadSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image horizontalCenter="0" source="brnnn_room_bg_jpg"/>
+	<e:Group id="animGroup" width="1334" height="750" y="0" horizontalCenter="0">
+		<ns1:DragonAnim id="anim" xmlns:ns1="*" width="1334" height="584" x="0" y="166" aligntype="middle" anim="brnn_qidong" anchorOffsetY="0" isloop="false" playOnStage="false"/>
+	</e:Group>
+
+
+
+</e:Skin>

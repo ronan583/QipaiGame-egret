@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeadIconRightSkin" width="221" height="247" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="166301aa94d" ></w:Config>
+	<e:Group width="118" height="182" x="52" y="66">
+		<e:Image x="0" source="zjh_head" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="center" scaleX="1" scaleY="1" source="" width="10" height="10" horizontalCenter="0" verticalCenter="0"/>
+		<ns1:DragonAnim id="allinAnim" anim="zjh_light_effect" aligntype="middle" scaleX="1" scaleY="1" width="137" height="198" horizontalCenter="0.5" verticalCenter="-5" visible="false"/>
+		<e:Label id="playerName" y="7.1" size="25" width="110" verticalAlign="middle" anchorOffsetY="0" height="20" anchorOffsetX="0" text="11111111111111" fontFamily="Microsoft YaHei" textColor="0xFFFFFF" horizontalCenter="0" textAlign="center"/>
+		<e:Label id="gold" text="{data.gold}" y="135.82" size="18" width="95.5" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="23" anchorOffsetX="0" textColor="0xFFDC99" horizontalCenter="0"/>
+		<e:Image id="headBoy" y="35" x="11.33" source="zjh_head_boy" scale9Grid="27,24,14,5" anchorOffsetX="0" width="92.67" anchorOffsetY="0" height="94.33"/>
+		<e:Image id="headGirl" y="35" x="11" scale9Grid="27,24,14,5" anchorOffsetX="0" width="92.67" anchorOffsetY="0" height="94.33" source="zjh_head_girl"/>
+		<e:Image id="headIconImg" y="35.34" x="12.76" source="gp_head_1" width="90" height="94"/>
+		<e:Group id="clock" width="108" height="170" x="2" y="-2" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image id="clockImg" x="1" y="-1" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="zjh_head_bg"/>
+			<e:Group id="star" width="5.4" height="6.4" x="89.5" y="-2" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group id="rightTips" width="87" height="79" x="98.33" y="-47" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image source="zjh_tips_bg_left2" y="-3.5"/>
+			<e:BitmapLabel id="rightTipsImg" width="128.67" height="40.67" x="0" y="0" font="zjh_battle_word_fnt" text="加注" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="leftTips" width="153" height="79" x="-65.67" y="-31" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.6" scaleY="0.6">
+			<e:Image scaleX="1" x="0" source="zjh_tips_bg_right2" y="-3.5"/>
+			<e:BitmapLabel id="leftTipsImg" width="128.67" height="40.67" x="0" y="-1.67" font="zjh_battle_word_fnt" text="加注" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="centerTips" width="87" height="79" x="15" y="-51" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image scaleX="1" x="-25.33" y="-1.04" source="zjh_tips_bg2"/>
+			<e:BitmapLabel id="centerTipsImg" width="128.67" height="40.67" x="-21.67" y="3.34" font="zjh_battle_word_fnt" text="加注" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="middle"/>
+		</e:Group>
+		<e:Image id="grayLayer" source="zjh_head_gray_layer" x="1" y="0" visible="false"/>
+		<e:Group id="showCardGroup" width="142" height="166" x="-6.24" y="-3.04" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image source="zjh_show_card_bg" x="-3.5" anchorOffsetY="0" height="199.5" y="-8" anchorOffsetX="0" width="152.5" visible="false"/>
+			<e:Image id="typeImg" x="73" y="-25" source="zjh_win_tonghuashun" anchorOffsetX="50" anchorOffsetY="14"/>
+			<ns1:DragonAnim id="showCardAnim" width="148" height="182" aligntype="middle" anim="zjh_bright_cards" playOnStage="false" isloop="false" visible="false"/>
+			<ns1:ZJHOtherCard id="card1" y="44" x="16"/>
+			<ns1:ZJHOtherCard id="card2" x="46" y="44"/>
+			<ns1:ZJHOtherCard id="card3" x="78" y="44"/>
+		</e:Group>
+
+	</e:Group>
+
+
+
+
+	<e:Image id="waitImg" width="101" height="31" y="29" x="62" source="flag_waitin"/>
+
+	<e:Image id="bankerImg" x="-12" y="209.82" source="zjh_flag_start" visible="false"/>
+
+	<e:Group id="loseTip" width="152" height="179" x="35" y="61.33" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source="scorebg_lose"/>
+		<e:BitmapLabel id="loseTipLabel" width="206.34" height="30" text="-7y" textAlign="center" verticalAlign="middle" verticalCenter="0.5" anchorOffsetX="0" font="blue_fnt" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="winTip" width="152" height="178" x="35" y="61" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" visible="false">
+		<e:Image width="185" height="59" horizontalCenter="0" verticalCenter="0" source="scorebg_win"/>
+		<e:BitmapLabel id="winTipLabel" width="207.33" height="30" text="+7y" textAlign="center" verticalAlign="middle" font="betNum_fnt" verticalCenter="0" anchorOffsetX="0" horizontalCenter="0"/>
+	</e:Group>
+
+
+
+
+
+	<ns1:DragonAnim id="pkwinAnim" width="104" height="165" x="53" y="60" anchorOffsetX="0" anchorOffsetY="0" aligntype="middle" anim="zjh_pk_win" isloop="false" playOnStage="false"/>
+	<e:Group id="compareGroup" width="315" height="200" x="-32" y="58" anchorOffsetX="0" visible="false">
+		<e:Button id="compareBtn" label="" y="-16" x="12" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zjh_cmp_choose" source.down="zjh_cmp_choose" source.disabled="zjh_cmp_choose"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<ns1:DragonAnim id="pkChooseArrowAnim" width="114" height="109" x="-78" y="37" aligntype="middle" anchorOffsetX="0" anchorOffsetY="0" anim="zjh_jiantou" scaleX="-1" scaleY="1"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

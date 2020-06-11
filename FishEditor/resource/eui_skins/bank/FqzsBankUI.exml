@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsBankUISkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" x="296" y="133" source="fqzs_battle_json.fqzs_bank_bg"/>
+		<e:Image y="58.77" source="fqzs_battle_json.fqzs_bank_title" horizontalCenter="0"/>
+		<ns1:IButton id="closebtn" label="" x="1109.33" y="50.33">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_close" source.down="fqzs_close" source.disabled="fqzs_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<e:Label id="" text="银行余额：" size="25" fontFamily="Microsoft YaHei" left="271" top="190" textColor="0xc9ac62"/>
+		<e:Label id="bankMoney" text="0" size="25" fontFamily="Microsoft YaHei" left="405" verticalCenter="-171.5" textColor="0xc9ac62"/>
+		<e:Label id="" text="当前金额：" size="25" fontFamily="Microsoft YaHei" left="841" top="190" textColor="0xc9ac62"/>
+		<e:Label id="curMoney" text="0" size="25" fontFamily="Microsoft YaHei" left="973" verticalCenter="-172.5" textColor="0xc9ac62"/>
+		<e:Image scaleX="1" scaleY="1" horizontalCenter="-1.5" verticalCenter="-35" source="fqzs_battle_json.fqzs_withdraw_frame"/>
+		<e:EditableText id="drawMoneyLabel" width="557.55" height="57.42" text="0" fontFamily="Microsoft YaHei" verticalAlign="middle" y="313.03" size="22" horizontalCenter="8" anchorOffsetX="0" anchorOffsetY="0" textColor="0xa89477"/>
+
+		<ns1:IButton id="maxBtn" label="" scaleX="1" scaleY="1" horizontalCenter="357.5" verticalCenter="141">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_battle_json.fqzs_max" source.down="fqzs_battle_json.fqzs_max" source.disabled="fqzs_battle_json.fqzs_max"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image verticalCenter="173" horizontalCenter="-59" source="fqzs_battle_json.fqzs_percentage"/>
+		<e:ProgressBar id="progressbar" skinName="FqzsSetProgressBarSkin" verticalCenter="128" horizontalCenter="-60.5"/>
+		<ns1:SettingSlider id="slider" enabled="true" value="0" maximum="100" verticalCenter="128" skinName="FqzsSetSliderSkin" width="708" horizontalCenter="-68"/>
+		<ns1:IButton id="drawBtn" label="" bottom="73" horizontalCenter="-2.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_battle_json.fqzs_withdraw_btn" source.down="fqzs_battle_json.fqzs_withdraw_btn" source.disabled="fqzs_battle_json.fqzs_withdraw_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

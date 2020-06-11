@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BcbmRecordPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="bankerGroup" width="1334" height="750" y="0" horizontalCenter="0">
+		<e:Image id="bgImg1" horizontalCenter="0.5" verticalCenter="45" source="bcbm_set-room-bank_json.bcbm_zjcx_panelbg"/>
+		<e:Image id="winIcon" x="721.34" y="434.28" source="bcbm_set-room-bank_json.bcbm_zjcx_iconwin"/>
+		<e:BitmapLabel id="winMoneyLabel" width="202.67" height="50.67" x="802.35" y="450.96" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="bcbm_zjcx_lose_fnt"/>
+		<e:Image id="bankerIcon" x="386.98" y="435.95" source="bcbm_set-room-bank_json.bcbm_zjcx_iconbanker"/>
+		<e:Image id="totalPoolIcon" source="bcbm_set-room-bank_json.bcbm_zjcx_imgpool" x="477.67" y="449"/>
+		<e:Image id="totalBetIcon" source="bcbm_set-room-bank_json.bcbm_zjcx_imgtotalbet" x="447.67" y="448.99"/>
+		<e:BitmapLabel id="totalBetLabel" width="160" height="50.67" x="559.02" y="451.65" anchorOffsetX="0" anchorOffsetY="0" text="123456万" font="bcbm_zjcx_win_fnt"/>
+		<e:Image id="winTypeIcon" x="621" y="376.28" source="bcbm_caricon_benz6" anchorOffsetX="80" anchorOffsetY="78"/>
+		<e:Image id="multiIcon" x="697" y="344.78" source="bcbm_result_mutiple20w"/>
+	</e:Group>
+</e:Skin>

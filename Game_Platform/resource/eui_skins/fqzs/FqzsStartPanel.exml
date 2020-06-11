@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FqzsStartPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="fqzs_room_bg_jpg" y="0" horizontalCenter="0"/>
+	<e:Image source="fqzs_bottom" y="359" horizontalCenter="0"/>
+	<e:Group id="contentGroup" width="1334" height="750" y="0" horizontalCenter="0">
+		<e:Image source="fqzs_room_json.fqzs_logo" x="1142" y="0"/>
+		<e:Group width="1334" height="200" horizontalCenter="0" bottom="0">
+			<e:Image source="fqzs_room_json.fqzs_room_head_bg" x="80" y="117"/>
+            <e:Image id="headImg" width="55" height="55" source="gp_head_1" horizontalCenter="-547.5" verticalCenter="53.5"/>
+            <e:Label id="nameLabel" text="Guest1234" width="280" height="36" fontFamily="Microsoft YaHei" size="24" verticalAlign="middle" textAlign="left" bold="true" textColor="0xd8ba71" y="148" x="180"/>
+			<e:Image source="fqzs_room_json.fqzs_coin_bg" y="143" x="539"/>
+            <e:BitmapLabel id="goldLabel" width="160" text="1234.44" textAlign="center" verticalAlign="middle" font="gpn_gold_fnt" y="157" x="584"/>
+			<e:Button id="goldAddBtn" label="" x="741" y="141">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="fqzs_room_json.fqzs_add" source.down="fqzs_room_json.fqzs_add" source.disabled="fqzs_room_json.fqzs_add"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+            <e:Group id="quickStartGroup" width="300" height="100" x="1030" y="100">
+				<ns1:DragonAnim width="20" height="20" x="140" y="40" aligntype="middle" anim="fqzs_quickstart"/>
+			</e:Group>
+		</e:Group>
+        <ns1:FqzsRoomItem id="roomItem1" width="270" height="500" y="120" anim="fqzs_putongchang" aligntype="middle" gameLevel="1" x="132"/>
+		<ns1:FqzsRoomItem id="roomItem2" width="270" height="500" y="120" anim="fqzs_gaojichang" aligntype="middle" gameLevel="2" x="532"/>
+		<ns1:FqzsRoomItem id="roomItem3" width="270" height="500" y="120" anim="fqzs_fuhaochang" aligntype="middle" gameLevel="3" x="932"/>
+	</e:Group>
+	<e:Group id="leftCornerGroup" height="75" width="231" left="20">
+		<e:Button id="backBtn" label="" x="20" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_room_json.fqzs_back" source.down="fqzs_room_json.fqzs_back" source.disabled="fqzs_room_json.fqzs_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="helpBtn" label="" x="132" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_room_json.fqzs_help" source.down="fqzs_room_json.fqzs_help" source.disabled="fqzs_room_json.fqzs_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="zjcxBtn" label="" x="142" top="0" y="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fqzs_room_json.fqzs_history" source.down="fqzs_room_json.fqzs_history" source.disabled="fqzs_room_json.fqzs_history"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

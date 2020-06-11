@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LongHuRecordBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="94" width="876">
+
+
+
+
+
+
+
+
+	<e:Group width="876" height="94" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="zjLine" bottom="0" horizontalCenter="0" source="lhdz_zjcx_line" x="-10" y="89" scaleX="1" scaleY="1"/>
+		<e:Image id="resultIcon" x="70.65" verticalCenter="2.664999999999999" y="11" scaleX="1" scaleY="1" source="lhdz_zjcx_iconhe"/>
+		<e:Image x="151.98" verticalCenter="-0.5" anchorOffsetX="0" width="227.67" scale9Grid="21,5,128,35" source="lhdz_zjcx_json.lhdz_zjcx_bglabel" y="24" scaleX="1" scaleY="1"/>
+		<e:Image x="395.28" verticalCenter="-0.5" anchorOffsetX="0" width="156.33" scale9Grid="26,6,157,37" source="lhdz_zjcx_json.lhdz_zjcx_bglabel" y="24" scaleX="1" scaleY="1"/>
+		<e:Image id="roomLevelImg" x="419.29" verticalCenter="2" source="lhdz_zjcx_json.lhdz_zjcx_level1" y="30" scaleX="1" scaleY="1"/>
+		<e:Label id="zjTime" text="12-12 12:12" x="560.48" size="28" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" verticalCenter="0" bold="true" textColor="0x6f441b" y="33" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="totalWin" width="199" height="50" x="167.31" anchorOffsetX="0" anchorOffsetY="0" text="+1234.万" verticalCenter="7" font="lhdz_zjcx_win_fnt" y="29" scaleX="1" scaleY="1"/>
+		<ns1:IButton id="detailBtn" label="" x="744.32" anchorOffsetY="0" verticalCenter="0" y="16" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lhdz_zjcx_json.lhdz_zjcx_btndetail" source.down="lhdz_zjcx_json.lhdz_zjcx_btndetail" source.disabled="lhdz_zjcx_json.lhdz_zjcx_btndetail"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+		<e:Image id="bankerIcon" x="13.33" y="19.35" source="lhdz_battle_json.banker" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+
+
+
+
+
+</e:Skin>

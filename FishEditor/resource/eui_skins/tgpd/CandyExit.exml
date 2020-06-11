@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CandyExitSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Group width="1334" height="750" y="0" horizontalCenter="0">
+		<e:Image y="160.55" scaleX="1" scaleY="1" source="ncandy_game_tipbg" horizontalCenter="0"/>
+		<e:Button id="closeBtn" label="" x="930.31" y="151.9" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="candy_setting_close" source.down="candy_setting_close" source.disabled="candy_setting_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<ns1:IButton id="cancelBtn" label="" x="470.05" y="440.85" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ncandy_game_tipcancel" source.down="ncandy_game_tipcancel" source.disabled="ncandy_game_tipcancel"/>
+				<e:Label id="labelDisplay" horizontalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+		<ns1:IButton id="confirmBtn" label="" x="720.86" y="440.85" scaleX="1" scaleY="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ncandy_game_tipconfirm" source.down="ncandy_game_tipconfirm" source.disabled="ncandy_game_tipconfirm"/>
+				<e:Label id="labelDisplay" horizontalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:IButton>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"keys": "lhsb_room_bg_jpg,hlsb_qidong_ske_dbbin,hlsb_qidong_tex_json,hlsb_qidong_tex_png",
+			"name": "tb_preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/tb/animation/room/hlsb_qidong_ske.dbbin",
+			"type": "bin",
+			"name": "hlsb_qidong_ske_dbbin"
+		},
+		{
+			"url": "assets/tb/animation/room/hlsb_qidong_tex.json",
+			"type": "json",
+			"name": "hlsb_qidong_tex_json"
+		},
+		{
+			"url": "assets/tb/animation/room/hlsb_qidong_tex.png",
+			"type": "image",
+			"name": "hlsb_qidong_tex_png"
+		},
+		{
+			"url": "assets/tb/lhsb_room_bg.jpg",
+			"type": "image",
+			"name": "lhsb_room_bg_jpg"
+		}
+	]
+}

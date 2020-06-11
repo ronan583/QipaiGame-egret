@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BjlBigRowListSkin" width="16" height="115" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:bjl="game.bjl.*" >
+	<w:Config id="16937d334cf" ></w:Config>
+	<bjl:BjlBigRoadItem x="0" y="0"/>
+	<bjl:BjlBigRoadItem width="20" height="20" x="0" y="20"/>
+	<bjl:BjlBigRoadItem width="20" height="20" x="0" y="40"/>
+	<bjl:BjlBigRoadItem width="20" height="20" x="0" y="60"/>
+	<bjl:BjlBigRoadItem width="20" height="20" x="0" y="80"/>
+	<bjl:BjlBigRoadItem width="20" height="20" x="0" y="100"/>
+</e:Skin>

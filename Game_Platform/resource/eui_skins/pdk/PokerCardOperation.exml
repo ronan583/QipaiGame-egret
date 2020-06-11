@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PDKPokerCardOperationSkin" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="cardGroup" height="200" horizontalCenter="0" verticalCenter="0" width="1000">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="cardTypeAnim" x="123" left="0" source="pdk_4band2" verticalCenter="0" visible="false"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbCountDownskin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="tbCountbg" x="0" y="0" source="diceGame_json.game_dice_image_main_gui-baccarat-timerbg"/>
+	<e:Image id="tbCountTitle" x="16" y="30" source="game_dice_image_main_gui-baccarat_status_kongxian"/>
+
+	<e:BitmapLabel id="tbCount" width="80" height="35" x="9" y="57" text="20" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" font="timetext_fnt"/>
+</e:Skin>

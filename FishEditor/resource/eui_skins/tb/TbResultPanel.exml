@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TbResultPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16bd83332a9" ></w:Config>
+	<e:Group horizontalCenter="0" width="1334" height="750">
+		<e:Image source="diceGame_json.game_dice_image_result_resultbg1" y="12" x="325"/>
+		<e:Image source="diceGame_json.game_dice_image_result_icon_selftag" x="489.49" y="277"/>
+		<e:Image id="noStakeIcon" x="571.48" y="275.48" source="diceGame_json.game_dice_image_result_weixiazhutag"/>
+		<e:Image source="diceGame_json.game_dice_image_result_icon_zhuangjia" x="489.48" y="393"/>
+		<e:Group id="resultGroup" y="348" x="650.48"/>
+		<e:BitmapLabel id="bankerWinLabel" x="571.48" y="401" text="+12123" font="yyy_ying_fnt"/>
+		<e:BitmapLabel id="bankerLoseLabel" x="571.48" y="401" text="-12123" font="yyy_shu_fnt"/>
+		<e:BitmapLabel id="selfLoseLabel" x="570.48" y="278" text="-12123" font="yyy_shu_fnt"/>
+		<e:BitmapLabel id="selfWinLabel" x="570.48" y="278" text="+12123" font="yyy_ying_fnt"/>
+		<ns1:IButton id="okBtn" label="" y="541" x="565.48">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="diceGame_json.game_dice_image_result_sure" source.down="diceGame_json.game_dice_image_result_sure" source.disabled="diceGame_json.game_dice_image_result_sure"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:IButton>
+	</e:Group>
+</e:Skin>

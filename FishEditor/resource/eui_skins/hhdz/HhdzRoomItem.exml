@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HhdzRoomItemSkin" width="348" height="413" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16bd266fb9c" ></w:Config>
+	<e:Image id="freeImg" width="20" height="20" x="66" y="315"/>
+	<e:Group id="infoGroup" width="283" height="45" x="36" y="298" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="hhdzn_info_bg" anchorOffsetX="0" x="0" y="0"/>
+		<e:Image x="21" y="5" source="hhdzn_zhunru"/>
+		<e:BitmapLabel id="limitLabel" width="103" height="30" x="72" y="7" text="1111y" anchorOffsetX="0" anchorOffsetY="0" font="hhdz_roomfnt_fnt"/>
+		<e:Image id="stateImg" x="182" y="11" source=""/>
+	</e:Group>
+	<e:Image id="gameLevelImg" x="95" y="349" source="hhdzn_putong"/>
+</e:Skin>
